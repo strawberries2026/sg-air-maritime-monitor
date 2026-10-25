@@ -19,3 +19,5 @@
 }
 
 .health-panel{margin-top:14px;padding:14px 16px;background:#10293d;border:1px solid #29475d;border-radius:12px;display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}.health-panel>strong{font-size:14px}.health-panel>span{font-size:13px}.health-good,.status.good{color:#79e6b1}.health-bad,.status.bad{color:#ff9b9b}.status.warn{color:#ffd178}.health-alert{width:100%;padding:10px 12px;border:1px solid #b86b47;border-radius:8px;background:#412b28;color:#ffe4ce;font-size:13px;overflow-wrap:anywhere}.health-alert[hidden]{display:none}
+
+#objectDetails[hidden]{display:none}.detail-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-top:12px}.detail-grid>div{background:#0b2234;padding:12px;border-radius:8px;overflow-wrap:anywhere}.detail-grid small{display:block;color:#9dbbcf;font-size:12px;margin-bottom:5px}.detail-grid strong{font-size:14px;color:#eef7ff}#trailInfo{margin-bottom:0}
