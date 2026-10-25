@@ -1,6 +1,6 @@
 const map=L.map('map').setView([1.3521,103.8198],9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:42,showCoverageOnHover:false,disableClusteringAtZoom:12}):L.layerGroup()).addTo(map),el=id=>document.getElementById(id);const markers=new Map();
+let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:42,showCoverageOnHover:false,disableClusteringAtZoom:12}):L.layerGroup()).addTo(map),el=id=>document.getElementById(id);const markers=new Map();let historyTracks={},selectedKey=null;const trailLayer=L.layerGroup().addTo(map);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sgt=t=>t?new Date(t).toLocaleString('en-SG',{timeZone:'Asia/Singapore',hour12:false}):'Unknown';
 const ageLabel=t=>{if(!t||!Number.isFinite(Date.parse(t)))return 'unknown age';const minutes=Math.max(0,Math.floor((Date.now()-Date.parse(t))/60000));return minutes<1?'less than 1 minute ago':minutes<60?minutes+' min ago':Math.floor(minutes/60)+' hr '+(minutes%60)+' min ago'};
@@ -8,20 +8,41 @@ const recent=t=>t&&Number.isFinite(Date.parse(t))&&Date.now()-Date.parse(t)<90*6
 function render(){
  const mode=el('mode').value,category=el('category').value,q=el('search').value.toLowerCase().trim();
  const rows=[...(mode==='ship'?[]:air),...(mode==='air'?[]:ships)].filter(x=>(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
- layers.clearLayers();markers.clear();
+ layers.clearLayers();markers.clear();trailLayer.clearLayers();
  for(const x of rows){
   const key=x.kind+':'+x.id;
   const marker=L.marker([x.lat,x.lon],{icon:L.divIcon({html:x.kind==='air'?'✈️':'🚢',className:'pin',iconSize:[30,30]})});
   marker.bindPopup('<strong>'+esc(x.name||x.id)+'</strong><br>Type: '+(x.kind==='air'?'Aircraft':'Vessel')+'<br>Classification: '+esc(x.category||'unknown')+'<br>Speed: '+(x.speedKmh==null?'Unknown':Math.round(x.speedKmh)+' km/h')+'<br>Heading: '+(x.heading==null?'Unknown':Math.round(x.heading)+'°')+'<br>Last report: '+esc(sgt(x.reportedAt)));
-  marker.addTo(layers);markers.set(key,marker);
+  marker.on('click',()=>showDetails(x));marker.addTo(layers);markers.set(key,marker);
  }
+ if(selectedKey){const selected=rows.find(x=>x.kind+':'+x.id===selectedKey);if(selected)showDetails(selected);else{selectedKey=null;el('objectDetails').hidden=true;}}
  el('records').innerHTML=rows.length?rows.slice(0,500).map(x=>'<tr class="object-row" tabindex="0" role="button" data-key="'+esc(x.kind+':'+x.id)+'" aria-label="Locate '+esc(x.name||x.id)+' on map"><td data-label="Type">'+(x.kind==='air'?'✈ Aircraft':'🚢 Vessel')+'</td><td data-label="Identifier">'+esc(x.name||x.id)+'</td><td data-label="Classification">'+esc(x.category||'unknown')+'</td><td data-label="Speed">'+(x.speedKmh==null?'—':Math.round(x.speedKmh)+' km/h')+'</td><td data-label="Heading">'+(x.heading==null?'—':Math.round(x.heading)+'°')+'</td><td data-label="Last report (SGT)">'+esc(sgt(x.reportedAt))+'</td></tr>').join(''):'<tr><td colspan="6">No matching recent positions available.</td></tr>';
 }
 function focusObject(key){
  const marker=markers.get(key);if(!marker)return;
+ const obj=[...air,...ships].find(x=>x.kind+':'+x.id===key);if(obj)showDetails(obj);
  map.setView(marker.getLatLng(),Math.max(map.getZoom(),12),{animate:true});
  if(layers.zoomToShowLayer)layers.zoomToShowLayer(marker,()=>marker.openPopup());else marker.openPopup();
  el('map').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function showDetails(x){
+ selectedKey=x.kind+':'+x.id;
+ const id=x.kind==='air'?'ICAO24':'MMSI';
+ const details=[['Type',x.kind==='air'?'Aircraft':'Vessel'],[id,x.kind==='air'?(x.icao24||x.id):(x.mmsi||x.id)],['Classification',x.category||'unknown'],['Speed',x.speedKmh==null?'Unknown':Math.round(x.speedKmh)+' km/h'],['Heading',x.heading==null?'Unknown':Math.round(x.heading)+'°'],['Latitude',Number(x.lat).toFixed(5)],['Longitude',Number(x.lon).toFixed(5)],['Last position (SGT)',sgt(x.reportedAt)]];
+ el('detailTitle').textContent=(x.kind==='air'?'✈ ':'🚢 ')+(x.name||x.id);
+ el('detailGrid').innerHTML=details.map(([k,v])=>'<div><small>'+esc(k)+'</small><strong>'+esc(v)+'</strong></div>').join('');
+ el('objectDetails').hidden=false;
+ trailLayer.clearLayers();
+ const points=(historyTracks[selectedKey]||[]).filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)).map(p=>[p.lat,p.lon]);
+ if(points.length>1)L.polyline(points,{color:x.kind==='air'?'#48d0f5':'#ffcf70',weight:3,opacity:.85}).addTo(trailLayer);
+ el('trailInfo').textContent=points.length>1?'Movement trail: '+points.length+' recorded positions in the last 24 hours': 'Movement trail unavailable until multiple position snapshots are collected.';
+}
+async function loadHistory(){
+ try{
+  const r=await fetch('data/history.json?t='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('History not yet published');
+  const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
+ }catch(e){historyTracks={};}
 }
 el('records').addEventListener('click',e=>{const row=e.target.closest('tr[data-key]');if(row)focusObject(row.dataset.key)});
 el('records').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const row=e.target.closest('tr[data-key]');if(row){e.preventDefault();focusObject(row.dataset.key)}}});
@@ -72,7 +93,7 @@ async function load(){
   lastFeeds={a,s};air=a.rows;ships=s.rows;
   el('airCount').textContent=air.length;el('shipCount').textContent=ships.length;
   el('updated').textContent='Checked '+sgt(new Date().toISOString());
-  updateHealth();render();
+  await loadHistory();updateHealth();render();
  }finally{el('refresh').disabled=false}
 }
 
