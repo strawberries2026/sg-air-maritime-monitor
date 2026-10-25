@@ -1,6 +1,6 @@
 const map=L.map('map').setView([1.3521,103.8198],9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
-let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:42,showCoverageOnHover:false,disableClusteringAtZoom:12}):L.layerGroup()).addTo(map),el=id=>document.getElementById(id);const markers=new Map();let historyTracks={},selectedKey=null;const trailLayer=L.layerGroup().addTo(map);
+let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:42,showCoverageOnHover:false,disableClusteringAtZoom:12}):L.layerGroup()).addTo(map),el=id=>document.getElementById(id);const markers=new Map();let historyTracks={},selectedKey=null,trailVisible=true;const trailLayer=L.layerGroup().addTo(map);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sgt=t=>t?new Date(t).toLocaleString('en-SG',{timeZone:'Asia/Singapore',hour12:false}):'Unknown';
 const ageLabel=t=>{if(!t||!Number.isFinite(Date.parse(t)))return 'unknown age';const minutes=Math.max(0,Math.floor((Date.now()-Date.parse(t))/60000));return minutes<1?'less than 1 minute ago':minutes<60?minutes+' min ago':Math.floor(minutes/60)+' hr '+(minutes%60)+' min ago'};
@@ -37,9 +37,14 @@ function showDetails(x){
  el('detailGrid').innerHTML=details.map(([k,v])=>'<div><small>'+esc(k)+'</small><strong>'+esc(v)+'</strong></div>').join('');
  el('objectDetails').hidden=false;
  trailLayer.clearLayers();
- const points=(historyTracks[selectedKey]||[]).filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)).map(p=>[p.lat,p.lon]);
- if(points.length>1)L.polyline(points,{color:x.kind==='air'?'#48d0f5':'#ffcf70',weight:3,opacity:.85}).addTo(trailLayer);
- el('trailInfo').textContent=points.length>1?'Movement trail: '+points.length+' recorded positions in the last 24 hours (straight lines connect samples; actual route may differ)':'Movement trail unavailable until multiple position snapshots are collected.';
+ const samples=(historyTracks[selectedKey]||[]).filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)&&Number.isFinite(Date.parse(p.at))).sort((a,b)=>Date.parse(a.at)-Date.parse(b.at));
+ const points=samples.map(p=>[p.lat,p.lon]);
+ const toggle=el('trailToggle');
+ toggle.disabled=points.length<2;
+ toggle.textContent=trailVisible?'Hide movement trail':'Show movement trail';
+ toggle.setAttribute('aria-pressed',String(trailVisible));
+ if(points.length>1&&trailVisible)L.polyline(points,{color:x.kind==='air'?'#48d0f5':'#ffcf70',weight:3,opacity:.85}).addTo(trailLayer);
+ el('trailInfo').textContent=points.length>1?'Recorded positions: '+points.length+' • First: '+sgt(samples[0].at)+' SGT • Latest: '+sgt(samples[samples.length-1].at)+' SGT. Straight lines connect samples; actual route may differ.':points.length===1?'Recorded positions: 1 • '+sgt(samples[0].at)+' SGT. Another position is needed for a trail.':'No historical positions recorded for this object yet.';
 }
 async function loadHistory(){
  try{
@@ -48,6 +53,7 @@ async function loadHistory(){
   const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
  }catch(e){historyTracks={};}
 }
+el('trailToggle').addEventListener('click',()=>{trailVisible=!trailVisible;const obj=[...air,...ships].find(x=>x.kind+':'+x.id===selectedKey);if(obj)showDetails(obj);});
 map.on('popupopen',e=>{const button=e.popup.getElement()?.querySelector('.popup-details');if(button)button.addEventListener('click',()=>{const obj=[...air,...ships].find(x=>x.kind+':'+x.id===button.dataset.object);if(obj){showDetails(obj);map.closePopup();el('objectDetails').scrollIntoView({behavior:'smooth',block:'start'});}})});
 el('records').addEventListener('click',e=>{const row=e.target.closest('tr[data-key]');if(row)focusObject(row.dataset.key)});
 el('records').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const row=e.target.closest('tr[data-key]');if(row){e.preventDefault();focusObject(row.dataset.key)}}});
