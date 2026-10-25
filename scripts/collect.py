@@ -18,7 +18,7 @@ def update_history():
    for row in data.get('items',[]):
     key=str(row.get('kind',''))+':'+str(row.get('id',''))
     stamp=row.get('reportedAt')
-    if not key or not stamp or not isinstance(row.get('lat'),(int,float)) or not isinstance(row.get('lon'),(int,float)):continue
+    if key in ('air:None','ship:None','air:','ship:') or not stamp or not isinstance(row.get('lat'),(int,float)) or not isinstance(row.get('lon'),(int,float)):continue
     tracks.setdefault(key,[]).append({'at':stamp,'lat':row['lat'],'lon':row['lon']})
   except (OSError,ValueError,TypeError): continue
  cleaned={}
@@ -39,7 +39,7 @@ def request(url,data=None,headers=None):
 def vessel_category(ship_type):
  try: n=int(ship_type)
  except (TypeError,ValueError): return 'unknown'
- if n in (36,37): return 'private'
+ if n==37: return 'private'
  if 60<=n<=89: return 'commercial'
  return 'unknown'
 def aircraft():
