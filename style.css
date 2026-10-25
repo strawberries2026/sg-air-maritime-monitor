@@ -27,3 +27,6 @@
 @media(max-width:650px){.leaflet-popup-content{max-width:min(220px,64vw)}.compact-popup{min-width:150px}.leaflet-popup{max-width:75vw}}
 
 .trail-controls{margin-top:14px}.trail-controls button{font-size:13px;padding:10px 14px}.trail-controls button:disabled{opacity:.5;cursor:not-allowed}
+
+/* Overall feed health matches individual freshness indicators */
+.health-warn{color:#ffd178}.health-panel:has(.health-warn){border-color:#a77d39}.health-panel:has(.health-bad){border-color:#b86b47}
