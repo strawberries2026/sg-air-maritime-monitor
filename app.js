@@ -26,6 +26,54 @@ function focusObject(key){
 el('records').addEventListener('click',e=>{const row=e.target.closest('tr[data-key]');if(row)focusObject(row.dataset.key)});
 el('records').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const row=e.target.closest('tr[data-key]');if(row){e.preventDefault();focusObject(row.dataset.key)}}});
 
-async function get(path,kind){try{const r=await fetch(path+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(d.error)throw Error(d.error);const rows=(d.items||[]).filter(x=>x.kind===kind&&recent(x.reportedAt)&&Number.isFinite(x.lat)&&Number.isFinite(x.lon));el(kind==='air'?'airStatus':'shipStatus').textContent=rows.length?'Available':'No recent positions';return{rows,updated:d.updatedAt,error:null}}catch(e){el(kind==='air'?'airStatus':'shipStatus').textContent='Unavailable';return{rows:[],updated:null,error:kind+': '+e.message}}}
-async function load(){el('refresh').disabled=true;const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);air=a.rows;ships=s.rows;el('airCount').textContent=air.length;el('shipCount').textContent=ships.length;el('updated').textContent='Checked '+sgt(new Date().toISOString());el('feedDetail').textContent=['Aircraft snapshot: '+sgt(a.updated)+' ('+ageLabel(a.updated)+')','Vessel snapshot: '+sgt(s.updated)+' ('+ageLabel(s.updated)+')',a.error,s.error].filter(Boolean).join(' • ');render();el('refresh').disabled=false}
-['mode','category','search'].forEach(id=>el(id).addEventListener(id==='search'?'input':'change',render));el('refresh').addEventListener('click',load);load();setInterval(load,60000);
+const freshness=updated=>{
+ const age=Date.now()-Date.parse(updated||'');
+ if(!Number.isFinite(age)||age< -60000)return{label:'Unknown',tone:'bad',ok:false};
+ if(age<20*60000)return{label:'Current',tone:'good',ok:true};
+ if(age<45*60000)return{label:'Delayed',tone:'warn',ok:true};
+ return{label:'Stale',tone:'bad',ok:false};
+};
+function showFeed(kind,data){
+ const id=kind==='air'?'airStatus':'shipStatus',state=freshness(data.updated);
+ const label=data.error?'Error':state.label;
+ el(id).textContent=label;el(id).className='small status '+(data.error?'bad':state.tone);
+ el(id).title=data.error||('Snapshot '+sgt(data.updated)+'; '+ageLabel(data.updated));
+}
+async function get(path,kind){
+ try{
+  const r=await fetch(path+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
+  const d=await r.json();if(!Array.isArray(d.items))throw Error('Invalid snapshot data');
+  const error=d.error?String(d.error):null;
+  const rows=error?[]:d.items.filter(x=>x.kind===kind&&recent(x.reportedAt)&&Number.isFinite(x.lat)&&Number.isFinite(x.lon));
+  return{rows,updated:d.updatedAt||null,error};
+ }catch(e){return{rows:[],updated:null,error:kind+': '+e.message}}
+}
+let lastFeeds=null;
+function updateHealth(){
+ if(!lastFeeds)return;
+ const {a,s}=lastFeeds;showFeed('air',a);showFeed('ship',s);
+ const problems=[];
+ for(const [name,feed] of [['Aircraft',a],['Maritime',s]]){
+  const state=freshness(feed.updated);
+  if(feed.error)problems.push(name+' collection error: '+feed.error);
+  else if(!state.ok)problems.push(name+' snapshot '+state.label.toLowerCase()+' ('+ageLabel(feed.updated)+')');
+ }
+ const box=el('healthAlert');
+ box.hidden=problems.length===0;
+ box.textContent=problems.length?'⚠ Data warning: '+problems.join(' • '):'';
+ el('healthSummary').textContent=problems.length?'Attention needed — '+problems.length+' feed(s) affected':'Both snapshots current or within expected collection delay';
+ el('healthSummary').className=problems.length?'health-bad':'health-good';
+ el('feedDetail').textContent=['Aircraft snapshot: '+sgt(a.updated)+' ('+ageLabel(a.updated)+')','Vessel snapshot: '+sgt(s.updated)+' ('+ageLabel(s.updated)+')',a.error,s.error].filter(Boolean).join(' • ');
+}
+async function load(){
+ el('refresh').disabled=true;
+ try{
+  const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
+  lastFeeds={a,s};air=a.rows;ships=s.rows;
+  el('airCount').textContent=air.length;el('shipCount').textContent=ships.length;
+  el('updated').textContent='Checked '+sgt(new Date().toISOString());
+  updateHealth();render();
+ }finally{el('refresh').disabled=false}
+}
+
+['mode','category','search'].forEach(id=>el(id).addEventListener(id==='search'?'input':'change',render));el('refresh').addEventListener('click',load);load();setInterval(load,60000);setInterval(updateHealth,30000);
