@@ -6,6 +6,12 @@ def save(name,items,error=None):
 def request(url,data=None,headers=None):
  req=urllib.request.Request(url,data=data,headers=headers or {},method='POST' if data else 'GET')
  with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
+def vessel_category(ship_type):
+ try: n=int(ship_type)
+ except (TypeError,ValueError): return 'unknown'
+ if n in (36,37): return 'private'
+ if 60<=n<=89: return 'commercial'
+ return 'unknown'
 def aircraft():
  cid=os.getenv('OPENSKY_CLIENT_ID');secret=os.getenv('OPENSKY_CLIENT_SECRET')
  if not cid or not secret:save('aircraft.json',[],'Set OPENSKY_CLIENT_ID and OPENSKY_CLIENT_SECRET GitHub Actions secrets.');return
@@ -46,7 +52,8 @@ async def vessels():
     if heading is not None and not 0<=heading<360:heading=None
     rows[mmsi]={'kind':'ship','id':mmsi,'mmsi':mmsi,'name':meta.get('ShipName') or mmsi,'category':'unknown','lat':lat,'lon':lon,'speedKmh':round(speed*1.852,1) if speed is not None else None,'heading':heading,'reportedAt':NOW()}
   for mmsi,row in rows.items():
-   d=static.get(mmsi) or {};row['name']=d.get('Name') or d.get('ShipName') or row['name']
+   d=static.get(mmsi) or {};row['name']=(d.get('Name') or d.get('ShipName') or row['name']).strip()
+   row['category']=vessel_category(d.get('Type') or d.get('ShipType'))
   save('vessels.json',list(rows.values()))
  except Exception as e:save('vessels.json',[],'AISStream collection failed: '+str(e)[:180])
 if __name__=='__main__':
