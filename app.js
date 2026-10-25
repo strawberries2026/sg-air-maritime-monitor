@@ -84,17 +84,27 @@ let lastFeeds=null;
 function updateHealth(){
  if(!lastFeeds)return;
  const {a,s}=lastFeeds;showFeed('air',a);showFeed('ship',s);
- const problems=[];
+ const problems=[],delays=[];
  for(const [name,feed] of [['Aircraft',a],['Maritime',s]]){
   const state=freshness(feed.updated);
   if(feed.error)problems.push(name+' collection error: '+feed.error);
-  else if(!state.ok)problems.push(name+' snapshot '+state.label.toLowerCase()+' ('+ageLabel(feed.updated)+')');
+  else if(state.tone==='bad')problems.push(name+' snapshot '+state.label.toLowerCase()+' ('+ageLabel(feed.updated)+')');
+  else if(state.tone==='warn')delays.push(name+' snapshot delayed ('+ageLabel(feed.updated)+')');
  }
- const box=el('healthAlert');
- box.hidden=problems.length===0;
- box.textContent=problems.length?'⚠ Data warning: '+problems.join(' • '):'';
- el('healthSummary').textContent=problems.length?'Attention needed — '+problems.length+' feed(s) affected':'Both snapshots current or within expected collection delay';
- el('healthSummary').className=problems.length?'health-bad':'health-good';
+ const box=el('healthAlert'),summary=el('healthSummary');
+ const notices=[...problems,...delays];
+ box.hidden=notices.length===0;
+ box.textContent=notices.length?'⚠ Data warning: '+notices.join(' • '):'';
+ if(problems.length){
+  summary.textContent='Stale / error — '+problems.length+' feed(s) affected';
+  summary.className='health-bad';
+ }else if(delays.length){
+  summary.textContent='Delayed — '+delays.length+' feed(s) waiting for a newer snapshot';
+  summary.className='health-warn';
+ }else{
+  summary.textContent='Healthy — both feeds current';
+  summary.className='health-good';
+ }
  el('feedDetail').textContent=['Aircraft snapshot: '+sgt(a.updated)+' ('+ageLabel(a.updated)+')','Vessel snapshot: '+sgt(s.updated)+' ('+ageLabel(s.updated)+')',a.error,s.error].filter(Boolean).join(' • ');
 }
 async function load(){
