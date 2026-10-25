@@ -1,0 +1,31 @@
+name: Refresh tracking snapshots
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: tracking-snapshots
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'websockets>=13,<17'
+      - run: python scripts/collect.py
+        env:
+          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID }}
+          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET }}
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+      - name: Commit refreshed snapshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/aircraft.json data/vessels.json
+          git diff --cached --quiet || (git commit -m 'Refresh tracking snapshots' && git push)
