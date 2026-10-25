@@ -35,7 +35,7 @@ function showDetails(x){
  trailLayer.clearLayers();
  const points=(historyTracks[selectedKey]||[]).filter(p=>Number.isFinite(p.lat)&&Number.isFinite(p.lon)).map(p=>[p.lat,p.lon]);
  if(points.length>1)L.polyline(points,{color:x.kind==='air'?'#48d0f5':'#ffcf70',weight:3,opacity:.85}).addTo(trailLayer);
- el('trailInfo').textContent=points.length>1?'Movement trail: '+points.length+' recorded positions in the last 24 hours': 'Movement trail unavailable until multiple position snapshots are collected.';
+ el('trailInfo').textContent=points.length>1?'Movement trail: '+points.length+' recorded positions in the last 24 hours (straight lines connect samples; actual route may differ)':'Movement trail unavailable until multiple position snapshots are collected.';
 }
 async function loadHistory(){
  try{
