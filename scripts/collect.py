@@ -3,6 +3,36 @@ ROOT=pathlib.Path(__file__).resolve().parents[1]
 NOW=lambda: datetime.datetime.now(datetime.timezone.utc).isoformat()
 def save(name,items,error=None):
  p=ROOT/'data'/name;p.write_text(json.dumps({'updatedAt':NOW(),'items':items,'error':error},ensure_ascii=False,indent=2))
+def update_history():
+ """Keep up to 24 hours of bounded position samples; no synthetic tracks."""
+ target=ROOT/'data'/'history.json'
+ try: history=json.loads(target.read_text()) if target.exists() else {}
+ except (ValueError,OSError): history={}
+ now=datetime.datetime.now(datetime.timezone.utc)
+ cutoff=now-datetime.timedelta(hours=24)
+ tracks=history.get('tracks',{})
+ for name in ('aircraft.json','vessels.json'):
+  try:
+   data=json.loads((ROOT/'data'/name).read_text())
+   if data.get('error'): continue
+   for row in data.get('items',[]):
+    key=str(row.get('kind',''))+':'+str(row.get('id',''))
+    stamp=row.get('reportedAt')
+    if not key or not stamp or not isinstance(row.get('lat'),(int,float)) or not isinstance(row.get('lon'),(int,float)):continue
+    tracks.setdefault(key,[]).append({'at':stamp,'lat':row['lat'],'lon':row['lon']})
+  except (OSError,ValueError,TypeError): continue
+ cleaned={}
+ for key,points in tracks.items():
+  valid=[]
+  for pt in points:
+   try:
+    dt=datetime.datetime.fromisoformat(pt['at'].replace('Z','+00:00'))
+    if cutoff<=dt<=now+datetime.timedelta(minutes=1):valid.append(pt)
+   except (ValueError,KeyError,TypeError):continue
+  if valid:
+   dedup={pt['at']:pt for pt in valid}
+   cleaned[key]=sorted(dedup.values(),key=lambda x:x['at'])[-96:]
+ target.write_text(json.dumps({'updatedAt':NOW(),'tracks':cleaned},separators=(',',':')))
 def request(url,data=None,headers=None):
  req=urllib.request.Request(url,data=data,headers=headers or {},method='POST' if data else 'GET')
  with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
@@ -57,4 +87,4 @@ async def vessels():
   save('vessels.json',list(rows.values()))
  except Exception as e:save('vessels.json',[],'AISStream collection failed: '+str(e)[:180])
 if __name__=='__main__':
- aircraft();asyncio.run(vessels())
+ aircraft();asyncio.run(vessels());update_history()
