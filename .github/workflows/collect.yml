@@ -4,7 +4,7 @@ on:
   schedule:
     # GitHub schedules are best-effort. Use one off-peak minute every 15 minutes.
     # A changed cron definition also refreshes the schedule registration.
-    - cron: '8,23,38,53 * * * *'
+    - cron: '9,24,39,54 * * * *'
 permissions:
   contents: write
 concurrency:
