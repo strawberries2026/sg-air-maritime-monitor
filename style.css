@@ -36,3 +36,6 @@
 
 /* Overall feed health matches individual freshness indicators */
 .health-warn{color:#ffd178}.health-panel:has(.health-warn){border-color:#a77d39}.health-panel:has(.health-bad){border-color:#b86b47}
+
+/* Creator attribution beneath the site heading */
+.creator-credit{display:inline-block;margin:0 0 6px;padding:4px 10px;border:1px solid #315b71;border-radius:999px;background:#113349;color:#b8d8e8;font-size:12px;letter-spacing:.2px}.creator-credit strong{color:#e6f6ff;font-weight:650}
