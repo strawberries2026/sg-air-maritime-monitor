@@ -133,7 +133,7 @@ async function load(){
  try{
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
-  el('airCount').textContent=air.length;el('shipCount').textContent=ships.length;
+  el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
   el('updated').textContent='Checked '+sgt(new Date().toISOString());
   await loadHistory();updateHealth();render();
  }finally{el('refresh').disabled=false}
