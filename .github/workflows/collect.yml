@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub may delay scheduled jobs, especially at minute 0.
-    - cron: '7,22,37,52 * * * *'
+    - cron: '11,26,41,56 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -19,6 +19,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install 'websockets>=13,<17'
+      - name: Collection start and trigger details
+        run: |
+          echo "Trigger: ${{ github.event_name }}"
+          date -u '+Collection started (UTC): %Y-%m-%dT%H:%M:%SZ'
       - run: python scripts/collect.py
         env:
           OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID }}
