@@ -53,3 +53,6 @@
 
 /* Tentative airline operator hints are separate from verified classification */
 .record-hint{display:block;font-size:11px;line-height:1.45;color:#9bd3eb;margin-top:3px}
+
+/* Static reference marker, deliberately not a vessel or patrol icon */
+.agency-reference-marker{background:#163c54;color:#e4f4ff;border:2px solid #a7d7f0;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:16px;box-shadow:0 2px 8px #07182799}.reference-legend{font-size:12px;color:#a7bece;line-height:1.6;margin-bottom:10px}
