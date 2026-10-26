@@ -100,7 +100,8 @@ function updateHealth(){
  const box=el('healthAlert'),summary=el('healthSummary');
  const notices=[...problems,...delays];
  box.hidden=notices.length===0;
- box.textContent=notices.length?'⚠ Data warning: '+notices.join(' • '):'';
+ box.className='health-alert '+(problems.length?'health-alert-critical':delays.length?'health-alert-delayed':'');
+ box.textContent=problems.length?'⚠ Data warning: '+notices.join(' • '):delays.length?'⏱ Update pending: '+delays.join(' • '):'';
  if(problems.length){
   summary.textContent='Stale / error — '+problems.length+' feed(s) affected';
   summary.className='health-bad';
