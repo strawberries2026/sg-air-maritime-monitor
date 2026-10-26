@@ -10,7 +10,7 @@ let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({max
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sgt=t=>t?new Date(t).toLocaleString('en-SG',{timeZone:'Asia/Singapore',hour12:false}):'Unknown';
 const ageLabel=t=>{if(!t||!Number.isFinite(Date.parse(t)))return 'unknown age';const minutes=Math.max(0,Math.floor((Date.now()-Date.parse(t))/60000));return minutes<1?'less than 1 minute ago':minutes<60?minutes+' min ago':Math.floor(minutes/60)+' hr '+(minutes%60)+' min ago'};
-const airlineHints={SIA:'Singapore Airlines',SCO:'Scoot',JSA:'Jetstar Asia',MAS:'Malaysia Airlines',AXM:'AirAsia',CPA:'Cathay Pacific',QFA:'Qantas',UAE:'Emirates',QTR:'Qatar Airways',THA:'Thai Airways',BAW:'British Airways',KLM:'KLM',DLH:'Lufthansa'};
+const airlineHints={SIA:'Singapore Airlines',SCO:'Scoot',TGW:'Scoot',AWQ:'Indonesia AirAsia',LNI:'Lion Air',JSA:'Jetstar Asia',MAS:'Malaysia Airlines',AXM:'AirAsia',CPA:'Cathay Pacific',QFA:'Qantas',UAE:'Emirates',QTR:'Qatar Airways',THA:'Thai Airways',BAW:'British Airways',KLM:'KLM',DLH:'Lufthansa'};
 const airlineHint=x=>{if(x.kind!=='air')return null;const call=String(x.callsign||x.name||'').toUpperCase().trim();const prefix=call.slice(0,3);return /^[A-Z]{3}[0-9A-Z]+$/.test(call)&&airlineHints[prefix]?airlineHints[prefix]:null};
 let recordLimit=12;
 const recent=t=>t&&Number.isFinite(Date.parse(t))&&Date.now()-Date.parse(t)<90*60000&&Date.parse(t)<=Date.now()+60000;
@@ -36,7 +36,7 @@ function render(){
  el('recordCount').textContent='Showing '+visible.length+' of '+sorted.length+' records';
  el('showMoreRecords').hidden=visible.length>=sorted.length;
  el('showLessRecords').hidden=sorted.length<=12||recordLimit<=12;
- el('records').innerHTML=sorted.length?visible.map(x=>'<tr class="object-row" tabindex="0" role="button" data-key="'+esc(x.kind+':'+x.id)+'" aria-label="Locate '+esc(x.name||x.id)+' on map"><td data-label="Type">'+(x.kind==='air'?'✈ Aircraft':'🚢 Vessel')+'</td><td data-label="Identifier">'+esc(x.name||x.id)+'</td><td data-label="Classification">'+esc(x.category||'unknown')+'</td><td data-label="Speed">'+(x.speedKmh==null?'—':Math.round(x.speedKmh)+' km/h')+'</td><td data-label="Heading">'+(x.heading==null?'—':Math.round(x.heading)+'°')+'</td><td data-label="Last report (SGT)">'+esc(sgt(x.reportedAt))+'<small class="record-age">'+esc(ageLabel(x.reportedAt))+'</small></td></tr>').join(''):'<tr><td colspan="6">No matching recent positions available.</td></tr>';
+ el('records').innerHTML=sorted.length?visible.map(x=>'<tr class="object-row" tabindex="0" role="button" data-key="'+esc(x.kind+':'+x.id)+'" aria-label="Locate '+esc(x.name||x.id)+' on map"><td data-label="Type">'+(x.kind==='air'?'✈ Aircraft':'🚢 Vessel')+'</td><td data-label="Identifier">'+esc(x.name||x.id)+'</td><td data-label="Classification">'+esc(x.category||'unknown')+(airlineHint(x)?'<small class="record-hint">Possible operator: '+esc(airlineHint(x))+' (callsign)</small>':'')+'</td><td data-label="Speed">'+(x.speedKmh==null?'—':Math.round(x.speedKmh)+' km/h')+'</td><td data-label="Heading">'+(x.heading==null?'—':Math.round(x.heading)+'°')+'</td><td data-label="Last report (SGT)">'+esc(sgt(x.reportedAt))+'<small class="record-age">'+esc(ageLabel(x.reportedAt))+'</small></td></tr>').join(''):'<tr><td colspan="6">No matching recent positions available.</td></tr>';
 }
 function focusObject(key){
  const marker=markers.get(key);if(!marker)return;
