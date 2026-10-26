@@ -6,6 +6,9 @@
  */
 const map=L.map('map').setView([1.3521,103.8198],9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
+// Static, Singapore-wide educational reference; never represents a vessel or patrol location.
+const agencyReference=L.marker([1.3521,103.8198],{icon:L.divIcon({className:'agency-reference-marker',html:'ℹ',iconSize:[26,26]}),zIndexOffset:-1000}).bindPopup('<div class="compact-popup"><strong>Singapore maritime organisations</strong><span>🚔 Police Coast Guard · ⚓ Republic of Singapore Navy</span><span>General information only. This is a fixed Singapore-wide reference, NOT a boat, base, patrol location or live position.</span><a href="#government-vessels">Read public information ↓</a></div>').addTo(map);
+
 let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:42,showCoverageOnHover:false,disableClusteringAtZoom:12}):L.layerGroup()).addTo(map),el=id=>document.getElementById(id);const markers=new Map();let historyTracks={},selectedKey=null,trailVisible=true;const trailLayer=L.layerGroup().addTo(map);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const sgt=t=>t?new Date(t).toLocaleString('en-SG',{timeZone:'Asia/Singapore',hour12:false}):'Unknown';
