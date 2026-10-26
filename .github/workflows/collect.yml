@@ -2,8 +2,8 @@ name: Refresh tracking snapshots
 on:
   workflow_dispatch:
   schedule:
-    # GitHub may delay scheduled jobs, especially at minute 0.
-    - cron: '11,26,41,56 * * * *'
+    # Best-effort GitHub scheduler; six opportunities per hour, away from minute 0.
+    - cron: '3,13,23,33,43,53 * * * *'
 permissions:
   contents: write
 concurrency:
