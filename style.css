@@ -43,3 +43,6 @@
 /* Use calm amber for ordinary 20–45 minute collection delays; reserve red for stale/error. */
 .health-alert-delayed{border-color:#987638;background:#332d1c;color:#ffe2a4}
 .health-alert-critical{border-color:#b86b47;background:#412b28;color:#ffe4ce}
+
+/* Public maritime organisation information cards */
+.agency-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin:14px 0}.agency-card{padding:16px;border:1px solid #31536a;border-radius:12px;background:#0b2539}.agency-card h3{font-size:16px;margin:0 0 10px;color:#e5eef6}.agency-card p{font-size:14px;line-height:1.6;margin:8px 0}.agency-card a{overflow-wrap:anywhere}
