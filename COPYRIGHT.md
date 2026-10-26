@@ -25,3 +25,13 @@ Public visibility on GitHub does not itself grant a broad copyright licence to c
 If you believe this project's original materials have been reproduced without authorisation, preserve dated evidence, compare the actual source and design elements, and use the relevant hosting platform's copyright reporting process where appropriate.
 
 This file is an ownership notice, not copyright registration or legal advice.
+
+## Data sources and independent-project disclaimer
+
+The SG Air & Maritime Monitor dashboard presents information from available public sources, including OpenSky Network (aircraft), AISStream (vessels), and OpenStreetMap contributors (maps). These sources and any third-party libraries retain their respective intellectual-property rights, licences, attribution requirements, and usage terms. References to Flightradar24 and official Singapore agency websites are informational links, not endorsements.
+
+This is an independent personal and educational project. It is not affiliated with or endorsed by the Civil Aviation Authority of Singapore (CAAS), Maritime and Port Authority of Singapore (MPA), Singapore Police Force (SPF), Republic of Singapore Navy (RSN), Republic of Singapore Air Force (RSAF), or other government agencies.
+
+Aircraft and vessel observations depend on external feeds, coverage, provider availability and scheduled collection. Records may be delayed, incomplete, inaccurate or unavailable. Unavailable live positions are not replaced with estimates. Information about PCG, RSN and RSAF is drawn from published references and is not a live security or military operations tracker.
+
+Do not rely on this dashboard for navigation, safety, security, surveillance or operational decision-making.
