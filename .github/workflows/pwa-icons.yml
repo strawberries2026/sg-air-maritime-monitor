@@ -1,0 +1,31 @@
+name: Build PWA icons
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/pwa-icons.yml'
+      - 'icon.svg'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  icons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate Android PNG icons
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq librsvg2-bin
+          rsvg-convert -w 192 -h 192 icon.svg -o icon-192.png
+          rsvg-convert -w 512 -h 512 icon.svg -o icon-512.png
+          file icon-192.png icon-512.png
+      - name: Commit icon files
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add icon-192.png icon-512.png
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Generate installable PWA PNG icons'
+          git pull --rebase -X ours origin main
+          git push origin HEAD:main
