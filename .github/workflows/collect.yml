@@ -2,8 +2,9 @@ name: Refresh tracking snapshots
 on:
   workflow_dispatch:
   schedule:
-    # Best-effort GitHub scheduler; six opportunities per hour, away from minute 0.
-    - cron: '3,13,23,33,43,53 * * * *'
+    # GitHub schedules are best-effort. Use one off-peak minute every 15 minutes.
+    # A changed cron definition also refreshes the schedule registration.
+    - cron: '8,23,38,53 * * * *'
 permissions:
   contents: write
 concurrency:
