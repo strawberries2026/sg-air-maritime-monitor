@@ -39,3 +39,7 @@
 
 /* Creator attribution beneath the site heading */
 .creator-credit{display:inline-block;margin:0 0 6px;padding:4px 10px;border:1px solid #315b71;border-radius:999px;background:#113349;color:#b8d8e8;font-size:12px;letter-spacing:.2px}.creator-credit strong{color:#e6f6ff;font-weight:650}
+
+/* Use calm amber for ordinary 20–45 minute collection delays; reserve red for stale/error. */
+.health-alert-delayed{border-color:#987638;background:#332d1c;color:#ffe2a4}
+.health-alert-critical{border-color:#b86b47;background:#412b28;color:#ffe4ce}
