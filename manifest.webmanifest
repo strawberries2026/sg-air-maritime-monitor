@@ -1,0 +1,19 @@
+{
+  "id": "./",
+  "name": "SG Air & Maritime Monitor",
+  "short_name": "SG Air & Sea",
+  "description": "Singapore aircraft and public maritime monitoring",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071b2c",
+  "theme_color": "#071b2c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
