@@ -1,3 +1,9 @@
+/*
+ * SG Air & Maritime Monitor
+ * Copyright (c) 2026 Desmond Song. All rights reserved for original work.
+ * Third-party libraries, data and resources retain their own licences and rights.
+ * See COPYRIGHT.md.
+ */
 const map=L.map('map').setView([1.3521,103.8198],9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
 let air=[],ships=[];const layers=(L.markerClusterGroup?L.markerClusterGroup({maxClusterRadius:42,showCoverageOnHover:false,disableClusteringAtZoom:12}):L.layerGroup()).addTo(map),el=id=>document.getElementById(id);const markers=new Map();let historyTracks={},selectedKey=null,trailVisible=true;const trailLayer=L.layerGroup().addTo(map);
