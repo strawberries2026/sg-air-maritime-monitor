@@ -142,4 +142,8 @@ async function load(){
 ['mode','category','search'].forEach(id=>el(id).addEventListener(id==='search'?'input':'change',()=>{recordLimit=12;render()}));
 el('recordSort').addEventListener('change',render);
 el('showMoreRecords').addEventListener('click',()=>{recordLimit+=20;render()});
-el('showLessRecords').addEventListener('click',()=>{recordLimit=12;render();el('recordCount').scrollIntoView({behavior:'smooth',block:'center'})});el('refresh').addEventListener('click',load);load();setInterval(load,60000);setInterval(updateHealth,30000);
+el('showLessRecords').addEventListener('click',()=>{recordLimit=12;render();el('recordCount').scrollIntoView({behavior:'smooth',block:'center'})});el('refresh').addEventListener('click',load);
+const pedra=[1.330,104.407];
+el('pedraBrancaButton').addEventListener('click',()=>{el('mode').value='ship';el('category').value='all';el('search').value='';recordLimit=12;render();map.setView(pedra,12);const nearby=ships.filter(x=>map.distance([x.lat,x.lon],pedra)<=20000);const feed=lastFeeds?.s;el('pedraBrancaStatus').textContent=feed?.error?'Maritime feed error: '+feed.error:!feed||!freshness(feed.updated).ok?'Maritime snapshot is stale or unavailable; vessel locations cannot be verified.':nearby.length?nearby.length+' vessel report(s) within 20 km of Pedra Branca in the latest available AIS snapshot. Coverage is incomplete.':'No vessel reports within 20 km of Pedra Branca in the latest available AIS snapshot. This does not mean the area is empty.';el('map').scrollIntoView({behavior:'smooth',block:'start'});});
+el('singaporeMapButton').addEventListener('click',()=>{map.setView([1.3521,103.8198],9);el('mode').value='all';render();el('pedraBrancaStatus').textContent='Singapore overview restored.';});
+load();setInterval(load,60000);setInterval(updateHealth,30000);
