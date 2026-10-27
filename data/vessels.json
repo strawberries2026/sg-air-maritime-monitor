@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-10-27T23:16:40.063960+00:00",
+  "updatedAt": "2026-10-27T23:31:47.497585+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "533133444",
-      "mmsi": "533133444",
-      "name": "GENEVIEVE 88",
-      "category": "unknown",
-      "lat": 1.24848,
-      "lon": 103.79533666666666,
-      "speedKmh": 0.2,
-      "heading": 1.1,
-      "reportedAt": "2026-10-27T22:01:22.217178+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564590000",
-      "mmsi": "564590000",
-      "name": "PACIFIC PRIDE",
-      "category": "unknown",
-      "lat": 1.2547983333333332,
-      "lon": 103.86227333333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-27T22:01:33.847425+00:00"
-    },
     {
       "kind": "ship",
       "id": "219036000",
@@ -75,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "636022670",
-      "mmsi": "636022670",
-      "name": "DING HENG 37",
-      "category": "unknown",
-      "lat": 1.24123,
-      "lon": 103.79286333333333,
-      "speedKmh": 0.2,
-      "heading": 251.2,
-      "reportedAt": "2026-10-27T22:00:51.769010+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352006237",
       "mmsi": "352006237",
       "name": "SANNOMINE",
@@ -120,54 +84,6 @@
       "speedKmh": 0.0,
       "heading": 222,
       "reportedAt": "2026-10-27T22:30:54.223715+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566724000",
-      "mmsi": "566724000",
-      "name": "MERLION 25",
-      "category": "unknown",
-      "lat": 1.259225,
-      "lon": 103.90825833333334,
-      "speedKmh": 9.6,
-      "heading": 42.6,
-      "reportedAt": "2026-10-27T22:00:57.334382+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352007070",
-      "mmsi": "352007070",
-      "name": "DIVINE MERCY",
-      "category": "unknown",
-      "lat": 1.2793283333333332,
-      "lon": 103.89522000000001,
-      "speedKmh": 0.0,
-      "heading": 338.8,
-      "reportedAt": "2026-10-27T22:00:59.188034+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "212582000",
-      "mmsi": "212582000",
-      "name": "GRECO LIBERO",
-      "category": "unknown",
-      "lat": 1.2455316666666667,
-      "lon": 103.91617500000001,
-      "speedKmh": 0.0,
-      "heading": 109,
-      "reportedAt": "2026-10-27T22:01:07.444034+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566091000",
-      "mmsi": "566091000",
-      "name": "ZEMIRA",
-      "category": "unknown",
-      "lat": 1.2754583333333334,
-      "lon": 103.88568833333333,
-      "speedKmh": 0.0,
-      "heading": 160.5,
-      "reportedAt": "2026-10-27T22:01:19.538992+00:00"
     },
     {
       "kind": "ship",
@@ -559,11 +475,11 @@
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
       "category": "unknown",
-      "lat": 1.2740333333333331,
-      "lon": 103.89051333333333,
+      "lat": 1.2740166666666668,
+      "lon": 103.89052666666666,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-10-27T23:15:39.123552+00:00"
+      "reportedAt": "2026-10-27T23:31:28.738474+00:00"
     },
     {
       "kind": "ship",
@@ -595,11 +511,11 @@
       "mmsi": "255962000",
       "name": "CAROLINE",
       "category": "unknown",
-      "lat": 1.2660533333333333,
-      "lon": 103.87647166666667,
+      "lat": 1.2659666666666667,
+      "lon": 103.87646166666667,
       "speedKmh": 0.0,
       "heading": 241.5,
-      "reportedAt": "2026-10-27T23:15:44.799369+00:00"
+      "reportedAt": "2026-10-27T23:30:53.301711+00:00"
     },
     {
       "kind": "ship",
@@ -660,6 +576,30 @@
       "speedKmh": 19.4,
       "heading": 235.9,
       "reportedAt": "2026-10-27T23:16:20.466615+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "305554000",
+      "mmsi": "305554000",
+      "name": "ELBMASTER",
+      "category": "unknown",
+      "lat": 1.1882516666666667,
+      "lon": 103.82899833333333,
+      "speedKmh": 17.0,
+      "heading": 113.1,
+      "reportedAt": "2026-10-27T23:30:46.939000+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565587000",
+      "mmsi": "565587000",
+      "name": "REGENT GEMINI",
+      "category": "unknown",
+      "lat": 1.2359433333333334,
+      "lon": 103.77632833333334,
+      "speedKmh": 6.5,
+      "heading": 120.9,
+      "reportedAt": "2026-10-27T23:31:07.131681+00:00"
     }
   ],
   "error": null
