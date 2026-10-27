@@ -1,17 +1,41 @@
 {
-  "updatedAt": "2026-10-27T07:16:42.207051+00:00",
+  "updatedAt": "2026-10-27T07:31:46.633297+00:00",
   "items": [
     {
       "kind": "ship",
-      "id": "563029800",
-      "mmsi": "563029800",
-      "name": "ROYAL BLISS",
+      "id": "563009220",
+      "mmsi": "563009220",
+      "name": "NOBLE VEGA",
       "category": "unknown",
-      "lat": 1.2024583333333332,
-      "lon": 103.86213500000001,
-      "speedKmh": 11.3,
-      "heading": 242.9,
-      "reportedAt": "2026-10-27T07:15:50.652919+00:00"
+      "lat": 1.2617333333333332,
+      "lon": 103.84842666666667,
+      "speedKmh": 3.5,
+      "heading": 135.3,
+      "reportedAt": "2026-10-27T07:31:00.462071+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563027990",
+      "mmsi": "563027990",
+      "name": "PERSEITY",
+      "category": "unknown",
+      "lat": 1.2456316666666667,
+      "lon": 103.88898666666667,
+      "speedKmh": 10.2,
+      "heading": 216,
+      "reportedAt": "2026-10-27T07:31:06.316578+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563073570",
+      "mmsi": "563073570",
+      "name": "VB PREDATOR",
+      "category": "unknown",
+      "lat": 1.2262016666666669,
+      "lon": 103.77826,
+      "speedKmh": 0.4,
+      "heading": 160,
+      "reportedAt": "2026-10-27T07:31:13.024226+00:00"
     },
     {
       "kind": "ship",
@@ -19,11 +43,35 @@
       "mmsi": "352978147",
       "name": "SUNRISE SUMMER",
       "category": "unknown",
-      "lat": 1.2688833333333334,
-      "lon": 103.88831499999999,
+      "lat": 1.26874,
+      "lon": 103.88837333333332,
       "speedKmh": 0.2,
-      "heading": 305.9,
-      "reportedAt": "2026-10-27T07:16:30.791238+00:00"
+      "heading": 77.4,
+      "reportedAt": "2026-10-27T07:31:31.051871+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566717000",
+      "mmsi": "566717000",
+      "name": "MARINA ARIEL",
+      "category": "unknown",
+      "lat": 1.2517016666666665,
+      "lon": 103.85465666666667,
+      "speedKmh": 3.9,
+      "heading": 312.1,
+      "reportedAt": "2026-10-27T07:31:35.786673+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636026079",
+      "mmsi": "636026079",
+      "name": "NAVE EQUATOR",
+      "category": "unknown",
+      "lat": 1.2209316666666665,
+      "lon": 103.88764666666665,
+      "speedKmh": 17.6,
+      "heading": 56,
+      "reportedAt": "2026-10-27T07:31:35.887471+00:00"
     }
   ],
   "error": null
