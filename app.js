@@ -186,7 +186,7 @@ function renderObservationTrends(){
      days.get(day)[kind].add(key);
    }
  }
- const rows=[...days.entries()].sort((a,b)=>b[0].localeCompare(a[0])).slice(0,7);
+ const rows=[...days.entries()].sort((a,b)=>b[0].localeCompare(a[0]));
  if(!rows.length){root.textContent='No usable historical observations are currently available.';return;}
  root.replaceChildren();
  for(const [day,count] of rows){const row=document.createElement('div');row.className='observation-row';
