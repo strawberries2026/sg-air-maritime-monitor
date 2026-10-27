@@ -77,6 +77,7 @@ async function loadHistory(){
   if(!r.ok)throw Error('History not yet published');
   const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
  }catch(e){historyTracks={};}
+ renderObservationTrends();
 }
 el('trailToggle').addEventListener('click',()=>{trailVisible=!trailVisible;const obj=[...air,...ships].find(x=>x.kind+':'+x.id===selectedKey);if(obj)showDetails(obj);});
 map.on('popupopen',e=>{const button=e.popup.getElement()?.querySelector('.popup-details');if(button)button.addEventListener('click',()=>{const obj=[...air,...ships].find(x=>x.kind+':'+x.id===button.dataset.object);if(obj){showDetails(obj);map.closePopup();el('objectDetails').scrollIntoView({behavior:'smooth',block:'start'});}})});
@@ -169,4 +170,27 @@ if(flightInput&&flightCopy&&flightStatus){
     try{await navigator.clipboard.writeText(number);flightStatus.textContent=number+' copied. Open the official arrivals or departures page and paste it into its search.';}
     catch(e){flightInput.select();flightStatus.textContent='Select Copy from your phone menu, then paste '+number+' into the official airport search.';}
   });
+}
+
+// v1.5.0: descriptive summary of partial, published history observations.
+function renderObservationTrends(){
+ const root=document.getElementById('observationTrends');if(!root)return;
+ const days=new Map();
+ for(const [key,samples] of Object.entries(historyTracks)){
+   const kind=key.startsWith('air:')?'air':key.startsWith('ship:')?'ship':null;
+   if(!kind||!Array.isArray(samples))continue;
+   for(const sample of samples){
+     const t=Date.parse(sample.at);if(!Number.isFinite(t))continue;
+     const day=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Singapore',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(t));
+     if(!days.has(day))days.set(day,{air:new Set(),ship:new Set()});
+     days.get(day)[kind].add(key);
+   }
+ }
+ const rows=[...days.entries()].sort((a,b)=>b[0].localeCompare(a[0])).slice(0,7);
+ if(!rows.length){root.textContent='No usable historical observations are currently available.';return;}
+ root.replaceChildren();
+ for(const [day,count] of rows){const row=document.createElement('div');row.className='observation-row';
+ const date=document.createElement('strong');date.textContent=day+' SGT';
+ const detail=document.createElement('span');detail.textContent='✈ '+count.air.size+' aircraft · 🚢 '+count.ship.size+' vessels';
+ row.append(date,detail);root.append(row);}
 }
