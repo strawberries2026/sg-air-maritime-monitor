@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T19:16:39.207236+00:00",
+  "updatedAt": "2026-10-27T19:31:49.488324+00:00",
   "items": [
     {
       "kind": "ship",
@@ -87,18 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563023010",
-      "mmsi": "563023010",
-      "name": "563023010",
-      "category": "unknown",
-      "lat": 1.2617983333333334,
-      "lon": 103.83865,
-      "speedKmh": 0.0,
-      "heading": 12.2,
-      "reportedAt": "2026-10-27T18:01:47.485388+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533133444",
       "mmsi": "533133444",
       "name": "GENEVIEVE 88",
@@ -180,54 +168,6 @@
       "speedKmh": 4.3,
       "heading": 7,
       "reportedAt": "2026-10-27T18:30:59.306991+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566116000",
-      "mmsi": "566116000",
-      "name": "HAI SOON 1",
-      "category": "unknown",
-      "lat": 1.22221,
-      "lon": 103.78963999999999,
-      "speedKmh": 12.0,
-      "heading": 127.5,
-      "reportedAt": "2026-10-27T18:00:47.748879+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563197000",
-      "mmsi": "563197000",
-      "name": "BLISS",
-      "category": "unknown",
-      "lat": 1.24387,
-      "lon": 103.80546,
-      "speedKmh": 0.0,
-      "heading": 306.6,
-      "reportedAt": "2026-10-27T18:00:56.207266+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563708000",
-      "mmsi": "563708000",
-      "name": "VALIANT III",
-      "category": "unknown",
-      "lat": 1.2608266666666668,
-      "lon": 103.88696499999999,
-      "speedKmh": 6.7,
-      "heading": 3.6,
-      "reportedAt": "2026-10-27T18:01:02.308035+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011321",
-      "mmsi": "538011321",
-      "name": "STAVANGER STAR",
-      "category": "commercial",
-      "lat": 1.222665,
-      "lon": 103.87477833333334,
-      "speedKmh": 15.7,
-      "heading": 248,
-      "reportedAt": "2026-10-27T18:01:25.542293+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +355,11 @@
       "mmsi": "564590000",
       "name": "PACIFIC PRIDE",
       "category": "unknown",
-      "lat": 1.2630366666666668,
-      "lon": 103.87088666666666,
+      "lat": 1.2629483333333333,
+      "lon": 103.87101333333334,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-10-27T19:16:15.415189+00:00"
+      "reportedAt": "2026-10-27T19:31:34.813755+00:00"
     },
     {
       "kind": "ship",
@@ -526,8 +466,8 @@
       "lat": 1.2754833333333333,
       "lon": 103.78156666666668,
       "speedKmh": 0.0,
-      "heading": 97.7,
-      "reportedAt": "2026-10-27T19:15:42.023104+00:00"
+      "heading": 91.9,
+      "reportedAt": "2026-10-27T19:30:43.198919+00:00"
     },
     {
       "kind": "ship",
@@ -564,6 +504,30 @@
       "speedKmh": 21.7,
       "heading": 246.6,
       "reportedAt": "2026-10-27T19:16:26.405205+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008428",
+      "mmsi": "538008428",
+      "name": "DALE",
+      "category": "unknown",
+      "lat": 1.2454016666666667,
+      "lon": 103.79207500000001,
+      "speedKmh": 0.0,
+      "heading": 347.1,
+      "reportedAt": "2026-10-27T19:30:55.834058+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563294700",
+      "mmsi": "563294700",
+      "name": "EM SHONA",
+      "category": "unknown",
+      "lat": 1.2244833333333331,
+      "lon": 103.870425,
+      "speedKmh": 17.6,
+      "heading": 236.2,
+      "reportedAt": "2026-10-27T19:31:01.955244+00:00"
     }
   ],
   "error": null
