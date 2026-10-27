@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:31:47.489913+00:00",
+  "updatedAt": "2026-10-27T22:45:51.676553+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "636022350",
-      "mmsi": "636022350",
-      "name": "OLYMPIC BAY",
-      "category": "unknown",
-      "lat": 1.2557933333333333,
-      "lon": 103.78629500000001,
-      "speedKmh": 0.0,
-      "heading": 2.4,
-      "reportedAt": "2026-10-27T21:15:47.495749+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533133444",
       "mmsi": "533133444",
       "name": "GENEVIEVE 88",
@@ -84,18 +72,6 @@
       "speedKmh": 0.2,
       "heading": 329.3,
       "reportedAt": "2026-10-27T21:16:39.816012+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086920",
-      "mmsi": "563086920",
-      "name": "RIKKA",
-      "category": "unknown",
-      "lat": 1.2127616666666665,
-      "lon": 103.80190666666667,
-      "speedKmh": 13.3,
-      "heading": 310.3,
-      "reportedAt": "2026-10-27T21:15:38.656796+00:00"
     },
     {
       "kind": "ship",
@@ -173,13 +149,13 @@
       "kind": "ship",
       "id": "525024416",
       "mmsi": "525024416",
-      "name": "525024416",
+      "name": "TB CAPRICORN 80",
       "category": "unknown",
-      "lat": 1.2614833333333333,
-      "lon": 103.82620333333332,
+      "lat": 1.2615033333333334,
+      "lon": 103.82626499999999,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-27T22:16:05.056065+00:00"
+      "reportedAt": "2026-10-27T22:45:17.042924+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +175,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735400000000001,
-      "lon": 103.80140666666667,
+      "lat": 1.2735633333333332,
+      "lon": 103.80139166666666,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-27T21:30:36.252973+00:00"
+      "reportedAt": "2026-10-27T22:44:44.645926+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +223,11 @@
       "mmsi": "352006237",
       "name": "SANNOMINE",
       "category": "unknown",
-      "lat": 1.2539916666666668,
-      "lon": 103.87194833333334,
-      "speedKmh": 0.0,
-      "heading": 313.3,
-      "reportedAt": "2026-10-27T21:31:41.059110+00:00"
+      "lat": 1.260045,
+      "lon": 103.860955,
+      "speedKmh": 6.1,
+      "heading": 253.2,
+      "reportedAt": "2026-10-27T22:45:21.146717+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +343,11 @@
       "mmsi": "563887000",
       "name": "KOTA ANGGUN",
       "category": "unknown",
-      "lat": 1.2625066666666667,
-      "lon": 103.837855,
-      "speedKmh": 0.2,
-      "heading": 181.7,
-      "reportedAt": "2026-10-27T22:15:42.433915+00:00"
+      "lat": 1.243105,
+      "lon": 103.85894166666667,
+      "speedKmh": 17.4,
+      "heading": 144.5,
+      "reportedAt": "2026-10-27T22:44:42.906773+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +367,11 @@
       "mmsi": "563034500",
       "name": "QUEEN STAR 8",
       "category": "unknown",
-      "lat": 1.2622416666666667,
-      "lon": 103.81888000000001,
+      "lat": 1.2622016666666667,
+      "lon": 103.81887666666667,
       "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-27T22:16:02.274591+00:00"
+      "heading": 0,
+      "reportedAt": "2026-10-27T22:45:23.059830+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +415,11 @@
       "mmsi": "538003120",
       "name": "CAPE FAWLEY",
       "category": "unknown",
-      "lat": 1.20265,
-      "lon": 103.81088333333334,
-      "speedKmh": 5.2,
-      "heading": 132.2,
-      "reportedAt": "2026-10-27T22:30:40.974081+00:00"
+      "lat": 1.17885,
+      "lon": 103.82223333333333,
+      "speedKmh": 20.7,
+      "heading": 163.4,
+      "reportedAt": "2026-10-27T22:44:50.447156+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +504,66 @@
       "speedKmh": 0.4,
       "heading": 3,
       "reportedAt": "2026-10-27T22:31:44.967380+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "259801000",
+      "mmsi": "259801000",
+      "name": "SEA1 AMETHYST",
+      "category": "unknown",
+      "lat": 1.2699966666666667,
+      "lon": 103.88079666666665,
+      "speedKmh": 0.0,
+      "heading": 269.7,
+      "reportedAt": "2026-10-27T22:44:40.345641+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566163000",
+      "mmsi": "566163000",
+      "name": "BRUE",
+      "category": "unknown",
+      "lat": 1.241155,
+      "lon": 103.79532833333333,
+      "speedKmh": 7.0,
+      "heading": 61.6,
+      "reportedAt": "2026-10-27T22:44:51.039200+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008866",
+      "mmsi": "538008866",
+      "name": "SAO LOUIS",
+      "category": "unknown",
+      "lat": 1.2583033333333333,
+      "lon": 103.92846333333334,
+      "speedKmh": 5.4,
+      "heading": 328.6,
+      "reportedAt": "2026-10-27T22:44:56.445701+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533170768",
+      "mmsi": "533170768",
+      "name": "DANUM 178",
+      "category": "unknown",
+      "lat": 1.1911966666666667,
+      "lon": 103.87505833333333,
+      "speedKmh": 13.9,
+      "heading": 64.3,
+      "reportedAt": "2026-10-27T22:45:22.341724+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636022821",
+      "mmsi": "636022821",
+      "name": "SDM SHENYANG",
+      "category": "unknown",
+      "lat": 1.2531183333333333,
+      "lon": 103.88131666666666,
+      "speedKmh": 0.0,
+      "heading": 124,
+      "reportedAt": "2026-10-27T22:45:24.632741+00:00"
     }
   ],
   "error": null
