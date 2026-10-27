@@ -36,6 +36,24 @@ def update_history():
 def request(url,data=None,headers=None):
  req=urllib.request.Request(url,data=data,headers=headers or {},method='POST' if data else 'GET')
  with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
+def merge_vessel_observations(items, error=None):
+ """Keep verified reports for at most 90 min; never extend observation timestamps."""
+ target=ROOT/'data'/'vessels.json'
+ if error:
+  save('vessels.json',[],error);return
+ now=datetime.datetime.now(datetime.timezone.utc)
+ latest={}
+ try:
+  previous=json.loads(target.read_text()) if target.exists() else {}
+  if not previous.get('error'):
+   for row in previous.get('items',[]):
+    if row.get('kind')!='ship' or not row.get('id'):continue
+    stamp=datetime.datetime.fromisoformat(row['reportedAt'].replace('Z','+00:00'))
+    if stamp.tzinfo and now-datetime.timedelta(minutes=90)<=stamp<=now+datetime.timedelta(minutes=1):latest[str(row['id'])]=row
+ except (OSError,ValueError,KeyError,TypeError):pass
+ for row in items:
+  if row.get('id'):latest[str(row['id'])]=row
+ save('vessels.json',list(latest.values()))
 def vessel_category(ship_type):
  try: n=int(ship_type)
  except (TypeError,ValueError): return 'unknown'
@@ -59,9 +77,9 @@ def aircraft():
  except Exception as e:save('aircraft.json',[],'OpenSky fetch failed: '+str(e)[:180])
 async def vessels():
  key=os.getenv('AISSTREAM_API_KEY')
- if not key:save('vessels.json',[],'Set AISSTREAM_API_KEY GitHub Actions secret.');return
+ if not key:merge_vessel_observations([],'Set AISSTREAM_API_KEY GitHub Actions secret.');return
  try:import websockets
- except ImportError:save('vessels.json',[],'Missing websockets dependency.');return
+ except ImportError:merge_vessel_observations([],'Missing websockets dependency.');return
  rows={};static={}
  try:
   async with websockets.connect('wss://stream.aisstream.io/v0/stream',compression='deflate',open_timeout=20,ping_interval=20) as ws:
@@ -84,7 +102,7 @@ async def vessels():
   for mmsi,row in rows.items():
    d=static.get(mmsi) or {};row['name']=(d.get('Name') or d.get('ShipName') or row['name']).strip()
    row['category']=vessel_category(d.get('Type') or d.get('ShipType'))
-  save('vessels.json',list(rows.values()))
- except Exception as e:save('vessels.json',[],'AISStream collection failed: '+str(e)[:180])
+  merge_vessel_observations(list(rows.values()))
+ except Exception as e:merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
 if __name__=='__main__':
  aircraft();asyncio.run(vessels());update_history()
