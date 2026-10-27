@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T20:46:41.597424+00:00",
+  "updatedAt": "2026-10-27T20:57:19.636559+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "563991000",
       "name": "APIA CHIEF",
       "category": "unknown",
-      "lat": 1.2605016666666666,
-      "lon": 103.88991333333334,
-      "speedKmh": 0.0,
-      "heading": 320.9,
-      "reportedAt": "2026-10-27T20:16:23.171396+00:00"
+      "lat": 1.2604933333333332,
+      "lon": 103.88983,
+      "speedKmh": 0.2,
+      "heading": 103.3,
+      "reportedAt": "2026-10-27T20:56:23.603964+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +432,42 @@
       "speedKmh": 0.0,
       "heading": 1.1,
       "reportedAt": "2026-10-27T20:46:22.200641+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574252000",
+      "mmsi": "574252000",
+      "name": "PETROLIMEX 16",
+      "category": "unknown",
+      "lat": 1.1987333333333334,
+      "lon": 103.81465,
+      "speedKmh": 13.5,
+      "heading": 134,
+      "reportedAt": "2026-10-27T20:56:21.315359+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477015400",
+      "mmsi": "477015400",
+      "name": "OOCL PORTUGAL",
+      "category": "unknown",
+      "lat": 1.269695,
+      "lon": 103.78457833333333,
+      "speedKmh": 0.0,
+      "heading": 43.8,
+      "reportedAt": "2026-10-27T20:56:55.290811+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477966600",
+      "mmsi": "477966600",
+      "name": "DING HENG 45",
+      "category": "unknown",
+      "lat": 1.1746699999999999,
+      "lon": 103.70766666666667,
+      "speedKmh": 0.6,
+      "heading": 187.7,
+      "reportedAt": "2026-10-27T20:57:08.061385+00:00"
     }
   ],
   "error": null
