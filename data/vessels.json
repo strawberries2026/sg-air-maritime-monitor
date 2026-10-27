@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T15:02:05.347207+00:00",
+  "updatedAt": "2026-10-27T15:16:45.366745+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "533133444",
       "name": "GENEVIEVE 88",
       "category": "unknown",
-      "lat": 1.2489233333333334,
-      "lon": 103.79496666666667,
-      "speedKmh": 0.2,
+      "lat": 1.2488966666666668,
+      "lon": 103.795095,
+      "speedKmh": 0.0,
       "heading": 174.2,
-      "reportedAt": "2026-10-27T14:16:22.131903+00:00"
+      "reportedAt": "2026-10-27T15:16:22.139996+00:00"
     },
     {
       "kind": "ship",
@@ -48,18 +48,6 @@
       "speedKmh": 0.0,
       "heading": 319.8,
       "reportedAt": "2026-10-27T14:00:59.394011+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636019234",
-      "mmsi": "636019234",
-      "name": "EVER GLORY",
-      "category": "unknown",
-      "lat": 1.22248,
-      "lon": 103.79223499999999,
-      "speedKmh": 14.8,
-      "heading": 133.8,
-      "reportedAt": "2026-10-27T13:45:39.576524+00:00"
     },
     {
       "kind": "ship",
@@ -115,11 +103,11 @@
       "mmsi": "563280800",
       "name": "SEASPAN OCEANIA",
       "category": "unknown",
-      "lat": 1.2608833333333334,
-      "lon": 103.78954999999999,
+      "lat": 1.2610166666666667,
+      "lon": 103.78923333333334,
       "speedKmh": 0.0,
-      "heading": 166,
-      "reportedAt": "2026-10-27T14:01:09.348826+00:00"
+      "heading": 158,
+      "reportedAt": "2026-10-27T15:16:11.505949+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +444,78 @@
       "speedKmh": 0.2,
       "heading": 224.9,
       "reportedAt": "2026-10-27T15:01:47.270356+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538004985",
+      "mmsi": "538004985",
+      "name": "KOOL CRYSTAL",
+      "category": "unknown",
+      "lat": 1.15473,
+      "lon": 103.78725833333333,
+      "speedKmh": 27.0,
+      "heading": 59.9,
+      "reportedAt": "2026-10-27T15:15:38.309412+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636021344",
+      "mmsi": "636021344",
+      "name": "AFRICA",
+      "category": "unknown",
+      "lat": 1.2610433333333333,
+      "lon": 103.91344333333333,
+      "speedKmh": 0.0,
+      "heading": 140.8,
+      "reportedAt": "2026-10-27T15:15:40.874582+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066530",
+      "mmsi": "563066530",
+      "name": "PSA POLARIS YS50",
+      "category": "unknown",
+      "lat": 1.2670083333333333,
+      "lon": 103.79397,
+      "speedKmh": 0.6,
+      "heading": 153.1,
+      "reportedAt": "2026-10-27T15:15:54.289329+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012375",
+      "mmsi": "538012375",
+      "name": "SAFESEA LAXMI",
+      "category": "unknown",
+      "lat": 1.2056116666666665,
+      "lon": 103.89891333333334,
+      "speedKmh": 14.6,
+      "heading": 63.5,
+      "reportedAt": "2026-10-27T15:16:05.821114+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086930",
+      "mmsi": "563086930",
+      "name": "PSA PISCES",
+      "category": "unknown",
+      "lat": 1.2296133333333332,
+      "lon": 103.78350833333334,
+      "speedKmh": 16.9,
+      "heading": 137.1,
+      "reportedAt": "2026-10-27T15:16:07.511869+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563253500",
+      "mmsi": "563253500",
+      "name": "MARINE AZURE",
+      "category": "unknown",
+      "lat": 1.2656649999999998,
+      "lon": 103.768685,
+      "speedKmh": 10.9,
+      "heading": 266.1,
+      "reportedAt": "2026-10-27T15:16:43.466816+00:00"
     }
   ],
   "error": null
