@@ -77,7 +77,7 @@ async function loadHistory(){
   if(!r.ok)throw Error('History not yet published');
   const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
  }catch(e){historyTracks={};}
- renderObservationTrends();renderMovementDashboard();
+ renderObservationTrends();renderMovementDashboard();renderMovementTrendChart();
 }
 el('trailToggle').addEventListener('click',()=>{trailVisible=!trailVisible;const obj=[...air,...ships].find(x=>x.kind+':'+x.id===selectedKey);if(obj)showDetails(obj);});
 map.on('popupopen',e=>{const button=e.popup.getElement()?.querySelector('.popup-details');if(button)button.addEventListener('click',()=>{const obj=[...air,...ships].find(x=>x.kind+':'+x.id===button.dataset.object);if(obj){showDetails(obj);map.closePopup();el('objectDetails').scrollIntoView({behavior:'smooth',block:'start'});}})});
@@ -207,5 +207,30 @@ function renderMovementDashboard(){
   const count=document.getElementById(id),status=document.getElementById(statusId);
   if(count)count.textContent=observations?String(keys.size):'—';
   if(status)status.textContent=observations?'Partial public-feed coverage · distinct identifiers, not total movements.':'Insufficient valid observations to report a 24-hour count.';
+ }
+}
+
+// v1.6.1: historical observed-identifier counts, not airport or port movements.
+function renderMovementTrendChart(){
+ const root=document.getElementById('movementTrendChart');if(!root)return;
+ const now=Date.now(),period=4*3600000,base=Math.floor(now/period)*period;
+ const buckets=Array.from({length:6},(_,i)=>({start:base-(5-i)*period,air:new Set(),ship:new Set()}));
+ for(const [key,samples] of Object.entries(historyTracks)){
+  const kind=key.startsWith('air:')?'air':key.startsWith('ship:')?'ship':null;
+  if(!kind||!Array.isArray(samples))continue;
+  for(const p of samples){const t=Date.parse(p.at);if(!Number.isFinite(t)||t>now+60000||!Number.isFinite(p.lat)||!Number.isFinite(p.lon))continue;
+   const b=buckets.find(b=>t>=b.start&&t<b.start+period);if(b)b[kind].add(key);
+  }
+ }
+ const max=Math.max(1,...buckets.flatMap(b=>[b.air.size,b.ship.size]));
+ if(!buckets.some(b=>b.air.size||b.ship.size)){root.textContent='Insufficient historical observations for a trend chart.';return;}
+ root.replaceChildren();
+ const legend=document.createElement('div');legend.className='movement-trend-legend';legend.textContent='✈ Aircraft observations   🚢 Vessel observations';root.append(legend);
+ for(const b of buckets){const row=document.createElement('div');row.className='movement-trend-row';
+  const label=document.createElement('span');label.textContent=new Date(b.start).toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit',hour12:false});
+  const bars=document.createElement('div');bars.className='movement-trend-bars';
+  for(const [kind,count] of [['air',b.air.size],['ship',b.ship.size]]){const track=document.createElement('div');track.className='movement-trend-track';const fill=document.createElement('div');fill.className='movement-trend-fill '+kind;fill.style.width=(100*count/max)+'%';track.append(fill);bars.append(track);}
+  const numbers=document.createElement('span');numbers.textContent=b.air.size+' / '+b.ship.size;
+  row.append(label,bars,numbers);root.append(row);
  }
 }
