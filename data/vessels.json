@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:16:40.925685+00:00",
+  "updatedAt": "2026-10-27T22:31:47.489913+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 156.7,
       "reportedAt": "2026-10-27T21:16:23.626771+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "374820000",
-      "mmsi": "374820000",
-      "name": "COSMIC OAK",
-      "category": "unknown",
-      "lat": 1.2164616666666668,
-      "lon": 103.79971166666665,
-      "speedKmh": 18.5,
-      "heading": 318.3,
-      "reportedAt": "2026-10-27T21:00:46.939134+00:00"
     },
     {
       "kind": "ship",
@@ -75,42 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "574252000",
-      "mmsi": "574252000",
-      "name": "PETROLIMEX 16",
-      "category": "unknown",
-      "lat": 1.1931,
-      "lon": 103.82183333333334,
-      "speedKmh": 8.3,
-      "heading": 92,
-      "reportedAt": "2026-10-27T21:01:31.939498+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477015400",
-      "mmsi": "477015400",
-      "name": "OOCL PORTUGAL",
-      "category": "unknown",
-      "lat": 1.269695,
-      "lon": 103.78457833333333,
-      "speedKmh": 0.0,
-      "heading": 43.8,
-      "reportedAt": "2026-10-27T20:56:55.290811+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477966600",
-      "mmsi": "477966600",
-      "name": "DING HENG 45",
-      "category": "unknown",
-      "lat": 1.1746699999999999,
-      "lon": 103.70766666666667,
-      "speedKmh": 0.6,
-      "heading": 187.7,
-      "reportedAt": "2026-10-27T20:57:08.061385+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564590000",
       "mmsi": "564590000",
       "name": "PACIFIC PRIDE",
@@ -132,18 +84,6 @@
       "speedKmh": 0.2,
       "heading": 329.3,
       "reportedAt": "2026-10-27T21:16:39.816012+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477463900",
-      "mmsi": "477463900",
-      "name": "ISLAND EXPRESS",
-      "category": "unknown",
-      "lat": 1.2263666666666666,
-      "lon": 103.79594999999999,
-      "speedKmh": 0.0,
-      "heading": 142,
-      "reportedAt": "2026-10-27T21:01:33.226636+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +115,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.238005,
-      "lon": 103.79459166666668,
-      "speedKmh": 0.4,
-      "heading": 12,
-      "reportedAt": "2026-10-27T22:16:10.709037+00:00"
+      "lat": 1.2378783333333334,
+      "lon": 103.79467,
+      "speedKmh": 0.2,
+      "heading": 1.9,
+      "reportedAt": "2026-10-27T22:31:10.063441+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +271,11 @@
       "mmsi": "525119038",
       "name": "PRIMA TANGGUH LVI",
       "category": "unknown",
-      "lat": 1.2285266666666668,
-      "lon": 103.81342666666666,
+      "lat": 1.228155,
+      "lon": 103.81309166666666,
       "speedKmh": 0.0,
-      "heading": 10.8,
-      "reportedAt": "2026-10-27T22:01:00.643865+00:00"
+      "heading": 222,
+      "reportedAt": "2026-10-27T22:30:54.223715+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +408,126 @@
       "speedKmh": 21.5,
       "heading": 314.3,
       "reportedAt": "2026-10-27T22:16:02.720621+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566754000",
+      "mmsi": "566754000",
+      "name": "HAI SOON 16",
+      "category": "unknown",
+      "lat": 1.2168333333333334,
+      "lon": 103.88102833333333,
+      "speedKmh": 10.9,
+      "heading": 61.7,
+      "reportedAt": "2026-10-27T22:31:46.147494+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563780000",
+      "mmsi": "563780000",
+      "name": "SINDO 12",
+      "category": "unknown",
+      "lat": 1.23643,
+      "lon": 103.78339833333332,
+      "speedKmh": 32.6,
+      "heading": 195.8,
+      "reportedAt": "2026-10-27T22:30:36.090939+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538003120",
+      "mmsi": "538003120",
+      "name": "CAPE FAWLEY",
+      "category": "unknown",
+      "lat": 1.20265,
+      "lon": 103.81088333333334,
+      "speedKmh": 5.2,
+      "heading": 132.2,
+      "reportedAt": "2026-10-27T22:30:40.974081+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413347470",
+      "mmsi": "413347470",
+      "name": "DING HENG 25",
+      "category": "unknown",
+      "lat": 1.2356349999999998,
+      "lon": 103.79271166666668,
+      "speedKmh": 0.0,
+      "heading": 46.6,
+      "reportedAt": "2026-10-27T22:30:42.794762+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563027990",
+      "mmsi": "563027990",
+      "name": "PERSEITY",
+      "category": "unknown",
+      "lat": 1.29403,
+      "lon": 103.94228666666666,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-10-27T22:30:46.470545+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008428",
+      "mmsi": "538008428",
+      "name": "DALE",
+      "category": "unknown",
+      "lat": 1.2450666666666665,
+      "lon": 103.79211666666667,
+      "speedKmh": 0.0,
+      "heading": 347.1,
+      "reportedAt": "2026-10-27T22:30:57.920310+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525018039",
+      "mmsi": "525018039",
+      "name": "TB BUANA 1302",
+      "category": "unknown",
+      "lat": 1.251345,
+      "lon": 103.86782666666666,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-10-27T22:31:01.685951+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477009000",
+      "mmsi": "477009000",
+      "name": "ARTEMIS OCEAN",
+      "category": "unknown",
+      "lat": 1.1779033333333333,
+      "lon": 103.75488666666666,
+      "speedKmh": 0.0,
+      "heading": 40.6,
+      "reportedAt": "2026-10-27T22:31:03.139439+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "212640000",
+      "mmsi": "212640000",
+      "name": "PRINS DER NEDERLAND",
+      "category": "unknown",
+      "lat": 1.2159716666666667,
+      "lon": 103.89102,
+      "speedKmh": 26.1,
+      "heading": 243.9,
+      "reportedAt": "2026-10-27T22:31:11.174637+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477463900",
+      "mmsi": "477463900",
+      "name": "ISLAND EXPRESS",
+      "category": "unknown",
+      "lat": 1.2264833333333334,
+      "lon": 103.79598333333334,
+      "speedKmh": 0.4,
+      "heading": 3,
+      "reportedAt": "2026-10-27T22:31:44.967380+00:00"
     }
   ],
   "error": null
