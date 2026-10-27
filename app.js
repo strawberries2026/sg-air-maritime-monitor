@@ -29,7 +29,7 @@ function render(){
  for(const x of rows){
   const key=x.kind+':'+x.id;
   const marker=L.marker([x.lat,x.lon],{icon:L.divIcon({html:x.kind==='air'?'✈️':'🚢',className:'pin',iconSize:[30,30]})});
-  const hint=airlineHint(x);
+  const hint=airlineHint(x);const observationAge=Math.max(0,(Date.now()-Date.parse(x.reportedAt))/60000);const observationStatus=x.kind==='ship'?(observationAge>=45?'Historical observation — not live':observationAge>=15?'Delayed observation — not live':'Recent AIS observation — not guaranteed live'):'';
   marker.bindPopup('<div class="compact-popup"><strong>'+esc(x.name||x.id)+'</strong><span>'+(x.kind==='air'?'✈ Aircraft':'🚢 Vessel')+(hint?' · '+esc(hint)+' (callsign match)':'')+'</span><span>'+ (x.speedKmh==null?'Speed unknown':Math.round(x.speedKmh)+' km/h')+' · '+(x.heading==null?'Heading unknown':Math.round(x.heading)+'°')+'</span><button type="button" class="popup-details" data-object="'+esc(key)+'">Full details &amp; trail ↓</button></div>',{maxWidth:235,minWidth:175,autoPanPadding:[12,12]});
   marker.on('click',()=>showDetails(x));marker.addTo(layers);markers.set(key,marker);
  }
@@ -41,7 +41,7 @@ function render(){
   return (Date.parse(b.reportedAt)||0)-(Date.parse(a.reportedAt)||0);
  });
  const visible=sorted.slice(0,recordLimit);
- el('recordCount').textContent='Showing '+visible.length+' of '+sorted.length+' records';
+ el('recordCount').textContent='Showing '+visible.length+' of '+sorted.length+' observed records (not a complete traffic count)';
  el('showMoreRecords').hidden=visible.length>=sorted.length;
  el('showLessRecords').hidden=sorted.length<=12||recordLimit<=12;
  el('records').innerHTML=sorted.length?visible.map(x=>'<tr class="object-row" tabindex="0" role="button" data-key="'+esc(x.kind+':'+x.id)+'" aria-label="Locate '+esc(x.name||x.id)+' on map"><td data-label="Type">'+(x.kind==='air'?'✈ Aircraft':'🚢 Vessel')+'</td><td data-label="Identifier">'+esc(x.name||x.id)+'</td><td data-label="Classification">'+esc(x.category||'unknown')+(airlineHint(x)?'<small class="record-hint">Possible operator: '+esc(airlineHint(x))+' (callsign)</small>':'')+'</td><td data-label="Speed">'+(x.speedKmh==null?'—':Math.round(x.speedKmh)+' km/h')+'</td><td data-label="Heading">'+(x.heading==null?'—':Math.round(x.heading)+'°')+'</td><td data-label="Last report (SGT)">'+esc(sgt(x.reportedAt))+'<small class="record-age">'+esc(ageLabel(x.reportedAt))+'</small></td></tr>').join(''):'<tr><td colspan="6">No matching recent positions available.</td></tr>';
@@ -57,7 +57,7 @@ function showDetails(x){
  selectedKey=x.kind+':'+x.id;
  const id=x.kind==='air'?'ICAO24':'MMSI';
  const hint=airlineHint(x);
- const details=[['Type',x.kind==='air'?'Aircraft':'Vessel'],[id,x.kind==='air'?(x.icao24||x.id):(x.mmsi||x.id)],['Classification',x.category||'unknown'],...(hint?[['Possible operator',hint+' (callsign prefix only; not verified)']]:[]),['Speed',x.speedKmh==null?'Unknown':Math.round(x.speedKmh)+' km/h'],['Heading',x.heading==null?'Unknown':Math.round(x.heading)+'°'],['Latitude',Number(x.lat).toFixed(5)],['Longitude',Number(x.lon).toFixed(5)],['Last position (SGT)',sgt(x.reportedAt)]];
+ const details=[...(x.kind==='ship'?[['Position status',Math.max(0,(Date.now()-Date.parse(x.reportedAt))/60000)>=45?'Historical — not live':Math.max(0,(Date.now()-Date.parse(x.reportedAt))/60000)>=15?'Delayed — not live':'Recent AIS report — not guaranteed live']]:[]),['Type',x.kind==='air'?'Aircraft':'Vessel'],[id,x.kind==='air'?(x.icao24||x.id):(x.mmsi||x.id)],['Classification',x.category||'unknown'],...(hint?[['Possible operator',hint+' (callsign prefix only; not verified)']]:[]),['Speed',x.speedKmh==null?'Unknown':Math.round(x.speedKmh)+' km/h'],['Heading',x.heading==null?'Unknown':Math.round(x.heading)+'°'],['Latitude',Number(x.lat).toFixed(5)],['Longitude',Number(x.lon).toFixed(5)],['Last position (SGT)',sgt(x.reportedAt)]];
  el('detailTitle').textContent=(x.kind==='air'?'✈ ':'🚢 ')+(x.name||x.id);
  el('detailGrid').innerHTML=details.map(([k,v])=>'<div><small>'+esc(k)+'</small><strong>'+esc(v)+'</strong></div>').join('');
  el('objectDetails').hidden=false;
@@ -142,7 +142,7 @@ async function load(){
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
   el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
-  el('updated').textContent='Checked '+sgt(new Date().toISOString());
+  el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note)note.textContent='⚠ Partial AIS coverage: '+ships.length+' distinct vessel observation(s) within the past 90 minutes. These are sampled reports, NOT all vessels in Singapore waters. Positions may be delayed; tap a vessel to see its last report.';
   await loadHistory();updateHealth();render();
  }finally{el('refresh').disabled=false}
 }
