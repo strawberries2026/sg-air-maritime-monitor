@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:01:58.932187+00:00",
+  "updatedAt": "2026-10-27T22:16:40.925685+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "636026627",
-      "mmsi": "636026627",
-      "name": "EVER GIVEN",
-      "category": "unknown",
-      "lat": 1.1949566666666667,
-      "lon": 103.81851,
-      "speedKmh": 17.0,
-      "heading": 127.8,
-      "reportedAt": "2026-10-27T20:46:18.782798+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "374820000",
       "mmsi": "374820000",
       "name": "COSMIC OAK",
@@ -36,18 +24,6 @@
       "speedKmh": 18.5,
       "heading": 318.3,
       "reportedAt": "2026-10-27T21:00:46.939134+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002489",
-      "mmsi": "311002489",
-      "name": "HOSHI",
-      "category": "unknown",
-      "lat": 1.2637166666666666,
-      "lon": 103.88018333333333,
-      "speedKmh": 0.0,
-      "heading": 308.8,
-      "reportedAt": "2026-10-27T20:45:57.980253+00:00"
     },
     {
       "kind": "ship",
@@ -84,42 +60,6 @@
       "speedKmh": 0.0,
       "heading": 2.4,
       "reportedAt": "2026-10-27T21:15:47.495749+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533048500",
-      "mmsi": "533048500",
-      "name": "ORKIM LEADER",
-      "category": "unknown",
-      "lat": 1.2422883333333334,
-      "lon": 103.79569166666667,
-      "speedKmh": 0.0,
-      "heading": 188.3,
-      "reportedAt": "2026-10-27T20:45:28.207714+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563027990",
-      "mmsi": "563027990",
-      "name": "PERSEITY",
-      "category": "unknown",
-      "lat": 1.2940583333333333,
-      "lon": 103.94228666666666,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-27T20:45:38.391323+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021344",
-      "mmsi": "636021344",
-      "name": "AFRICA",
-      "category": "unknown",
-      "lat": 1.2612549999999998,
-      "lon": 103.91315166666666,
-      "speedKmh": 0.0,
-      "heading": 337.1,
-      "reportedAt": "2026-10-27T20:45:40.865487+00:00"
     },
     {
       "kind": "ship",
@@ -222,12 +162,12 @@
       "id": "219036000",
       "mmsi": "219036000",
       "name": "MURCIA MAERSK",
-      "category": "commercial",
+      "category": "unknown",
       "lat": 1.2754833333333333,
       "lon": 103.78156666666668,
       "speedKmh": 0.0,
-      "heading": 132.6,
-      "reportedAt": "2026-10-27T21:15:41.782207+00:00"
+      "heading": 80.8,
+      "reportedAt": "2026-10-27T22:15:41.926309+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +175,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.2378916666666666,
-      "lon": 103.79464833333333,
-      "speedKmh": 0.0,
-      "heading": 294.1,
-      "reportedAt": "2026-10-27T21:16:09.876736+00:00"
+      "lat": 1.238005,
+      "lon": 103.79459166666668,
+      "speedKmh": 0.4,
+      "heading": 12,
+      "reportedAt": "2026-10-27T22:16:10.709037+00:00"
     },
     {
       "kind": "ship",
@@ -293,13 +233,13 @@
       "kind": "ship",
       "id": "525024416",
       "mmsi": "525024416",
-      "name": "TB CAPRICORN 80",
+      "name": "525024416",
       "category": "unknown",
-      "lat": 1.2614699999999999,
-      "lon": 103.82624166666666,
+      "lat": 1.2614833333333333,
+      "lon": 103.82620333333332,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-27T21:16:32.037381+00:00"
+      "reportedAt": "2026-10-27T22:16:05.056065+00:00"
     },
     {
       "kind": "ship",
@@ -379,11 +319,11 @@
       "mmsi": "477692200",
       "name": "NEW WEALTH",
       "category": "unknown",
-      "lat": 1.2426683333333335,
-      "lon": 103.924035,
-      "speedKmh": 0.0,
-      "heading": 6.4,
-      "reportedAt": "2026-10-27T21:45:31.004277+00:00"
+      "lat": 1.24269,
+      "lon": 103.92408,
+      "speedKmh": 0.2,
+      "heading": 201.3,
+      "reportedAt": "2026-10-27T22:15:31.083866+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +396,78 @@
       "speedKmh": 0.0,
       "heading": 160.5,
       "reportedAt": "2026-10-27T22:01:19.538992+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087460",
+      "mmsi": "563087460",
+      "name": "PLUTO",
+      "category": "unknown",
+      "lat": 1.28927,
+      "lon": 103.91525,
+      "speedKmh": 14.1,
+      "heading": 242.4,
+      "reportedAt": "2026-10-27T22:15:32.989010+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563152300",
+      "mmsi": "563152300",
+      "name": "KOTA LIHAT",
+      "category": "unknown",
+      "lat": 1.2331283333333334,
+      "lon": 103.91877666666666,
+      "speedKmh": 19.3,
+      "heading": 244,
+      "reportedAt": "2026-10-27T22:15:40.876849+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563887000",
+      "mmsi": "563887000",
+      "name": "KOTA ANGGUN",
+      "category": "unknown",
+      "lat": 1.2625066666666667,
+      "lon": 103.837855,
+      "speedKmh": 0.2,
+      "heading": 181.7,
+      "reportedAt": "2026-10-27T22:15:42.433915+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311002489",
+      "mmsi": "311002489",
+      "name": "HOSHI",
+      "category": "unknown",
+      "lat": 1.2637833333333333,
+      "lon": 103.88004333333333,
+      "speedKmh": 0.0,
+      "heading": 308.8,
+      "reportedAt": "2026-10-27T22:16:02.274539+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563034500",
+      "mmsi": "563034500",
+      "name": "QUEEN STAR 8",
+      "category": "unknown",
+      "lat": 1.2622416666666667,
+      "lon": 103.81888000000001,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-10-27T22:16:02.274591+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563184200",
+      "mmsi": "563184200",
+      "name": "RUBICON NN22",
+      "category": "unknown",
+      "lat": 1.2453883333333333,
+      "lon": 103.77878000000001,
+      "speedKmh": 21.5,
+      "heading": 314.3,
+      "reportedAt": "2026-10-27T22:16:02.720621+00:00"
     }
   ],
   "error": null
