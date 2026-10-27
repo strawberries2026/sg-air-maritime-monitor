@@ -1,0 +1,58 @@
+name: Monitor tracking feed health
+on:
+  workflow_run:
+    workflows: ["Refresh tracking snapshots"]
+    types: [completed]
+  workflow_dispatch:
+  schedule:
+    - cron: '3,18,33,48 * * * *'
+permissions:
+  contents: read
+  actions: read
+  issues: write
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check feed freshness and collection failures
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const owner = context.repo.owner, repo = context.repo.repo;
+            const title = 'Tracking monitor: collection failure or stale data';
+            const now = Date.now(), threshold = 45 * 60 * 1000;
+            const problems = [], details = [];
+            for (const [name, path] of [['Aircraft', 'data/aircraft.json'], ['Vessel', 'data/vessels.json']]) {
+              try {
+                const file = await github.rest.repos.getContent({owner, repo, path});
+                const data = JSON.parse(Buffer.from(file.data.content, 'base64').toString('utf8'));
+                const stamp = Date.parse(data.updatedAt);
+                const age = Math.round((now - stamp) / 60000);
+                details.push(`- ${name}: last successful snapshot ${data.updatedAt || 'unknown'} (age ${Number.isFinite(age) ? age + ' minutes' : 'unknown'}), records: ${data.items?.length ?? 'unknown'}`);
+                if (!Number.isFinite(stamp) || now - stamp > threshold || now < stamp) problems.push(`${name} snapshot stale or timestamp invalid`);
+                if (data.error) problems.push(`${name} feed error: ${String(data.error).slice(0,250)}`);
+              } catch (e) { problems.push(`${name} snapshot unavailable: ${e.message}`); }
+            }
+            const runs = await github.rest.actions.listWorkflowRuns({owner, repo, workflow_id:'collect.yml', per_page:20});
+            const recent = runs.data.workflow_runs;
+            const lastSuccess = recent.find(r => r.conclusion === 'success');
+            details.push(`- Last successful workflow: ${lastSuccess ? lastSuccess.updated_at + ' (' + lastSuccess.html_url + ')' : 'not found in recent runs'}`);
+            const latest = recent[0];
+            if (latest && ['failure','timed_out','action_required'].includes(latest.conclusion)) {
+              problems.push(`Latest collection workflow ${latest.conclusion}: ${latest.html_url}`);
+            }
+            if (latest && latest.status === 'completed' && latest.conclusion === 'cancelled') {
+              problems.push(`Latest collection workflow cancelled: ${latest.html_url}`);
+            }
+            const found = await github.paginate(github.rest.issues.listForRepo, {owner, repo, state:'open', per_page:100});
+            const existing = found.find(i => !i.pull_request && i.title === title);
+            if (problems.length) {
+              const body = ['## Automated tracking health alert', '', 'Detected at: ' + new Date(now).toISOString(), '', '**Problems**', ...problems.map(x=>'- '+x), '', '**Last successful refresh**', ...details, '', '**Recommended next step**', 'Inspect the collection workflow logs, rerun the collection if necessary, and verify that both snapshots advance. If scheduled runs are missing, inspect the external scheduler and its authentication.', '', 'This issue is updated on subsequent checks and automatically closed after recovery.'].join('\n');
+              if (existing) await github.rest.issues.update({owner, repo, issue_number:existing.number, body});
+              else await github.rest.issues.create({owner, repo, title, body});
+              core.setFailed(problems.join('; '));
+            } else {
+              if (existing) await github.rest.issues.update({owner, repo, issue_number:existing.number, state:'closed', state_reason:'completed', body:existing.body+'\n\nResolved automatically at '+new Date(now).toISOString()});
+              core.info('Both feeds current; latest collection has no failure. No notification issued.');
+            }
