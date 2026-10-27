@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T15:46:43.278508+00:00",
+  "updatedAt": "2026-10-27T16:03:33.872624+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2506616666666666,
-      "lon": 103.87119333333334,
+      "lat": 1.2505783333333333,
+      "lon": 103.87133999999999,
       "speedKmh": 0.0,
       "heading": 152.8,
-      "reportedAt": "2026-10-27T14:46:30.854080+00:00"
+      "reportedAt": "2026-10-27T16:02:40.491860+00:00"
     },
     {
       "kind": "ship",
@@ -75,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "477015400",
-      "mmsi": "477015400",
-      "name": "OOCL PORTUGAL",
-      "category": "unknown",
-      "lat": 1.2296266666666669,
-      "lon": 103.91121333333334,
-      "speedKmh": 15.9,
-      "heading": 250.6,
-      "reportedAt": "2026-10-27T14:16:46.474819+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563197000",
       "mmsi": "563197000",
       "name": "BLISS",
@@ -108,54 +96,6 @@
       "speedKmh": 19.8,
       "heading": 56.1,
       "reportedAt": "2026-10-27T14:46:10.965683+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "372728000",
-      "mmsi": "372728000",
-      "name": "NANIWA",
-      "category": "unknown",
-      "lat": 1.1446433333333335,
-      "lon": 103.78040166666666,
-      "speedKmh": 17.0,
-      "heading": 51.1,
-      "reportedAt": "2026-10-27T14:30:49.318951+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563190900",
-      "mmsi": "563190900",
-      "name": "GOODTRANS 1",
-      "category": "unknown",
-      "lat": 1.2638583333333335,
-      "lon": 103.88005,
-      "speedKmh": 0.0,
-      "heading": 169.3,
-      "reportedAt": "2026-10-27T14:31:16.888706+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "354663000",
-      "mmsi": "354663000",
-      "name": "SUNNY ORION",
-      "category": "unknown",
-      "lat": 1.1847999999999999,
-      "lon": 103.82898333333333,
-      "speedKmh": 25.2,
-      "heading": 246,
-      "reportedAt": "2026-10-27T14:31:07.976738+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440029000",
-      "mmsi": "440029000",
-      "name": "SEA CRYSTAL",
-      "category": "unknown",
-      "lat": 1.2151850000000002,
-      "lon": 103.79646333333334,
-      "speedKmh": 10.0,
-      "heading": 136.9,
-      "reportedAt": "2026-10-27T14:31:11.824725+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +420,42 @@
       "speedKmh": 0.0,
       "heading": 71.3,
       "reportedAt": "2026-10-27T15:46:24.854175+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019990",
+      "mmsi": "636019990",
+      "name": "SOLAR TINE",
+      "category": "unknown",
+      "lat": 1.2167066666666666,
+      "lon": 103.82512,
+      "speedKmh": 1.1,
+      "heading": 194.5,
+      "reportedAt": "2026-10-27T16:02:48.201450+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "412439588",
+      "mmsi": "412439588",
+      "name": "OUYA9",
+      "category": "unknown",
+      "lat": 1.237385,
+      "lon": 103.81994666666667,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-27T16:02:52.953366+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636093421",
+      "mmsi": "636093421",
+      "name": "636093421",
+      "category": "unknown",
+      "lat": 1.25065,
+      "lon": 103.79333333333334,
+      "speedKmh": 9.4,
+      "heading": 75.9,
+      "reportedAt": "2026-10-27T16:03:30.137588+00:00"
     }
   ],
   "error": null
