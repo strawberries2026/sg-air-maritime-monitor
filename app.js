@@ -6,6 +6,9 @@
  */
 const map=L.map('map').setView([1.3521,103.8198],9);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
+// Fixed geographic landmark only — not a vessel, patrol or operational marker.
+L.marker([1.330,104.407],{icon:L.divIcon({className:'pedra-branca-landmark',html:'📍',iconSize:[28,32],iconAnchor:[14,32]}),zIndexOffset:1000}).bindPopup('<strong>Pedra Branca</strong><br>Singapore offshore island / landmark<br>Approx. 1.330° N, 104.407° E<br><small>Fixed geographic reference; not a vessel position.</small>').addTo(map);
+
 // Static, Singapore-wide educational reference; never represents a vessel or patrol location.
 const agencyReference=L.marker([1.3521,103.8198],{icon:L.divIcon({className:'agency-reference-marker',html:'ℹ',iconSize:[26,26]}),zIndexOffset:-1000}).bindPopup('<div class="compact-popup"><strong>Singapore maritime organisations</strong><span>🚔 Police Coast Guard · ⚓ Republic of Singapore Navy</span><span>General information only. This is a fixed Singapore-wide reference, NOT a boat, base, patrol location or live position.</span><a href="#government-vessels">Read public information ↓</a></div>').addTo(map);
 
