@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-27T16:31:52.056209+00:00",
+  "updatedAt": "2026-10-27T16:46:43.027708+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "533133444",
-      "mmsi": "533133444",
-      "name": "GENEVIEVE 88",
-      "category": "unknown",
-      "lat": 1.2488966666666668,
-      "lon": 103.795095,
-      "speedKmh": 0.0,
-      "heading": 174.2,
-      "reportedAt": "2026-10-27T15:16:22.139996+00:00"
-    },
     {
       "kind": "ship",
       "id": "563087130",
@@ -67,11 +55,11 @@
       "mmsi": "352978147",
       "name": "SUNRISE SUMMER",
       "category": "unknown",
-      "lat": 1.2670266666666667,
-      "lon": 103.88693333333335,
-      "speedKmh": 0.0,
-      "heading": 344.9,
-      "reportedAt": "2026-10-27T15:31:30.854124+00:00"
+      "lat": 1.266995,
+      "lon": 103.88633833333333,
+      "speedKmh": 0.2,
+      "heading": 352,
+      "reportedAt": "2026-10-27T16:46:30.874019+00:00"
     },
     {
       "kind": "ship",
@@ -84,54 +72,6 @@
       "speedKmh": 27.0,
       "heading": 66.1,
       "reportedAt": "2026-10-27T15:30:49.729786+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021344",
-      "mmsi": "636021344",
-      "name": "AFRICA",
-      "category": "unknown",
-      "lat": 1.2610433333333333,
-      "lon": 103.91344333333333,
-      "speedKmh": 0.0,
-      "heading": 140.8,
-      "reportedAt": "2026-10-27T15:15:40.874582+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563066530",
-      "mmsi": "563066530",
-      "name": "PSA POLARIS YS50",
-      "category": "unknown",
-      "lat": 1.2670083333333333,
-      "lon": 103.79397,
-      "speedKmh": 0.6,
-      "heading": 153.1,
-      "reportedAt": "2026-10-27T15:15:54.289329+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012375",
-      "mmsi": "538012375",
-      "name": "SAFESEA LAXMI",
-      "category": "unknown",
-      "lat": 1.2056116666666665,
-      "lon": 103.89891333333334,
-      "speedKmh": 14.6,
-      "heading": 63.5,
-      "reportedAt": "2026-10-27T15:16:05.821114+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086930",
-      "mmsi": "563086930",
-      "name": "PSA PISCES",
-      "category": "unknown",
-      "lat": 1.2296133333333332,
-      "lon": 103.78350833333334,
-      "speedKmh": 16.9,
-      "heading": 137.1,
-      "reportedAt": "2026-10-27T15:16:07.511869+00:00"
     },
     {
       "kind": "ship",
@@ -487,11 +427,11 @@
       "mmsi": "563991000",
       "name": "APIA CHIEF",
       "category": "unknown",
-      "lat": 1.2608866666666667,
-      "lon": 103.889365,
+      "lat": 1.26086,
+      "lon": 103.889395,
       "speedKmh": 0.2,
-      "heading": 167.9,
-      "reportedAt": "2026-10-27T16:31:01.997393+00:00"
+      "heading": 140.6,
+      "reportedAt": "2026-10-27T16:46:22.237291+00:00"
     },
     {
       "kind": "ship",
@@ -600,6 +540,54 @@
       "speedKmh": 15.2,
       "heading": 136,
       "reportedAt": "2026-10-27T16:31:44.056988+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "244850097",
+      "mmsi": "244850097",
+      "name": "BIGROLL BEAUFORT",
+      "category": "unknown",
+      "lat": 1.2472333333333334,
+      "lon": 103.87321666666666,
+      "speedKmh": 0.2,
+      "heading": 339.3,
+      "reportedAt": "2026-10-27T16:45:29.264438+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525024416",
+      "mmsi": "525024416",
+      "name": "525024416",
+      "category": "unknown",
+      "lat": 1.2614733333333334,
+      "lon": 103.82622166666667,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-27T16:45:39.461344+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636021344",
+      "mmsi": "636021344",
+      "name": "AFRICA",
+      "category": "unknown",
+      "lat": 1.2616816666666668,
+      "lon": 103.91279166666666,
+      "speedKmh": 0.0,
+      "heading": 135.6,
+      "reportedAt": "2026-10-27T16:45:40.823975+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538010487",
+      "mmsi": "538010487",
+      "name": "CHRYSTAL ARCTIC",
+      "category": "unknown",
+      "lat": 1.252135,
+      "lon": 103.92590666666666,
+      "speedKmh": 0.0,
+      "heading": 343.8,
+      "reportedAt": "2026-10-27T16:46:25.160153+00:00"
     }
   ],
   "error": null
