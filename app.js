@@ -234,3 +234,11 @@ function renderMovementTrendChart(){
   row.append(label,bars,numbers);root.append(row);
  }
 }
+
+// v1.7.0: verified official airport link handoff, never fabricated flight statuses.
+(function(){
+ const airport=document.getElementById('flightAirport'),direction=document.getElementById('flightDirection');if(!airport||!direction)return;
+ const urls={changi:{arrivals:'https://www.changiairport.com/en/fly/flight-information/arrivals.html',departures:'https://www.changiairport.com/en/fly/flight-information/departures.html'},seletar:{arrivals:'https://www.seletarairport.com/',departures:'https://www.seletarairport.com/'}};
+ function update(){const a=airport.value,d=direction.value,name=a==='changi'?'Changi Airport':'Seletar Airport';document.getElementById('flightAirportLabel').textContent=name;document.getElementById('flightDirectionLabel').textContent=d==='arrivals'?'Arrivals':'Departures';const link=document.getElementById('flightOfficialLink');link.href=urls[a][d];link.textContent='Open official '+name+' '+d+' information ↗';document.getElementById('flightCentreStatus').textContent='Flight status and arrival/departure totals are not connected. '+(a==='seletar'?'The official Seletar website provides airport information; availability of individual flight details may vary.':'Check the official Changi flight information page for the latest published status.');}
+ airport.addEventListener('change',update);direction.addEventListener('change',update);update();
+})();
