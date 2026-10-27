@@ -77,7 +77,7 @@ async function loadHistory(){
   if(!r.ok)throw Error('History not yet published');
   const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
  }catch(e){historyTracks={};}
- renderObservationTrends();
+ renderObservationTrends();renderMovementDashboard();
 }
 el('trailToggle').addEventListener('click',()=>{trailVisible=!trailVisible;const obj=[...air,...ships].find(x=>x.kind+':'+x.id===selectedKey);if(obj)showDetails(obj);});
 map.on('popupopen',e=>{const button=e.popup.getElement()?.querySelector('.popup-details');if(button)button.addEventListener('click',()=>{const obj=[...air,...ships].find(x=>x.kind+':'+x.id===button.dataset.object);if(obj){showDetails(obj);map.closePopup();el('objectDetails').scrollIntoView({behavior:'smooth',block:'start'});}})});
@@ -193,4 +193,19 @@ function renderObservationTrends(){
  const date=document.createElement('strong');date.textContent=day+' SGT';
  const detail=document.createElement('span');detail.textContent='✈ '+count.air.size+' aircraft · 🚢 '+count.ship.size+' vessels';
  row.append(date,detail);root.append(row);}
+}
+
+// v1.6.0: truthful observed-identifier counts; do not infer airport movements from positions.
+function renderMovementDashboard(){
+ const now=Date.now(),cutoff=now-24*60*60*1000;
+ for(const [kind,id,statusId] of [['air','movementAirObserved','movementAirStatus'],['ship','movementShipObserved','movementShipStatus']]){
+  const keys=new Set();let observations=0;
+  for(const [key,samples] of Object.entries(historyTracks)){
+   if(!key.startsWith(kind+':')||!Array.isArray(samples))continue;
+   if(samples.some(p=>{const t=Date.parse(p.at);return Number.isFinite(t)&&t>=cutoff&&t<=now+60000&&Number.isFinite(p.lat)&&Number.isFinite(p.lon)})){keys.add(key);observations++;}
+  }
+  const count=document.getElementById(id),status=document.getElementById(statusId);
+  if(count)count.textContent=observations?String(keys.size):'—';
+  if(status)status.textContent=observations?'Partial public-feed coverage · distinct identifiers, not total movements.':'Insufficient valid observations to report a 24-hour count.';
+ }
 }
