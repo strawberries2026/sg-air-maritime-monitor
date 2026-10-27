@@ -1,29 +1,77 @@
 {
-  "updatedAt": "2026-10-27T06:01:55.465121+00:00",
+  "updatedAt": "2026-10-27T06:16:39.403570+00:00",
   "items": [
     {
       "kind": "ship",
-      "id": "441027000",
-      "mmsi": "441027000",
-      "name": "DS PANTHER",
+      "id": "566717000",
+      "mmsi": "566717000",
+      "name": "MARINA ARIEL",
       "category": "unknown",
-      "lat": 1.1944000000000001,
-      "lon": 103.84856666666666,
-      "speedKmh": 13.9,
-      "heading": 240,
-      "reportedAt": "2026-10-27T06:00:40.299731+00:00"
+      "lat": 1.2608466666666667,
+      "lon": 103.85100333333334,
+      "speedKmh": 0.0,
+      "heading": 291.3,
+      "reportedAt": "2026-10-27T06:15:35.462195+00:00"
     },
     {
       "kind": "ship",
-      "id": "636020453",
-      "mmsi": "636020453",
-      "name": "ALMI HERCULES",
+      "id": "538007759",
+      "mmsi": "538007759",
+      "name": "JABAL SAMHAN",
       "category": "unknown",
-      "lat": 1.24359,
-      "lon": 103.91240333333333,
+      "lat": 1.2743916666666666,
+      "lon": 103.93981833333333,
+      "speedKmh": 0.7,
+      "heading": 258.4,
+      "reportedAt": "2026-10-27T06:15:57.083743+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009220",
+      "mmsi": "563009220",
+      "name": "NOBLE VEGA",
+      "category": "unknown",
+      "lat": 1.2580283333333333,
+      "lon": 103.84246166666667,
       "speedKmh": 0.0,
-      "heading": 122.3,
-      "reportedAt": "2026-10-27T06:00:57.858369+00:00"
+      "heading": null,
+      "reportedAt": "2026-10-27T06:16:02.159940+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "305554000",
+      "mmsi": "305554000",
+      "name": "ELBMASTER",
+      "category": "unknown",
+      "lat": 1.25055,
+      "lon": 103.96646166666666,
+      "speedKmh": 6.1,
+      "heading": 251,
+      "reportedAt": "2026-10-27T06:16:05.267611+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566601000",
+      "mmsi": "566601000",
+      "name": "DELPHINE",
+      "category": "unknown",
+      "lat": 1.1929116666666668,
+      "lon": 103.80086166666666,
+      "speedKmh": 0.6,
+      "heading": 296.3,
+      "reportedAt": "2026-10-27T06:16:22.303894+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564298000",
+      "mmsi": "564298000",
+      "name": "JET FLYTE II",
+      "category": "unknown",
+      "lat": 1.2610583333333334,
+      "lon": 103.81069000000001,
+      "speedKmh": 11.3,
+      "heading": 92.7,
+      "reportedAt": "2026-10-27T06:16:22.476414+00:00"
     }
   ],
   "error": null
