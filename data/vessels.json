@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T20:57:19.636559+00:00",
+  "updatedAt": "2026-10-27T21:01:58.657685+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "564590000",
-      "mmsi": "564590000",
-      "name": "PACIFIC PRIDE",
-      "category": "unknown",
-      "lat": 1.2629483333333333,
-      "lon": 103.87101333333334,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-27T19:31:34.813755+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219036000",
-      "mmsi": "219036000",
-      "name": "MURCIA MAERSK",
-      "category": "unknown",
-      "lat": 1.2754833333333333,
-      "lon": 103.78156666666668,
-      "speedKmh": 0.0,
-      "heading": 91.9,
-      "reportedAt": "2026-10-27T19:30:43.198919+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "255962000",
       "mmsi": "255962000",
       "name": "CAROLINE",
@@ -72,18 +48,6 @@
       "speedKmh": 0.0,
       "heading": 241.5,
       "reportedAt": "2026-10-27T20:30:44.812833+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008428",
-      "mmsi": "538008428",
-      "name": "DALE",
-      "category": "unknown",
-      "lat": 1.2454016666666667,
-      "lon": 103.79207500000001,
-      "speedKmh": 0.0,
-      "heading": 347.1,
-      "reportedAt": "2026-10-27T19:30:55.834058+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +115,11 @@
       "mmsi": "374820000",
       "name": "COSMIC OAK",
       "category": "unknown",
-      "lat": 1.2068100000000002,
-      "lon": 103.84236,
-      "speedKmh": 23.3,
-      "heading": 263.6,
-      "reportedAt": "2026-10-27T20:45:56.520872+00:00"
+      "lat": 1.2164616666666668,
+      "lon": 103.79971166666665,
+      "speedKmh": 18.5,
+      "heading": 318.3,
+      "reportedAt": "2026-10-27T21:00:46.939134+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +307,11 @@
       "mmsi": "371559000",
       "name": "TIANJIN HIGHWAY",
       "category": "unknown",
-      "lat": 1.276155,
-      "lon": 103.88635833333333,
+      "lat": 1.2760966666666667,
+      "lon": 103.88638333333333,
       "speedKmh": 0.0,
-      "heading": 333.2,
-      "reportedAt": "2026-10-27T20:30:52.445957+00:00"
+      "heading": 130.2,
+      "reportedAt": "2026-10-27T21:01:06.358922+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +403,11 @@
       "mmsi": "574252000",
       "name": "PETROLIMEX 16",
       "category": "unknown",
-      "lat": 1.1987333333333334,
-      "lon": 103.81465,
-      "speedKmh": 13.5,
-      "heading": 134,
-      "reportedAt": "2026-10-27T20:56:21.315359+00:00"
+      "lat": 1.1931,
+      "lon": 103.82183333333334,
+      "speedKmh": 8.3,
+      "heading": 92,
+      "reportedAt": "2026-10-27T21:01:31.939498+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +432,42 @@
       "speedKmh": 0.6,
       "heading": 187.7,
       "reportedAt": "2026-10-27T20:57:08.061385+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564590000",
+      "mmsi": "564590000",
+      "name": "PACIFIC PRIDE",
+      "category": "unknown",
+      "lat": 1.2629283333333334,
+      "lon": 103.87101333333334,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-10-27T21:01:15.207833+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352732000",
+      "mmsi": "352732000",
+      "name": "CALIFORNIA HIGHWAY",
+      "category": "unknown",
+      "lat": 1.2562083333333334,
+      "lon": 103.86384500000001,
+      "speedKmh": 0.9,
+      "heading": 216.2,
+      "reportedAt": "2026-10-27T21:01:16.321548+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477463900",
+      "mmsi": "477463900",
+      "name": "ISLAND EXPRESS",
+      "category": "unknown",
+      "lat": 1.2263666666666666,
+      "lon": 103.79594999999999,
+      "speedKmh": 0.0,
+      "heading": 142,
+      "reportedAt": "2026-10-27T21:01:33.226636+00:00"
     }
   ],
   "error": null
