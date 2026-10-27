@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T13:16:49.473107+00:00",
+  "updatedAt": "2026-10-27T13:31:49.593806+00:00",
   "items": [
     {
       "kind": "ship",
@@ -168,6 +168,54 @@
       "speedKmh": 29.8,
       "heading": 191.6,
       "reportedAt": "2026-10-27T13:16:33.666709+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "356643000",
+      "mmsi": "356643000",
+      "name": "HD SUN",
+      "category": "unknown",
+      "lat": 1.2578433333333334,
+      "lon": 103.91425666666667,
+      "speedKmh": 13.0,
+      "heading": 97,
+      "reportedAt": "2026-10-27T13:30:47.974141+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008428",
+      "mmsi": "538008428",
+      "name": "DALE",
+      "category": "unknown",
+      "lat": 1.2452316666666665,
+      "lon": 103.79209333333333,
+      "speedKmh": 0.0,
+      "heading": 347.1,
+      "reportedAt": "2026-10-27T13:30:50.589946+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371559000",
+      "mmsi": "371559000",
+      "name": "TIANJIN HIGHWAY",
+      "category": "unknown",
+      "lat": 1.2762383333333331,
+      "lon": 103.88625666666667,
+      "speedKmh": 0.2,
+      "heading": 1.6,
+      "reportedAt": "2026-10-27T13:30:53.028661+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.275465,
+      "lon": 103.90522666666668,
+      "speedKmh": 0.0,
+      "heading": 223.9,
+      "reportedAt": "2026-10-27T13:30:59.774214+00:00"
     }
   ],
   "error": null
