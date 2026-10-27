@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:46:40.460716+00:00",
+  "updatedAt": "2026-10-27T13:01:57.377394+00:00",
   "items": [
     {
       "kind": "ship",
@@ -72,6 +72,42 @@
       "speedKmh": 0.2,
       "heading": 12.1,
       "reportedAt": "2026-10-27T12:46:10.524506+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533133444",
+      "mmsi": "533133444",
+      "name": "GENEVIEVE 88",
+      "category": "unknown",
+      "lat": 1.24943,
+      "lon": 103.79480666666667,
+      "speedKmh": 0.2,
+      "heading": 174.2,
+      "reportedAt": "2026-10-27T13:01:22.059510+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.2507733333333335,
+      "lon": 103.87104666666667,
+      "speedKmh": 0.0,
+      "heading": 152.8,
+      "reportedAt": "2026-10-27T13:01:29.294577+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563318500",
+      "mmsi": "563318500",
+      "name": "BALVENIE",
+      "category": "unknown",
+      "lat": 1.233905,
+      "lon": 103.79534333333332,
+      "speedKmh": 0.2,
+      "heading": 162.4,
+      "reportedAt": "2026-10-27T13:01:49.782049+00:00"
     }
   ],
   "error": null
