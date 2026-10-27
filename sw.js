@@ -1,8 +1,8 @@
 // Scoped offline shell for SG Air & Maritime Monitor only.
 // Never delete or overwrite caches belonging to other GitHub Pages apps.
 const PREFIX='sg-air-maritime-shell-';
-const CACHE=PREFIX+'v3';
-const SHELL=['./','./index.html','./style.css','./app.js','./icon.svg'];
+const CACHE=PREFIX+'v1.5.1';
+const SHELL=['./','./index.html','./style.css?v=1.5.1','./app.js?v=1.5.1','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(
   caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())
 ));
@@ -15,7 +15,7 @@ self.addEventListener('fetch',event=>{
   const scope=new URL(self.registration.scope);
   if(request.method!=='GET'||url.origin!==scope.origin||!url.pathname.startsWith(scope.pathname)||url.pathname.includes('/data/'))return;
   if(request.mode==='navigate'){
-    event.respondWith(fetch(request).catch(()=>caches.match('./index.html')));
+    event.respondWith(fetch(request,{cache:'no-store'}).catch(()=>caches.match('./index.html')));
     return;
   }
   if(SHELL.some(path=>url.pathname===new URL(path,scope).pathname)){
