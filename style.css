@@ -71,3 +71,6 @@
 
 /* v1.4.0: flight number handoff */
 .flight-lookup{margin:14px 0 18px;padding:14px;border:1px solid #355b73;border-radius:12px;background:#102d42}.flight-lookup label{display:block;margin-bottom:8px;font-weight:700}.flight-lookup-row{display:flex;flex-wrap:wrap;gap:10px}.flight-lookup-row input{flex:1 1 170px;min-width:0;padding:11px 12px;border:1px solid #64849b;border-radius:8px;background:#071c2d;color:#fff;font:inherit;text-transform:uppercase}.flight-lookup-row button{flex:0 1 auto;padding:11px 16px}.flight-lookup .notice{margin:10px 0 0}@media(max-width:520px){.flight-lookup-row{flex-direction:column}.flight-lookup-row input,.flight-lookup-row button{width:100%;flex:auto}}
+
+/* v1.5.0: compact, mobile-friendly partial history summaries */
+.observation-trends{display:grid;gap:8px;margin-top:14px}.observation-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;padding:11px 13px;background:#102f44;border:1px solid #355b73;border-radius:9px}.observation-row strong{font-size:13px}.observation-row span{font-size:13px;color:#d1e8f5}@media(max-width:520px){.observation-row{flex-direction:column;gap:4px}}
