@@ -156,3 +156,17 @@ const pedra=[1.330,104.407];
 el('pedraBrancaButton').addEventListener('click',()=>{el('mode').value='ship';el('category').value='all';el('search').value='';recordLimit=12;render();syncMapModeButtons();map.invalidateSize();map.setView(pedra,13,{animate:false});pedraMarker.openPopup();const nearby=ships.filter(x=>map.distance([x.lat,x.lon],pedra)<=20000);const feed=lastFeeds?.s;el('pedraBrancaStatus').textContent=feed?.error?'Maritime feed error: '+feed.error:!feed||!freshness(feed.updated).ok?'Maritime snapshot is stale or unavailable; vessel locations cannot be verified.':nearby.length?nearby.length+' vessel report(s) within 20 km of Pedra Branca in the latest available AIS snapshot. Coverage is incomplete.':'No vessel reports within 20 km of Pedra Branca in the latest available AIS snapshot. This does not mean the area is empty.';el('map').scrollIntoView({behavior:'smooth',block:'start'});});
 el('singaporeMapButton').addEventListener('click',()=>{map.setView([1.3521,103.8198],9);el('mode').value='all';render();syncMapModeButtons();el('pedraBrancaStatus').textContent='Singapore overview restored.';});
 syncMapModeButtons();load();setInterval(load,60000);setInterval(updateHealth,30000);
+
+// v1.4.0: optional flight number handoff to official airport information.
+const flightInput=document.getElementById('flightNumber');
+const flightCopy=document.getElementById('copyFlightNumber');
+const flightStatus=document.getElementById('flightCopyStatus');
+if(flightInput&&flightCopy&&flightStatus){
+  flightInput.addEventListener('input',()=>{flightInput.value=flightInput.value.toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,9);flightStatus.textContent='';});
+  flightCopy.addEventListener('click',async()=>{
+    const number=flightInput.value.trim();
+    if(!/^[A-Z0-9]{2,3}[0-9]{1,4}[A-Z]?$/.test(number)){flightStatus.textContent='Enter a valid-looking flight number (e.g. SQ318).';flightInput.focus();return;}
+    try{await navigator.clipboard.writeText(number);flightStatus.textContent=number+' copied. Open the official arrivals or departures page and paste it into its search.';}
+    catch(e){flightInput.select();flightStatus.textContent='Select Copy from your phone menu, then paste '+number+' into the official airport search.';}
+  });
+}
