@@ -1,41 +1,65 @@
 {
-  "updatedAt": "2026-10-27T12:01:56.210234+00:00",
+  "updatedAt": "2026-10-27T12:16:42.598695+00:00",
   "items": [
+    {
+      "kind": "ship",
+      "id": "533048500",
+      "mmsi": "533048500",
+      "name": "ORKIM LEADER",
+      "category": "unknown",
+      "lat": 1.2427533333333334,
+      "lon": 103.79649666666666,
+      "speedKmh": 0.2,
+      "heading": 213.1,
+      "reportedAt": "2026-10-27T12:15:29.663645+00:00"
+    },
     {
       "kind": "ship",
       "id": "563325200",
       "mmsi": "563325200",
       "name": "MARINE HERO",
       "category": "unknown",
-      "lat": 1.213755,
-      "lon": 103.80468166666667,
-      "speedKmh": 14.1,
-      "heading": 292.8,
-      "reportedAt": "2026-10-27T12:00:43.321386+00:00"
+      "lat": 1.2357983333333336,
+      "lon": 103.78238666666667,
+      "speedKmh": 14.8,
+      "heading": 341,
+      "reportedAt": "2026-10-27T12:15:33.326983+00:00"
     },
     {
       "kind": "ship",
-      "id": "565390000",
-      "mmsi": "565390000",
-      "name": "JAYA OCEAN",
+      "id": "357694000",
+      "mmsi": "357694000",
+      "name": "DALIAN HIGHWAY",
       "category": "unknown",
-      "lat": 1.2377416666666667,
-      "lon": 103.79587666666666,
-      "speedKmh": 0.2,
-      "heading": 277.9,
-      "reportedAt": "2026-10-27T12:01:10.030845+00:00"
+      "lat": 1.2541233333333333,
+      "lon": 103.86418499999999,
+      "speedKmh": 0.4,
+      "heading": 133.9,
+      "reportedAt": "2026-10-27T12:15:49.598203+00:00"
     },
     {
       "kind": "ship",
-      "id": "563120700",
-      "mmsi": "563120700",
-      "name": "MAESTRO",
+      "id": "413238570",
+      "mmsi": "413238570",
+      "name": "ZHONG HANG SHENG",
       "category": "unknown",
-      "lat": 1.23222,
-      "lon": 103.89730166666666,
-      "speedKmh": 17.0,
-      "heading": 62.6,
-      "reportedAt": "2026-10-27T12:01:43.954067+00:00"
+      "lat": 1.2639366666666667,
+      "lon": 103.83447166666666,
+      "speedKmh": 0.0,
+      "heading": 220.9,
+      "reportedAt": "2026-10-27T12:16:23.414091+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563780000",
+      "mmsi": "563780000",
+      "name": "SINDO 12",
+      "category": "unknown",
+      "lat": 1.2435933333333333,
+      "lon": 103.78362,
+      "speedKmh": 33.0,
+      "heading": 24.8,
+      "reportedAt": "2026-10-27T12:16:32.152098+00:00"
     }
   ],
   "error": null
