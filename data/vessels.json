@@ -1,65 +1,53 @@
 {
-  "updatedAt": "2026-10-27T10:46:41.045247+00:00",
+  "updatedAt": "2026-10-27T11:01:07.157166+00:00",
   "items": [
     {
       "kind": "ship",
-      "id": "563038700",
-      "mmsi": "563038700",
-      "name": "MARINE SELENA",
+      "id": "563195300",
+      "mmsi": "563195300",
+      "name": "WAN HAI 366",
       "category": "unknown",
-      "lat": 1.2597316666666667,
-      "lon": 103.84124333333332,
+      "lat": 1.1905283333333334,
+      "lon": 103.84314833333333,
+      "speedKmh": 24.4,
+      "heading": 245.4,
+      "reportedAt": "2026-10-27T11:00:09.888372+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012962",
+      "mmsi": "538012962",
+      "name": "AMETHYST",
+      "category": "unknown",
+      "lat": 1.2645833333333334,
+      "lon": 103.76116999999999,
+      "speedKmh": 11.7,
+      "heading": 308.1,
+      "reportedAt": "2026-10-27T11:00:17.813541+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009121",
+      "mmsi": "538009121",
+      "name": "AVRA.GR",
+      "category": "unknown",
+      "lat": 1.1758166666666667,
+      "lon": 103.83601666666667,
+      "speedKmh": 23.0,
+      "heading": 64.7,
+      "reportedAt": "2026-10-27T11:00:52.049803+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311002489",
+      "mmsi": "311002489",
+      "name": "HOSHI",
+      "category": "unknown",
+      "lat": 1.2651716666666668,
+      "lon": 103.87968666666667,
       "speedKmh": 0.0,
-      "heading": 216.7,
-      "reportedAt": "2026-10-27T10:45:38.421844+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563111200",
-      "mmsi": "563111200",
-      "name": "SINAR SUNDA",
-      "category": "unknown",
-      "lat": 1.2228416666666668,
-      "lon": 103.79588333333332,
-      "speedKmh": 20.2,
-      "heading": 316.3,
-      "reportedAt": "2026-10-27T10:46:00.463312+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636020453",
-      "mmsi": "636020453",
-      "name": "ALMI HERCULES",
-      "category": "unknown",
-      "lat": 1.24425,
-      "lon": 103.91197166666667,
-      "speedKmh": 0.0,
-      "heading": 77.8,
-      "reportedAt": "2026-10-27T10:46:04.467634+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566685000",
-      "mmsi": "566685000",
-      "name": "SEA SOLIDARITY",
-      "category": "unknown",
-      "lat": 1.2947666666666668,
-      "lon": 103.95021,
-      "speedKmh": 0.0,
-      "heading": 249.8,
-      "reportedAt": "2026-10-27T10:46:28.915553+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563078420",
-      "mmsi": "563078420",
-      "name": "ENG HUP MARIN",
-      "category": "unknown",
-      "lat": 1.2419233333333333,
-      "lon": 103.80636666666666,
-      "speedKmh": 11.5,
-      "heading": 287.5,
-      "reportedAt": "2026-10-27T10:46:38.358874+00:00"
+      "heading": 192.5,
+      "reportedAt": "2026-10-27T11:00:53.867831+00:00"
     }
   ],
   "error": null
