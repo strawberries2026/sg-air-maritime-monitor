@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T17:16:42.649420+00:00",
+  "updatedAt": "2026-10-27T17:31:50.887441+00:00",
   "items": [
     {
       "kind": "ship",
@@ -366,12 +366,12 @@
       "id": "563130300",
       "mmsi": "563130300",
       "name": "EPITOME",
-      "category": "commercial",
-      "lat": 1.218875,
-      "lon": 103.79344333333333,
-      "speedKmh": 15.2,
-      "heading": 136,
-      "reportedAt": "2026-10-27T16:31:44.056988+00:00"
+      "category": "unknown",
+      "lat": 1.2426533333333334,
+      "lon": 103.91560333333334,
+      "speedKmh": 19.1,
+      "heading": 58.2,
+      "reportedAt": "2026-10-27T17:31:22.852847+00:00"
     },
     {
       "kind": "ship",
@@ -588,6 +588,42 @@
       "speedKmh": 26.5,
       "heading": 239,
       "reportedAt": "2026-10-27T17:16:23.261620+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004859",
+      "mmsi": "352004859",
+      "name": "ASP JEWELS",
+      "category": "unknown",
+      "lat": 1.2351733333333332,
+      "lon": 103.68864666666667,
+      "speedKmh": 0.0,
+      "heading": 194.5,
+      "reportedAt": "2026-10-27T17:31:22.063394+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006237",
+      "mmsi": "352006237",
+      "name": "SANNOMINE",
+      "category": "unknown",
+      "lat": 1.253965,
+      "lon": 103.87190166666666,
+      "speedKmh": 0.2,
+      "heading": 268.6,
+      "reportedAt": "2026-10-27T17:31:41.066038+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563318500",
+      "mmsi": "563318500",
+      "name": "BALVENIE",
+      "category": "unknown",
+      "lat": 1.2342933333333332,
+      "lon": 103.79521333333334,
+      "speedKmh": 0.0,
+      "heading": 214,
+      "reportedAt": "2026-10-27T17:31:49.624695+00:00"
     }
   ],
   "error": null
