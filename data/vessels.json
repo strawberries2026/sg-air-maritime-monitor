@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:16:05.601292+00:00",
+  "updatedAt": "2026-10-28T13:31:48.545342+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.2,
       "heading": 191.9,
       "reportedAt": "2026-10-28T12:46:26.661908+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011338",
-      "mmsi": "538011338",
-      "name": "OSLO STAR",
-      "category": "unknown",
-      "lat": 1.2601133333333334,
-      "lon": 103.90242833333333,
-      "speedKmh": 0.2,
-      "heading": 115.1,
-      "reportedAt": "2026-10-28T12:00:43.731676+00:00"
     },
     {
       "kind": "ship",
@@ -48,30 +36,6 @@
       "speedKmh": 0.0,
       "heading": 130.8,
       "reportedAt": "2026-10-28T13:00:59.972657+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565102000",
-      "mmsi": "565102000",
-      "name": "AYER CHERDAS",
-      "category": "unknown",
-      "lat": 1.266455,
-      "lon": 103.90723,
-      "speedKmh": 0.2,
-      "heading": 227.5,
-      "reportedAt": "2026-10-28T12:00:58.722584+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006578",
-      "mmsi": "352006578",
-      "name": "SNOW DRAGON",
-      "category": "unknown",
-      "lat": 1.2785433333333331,
-      "lon": 103.88630166666667,
-      "speedKmh": 0.2,
-      "heading": 100.9,
-      "reportedAt": "2026-10-28T12:01:44.669137+00:00"
     },
     {
       "kind": "ship",
@@ -168,6 +132,54 @@
       "speedKmh": 0.0,
       "heading": 326.1,
       "reportedAt": "2026-10-28T13:16:00.196229+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012125",
+      "mmsi": "538012125",
+      "name": "STI MOXIE",
+      "category": "unknown",
+      "lat": 1.2574283333333334,
+      "lon": 103.91489166666666,
+      "speedKmh": 0.0,
+      "heading": 109.5,
+      "reportedAt": "2026-10-28T13:30:42.136719+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020122",
+      "mmsi": "636020122",
+      "name": "AQUAPISCES",
+      "category": "unknown",
+      "lat": 1.2613716666666666,
+      "lon": 103.96435666666666,
+      "speedKmh": 12.2,
+      "heading": 200.3,
+      "reportedAt": "2026-10-28T13:30:54.594281+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563254100",
+      "mmsi": "563254100",
+      "name": "KOTA OASIS",
+      "category": "unknown",
+      "lat": 1.233535,
+      "lon": 103.87789333333333,
+      "speedKmh": 9.3,
+      "heading": 303.6,
+      "reportedAt": "2026-10-28T13:30:57.846008+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "373721000",
+      "mmsi": "373721000",
+      "name": "EVER LADEN",
+      "category": "unknown",
+      "lat": 1.1674316666666666,
+      "lon": 103.80082166666666,
+      "speedKmh": 24.3,
+      "heading": 57.1,
+      "reportedAt": "2026-10-28T13:31:11.709543+00:00"
     }
   ],
   "error": null
