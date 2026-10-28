@@ -56,11 +56,12 @@ streetBasemap.addTo(map);
       summary.dataset.level=risk;
       document.getElementById('environmentHeadline').textContent=cloud+' · '+wind;
       document.getElementById('environmentInterpretation').textContent=rain+'. Wind from '+directionName(v.wind_direction_10m)+'. This summary covers forecast metrics only and does not assess flight or navigation safety.';
-      document.getElementById('environmentSeverity').textContent=labels[risk]+' · Informational, not an official warning';
+      document.getElementById('environmentSeverity').textContent=labels[risk].split(' · ')[0]+' · '+(risk==='low'?'No elevated rain or wind indicators':risk==='medium'?'Review official weather advisories':'Check official weather advisories')+' · Not an official warning';
       const levels={cloud:v.cloud_cover>=85?'medium':'low',rain:v.precipitation>=5?'high':v.precipitation>=1?'medium':'low',wind:v.wind_speed_10m>=40?'high':v.wind_speed_10m>=20?'medium':'low',direction:'neutral'};
       Object.entries(levels).forEach(([key,level])=>{const card=document.getElementById('envCard'+key[0].toUpperCase()+key.slice(1));if(card)card.className='env-level-'+level;});
+      const validTime=new Date(v.time+'+08:00');const ageMinutes=Math.round((Date.now()-validTime.getTime())/60000);const freshness=document.getElementById('envFreshness');if(freshness)freshness.textContent=Number.isFinite(ageMinutes)&&ageMinutes>=0?(ageMinutes<=90?'Updated forecast · '+ageMinutes+' min old':'Older forecast · '+ageMinutes+' min old'):'Forecast available';
       status.textContent='Forecast valid '+v.time.replace('T',' ')+' SGT · Retrieved '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · Open-Meteo';
-    }catch(error){status.textContent='Weather unavailable ('+(error.name==='AbortError'?'request timed out':error.message)+'). Use the official weather links below.';}
+    }catch(error){const freshness=document.getElementById('envFreshness');if(freshness)freshness.textContent='Forecast unavailable';status.textContent='Weather unavailable ('+(error.name==='AbortError'?'request timed out':error.message)+'). Use the official weather links below.';}
     finally{clearTimeout(timer);button.disabled=false;}
   }
   button.addEventListener('click',refresh);refresh();
