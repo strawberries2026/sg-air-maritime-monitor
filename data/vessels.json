@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T15:16:41.425775+00:00",
+  "updatedAt": "2026-10-28T15:31:50.285505+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,42 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "525119038",
-      "mmsi": "525119038",
-      "name": "PRIMA TANGGUH LVI",
-      "category": "unknown",
-      "lat": 1.2280733333333334,
-      "lon": 103.81346,
-      "speedKmh": 0.0,
-      "heading": 338,
-      "reportedAt": "2026-10-28T14:01:03.738585+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "574005860",
-      "mmsi": "574005860",
-      "name": "AULAC EAGLE",
-      "category": "unknown",
-      "lat": 1.2376,
-      "lon": 103.79953333333333,
-      "speedKmh": 0.2,
-      "heading": 327.5,
-      "reportedAt": "2026-10-28T14:01:06.180162+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565390000",
-      "mmsi": "565390000",
-      "name": "JAYA OCEAN",
-      "category": "unknown",
-      "lat": 1.2377166666666668,
-      "lon": 103.7948,
-      "speedKmh": 0.2,
-      "heading": 279.5,
-      "reportedAt": "2026-10-28T14:01:10.060839+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563074570",
       "mmsi": "563074570",
       "name": "VISION 225",
@@ -87,30 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "352003830",
-      "mmsi": "352003830",
-      "name": "XUAN TENG JI YUN",
-      "category": "unknown",
-      "lat": 1.1886316666666665,
-      "lon": 103.81846999999999,
-      "speedKmh": 20.6,
-      "heading": 246.7,
-      "reportedAt": "2026-10-28T14:01:28.527658+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563258400",
-      "mmsi": "563258400",
-      "name": "MAJESTIC BOLD",
-      "category": "unknown",
-      "lat": 1.23481,
-      "lon": 103.866395,
-      "speedKmh": 21.5,
-      "heading": 126.9,
-      "reportedAt": "2026-10-28T14:01:38.891943+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538011716",
       "mmsi": "538011716",
       "name": "PACIFIC SPIRIT",
@@ -120,18 +60,6 @@
       "speedKmh": 0.6,
       "heading": 81.9,
       "reportedAt": "2026-10-28T15:01:41.309819+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563208100",
-      "mmsi": "563208100",
-      "name": "MAPLE",
-      "category": "unknown",
-      "lat": 1.1945416666666666,
-      "lon": 103.88552833333333,
-      "speedKmh": 7.2,
-      "heading": 82.8,
-      "reportedAt": "2026-10-28T14:01:42.415018+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +127,11 @@
       "mmsi": "525601594",
       "name": "TB AMADEUS 1",
       "category": "unknown",
-      "lat": 1.2492183333333335,
-      "lon": 103.86655333333333,
+      "lat": 1.2492466666666668,
+      "lon": 103.86654,
       "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-28T15:01:45.385518+00:00"
+      "heading": 6.2,
+      "reportedAt": "2026-10-28T15:31:15.416216+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +211,11 @@
       "mmsi": "636011023",
       "name": "WORLD SPIRIT",
       "category": "unknown",
-      "lat": 1.2669199999999998,
-      "lon": 103.85332666666666,
-      "speedKmh": 2.6,
-      "heading": 335.6,
-      "reportedAt": "2026-10-28T14:45:54.610691+00:00"
+      "lat": 1.2692683333333332,
+      "lon": 103.85175,
+      "speedKmh": 0.0,
+      "heading": 211,
+      "reportedAt": "2026-10-28T15:31:04.541864+00:00"
     },
     {
       "kind": "ship",
@@ -504,6 +432,78 @@
       "speedKmh": 0.0,
       "heading": 95,
       "reportedAt": "2026-10-28T15:15:50.681763+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636022350",
+      "mmsi": "636022350",
+      "name": "OLYMPIC BAY",
+      "category": "unknown",
+      "lat": 1.2558483333333332,
+      "lon": 103.78628,
+      "speedKmh": 0.0,
+      "heading": 300.6,
+      "reportedAt": "2026-10-28T15:30:47.745002+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566007000",
+      "mmsi": "566007000",
+      "name": "ENERGETIC",
+      "category": "unknown",
+      "lat": 1.2419383333333334,
+      "lon": 103.86813000000001,
+      "speedKmh": 11.3,
+      "heading": 152.6,
+      "reportedAt": "2026-10-28T15:31:25.733208+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413573160",
+      "mmsi": "413573160",
+      "name": "LAN HAI CHANG AN",
+      "category": "unknown",
+      "lat": 1.22219,
+      "lon": 103.89288833333333,
+      "speedKmh": 7.2,
+      "heading": 253.6,
+      "reportedAt": "2026-10-28T15:30:50.929427+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563325500",
+      "mmsi": "563325500",
+      "name": "BTS EQUINOX",
+      "category": "unknown",
+      "lat": 1.2566116666666667,
+      "lon": 103.79901333333333,
+      "speedKmh": 14.4,
+      "heading": 254.9,
+      "reportedAt": "2026-10-28T15:31:10.465410+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "355971000",
+      "mmsi": "355971000",
+      "name": "XT PROGRESS",
+      "category": "unknown",
+      "lat": 1.1880316666666666,
+      "lon": 103.75918166666666,
+      "speedKmh": 0.7,
+      "heading": 139.9,
+      "reportedAt": "2026-10-28T15:31:17.120326+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370799000",
+      "mmsi": "370799000",
+      "name": "LNG KOLT",
+      "category": "unknown",
+      "lat": 1.1674666666666667,
+      "lon": 103.75178333333334,
+      "speedKmh": 0.0,
+      "heading": 167,
+      "reportedAt": "2026-10-28T15:31:28.978895+00:00"
     }
   ],
   "error": null
