@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T04:16:40.544103+00:00",
+  "updatedAt": "2026-10-28T04:31:50.994518+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735516666666666,
-      "lon": 103.801385,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-28T03:01:25.390724+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563294700",
       "mmsi": "563294700",
       "name": "EM SHONA",
@@ -60,54 +48,6 @@
       "speedKmh": 14.8,
       "heading": 59.1,
       "reportedAt": "2026-10-28T03:31:46.019406+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413238570",
-      "mmsi": "413238570",
-      "name": "ZHONG HANG SHENG",
-      "category": "unknown",
-      "lat": 1.2639099999999999,
-      "lon": 103.83442166666667,
-      "speedKmh": 0.0,
-      "heading": 220.9,
-      "reportedAt": "2026-10-28T03:01:23.357138+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "319138500",
-      "mmsi": "319138500",
-      "name": "GLOBAS",
-      "category": "unknown",
-      "lat": 1.265735,
-      "lon": 103.81143,
-      "speedKmh": 0.0,
-      "heading": 71.8,
-      "reportedAt": "2026-10-28T03:00:48.132874+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538004492",
-      "mmsi": "538004492",
-      "name": "LOS ANGELES",
-      "category": "unknown",
-      "lat": 1.2402216666666668,
-      "lon": 103.87799666666666,
-      "speedKmh": 0.0,
-      "heading": 82.7,
-      "reportedAt": "2026-10-28T03:01:43.815886+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563318500",
-      "mmsi": "563318500",
-      "name": "BALVENIE",
-      "category": "unknown",
-      "lat": 1.2358900000000002,
-      "lon": 103.79608666666667,
-      "speedKmh": 0.0,
-      "heading": 82.3,
-      "reportedAt": "2026-10-28T03:01:49.707226+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +187,35 @@
       "mmsi": "538010487",
       "name": "CHRYSTAL ARCTIC",
       "category": "unknown",
-      "lat": 1.2518416666666667,
-      "lon": 103.92646833333333,
+      "lat": 1.25167,
+      "lon": 103.92675666666668,
+      "speedKmh": 0.2,
+      "heading": 111.8,
+      "reportedAt": "2026-10-28T04:31:13.445248+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2757983333333334,
+      "lon": 103.90532833333333,
+      "speedKmh": 0.2,
+      "heading": 134.2,
+      "reportedAt": "2026-10-28T04:31:00.163928+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066180",
+      "mmsi": "563066180",
+      "name": "NOBLE PRINCE TG35",
+      "category": "unknown",
+      "lat": 1.2583166666666665,
+      "lon": 103.84227333333334,
       "speedKmh": 0.0,
-      "heading": 343.8,
-      "reportedAt": "2026-10-28T04:16:12.267832+00:00"
+      "heading": null,
+      "reportedAt": "2026-10-28T04:31:19.018577+00:00"
     }
   ],
   "error": null
