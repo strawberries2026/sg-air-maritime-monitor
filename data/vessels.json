@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T10:31:47.487785+00:00",
+  "updatedAt": "2026-10-28T10:46:40.041030+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-10-28T10:15:48.878824+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525018039",
-      "mmsi": "525018039",
-      "name": "TB BUANA 1302",
-      "category": "unknown",
-      "lat": 1.261055,
-      "lon": 103.83950666666667,
-      "speedKmh": 0.2,
-      "heading": null,
-      "reportedAt": "2026-10-28T09:16:29.567385+00:00"
     },
     {
       "kind": "ship",
@@ -48,54 +36,6 @@
       "speedKmh": 0.2,
       "heading": 240.2,
       "reportedAt": "2026-10-28T09:31:18.333042+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012125",
-      "mmsi": "538012125",
-      "name": "STI MOXIE",
-      "category": "unknown",
-      "lat": 1.2573316666666665,
-      "lon": 103.91533166666666,
-      "speedKmh": 0.0,
-      "heading": 84.6,
-      "reportedAt": "2026-10-28T09:15:45.954759+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219454000",
-      "mmsi": "219454000",
-      "name": "TORM ARAWA",
-      "category": "unknown",
-      "lat": 1.2130383333333334,
-      "lon": 103.80645166666666,
-      "speedKmh": 15.6,
-      "heading": 77.6,
-      "reportedAt": "2026-10-28T09:15:51.305462+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008900",
-      "mmsi": "538008900",
-      "name": "538008900",
-      "category": "unknown",
-      "lat": 1.2261683333333333,
-      "lon": 103.93038499999999,
-      "speedKmh": 13.0,
-      "heading": 74.1,
-      "reportedAt": "2026-10-28T09:15:35.571345+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352898717",
-      "mmsi": "352898717",
-      "name": "EVER ALP",
-      "category": "unknown",
-      "lat": 1.2030783333333335,
-      "lon": 103.80888,
-      "speedKmh": 9.3,
-      "heading": 139.2,
-      "reportedAt": "2026-10-28T09:15:46.661743+00:00"
     },
     {
       "kind": "ship",
@@ -288,6 +228,30 @@
       "speedKmh": 0.0,
       "heading": 163.3,
       "reportedAt": "2026-10-28T10:31:29.358614+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566746000",
+      "mmsi": "566746000",
+      "name": "NEPAMORA",
+      "category": "unknown",
+      "lat": 1.2685566666666666,
+      "lon": 103.89444499999999,
+      "speedKmh": 12.0,
+      "heading": 40.7,
+      "reportedAt": "2026-10-28T10:45:31.695205+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525901612",
+      "mmsi": "525901612",
+      "name": "MTS 101",
+      "category": "unknown",
+      "lat": 1.2520833333333334,
+      "lon": 103.86652333333333,
+      "speedKmh": 0.9,
+      "heading": 337.5,
+      "reportedAt": "2026-10-28T10:45:45.238348+00:00"
     }
   ],
   "error": null
