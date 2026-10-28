@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T03:46:40.401263+00:00",
+  "updatedAt": "2026-10-28T04:01:55.020550+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.2,
       "heading": 69.4,
       "reportedAt": "2026-10-28T03:45:48.693765+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "248039000",
-      "mmsi": "248039000",
-      "name": "CMA CGM CARMEN",
-      "category": "unknown",
-      "lat": 1.2645966666666666,
-      "lon": 103.79343,
-      "speedKmh": 0.4,
-      "heading": 0,
-      "reportedAt": "2026-10-28T02:31:36.097134+00:00"
     },
     {
       "kind": "ship",
@@ -75,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2364766666666667,
-      "lon": 103.92526333333333,
-      "speedKmh": 21.9,
-      "heading": 246.1,
-      "reportedAt": "2026-10-28T02:30:38.593210+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352498732",
-      "mmsi": "352498732",
-      "name": "GAS GHAZI",
-      "category": "unknown",
-      "lat": 1.1690633333333333,
-      "lon": 103.750935,
-      "speedKmh": 0.0,
-      "heading": 305.7,
-      "reportedAt": "2026-10-28T02:31:04.292030+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563294700",
       "mmsi": "563294700",
       "name": "EM SHONA",
@@ -108,18 +72,6 @@
       "speedKmh": 14.8,
       "heading": 59.1,
       "reportedAt": "2026-10-28T03:31:46.019406+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010879",
-      "mmsi": "538010879",
-      "name": "PUPLINGE",
-      "category": "unknown",
-      "lat": 1.2236883333333333,
-      "lon": 103.92526833333334,
-      "speedKmh": 18.3,
-      "heading": 67.2,
-      "reportedAt": "2026-10-28T02:31:36.730707+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +300,42 @@
       "speedKmh": 0.2,
       "heading": 55.4,
       "reportedAt": "2026-10-28T03:46:23.214976+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "355532000",
+      "mmsi": "355532000",
+      "name": "ROSEMARY I",
+      "category": "commercial",
+      "lat": 1.2737433333333332,
+      "lon": 103.87825666666666,
+      "speedKmh": 0.0,
+      "heading": 107.2,
+      "reportedAt": "2026-10-28T04:01:32.707148+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413263280",
+      "mmsi": "413263280",
+      "name": "GUO DIAN 7",
+      "category": "unknown",
+      "lat": 1.2411316666666667,
+      "lon": 103.93295499999999,
+      "speedKmh": 12.4,
+      "heading": 227.7,
+      "reportedAt": "2026-10-28T04:01:42.629524+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566799000",
+      "mmsi": "566799000",
+      "name": "EVERMORE",
+      "category": "unknown",
+      "lat": 1.2675483333333333,
+      "lon": 103.89498666666667,
+      "speedKmh": 12.0,
+      "heading": 28.2,
+      "reportedAt": "2026-10-28T04:01:52.147797+00:00"
     }
   ],
   "error": null
