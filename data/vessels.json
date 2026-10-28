@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:01:58.775091+00:00",
+  "updatedAt": "2026-10-28T11:16:41.371209+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "566685000",
-      "mmsi": "566685000",
-      "name": "SEA SOLIDARITY",
-      "category": "commercial",
-      "lat": 1.2758666666666667,
-      "lon": 103.88332833333334,
-      "speedKmh": 0.6,
-      "heading": 295.8,
-      "reportedAt": "2026-10-28T09:46:07.619221+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352978147",
       "mmsi": "352978147",
       "name": "SUNRISE SUMMER",
@@ -36,66 +24,6 @@
       "speedKmh": 0.2,
       "heading": 262.9,
       "reportedAt": "2026-10-28T10:31:30.933728+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023596",
-      "mmsi": "636023596",
-      "name": "IMOLA",
-      "category": "unknown",
-      "lat": 1.2261933333333335,
-      "lon": 103.93049666666667,
-      "speedKmh": 16.3,
-      "heading": 74.5,
-      "reportedAt": "2026-10-28T09:46:17.422255+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477049200",
-      "mmsi": "477049200",
-      "name": "CANOPUS",
-      "category": "commercial",
-      "lat": 1.2119716666666667,
-      "lon": 103.881365,
-      "speedKmh": 16.7,
-      "heading": 252.9,
-      "reportedAt": "2026-10-28T09:45:39.084598+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2178716666666667,
-      "lon": 103.80825,
-      "speedKmh": 0.9,
-      "heading": 349.9,
-      "reportedAt": "2026-10-28T09:46:02.990316+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563016100",
-      "mmsi": "563016100",
-      "name": "HAFNIA TAGUS",
-      "category": "unknown",
-      "lat": 1.2454516666666666,
-      "lon": 103.88769,
-      "speedKmh": 0.2,
-      "heading": 233.5,
-      "reportedAt": "2026-10-28T09:46:12.679918+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563991000",
-      "mmsi": "563991000",
-      "name": "APIA CHIEF",
-      "category": "unknown",
-      "lat": 1.2641416666666667,
-      "lon": 103.89191666666667,
-      "speedKmh": 0.2,
-      "heading": 262.3,
-      "reportedAt": "2026-10-28T09:46:23.901943+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +67,11 @@
       "mmsi": "477957800",
       "name": "XINYI GLASS",
       "category": "unknown",
-      "lat": 1.2637933333333333,
-      "lon": 103.89800666666666,
+      "lat": 1.2635599999999998,
+      "lon": 103.89665333333333,
       "speedKmh": 0.2,
-      "heading": 322.1,
-      "reportedAt": "2026-10-28T10:01:25.921917+00:00"
+      "heading": 227.8,
+      "reportedAt": "2026-10-28T11:16:25.947021+00:00"
     },
     {
       "kind": "ship",
@@ -264,6 +192,66 @@
       "speedKmh": 0.2,
       "heading": 102.5,
       "reportedAt": "2026-10-28T11:01:38.226872+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563209300",
+      "mmsi": "563209300",
+      "name": "X-PRESS PISCES",
+      "category": "unknown",
+      "lat": 1.2529166666666667,
+      "lon": 103.793165,
+      "speedKmh": 0.7,
+      "heading": 150.4,
+      "reportedAt": "2026-10-28T11:15:38.913109+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011338",
+      "mmsi": "538011338",
+      "name": "OSLO STAR",
+      "category": "unknown",
+      "lat": 1.2603983333333335,
+      "lon": 103.903545,
+      "speedKmh": 0.0,
+      "heading": 115.1,
+      "reportedAt": "2026-10-28T11:15:45.495405+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "419001223",
+      "mmsi": "419001223",
+      "name": "JAG LEELA",
+      "category": "unknown",
+      "lat": 1.252865,
+      "lon": 103.91482500000001,
+      "speedKmh": 0.0,
+      "heading": 305.2,
+      "reportedAt": "2026-10-28T11:16:08.004064+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.2304333333333333,
+      "lon": 103.89918333333334,
+      "speedKmh": 15.9,
+      "heading": 252.8,
+      "reportedAt": "2026-10-28T11:16:18.101928+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249061000",
+      "mmsi": "249061000",
+      "name": "BOKA CENTRE",
+      "category": "unknown",
+      "lat": 1.23581,
+      "lon": 103.87421833333333,
+      "speedKmh": 16.1,
+      "heading": 314.1,
+      "reportedAt": "2026-10-28T11:16:27.367993+00:00"
     }
   ],
   "error": null
