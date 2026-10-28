@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:16:41.734672+00:00",
+  "updatedAt": "2026-10-28T23:31:46.105758+00:00",
   "items": [
     {
       "kind": "ship",
@@ -60,30 +60,6 @@
       "speedKmh": 0.0,
       "heading": 167.7,
       "reportedAt": "2026-10-28T22:31:04.300235+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.218105,
-      "lon": 103.80328333333334,
-      "speedKmh": 0.4,
-      "heading": 184.1,
-      "reportedAt": "2026-10-28T22:01:03.741407+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "431220000",
-      "mmsi": "431220000",
-      "name": "ASTRAL ACE",
-      "category": "unknown",
-      "lat": 1.1803316666666668,
-      "lon": 103.82485,
-      "speedKmh": 12.0,
-      "heading": 56.8,
-      "reportedAt": "2026-10-28T22:01:05.969880+00:00"
     },
     {
       "kind": "ship",
@@ -204,18 +180,6 @@
       "speedKmh": 9.3,
       "heading": 75.6,
       "reportedAt": "2026-10-28T22:15:51.446729+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525108007",
-      "mmsi": "525108007",
-      "name": "PASAMAN",
-      "category": "unknown",
-      "lat": 1.1941816666666665,
-      "lon": 103.88287166666667,
-      "speedKmh": 17.8,
-      "heading": 63.1,
-      "reportedAt": "2026-10-28T22:01:14.043042+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +331,11 @@
       "mmsi": "232004359",
       "name": "SAGA OPTIMANA",
       "category": "unknown",
-      "lat": 1.1269266666666666,
-      "lon": 103.76183333333333,
-      "speedKmh": 14.3,
-      "heading": 45.1,
-      "reportedAt": "2026-10-28T22:16:14.906936+00:00"
+      "lat": 1.2001816666666667,
+      "lon": 103.88676666666667,
+      "speedKmh": 13.0,
+      "heading": 58,
+      "reportedAt": "2026-10-28T23:30:45.772854+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +415,11 @@
       "mmsi": "352980780",
       "name": "SPIL NINGSIH",
       "category": "unknown",
-      "lat": 1.2196316666666667,
-      "lon": 103.79540999999999,
-      "speedKmh": 15.2,
-      "heading": 130.6,
-      "reportedAt": "2026-10-28T23:00:43.983917+00:00"
+      "lat": 1.1882166666666667,
+      "lon": 103.84124666666666,
+      "speedKmh": 19.4,
+      "heading": 96.1,
+      "reportedAt": "2026-10-28T23:30:43.693792+00:00"
     },
     {
       "kind": "ship",
@@ -475,11 +439,11 @@
       "mmsi": "564230000",
       "name": "HAFNIA TIGER",
       "category": "unknown",
-      "lat": 1.2250733333333335,
-      "lon": 103.79535833333333,
-      "speedKmh": 0.2,
-      "heading": 180.6,
-      "reportedAt": "2026-10-28T22:45:28.633842+00:00"
+      "lat": 1.2250916666666667,
+      "lon": 103.797195,
+      "speedKmh": 3.1,
+      "heading": 211.7,
+      "reportedAt": "2026-10-28T23:31:24.666075+00:00"
     },
     {
       "kind": "ship",
@@ -655,11 +619,11 @@
       "mmsi": "563225800",
       "name": "X-PRESS PYXIS",
       "category": "unknown",
-      "lat": 1.2632633333333334,
-      "lon": 103.99835166666666,
-      "speedKmh": 7.6,
-      "heading": 258.9,
-      "reportedAt": "2026-10-28T23:01:35.294861+00:00"
+      "lat": 1.2471233333333334,
+      "lon": 103.95415666666666,
+      "speedKmh": 8.3,
+      "heading": 245.9,
+      "reportedAt": "2026-10-28T23:31:27.604153+00:00"
     },
     {
       "kind": "ship",
@@ -720,6 +684,42 @@
       "speedKmh": 7.0,
       "heading": 312.7,
       "reportedAt": "2026-10-28T23:16:20.711615+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.25072,
+      "lon": 103.87119333333334,
+      "speedKmh": 0.2,
+      "heading": 33.5,
+      "reportedAt": "2026-10-28T23:30:34.433572+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2754716666666668,
+      "lon": 103.90528166666667,
+      "speedKmh": 0.0,
+      "heading": 225.3,
+      "reportedAt": "2026-10-28T23:31:00.519962+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563023010",
+      "mmsi": "563023010",
+      "name": "PROFIT BRILLIANCE",
+      "category": "unknown",
+      "lat": 1.255485,
+      "lon": 103.84741000000001,
+      "speedKmh": 2.8,
+      "heading": 96.5,
+      "reportedAt": "2026-10-28T23:31:10.315371+00:00"
     }
   ],
   "error": null
