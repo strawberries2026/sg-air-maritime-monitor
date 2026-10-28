@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T11:16:41.371209+00:00",
+  "updatedAt": "2026-10-28T11:31:48.245661+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,30 +36,6 @@
       "speedKmh": 10.4,
       "heading": 273,
       "reportedAt": "2026-10-28T11:01:42.868579+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "548987000",
-      "mmsi": "548987000",
-      "name": "PACIFIC ESPERANZA",
-      "category": "unknown",
-      "lat": 1.2369233333333334,
-      "lon": 103.89325333333333,
-      "speedKmh": 6.3,
-      "heading": 100.2,
-      "reportedAt": "2026-10-28T10:01:17.682615+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015167",
-      "mmsi": "636015167",
-      "name": "AGISTRI",
-      "category": "unknown",
-      "lat": 1.2700983333333333,
-      "lon": 103.93885,
-      "speedKmh": 0.2,
-      "heading": 156.3,
-      "reportedAt": "2026-10-28T10:01:21.007513+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +115,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2517233333333333,
-      "lon": 103.87277333333333,
-      "speedKmh": 0.0,
-      "heading": 163.3,
-      "reportedAt": "2026-10-28T10:31:29.358614+00:00"
+      "lat": 1.2509983333333332,
+      "lon": 103.87122666666667,
+      "speedKmh": 0.4,
+      "heading": 44.4,
+      "reportedAt": "2026-10-28T11:31:39.074413+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +151,11 @@
       "mmsi": "538011011",
       "name": "LOWLANDS SHARK",
       "category": "unknown",
-      "lat": 1.2876133333333333,
-      "lon": 103.91198666666666,
+      "lat": 1.2873883333333334,
+      "lon": 103.91117166666666,
       "speedKmh": 0.2,
-      "heading": 269.6,
-      "reportedAt": "2026-10-28T11:01:12.876264+00:00"
+      "heading": 245.9,
+      "reportedAt": "2026-10-28T11:31:12.348998+00:00"
     },
     {
       "kind": "ship",
@@ -252,6 +228,18 @@
       "speedKmh": 16.1,
       "heading": 314.1,
       "reportedAt": "2026-10-28T11:16:27.367993+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565574000",
+      "mmsi": "565574000",
+      "name": "STRAITS NOMURA",
+      "category": "unknown",
+      "lat": 1.2621533333333335,
+      "lon": 103.88735666666666,
+      "speedKmh": 8.0,
+      "heading": 34,
+      "reportedAt": "2026-10-28T11:31:11.460727+00:00"
     }
   ],
   "error": null
