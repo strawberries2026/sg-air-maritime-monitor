@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T06:01:55.792767+00:00",
+  "updatedAt": "2026-10-28T06:16:14.581956+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,23 +7,11 @@
       "mmsi": "525024416",
       "name": "525024416",
       "category": "unknown",
-      "lat": 1.2615016666666667,
+      "lat": 1.2614933333333334,
       "lon": 103.82625666666667,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-28T05:46:11.765564+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566824000",
-      "mmsi": "566824000",
-      "name": "FRONTEK",
-      "category": "unknown",
-      "lat": 1.2609316666666668,
-      "lon": 103.90951,
-      "speedKmh": 0.4,
-      "heading": 88.3,
-      "reportedAt": "2026-10-28T04:46:10.207842+00:00"
+      "reportedAt": "2026-10-28T06:16:00.441211+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +55,11 @@
       "mmsi": "352732000",
       "name": "CALIFORNIA HIGHWAY",
       "category": "unknown",
-      "lat": 1.25711,
-      "lon": 103.86390666666667,
-      "speedKmh": 0.4,
-      "heading": 333.5,
-      "reportedAt": "2026-10-28T05:46:39.688574+00:00"
+      "lat": 1.2558866666666666,
+      "lon": 103.86289666666667,
+      "speedKmh": 5.6,
+      "heading": 214.6,
+      "reportedAt": "2026-10-28T06:15:31.419330+00:00"
     },
     {
       "kind": "ship",
@@ -125,13 +113,13 @@
       "kind": "ship",
       "id": "538011011",
       "mmsi": "538011011",
-      "name": "538011011",
-      "category": "unknown",
-      "lat": 1.2872283333333334,
-      "lon": 103.912745,
-      "speedKmh": 0.2,
-      "heading": 116.1,
-      "reportedAt": "2026-10-28T05:01:12.515518+00:00"
+      "name": "LOWLANDS SHARK",
+      "category": "commercial",
+      "lat": 1.287135,
+      "lon": 103.91314000000001,
+      "speedKmh": 0.0,
+      "heading": 132.3,
+      "reportedAt": "2026-10-28T06:16:12.214985+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +396,78 @@
       "speedKmh": 0.2,
       "heading": 289.7,
       "reportedAt": "2026-10-28T06:01:54.281742+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563120800",
+      "mmsi": "563120800",
+      "name": "CANADA EXPRESS",
+      "category": "unknown",
+      "lat": 1.2523966666666666,
+      "lon": 103.89046666666667,
+      "speedKmh": 4.8,
+      "heading": 202.5,
+      "reportedAt": "2026-10-28T06:15:10.317860+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538004111",
+      "mmsi": "538004111",
+      "name": "LUCKY PIONEER",
+      "category": "unknown",
+      "lat": 1.2636216666666666,
+      "lon": 103.92440333333334,
+      "speedKmh": 0.2,
+      "heading": 110.7,
+      "reportedAt": "2026-10-28T06:15:24.155611+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008273",
+      "mmsi": "538008273",
+      "name": "538008273",
+      "category": "unknown",
+      "lat": 1.1200116666666666,
+      "lon": 103.75282166666666,
+      "speedKmh": 15.9,
+      "heading": 43.8,
+      "reportedAt": "2026-10-28T06:15:30.987021+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311002318",
+      "mmsi": "311002318",
+      "name": "SUNNY PEAK",
+      "category": "unknown",
+      "lat": 1.2759566666666666,
+      "lon": 103.90027166666667,
+      "speedKmh": 0.4,
+      "heading": 51,
+      "reportedAt": "2026-10-28T06:15:37.411143+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565102000",
+      "mmsi": "565102000",
+      "name": "AYER CHERDAS",
+      "category": "unknown",
+      "lat": 1.2665433333333334,
+      "lon": 103.90787833333334,
+      "speedKmh": 0.7,
+      "heading": 221.4,
+      "reportedAt": "2026-10-28T06:15:57.948756+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066180",
+      "mmsi": "563066180",
+      "name": "NOBLE PRINCE TG35",
+      "category": "unknown",
+      "lat": 1.2583566666666668,
+      "lon": 103.84215833333333,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-10-28T06:16:08.341630+00:00"
     }
   ],
   "error": null
