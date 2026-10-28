@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:02:06.333985+00:00",
+  "updatedAt": "2026-10-28T13:16:05.601292+00:00",
   "items": [
     {
       "kind": "ship",
@@ -60,18 +60,6 @@
       "speedKmh": 0.0,
       "heading": 130.8,
       "reportedAt": "2026-10-28T13:00:59.972657+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565603000",
-      "mmsi": "565603000",
-      "name": "KIMTEK 1",
-      "category": "unknown",
-      "lat": 1.2451083333333335,
-      "lon": 103.89769166666666,
-      "speedKmh": 12.8,
-      "heading": 46.8,
-      "reportedAt": "2026-10-28T11:45:35.556232+00:00"
     },
     {
       "kind": "ship",
@@ -168,6 +156,30 @@
       "speedKmh": 0.2,
       "heading": 309,
       "reportedAt": "2026-10-28T13:02:03.452107+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008273",
+      "mmsi": "538008273",
+      "name": "STAR CAPE TOWN",
+      "category": "unknown",
+      "lat": 1.2780500000000001,
+      "lon": 103.88987666666667,
+      "speedKmh": 0.0,
+      "heading": 105.4,
+      "reportedAt": "2026-10-28T13:15:36.820106+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "245732000",
+      "mmsi": "245732000",
+      "name": "ROLLDOCK STAR",
+      "category": "unknown",
+      "lat": 1.2546116666666667,
+      "lon": 103.87253000000001,
+      "speedKmh": 0.0,
+      "heading": 326.1,
+      "reportedAt": "2026-10-28T13:16:00.196229+00:00"
     }
   ],
   "error": null
