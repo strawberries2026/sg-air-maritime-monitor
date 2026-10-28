@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T12:46:42.002538+00:00",
+  "updatedAt": "2026-10-28T13:02:06.333985+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 0.2,
       "heading": 191.9,
       "reportedAt": "2026-10-28T12:46:26.661908+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.2509983333333332,
-      "lon": 103.87122666666667,
-      "speedKmh": 0.4,
-      "heading": 44.4,
-      "reportedAt": "2026-10-28T11:31:39.074413+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011011",
-      "mmsi": "538011011",
-      "name": "LOWLANDS SHARK",
-      "category": "unknown",
-      "lat": 1.2873883333333334,
-      "lon": 103.91117166666666,
-      "speedKmh": 0.2,
-      "heading": 245.9,
-      "reportedAt": "2026-10-28T11:31:12.348998+00:00"
     },
     {
       "kind": "ship",
@@ -79,11 +55,11 @@
       "mmsi": "563246900",
       "name": "ZOEY",
       "category": "unknown",
-      "lat": 1.2691283333333334,
-      "lon": 103.89210833333333,
+      "lat": 1.2691666666666668,
+      "lon": 103.89209000000001,
       "speedKmh": 0.0,
-      "heading": 92,
-      "reportedAt": "2026-10-28T12:46:00.466297+00:00"
+      "heading": 130.8,
+      "reportedAt": "2026-10-28T13:00:59.972657+00:00"
     },
     {
       "kind": "ship",
@@ -180,6 +156,18 @@
       "speedKmh": 15.6,
       "heading": 264.2,
       "reportedAt": "2026-10-28T12:46:17.026769+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005850",
+      "mmsi": "574005850",
+      "name": "AULAC SIRIUS",
+      "category": "unknown",
+      "lat": 1.2463666666666666,
+      "lon": 103.8063,
+      "speedKmh": 0.2,
+      "heading": 309,
+      "reportedAt": "2026-10-28T13:02:03.452107+00:00"
     }
   ],
   "error": null
