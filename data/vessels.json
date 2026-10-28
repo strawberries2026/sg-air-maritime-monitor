@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T04:31:50.994518+00:00",
+  "updatedAt": "2026-10-28T04:46:42.875957+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "525024416",
       "name": "525024416",
       "category": "unknown",
-      "lat": 1.2614766666666666,
-      "lon": 103.82626166666667,
+      "lat": 1.26149,
+      "lon": 103.82625,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-28T04:16:33.019644+00:00"
+      "reportedAt": "2026-10-28T04:45:59.499889+00:00"
     },
     {
       "kind": "ship",
@@ -27,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "311002318",
-      "mmsi": "311002318",
-      "name": "SUNNY PEAK",
-      "category": "unknown",
-      "lat": 1.1949066666666668,
-      "lon": 103.87923333333333,
-      "speedKmh": 9.4,
-      "heading": 58,
-      "reportedAt": "2026-10-28T03:15:56.673284+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563294700",
       "mmsi": "563294700",
       "name": "EM SHONA",
@@ -51,51 +39,15 @@
     },
     {
       "kind": "ship",
-      "id": "563087010",
-      "mmsi": "563087010",
-      "name": "PSA PEGASUS",
-      "category": "unknown",
-      "lat": 1.2634666666666667,
-      "lon": 103.79130833333333,
-      "speedKmh": 0.4,
-      "heading": 42.7,
-      "reportedAt": "2026-10-28T03:16:11.777161+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477257300",
-      "mmsi": "477257300",
-      "name": "PIONEER",
-      "category": "unknown",
-      "lat": 1.2335966666666667,
-      "lon": 103.78449333333333,
-      "speedKmh": 20.6,
-      "heading": 128.5,
-      "reportedAt": "2026-10-28T03:16:38.245931+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566824000",
       "mmsi": "566824000",
       "name": "FRONTEK",
       "category": "unknown",
-      "lat": 1.2602366666666667,
-      "lon": 103.90770333333333,
-      "speedKmh": 0.2,
-      "heading": 21.2,
-      "reportedAt": "2026-10-28T04:16:39.316861+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "355692000",
-      "mmsi": "355692000",
-      "name": "GRAND BLUE",
-      "category": "unknown",
-      "lat": 1.2163166666666667,
-      "lon": 103.82227166666667,
-      "speedKmh": 8.3,
-      "heading": 165.9,
-      "reportedAt": "2026-10-28T03:16:30.797998+00:00"
+      "lat": 1.2609316666666668,
+      "lon": 103.90951,
+      "speedKmh": 0.4,
+      "heading": 88.3,
+      "reportedAt": "2026-10-28T04:46:10.207842+00:00"
     },
     {
       "kind": "ship",
@@ -216,6 +168,54 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-10-28T04:31:19.018577+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563215600",
+      "mmsi": "563215600",
+      "name": "ZALE",
+      "category": "unknown",
+      "lat": 1.2491483333333333,
+      "lon": 103.867965,
+      "speedKmh": 0.0,
+      "heading": 351.4,
+      "reportedAt": "2026-10-28T04:45:48.054408+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563152300",
+      "mmsi": "563152300",
+      "name": "KOTA LIHAT",
+      "category": "unknown",
+      "lat": 1.2622133333333332,
+      "lon": 103.83803166666667,
+      "speedKmh": 0.0,
+      "heading": 71.6,
+      "reportedAt": "2026-10-28T04:46:11.102288+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004857",
+      "mmsi": "352004857",
+      "name": "ULTRA KUROSHIO",
+      "category": "unknown",
+      "lat": 1.2615016666666667,
+      "lon": 103.874695,
+      "speedKmh": 0.4,
+      "heading": 110.3,
+      "reportedAt": "2026-10-28T04:46:24.312426+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352732000",
+      "mmsi": "352732000",
+      "name": "CALIFORNIA HIGHWAY",
+      "category": "unknown",
+      "lat": 1.2566966666666666,
+      "lon": 103.86426833333333,
+      "speedKmh": 0.2,
+      "heading": 307.4,
+      "reportedAt": "2026-10-28T04:46:39.731729+00:00"
     }
   ],
   "error": null
