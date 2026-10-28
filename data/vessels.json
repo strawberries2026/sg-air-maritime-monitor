@@ -1,41 +1,17 @@
 {
-  "updatedAt": "2026-10-28T09:31:47.426076+00:00",
+  "updatedAt": "2026-10-28T09:46:39.367057+00:00",
   "items": [
     {
       "kind": "ship",
       "id": "525024416",
       "mmsi": "525024416",
-      "name": "525024416",
+      "name": "TB CAPRICORN 80",
       "category": "unknown",
-      "lat": 1.2614983333333332,
-      "lon": 103.82626666666667,
+      "lat": 1.26149,
+      "lon": 103.82626,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-28T09:30:34.044247+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008273",
-      "mmsi": "538008273",
-      "name": "STAR CAPE TOWN",
-      "category": "unknown",
-      "lat": 1.2780500000000001,
-      "lon": 103.91434333333333,
-      "speedKmh": 8.0,
-      "heading": 315.9,
-      "reportedAt": "2026-10-28T08:16:13.023599+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002318",
-      "mmsi": "311002318",
-      "name": "SUNNY PEAK",
-      "category": "unknown",
-      "lat": 1.2760099999999999,
-      "lon": 103.90024,
-      "speedKmh": 0.0,
-      "heading": 323,
-      "reportedAt": "2026-10-28T08:15:28.780974+00:00"
+      "reportedAt": "2026-10-28T09:46:07.078367+00:00"
     },
     {
       "kind": "ship",
@@ -51,39 +27,15 @@
     },
     {
       "kind": "ship",
-      "id": "312000079",
-      "mmsi": "312000079",
-      "name": "CALA PORTESE",
-      "category": "unknown",
-      "lat": 1.27692,
-      "lon": 103.87981166666667,
-      "speedKmh": 0.0,
-      "heading": 255.7,
-      "reportedAt": "2026-10-28T08:01:52.889072+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566685000",
       "mmsi": "566685000",
       "name": "SEA SOLIDARITY",
-      "category": "unknown",
-      "lat": 1.2748783333333333,
-      "lon": 103.884265,
-      "speedKmh": 0.0,
-      "heading": 11.2,
-      "reportedAt": "2026-10-28T09:01:42.466612+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "419797000",
-      "mmsi": "419797000",
-      "name": "DESH MAHIMA",
-      "category": "unknown",
-      "lat": 1.1721683333333333,
-      "lon": 103.83392666666667,
-      "speedKmh": 8.5,
-      "heading": 64,
-      "reportedAt": "2026-10-28T08:15:38.318009+00:00"
+      "category": "commercial",
+      "lat": 1.2758666666666667,
+      "lon": 103.88332833333334,
+      "speedKmh": 0.6,
+      "heading": 295.8,
+      "reportedAt": "2026-10-28T09:46:07.619221+00:00"
     },
     {
       "kind": "ship",
@@ -108,18 +60,6 @@
       "speedKmh": 0.0,
       "heading": 84.6,
       "reportedAt": "2026-10-28T09:15:45.954759+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563273700",
-      "mmsi": "563273700",
-      "name": "GOLDEN SIRIUS",
-      "category": "unknown",
-      "lat": 1.2322783333333334,
-      "lon": 103.77473166666667,
-      "speedKmh": 5.0,
-      "heading": 126.8,
-      "reportedAt": "2026-10-28T08:15:59.649851+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +211,11 @@
       "mmsi": "352978147",
       "name": "SUNRISE SUMMER",
       "category": "unknown",
-      "lat": 1.268875,
-      "lon": 103.888445,
-      "speedKmh": 0.2,
-      "heading": 256.7,
-      "reportedAt": "2026-10-28T09:16:30.594206+00:00"
+      "lat": 1.26929,
+      "lon": 103.88773833333333,
+      "speedKmh": 0.4,
+      "heading": 292.1,
+      "reportedAt": "2026-10-28T09:46:30.906694+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +223,59 @@
       "mmsi": "636023596",
       "name": "IMOLA",
       "category": "unknown",
-      "lat": 1.2278449999999999,
-      "lon": 103.900905,
-      "speedKmh": 10.9,
-      "heading": 126.2,
-      "reportedAt": "2026-10-28T09:31:27.564434+00:00"
+      "lat": 1.2261933333333335,
+      "lon": 103.93049666666667,
+      "speedKmh": 16.3,
+      "heading": 74.5,
+      "reportedAt": "2026-10-28T09:46:17.422255+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477049200",
+      "mmsi": "477049200",
+      "name": "CANOPUS",
+      "category": "commercial",
+      "lat": 1.2119716666666667,
+      "lon": 103.881365,
+      "speedKmh": 16.7,
+      "heading": 252.9,
+      "reportedAt": "2026-10-28T09:45:39.084598+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2178716666666667,
+      "lon": 103.80825,
+      "speedKmh": 0.9,
+      "heading": 349.9,
+      "reportedAt": "2026-10-28T09:46:02.990316+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563016100",
+      "mmsi": "563016100",
+      "name": "HAFNIA TAGUS",
+      "category": "unknown",
+      "lat": 1.2454516666666666,
+      "lon": 103.88769,
+      "speedKmh": 0.2,
+      "heading": 233.5,
+      "reportedAt": "2026-10-28T09:46:12.679918+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563991000",
+      "mmsi": "563991000",
+      "name": "APIA CHIEF",
+      "category": "unknown",
+      "lat": 1.2641416666666667,
+      "lon": 103.89191666666667,
+      "speedKmh": 0.2,
+      "heading": 262.3,
+      "reportedAt": "2026-10-28T09:46:23.901943+00:00"
     }
   ],
   "error": null
