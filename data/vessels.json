@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-28T07:16:39.379909+00:00",
+  "updatedAt": "2026-10-28T07:31:48.252266+00:00",
   "items": [
     {
       "kind": "ship",
       "id": "525024416",
       "mmsi": "525024416",
-      "name": "TB CAPRICORN 80",
+      "name": "525024416",
       "category": "unknown",
-      "lat": 1.2615016666666667,
-      "lon": 103.82625666666667,
+      "lat": 1.2615233333333333,
+      "lon": 103.826255,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-28T06:31:15.820912+00:00"
+      "reportedAt": "2026-10-28T07:30:44.893845+00:00"
     },
     {
       "kind": "ship",
@@ -63,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.2518766666666667,
-      "lon": 103.87287333333333,
-      "speedKmh": 0.0,
-      "heading": 343.5,
-      "reportedAt": "2026-10-28T06:01:47.800937+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563991000",
       "mmsi": "563991000",
       "name": "APIA CHIEF",
@@ -96,18 +84,6 @@
       "speedKmh": 0.0,
       "heading": 102.5,
       "reportedAt": "2026-10-28T06:30:49.924208+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015167",
-      "mmsi": "636015167",
-      "name": "AGISTRI",
-      "category": "unknown",
-      "lat": 1.2703633333333333,
-      "lon": 103.93800833333333,
-      "speedKmh": 0.0,
-      "heading": 127.4,
-      "reportedAt": "2026-10-28T06:01:23.094547+00:00"
     },
     {
       "kind": "ship",
@@ -197,13 +173,13 @@
       "kind": "ship",
       "id": "538008273",
       "mmsi": "538008273",
-      "name": "538008273",
+      "name": "STAR CAPE TOWN",
       "category": "unknown",
-      "lat": 1.1200116666666666,
-      "lon": 103.75282166666666,
-      "speedKmh": 15.9,
-      "heading": 43.8,
-      "reportedAt": "2026-10-28T06:15:30.987021+00:00"
+      "lat": 1.2530366666666666,
+      "lon": 103.95267333333332,
+      "speedKmh": 11.7,
+      "heading": 22.4,
+      "reportedAt": "2026-10-28T07:30:43.442365+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +516,90 @@
       "speedKmh": 16.3,
       "heading": 84.9,
       "reportedAt": "2026-10-28T07:16:26.796228+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566685000",
+      "mmsi": "566685000",
+      "name": "SEA SOLIDARITY",
+      "category": "unknown",
+      "lat": 1.2758983333333334,
+      "lon": 103.88286333333333,
+      "speedKmh": 0.0,
+      "heading": 39.2,
+      "reportedAt": "2026-10-28T07:30:39.401444+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563247900",
+      "mmsi": "563247900",
+      "name": "MAJESTIC PASSION",
+      "category": "unknown",
+      "lat": 1.2622616666666666,
+      "lon": 103.817915,
+      "speedKmh": 0.0,
+      "heading": 228.6,
+      "reportedAt": "2026-10-28T07:30:51.062882+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "248455000",
+      "mmsi": "248455000",
+      "name": "CMA CGM EIFFEL",
+      "category": "unknown",
+      "lat": 1.2610666666666668,
+      "lon": 103.78940333333334,
+      "speedKmh": 0.0,
+      "heading": 51.9,
+      "reportedAt": "2026-10-28T07:31:13.638911+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563258600",
+      "mmsi": "563258600",
+      "name": "MARINE BLUE",
+      "category": "unknown",
+      "lat": 1.3001283333333333,
+      "lon": 103.98387333333334,
+      "speedKmh": 3.5,
+      "heading": 359,
+      "reportedAt": "2026-10-28T07:31:20.620207+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "247293200",
+      "mmsi": "247293200",
+      "name": "MARE PICENUM",
+      "category": "unknown",
+      "lat": 1.2377516666666668,
+      "lon": 103.919085,
+      "speedKmh": 1.3,
+      "heading": 34.1,
+      "reportedAt": "2026-10-28T07:31:25.287917+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563603000",
+      "mmsi": "563603000",
+      "name": "STAR QUEST",
+      "category": "unknown",
+      "lat": 1.2247,
+      "lon": 103.78610833333333,
+      "speedKmh": 14.8,
+      "heading": 146.6,
+      "reportedAt": "2026-10-28T07:31:32.757716+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563231600",
+      "mmsi": "563231600",
+      "name": "SINAR SULAWESI",
+      "category": "unknown",
+      "lat": 1.2208299999999999,
+      "lon": 103.79628333333334,
+      "speedKmh": 17.2,
+      "heading": 321.5,
+      "reportedAt": "2026-10-28T07:31:33.056906+00:00"
     }
   ],
   "error": null
