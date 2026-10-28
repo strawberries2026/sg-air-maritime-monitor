@@ -5,7 +5,27 @@
  * See COPYRIGHT.md.
  */
 const map=L.map('map').setView([1.3521,103.8198],9);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18}).addTo(map);
+const streetBasemap=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap contributors',maxZoom:18});
+streetBasemap.addTo(map);
+// NASA GIBS daily true-colour Earth observation. Not live imagery or object detection.
+(function setupSatelliteLayer(){
+  const toggle=document.getElementById('satelliteToggle');
+  const status=document.getElementById('satelliteStatus');
+  if(!toggle||!status)return;
+  const date=new Date(Date.now()-2*86400000).toISOString().slice(0,10);
+  const url='https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/'+date+'/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg';
+  const satellite=L.tileLayer(url,{attribution:'Imagery: NASA GIBS / MODIS Terra',maxNativeZoom:9,maxZoom:18,tileSize:256,opacity:1});
+  let failed=false;
+  satellite.on('tileerror',()=>{if(!failed){failed=true;status.textContent='Satellite tiles could not load for '+date+'. Try NASA Worldview for available imagery.';}});
+  toggle.addEventListener('click',()=>{
+    if(map.hasLayer(satellite)){
+      map.removeLayer(satellite);streetBasemap.addTo(map);toggle.setAttribute('aria-pressed','false');toggle.textContent='🛰️ Show satellite imagery on map';status.textContent='Street map active. Satellite imagery has been turned off.';
+    }else{
+      failed=false;map.removeLayer(streetBasemap);satellite.addTo(map);toggle.setAttribute('aria-pressed','true');toggle.textContent='🗺️ Return to street map';status.textContent='Requesting NASA MODIS Terra imagery dated '+date+' (typically delayed; not live). Scroll to the map below to view.';
+      document.getElementById('map')?.scrollIntoView({behavior:'smooth',block:'start'});
+    }
+  });
+})();
 // Fixed geographic landmark only — not a vessel, patrol or operational marker.
 const pedraMarker=L.marker([1.330,104.407],{icon:L.divIcon({className:'pedra-branca-landmark',html:'<span style="display:inline-block;background:#fff;color:#a41326;border:1px solid #d71920;border-radius:5px;padding:3px 5px;white-space:nowrap;font-weight:700;font-size:10px;line-height:1.25;box-shadow:0 1px 4px #0005">🇸🇬 Pedra Branca</span>',iconSize:[100,25],iconAnchor:[50,25]}),zIndexOffset:1000}).bindPopup('<strong>🇸🇬 Pedra Branca — Republic of Singapore</strong><br>Coordinates: approx. 1.330° N, 104.407° E<br>Landmark: Horsburgh Lighthouse<br>The International Court of Justice ruled on 23 May 2008 that sovereignty over Pedra Branca belongs to Singapore.<br><a href="https://www.icj-cij.org/case/130" target="_blank" rel="noopener noreferrer">ICJ case and judgment ↗</a><br><small>Fixed geographic landmark, not a vessel or maritime boundary marker.</small>').addTo(map);
 // Compact marker carries the permanent label; avoid a second overlapping tooltip.
