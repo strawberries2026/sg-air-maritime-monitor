@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T08:31:46.960464+00:00",
+  "updatedAt": "2026-10-28T08:46:41.991937+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-10-28T08:01:18.631922+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352732000",
-      "mmsi": "352732000",
-      "name": "CALIFORNIA HIGHWAY",
-      "category": "unknown",
-      "lat": 1.190065,
-      "lon": 103.82996166666666,
-      "speedKmh": 19.8,
-      "heading": 235,
-      "reportedAt": "2026-10-28T07:01:58.231901+00:00"
     },
     {
       "kind": "ship",
@@ -87,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "357389000",
-      "mmsi": "357389000",
-      "name": "ALSTROEMERIA",
-      "category": "unknown",
-      "lat": 1.2838833333333333,
-      "lon": 103.94063333333334,
-      "speedKmh": 0.2,
-      "heading": 155,
-      "reportedAt": "2026-10-28T07:15:28.682639+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533048500",
       "mmsi": "533048500",
       "name": "ORKIM LEADER",
@@ -111,30 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563152300",
-      "mmsi": "563152300",
-      "name": "KOTA LIHAT",
-      "category": "unknown",
-      "lat": 1.2621766666666665,
-      "lon": 103.83804166666667,
-      "speedKmh": 0.0,
-      "heading": 105.1,
-      "reportedAt": "2026-10-28T07:15:43.462546+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563269100",
-      "mmsi": "563269100",
-      "name": "STELLAR OF MAJESTIC",
-      "category": "unknown",
-      "lat": 1.2485183333333334,
-      "lon": 103.81407666666668,
-      "speedKmh": 29.4,
-      "heading": 308.1,
-      "reportedAt": "2026-10-28T07:15:55.386451+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -144,30 +96,6 @@
       "speedKmh": 0.4,
       "heading": 123.8,
       "reportedAt": "2026-10-28T08:01:11.983720+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232068679",
-      "mmsi": "232068679",
-      "name": "232068679",
-      "category": "unknown",
-      "lat": 1.2644116666666667,
-      "lon": 103.80945166666667,
-      "speedKmh": 9.6,
-      "heading": 253.1,
-      "reportedAt": "2026-10-28T07:16:12.300977+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564149000",
-      "mmsi": "564149000",
-      "name": "BTS FABULOUS",
-      "category": "unknown",
-      "lat": 1.2446233333333334,
-      "lon": 103.76349333333333,
-      "speedKmh": 16.3,
-      "heading": 84.9,
-      "reportedAt": "2026-10-28T07:16:26.796228+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +360,66 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-10-28T08:31:28.091286+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "357389000",
+      "mmsi": "357389000",
+      "name": "ALSTROEMERIA",
+      "category": "unknown",
+      "lat": 1.2837500000000002,
+      "lon": 103.94068333333333,
+      "speedKmh": 0.0,
+      "heading": 3,
+      "reportedAt": "2026-10-28T08:45:28.933013+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477692200",
+      "mmsi": "477692200",
+      "name": "NEW WEALTH",
+      "category": "unknown",
+      "lat": 1.2464016666666666,
+      "lon": 103.92954166666667,
+      "speedKmh": 0.2,
+      "heading": 205.8,
+      "reportedAt": "2026-10-28T08:45:31.031609+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011338",
+      "mmsi": "538011338",
+      "name": "OSLO STAR",
+      "category": "unknown",
+      "lat": 1.260085,
+      "lon": 103.90461499999999,
+      "speedKmh": 0.0,
+      "heading": 115.1,
+      "reportedAt": "2026-10-28T08:45:46.435843+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005850",
+      "mmsi": "574005850",
+      "name": "AULAC SIRIUS",
+      "category": "unknown",
+      "lat": 1.2239,
+      "lon": 103.90313333333333,
+      "speedKmh": 18.3,
+      "heading": 247,
+      "reportedAt": "2026-10-28T08:45:48.244478+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.2517633333333333,
+      "lon": 103.87287333333333,
+      "speedKmh": 0.0,
+      "heading": 163.3,
+      "reportedAt": "2026-10-28T08:46:38.547898+00:00"
     }
   ],
   "error": null
