@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T09:46:39.367057+00:00",
+  "updatedAt": "2026-10-28T10:01:59.788192+00:00",
   "items": [
     {
       "kind": "ship",
@@ -60,42 +60,6 @@
       "speedKmh": 0.0,
       "heading": 84.6,
       "reportedAt": "2026-10-28T09:15:45.954759+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566116000",
-      "mmsi": "566116000",
-      "name": "HAI SOON 1",
-      "category": "unknown",
-      "lat": 1.2414683333333334,
-      "lon": 103.90103333333333,
-      "speedKmh": 16.5,
-      "heading": 54.7,
-      "reportedAt": "2026-10-28T08:30:36.138633+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563069100",
-      "mmsi": "563069100",
-      "name": "SALAMAH",
-      "category": "unknown",
-      "lat": 1.282555,
-      "lon": 103.91730666666668,
-      "speedKmh": 10.7,
-      "heading": 266,
-      "reportedAt": "2026-10-28T08:30:49.402857+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563066180",
-      "mmsi": "563066180",
-      "name": "NOBLE PRINCE TG35",
-      "category": "unknown",
-      "lat": 1.2582633333333333,
-      "lon": 103.84218833333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-28T08:31:28.091286+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +240,66 @@
       "speedKmh": 0.2,
       "heading": 262.3,
       "reportedAt": "2026-10-28T09:46:23.901943+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477282900",
+      "mmsi": "477282900",
+      "name": "XIN SHANGHAI",
+      "category": "unknown",
+      "lat": 1.2378500000000001,
+      "lon": 103.93033333333332,
+      "speedKmh": 13.7,
+      "heading": 256,
+      "reportedAt": "2026-10-28T10:01:11.654833+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "548987000",
+      "mmsi": "548987000",
+      "name": "PACIFIC ESPERANZA",
+      "category": "unknown",
+      "lat": 1.2369233333333334,
+      "lon": 103.89325333333333,
+      "speedKmh": 6.3,
+      "heading": 100.2,
+      "reportedAt": "2026-10-28T10:01:17.682615+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636015167",
+      "mmsi": "636015167",
+      "name": "AGISTRI",
+      "category": "unknown",
+      "lat": 1.2700983333333333,
+      "lon": 103.93885,
+      "speedKmh": 0.2,
+      "heading": 156.3,
+      "reportedAt": "2026-10-28T10:01:21.007513+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477957800",
+      "mmsi": "477957800",
+      "name": "XINYI GLASS",
+      "category": "unknown",
+      "lat": 1.2637933333333333,
+      "lon": 103.89800666666666,
+      "speedKmh": 0.2,
+      "heading": 322.1,
+      "reportedAt": "2026-10-28T10:01:25.921917+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023940",
+      "mmsi": "636023940",
+      "name": "MSC SIJING",
+      "category": "unknown",
+      "lat": 1.198005,
+      "lon": 103.88631333333333,
+      "speedKmh": 22.6,
+      "heading": 72,
+      "reportedAt": "2026-10-28T10:01:51.372947+00:00"
     }
   ],
   "error": null
