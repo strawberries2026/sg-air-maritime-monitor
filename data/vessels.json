@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T12:31:48.932088+00:00",
+  "updatedAt": "2026-10-28T12:46:42.002538+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "477957800",
       "name": "XINYI GLASS",
       "category": "unknown",
-      "lat": 1.2624616666666666,
-      "lon": 103.89609333333333,
-      "speedKmh": 0.0,
-      "heading": 136.9,
-      "reportedAt": "2026-10-28T12:01:25.999488+00:00"
+      "lat": 1.2619833333333332,
+      "lon": 103.896005,
+      "speedKmh": 0.2,
+      "heading": 191.9,
+      "reportedAt": "2026-10-28T12:46:26.661908+00:00"
     },
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "563209300",
-      "mmsi": "563209300",
-      "name": "X-PRESS PISCES",
-      "category": "unknown",
-      "lat": 1.2529166666666667,
-      "lon": 103.793165,
-      "speedKmh": 0.7,
-      "heading": 150.4,
-      "reportedAt": "2026-10-28T11:15:38.913109+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538011338",
       "mmsi": "538011338",
       "name": "OSLO STAR",
@@ -75,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "574005860",
-      "mmsi": "574005860",
-      "name": "AULAC EAGLE",
-      "category": "unknown",
-      "lat": 1.2304333333333333,
-      "lon": 103.89918333333334,
-      "speedKmh": 15.9,
-      "heading": 252.8,
-      "reportedAt": "2026-10-28T11:16:18.101928+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "249061000",
-      "mmsi": "249061000",
-      "name": "BOKA CENTRE",
-      "category": "unknown",
-      "lat": 1.23581,
-      "lon": 103.87421833333333,
-      "speedKmh": 16.1,
-      "heading": 314.1,
-      "reportedAt": "2026-10-28T11:16:27.367993+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565574000",
       "mmsi": "565574000",
       "name": "STRAITS NOMURA",
@@ -115,11 +79,11 @@
       "mmsi": "563246900",
       "name": "ZOEY",
       "category": "unknown",
-      "lat": 1.2701449999999999,
-      "lon": 103.89212333333333,
-      "speedKmh": 0.4,
-      "heading": 187.6,
-      "reportedAt": "2026-10-28T11:45:27.789280+00:00"
+      "lat": 1.2691283333333334,
+      "lon": 103.89210833333333,
+      "speedKmh": 0.0,
+      "heading": 92,
+      "reportedAt": "2026-10-28T12:46:00.466297+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +127,11 @@
       "mmsi": "352006202",
       "name": "TRUONG MINH SUCCESS",
       "category": "unknown",
-      "lat": 1.2068733333333335,
-      "lon": 103.89093166666666,
-      "speedKmh": 23.9,
-      "heading": 60.8,
-      "reportedAt": "2026-10-28T12:16:05.153410+00:00"
+      "lat": 1.2370983333333332,
+      "lon": 103.99046,
+      "speedKmh": 22.0,
+      "heading": 82.6,
+      "reportedAt": "2026-10-28T12:46:25.074857+00:00"
     },
     {
       "kind": "ship",
@@ -192,6 +156,30 @@
       "speedKmh": 14.4,
       "heading": 252.3,
       "reportedAt": "2026-10-28T12:31:14.433901+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249075000",
+      "mmsi": "249075000",
+      "name": "CMA CGM TITUS",
+      "category": "unknown",
+      "lat": 1.2297466666666668,
+      "lon": 103.96327500000001,
+      "speedKmh": 32.8,
+      "heading": 66.9,
+      "reportedAt": "2026-10-28T12:45:34.328390+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566241000",
+      "mmsi": "566241000",
+      "name": "VANDA SUCCESS",
+      "category": "unknown",
+      "lat": 1.2086083333333333,
+      "lon": 103.83853166666667,
+      "speedKmh": 15.6,
+      "heading": 264.2,
+      "reportedAt": "2026-10-28T12:46:17.026769+00:00"
     }
   ],
   "error": null
