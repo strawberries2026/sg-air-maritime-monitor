@@ -26,6 +26,32 @@ streetBasemap.addTo(map);
     }
   });
 })();
+// Weather forecast dashboard; never represents forecast as live satellite detection.
+(function setupEnvironmentalMonitoring(){
+  const ids={cloud:'envCloud',rain:'envRain',wind:'envWind',direction:'envDirection'};
+  const status=document.getElementById('environmentStatus');
+  const button=document.getElementById('environmentRefresh');
+  if(!status||!button)return;
+  const directionName=degrees=>['N','NE','E','SE','S','SW','W','NW'][Math.round(degrees/45)%8];
+  async function refresh(){
+    button.disabled=true;status.textContent='Retrieving Singapore-area weather forecast…';
+    const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),12000);
+    try{
+      const url='https://api.open-meteo.com/v1/forecast?latitude=1.3521&longitude=103.8198&current=cloud_cover,precipitation,wind_speed_10m,wind_direction_10m&timezone=Asia%2FSingapore';
+      const response=await fetch(url,{signal:controller.signal,cache:'no-store'});
+      if(!response.ok)throw new Error('HTTP '+response.status);
+      const data=await response.json();const v=data.current;
+      if(!v||![v.cloud_cover,v.precipitation,v.wind_speed_10m,v.wind_direction_10m].every(Number.isFinite))throw new Error('Incomplete weather data');
+      document.getElementById(ids.cloud).textContent=Math.round(v.cloud_cover)+'%';
+      document.getElementById(ids.rain).textContent=v.precipitation.toFixed(1)+' mm';
+      document.getElementById(ids.wind).textContent=Math.round(v.wind_speed_10m)+' km/h';
+      document.getElementById(ids.direction).textContent=directionName(v.wind_direction_10m)+' ('+Math.round(v.wind_direction_10m)+'°)';
+      status.textContent='Forecast valid '+v.time.replace('T',' ')+' SGT · Retrieved '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · Open-Meteo';
+    }catch(error){status.textContent='Weather unavailable ('+(error.name==='AbortError'?'request timed out':error.message)+'). Use the official weather links below.';}
+    finally{clearTimeout(timer);button.disabled=false;}
+  }
+  button.addEventListener('click',refresh);refresh();
+})();
 // Fixed geographic landmark only — not a vessel, patrol or operational marker.
 const pedraMarker=L.marker([1.330,104.407],{icon:L.divIcon({className:'pedra-branca-landmark',html:'<span style="display:inline-block;background:#fff;color:#a41326;border:1px solid #d71920;border-radius:5px;padding:3px 5px;white-space:nowrap;font-weight:700;font-size:10px;line-height:1.25;box-shadow:0 1px 4px #0005">🇸🇬 Pedra Branca</span>',iconSize:[100,25],iconAnchor:[50,25]}),zIndexOffset:1000}).bindPopup('<strong>🇸🇬 Pedra Branca — Republic of Singapore</strong><br>Coordinates: approx. 1.330° N, 104.407° E<br>Landmark: Horsburgh Lighthouse<br>The International Court of Justice ruled on 23 May 2008 that sovereignty over Pedra Branca belongs to Singapore.<br><a href="https://www.icj-cij.org/case/130" target="_blank" rel="noopener noreferrer">ICJ case and judgment ↗</a><br><small>Fixed geographic landmark, not a vessel or maritime boundary marker.</small>').addTo(map);
 // Compact marker carries the permanent label; avoid a second overlapping tooltip.
