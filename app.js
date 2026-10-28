@@ -46,6 +46,19 @@ streetBasemap.addTo(map);
       document.getElementById(ids.rain).textContent=v.precipitation.toFixed(1)+' mm';
       document.getElementById(ids.wind).textContent=Math.round(v.wind_speed_10m)+' km/h';
       document.getElementById(ids.direction).textContent=directionName(v.wind_direction_10m)+' ('+Math.round(v.wind_direction_10m)+'°)';
+      // Simple public-information interpretations; NOT aviation or maritime safety thresholds.
+      const cloud=v.cloud_cover>=85?'Overcast skies':v.cloud_cover>=55?'Mostly cloudy':v.cloud_cover>=25?'Partly cloudy':'Mostly clear skies';
+      const rain=v.precipitation>=5?'Heavy precipitation indicated':v.precipitation>=1?'Rain indicated':v.precipitation>0?'Light precipitation indicated':'No precipitation indicated';
+      const wind=v.wind_speed_10m>=40?'Strong winds indicated':v.wind_speed_10m>=20?'Breezy conditions':v.wind_speed_10m>=6?'Light winds':'Very light winds';
+      const risk=v.precipitation>=5||v.wind_speed_10m>=40?'high':v.precipitation>=1||v.wind_speed_10m>=20?'medium':'low';
+      const labels={low:'Green · No elevated conditions in selected forecast metrics',medium:'Amber · Review conditions and official advisories',high:'Red · Significant forecast conditions; consult official advisories'};
+      const summary=document.getElementById('environmentSummary');
+      summary.dataset.level=risk;
+      document.getElementById('environmentHeadline').textContent=cloud+' · '+wind;
+      document.getElementById('environmentInterpretation').textContent=rain+'. Wind from '+directionName(v.wind_direction_10m)+'. This summary covers forecast metrics only and does not assess flight or navigation safety.';
+      document.getElementById('environmentSeverity').textContent=labels[risk]+' · Informational, not an official warning';
+      const levels={cloud:v.cloud_cover>=85?'medium':'low',rain:v.precipitation>=5?'high':v.precipitation>=1?'medium':'low',wind:v.wind_speed_10m>=40?'high':v.wind_speed_10m>=20?'medium':'low',direction:'neutral'};
+      Object.entries(levels).forEach(([key,level])=>{const card=document.getElementById('envCard'+key[0].toUpperCase()+key.slice(1));if(card)card.className='env-level-'+level;});
       status.textContent='Forecast valid '+v.time.replace('T',' ')+' SGT · Retrieved '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · Open-Meteo';
     }catch(error){status.textContent='Weather unavailable ('+(error.name==='AbortError'?'request timed out':error.message)+'). Use the official weather links below.';}
     finally{clearTimeout(timer);button.disabled=false;}
