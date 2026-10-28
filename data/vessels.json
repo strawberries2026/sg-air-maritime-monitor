@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-28T11:46:39.770992+00:00",
+  "updatedAt": "2026-10-28T12:01:58.343649+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "352978147",
-      "mmsi": "352978147",
-      "name": "SUNRISE SUMMER",
-      "category": "unknown",
-      "lat": 1.2691100000000002,
-      "lon": 103.88717,
-      "speedKmh": 0.2,
-      "heading": 262.9,
-      "reportedAt": "2026-10-28T10:31:30.933728+00:00"
-    },
     {
       "kind": "ship",
       "id": "477282900",
@@ -31,11 +19,11 @@
       "mmsi": "477957800",
       "name": "XINYI GLASS",
       "category": "unknown",
-      "lat": 1.2635599999999998,
-      "lon": 103.89665333333333,
-      "speedKmh": 0.2,
-      "heading": 227.8,
-      "reportedAt": "2026-10-28T11:16:25.947021+00:00"
+      "lat": 1.2624616666666666,
+      "lon": 103.89609333333333,
+      "speedKmh": 0.0,
+      "heading": 136.9,
+      "reportedAt": "2026-10-28T12:01:25.999488+00:00"
     },
     {
       "kind": "ship",
@@ -115,11 +103,11 @@
       "mmsi": "538011338",
       "name": "OSLO STAR",
       "category": "unknown",
-      "lat": 1.2603983333333335,
-      "lon": 103.903545,
-      "speedKmh": 0.0,
+      "lat": 1.2601133333333334,
+      "lon": 103.90242833333333,
+      "speedKmh": 0.2,
       "heading": 115.1,
-      "reportedAt": "2026-10-28T11:15:45.495405+00:00"
+      "reportedAt": "2026-10-28T12:00:43.731676+00:00"
     },
     {
       "kind": "ship",
@@ -192,6 +180,30 @@
       "speedKmh": 12.8,
       "heading": 46.8,
       "reportedAt": "2026-10-28T11:45:35.556232+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565102000",
+      "mmsi": "565102000",
+      "name": "AYER CHERDAS",
+      "category": "unknown",
+      "lat": 1.266455,
+      "lon": 103.90723,
+      "speedKmh": 0.2,
+      "heading": 227.5,
+      "reportedAt": "2026-10-28T12:00:58.722584+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006578",
+      "mmsi": "352006578",
+      "name": "SNOW DRAGON",
+      "category": "unknown",
+      "lat": 1.2785433333333331,
+      "lon": 103.88630166666667,
+      "speedKmh": 0.2,
+      "heading": 100.9,
+      "reportedAt": "2026-10-28T12:01:44.669137+00:00"
     }
   ],
   "error": null
