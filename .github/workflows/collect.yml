@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
   schedule:
     # GitHub schedules are best-effort and may be delayed or dropped.
-    # Re-register the quarter-hour schedule with off-peak minute offsets.
-    - cron: '7,22,37,52 * * * *'
+    # Re-register native schedule and scheduled-workflow actor; off-peak minute offsets.\n    # External workflow_dispatch scheduler remains an independent fallback.
+    - cron: '11,26,41,56 * * * *'
 permissions:
   contents: write
 concurrency:
