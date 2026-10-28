@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-28T11:31:48.245661+00:00",
+  "updatedAt": "2026-10-28T11:46:39.770992+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "525024416",
-      "mmsi": "525024416",
-      "name": "525024416",
-      "category": "unknown",
-      "lat": 1.2615116666666668,
-      "lon": 103.82626166666667,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-28T10:15:48.878824+00:00"
-    },
     {
       "kind": "ship",
       "id": "352978147",
@@ -48,66 +36,6 @@
       "speedKmh": 0.2,
       "heading": 227.8,
       "reportedAt": "2026-10-28T11:16:25.947021+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023940",
-      "mmsi": "636023940",
-      "name": "MSC SIJING",
-      "category": "unknown",
-      "lat": 1.198005,
-      "lon": 103.88631333333333,
-      "speedKmh": 22.6,
-      "heading": 72,
-      "reportedAt": "2026-10-28T10:01:51.372947+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002318",
-      "mmsi": "311002318",
-      "name": "SUNNY PEAK",
-      "category": "unknown",
-      "lat": 1.2765166666666665,
-      "lon": 103.89966,
-      "speedKmh": 0.2,
-      "heading": 310,
-      "reportedAt": "2026-10-28T10:15:28.951254+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563315900",
-      "mmsi": "563315900",
-      "name": "PACIFIC WISE",
-      "category": "unknown",
-      "lat": 1.258615,
-      "lon": 103.89097333333333,
-      "speedKmh": 2.8,
-      "heading": 83.4,
-      "reportedAt": "2026-10-28T10:15:36.693343+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563169800",
-      "mmsi": "563169800",
-      "name": "RUBY",
-      "category": "unknown",
-      "lat": 1.27602,
-      "lon": 103.89529166666667,
-      "speedKmh": 4.3,
-      "heading": 208.5,
-      "reportedAt": "2026-10-28T10:15:38.679329+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477708900",
-      "mmsi": "477708900",
-      "name": "NEW ERA",
-      "category": "unknown",
-      "lat": 1.2644416666666667,
-      "lon": 103.94514000000001,
-      "speedKmh": 0.0,
-      "heading": 323.5,
-      "reportedAt": "2026-10-28T10:16:36.819394+00:00"
     },
     {
       "kind": "ship",
@@ -198,12 +126,12 @@
       "id": "419001223",
       "mmsi": "419001223",
       "name": "JAG LEELA",
-      "category": "unknown",
-      "lat": 1.252865,
-      "lon": 103.91482500000001,
-      "speedKmh": 0.0,
+      "category": "commercial",
+      "lat": 1.2528683333333333,
+      "lon": 103.91477333333334,
+      "speedKmh": 0.2,
       "heading": 305.2,
-      "reportedAt": "2026-10-28T11:16:08.004064+00:00"
+      "reportedAt": "2026-10-28T11:46:06.953617+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +163,35 @@
       "mmsi": "565574000",
       "name": "STRAITS NOMURA",
       "category": "unknown",
-      "lat": 1.2621533333333335,
-      "lon": 103.88735666666666,
-      "speedKmh": 8.0,
-      "heading": 34,
-      "reportedAt": "2026-10-28T11:31:11.460727+00:00"
+      "lat": 1.2764116666666667,
+      "lon": 103.909435,
+      "speedKmh": 14.1,
+      "heading": 54.3,
+      "reportedAt": "2026-10-28T11:46:12.991660+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563246900",
+      "mmsi": "563246900",
+      "name": "ZOEY",
+      "category": "unknown",
+      "lat": 1.2701449999999999,
+      "lon": 103.89212333333333,
+      "speedKmh": 0.4,
+      "heading": 187.6,
+      "reportedAt": "2026-10-28T11:45:27.789280+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565603000",
+      "mmsi": "565603000",
+      "name": "KIMTEK 1",
+      "category": "unknown",
+      "lat": 1.2451083333333335,
+      "lon": 103.89769166666666,
+      "speedKmh": 12.8,
+      "heading": 46.8,
+      "reportedAt": "2026-10-28T11:45:35.556232+00:00"
     }
   ],
   "error": null
