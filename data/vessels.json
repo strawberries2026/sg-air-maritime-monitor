@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:46:42.928098+00:00",
+  "updatedAt": "2026-10-28T14:01:57.285057+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,30 +36,6 @@
       "speedKmh": 22.0,
       "heading": 82.6,
       "reportedAt": "2026-10-28T12:46:25.074857+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563336400",
-      "mmsi": "563336400",
-      "name": "PEARL OKINAWA",
-      "category": "unknown",
-      "lat": 1.2931233333333334,
-      "lon": 103.93979666666668,
-      "speedKmh": 0.0,
-      "heading": 221.1,
-      "reportedAt": "2026-10-28T12:31:08.055930+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "441510000",
-      "mmsi": "441510000",
-      "name": "SEA TRADER",
-      "category": "unknown",
-      "lat": 1.23486,
-      "lon": 103.937395,
-      "speedKmh": 14.4,
-      "heading": 252.3,
-      "reportedAt": "2026-10-28T12:31:14.433901+00:00"
     },
     {
       "kind": "ship",
@@ -114,12 +90,12 @@
       "id": "245732000",
       "mmsi": "245732000",
       "name": "ROLLDOCK STAR",
-      "category": "unknown",
-      "lat": 1.2546116666666667,
-      "lon": 103.87256166666666,
+      "category": "commercial",
+      "lat": 1.2546083333333333,
+      "lon": 103.87255333333333,
       "speedKmh": 0.0,
-      "heading": 277.1,
-      "reportedAt": "2026-10-28T13:45:46.986415+00:00"
+      "heading": 157.7,
+      "reportedAt": "2026-10-28T14:00:46.407995+00:00"
     },
     {
       "kind": "ship",
@@ -180,6 +156,114 @@
       "speedKmh": 0.0,
       "heading": 357.5,
       "reportedAt": "2026-10-28T13:46:30.991641+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119038",
+      "mmsi": "525119038",
+      "name": "PRIMA TANGGUH LVI",
+      "category": "unknown",
+      "lat": 1.2280733333333334,
+      "lon": 103.81346,
+      "speedKmh": 0.0,
+      "heading": 338,
+      "reportedAt": "2026-10-28T14:01:03.738585+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.2376,
+      "lon": 103.79953333333333,
+      "speedKmh": 0.2,
+      "heading": 327.5,
+      "reportedAt": "2026-10-28T14:01:06.180162+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565390000",
+      "mmsi": "565390000",
+      "name": "JAYA OCEAN",
+      "category": "unknown",
+      "lat": 1.2377166666666668,
+      "lon": 103.7948,
+      "speedKmh": 0.2,
+      "heading": 279.5,
+      "reportedAt": "2026-10-28T14:01:10.060839+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563074570",
+      "mmsi": "563074570",
+      "name": "VISION 225",
+      "category": "unknown",
+      "lat": 1.2727633333333332,
+      "lon": 103.87960666666666,
+      "speedKmh": 5.9,
+      "heading": 29.7,
+      "reportedAt": "2026-10-28T14:01:22.211765+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352003830",
+      "mmsi": "352003830",
+      "name": "XUAN TENG JI YUN",
+      "category": "unknown",
+      "lat": 1.1886316666666665,
+      "lon": 103.81846999999999,
+      "speedKmh": 20.6,
+      "heading": 246.7,
+      "reportedAt": "2026-10-28T14:01:28.527658+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563258400",
+      "mmsi": "563258400",
+      "name": "MAJESTIC BOLD",
+      "category": "unknown",
+      "lat": 1.23481,
+      "lon": 103.866395,
+      "speedKmh": 21.5,
+      "heading": 126.9,
+      "reportedAt": "2026-10-28T14:01:38.891943+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2245766666666666,
+      "lon": 103.80678166666667,
+      "speedKmh": 0.2,
+      "heading": 107.4,
+      "reportedAt": "2026-10-28T14:01:41.379812+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563208100",
+      "mmsi": "563208100",
+      "name": "MAPLE",
+      "category": "unknown",
+      "lat": 1.1945416666666666,
+      "lon": 103.88552833333333,
+      "speedKmh": 7.2,
+      "heading": 82.8,
+      "reportedAt": "2026-10-28T14:01:42.415018+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533132008",
+      "mmsi": "533132008",
+      "name": "ORKIM PEARL",
+      "category": "unknown",
+      "lat": 1.2393066666666668,
+      "lon": 103.79795833333333,
+      "speedKmh": 0.4,
+      "heading": 2.7,
+      "reportedAt": "2026-10-28T14:01:50.695650+00:00"
     }
   ],
   "error": null
