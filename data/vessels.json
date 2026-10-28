@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T12:01:58.343649+00:00",
+  "updatedAt": "2026-10-28T12:16:40.770889+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,30 +36,6 @@
       "speedKmh": 0.4,
       "heading": 44.4,
       "reportedAt": "2026-10-28T11:31:39.074413+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566746000",
-      "mmsi": "566746000",
-      "name": "NEPAMORA",
-      "category": "unknown",
-      "lat": 1.2685566666666666,
-      "lon": 103.89444499999999,
-      "speedKmh": 12.0,
-      "heading": 40.7,
-      "reportedAt": "2026-10-28T10:45:31.695205+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525901612",
-      "mmsi": "525901612",
-      "name": "MTS 101",
-      "category": "unknown",
-      "lat": 1.2520833333333334,
-      "lon": 103.86652333333333,
-      "speedKmh": 0.9,
-      "heading": 337.5,
-      "reportedAt": "2026-10-28T10:45:45.238348+00:00"
     },
     {
       "kind": "ship",
@@ -114,12 +90,12 @@
       "id": "419001223",
       "mmsi": "419001223",
       "name": "JAG LEELA",
-      "category": "commercial",
-      "lat": 1.2528683333333333,
-      "lon": 103.91477333333334,
+      "category": "unknown",
+      "lat": 1.2527333333333333,
+      "lon": 103.91481999999999,
       "speedKmh": 0.2,
       "heading": 305.2,
-      "reportedAt": "2026-10-28T11:46:06.953617+00:00"
+      "reportedAt": "2026-10-28T12:16:07.725112+00:00"
     },
     {
       "kind": "ship",
@@ -204,6 +180,18 @@
       "speedKmh": 0.2,
       "heading": 100.9,
       "reportedAt": "2026-10-28T12:01:44.669137+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006202",
+      "mmsi": "352006202",
+      "name": "TRUONG MINH SUCCESS",
+      "category": "unknown",
+      "lat": 1.2068733333333335,
+      "lon": 103.89093166666666,
+      "speedKmh": 23.9,
+      "heading": 60.8,
+      "reportedAt": "2026-10-28T12:16:05.153410+00:00"
     }
   ],
   "error": null
