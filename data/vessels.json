@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T03:31:47.548356+00:00",
+  "updatedAt": "2026-10-28T03:46:40.401263+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "245732000",
       "name": "ROLLDOCK STAR",
       "category": "unknown",
-      "lat": 1.2547516666666667,
-      "lon": 103.87244833333332,
-      "speedKmh": 0.0,
-      "heading": 277.2,
-      "reportedAt": "2026-10-28T02:45:47.404536+00:00"
+      "lat": 1.2547533333333334,
+      "lon": 103.87266666666666,
+      "speedKmh": 0.2,
+      "heading": 69.4,
+      "reportedAt": "2026-10-28T03:45:48.693765+00:00"
     },
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "566187000",
-      "mmsi": "566187000",
-      "name": "MAERSK CAPE TOWN",
-      "category": "unknown",
-      "lat": 1.269455,
-      "lon": 103.77178,
-      "speedKmh": 0.0,
-      "heading": 7.3,
-      "reportedAt": "2026-10-28T02:16:12.519300+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "311002318",
       "mmsi": "311002318",
       "name": "SUNNY PEAK",
@@ -63,54 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "636021344",
-      "mmsi": "636021344",
-      "name": "AFRICA",
-      "category": "unknown",
-      "lat": 1.2619483333333332,
-      "lon": 103.91274666666666,
-      "speedKmh": 0.0,
-      "heading": 343.4,
-      "reportedAt": "2026-10-28T02:15:40.773134+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002454",
-      "mmsi": "311002454",
-      "name": "311002454",
-      "category": "unknown",
-      "lat": 1.2359666666666667,
-      "lon": 103.88708333333334,
-      "speedKmh": 10.0,
-      "heading": 25,
-      "reportedAt": "2026-10-28T02:16:12.013835+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563991000",
-      "mmsi": "563991000",
-      "name": "APIA CHIEF",
-      "category": "unknown",
-      "lat": 1.2610333333333335,
-      "lon": 103.88929166666667,
-      "speedKmh": 0.2,
-      "heading": 34.8,
-      "reportedAt": "2026-10-28T02:01:52.778625+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563258400",
-      "mmsi": "563258400",
-      "name": "MAJESTIC BOLD",
-      "category": "unknown",
-      "lat": 1.2600116666666668,
-      "lon": 103.80509,
-      "speedKmh": 10.0,
-      "heading": 22.1,
-      "reportedAt": "2026-10-28T02:15:31.672499+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "5631101",
       "mmsi": "5631101",
       "name": "PSAB",
@@ -120,42 +60,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-10-28T03:01:25.390724+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015657",
-      "mmsi": "636015657",
-      "name": "GRACIOUS ACE",
-      "category": "unknown",
-      "lat": 1.2266116666666667,
-      "lon": 103.89310166666668,
-      "speedKmh": 17.8,
-      "heading": 257.9,
-      "reportedAt": "2026-10-28T02:15:37.511441+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525108006",
-      "mmsi": "525108006",
-      "name": "PARIGI P1030",
-      "category": "unknown",
-      "lat": 1.2303966666666668,
-      "lon": 103.79384166666667,
-      "speedKmh": 2.0,
-      "heading": 123.6,
-      "reportedAt": "2026-10-28T02:15:47.472195+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563971000",
-      "mmsi": "563971000",
-      "name": "ENA LEGEND",
-      "category": "unknown",
-      "lat": 1.2387033333333333,
-      "lon": 103.797105,
-      "speedKmh": 12.8,
-      "heading": 116.1,
-      "reportedAt": "2026-10-28T02:16:13.114725+00:00"
     },
     {
       "kind": "ship",
@@ -396,6 +300,54 @@
       "speedKmh": 8.3,
       "heading": 165.9,
       "reportedAt": "2026-10-28T03:16:30.797998+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023596",
+      "mmsi": "636023596",
+      "name": "IMOLA",
+      "category": "unknown",
+      "lat": 1.2333266666666667,
+      "lon": 103.88933166666668,
+      "speedKmh": 0.2,
+      "heading": 339.1,
+      "reportedAt": "2026-10-28T03:45:42.348148+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006529",
+      "mmsi": "352006529",
+      "name": "BRIGHT PHOENIX",
+      "category": "unknown",
+      "lat": 1.2703283333333333,
+      "lon": 103.87582666666667,
+      "speedKmh": 1.5,
+      "heading": 122.1,
+      "reportedAt": "2026-10-28T03:46:06.353507+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636012726",
+      "mmsi": "636012726",
+      "name": "SUNNY MOREBAYA",
+      "category": "unknown",
+      "lat": 1.17059,
+      "lon": 103.801715,
+      "speedKmh": 16.7,
+      "heading": 72.7,
+      "reportedAt": "2026-10-28T03:46:22.930005+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563991000",
+      "mmsi": "563991000",
+      "name": "APIA CHIEF",
+      "category": "commercial",
+      "lat": 1.2631466666666666,
+      "lon": 103.88950833333334,
+      "speedKmh": 0.2,
+      "heading": 55.4,
+      "reportedAt": "2026-10-28T03:46:23.214976+00:00"
     }
   ],
   "error": null
