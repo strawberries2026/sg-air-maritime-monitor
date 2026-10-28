@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T05:46:43.610161+00:00",
+  "updatedAt": "2026-10-28T06:01:55.792767+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,42 +24,6 @@
       "speedKmh": 0.4,
       "heading": 88.3,
       "reportedAt": "2026-10-28T04:46:10.207842+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010487",
-      "mmsi": "538010487",
-      "name": "CHRYSTAL ARCTIC",
-      "category": "unknown",
-      "lat": 1.25167,
-      "lon": 103.92675666666668,
-      "speedKmh": 0.2,
-      "heading": 111.8,
-      "reportedAt": "2026-10-28T04:31:13.445248+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2757983333333334,
-      "lon": 103.90532833333333,
-      "speedKmh": 0.2,
-      "heading": 134.2,
-      "reportedAt": "2026-10-28T04:31:00.163928+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563066180",
-      "mmsi": "563066180",
-      "name": "NOBLE PRINCE TG35",
-      "category": "unknown",
-      "lat": 1.2583166666666665,
-      "lon": 103.84227333333334,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-28T04:31:19.018577+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +223,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2518183333333333,
-      "lon": 103.87278666666666,
+      "lat": 1.2518766666666667,
+      "lon": 103.87287333333333,
       "speedKmh": 0.0,
-      "heading": 342.2,
-      "reportedAt": "2026-10-28T05:16:08.529866+00:00"
+      "heading": 343.5,
+      "reportedAt": "2026-10-28T06:01:47.800937+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +295,11 @@
       "mmsi": "636015167",
       "name": "AGISTRI",
       "category": "unknown",
-      "lat": 1.2704449999999998,
-      "lon": 103.93782166666666,
+      "lat": 1.2703633333333333,
+      "lon": 103.93800833333333,
       "speedKmh": 0.0,
-      "heading": 105.6,
-      "reportedAt": "2026-10-28T05:31:19.373926+00:00"
+      "heading": 127.4,
+      "reportedAt": "2026-10-28T06:01:23.094547+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +384,30 @@
       "speedKmh": 12.0,
       "heading": 240.7,
       "reportedAt": "2026-10-28T05:46:15.401079+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020453",
+      "mmsi": "636020453",
+      "name": "ALMI HERCULES",
+      "category": "unknown",
+      "lat": 1.24425,
+      "lon": 103.91168166666667,
+      "speedKmh": 0.2,
+      "heading": 49.1,
+      "reportedAt": "2026-10-28T06:00:57.479113+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "244620571",
+      "mmsi": "244620571",
+      "name": "ROLLDOCK SKY",
+      "category": "unknown",
+      "lat": 1.2749733333333333,
+      "lon": 103.88297666666668,
+      "speedKmh": 0.2,
+      "heading": 289.7,
+      "reportedAt": "2026-10-28T06:01:54.281742+00:00"
     }
   ],
   "error": null
