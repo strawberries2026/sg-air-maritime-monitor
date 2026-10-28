@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T13:31:48.545342+00:00",
+  "updatedAt": "2026-10-28T13:46:42.928098+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.2,
       "heading": 191.9,
       "reportedAt": "2026-10-28T12:46:26.661908+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "419001223",
-      "mmsi": "419001223",
-      "name": "JAG LEELA",
-      "category": "unknown",
-      "lat": 1.2527333333333333,
-      "lon": 103.91481999999999,
-      "speedKmh": 0.2,
-      "heading": 305.2,
-      "reportedAt": "2026-10-28T12:16:07.725112+00:00"
     },
     {
       "kind": "ship",
@@ -128,10 +116,10 @@
       "name": "ROLLDOCK STAR",
       "category": "unknown",
       "lat": 1.2546116666666667,
-      "lon": 103.87253000000001,
+      "lon": 103.87256166666666,
       "speedKmh": 0.0,
-      "heading": 326.1,
-      "reportedAt": "2026-10-28T13:16:00.196229+00:00"
+      "heading": 277.1,
+      "reportedAt": "2026-10-28T13:45:46.986415+00:00"
     },
     {
       "kind": "ship",
@@ -180,6 +168,18 @@
       "speedKmh": 24.3,
       "heading": 57.1,
       "reportedAt": "2026-10-28T13:31:11.709543+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352978147",
+      "mmsi": "352978147",
+      "name": "SUNRISE SUMMER",
+      "category": "unknown",
+      "lat": 1.267385,
+      "lon": 103.88680833333333,
+      "speedKmh": 0.0,
+      "heading": 357.5,
+      "reportedAt": "2026-10-28T13:46:30.991641+00:00"
     }
   ],
   "error": null
