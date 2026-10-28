@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T16:02:02.317241+00:00",
+  "updatedAt": "2026-10-28T16:16:43.469298+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "538011716",
       "name": "PACIFIC SPIRIT",
       "category": "unknown",
-      "lat": 1.22625,
-      "lon": 103.80685333333332,
-      "speedKmh": 0.6,
-      "heading": 81.9,
-      "reportedAt": "2026-10-28T15:01:41.309819+00:00"
+      "lat": 1.2264583333333334,
+      "lon": 103.80697666666667,
+      "speedKmh": 0.2,
+      "heading": 95.4,
+      "reportedAt": "2026-10-28T16:16:41.367438+00:00"
     },
     {
       "kind": "ship",
@@ -60,30 +60,6 @@
       "speedKmh": 0.0,
       "heading": 6.2,
       "reportedAt": "2026-10-28T15:31:15.416216+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.2495616666666665,
-      "lon": 103.79436333333334,
-      "speedKmh": 0.0,
-      "heading": 176.6,
-      "reportedAt": "2026-10-28T14:45:50.517695+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.2506766666666667,
-      "lon": 103.87115999999999,
-      "speedKmh": 0.0,
-      "heading": 26.7,
-      "reportedAt": "2026-10-28T14:46:02.238485+00:00"
     },
     {
       "kind": "ship",
@@ -111,42 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563246900",
-      "mmsi": "563246900",
-      "name": "ZOEY",
-      "category": "unknown",
-      "lat": 1.2686983333333333,
-      "lon": 103.89231333333333,
-      "speedKmh": 0.0,
-      "heading": 118.6,
-      "reportedAt": "2026-10-28T14:45:50.517764+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636092863",
-      "mmsi": "636092863",
-      "name": "AS PENELOPE",
-      "category": "unknown",
-      "lat": 1.1821166666666667,
-      "lon": 103.85543333333334,
-      "speedKmh": 13.5,
-      "heading": 69,
-      "reportedAt": "2026-10-28T14:46:12.632249+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636022451",
-      "mmsi": "636022451",
-      "name": "MSC MARTINA MARIA",
-      "category": "unknown",
-      "lat": 1.24409,
-      "lon": 103.656945,
-      "speedKmh": 8.5,
-      "heading": 339.2,
-      "reportedAt": "2026-10-28T14:46:17.238000+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "413334020",
       "mmsi": "413334020",
       "name": "MA YUE",
@@ -156,18 +96,6 @@
       "speedKmh": 0.2,
       "heading": 57,
       "reportedAt": "2026-10-28T15:46:21.634030+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012352",
-      "mmsi": "538012352",
-      "name": "GENCO VALKYRIE",
-      "category": "unknown",
-      "lat": 1.2387016666666668,
-      "lon": 103.89353,
-      "speedKmh": 0.2,
-      "heading": 204.2,
-      "reportedAt": "2026-10-28T14:46:32.209589+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +379,11 @@
       "mmsi": "374182000",
       "name": "CL TOMO",
       "category": "unknown",
-      "lat": 1.191845,
-      "lon": 103.83713833333333,
-      "speedKmh": 23.2,
-      "heading": 242.4,
-      "reportedAt": "2026-10-28T16:01:01.201283+00:00"
+      "lat": 1.1704783333333333,
+      "lon": 103.790235,
+      "speedKmh": 22.8,
+      "heading": 250.2,
+      "reportedAt": "2026-10-28T16:16:02.477038+00:00"
     },
     {
       "kind": "ship",
@@ -552,6 +480,102 @@
       "speedKmh": 23.0,
       "heading": 57.5,
       "reportedAt": "2026-10-28T16:01:48.188631+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636015657",
+      "mmsi": "636015657",
+      "name": "GRACIOUS ACE",
+      "category": "unknown",
+      "lat": 1.2663166666666668,
+      "lon": 103.851715,
+      "speedKmh": 0.0,
+      "heading": 115.8,
+      "reportedAt": "2026-10-28T16:15:36.131501+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563336000",
+      "mmsi": "563336000",
+      "name": "HY JADE",
+      "category": "unknown",
+      "lat": 1.24725,
+      "lon": 103.79693333333333,
+      "speedKmh": 0.7,
+      "heading": 86.6,
+      "reportedAt": "2026-10-28T16:15:44.062513+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563208100",
+      "mmsi": "563208100",
+      "name": "MAPLE",
+      "category": "unknown",
+      "lat": 1.1907083333333333,
+      "lon": 103.90795499999999,
+      "speedKmh": 0.4,
+      "heading": 342.3,
+      "reportedAt": "2026-10-28T16:15:51.352296+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086590",
+      "mmsi": "563086590",
+      "name": "PSA SUCCESS CS10",
+      "category": "unknown",
+      "lat": 1.2751483333333333,
+      "lon": 103.75509166666667,
+      "speedKmh": 23.3,
+      "heading": 127.5,
+      "reportedAt": "2026-10-28T16:15:56.790912+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538090744",
+      "mmsi": "538090744",
+      "name": "PENINSULA XV",
+      "category": "unknown",
+      "lat": 1.2882666666666667,
+      "lon": 103.91730166666666,
+      "speedKmh": 0.0,
+      "heading": 213.2,
+      "reportedAt": "2026-10-28T16:15:58.812813+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011011",
+      "mmsi": "538011011",
+      "name": "LOWLANDS SHARK",
+      "category": "unknown",
+      "lat": 1.2853416666666668,
+      "lon": 103.910615,
+      "speedKmh": 0.2,
+      "heading": 146.5,
+      "reportedAt": "2026-10-28T16:16:12.330753+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086060",
+      "mmsi": "563086060",
+      "name": "HENG SHENG",
+      "category": "unknown",
+      "lat": 1.2114183333333335,
+      "lon": 103.79991333333334,
+      "speedKmh": 10.2,
+      "heading": 125.1,
+      "reportedAt": "2026-10-28T16:16:24.459019+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012352",
+      "mmsi": "538012352",
+      "name": "GENCO VALKYRIE",
+      "category": "unknown",
+      "lat": 1.238345,
+      "lon": 103.89379166666666,
+      "speedKmh": 0.2,
+      "heading": 204.2,
+      "reportedAt": "2026-10-28T16:16:33.778941+00:00"
     }
   ],
   "error": null
