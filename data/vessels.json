@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T10:46:40.041030+00:00",
+  "updatedAt": "2026-10-28T11:01:58.775091+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.6,
       "heading": 295.8,
       "reportedAt": "2026-10-28T09:46:07.619221+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565102000",
-      "mmsi": "565102000",
-      "name": "AYER CHERDAS",
-      "category": "unknown",
-      "lat": 1.2664883333333334,
-      "lon": 103.90861333333334,
-      "speedKmh": 0.2,
-      "heading": 240.2,
-      "reportedAt": "2026-10-28T09:31:18.333042+00:00"
     },
     {
       "kind": "ship",
@@ -115,11 +103,11 @@
       "mmsi": "477282900",
       "name": "XIN SHANGHAI",
       "category": "unknown",
-      "lat": 1.2378500000000001,
-      "lon": 103.93033333333332,
-      "speedKmh": 13.7,
-      "heading": 256,
-      "reportedAt": "2026-10-28T10:01:11.654833+00:00"
+      "lat": 1.2006666666666668,
+      "lon": 103.84191666666668,
+      "speedKmh": 10.4,
+      "heading": 273,
+      "reportedAt": "2026-10-28T11:01:42.868579+00:00"
     },
     {
       "kind": "ship",
@@ -252,6 +240,30 @@
       "speedKmh": 0.9,
       "heading": 337.5,
       "reportedAt": "2026-10-28T10:45:45.238348+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011011",
+      "mmsi": "538011011",
+      "name": "LOWLANDS SHARK",
+      "category": "unknown",
+      "lat": 1.2876133333333333,
+      "lon": 103.91198666666666,
+      "speedKmh": 0.2,
+      "heading": 269.6,
+      "reportedAt": "2026-10-28T11:01:12.876264+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "511101907",
+      "mmsi": "511101907",
+      "name": "CHANG YANG JIN LONG",
+      "category": "unknown",
+      "lat": 1.2709666666666666,
+      "lon": 103.898555,
+      "speedKmh": 0.2,
+      "heading": 102.5,
+      "reportedAt": "2026-10-28T11:01:38.226872+00:00"
     }
   ],
   "error": null
