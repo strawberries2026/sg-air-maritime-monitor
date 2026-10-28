@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T06:31:48.248262+00:00",
+  "updatedAt": "2026-10-28T06:46:42.405777+00:00",
   "items": [
     {
       "kind": "ship",
@@ -87,30 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "413238570",
-      "mmsi": "413238570",
-      "name": "ZHONG HANG SHENG",
-      "category": "unknown",
-      "lat": 1.2639099999999999,
-      "lon": 103.83448833333334,
-      "speedKmh": 0.0,
-      "heading": 220.9,
-      "reportedAt": "2026-10-28T05:16:23.097194+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735966666666667,
-      "lon": 103.80138166666667,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-28T05:15:25.620816+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563087130",
       "mmsi": "563087130",
       "name": "STL T6",
@@ -123,18 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "563142000",
-      "mmsi": "563142000",
-      "name": "PENGUIN REDEEM",
-      "category": "unknown",
-      "lat": 1.2274183333333333,
-      "lon": 103.77736333333334,
-      "speedKmh": 0.2,
-      "heading": 184.3,
-      "reportedAt": "2026-10-28T05:16:20.150166+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563991000",
       "mmsi": "563991000",
       "name": "APIA CHIEF",
@@ -144,18 +108,6 @@
       "speedKmh": 0.2,
       "heading": 100.9,
       "reportedAt": "2026-10-28T06:31:12.999342+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "247293200",
-      "mmsi": "247293200",
-      "name": "MARE PICENUM",
-      "category": "unknown",
-      "lat": 1.2369549999999998,
-      "lon": 103.91914666666666,
-      "speedKmh": 0.4,
-      "heading": 326.1,
-      "reportedAt": "2026-10-28T05:16:23.799680+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +307,11 @@
       "mmsi": "565102000",
       "name": "AYER CHERDAS",
       "category": "unknown",
-      "lat": 1.2665433333333334,
-      "lon": 103.90787833333334,
-      "speedKmh": 0.7,
-      "heading": 221.4,
-      "reportedAt": "2026-10-28T06:15:57.948756+00:00"
+      "lat": 1.2662,
+      "lon": 103.90855,
+      "speedKmh": 0.2,
+      "heading": 33.2,
+      "reportedAt": "2026-10-28T06:45:50.753553+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +360,78 @@
       "speedKmh": 0.0,
       "heading": 56,
       "reportedAt": "2026-10-28T06:31:07.008309+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563079960",
+      "mmsi": "563079960",
+      "name": "MATA IKAN",
+      "category": "unknown",
+      "lat": 1.254545,
+      "lon": 103.84655333333333,
+      "speedKmh": 11.9,
+      "heading": 281.7,
+      "reportedAt": "2026-10-28T06:45:33.020730+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241729000",
+      "mmsi": "241729000",
+      "name": "241729000",
+      "category": "unknown",
+      "lat": 1.2664983333333335,
+      "lon": 103.97235833333335,
+      "speedKmh": 4.1,
+      "heading": 276.3,
+      "reportedAt": "2026-10-28T06:45:35.203859+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525018039",
+      "mmsi": "525018039",
+      "name": "TB BUANA 1302",
+      "category": "unknown",
+      "lat": 1.261085,
+      "lon": 103.83948666666667,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-10-28T06:45:53.087988+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563027990",
+      "mmsi": "563027990",
+      "name": "PERSEITY",
+      "category": "unknown",
+      "lat": 1.2935566666666667,
+      "lon": 103.93973333333334,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-10-28T06:45:55.638694+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "357044000",
+      "mmsi": "357044000",
+      "name": "TRIDENT HOPE",
+      "category": "unknown",
+      "lat": 1.2527766666666666,
+      "lon": 103.93917499999999,
+      "speedKmh": 0.0,
+      "heading": 328.9,
+      "reportedAt": "2026-10-28T06:46:13.856238+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563337400",
+      "mmsi": "563337400",
+      "name": "THARINEE NAREE",
+      "category": "unknown",
+      "lat": 1.2265016666666668,
+      "lon": 103.80408666666668,
+      "speedKmh": 0.0,
+      "heading": 124,
+      "reportedAt": "2026-10-28T06:46:33.472772+00:00"
     }
   ],
   "error": null
