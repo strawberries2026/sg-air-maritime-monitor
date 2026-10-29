@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-29T02:16:38.830237+00:00",
+  "updatedAt": "2026-10-29T02:31:49.173414+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563225800",
-      "mmsi": "563225800",
-      "name": "X-PRESS PYXIS",
-      "category": "unknown",
-      "lat": 1.2642033333333333,
-      "lon": 103.76512333333334,
-      "speedKmh": 14.1,
-      "heading": 311.6,
-      "reportedAt": "2026-10-29T01:01:45.876831+00:00"
-    },
     {
       "kind": "ship",
       "id": "352006015",
@@ -60,30 +48,6 @@
       "speedKmh": 8.0,
       "heading": 294.8,
       "reportedAt": "2026-10-29T01:31:06.187379+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563169800",
-      "mmsi": "563169800",
-      "name": "RUBY",
-      "category": "unknown",
-      "lat": 1.2730766666666669,
-      "lon": 103.89229666666667,
-      "speedKmh": 0.2,
-      "heading": 277.2,
-      "reportedAt": "2026-10-29T01:01:08.970365+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477957800",
-      "mmsi": "477957800",
-      "name": "XINYI GLASS",
-      "category": "unknown",
-      "lat": 1.2613466666666668,
-      "lon": 103.89590333333334,
-      "speedKmh": 0.0,
-      "heading": 317.7,
-      "reportedAt": "2026-10-29T01:01:25.923772+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +139,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.2390783333333333,
-      "lon": 103.79484000000001,
+      "lat": 1.2387366666666668,
+      "lon": 103.79458,
       "speedKmh": 0.2,
-      "heading": 169.8,
-      "reportedAt": "2026-10-29T02:01:09.920694+00:00"
+      "heading": 160.6,
+      "reportedAt": "2026-10-29T02:31:09.862664+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +187,11 @@
       "mmsi": "538011011",
       "name": "LOWLANDS SHARK",
       "category": "unknown",
-      "lat": 1.28563,
-      "lon": 103.91039,
-      "speedKmh": 0.0,
-      "heading": 119.7,
-      "reportedAt": "2026-10-29T01:31:12.272860+00:00"
+      "lat": 1.286495,
+      "lon": 103.91030333333333,
+      "speedKmh": 0.2,
+      "heading": 44.9,
+      "reportedAt": "2026-10-29T02:31:12.309860+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +504,150 @@
       "speedKmh": 6.5,
       "heading": 240.7,
       "reportedAt": "2026-10-29T02:16:37.019665+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008273",
+      "mmsi": "538008273",
+      "name": "STAR CAPE TOWN",
+      "category": "unknown",
+      "lat": 1.2789233333333334,
+      "lon": 103.88985333333333,
+      "speedKmh": 0.2,
+      "heading": 35.2,
+      "reportedAt": "2026-10-29T02:30:36.857649+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538090744",
+      "mmsi": "538090744",
+      "name": "PENINSULA XV",
+      "category": "unknown",
+      "lat": 1.2889249999999999,
+      "lon": 103.91719333333334,
+      "speedKmh": 0.0,
+      "heading": 213.2,
+      "reportedAt": "2026-10-29T02:30:40.507227+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563179400",
+      "mmsi": "563179400",
+      "name": "DH DILIGENCY",
+      "category": "unknown",
+      "lat": 1.232655,
+      "lon": 103.90324833333334,
+      "speedKmh": 20.7,
+      "heading": 252.1,
+      "reportedAt": "2026-10-29T02:30:44.719041+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564167000",
+      "mmsi": "564167000",
+      "name": "HY AMBER",
+      "category": "unknown",
+      "lat": 1.24101,
+      "lon": 103.79363666666667,
+      "speedKmh": 10.2,
+      "heading": 318.5,
+      "reportedAt": "2026-10-29T02:30:46.069220+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "412408420",
+      "mmsi": "412408420",
+      "name": "HUA SHUN YOU 698",
+      "category": "unknown",
+      "lat": 1.2352216666666667,
+      "lon": 103.800095,
+      "speedKmh": 0.6,
+      "heading": 86.1,
+      "reportedAt": "2026-10-29T02:30:47.200402+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525200809",
+      "mmsi": "525200809",
+      "name": "ASEAN PROTECTOR",
+      "category": "unknown",
+      "lat": 1.2373833333333333,
+      "lon": 103.78586666666666,
+      "speedKmh": 8.9,
+      "heading": 334,
+      "reportedAt": "2026-10-29T02:30:55.212190+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2188183333333333,
+      "lon": 103.80311833333333,
+      "speedKmh": 0.2,
+      "heading": 194.9,
+      "reportedAt": "2026-10-29T02:31:02.904113+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.2391666666666665,
+      "lon": 103.79993333333333,
+      "speedKmh": 0.2,
+      "heading": 23,
+      "reportedAt": "2026-10-29T02:31:04.905658+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563013850",
+      "mmsi": "563013850",
+      "name": "GP44",
+      "category": "unknown",
+      "lat": 1.257095,
+      "lon": 103.84115,
+      "speedKmh": 0.2,
+      "heading": 288.4,
+      "reportedAt": "2026-10-29T02:31:06.790447+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564885000",
+      "mmsi": "564885000",
+      "name": "OCEAN FLYTE",
+      "category": "unknown",
+      "lat": 1.2609816666666667,
+      "lon": 103.82182666666667,
+      "speedKmh": 0.9,
+      "heading": 95,
+      "reportedAt": "2026-10-29T02:31:25.947515+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011520",
+      "mmsi": "538011520",
+      "name": "POLYAIGOS",
+      "category": "unknown",
+      "lat": 1.1869699999999999,
+      "lon": 103.84373000000001,
+      "speedKmh": 14.1,
+      "heading": 74.3,
+      "reportedAt": "2026-10-29T02:31:31.068286+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636017817",
+      "mmsi": "636017817",
+      "name": "SAPPORO PRINCESS",
+      "category": "unknown",
+      "lat": 1.2528000000000001,
+      "lon": 103.90318333333333,
+      "speedKmh": 0.0,
+      "heading": 267,
+      "reportedAt": "2026-10-29T02:31:41.049845+00:00"
     }
   ],
   "error": null
