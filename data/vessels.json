@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T18:01:58.673186+00:00",
+  "updatedAt": "2026-10-29T18:16:42.198686+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-10-29T18:01:36.235479+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564855000",
-      "mmsi": "564855000",
-      "name": "TOLL EMPEROR",
-      "category": "unknown",
-      "lat": 1.2112466666666668,
-      "lon": 103.79918666666667,
-      "speedKmh": 9.4,
-      "heading": 117.7,
-      "reportedAt": "2026-10-29T16:45:49.075741+00:00"
     },
     {
       "kind": "ship",
@@ -91,11 +79,11 @@
       "mmsi": "563009180",
       "name": "NOBLE ACE TG41",
       "category": "unknown",
-      "lat": 1.2577933333333333,
-      "lon": 103.84953833333334,
-      "speedKmh": 12.6,
-      "heading": 125.3,
-      "reportedAt": "2026-10-29T17:45:52.209724+00:00"
+      "lat": 1.2583483333333334,
+      "lon": 103.84539166666667,
+      "speedKmh": 4.1,
+      "heading": 268.2,
+      "reportedAt": "2026-10-29T18:15:51.642150+00:00"
     },
     {
       "kind": "ship",
@@ -108,42 +96,6 @@
       "speedKmh": 0.0,
       "heading": 333.1,
       "reportedAt": "2026-10-29T18:00:54.696178+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "244850097",
-      "mmsi": "244850097",
-      "name": "BIGROLL BEAUFORT",
-      "category": "unknown",
-      "lat": 1.2470166666666667,
-      "lon": 103.87318333333333,
-      "speedKmh": 0.0,
-      "heading": 213.2,
-      "reportedAt": "2026-10-29T16:45:35.813871+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563083840",
-      "mmsi": "563083840",
-      "name": "PSA GEMINI (NN75)",
-      "category": "unknown",
-      "lat": 1.23761,
-      "lon": 103.78792833333334,
-      "speedKmh": 0.9,
-      "heading": 261.5,
-      "reportedAt": "2026-10-29T16:45:59.001830+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563208100",
-      "mmsi": "563208100",
-      "name": "MAPLE",
-      "category": "unknown",
-      "lat": 1.2741083333333334,
-      "lon": 103.93072333333333,
-      "speedKmh": 15.2,
-      "heading": 68,
-      "reportedAt": "2026-10-29T16:46:08.354767+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +480,78 @@
       "speedKmh": 0.0,
       "heading": 357.2,
       "reportedAt": "2026-10-29T18:01:41.262575+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563187800",
+      "mmsi": "563187800",
+      "name": "PSA PHOENIX CS09",
+      "category": "unknown",
+      "lat": 1.2559816666666668,
+      "lon": 103.787775,
+      "speedKmh": 18.1,
+      "heading": 226.2,
+      "reportedAt": "2026-10-29T18:15:30.909205+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525024416",
+      "mmsi": "525024416",
+      "name": "525024416",
+      "category": "unknown",
+      "lat": 1.2615933333333333,
+      "lon": 103.82639999999999,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-29T18:15:32.417528+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413347470",
+      "mmsi": "413347470",
+      "name": "DING HENG 25",
+      "category": "unknown",
+      "lat": 1.2363483333333332,
+      "lon": 103.79249833333333,
+      "speedKmh": 0.0,
+      "heading": 180,
+      "reportedAt": "2026-10-29T18:15:51.722127+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477627900",
+      "mmsi": "477627900",
+      "name": "OOCL NAGOYA",
+      "category": "unknown",
+      "lat": 1.2627883333333334,
+      "lon": 103.78049666666668,
+      "speedKmh": 0.0,
+      "heading": 193.4,
+      "reportedAt": "2026-10-29T18:16:00.473442+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525008095",
+      "mmsi": "525008095",
+      "name": "MT PANGKALAN BRANDAN",
+      "category": "unknown",
+      "lat": 1.2337233333333333,
+      "lon": 103.80419,
+      "speedKmh": 0.6,
+      "heading": 49.2,
+      "reportedAt": "2026-10-29T18:16:26.058953+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012616",
+      "mmsi": "538012616",
+      "name": "POAVOSA BRAVE",
+      "category": "unknown",
+      "lat": 1.2562833333333332,
+      "lon": 103.893,
+      "speedKmh": 0.0,
+      "heading": 73,
+      "reportedAt": "2026-10-29T18:16:32.745140+00:00"
     }
   ],
   "error": null
