@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T17:31:52.614239+00:00",
+  "updatedAt": "2026-10-29T17:46:42.415161+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,39 +15,15 @@
     },
     {
       "kind": "ship",
-      "id": "563087310",
-      "mmsi": "563087310",
-      "name": "PSA VELA (NN79)",
-      "category": "unknown",
-      "lat": 1.2420233333333333,
-      "lon": 103.78203,
-      "speedKmh": 10.0,
-      "heading": 339.8,
-      "reportedAt": "2026-10-29T16:01:59.297160+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563001270",
       "mmsi": "563001270",
       "name": "AYER MANIS",
       "category": "unknown",
-      "lat": 1.2695783333333333,
-      "lon": 103.88066833333333,
+      "lat": 1.2695599999999998,
+      "lon": 103.88070333333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-29T17:31:32.891227+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566623000",
-      "mmsi": "566623000",
-      "name": "RESOLUTE NN24",
-      "category": "unknown",
-      "lat": 1.2643416666666667,
-      "lon": 103.83445,
-      "speedKmh": 0.0,
-      "heading": 71.6,
-      "reportedAt": "2026-10-29T16:16:37.241174+00:00"
+      "reportedAt": "2026-10-29T17:46:33.217673+00:00"
     },
     {
       "kind": "ship",
@@ -87,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "563012720",
-      "mmsi": "563012720",
-      "name": "CLEANSEAS UNITED",
-      "category": "unknown",
-      "lat": 1.223225,
-      "lon": 103.82324666666666,
-      "speedKmh": 0.4,
-      "heading": 357.6,
-      "reportedAt": "2026-10-29T16:16:01.400303+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008428",
-      "mmsi": "538008428",
-      "name": "DALE",
-      "category": "unknown",
-      "lat": 1.244645,
-      "lon": 103.79268499999999,
-      "speedKmh": 0.0,
-      "heading": 303.5,
-      "reportedAt": "2026-10-29T16:16:03.928626+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352006015",
       "mmsi": "352006015",
       "name": "HPC GOLD",
@@ -132,18 +84,6 @@
       "speedKmh": 0.0,
       "heading": 258.4,
       "reportedAt": "2026-10-29T17:31:28.109831+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011321",
-      "mmsi": "538011321",
-      "name": "STAVANGER STAR",
-      "category": "unknown",
-      "lat": 1.1975666666666667,
-      "lon": 103.88444,
-      "speedKmh": 22.0,
-      "heading": 54.4,
-      "reportedAt": "2026-10-29T16:16:34.800552+00:00"
     },
     {
       "kind": "ship",
@@ -187,11 +127,11 @@
       "mmsi": "563009180",
       "name": "NOBLE ACE TG41",
       "category": "unknown",
-      "lat": 1.2615666666666667,
-      "lon": 103.84575,
-      "speedKmh": 0.2,
-      "heading": 229.9,
-      "reportedAt": "2026-10-29T17:31:10.502664+00:00"
+      "lat": 1.2577933333333333,
+      "lon": 103.84953833333334,
+      "speedKmh": 12.6,
+      "heading": 125.3,
+      "reportedAt": "2026-10-29T17:45:52.209724+00:00"
     },
     {
       "kind": "ship",
@@ -319,11 +259,11 @@
       "mmsi": "563066180",
       "name": "NOBLE PRINCE TG35",
       "category": "unknown",
-      "lat": 1.2579533333333333,
-      "lon": 103.84247666666667,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-29T16:46:39.513247+00:00"
+      "lat": 1.25804,
+      "lon": 103.85237166666667,
+      "speedKmh": 8.7,
+      "heading": 141.9,
+      "reportedAt": "2026-10-29T17:45:51.483408+00:00"
     },
     {
       "kind": "ship",
@@ -564,6 +504,54 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-10-29T17:31:39.185956+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563256100",
+      "mmsi": "563256100",
+      "name": "WAN HAI A18",
+      "category": "unknown",
+      "lat": 1.2350083333333333,
+      "lon": 103.78253666666666,
+      "speedKmh": 11.3,
+      "heading": 327.5,
+      "reportedAt": "2026-10-29T17:45:40.619323+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "431220000",
+      "mmsi": "431220000",
+      "name": "ASTRAL ACE",
+      "category": "unknown",
+      "lat": 1.2490116666666669,
+      "lon": 103.857645,
+      "speedKmh": 18.7,
+      "heading": 159.1,
+      "reportedAt": "2026-10-29T17:45:42.374984+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119038",
+      "mmsi": "525119038",
+      "name": "PRIMA TANGGUH LVI",
+      "category": "unknown",
+      "lat": 1.2294133333333332,
+      "lon": 103.81375833333333,
+      "speedKmh": 0.2,
+      "heading": 67.8,
+      "reportedAt": "2026-10-29T17:46:09.168033+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565390000",
+      "mmsi": "565390000",
+      "name": "JAYA OCEAN",
+      "category": "unknown",
+      "lat": 1.2387783333333333,
+      "lon": 103.79449833333334,
+      "speedKmh": 0.2,
+      "heading": 53.1,
+      "reportedAt": "2026-10-29T17:46:09.729678+00:00"
     }
   ],
   "error": null
