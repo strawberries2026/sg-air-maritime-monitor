@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-29T10:46:40.563749+00:00",
+  "updatedAt": "2026-10-29T11:01:59.761633+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.24044,
-      "lon": 103.80351166666667,
-      "speedKmh": 0.0,
-      "heading": 331.6,
-      "reportedAt": "2026-10-29T09:30:38.874235+00:00"
-    },
     {
       "kind": "ship",
       "id": "574005860",
@@ -24,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 181.3,
       "reportedAt": "2026-10-29T10:31:08.569168+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538003267",
-      "mmsi": "538003267",
-      "name": "SEAPEAK ARWA",
-      "category": "unknown",
-      "lat": 1.16497,
-      "lon": 103.76873666666667,
-      "speedKmh": 20.4,
-      "heading": 242.8,
-      "reportedAt": "2026-10-29T09:30:43.147497+00:00"
     },
     {
       "kind": "ship",
@@ -84,30 +60,6 @@
       "speedKmh": 0.0,
       "heading": 264.8,
       "reportedAt": "2026-10-29T10:01:22.598144+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "304218000",
-      "mmsi": "304218000",
-      "name": "FUXI",
-      "category": "unknown",
-      "lat": 1.2117966666666669,
-      "lon": 103.90071333333334,
-      "speedKmh": 15.6,
-      "heading": 79.6,
-      "reportedAt": "2026-10-29T09:31:18.289651+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "357332000",
-      "mmsi": "357332000",
-      "name": "MSC REGINA",
-      "category": "unknown",
-      "lat": 1.1752016666666667,
-      "lon": 103.83066333333333,
-      "speedKmh": 23.3,
-      "heading": 66.5,
-      "reportedAt": "2026-10-29T09:31:32.558907+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +283,11 @@
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
       "category": "unknown",
-      "lat": 1.2187116666666666,
-      "lon": 103.80819333333334,
-      "speedKmh": 0.6,
-      "heading": 338.5,
-      "reportedAt": "2026-10-29T10:31:03.343045+00:00"
+      "lat": 1.2174866666666666,
+      "lon": 103.80816333333334,
+      "speedKmh": 0.9,
+      "heading": 349,
+      "reportedAt": "2026-10-29T11:01:03.122986+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +307,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.2381483333333334,
-      "lon": 103.79604333333333,
-      "speedKmh": 0.2,
-      "heading": 61.4,
-      "reportedAt": "2026-10-29T10:31:09.890800+00:00"
+      "lat": 1.2380966666666666,
+      "lon": 103.79607,
+      "speedKmh": 0.0,
+      "heading": 7.5,
+      "reportedAt": "2026-10-29T11:01:09.952711+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +480,78 @@
       "speedKmh": 0.0,
       "heading": 137.4,
       "reportedAt": "2026-10-29T10:46:16.370732+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012125",
+      "mmsi": "538012125",
+      "name": "STI MOXIE",
+      "category": "unknown",
+      "lat": 1.257685,
+      "lon": 103.91529166666666,
+      "speedKmh": 0.0,
+      "heading": 337.8,
+      "reportedAt": "2026-10-29T11:00:48.339588+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440348000",
+      "mmsi": "440348000",
+      "name": "HMM DUBLIN",
+      "category": "unknown",
+      "lat": 1.2654183333333333,
+      "lon": 103.76866333333334,
+      "speedKmh": 6.5,
+      "heading": 312.4,
+      "reportedAt": "2026-10-29T11:00:49.104612+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011011",
+      "mmsi": "538011011",
+      "name": "LOWLANDS SHARK",
+      "category": "unknown",
+      "lat": 1.28633,
+      "lon": 103.91362166666666,
+      "speedKmh": 0.0,
+      "heading": 341.9,
+      "reportedAt": "2026-10-29T11:01:12.316293+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "228478900",
+      "mmsi": "228478900",
+      "name": "CMA CGM BAALBECK",
+      "category": "unknown",
+      "lat": 1.2217783333333334,
+      "lon": 103.79798833333332,
+      "speedKmh": 13.5,
+      "heading": 328.7,
+      "reportedAt": "2026-10-29T11:01:26.502843+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2245383333333335,
+      "lon": 103.80978833333333,
+      "speedKmh": 0.0,
+      "heading": 349.9,
+      "reportedAt": "2026-10-29T11:01:41.328419+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565838000",
+      "mmsi": "565838000",
+      "name": "DRINA",
+      "category": "unknown",
+      "lat": 1.253015,
+      "lon": 103.86827166666667,
+      "speedKmh": 2.8,
+      "heading": 20.6,
+      "reportedAt": "2026-10-29T11:01:42.486285+00:00"
     }
   ],
   "error": null
