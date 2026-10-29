@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:01:55.026057+00:00",
+  "updatedAt": "2026-10-29T22:16:38.872261+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "636024968",
       "name": "MACALLAN",
       "category": "unknown",
-      "lat": 1.239335,
-      "lon": 103.80402000000001,
-      "speedKmh": 0.9,
-      "heading": 192.4,
-      "reportedAt": "2026-10-29T22:01:47.804408+00:00"
+      "lat": 1.2393083333333335,
+      "lon": 103.80392499999999,
+      "speedKmh": 0.0,
+      "heading": 346,
+      "reportedAt": "2026-10-29T22:16:21.234973+00:00"
     },
     {
       "kind": "ship",
@@ -31,11 +31,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735566666666667,
-      "lon": 103.80142000000001,
+      "lat": 1.2735516666666666,
+      "lon": 103.80136833333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-29T21:45:50.010432+00:00"
+      "reportedAt": "2026-10-29T22:15:40.462308+00:00"
     },
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "636025755",
       "name": "LFG ACE",
       "category": "unknown",
-      "lat": 1.27139,
-      "lon": 103.88670499999999,
-      "speedKmh": 0.2,
-      "heading": 219.6,
-      "reportedAt": "2026-10-29T21:45:54.134969+00:00"
+      "lat": 1.2714183333333333,
+      "lon": 103.88671500000001,
+      "speedKmh": 0.0,
+      "heading": 184.4,
+      "reportedAt": "2026-10-29T22:16:14.902546+00:00"
     },
     {
       "kind": "ship",
@@ -55,11 +55,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.2385899999999999,
-      "lon": 103.79453833333334,
+      "lat": 1.239035,
+      "lon": 103.79451333333333,
       "speedKmh": 0.2,
-      "heading": 293.7,
-      "reportedAt": "2026-10-29T21:31:10.066586+00:00"
+      "heading": 196.5,
+      "reportedAt": "2026-10-29T22:16:10.525974+00:00"
     },
     {
       "kind": "ship",
@@ -111,18 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "563085720",
-      "mmsi": "563085720",
-      "name": "PSA ACHIEVE",
-      "category": "unknown",
-      "lat": 1.27126,
-      "lon": 103.78372833333333,
-      "speedKmh": 17.6,
-      "heading": 238.2,
-      "reportedAt": "2026-10-29T20:45:42.592934+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "574005860",
       "mmsi": "574005860",
       "name": "AULAC EAGLE",
@@ -132,30 +120,6 @@
       "speedKmh": 0.2,
       "heading": 208.2,
       "reportedAt": "2026-10-29T21:46:08.855514+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219608000",
-      "mmsi": "219608000",
-      "name": "ASTRID MAERSK",
-      "category": "unknown",
-      "lat": 1.2386783333333333,
-      "lon": 103.89969166666667,
-      "speedKmh": 0.2,
-      "heading": 230,
-      "reportedAt": "2026-10-29T20:46:22.326361+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371458000",
-      "mmsi": "371458000",
-      "name": "NEW AMORGOS",
-      "category": "unknown",
-      "lat": 1.251605,
-      "lon": 103.90770333333333,
-      "speedKmh": 0.0,
-      "heading": 280.8,
-      "reportedAt": "2026-10-29T20:46:25.798360+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +379,11 @@
       "mmsi": "370799000",
       "name": "LNG KOLT",
       "category": "unknown",
-      "lat": 1.1677666666666666,
-      "lon": 103.75135,
+      "lat": 1.1677166666666667,
+      "lon": 103.75133333333333,
       "speedKmh": 0.0,
-      "heading": 235,
-      "reportedAt": "2026-10-29T21:46:28.794189+00:00"
+      "heading": 273,
+      "reportedAt": "2026-10-29T22:16:28.798113+00:00"
     },
     {
       "kind": "ship",
@@ -427,11 +391,11 @@
       "mmsi": "564034000",
       "name": "MERLION 8",
       "category": "unknown",
-      "lat": 1.1957166666666665,
-      "lon": 103.74101999999999,
-      "speedKmh": 0.4,
-      "heading": 174.3,
-      "reportedAt": "2026-10-29T22:01:53.476031+00:00"
+      "lat": 1.1825133333333333,
+      "lon": 103.74662,
+      "speedKmh": 12.0,
+      "heading": 151.3,
+      "reportedAt": "2026-10-29T22:16:30.919411+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +444,54 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-10-29T22:01:29.762361+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219608000",
+      "mmsi": "219608000",
+      "name": "ASTRID MAERSK",
+      "category": "unknown",
+      "lat": 1.2387766666666666,
+      "lon": 103.89947166666667,
+      "speedKmh": 0.0,
+      "heading": 199.9,
+      "reportedAt": "2026-10-29T22:15:53.845729+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566532000",
+      "mmsi": "566532000",
+      "name": "STRAITS BRILLIANCE",
+      "category": "unknown",
+      "lat": 1.2722883333333332,
+      "lon": 103.92470666666667,
+      "speedKmh": 7.0,
+      "heading": 51,
+      "reportedAt": "2026-10-29T22:16:00.595584+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525008095",
+      "mmsi": "525008095",
+      "name": "MT PANGKALAN BRANDAN",
+      "category": "commercial",
+      "lat": 1.233775,
+      "lon": 103.80304666666666,
+      "speedKmh": 0.4,
+      "heading": 327.2,
+      "reportedAt": "2026-10-29T22:16:25.862179+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477958300",
+      "mmsi": "477958300",
+      "name": "OOCL HOUSTON",
+      "category": "unknown",
+      "lat": 1.2299499999999999,
+      "lon": 103.78563333333334,
+      "speedKmh": 18.1,
+      "heading": 143,
+      "reportedAt": "2026-10-29T22:16:33.943367+00:00"
     }
   ],
   "error": null
