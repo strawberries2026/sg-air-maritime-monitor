@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T13:46:40.660807+00:00",
+  "updatedAt": "2026-10-29T14:02:01.929694+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 0.0,
       "heading": 259.8,
       "reportedAt": "2026-10-29T13:00:44.868671+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015407",
-      "mmsi": "636015407",
-      "name": "NAVE ANDROMEDA",
-      "category": "unknown",
-      "lat": 1.1831233333333333,
-      "lon": 103.80595,
-      "speedKmh": 14.4,
-      "heading": 253.6,
-      "reportedAt": "2026-10-29T12:31:23.125888+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564287000",
-      "mmsi": "564287000",
-      "name": "RUTH",
-      "category": "unknown",
-      "lat": 1.2677783333333332,
-      "lon": 103.89961833333334,
-      "speedKmh": 6.7,
-      "heading": 262.1,
-      "reportedAt": "2026-10-29T12:31:34.761825+00:00"
     },
     {
       "kind": "ship",
@@ -120,6 +96,18 @@
       "speedKmh": 8.1,
       "heading": 169.5,
       "reportedAt": "2026-10-29T13:46:36.655727+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566108000",
+      "mmsi": "566108000",
+      "name": "VB SEA OWL",
+      "category": "unknown",
+      "lat": 1.260095,
+      "lon": 103.84072666666665,
+      "speedKmh": 0.0,
+      "heading": 268.3,
+      "reportedAt": "2026-10-29T14:01:18.708394+00:00"
     }
   ],
   "error": null
