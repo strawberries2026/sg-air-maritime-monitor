@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T18:16:42.198686+00:00",
+  "updatedAt": "2026-10-29T18:31:50.013746+00:00",
   "items": [
     {
       "kind": "ship",
@@ -91,11 +91,11 @@
       "mmsi": "565173000",
       "name": "AYER CHERDEK",
       "category": "unknown",
-      "lat": 1.2569483333333333,
-      "lon": 103.84088666666666,
+      "lat": 1.2569416666666666,
+      "lon": 103.84087166666667,
       "speedKmh": 0.0,
       "heading": 333.1,
-      "reportedAt": "2026-10-29T18:00:54.696178+00:00"
+      "reportedAt": "2026-10-29T18:30:54.436016+00:00"
     },
     {
       "kind": "ship",
@@ -144,102 +144,6 @@
       "speedKmh": 0.0,
       "heading": 74,
       "reportedAt": "2026-10-29T17:31:41.801906+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563283300",
-      "mmsi": "563283300",
-      "name": "KOTA ORKID",
-      "category": "unknown",
-      "lat": 1.2640133333333334,
-      "lon": 103.83291666666668,
-      "speedKmh": 0.0,
-      "heading": 205.4,
-      "reportedAt": "2026-10-29T17:00:55.949346+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2753066666666666,
-      "lon": 103.90535333333334,
-      "speedKmh": 0.0,
-      "heading": 46.4,
-      "reportedAt": "2026-10-29T17:01:01.518528+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636020186",
-      "mmsi": "636020186",
-      "name": "CAROLINE",
-      "category": "unknown",
-      "lat": 1.2534783333333333,
-      "lon": 103.92804666666666,
-      "speedKmh": 0.0,
-      "heading": 73.5,
-      "reportedAt": "2026-10-29T17:01:05.708050+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "574005860",
-      "mmsi": "574005860",
-      "name": "AULAC EAGLE",
-      "category": "unknown",
-      "lat": 1.2376166666666668,
-      "lon": 103.79946666666666,
-      "speedKmh": 0.0,
-      "heading": 206,
-      "reportedAt": "2026-10-29T17:01:07.155804+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413165000",
-      "mmsi": "413165000",
-      "name": "XIN MEI ZHOU",
-      "category": "unknown",
-      "lat": 1.2282983333333335,
-      "lon": 103.78851,
-      "speedKmh": 9.8,
-      "heading": 326.9,
-      "reportedAt": "2026-10-29T17:01:11.836867+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "244410000",
-      "mmsi": "244410000",
-      "name": "ELISABETH",
-      "category": "unknown",
-      "lat": 1.2908766666666667,
-      "lon": 103.92177,
-      "speedKmh": 0.0,
-      "heading": 150.2,
-      "reportedAt": "2026-10-29T17:01:17.218456+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009220",
-      "mmsi": "563009220",
-      "name": "NOBLE VEGA",
-      "category": "unknown",
-      "lat": 1.234475,
-      "lon": 103.78966833333334,
-      "speedKmh": 15.6,
-      "heading": 156.8,
-      "reportedAt": "2026-10-29T17:01:22.267310+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477712900",
-      "mmsi": "477712900",
-      "name": "NEW PEACE",
-      "category": "unknown",
-      "lat": 1.1873333333333334,
-      "lon": 103.8415,
-      "speedKmh": 17.8,
-      "heading": 66,
-      "reportedAt": "2026-10-29T17:01:24.697071+00:00"
     },
     {
       "kind": "ship",
@@ -462,12 +366,12 @@
       "id": "564616000",
       "mmsi": "564616000",
       "name": "ARTEMIS",
-      "category": "unknown",
-      "lat": 1.2162666666666666,
-      "lon": 103.80419166666667,
-      "speedKmh": 8.0,
-      "heading": 306.9,
-      "reportedAt": "2026-10-29T18:01:19.963332+00:00"
+      "category": "commercial",
+      "lat": 1.239075,
+      "lon": 103.78386166666665,
+      "speedKmh": 10.9,
+      "heading": 324.8,
+      "reportedAt": "2026-10-29T18:31:00.329659+00:00"
     },
     {
       "kind": "ship",
@@ -552,6 +456,90 @@
       "speedKmh": 0.0,
       "heading": 73,
       "reportedAt": "2026-10-29T18:16:32.745140+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085090",
+      "mmsi": "563085090",
+      "name": "PILOT 07",
+      "category": "unknown",
+      "lat": 1.2559716666666667,
+      "lon": 103.84842666666667,
+      "speedKmh": 34.8,
+      "heading": 96.6,
+      "reportedAt": "2026-10-29T18:30:41.342371+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563078700",
+      "mmsi": "563078700",
+      "name": "OXALIS LOTUS",
+      "category": "unknown",
+      "lat": 1.21498,
+      "lon": 103.79868666666667,
+      "speedKmh": 20.9,
+      "heading": 298.4,
+      "reportedAt": "2026-10-29T18:30:45.816063+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636093110",
+      "mmsi": "636093110",
+      "name": "THE WHALE SHARK",
+      "category": "unknown",
+      "lat": 1.2676216666666666,
+      "lon": 103.79357333333334,
+      "speedKmh": 0.6,
+      "heading": 287.5,
+      "reportedAt": "2026-10-29T18:30:47.577501+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538002090",
+      "mmsi": "538002090",
+      "name": "CONSTELLATION",
+      "category": "unknown",
+      "lat": 1.2457666666666667,
+      "lon": 103.90501666666667,
+      "speedKmh": 0.2,
+      "heading": 87,
+      "reportedAt": "2026-10-29T18:30:50.047122+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.21896,
+      "lon": 103.80606833333333,
+      "speedKmh": 0.4,
+      "heading": 236.5,
+      "reportedAt": "2026-10-29T18:31:02.975436+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "240858000",
+      "mmsi": "240858000",
+      "name": "DIONE",
+      "category": "unknown",
+      "lat": 1.1784666666666666,
+      "lon": 103.82578333333332,
+      "speedKmh": 13.7,
+      "heading": 76,
+      "reportedAt": "2026-10-29T18:31:19.778898+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566532000",
+      "mmsi": "566532000",
+      "name": "STRAITS BRILLIANCE",
+      "category": "unknown",
+      "lat": 1.2438683333333331,
+      "lon": 103.76286,
+      "speedKmh": 6.7,
+      "heading": 99.3,
+      "reportedAt": "2026-10-29T18:31:40.187258+00:00"
     }
   ],
   "error": null
