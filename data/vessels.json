@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T14:46:40.023907+00:00",
+  "updatedAt": "2026-10-29T15:02:02.817503+00:00",
   "items": [
     {
       "kind": "ship",
@@ -79,11 +79,11 @@
       "mmsi": "311000622",
       "name": "LIMNIONAS",
       "category": "unknown",
-      "lat": 1.2724316666666666,
-      "lon": 103.88828833333334,
-      "speedKmh": 9.4,
-      "heading": 18,
-      "reportedAt": "2026-10-29T14:16:36.412652+00:00"
+      "lat": 1.2346666666666666,
+      "lon": 103.92273666666667,
+      "speedKmh": 15.2,
+      "heading": 218,
+      "reportedAt": "2026-10-29T15:01:16.206425+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +139,11 @@
       "mmsi": "538012616",
       "name": "POAVOSA BRAVE",
       "category": "unknown",
-      "lat": 1.2573166666666666,
-      "lon": 103.89241666666666,
+      "lat": 1.2570333333333332,
+      "lon": 103.89253333333333,
       "speedKmh": 0.0,
-      "heading": 311,
-      "reportedAt": "2026-10-29T14:31:44.057412+00:00"
+      "heading": 126,
+      "reportedAt": "2026-10-29T15:00:57.728050+00:00"
     },
     {
       "kind": "ship",
@@ -168,6 +168,18 @@
       "speedKmh": 3.3,
       "heading": 148.4,
       "reportedAt": "2026-10-29T14:42:45.172328+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119191",
+      "mmsi": "525119191",
+      "name": "QUEEN CENTURY",
+      "category": "unknown",
+      "lat": 1.224615,
+      "lon": 103.80342,
+      "speedKmh": 0.2,
+      "heading": 257.5,
+      "reportedAt": "2026-10-29T15:01:18.181217+00:00"
     }
   ],
   "error": null
