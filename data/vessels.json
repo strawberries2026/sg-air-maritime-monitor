@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T14:02:01.929694+00:00",
+  "updatedAt": "2026-10-29T14:16:43.374794+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 0.0,
       "heading": 259.8,
       "reportedAt": "2026-10-29T13:00:44.868671+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "244410000",
-      "mmsi": "244410000",
-      "name": "ELISABETH",
-      "category": "unknown",
-      "lat": 1.290365,
-      "lon": 103.92276,
-      "speedKmh": 0.2,
-      "heading": 265.7,
-      "reportedAt": "2026-10-29T12:46:17.108260+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636017817",
-      "mmsi": "636017817",
-      "name": "SAPPORO PRINCESS",
-      "category": "unknown",
-      "lat": 1.25565,
-      "lon": 103.90581666666667,
-      "speedKmh": 0.2,
-      "heading": 275,
-      "reportedAt": "2026-10-29T12:46:41.645420+00:00"
     },
     {
       "kind": "ship",
@@ -108,6 +84,18 @@
       "speedKmh": 0.0,
       "heading": 268.3,
       "reportedAt": "2026-10-29T14:01:18.708394+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311000622",
+      "mmsi": "311000622",
+      "name": "LIMNIONAS",
+      "category": "unknown",
+      "lat": 1.2724316666666666,
+      "lon": 103.88828833333334,
+      "speedKmh": 9.4,
+      "heading": 18,
+      "reportedAt": "2026-10-29T14:16:36.412652+00:00"
     }
   ],
   "error": null
