@@ -38,12 +38,15 @@ jobs:
             const recent = runs.data.workflow_runs;
             const lastSuccess = recent.find(r => r.conclusion === 'success');
             details.push(`- Last successful workflow: ${lastSuccess ? lastSuccess.updated_at + ' (' + lastSuccess.html_url + ')' : 'not found in recent runs'}`);
-            const latest = recent[0];
-            if (latest && ['failure','timed_out','action_required'].includes(latest.conclusion)) {
-              problems.push(`Latest collection workflow ${latest.conclusion}: ${latest.html_url}`);
-            }
-            if (latest && latest.status === 'completed' && latest.conclusion === 'cancelled') {
-              problems.push(`Latest collection workflow cancelled: ${latest.html_url}`);
+            // Look beyond the latest run: a successful retry must not hide a
+            // collection failure that occurred within the last 45 minutes.
+            const failedRecent = recent.filter(r =>
+              r.status === 'completed' &&
+              ['failure', 'timed_out', 'action_required', 'cancelled'].includes(r.conclusion) &&
+              now - Date.parse(r.updated_at) <= threshold
+            );
+            for (const run of failedRecent) {
+              problems.push(`Recent collection workflow ${run.conclusion} at ${run.updated_at}: ${run.html_url}`);
             }
             const found = await github.paginate(github.rest.issues.listForRepo, {owner, repo, state:'open', per_page:100});
             const existing = found.find(i => !i.pull_request && i.title === title);
