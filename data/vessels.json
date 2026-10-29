@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T15:31:50.269475+00:00",
+  "updatedAt": "2026-10-29T15:46:40.971085+00:00",
   "items": [
     {
       "kind": "ship",
@@ -156,6 +156,30 @@
       "speedKmh": 18.0,
       "heading": 245.1,
       "reportedAt": "2026-10-29T15:31:44.230775+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413607660",
+      "mmsi": "413607660",
+      "name": "DING HENG 31",
+      "category": "unknown",
+      "lat": 1.2491266666666665,
+      "lon": 103.80758333333333,
+      "speedKmh": 5.7,
+      "heading": 270.9,
+      "reportedAt": "2026-10-29T15:46:19.263254+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636013177",
+      "mmsi": "636013177",
+      "name": "BEI JI STAR",
+      "category": "unknown",
+      "lat": 1.2096616666666666,
+      "lon": 103.88418166666666,
+      "speedKmh": 16.1,
+      "heading": 252,
+      "reportedAt": "2026-10-29T15:46:21.663668+00:00"
     }
   ],
   "error": null
