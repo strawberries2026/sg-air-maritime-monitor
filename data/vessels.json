@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:31:49.631508+00:00",
+  "updatedAt": "2026-10-29T16:46:43.234324+00:00",
   "items": [
     {
       "kind": "ship",
@@ -115,11 +115,11 @@
       "mmsi": "563001270",
       "name": "AYER MANIS",
       "category": "unknown",
-      "lat": 1.26957,
-      "lon": 103.88067166666666,
+      "lat": 1.2696283333333334,
+      "lon": 103.88064666666668,
       "speedKmh": 0.2,
-      "heading": 0,
-      "reportedAt": "2026-10-29T16:16:13.656865+00:00"
+      "heading": 28,
+      "reportedAt": "2026-10-29T16:45:52.443888+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +199,11 @@
       "mmsi": "564855000",
       "name": "TOLL EMPEROR",
       "category": "unknown",
-      "lat": 1.2426816666666667,
-      "lon": 103.77308,
-      "speedKmh": 9.1,
-      "heading": 148.3,
-      "reportedAt": "2026-10-29T16:15:49.770307+00:00"
+      "lat": 1.2112466666666668,
+      "lon": 103.79918666666667,
+      "speedKmh": 9.4,
+      "heading": 117.7,
+      "reportedAt": "2026-10-29T16:45:49.075741+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +384,90 @@
       "speedKmh": 12.2,
       "heading": 273.5,
       "reportedAt": "2026-10-29T16:31:45.537002+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "244850097",
+      "mmsi": "244850097",
+      "name": "BIGROLL BEAUFORT",
+      "category": "unknown",
+      "lat": 1.2470166666666667,
+      "lon": 103.87318333333333,
+      "speedKmh": 0.0,
+      "heading": 213.2,
+      "reportedAt": "2026-10-29T16:45:35.813871+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563083840",
+      "mmsi": "563083840",
+      "name": "PSA GEMINI (NN75)",
+      "category": "unknown",
+      "lat": 1.23761,
+      "lon": 103.78792833333334,
+      "speedKmh": 0.9,
+      "heading": 261.5,
+      "reportedAt": "2026-10-29T16:45:59.001830+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563208100",
+      "mmsi": "563208100",
+      "name": "MAPLE",
+      "category": "unknown",
+      "lat": 1.2741083333333334,
+      "lon": 103.93072333333333,
+      "speedKmh": 15.2,
+      "heading": 68,
+      "reportedAt": "2026-10-29T16:46:08.354767+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563121600",
+      "mmsi": "563121600",
+      "name": "MAJESTY",
+      "category": "unknown",
+      "lat": 1.2275383333333332,
+      "lon": 103.78689833333333,
+      "speedKmh": 17.6,
+      "heading": 140.4,
+      "reportedAt": "2026-10-29T16:46:11.317490+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563320800",
+      "mmsi": "563320800",
+      "name": "IGAN",
+      "category": "unknown",
+      "lat": 1.2651466666666666,
+      "lon": 103.83676,
+      "speedKmh": 2.0,
+      "heading": 274.6,
+      "reportedAt": "2026-10-29T16:46:39.513318+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066180",
+      "mmsi": "563066180",
+      "name": "NOBLE PRINCE TG35",
+      "category": "unknown",
+      "lat": 1.2579533333333333,
+      "lon": 103.84247666666667,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-10-29T16:46:39.513247+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636017817",
+      "mmsi": "636017817",
+      "name": "SAPPORO PRINCESS",
+      "category": "unknown",
+      "lat": 1.2524333333333333,
+      "lon": 103.9046,
+      "speedKmh": 0.0,
+      "heading": 213,
+      "reportedAt": "2026-10-29T16:46:41.261121+00:00"
     }
   ],
   "error": null
