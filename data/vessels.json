@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T15:16:50.052551+00:00",
+  "updatedAt": "2026-10-29T15:31:50.269475+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-10-29T14:30:53.984672+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566108000",
-      "mmsi": "566108000",
-      "name": "VB SEA OWL",
-      "category": "unknown",
-      "lat": 1.260095,
-      "lon": 103.84072666666665,
-      "speedKmh": 0.0,
-      "heading": 268.3,
-      "reportedAt": "2026-10-29T14:01:18.708394+00:00"
     },
     {
       "kind": "ship",
@@ -144,6 +132,30 @@
       "speedKmh": 0.2,
       "heading": 237.8,
       "reportedAt": "2026-10-29T15:16:11.792524+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413165000",
+      "mmsi": "413165000",
+      "name": "XIN MEI ZHOU",
+      "category": "unknown",
+      "lat": 1.2418183333333335,
+      "lon": 103.94349666666668,
+      "speedKmh": 19.4,
+      "heading": 251.4,
+      "reportedAt": "2026-10-29T15:31:11.055993+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477795900",
+      "mmsi": "477795900",
+      "name": "AMOY PROGRESS",
+      "category": "unknown",
+      "lat": 1.1903666666666666,
+      "lon": 103.83579,
+      "speedKmh": 18.0,
+      "heading": 245.1,
+      "reportedAt": "2026-10-29T15:31:44.230775+00:00"
     }
   ],
   "error": null
