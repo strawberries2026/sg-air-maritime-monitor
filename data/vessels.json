@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-10-29T13:02:00.072322+00:00",
+  "updatedAt": "2026-10-29T13:16:44.607584+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "371458000",
-      "mmsi": "371458000",
-      "name": "NEW AMORGOS",
-      "category": "unknown",
-      "lat": 1.2553266666666665,
-      "lon": 103.90974,
-      "speedKmh": 0.0,
-      "heading": 264.8,
-      "reportedAt": "2026-10-29T11:46:22.697425+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012962",
-      "mmsi": "538012962",
-      "name": "AMETHYST",
-      "category": "unknown",
-      "lat": 1.2612933333333334,
-      "lon": 103.91073833333333,
-      "speedKmh": 0.4,
-      "heading": 250,
-      "reportedAt": "2026-10-29T11:46:17.554310+00:00"
-    },
     {
       "kind": "ship",
       "id": "564526000",
@@ -36,30 +12,6 @@
       "speedKmh": 6.9,
       "heading": 50.5,
       "reportedAt": "2026-10-29T12:15:35.012488+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563001270",
-      "mmsi": "563001270",
-      "name": "AYER MANIS",
-      "category": "unknown",
-      "lat": 1.2697566666666666,
-      "lon": 103.88134666666666,
-      "speedKmh": 0.0,
-      "heading": 351,
-      "reportedAt": "2026-10-29T11:46:32.428572+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636022304",
-      "mmsi": "636022304",
-      "name": "INFINITY AQUILA",
-      "category": "unknown",
-      "lat": 1.2755683333333332,
-      "lon": 103.90051166666667,
-      "speedKmh": 0.0,
-      "heading": 146.3,
-      "reportedAt": "2026-10-29T11:46:38.019406+00:00"
     },
     {
       "kind": "ship",
@@ -168,6 +120,18 @@
       "speedKmh": 0.2,
       "heading": 275,
       "reportedAt": "2026-10-29T12:46:41.645420+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "unknown",
+      "lat": 1.2695566666666667,
+      "lon": 103.88099166666666,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-29T13:16:33.508973+00:00"
     }
   ],
   "error": null
