@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T10:31:51.139565+00:00",
+  "updatedAt": "2026-10-29T10:46:40.563749+00:00",
   "items": [
     {
       "kind": "ship",
@@ -75,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "538011011",
-      "mmsi": "538011011",
-      "name": "LOWLANDS SHARK",
-      "category": "unknown",
-      "lat": 1.2867333333333333,
-      "lon": 103.91366166666667,
-      "speedKmh": 0.0,
-      "heading": 213.8,
-      "reportedAt": "2026-10-29T09:16:12.033853+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "371458000",
       "mmsi": "371458000",
       "name": "NEW AMORGOS",
@@ -96,18 +84,6 @@
       "speedKmh": 0.0,
       "heading": 264.8,
       "reportedAt": "2026-10-29T10:01:22.598144+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563084440",
-      "mmsi": "563084440",
-      "name": "ODETTE OASIS",
-      "category": "unknown",
-      "lat": 1.2975716666666666,
-      "lon": 103.94538333333334,
-      "speedKmh": 2.8,
-      "heading": 246.4,
-      "reportedAt": "2026-10-29T09:16:36.981002+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +259,11 @@
       "mmsi": "219039000",
       "name": "MUMBAI MAERSK",
       "category": "unknown",
-      "lat": 1.2463000000000002,
-      "lon": 103.96866666666666,
-      "speedKmh": 23.5,
-      "heading": 246,
-      "reportedAt": "2026-10-29T10:15:44.298989+00:00"
+      "lat": 1.2086166666666667,
+      "lon": 103.87259999999999,
+      "speedKmh": 21.7,
+      "heading": 245.7,
+      "reportedAt": "2026-10-29T10:45:54.617836+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +432,102 @@
       "speedKmh": 23.2,
       "heading": 62.3,
       "reportedAt": "2026-10-29T10:31:48.647922+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087010",
+      "mmsi": "563087010",
+      "name": "PSA PEGASUS",
+      "category": "unknown",
+      "lat": 1.2461133333333334,
+      "lon": 103.78777166666667,
+      "speedKmh": 5.0,
+      "heading": 148.3,
+      "reportedAt": "2026-10-29T10:45:34.901764+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255790000",
+      "mmsi": "255790000",
+      "name": "MSC TAMPICO V",
+      "category": "unknown",
+      "lat": 1.2122683333333333,
+      "lon": 103.89171833333333,
+      "speedKmh": 13.9,
+      "heading": 40.6,
+      "reportedAt": "2026-10-29T10:45:37.022992+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566623000",
+      "mmsi": "566623000",
+      "name": "RESOLUTE NN24",
+      "category": "unknown",
+      "lat": 1.2621283333333333,
+      "lon": 103.84521833333334,
+      "speedKmh": 0.2,
+      "heading": 1.6,
+      "reportedAt": "2026-10-29T10:45:37.392407+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085870",
+      "mmsi": "563085870",
+      "name": "CSM VIPER",
+      "category": "unknown",
+      "lat": 1.2508683333333332,
+      "lon": 103.800585,
+      "speedKmh": 12.8,
+      "heading": 154.1,
+      "reportedAt": "2026-10-29T10:45:37.697846+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087590",
+      "mmsi": "563087590",
+      "name": "PSA VOLANS",
+      "category": "unknown",
+      "lat": 1.2229816666666666,
+      "lon": 103.79964333333334,
+      "speedKmh": 4.4,
+      "heading": 129.7,
+      "reportedAt": "2026-10-29T10:45:50.859328+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008604",
+      "mmsi": "538008604",
+      "name": "BLUE MOON",
+      "category": "unknown",
+      "lat": 1.2394183333333333,
+      "lon": 103.951875,
+      "speedKmh": 17.2,
+      "heading": 251.2,
+      "reportedAt": "2026-10-29T10:45:54.617917+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "357506000",
+      "mmsi": "357506000",
+      "name": "MSC ANIELLO",
+      "category": "unknown",
+      "lat": 1.1795633333333333,
+      "lon": 103.76500833333333,
+      "speedKmh": 0.7,
+      "heading": 284.5,
+      "reportedAt": "2026-10-29T10:46:12.690551+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119095",
+      "mmsi": "525119095",
+      "name": "ARTEMIS",
+      "category": "unknown",
+      "lat": 1.2679833333333332,
+      "lon": 103.89657166666666,
+      "speedKmh": 0.0,
+      "heading": 137.4,
+      "reportedAt": "2026-10-29T10:46:16.370732+00:00"
     }
   ],
   "error": null
