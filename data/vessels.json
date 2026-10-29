@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T12:01:58.785937+00:00",
+  "updatedAt": "2026-10-29T12:16:39.629990+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,18 +36,6 @@
       "speedKmh": 0.0,
       "heading": 103.7,
       "reportedAt": "2026-10-29T11:16:14.685823+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219039000",
-      "mmsi": "219039000",
-      "name": "MUMBAI MAERSK",
-      "category": "unknown",
-      "lat": 1.2086166666666667,
-      "lon": 103.87259999999999,
-      "speedKmh": 21.7,
-      "heading": 245.7,
-      "reportedAt": "2026-10-29T10:45:54.617836+00:00"
     },
     {
       "kind": "ship",
@@ -135,30 +123,6 @@
     },
     {
       "kind": "ship",
-      "id": "563087010",
-      "mmsi": "563087010",
-      "name": "PSA PEGASUS",
-      "category": "unknown",
-      "lat": 1.2461133333333334,
-      "lon": 103.78777166666667,
-      "speedKmh": 5.0,
-      "heading": 148.3,
-      "reportedAt": "2026-10-29T10:45:34.901764+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "255790000",
-      "mmsi": "255790000",
-      "name": "MSC TAMPICO V",
-      "category": "unknown",
-      "lat": 1.2122683333333333,
-      "lon": 103.89171833333333,
-      "speedKmh": 13.9,
-      "heading": 40.6,
-      "reportedAt": "2026-10-29T10:45:37.022992+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566623000",
       "mmsi": "566623000",
       "name": "RESOLUTE NN24",
@@ -168,66 +132,6 @@
       "speedKmh": 0.2,
       "heading": 52.1,
       "reportedAt": "2026-10-29T11:16:16.319399+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563085870",
-      "mmsi": "563085870",
-      "name": "CSM VIPER",
-      "category": "unknown",
-      "lat": 1.2508683333333332,
-      "lon": 103.800585,
-      "speedKmh": 12.8,
-      "heading": 154.1,
-      "reportedAt": "2026-10-29T10:45:37.697846+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087590",
-      "mmsi": "563087590",
-      "name": "PSA VOLANS",
-      "category": "unknown",
-      "lat": 1.2229816666666666,
-      "lon": 103.79964333333334,
-      "speedKmh": 4.4,
-      "heading": 129.7,
-      "reportedAt": "2026-10-29T10:45:50.859328+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008604",
-      "mmsi": "538008604",
-      "name": "BLUE MOON",
-      "category": "unknown",
-      "lat": 1.2394183333333333,
-      "lon": 103.951875,
-      "speedKmh": 17.2,
-      "heading": 251.2,
-      "reportedAt": "2026-10-29T10:45:54.617917+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "357506000",
-      "mmsi": "357506000",
-      "name": "MSC ANIELLO",
-      "category": "unknown",
-      "lat": 1.1795633333333333,
-      "lon": 103.76500833333333,
-      "speedKmh": 0.7,
-      "heading": 284.5,
-      "reportedAt": "2026-10-29T10:46:12.690551+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119095",
-      "mmsi": "525119095",
-      "name": "ARTEMIS",
-      "category": "unknown",
-      "lat": 1.2679833333333332,
-      "lon": 103.89657166666666,
-      "speedKmh": 0.0,
-      "heading": 137.4,
-      "reportedAt": "2026-10-29T10:46:16.370732+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +271,11 @@
       "mmsi": "564526000",
       "name": "EVER BEST",
       "category": "unknown",
-      "lat": 1.2396633333333333,
-      "lon": 103.84261333333333,
-      "speedKmh": 12.2,
-      "heading": 43.8,
-      "reportedAt": "2026-10-29T11:31:35.941439+00:00"
+      "lat": 1.2720766666666667,
+      "lon": 103.8898,
+      "speedKmh": 6.9,
+      "heading": 50.5,
+      "reportedAt": "2026-10-29T12:15:35.012488+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +348,30 @@
       "speedKmh": 0.6,
       "heading": 211.2,
       "reportedAt": "2026-10-29T12:01:25.881716+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563135800",
+      "mmsi": "563135800",
+      "name": "AKA BHUM",
+      "category": "unknown",
+      "lat": 1.2383666666666668,
+      "lon": 103.88701666666665,
+      "speedKmh": 0.2,
+      "heading": 265,
+      "reportedAt": "2026-10-29T12:15:26.176370+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006578",
+      "mmsi": "352006578",
+      "name": "SNOW DRAGON",
+      "category": "unknown",
+      "lat": 1.279175,
+      "lon": 103.88595333333333,
+      "speedKmh": 0.4,
+      "heading": 346.3,
+      "reportedAt": "2026-10-29T12:15:52.911269+00:00"
     }
   ],
   "error": null
