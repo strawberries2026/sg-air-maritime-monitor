@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-29T12:31:49.242613+00:00",
+  "updatedAt": "2026-10-29T12:46:42.957035+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563246900",
-      "mmsi": "563246900",
-      "name": "ZOEY",
-      "category": "unknown",
-      "lat": 1.2641533333333332,
-      "lon": 103.83569833333333,
-      "speedKmh": 0.0,
-      "heading": 76.3,
-      "reportedAt": "2026-10-29T11:15:42.256181+00:00"
-    },
     {
       "kind": "ship",
       "id": "371458000",
@@ -24,42 +12,6 @@
       "speedKmh": 0.0,
       "heading": 264.8,
       "reportedAt": "2026-10-29T11:46:22.697425+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566612000",
-      "mmsi": "566612000",
-      "name": "SEA ENDURANCE",
-      "category": "unknown",
-      "lat": 1.26495,
-      "lon": 103.84700666666666,
-      "speedKmh": 0.0,
-      "heading": 103.7,
-      "reportedAt": "2026-10-29T11:16:14.685823+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525601594",
-      "mmsi": "525601594",
-      "name": "TB AMADEUS 1",
-      "category": "unknown",
-      "lat": 1.2632800000000002,
-      "lon": 103.82933333333334,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-29T11:15:46.199111+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563102700",
-      "mmsi": "563102700",
-      "name": "PELICAN PACIFIC",
-      "category": "unknown",
-      "lat": 1.22625,
-      "lon": 103.79974,
-      "speedKmh": 0.7,
-      "heading": 268.9,
-      "reportedAt": "2026-10-29T11:16:20.197597+00:00"
     },
     {
       "kind": "ship",
@@ -75,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "310661000",
-      "mmsi": "310661000",
-      "name": "ROYAL PRINCESS",
-      "category": "unknown",
-      "lat": 1.2254433333333334,
-      "lon": 103.880075,
-      "speedKmh": 11.3,
-      "heading": 3.3,
-      "reportedAt": "2026-10-29T11:15:42.401208+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563202300",
       "mmsi": "563202300",
       "name": "EA CHARA",
@@ -96,42 +36,6 @@
       "speedKmh": 0.0,
       "heading": 134.3,
       "reportedAt": "2026-10-29T11:31:18.961512+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566623000",
-      "mmsi": "566623000",
-      "name": "RESOLUTE NN24",
-      "category": "unknown",
-      "lat": 1.26209,
-      "lon": 103.84524166666667,
-      "speedKmh": 0.2,
-      "heading": 52.1,
-      "reportedAt": "2026-10-29T11:16:16.319399+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538002090",
-      "mmsi": "538002090",
-      "name": "CONSTELLATION",
-      "category": "unknown",
-      "lat": 1.2495666666666667,
-      "lon": 103.90588333333334,
-      "speedKmh": 0.0,
-      "heading": 316,
-      "reportedAt": "2026-10-29T11:15:50.358923+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015876",
-      "mmsi": "636015876",
-      "name": "HMM PREMIUM",
-      "category": "unknown",
-      "lat": 1.220715,
-      "lon": 103.93441166666666,
-      "speedKmh": 29.4,
-      "heading": 74.3,
-      "reportedAt": "2026-10-29T11:15:51.749641+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +204,30 @@
       "speedKmh": 6.7,
       "heading": 262.1,
       "reportedAt": "2026-10-29T12:31:34.761825+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "244410000",
+      "mmsi": "244410000",
+      "name": "ELISABETH",
+      "category": "unknown",
+      "lat": 1.290365,
+      "lon": 103.92276,
+      "speedKmh": 0.2,
+      "heading": 265.7,
+      "reportedAt": "2026-10-29T12:46:17.108260+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636017817",
+      "mmsi": "636017817",
+      "name": "SAPPORO PRINCESS",
+      "category": "unknown",
+      "lat": 1.25565,
+      "lon": 103.90581666666667,
+      "speedKmh": 0.2,
+      "heading": 275,
+      "reportedAt": "2026-10-29T12:46:41.645420+00:00"
     }
   ],
   "error": null
