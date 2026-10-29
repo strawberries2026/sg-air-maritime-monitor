@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T09:16:41.444654+00:00",
+  "updatedAt": "2026-10-29T09:31:48.327290+00:00",
   "items": [
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "538008428",
-      "mmsi": "538008428",
-      "name": "DALE",
-      "category": "unknown",
-      "lat": 1.2459816666666665,
-      "lon": 103.79527,
-      "speedKmh": 0.0,
-      "heading": 34.5,
-      "reportedAt": "2026-10-29T08:01:01.338042+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563275600",
       "mmsi": "563275600",
       "name": "MARINA AMMOLITE",
@@ -75,27 +63,15 @@
     },
     {
       "kind": "ship",
-      "id": "563263800",
-      "mmsi": "563263800",
-      "name": "ARTIZEN",
-      "category": "unknown",
-      "lat": 1.2530366666666666,
-      "lon": 103.73330333333334,
-      "speedKmh": 9.4,
-      "heading": 158.8,
-      "reportedAt": "2026-10-29T08:01:02.972711+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533110714",
       "mmsi": "533110714",
       "name": "HERA",
       "category": "unknown",
-      "lat": 1.2403566666666668,
-      "lon": 103.80349166666666,
-      "speedKmh": 0.2,
-      "heading": 208.1,
-      "reportedAt": "2026-10-29T08:45:38.526976+00:00"
+      "lat": 1.24044,
+      "lon": 103.80351166666667,
+      "speedKmh": 0.0,
+      "heading": 331.6,
+      "reportedAt": "2026-10-29T09:30:38.874235+00:00"
     },
     {
       "kind": "ship",
@@ -156,18 +132,6 @@
       "speedKmh": 0.4,
       "heading": 122.8,
       "reportedAt": "2026-10-29T09:01:02.027024+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009180",
-      "mmsi": "563009180",
-      "name": "NOBLE ACE TG41",
-      "category": "unknown",
-      "lat": 1.2097149999999999,
-      "lon": 103.79014333333333,
-      "speedKmh": 18.7,
-      "heading": 359.8,
-      "reportedAt": "2026-10-29T08:01:21.469761+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +319,11 @@
       "mmsi": "574005860",
       "name": "AULAC EAGLE",
       "category": "unknown",
-      "lat": 1.2378666666666667,
-      "lon": 103.80128333333333,
+      "lat": 1.2379833333333332,
+      "lon": 103.80130000000001,
       "speedKmh": 0.0,
       "heading": 181.3,
-      "reportedAt": "2026-10-29T08:31:07.498479+00:00"
+      "reportedAt": "2026-10-29T09:31:07.552976+00:00"
     },
     {
       "kind": "ship",
@@ -379,11 +343,11 @@
       "mmsi": "538003267",
       "name": "SEAPEAK ARWA",
       "category": "unknown",
-      "lat": 1.1972266666666667,
-      "lon": 103.84733333333334,
-      "speedKmh": 4.6,
-      "heading": 260.4,
-      "reportedAt": "2026-10-29T08:31:11.744855+00:00"
+      "lat": 1.16497,
+      "lon": 103.76873666666667,
+      "speedKmh": 20.4,
+      "heading": 242.8,
+      "reportedAt": "2026-10-29T09:30:43.147497+00:00"
     },
     {
       "kind": "ship",
@@ -624,6 +588,30 @@
       "speedKmh": 2.8,
       "heading": 246.4,
       "reportedAt": "2026-10-29T09:16:36.981002+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "304218000",
+      "mmsi": "304218000",
+      "name": "FUXI",
+      "category": "unknown",
+      "lat": 1.2117966666666669,
+      "lon": 103.90071333333334,
+      "speedKmh": 15.6,
+      "heading": 79.6,
+      "reportedAt": "2026-10-29T09:31:18.289651+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "357332000",
+      "mmsi": "357332000",
+      "name": "MSC REGINA",
+      "category": "unknown",
+      "lat": 1.1752016666666667,
+      "lon": 103.83066333333333,
+      "speedKmh": 23.3,
+      "heading": 66.5,
+      "reportedAt": "2026-10-29T09:31:32.558907+00:00"
     }
   ],
   "error": null
