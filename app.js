@@ -139,6 +139,7 @@ async function loadHistory(){
  }catch(e){historyTracks={};}
  renderObservationTrends();renderMovementDashboard();renderMovementTrendChart();
 }
+document.getElementById('homeRefresh')?.addEventListener('click',load);
 el('trailToggle').addEventListener('click',()=>{trailVisible=!trailVisible;const obj=[...air,...ships].find(x=>x.kind+':'+x.id===selectedKey);if(obj)showDetails(obj);});
 map.on('popupopen',e=>{const button=e.popup.getElement()?.querySelector('.popup-details');if(button)button.addEventListener('click',()=>{const obj=[...air,...ships].find(x=>x.kind+':'+x.id===button.dataset.object);if(obj){showDetails(obj);map.closePopup();el('objectDetails').scrollIntoView({behavior:'smooth',block:'start'});}})});
 el('records').addEventListener('click',e=>{const row=e.target.closest('tr[data-key]');if(row)focusObject(row.dataset.key)});
@@ -196,7 +197,13 @@ function updateHealth(){
  el('shipFeedTime').textContent='🚢 Maritime: '+(s.updated?sgt(s.updated)+' SGT · '+ageLabel(s.updated):'No valid timestamp');
  el('feedDetail').textContent=['Aircraft snapshot: '+sgt(a.updated)+' ('+ageLabel(a.updated)+')','Vessel snapshot: '+sgt(s.updated)+' ('+ageLabel(s.updated)+')',a.error,s.error].filter(Boolean).join(' • ');
 }
+let refreshInProgress=false;
 async function load(){
+ if(refreshInProgress)return;
+ refreshInProgress=true;
+ const homeButton=document.getElementById('homeRefresh');const homeStatus=document.getElementById('homeRefreshStatus');
+ if(homeButton){homeButton.disabled=true;homeButton.textContent='↻ Refreshing…';}
+ if(homeStatus)homeStatus.textContent='Checking latest published snapshots…';
  el('refresh').disabled=true;
  try{
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
@@ -204,7 +211,9 @@ async function load(){
   el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
   el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note)note.textContent='⚠ Partial AIS coverage: '+ships.length+' distinct vessel observation(s) within the past 90 minutes. These are sampled reports, NOT all vessels in Singapore waters. Positions may be delayed; tap a vessel to see its last report.';
   await loadHistory();updateHealth();render();
- }finally{el('refresh').disabled=false}
+  if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+((a.error||s.error)?'Feed error; see status below':'Latest published snapshots loaded');
+ }catch(error){if(homeStatus)homeStatus.textContent='Refresh unsuccessful: '+error.message;console.warn('Snapshot refresh failed',error);
+ }finally{el('refresh').disabled=false;refreshInProgress=false;if(homeButton){homeButton.disabled=false;homeButton.textContent='↻ Refresh data';}}
 }
 
 function syncMapModeButtons(){document.querySelectorAll('[data-map-mode]').forEach(button=>{button.setAttribute('aria-pressed',String(button.dataset.mapMode===el('mode').value));});}
