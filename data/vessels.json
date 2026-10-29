@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T11:31:53.676771+00:00",
+  "updatedAt": "2026-10-29T11:46:40.553944+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "371458000",
       "name": "NEW AMORGOS",
       "category": "unknown",
-      "lat": 1.2554766666666666,
-      "lon": 103.91006999999999,
-      "speedKmh": 0.2,
+      "lat": 1.2553266666666665,
+      "lon": 103.90974,
+      "speedKmh": 0.0,
       "heading": 264.8,
-      "reportedAt": "2026-10-29T11:16:22.822566+00:00"
+      "reportedAt": "2026-10-29T11:46:22.697425+00:00"
     },
     {
       "kind": "ship",
@@ -75,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "564855000",
-      "mmsi": "564855000",
-      "name": "TOLL EMPEROR",
-      "category": "unknown",
-      "lat": 1.2337233333333333,
-      "lon": 103.79212666666668,
-      "speedKmh": 0.9,
-      "heading": 72.5,
-      "reportedAt": "2026-10-29T10:16:27.971971+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010487",
-      "mmsi": "538010487",
-      "name": "CHRYSTAL ARCTIC",
-      "category": "unknown",
-      "lat": 1.1900149999999998,
-      "lon": 103.837635,
-      "speedKmh": 14.4,
-      "heading": 244.1,
-      "reportedAt": "2026-10-29T10:15:28.872959+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "219039000",
       "mmsi": "219039000",
       "name": "MUMBAI MAERSK",
@@ -108,18 +84,6 @@
       "speedKmh": 21.7,
       "heading": 245.7,
       "reportedAt": "2026-10-29T10:45:54.617836+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023531",
-      "mmsi": "636023531",
-      "name": "ANJI LUCK",
-      "category": "unknown",
-      "lat": 1.2704216666666668,
-      "lon": 103.906025,
-      "speedKmh": 0.0,
-      "heading": 314.5,
-      "reportedAt": "2026-10-29T10:15:57.969281+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +127,11 @@
       "mmsi": "538012962",
       "name": "AMETHYST",
       "category": "unknown",
-      "lat": 1.21603,
-      "lon": 103.87669833333332,
-      "speedKmh": 20.6,
-      "heading": 50.4,
-      "reportedAt": "2026-10-29T10:30:57.844877+00:00"
+      "lat": 1.2612933333333334,
+      "lon": 103.91073833333333,
+      "speedKmh": 0.4,
+      "heading": 250,
+      "reportedAt": "2026-10-29T11:46:17.554310+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +492,30 @@
       "speedKmh": 0.0,
       "heading": 48,
       "reportedAt": "2026-10-29T11:31:44.577737+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "unknown",
+      "lat": 1.2697566666666666,
+      "lon": 103.88134666666666,
+      "speedKmh": 0.0,
+      "heading": 351,
+      "reportedAt": "2026-10-29T11:46:32.428572+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636022304",
+      "mmsi": "636022304",
+      "name": "INFINITY AQUILA",
+      "category": "unknown",
+      "lat": 1.2755683333333332,
+      "lon": 103.90051166666667,
+      "speedKmh": 0.0,
+      "heading": 146.3,
+      "reportedAt": "2026-10-29T11:46:38.019406+00:00"
     }
   ],
   "error": null
