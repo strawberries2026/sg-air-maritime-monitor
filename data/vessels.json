@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T16:02:00.731170+00:00",
+  "updatedAt": "2026-10-29T16:16:39.557360+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,30 +24,6 @@
       "speedKmh": 0.0,
       "heading": 126,
       "reportedAt": "2026-10-29T15:00:57.728050+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413286490",
-      "mmsi": "413286490",
-      "name": "MING DE 5005",
-      "category": "unknown",
-      "lat": 1.2668466666666667,
-      "lon": 103.86987333333333,
-      "speedKmh": 0.0,
-      "heading": 171.8,
-      "reportedAt": "2026-10-29T14:42:15.087461+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477263300",
-      "mmsi": "477263300",
-      "name": "SIMAG SHANGHAI",
-      "category": "unknown",
-      "lat": 1.2600233333333333,
-      "lon": 103.843085,
-      "speedKmh": 3.3,
-      "heading": 148.4,
-      "reportedAt": "2026-10-29T14:42:45.172328+00:00"
     },
     {
       "kind": "ship",
@@ -174,12 +150,12 @@
       "id": "563001270",
       "mmsi": "563001270",
       "name": "AYER MANIS",
-      "category": "commercial",
-      "lat": 1.269525,
-      "lon": 103.88069,
-      "speedKmh": 0.0,
+      "category": "unknown",
+      "lat": 1.26957,
+      "lon": 103.88067166666666,
+      "speedKmh": 0.2,
       "heading": 0,
-      "reportedAt": "2026-10-29T16:01:03.028420+00:00"
+      "reportedAt": "2026-10-29T16:16:13.656865+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +187,11 @@
       "mmsi": "566623000",
       "name": "RESOLUTE NN24",
       "category": "unknown",
-      "lat": 1.2643183333333332,
-      "lon": 103.83446666666667,
-      "speedKmh": 0.2,
-      "heading": 213.1,
-      "reportedAt": "2026-10-29T16:01:29.422892+00:00"
+      "lat": 1.2643416666666667,
+      "lon": 103.83445,
+      "speedKmh": 0.0,
+      "heading": 71.6,
+      "reportedAt": "2026-10-29T16:16:37.241174+00:00"
     },
     {
       "kind": "ship",
@@ -252,6 +228,102 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-10-29T16:01:55.459595+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564855000",
+      "mmsi": "564855000",
+      "name": "TOLL EMPEROR",
+      "category": "unknown",
+      "lat": 1.2426816666666667,
+      "lon": 103.77308,
+      "speedKmh": 9.1,
+      "heading": 148.3,
+      "reportedAt": "2026-10-29T16:15:49.770307+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566108000",
+      "mmsi": "566108000",
+      "name": "VB SEA OWL",
+      "category": "unknown",
+      "lat": 1.2618683333333334,
+      "lon": 103.84551499999999,
+      "speedKmh": 0.0,
+      "heading": 170.1,
+      "reportedAt": "2026-10-29T16:15:59.469983+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563012720",
+      "mmsi": "563012720",
+      "name": "CLEANSEAS UNITED",
+      "category": "unknown",
+      "lat": 1.223225,
+      "lon": 103.82324666666666,
+      "speedKmh": 0.4,
+      "heading": 357.6,
+      "reportedAt": "2026-10-29T16:16:01.400303+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008428",
+      "mmsi": "538008428",
+      "name": "DALE",
+      "category": "unknown",
+      "lat": 1.244645,
+      "lon": 103.79268499999999,
+      "speedKmh": 0.0,
+      "heading": 303.5,
+      "reportedAt": "2026-10-29T16:16:03.928626+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006015",
+      "mmsi": "352006015",
+      "name": "HPC GOLD",
+      "category": "unknown",
+      "lat": 1.2566083333333333,
+      "lon": 103.87695333333333,
+      "speedKmh": 0.0,
+      "heading": 51.8,
+      "reportedAt": "2026-10-29T16:16:20.269473+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "228478900",
+      "mmsi": "228478900",
+      "name": "CMA CGM BAALBECK",
+      "category": "unknown",
+      "lat": 1.26185,
+      "lon": 103.78979,
+      "speedKmh": 0.0,
+      "heading": 258.4,
+      "reportedAt": "2026-10-29T16:16:26.976244+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011321",
+      "mmsi": "538011321",
+      "name": "STAVANGER STAR",
+      "category": "unknown",
+      "lat": 1.1975666666666667,
+      "lon": 103.88444,
+      "speedKmh": 22.0,
+      "heading": 54.4,
+      "reportedAt": "2026-10-29T16:16:34.800552+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735716666666665,
+      "lon": 103.80138166666667,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-29T16:16:36.155315+00:00"
     }
   ],
   "error": null
