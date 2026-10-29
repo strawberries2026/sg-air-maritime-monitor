@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-29T00:31:46.780072+00:00",
+  "updatedAt": "2026-10-29T00:46:45.002266+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "533132008",
-      "mmsi": "533132008",
-      "name": "ORKIM PEARL",
-      "category": "unknown",
-      "lat": 1.24089,
-      "lon": 103.79679333333334,
-      "speedKmh": 0.0,
-      "heading": 25.6,
-      "reportedAt": "2026-10-28T23:01:49.346192+00:00"
-    },
     {
       "kind": "ship",
       "id": "563067430",
@@ -79,23 +67,11 @@
       "mmsi": "563225800",
       "name": "X-PRESS PYXIS",
       "category": "unknown",
-      "lat": 1.2061583333333334,
-      "lon": 103.82577333333333,
-      "speedKmh": 20.4,
-      "heading": 277.6,
-      "reportedAt": "2026-10-29T00:31:16.383644+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009840",
-      "mmsi": "563009840",
-      "name": "NOBLE PRIDE TG47",
-      "category": "unknown",
-      "lat": 1.258075,
-      "lon": 103.853715,
-      "speedKmh": 6.5,
-      "heading": 285.5,
-      "reportedAt": "2026-10-28T23:01:49.711490+00:00"
+      "lat": 1.2279933333333333,
+      "lon": 103.78824333333334,
+      "speedKmh": 19.8,
+      "heading": 334.8,
+      "reportedAt": "2026-10-29T00:45:54.958207+00:00"
     },
     {
       "kind": "ship",
@@ -120,18 +96,6 @@
       "speedKmh": 0.0,
       "heading": 333.2,
       "reportedAt": "2026-10-28T23:45:37.173115+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232752000",
-      "mmsi": "232752000",
-      "name": "GOOD HOPE MAX",
-      "category": "unknown",
-      "lat": 1.2528083333333333,
-      "lon": 103.95299333333334,
-      "speedKmh": 7.0,
-      "heading": 312.7,
-      "reportedAt": "2026-10-28T23:16:20.711615+00:00"
     },
     {
       "kind": "ship",
@@ -319,11 +283,11 @@
       "mmsi": "370135000",
       "name": "PVT DIAMOND",
       "category": "unknown",
-      "lat": 1.2588599999999999,
-      "lon": 103.88028666666668,
+      "lat": 1.2589466666666667,
+      "lon": 103.88015333333333,
       "speedKmh": 0.0,
-      "heading": 237,
-      "reportedAt": "2026-10-29T00:16:24.562916+00:00"
+      "heading": 138,
+      "reportedAt": "2026-10-29T00:46:24.530353+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +408,42 @@
       "speedKmh": 4.8,
       "heading": 283.5,
       "reportedAt": "2026-10-29T00:31:42.843579+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311001100",
+      "mmsi": "311001100",
+      "name": "KOKKARI",
+      "category": "unknown",
+      "lat": 1.1915633333333333,
+      "lon": 103.8419,
+      "speedKmh": 25.6,
+      "heading": 250,
+      "reportedAt": "2026-10-29T00:45:37.706520+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2193833333333333,
+      "lon": 103.80348000000001,
+      "speedKmh": 0.4,
+      "heading": 286.7,
+      "reportedAt": "2026-10-29T00:46:03.457049+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538010991",
+      "mmsi": "538010991",
+      "name": "IRENES REWARD",
+      "category": "unknown",
+      "lat": 1.174765,
+      "lon": 103.80232333333333,
+      "speedKmh": 25.4,
+      "heading": 244.4,
+      "reportedAt": "2026-10-29T00:46:11.372343+00:00"
     }
   ],
   "error": null
