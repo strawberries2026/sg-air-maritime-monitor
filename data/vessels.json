@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:31:48.617862+00:00",
+  "updatedAt": "2026-10-29T23:45:41.825482+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,23 +19,11 @@
       "mmsi": "636024968",
       "name": "MACALLAN",
       "category": "unknown",
-      "lat": 1.2393083333333335,
-      "lon": 103.80392499999999,
-      "speedKmh": 0.0,
-      "heading": 346,
-      "reportedAt": "2026-10-29T22:16:21.234973+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735516666666666,
-      "lon": 103.80136833333333,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-29T22:15:40.462308+00:00"
+      "lat": 1.23586,
+      "lon": 103.80460666666666,
+      "speedKmh": 5.7,
+      "heading": 175.8,
+      "reportedAt": "2026-10-29T23:44:53.546787+00:00"
     },
     {
       "kind": "ship",
@@ -43,11 +31,11 @@
       "mmsi": "636025755",
       "name": "LFG ACE",
       "category": "unknown",
-      "lat": 1.271545,
-      "lon": 103.88656166666667,
-      "speedKmh": 0.2,
-      "heading": 303.1,
-      "reportedAt": "2026-10-29T23:31:44.953024+00:00"
+      "lat": 1.27157,
+      "lon": 103.88652166666667,
+      "speedKmh": 0.0,
+      "heading": 286.3,
+      "reportedAt": "2026-10-29T23:44:45.248434+00:00"
     },
     {
       "kind": "ship",
@@ -319,11 +307,11 @@
       "mmsi": "563190900",
       "name": "GOODTRANS 1",
       "category": "unknown",
-      "lat": 1.2673533333333333,
-      "lon": 103.88393500000001,
-      "speedKmh": 2.2,
-      "heading": 289.4,
-      "reportedAt": "2026-10-29T23:00:47.161061+00:00"
+      "lat": 1.2728416666666669,
+      "lon": 103.88204333333333,
+      "speedKmh": 0.0,
+      "heading": 227.3,
+      "reportedAt": "2026-10-29T23:45:37.113905+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +331,11 @@
       "mmsi": "563163700",
       "name": "PROTEUS SINEAD",
       "category": "unknown",
-      "lat": 1.1942,
-      "lon": 103.87927666666666,
-      "speedKmh": 13.7,
-      "heading": 65.2,
-      "reportedAt": "2026-10-29T23:01:20.919055+00:00"
+      "lat": 1.2355916666666666,
+      "lon": 103.94985166666667,
+      "speedKmh": 8.9,
+      "heading": 72.9,
+      "reportedAt": "2026-10-29T23:45:01.094092+00:00"
     },
     {
       "kind": "ship",
@@ -379,11 +367,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2503950000000001,
-      "lon": 103.87129333333334,
+      "lat": 1.2503983333333333,
+      "lon": 103.87127333333333,
       "speedKmh": 0.0,
       "heading": 115.3,
-      "reportedAt": "2026-10-29T23:30:43.199791+00:00"
+      "reportedAt": "2026-10-29T23:45:23.537054+00:00"
     },
     {
       "kind": "ship",
@@ -571,11 +559,35 @@
       "mmsi": "525019611",
       "name": "SEMBILAN ENAM 96",
       "category": "unknown",
-      "lat": 1.2337166666666666,
-      "lon": 103.78956666666666,
-      "speedKmh": 6.7,
-      "heading": 329.6,
-      "reportedAt": "2026-10-29T23:31:44.346208+00:00"
+      "lat": 1.2448066666666666,
+      "lon": 103.78274666666667,
+      "speedKmh": 6.1,
+      "heading": 337,
+      "reportedAt": "2026-10-29T23:45:03.894608+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311000460",
+      "mmsi": "311000460",
+      "name": "SELETAR SPIRIT",
+      "category": "unknown",
+      "lat": 1.25401,
+      "lon": 103.91816999999999,
+      "speedKmh": 0.2,
+      "heading": 288,
+      "reportedAt": "2026-10-29T23:44:32.310144+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "310661000",
+      "mmsi": "310661000",
+      "name": "ROYAL PRINCESS",
+      "category": "unknown",
+      "lat": 1.2642733333333331,
+      "lon": 103.86098833333334,
+      "speedKmh": 0.0,
+      "heading": 54.8,
+      "reportedAt": "2026-10-29T23:44:34.361847+00:00"
     }
   ],
   "error": null
