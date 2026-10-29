@@ -1,53 +1,17 @@
 {
-  "updatedAt": "2026-10-29T16:16:39.557360+00:00",
+  "updatedAt": "2026-10-29T16:31:49.631508+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "311000622",
-      "mmsi": "311000622",
-      "name": "LIMNIONAS",
-      "category": "unknown",
-      "lat": 1.2346666666666666,
-      "lon": 103.92273666666667,
-      "speedKmh": 15.2,
-      "heading": 218,
-      "reportedAt": "2026-10-29T15:01:16.206425+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012616",
-      "mmsi": "538012616",
-      "name": "POAVOSA BRAVE",
-      "category": "unknown",
-      "lat": 1.2570333333333332,
-      "lon": 103.89253333333333,
-      "speedKmh": 0.0,
-      "heading": 126,
-      "reportedAt": "2026-10-29T15:00:57.728050+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119191",
-      "mmsi": "525119191",
-      "name": "QUEEN CENTURY",
-      "category": "unknown",
-      "lat": 1.224615,
-      "lon": 103.80342,
-      "speedKmh": 0.2,
-      "heading": 257.5,
-      "reportedAt": "2026-10-29T15:01:18.181217+00:00"
-    },
     {
       "kind": "ship",
       "id": "636023476",
       "mmsi": "636023476",
       "name": "SEA DORY",
       "category": "unknown",
-      "lat": 1.2666966666666668,
-      "lon": 103.86761833333334,
+      "lat": 1.2667066666666666,
+      "lon": 103.86766333333334,
       "speedKmh": 0.2,
-      "heading": 237.8,
-      "reportedAt": "2026-10-29T15:16:11.792524+00:00"
+      "heading": 325,
+      "reportedAt": "2026-10-29T16:31:12.292858+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +211,11 @@
       "mmsi": "566108000",
       "name": "VB SEA OWL",
       "category": "unknown",
-      "lat": 1.2618683333333334,
-      "lon": 103.84551499999999,
+      "lat": 1.2618633333333333,
+      "lon": 103.84553166666666,
       "speedKmh": 0.0,
-      "heading": 170.1,
-      "reportedAt": "2026-10-29T16:15:59.469983+00:00"
+      "heading": 163.2,
+      "reportedAt": "2026-10-29T16:31:19.482982+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +288,102 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-10-29T16:16:36.155315+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525401544",
+      "mmsi": "525401544",
+      "name": "BAHTERA NUSANTARA 3",
+      "category": "unknown",
+      "lat": 1.1180233333333334,
+      "lon": 103.76489166666667,
+      "speedKmh": 16.9,
+      "heading": 39.9,
+      "reportedAt": "2026-10-29T16:30:43.304489+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023955",
+      "mmsi": "636023955",
+      "name": "PACIFIC INDIGO",
+      "category": "unknown",
+      "lat": 1.2452366666666668,
+      "lon": 103.91112166666667,
+      "speedKmh": 0.0,
+      "heading": 315.2,
+      "reportedAt": "2026-10-29T16:30:54.181403+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009180",
+      "mmsi": "563009180",
+      "name": "NOBLE ACE TG41",
+      "category": "unknown",
+      "lat": 1.2325599999999999,
+      "lon": 103.82663666666667,
+      "speedKmh": 15.4,
+      "heading": 63,
+      "reportedAt": "2026-10-29T16:31:10.796798+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119191",
+      "mmsi": "525119191",
+      "name": "QUEEN CENTURY",
+      "category": "unknown",
+      "lat": 1.225845,
+      "lon": 103.80147000000001,
+      "speedKmh": 0.0,
+      "heading": 356.8,
+      "reportedAt": "2026-10-29T16:31:23.271555+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525020108",
+      "mmsi": "525020108",
+      "name": "CIPTA JAYA MANDIRI",
+      "category": "unknown",
+      "lat": 1.247235,
+      "lon": 103.77942,
+      "speedKmh": 7.6,
+      "heading": 313.1,
+      "reportedAt": "2026-10-29T16:31:40.311617+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "374286000",
+      "mmsi": "374286000",
+      "name": "BLPL TRUST",
+      "category": "unknown",
+      "lat": 1.18462,
+      "lon": 103.83102166666666,
+      "speedKmh": 16.9,
+      "heading": 82.3,
+      "reportedAt": "2026-10-29T16:31:36.252005+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086080",
+      "mmsi": "563086080",
+      "name": "PILOT 15",
+      "category": "unknown",
+      "lat": 1.2570966666666665,
+      "lon": 103.84104,
+      "speedKmh": 0.0,
+      "heading": 45.4,
+      "reportedAt": "2026-10-29T16:31:38.268237+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565173000",
+      "mmsi": "565173000",
+      "name": "AYER CHERDEK",
+      "category": "unknown",
+      "lat": 1.2570566666666667,
+      "lon": 103.84877166666666,
+      "speedKmh": 12.2,
+      "heading": 273.5,
+      "reportedAt": "2026-10-29T16:31:45.537002+00:00"
     }
   ],
   "error": null
