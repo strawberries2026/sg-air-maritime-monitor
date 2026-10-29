@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T00:46:45.002266+00:00",
+  "updatedAt": "2026-10-29T01:01:54.930298+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "232004359",
-      "mmsi": "232004359",
-      "name": "SAGA OPTIMANA",
-      "category": "unknown",
-      "lat": 1.2001816666666667,
-      "lon": 103.88676666666667,
-      "speedKmh": 13.0,
-      "heading": 58,
-      "reportedAt": "2026-10-28T23:30:45.772854+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352980780",
       "mmsi": "352980780",
       "name": "SPIL NINGSIH",
@@ -36,18 +24,6 @@
       "speedKmh": 20.6,
       "heading": 57.4,
       "reportedAt": "2026-10-28T23:45:43.848520+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564230000",
-      "mmsi": "564230000",
-      "name": "HAFNIA TIGER",
-      "category": "unknown",
-      "lat": 1.2250916666666667,
-      "lon": 103.797195,
-      "speedKmh": 3.1,
-      "heading": 211.7,
-      "reportedAt": "2026-10-28T23:31:24.666075+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +43,11 @@
       "mmsi": "563225800",
       "name": "X-PRESS PYXIS",
       "category": "unknown",
-      "lat": 1.2279933333333333,
-      "lon": 103.78824333333334,
-      "speedKmh": 19.8,
-      "heading": 334.8,
-      "reportedAt": "2026-10-29T00:45:54.958207+00:00"
+      "lat": 1.2642033333333333,
+      "lon": 103.76512333333334,
+      "speedKmh": 14.1,
+      "heading": 311.6,
+      "reportedAt": "2026-10-29T01:01:45.876831+00:00"
     },
     {
       "kind": "ship",
@@ -111,39 +87,15 @@
     },
     {
       "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2754716666666668,
-      "lon": 103.90528166666667,
-      "speedKmh": 0.0,
-      "heading": 225.3,
-      "reportedAt": "2026-10-28T23:31:00.519962+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563023010",
-      "mmsi": "563023010",
-      "name": "PROFIT BRILLIANCE",
-      "category": "unknown",
-      "lat": 1.255485,
-      "lon": 103.84741000000001,
-      "speedKmh": 2.8,
-      "heading": 96.5,
-      "reportedAt": "2026-10-28T23:31:10.315371+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352006015",
       "mmsi": "352006015",
       "name": "HPC GOLD",
       "category": "unknown",
-      "lat": 1.24378,
-      "lon": 103.87533,
-      "speedKmh": 8.9,
-      "heading": 358.5,
-      "reportedAt": "2026-10-28T23:45:32.823972+00:00"
+      "lat": 1.2559966666666669,
+      "lon": 103.87620333333332,
+      "speedKmh": 0.0,
+      "heading": 190.4,
+      "reportedAt": "2026-10-29T01:01:17.544157+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +163,11 @@
       "mmsi": "357506000",
       "name": "MSC ANIELLO",
       "category": "unknown",
-      "lat": 1.1771516666666666,
-      "lon": 103.76087666666668,
+      "lat": 1.1772,
+      "lon": 103.76083,
       "speedKmh": 0.0,
       "heading": 123.6,
-      "reportedAt": "2026-10-29T00:01:05.738697+00:00"
+      "reportedAt": "2026-10-29T01:01:06.152327+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +396,54 @@
       "speedKmh": 25.4,
       "heading": 244.4,
       "reportedAt": "2026-10-29T00:46:11.372343+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "232004359",
+      "mmsi": "232004359",
+      "name": "SAGA OPTIMANA",
+      "category": "unknown",
+      "lat": 1.2518066666666667,
+      "lon": 103.93886666666667,
+      "speedKmh": 8.3,
+      "heading": 195.3,
+      "reportedAt": "2026-10-29T01:00:55.301142+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563169800",
+      "mmsi": "563169800",
+      "name": "RUBY",
+      "category": "unknown",
+      "lat": 1.2730766666666669,
+      "lon": 103.89229666666667,
+      "speedKmh": 0.2,
+      "heading": 277.2,
+      "reportedAt": "2026-10-29T01:01:08.970365+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477957800",
+      "mmsi": "477957800",
+      "name": "XINYI GLASS",
+      "category": "unknown",
+      "lat": 1.2613466666666668,
+      "lon": 103.89590333333334,
+      "speedKmh": 0.0,
+      "heading": 317.7,
+      "reportedAt": "2026-10-29T01:01:25.923772+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241638000",
+      "mmsi": "241638000",
+      "name": "MARAN GAS HYDRA",
+      "category": "unknown",
+      "lat": 1.211255,
+      "lon": 103.87949333333333,
+      "speedKmh": 17.2,
+      "heading": 246.3,
+      "reportedAt": "2026-10-29T01:01:53.571525+00:00"
     }
   ],
   "error": null
