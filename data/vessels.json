@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T14:31:49.706211+00:00",
+  "updatedAt": "2026-10-29T14:42:50.131127+00:00",
   "items": [
     {
       "kind": "ship",
@@ -144,6 +144,30 @@
       "speedKmh": 0.0,
       "heading": 311,
       "reportedAt": "2026-10-29T14:31:44.057412+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413286490",
+      "mmsi": "413286490",
+      "name": "MING DE 5005",
+      "category": "unknown",
+      "lat": 1.2668466666666667,
+      "lon": 103.86987333333333,
+      "speedKmh": 0.0,
+      "heading": 171.8,
+      "reportedAt": "2026-10-29T14:42:15.087461+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477263300",
+      "mmsi": "477263300",
+      "name": "SIMAG SHANGHAI",
+      "category": "unknown",
+      "lat": 1.2600233333333333,
+      "lon": 103.843085,
+      "speedKmh": 3.3,
+      "heading": 148.4,
+      "reportedAt": "2026-10-29T14:42:45.172328+00:00"
     }
   ],
   "error": null
