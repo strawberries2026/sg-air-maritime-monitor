@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T20:01:54.759701+00:00",
+  "updatedAt": "2026-10-30T20:16:40.276083+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "219454000",
       "name": "TORM ARAWA",
       "category": "unknown",
-      "lat": 1.2614083333333332,
-      "lon": 103.890125,
+      "lat": 1.261345,
+      "lon": 103.89018833333333,
       "speedKmh": 0.0,
-      "heading": 327,
-      "reportedAt": "2026-10-30T19:46:13.471996+00:00"
+      "heading": 158.2,
+      "reportedAt": "2026-10-30T20:16:12.675878+00:00"
     },
     {
       "kind": "ship",
@@ -48,18 +48,6 @@
       "speedKmh": 0.0,
       "heading": 303.5,
       "reportedAt": "2026-10-30T19:16:33.965956+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023331",
-      "mmsi": "636023331",
-      "name": "ODIN HIGHWAY",
-      "category": "unknown",
-      "lat": 1.180705,
-      "lon": 103.75460333333334,
-      "speedKmh": 0.0,
-      "heading": 216.6,
-      "reportedAt": "2026-10-30T18:46:31.325168+00:00"
     },
     {
       "kind": "ship",
@@ -99,18 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "471072000",
-      "mmsi": "471072000",
-      "name": "ARZANA",
-      "category": "unknown",
-      "lat": 1.2472933333333331,
-      "lon": 103.80754833333334,
-      "speedKmh": 0.0,
-      "heading": 179.9,
-      "reportedAt": "2026-10-30T18:45:54.885306+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564391000",
       "mmsi": "564391000",
       "name": "ALS SUMIRE",
@@ -123,27 +99,15 @@
     },
     {
       "kind": "ship",
-      "id": "565688000",
-      "mmsi": "565688000",
-      "name": "KOTA NAZIM",
-      "category": "unknown",
-      "lat": 1.2625333333333333,
-      "lon": 103.83791666666666,
-      "speedKmh": 0.0,
-      "heading": 208,
-      "reportedAt": "2026-10-30T18:46:13.535557+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525100552",
       "mmsi": "525100552",
       "name": "SELATAN DAMAI",
       "category": "unknown",
-      "lat": 1.2639516666666668,
-      "lon": 103.83555500000001,
+      "lat": 1.2639333333333334,
+      "lon": 103.83555166666666,
       "speedKmh": 0.0,
-      "heading": 208.3,
-      "reportedAt": "2026-10-30T19:16:37.424937+00:00"
+      "heading": 349.8,
+      "reportedAt": "2026-10-30T20:16:37.387488+00:00"
     },
     {
       "kind": "ship",
@@ -171,18 +135,6 @@
     },
     {
       "kind": "ship",
-      "id": "563215600",
-      "mmsi": "563215600",
-      "name": "ZALE",
-      "category": "unknown",
-      "lat": 1.2324,
-      "lon": 103.77950833333333,
-      "speedKmh": 9.4,
-      "heading": 137.2,
-      "reportedAt": "2026-10-30T18:45:35.740298+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563083550",
       "mmsi": "563083550",
       "name": "CLEANSEAS JOY",
@@ -192,54 +144,6 @@
       "speedKmh": 0.0,
       "heading": 134.8,
       "reportedAt": "2026-10-30T19:46:25.847859+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563264600",
-      "mmsi": "563264600",
-      "name": "JAZEEL",
-      "category": "unknown",
-      "lat": 1.2641733333333331,
-      "lon": 103.83565833333334,
-      "speedKmh": 0.0,
-      "heading": 173.7,
-      "reportedAt": "2026-10-30T18:45:40.842050+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413398440",
-      "mmsi": "413398440",
-      "name": "JIN HAI TAO",
-      "category": "unknown",
-      "lat": 1.245625,
-      "lon": 103.72127166666668,
-      "speedKmh": 8.0,
-      "heading": 2.2,
-      "reportedAt": "2026-10-30T18:45:51.790802+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016728",
-      "mmsi": "636016728",
-      "name": "BLUE SKY I",
-      "category": "unknown",
-      "lat": 1.2186766666666666,
-      "lon": 103.81167333333333,
-      "speedKmh": 0.0,
-      "heading": 89.9,
-      "reportedAt": "2026-10-30T18:45:52.872076+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012796",
-      "mmsi": "538012796",
-      "name": "MANAH",
-      "category": "unknown",
-      "lat": 1.2379933333333333,
-      "lon": 103.81436833333333,
-      "speedKmh": 1.3,
-      "heading": 184,
-      "reportedAt": "2026-10-30T18:46:11.840347+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +319,11 @@
       "mmsi": "565332000",
       "name": "VB RAJA",
       "category": "unknown",
-      "lat": 1.235565,
-      "lon": 103.77095666666668,
-      "speedKmh": 0.0,
-      "heading": 29.8,
-      "reportedAt": "2026-10-30T19:30:55.194196+00:00"
+      "lat": 1.235685,
+      "lon": 103.77082166666668,
+      "speedKmh": 2.2,
+      "heading": 339.2,
+      "reportedAt": "2026-10-30T20:15:53.284499+00:00"
     },
     {
       "kind": "ship",
@@ -499,11 +403,11 @@
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
       "category": "unknown",
-      "lat": 1.26955,
-      "lon": 103.89152,
-      "speedKmh": 7.8,
-      "heading": 48.2,
-      "reportedAt": "2026-10-30T20:01:39.255464+00:00"
+      "lat": 1.279345,
+      "lon": 103.90538666666666,
+      "speedKmh": 7.2,
+      "heading": 60.3,
+      "reportedAt": "2026-10-30T20:16:35.177328+00:00"
     },
     {
       "kind": "ship",
@@ -648,6 +552,90 @@
       "speedKmh": 17.4,
       "heading": 250,
       "reportedAt": "2026-10-30T20:01:21.335188+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525601594",
+      "mmsi": "525601594",
+      "name": "TB AMADEUS 1",
+      "category": "unknown",
+      "lat": 1.249385,
+      "lon": 103.86826666666666,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-10-30T20:15:50.700399+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020186",
+      "mmsi": "636020186",
+      "name": "CAROLINE",
+      "category": "unknown",
+      "lat": 1.2533166666666666,
+      "lon": 103.92739333333334,
+      "speedKmh": 0.0,
+      "heading": 303.2,
+      "reportedAt": "2026-10-30T20:16:07.886831+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565688000",
+      "mmsi": "565688000",
+      "name": "KOTA NAZIM",
+      "category": "unknown",
+      "lat": 1.2626333333333333,
+      "lon": 103.83788333333334,
+      "speedKmh": 0.2,
+      "heading": 343,
+      "reportedAt": "2026-10-30T20:16:13.263190+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563190900",
+      "mmsi": "563190900",
+      "name": "GOODTRANS 1",
+      "category": "unknown",
+      "lat": 1.2665516666666667,
+      "lon": 103.910255,
+      "speedKmh": 10.4,
+      "heading": 40.5,
+      "reportedAt": "2026-10-30T20:16:18.245652+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352005987",
+      "mmsi": "352005987",
+      "name": "HARMONY GOLD",
+      "category": "unknown",
+      "lat": 1.2556533333333335,
+      "lon": 103.8915,
+      "speedKmh": 0.0,
+      "heading": 209.8,
+      "reportedAt": "2026-10-30T20:16:22.437711+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636017346",
+      "mmsi": "636017346",
+      "name": "MSC SHAULA",
+      "category": "unknown",
+      "lat": 1.1852666666666667,
+      "lon": 103.84608,
+      "speedKmh": 23.2,
+      "heading": 64.5,
+      "reportedAt": "2026-10-30T20:16:25.547862+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563078700",
+      "mmsi": "563078700",
+      "name": "OXALIS LOTUS",
+      "category": "unknown",
+      "lat": 1.2263283333333335,
+      "lon": 103.78567333333334,
+      "speedKmh": 19.1,
+      "heading": 140.1,
+      "reportedAt": "2026-10-30T20:16:35.177395+00:00"
     }
   ],
   "error": null
