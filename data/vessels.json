@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T09:31:48.255158+00:00",
+  "updatedAt": "2026-10-30T09:46:39.645673+00:00",
   "items": [
     {
       "kind": "ship",
@@ -75,42 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735416666666666,
-      "lon": 103.80141333333333,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-30T08:16:29.427214+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "256936000",
-      "mmsi": "256936000",
-      "name": "RARAKA",
-      "category": "unknown",
-      "lat": 1.2851083333333333,
-      "lon": 103.97993,
-      "speedKmh": 0.0,
-      "heading": 197.4,
-      "reportedAt": "2026-10-30T08:15:59.868708+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564526000",
-      "mmsi": "564526000",
-      "name": "EVER BEST",
-      "category": "unknown",
-      "lat": 1.2920616666666667,
-      "lon": 103.94098666666667,
-      "speedKmh": 6.5,
-      "heading": 316.7,
-      "reportedAt": "2026-10-30T08:16:14.565680+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525008095",
       "mmsi": "525008095",
       "name": "MT PANGKALAN BRANDAN",
@@ -151,11 +115,11 @@
       "mmsi": "310661000",
       "name": "ROYAL PRINCESS",
       "category": "unknown",
-      "lat": 1.26428,
-      "lon": 103.86098666666666,
-      "speedKmh": 0.0,
-      "heading": 268.4,
-      "reportedAt": "2026-10-30T09:16:36.193898+00:00"
+      "lat": 1.26427,
+      "lon": 103.860975,
+      "speedKmh": 0.2,
+      "heading": 241.8,
+      "reportedAt": "2026-10-30T09:45:58.884113+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +187,11 @@
       "mmsi": "311000131",
       "name": "IOANNIS",
       "category": "unknown",
-      "lat": 1.2640783333333334,
-      "lon": 103.94513166666667,
-      "speedKmh": 0.4,
-      "heading": 342,
-      "reportedAt": "2026-10-30T08:45:41.651392+00:00"
+      "lat": 1.264375,
+      "lon": 103.94491,
+      "speedKmh": 0.2,
+      "heading": 330.4,
+      "reportedAt": "2026-10-30T09:46:31.243508+00:00"
     },
     {
       "kind": "ship",
@@ -510,12 +474,12 @@
       "id": "371458000",
       "mmsi": "371458000",
       "name": "NEW AMORGOS",
-      "category": "commercial",
-      "lat": 1.2553016666666668,
-      "lon": 103.91032166666668,
+      "category": "unknown",
+      "lat": 1.2555066666666665,
+      "lon": 103.91048666666667,
       "speedKmh": 0.2,
       "heading": 262.5,
-      "reportedAt": "2026-10-30T09:31:30.627407+00:00"
+      "reportedAt": "2026-10-30T09:46:30.525704+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +492,18 @@
       "speedKmh": 0.0,
       "heading": 140.5,
       "reportedAt": "2026-10-30T09:31:36.828040+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352007070",
+      "mmsi": "352007070",
+      "name": "DIVINE MERCY",
+      "category": "unknown",
+      "lat": 1.2819416666666668,
+      "lon": 103.89766,
+      "speedKmh": 0.4,
+      "heading": 117.3,
+      "reportedAt": "2026-10-30T09:46:12.292954+00:00"
     }
   ],
   "error": null
