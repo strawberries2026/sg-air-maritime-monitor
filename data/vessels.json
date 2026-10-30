@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-30T06:01:55.768903+00:00",
+  "updatedAt": "2026-10-30T06:16:40.651719+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563073090",
-      "mmsi": "563073090",
-      "name": "563073090",
-      "category": "unknown",
-      "lat": 1.2726250000000001,
-      "lon": 103.87114166666667,
-      "speedKmh": 0.2,
-      "heading": 341.8,
-      "reportedAt": "2026-10-30T04:46:12.024650+00:00"
-    },
     {
       "kind": "ship",
       "id": "636025755",
@@ -36,30 +24,6 @@
       "speedKmh": 0.9,
       "heading": 129.9,
       "reportedAt": "2026-10-30T05:16:07.507852+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533132198",
-      "mmsi": "533132198",
-      "name": "ORCHID CORAL",
-      "category": "unknown",
-      "lat": 1.2068816666666666,
-      "lon": 103.87602833333334,
-      "speedKmh": 21.3,
-      "heading": 243.8,
-      "reportedAt": "2026-10-30T04:45:54.039494+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413858000",
-      "mmsi": "413858000",
-      "name": "REN MA ZUO",
-      "category": "unknown",
-      "lat": 1.2440633333333333,
-      "lon": 103.75273666666666,
-      "speedKmh": 11.5,
-      "heading": 78.7,
-      "reportedAt": "2026-10-30T04:45:28.547863+00:00"
     },
     {
       "kind": "ship",
@@ -87,30 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "563283300",
-      "mmsi": "563283300",
-      "name": "KOTA ORKID",
-      "category": "unknown",
-      "lat": 1.26402,
-      "lon": 103.83293333333333,
-      "speedKmh": 0.0,
-      "heading": 103.6,
-      "reportedAt": "2026-10-30T04:45:55.726992+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "249082000",
-      "mmsi": "249082000",
-      "name": "CMA CGM ALHAMBRA",
-      "category": "unknown",
-      "lat": 1.2645933333333335,
-      "lon": 103.791395,
-      "speedKmh": 0.0,
-      "heading": 199.9,
-      "reportedAt": "2026-10-30T04:46:01.981205+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565390000",
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
@@ -126,12 +66,12 @@
       "id": "511101991",
       "mmsi": "511101991",
       "name": "TAN BINH 134",
-      "category": "commercial",
-      "lat": 1.2562866666666668,
-      "lon": 103.865155,
+      "category": "unknown",
+      "lat": 1.256445,
+      "lon": 103.86497166666666,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-10-30T06:01:18.088418+00:00"
+      "reportedAt": "2026-10-30T06:16:17.941974+00:00"
     },
     {
       "kind": "ship",
@@ -144,18 +84,6 @@
       "speedKmh": 0.2,
       "heading": 306.5,
       "reportedAt": "2026-10-30T05:46:36.820506+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563337600",
-      "mmsi": "563337600",
-      "name": "LUCIA COSULICH",
-      "category": "unknown",
-      "lat": 1.20238,
-      "lon": 103.83771666666667,
-      "speedKmh": 18.5,
-      "heading": 74.7,
-      "reportedAt": "2026-10-30T04:46:38.782035+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +384,66 @@
       "speedKmh": 0.2,
       "heading": 275.5,
       "reportedAt": "2026-10-30T06:01:49.464065+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563251100",
+      "mmsi": "563251100",
+      "name": "EM NIKITA",
+      "category": "unknown",
+      "lat": 1.2257516666666668,
+      "lon": 103.90164499999999,
+      "speedKmh": 15.6,
+      "heading": 240.8,
+      "reportedAt": "2026-10-30T06:15:57.218997+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563269100",
+      "mmsi": "563269100",
+      "name": "STELLAR OF MAJESTIC",
+      "category": "unknown",
+      "lat": 1.26097,
+      "lon": 103.81219666666667,
+      "speedKmh": 10.2,
+      "heading": 92.2,
+      "reportedAt": "2026-10-30T06:16:13.017347+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563336400",
+      "mmsi": "563336400",
+      "name": "PEARL OKINAWA",
+      "category": "unknown",
+      "lat": 1.2888233333333334,
+      "lon": 103.92146833333332,
+      "speedKmh": 5.0,
+      "heading": 250.9,
+      "reportedAt": "2026-10-30T06:16:18.559109+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370799000",
+      "mmsi": "370799000",
+      "name": "LNG KOLT",
+      "category": "unknown",
+      "lat": 1.1705,
+      "lon": 103.75393333333334,
+      "speedKmh": 0.0,
+      "heading": 182,
+      "reportedAt": "2026-10-30T06:16:28.658360+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563319900",
+      "mmsi": "563319900",
+      "name": "MAJESTIC INFINITY",
+      "category": "unknown",
+      "lat": 1.2410733333333333,
+      "lon": 103.85886666666667,
+      "speedKmh": 28.9,
+      "heading": 123.1,
+      "reportedAt": "2026-10-30T06:16:32.002366+00:00"
     }
   ],
   "error": null
