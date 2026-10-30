@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:01:57.863449+00:00",
+  "updatedAt": "2026-10-30T13:16:43.092883+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": 340.7,
       "reportedAt": "2026-10-30T12:01:31.252534+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016728",
-      "mmsi": "636016728",
-      "name": "BLUE SKY I",
-      "category": "unknown",
-      "lat": 1.2165416666666669,
-      "lon": 103.81391833333333,
-      "speedKmh": 0.0,
-      "heading": 62.1,
-      "reportedAt": "2026-10-30T11:45:52.514427+00:00"
     },
     {
       "kind": "ship",
@@ -84,114 +72,6 @@
       "speedKmh": 0.0,
       "heading": 11,
       "reportedAt": "2026-10-30T12:01:17.572313+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371458000",
-      "mmsi": "371458000",
-      "name": "NEW AMORGOS",
-      "category": "unknown",
-      "lat": 1.2554400000000001,
-      "lon": 103.91003666666667,
-      "speedKmh": 0.0,
-      "heading": 248,
-      "reportedAt": "2026-10-30T11:46:35.311453+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563253500",
-      "mmsi": "563253500",
-      "name": "MARINE AZURE",
-      "category": "unknown",
-      "lat": 1.255285,
-      "lon": 103.891975,
-      "speedKmh": 15.4,
-      "heading": 51.8,
-      "reportedAt": "2026-10-30T11:45:44.393365+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538009316",
-      "mmsi": "538009316",
-      "name": "GOOBY",
-      "category": "unknown",
-      "lat": 1.160795,
-      "lon": 103.808515,
-      "speedKmh": 13.0,
-      "heading": 59.8,
-      "reportedAt": "2026-10-30T11:45:40.881494+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009160",
-      "mmsi": "563009160",
-      "name": "AVON",
-      "category": "unknown",
-      "lat": 1.2643666666666666,
-      "lon": 103.83406666666666,
-      "speedKmh": 0.0,
-      "heading": 59,
-      "reportedAt": "2026-10-30T11:45:50.336294+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011128",
-      "mmsi": "538011128",
-      "name": "SEASTAR AVALON",
-      "category": "unknown",
-      "lat": 1.269015,
-      "lon": 103.88707500000001,
-      "speedKmh": 0.0,
-      "heading": 303,
-      "reportedAt": "2026-10-30T11:45:50.911697+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086080",
-      "mmsi": "563086080",
-      "name": "PILOT 15",
-      "category": "unknown",
-      "lat": 1.2576749999999999,
-      "lon": 103.861025,
-      "speedKmh": 38.3,
-      "heading": 73.7,
-      "reportedAt": "2026-10-30T11:45:57.647783+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "248220000",
-      "mmsi": "248220000",
-      "name": "MINERVA KALLIOPE",
-      "category": "unknown",
-      "lat": 1.262605,
-      "lon": 103.90351000000001,
-      "speedKmh": 0.0,
-      "heading": 34,
-      "reportedAt": "2026-10-30T11:46:03.842920+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002255",
-      "mmsi": "311002255",
-      "name": "UNION GROW",
-      "category": "unknown",
-      "lat": 1.2382166666666667,
-      "lon": 103.82098333333333,
-      "speedKmh": 0.0,
-      "heading": 31,
-      "reportedAt": "2026-10-30T11:46:15.502510+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563294700",
-      "mmsi": "563294700",
-      "name": "EM SHONA",
-      "category": "commercial",
-      "lat": 1.1720599999999999,
-      "lon": 103.75424666666666,
-      "speedKmh": 3.7,
-      "heading": 177,
-      "reportedAt": "2026-10-30T11:46:29.067349+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +300,30 @@
       "speedKmh": 13.1,
       "heading": 107.1,
       "reportedAt": "2026-10-30T13:01:11.539896+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009249",
+      "mmsi": "538009249",
+      "name": "538009249",
+      "category": "unknown",
+      "lat": 1.1785866666666667,
+      "lon": 103.84290333333334,
+      "speedKmh": 13.7,
+      "heading": 65.2,
+      "reportedAt": "2026-10-30T13:15:29.376905+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249937000",
+      "mmsi": "249937000",
+      "name": "ALEGRIA",
+      "category": "unknown",
+      "lat": 1.275695,
+      "lon": 103.880425,
+      "speedKmh": 0.2,
+      "heading": 139.4,
+      "reportedAt": "2026-10-30T13:16:02.378820+00:00"
     }
   ],
   "error": null
