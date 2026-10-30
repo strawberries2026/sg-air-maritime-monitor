@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T07:46:43.952311+00:00",
+  "updatedAt": "2026-10-30T08:01:58.762127+00:00",
   "items": [
     {
       "kind": "ship",
@@ -30,48 +30,12 @@
       "id": "511101991",
       "mmsi": "511101991",
       "name": "TAN BINH 134",
-      "category": "unknown",
-      "lat": 1.2565683333333333,
-      "lon": 103.86489333333334,
-      "speedKmh": 0.0,
+      "category": "commercial",
+      "lat": 1.257485,
+      "lon": 103.86471833333333,
+      "speedKmh": 0.6,
       "heading": null,
-      "reportedAt": "2026-10-30T06:46:18.232682+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016728",
-      "mmsi": "636016728",
-      "name": "BLUE SKY I",
-      "category": "unknown",
-      "lat": 1.2186083333333333,
-      "lon": 103.81285166666666,
-      "speedKmh": 0.0,
-      "heading": 282.3,
-      "reportedAt": "2026-10-30T06:30:53.010944+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477629100",
-      "mmsi": "477629100",
-      "name": "JOSCO GUIZHOU",
-      "category": "unknown",
-      "lat": 1.2760783333333334,
-      "lon": 103.88390166666666,
-      "speedKmh": 0.2,
-      "heading": 106.4,
-      "reportedAt": "2026-10-30T06:30:44.624963+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563251100",
-      "mmsi": "563251100",
-      "name": "EM NIKITA",
-      "category": "unknown",
-      "lat": 1.2077033333333334,
-      "lon": 103.87042833333334,
-      "speedKmh": 15.4,
-      "heading": 236.1,
-      "reportedAt": "2026-10-30T06:31:25.385628+00:00"
+      "reportedAt": "2026-10-30T08:01:17.999081+00:00"
     },
     {
       "kind": "ship",
@@ -99,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "564346000",
-      "mmsi": "564346000",
-      "name": "HORIZON 6",
-      "category": "unknown",
-      "lat": 1.2610400000000002,
-      "lon": 103.80654833333332,
-      "speedKmh": 10.4,
-      "heading": 66.9,
-      "reportedAt": "2026-10-30T06:30:37.065894+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538002090",
-      "mmsi": "538002090",
-      "name": "CONSTELLATION",
-      "category": "unknown",
-      "lat": 1.25005,
-      "lon": 103.90626666666667,
-      "speedKmh": 0.2,
-      "heading": 183,
-      "reportedAt": "2026-10-30T06:30:50.051221+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636018102",
       "mmsi": "636018102",
       "name": "BELITA",
@@ -144,54 +84,6 @@
       "speedKmh": 0.0,
       "heading": 357.1,
       "reportedAt": "2026-10-30T06:45:58.749572+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563283300",
-      "mmsi": "563283300",
-      "name": "KOTA ORKID",
-      "category": "unknown",
-      "lat": 1.2650333333333335,
-      "lon": 103.83415333333333,
-      "speedKmh": 2.4,
-      "heading": 80.8,
-      "reportedAt": "2026-10-30T06:31:16.540148+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563265500",
-      "mmsi": "563265500",
-      "name": "GOLDEN ANTARES",
-      "category": "unknown",
-      "lat": 1.2306116666666667,
-      "lon": 103.79831,
-      "speedKmh": 15.6,
-      "heading": 70.5,
-      "reportedAt": "2026-10-30T06:31:22.718437+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011716",
-      "mmsi": "538011716",
-      "name": "PACIFIC SPIRIT",
-      "category": "unknown",
-      "lat": 1.2261016666666669,
-      "lon": 103.80824166666666,
-      "speedKmh": 0.2,
-      "heading": 169.1,
-      "reportedAt": "2026-10-30T06:31:41.360786+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566639000",
-      "mmsi": "566639000",
-      "name": "TRINITY",
-      "category": "unknown",
-      "lat": 1.17652,
-      "lon": 103.75813166666667,
-      "speedKmh": 0.2,
-      "heading": 219,
-      "reportedAt": "2026-10-30T06:31:45.831363+00:00"
     },
     {
       "kind": "ship",
@@ -648,6 +540,54 @@
       "speedKmh": 20.0,
       "heading": 295.3,
       "reportedAt": "2026-10-30T07:46:38.518999+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016728",
+      "mmsi": "636016728",
+      "name": "BLUE SKY I",
+      "category": "unknown",
+      "lat": 1.2167333333333334,
+      "lon": 103.81355833333333,
+      "speedKmh": 0.2,
+      "heading": 202.6,
+      "reportedAt": "2026-10-30T08:00:52.831782+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "245450000",
+      "mmsi": "245450000",
+      "name": "ROTTERDAM",
+      "category": "unknown",
+      "lat": 1.227085,
+      "lon": 103.78933666666667,
+      "speedKmh": 20.7,
+      "heading": 134.5,
+      "reportedAt": "2026-10-30T08:01:21.347475+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "228478900",
+      "mmsi": "228478900",
+      "name": "CMA CGM BAALBECK",
+      "category": "unknown",
+      "lat": 1.2618683333333334,
+      "lon": 103.78976333333334,
+      "speedKmh": 0.0,
+      "heading": 126.2,
+      "reportedAt": "2026-10-30T08:01:28.255185+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.22342,
+      "lon": 103.80897333333334,
+      "speedKmh": 0.2,
+      "heading": 17.9,
+      "reportedAt": "2026-10-30T08:01:41.394613+00:00"
     }
   ],
   "error": null
