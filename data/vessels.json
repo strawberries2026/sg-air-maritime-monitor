@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-30T12:46:40.231776+00:00",
+  "updatedAt": "2026-10-30T13:01:57.863449+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "511101991",
-      "mmsi": "511101991",
-      "name": "TAN BINH 134",
-      "category": "unknown",
-      "lat": 1.2574966666666667,
-      "lon": 103.86460333333333,
-      "speedKmh": 0.9,
-      "heading": null,
-      "reportedAt": "2026-10-30T11:31:31.141593+00:00"
-    },
     {
       "kind": "ship",
       "id": "636023331",
@@ -55,11 +43,11 @@
       "mmsi": "538011011",
       "name": "LOWLANDS SHARK",
       "category": "unknown",
-      "lat": 1.2873816666666669,
-      "lon": 103.91290000000001,
-      "speedKmh": 0.2,
-      "heading": 319.4,
-      "reportedAt": "2026-10-30T12:01:12.499529+00:00"
+      "lat": 1.2865116666666667,
+      "lon": 103.91046833333333,
+      "speedKmh": 0.7,
+      "heading": 197.1,
+      "reportedAt": "2026-10-30T13:01:13.256306+00:00"
     },
     {
       "kind": "ship",
@@ -87,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "564330000",
-      "mmsi": "564330000",
-      "name": "ASEAN RAIDER 1",
-      "category": "unknown",
-      "lat": 1.261795,
-      "lon": 103.81217,
-      "speedKmh": 9.4,
-      "heading": 267.7,
-      "reportedAt": "2026-10-30T11:30:48.529179+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2178183333333334,
-      "lon": 103.80825333333334,
-      "speedKmh": 1.1,
-      "heading": 12.6,
-      "reportedAt": "2026-10-30T11:31:02.964569+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "373310000",
       "mmsi": "373310000",
       "name": "METIS LEADER",
@@ -120,30 +84,6 @@
       "speedKmh": 0.0,
       "heading": 11,
       "reportedAt": "2026-10-30T12:01:17.572313+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119191",
-      "mmsi": "525119191",
-      "name": "QUEEN CENTURY",
-      "category": "unknown",
-      "lat": 1.2259416666666667,
-      "lon": 103.80431166666668,
-      "speedKmh": 0.2,
-      "heading": 13.8,
-      "reportedAt": "2026-10-30T11:31:32.585129+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563187800",
-      "mmsi": "563187800",
-      "name": "563187800",
-      "category": "unknown",
-      "lat": 1.2355083333333332,
-      "lon": 103.79022833333333,
-      "speedKmh": 18.3,
-      "heading": 145.6,
-      "reportedAt": "2026-10-30T11:31:37.989275+00:00"
     },
     {
       "kind": "ship",
@@ -307,11 +247,11 @@
       "mmsi": "565968000",
       "name": "LAUREL",
       "category": "unknown",
-      "lat": 1.2159116666666667,
-      "lon": 103.86901833333333,
-      "speedKmh": 13.9,
-      "heading": 245.5,
-      "reportedAt": "2026-10-30T12:01:26.279973+00:00"
+      "lat": 1.245,
+      "lon": 103.78578166666667,
+      "speedKmh": 7.0,
+      "heading": 340.5,
+      "reportedAt": "2026-10-30T13:00:49.340852+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +283,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.2382333333333333,
-      "lon": 103.79601333333333,
-      "speedKmh": 0.2,
-      "heading": 204.7,
-      "reportedAt": "2026-10-30T12:46:10.189626+00:00"
+      "lat": 1.238165,
+      "lon": 103.79597833333334,
+      "speedKmh": 0.7,
+      "heading": 213.6,
+      "reportedAt": "2026-10-30T13:01:10.445354+00:00"
     },
     {
       "kind": "ship",
@@ -414,12 +354,12 @@
       "id": "563315900",
       "mmsi": "563315900",
       "name": "PACIFIC WISE",
-      "category": "commercial",
-      "lat": 1.2460983333333333,
-      "lon": 103.86896166666666,
-      "speedKmh": 0.0,
-      "heading": 23.8,
-      "reportedAt": "2026-10-30T12:31:38.719251+00:00"
+      "category": "unknown",
+      "lat": 1.2392916666666667,
+      "lon": 103.86778166666666,
+      "speedKmh": 10.9,
+      "heading": 166.7,
+      "reportedAt": "2026-10-30T13:01:18.632991+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +396,30 @@
       "speedKmh": 0.6,
       "heading": 296.3,
       "reportedAt": "2026-10-30T12:45:51.699840+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2182016666666666,
+      "lon": 103.80797166666666,
+      "speedKmh": 0.2,
+      "heading": 83.8,
+      "reportedAt": "2026-10-30T13:01:03.205346+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009180",
+      "mmsi": "563009180",
+      "name": "NOBLE ACE TG41",
+      "category": "unknown",
+      "lat": 1.2576933333333333,
+      "lon": 103.84851,
+      "speedKmh": 13.1,
+      "heading": 107.1,
+      "reportedAt": "2026-10-30T13:01:11.539896+00:00"
     }
   ],
   "error": null
