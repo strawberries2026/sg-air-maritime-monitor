@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T02:31:47.477437+00:00",
+  "updatedAt": "2026-10-30T02:46:39.913724+00:00",
   "items": [
     {
       "kind": "ship",
@@ -75,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "563215600",
-      "mmsi": "563215600",
-      "name": "ZALE",
-      "category": "unknown",
-      "lat": 1.244235,
-      "lon": 103.79468833333334,
-      "speedKmh": 0.4,
-      "heading": 95.2,
-      "reportedAt": "2026-10-30T01:01:53.181851+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565102000",
       "mmsi": "565102000",
       "name": "AYER CHERDAS",
@@ -123,30 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "636018693",
-      "mmsi": "636018693",
-      "name": "GSL VALERIE",
-      "category": "unknown",
-      "lat": 1.2619233333333333,
-      "lon": 103.8403,
-      "speedKmh": 1.9,
-      "heading": 348.6,
-      "reportedAt": "2026-10-30T01:01:51.187108+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563142000",
-      "mmsi": "563142000",
-      "name": "PENGUIN REDEEM",
-      "category": "unknown",
-      "lat": 1.2262333333333333,
-      "lon": 103.77959000000001,
-      "speedKmh": 7.2,
-      "heading": 199.7,
-      "reportedAt": "2026-10-30T01:15:46.911553+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "355354000",
       "mmsi": "355354000",
       "name": "SPRING NEXUS",
@@ -156,18 +120,6 @@
       "speedKmh": 5.4,
       "heading": 18.4,
       "reportedAt": "2026-10-30T01:30:48.589927+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "668116289",
-      "mmsi": "668116289",
-      "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2819666666666667,
-      "lon": 103.89211,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-30T01:16:11.878646+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +391,11 @@
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
       "category": "unknown",
-      "lat": 1.248865,
-      "lon": 103.80262833333333,
+      "lat": 1.24926,
+      "lon": 103.80272333333333,
       "speedKmh": 0.2,
-      "heading": 240.5,
-      "reportedAt": "2026-10-30T02:01:27.013755+00:00"
+      "heading": 341.9,
+      "reportedAt": "2026-10-30T02:46:26.154862+00:00"
     },
     {
       "kind": "ship",
@@ -631,11 +583,59 @@
       "mmsi": "228478900",
       "name": "CMA CGM BAALBECK",
       "category": "unknown",
-      "lat": 1.2618116666666666,
-      "lon": 103.789765,
+      "lat": 1.2618250000000002,
+      "lon": 103.78978166666667,
       "speedKmh": 0.0,
       "heading": 188.8,
-      "reportedAt": "2026-10-30T02:31:31.254223+00:00"
+      "reportedAt": "2026-10-30T02:46:30.646867+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.2491549999999998,
+      "lon": 103.79469,
+      "speedKmh": 0.0,
+      "heading": 171.8,
+      "reportedAt": "2026-10-30T02:45:57.137647+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636026549",
+      "mmsi": "636026549",
+      "name": "NAVE POLARIS",
+      "category": "unknown",
+      "lat": 1.2421816666666667,
+      "lon": 103.92766333333334,
+      "speedKmh": 7.4,
+      "heading": 218.5,
+      "reportedAt": "2026-10-30T02:46:18.158778+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563202300",
+      "mmsi": "563202300",
+      "name": "EA CHARA",
+      "category": "unknown",
+      "lat": 1.2717233333333333,
+      "lon": 103.92154000000001,
+      "speedKmh": 10.2,
+      "heading": 146.7,
+      "reportedAt": "2026-10-30T02:46:30.237590+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023331",
+      "mmsi": "636023331",
+      "name": "ODIN HIGHWAY",
+      "category": "unknown",
+      "lat": 1.180435,
+      "lon": 103.753185,
+      "speedKmh": 0.0,
+      "heading": 179.3,
+      "reportedAt": "2026-10-30T02:46:31.777526+00:00"
     }
   ],
   "error": null
