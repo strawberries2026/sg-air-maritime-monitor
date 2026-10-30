@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T08:01:58.762127+00:00",
+  "updatedAt": "2026-10-30T08:16:38.695674+00:00",
   "items": [
     {
       "kind": "ship",
@@ -75,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.249845,
-      "lon": 103.79641833333334,
-      "speedKmh": 0.0,
-      "heading": 357.1,
-      "reportedAt": "2026-10-30T06:45:58.749572+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563101900",
       "mmsi": "563101900",
       "name": "GREEN EARTH",
@@ -120,42 +108,6 @@
       "speedKmh": 0.0,
       "heading": 212,
       "reportedAt": "2026-10-30T07:16:23.277996+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086920",
-      "mmsi": "563086920",
-      "name": "RIKKA",
-      "category": "unknown",
-      "lat": 1.2550733333333333,
-      "lon": 103.804345,
-      "speedKmh": 0.2,
-      "heading": 143.4,
-      "reportedAt": "2026-10-30T06:46:09.472644+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477642100",
-      "mmsi": "477642100",
-      "name": "EVER ORIENT",
-      "category": "commercial",
-      "lat": 1.1794066666666665,
-      "lon": 103.83935333333334,
-      "speedKmh": 25.6,
-      "heading": 70.9,
-      "reportedAt": "2026-10-30T06:46:27.856391+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564855000",
-      "mmsi": "564855000",
-      "name": "TOLL EMPEROR",
-      "category": "unknown",
-      "lat": 1.2359383333333334,
-      "lon": 103.77677999999999,
-      "speedKmh": 8.3,
-      "heading": 139.6,
-      "reportedAt": "2026-10-30T06:46:29.692213+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +391,11 @@
       "mmsi": "563009180",
       "name": "NOBLE ACE TG41",
       "category": "unknown",
-      "lat": 1.26471,
-      "lon": 103.83194499999999,
+      "lat": 1.2642466666666665,
+      "lon": 103.83189166666666,
       "speedKmh": 0.2,
-      "heading": 200.5,
-      "reportedAt": "2026-10-30T07:45:40.130817+00:00"
+      "heading": 261.5,
+      "reportedAt": "2026-10-30T08:15:41.018480+00:00"
     },
     {
       "kind": "ship",
@@ -588,6 +540,54 @@
       "speedKmh": 0.2,
       "heading": 17.9,
       "reportedAt": "2026-10-30T08:01:41.394613+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477300900",
+      "mmsi": "477300900",
+      "name": "YU YI",
+      "category": "unknown",
+      "lat": 1.181235,
+      "lon": 103.84661666666666,
+      "speedKmh": 11.7,
+      "heading": 66.4,
+      "reportedAt": "2026-10-30T08:15:28.424327+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735416666666666,
+      "lon": 103.80141333333333,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-30T08:16:29.427214+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "256936000",
+      "mmsi": "256936000",
+      "name": "RARAKA",
+      "category": "unknown",
+      "lat": 1.2851083333333333,
+      "lon": 103.97993,
+      "speedKmh": 0.0,
+      "heading": 197.4,
+      "reportedAt": "2026-10-30T08:15:59.868708+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564526000",
+      "mmsi": "564526000",
+      "name": "EVER BEST",
+      "category": "unknown",
+      "lat": 1.2920616666666667,
+      "lon": 103.94098666666667,
+      "speedKmh": 6.5,
+      "heading": 316.7,
+      "reportedAt": "2026-10-30T08:16:14.565680+00:00"
     }
   ],
   "error": null
