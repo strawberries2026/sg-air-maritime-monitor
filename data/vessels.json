@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T04:16:41.444736+00:00",
+  "updatedAt": "2026-10-30T04:31:52.843662+00:00",
   "items": [
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "563283300",
-      "mmsi": "563283300",
-      "name": "KOTA ORKID",
-      "category": "unknown",
-      "lat": 1.2639933333333333,
-      "lon": 103.83294166666666,
-      "speedKmh": 0.0,
-      "heading": 320.3,
-      "reportedAt": "2026-10-30T03:00:56.316782+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565587000",
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
@@ -72,18 +60,6 @@
       "speedKmh": 0.2,
       "heading": 202.2,
       "reportedAt": "2026-10-30T03:02:45.781275+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636024758",
-      "mmsi": "636024758",
-      "name": "AL KHEESAH",
-      "category": "unknown",
-      "lat": 1.1628466666666666,
-      "lon": 103.75511833333333,
-      "speedKmh": 0.0,
-      "heading": 245.7,
-      "reportedAt": "2026-10-30T03:01:30.609320+00:00"
     },
     {
       "kind": "ship",
@@ -144,30 +120,6 @@
       "speedKmh": 13.9,
       "heading": 316.5,
       "reportedAt": "2026-10-30T03:31:32.190650+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563603000",
-      "mmsi": "563603000",
-      "name": "STAR QUEST",
-      "category": "unknown",
-      "lat": 1.18233,
-      "lon": 103.76758166666667,
-      "speedKmh": 16.3,
-      "heading": 280.2,
-      "reportedAt": "2026-10-30T03:01:40.697951+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636017316",
-      "mmsi": "636017316",
-      "name": "CAPE MIRON",
-      "category": "unknown",
-      "lat": 1.2702833333333332,
-      "lon": 103.9264,
-      "speedKmh": 0.0,
-      "heading": 145,
-      "reportedAt": "2026-10-30T03:01:44.215447+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +343,11 @@
       "mmsi": "563294700",
       "name": "EM SHONA",
       "category": "unknown",
-      "lat": 1.199175,
-      "lon": 103.80980166666667,
-      "speedKmh": 10.9,
-      "heading": 142.3,
-      "reportedAt": "2026-10-30T04:15:48.756984+00:00"
+      "lat": 1.183615,
+      "lon": 103.79211166666667,
+      "speedKmh": 13.9,
+      "heading": 250.7,
+      "reportedAt": "2026-10-30T04:31:38.916399+00:00"
     },
     {
       "kind": "ship",
@@ -564,6 +516,18 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-10-30T04:16:30.303915+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533132198",
+      "mmsi": "533132198",
+      "name": "ORCHID CORAL",
+      "category": "unknown",
+      "lat": 1.2263566666666668,
+      "lon": 103.91653166666667,
+      "speedKmh": 20.6,
+      "heading": 246.7,
+      "reportedAt": "2026-10-30T04:31:34.879250+00:00"
     }
   ],
   "error": null
