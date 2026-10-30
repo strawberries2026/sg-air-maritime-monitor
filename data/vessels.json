@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T10:46:40.909608+00:00",
+  "updatedAt": "2026-10-30T11:02:00.458762+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.2,
       "heading": 241.8,
       "reportedAt": "2026-10-30T09:45:58.884113+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477178100",
-      "mmsi": "477178100",
-      "name": "OCEAN LILY",
-      "category": "unknown",
-      "lat": 1.190415,
-      "lon": 103.83852166666667,
-      "speedKmh": 13.3,
-      "heading": 239.9,
-      "reportedAt": "2026-10-30T09:31:00.830550+00:00"
     },
     {
       "kind": "ship",
@@ -87,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "564330000",
-      "mmsi": "564330000",
-      "name": "ASEAN RAIDER 1",
-      "category": "unknown",
-      "lat": 1.2560416666666667,
-      "lon": 103.80623,
-      "speedKmh": 24.6,
-      "heading": 323.8,
-      "reportedAt": "2026-10-30T09:31:00.830472+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564426000",
-      "mmsi": "564426000",
-      "name": "WATERFRONT 1",
-      "category": "unknown",
-      "lat": 1.2607366666666666,
-      "lon": 103.81905666666667,
-      "speedKmh": 10.2,
-      "heading": 104.5,
-      "reportedAt": "2026-10-30T09:31:23.083417+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -123,30 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563328600",
-      "mmsi": "563328600",
-      "name": "PEARL OASIS",
-      "category": "unknown",
-      "lat": 1.1962566666666667,
-      "lon": 103.75234333333333,
-      "speedKmh": 0.2,
-      "heading": 358,
-      "reportedAt": "2026-10-30T09:31:09.148495+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563319900",
-      "mmsi": "563319900",
-      "name": "MAJESTIC INFINITY",
-      "category": "unknown",
-      "lat": 1.262255,
-      "lon": 103.81848333333333,
-      "speedKmh": 0.0,
-      "heading": 259.2,
-      "reportedAt": "2026-10-30T09:31:22.807710+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "413848000",
       "mmsi": "413848000",
       "name": "YUAN TANG WAN",
@@ -156,18 +96,6 @@
       "speedKmh": 23.5,
       "heading": 78.6,
       "reportedAt": "2026-10-30T09:54:44.141752+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564688000",
-      "mmsi": "564688000",
-      "name": "DESNA",
-      "category": "unknown",
-      "lat": 1.2494716666666668,
-      "lon": 103.871075,
-      "speedKmh": 0.6,
-      "heading": 41.9,
-      "reportedAt": "2026-10-30T09:31:26.057608+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +223,11 @@
       "mmsi": "566163000",
       "name": "BRUE",
       "category": "unknown",
-      "lat": 1.2234883333333333,
-      "lon": 103.786485,
-      "speedKmh": 13.1,
-      "heading": 144.4,
-      "reportedAt": "2026-10-30T10:01:57.332661+00:00"
+      "lat": 1.247315,
+      "lon": 103.89873666666668,
+      "speedKmh": 15.9,
+      "heading": 50.1,
+      "reportedAt": "2026-10-30T11:01:17.637540+00:00"
     },
     {
       "kind": "ship",
@@ -516,6 +444,30 @@
       "speedKmh": 0.0,
       "heading": 309.8,
       "reportedAt": "2026-10-30T10:46:12.386889+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636024966",
+      "mmsi": "636024966",
+      "name": "NORTHERN GUARD",
+      "category": "unknown",
+      "lat": 1.2677833333333333,
+      "lon": 103.7762,
+      "speedKmh": 2.0,
+      "heading": 5,
+      "reportedAt": "2026-10-30T11:01:02.148540+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352005987",
+      "mmsi": "352005987",
+      "name": "HARMONY GOLD",
+      "category": "unknown",
+      "lat": 1.2579033333333334,
+      "lon": 103.89400333333333,
+      "speedKmh": 1.5,
+      "heading": 25.1,
+      "reportedAt": "2026-10-30T11:01:26.163912+00:00"
     }
   ],
   "error": null
