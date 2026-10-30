@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-10-30T14:16:40.485938+00:00",
+  "updatedAt": "2026-10-30T14:31:51.601341+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "538011011",
-      "mmsi": "538011011",
-      "name": "LOWLANDS SHARK",
-      "category": "unknown",
-      "lat": 1.2865116666666667,
-      "lon": 103.91046833333333,
-      "speedKmh": 0.7,
-      "heading": 197.1,
-      "reportedAt": "2026-10-30T13:01:13.256306+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565968000",
-      "mmsi": "565968000",
-      "name": "LAUREL",
-      "category": "unknown",
-      "lat": 1.245,
-      "lon": 103.78578166666667,
-      "speedKmh": 7.0,
-      "heading": 340.5,
-      "reportedAt": "2026-10-30T13:00:49.340852+00:00"
-    },
     {
       "kind": "ship",
       "id": "565390000",
@@ -39,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "563315900",
-      "mmsi": "563315900",
-      "name": "PACIFIC WISE",
-      "category": "unknown",
-      "lat": 1.2392916666666667,
-      "lon": 103.86778166666666,
-      "speedKmh": 10.9,
-      "heading": 166.7,
-      "reportedAt": "2026-10-30T13:01:18.632991+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -60,18 +24,6 @@
       "speedKmh": 0.2,
       "heading": 355.2,
       "reportedAt": "2026-10-30T14:16:10.025931+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009180",
-      "mmsi": "563009180",
-      "name": "NOBLE ACE TG41",
-      "category": "unknown",
-      "lat": 1.2576933333333333,
-      "lon": 103.84851,
-      "speedKmh": 13.1,
-      "heading": 107.1,
-      "reportedAt": "2026-10-30T13:01:11.539896+00:00"
     },
     {
       "kind": "ship",
@@ -224,10 +176,10 @@
       "name": "AVON",
       "category": "unknown",
       "lat": 1.26435,
-      "lon": 103.83413333333333,
-      "speedKmh": 0.2,
-      "heading": 137,
-      "reportedAt": "2026-10-30T14:00:59.392222+00:00"
+      "lon": 103.83412,
+      "speedKmh": 0.0,
+      "heading": 286,
+      "reportedAt": "2026-10-30T14:31:23.145517+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +199,11 @@
       "mmsi": "636022909",
       "name": "MELODY SELMER",
       "category": "unknown",
-      "lat": 1.2642133333333334,
-      "lon": 103.97923166666666,
-      "speedKmh": 9.8,
-      "heading": 313.6,
-      "reportedAt": "2026-10-30T14:01:08.624169+00:00"
+      "lat": 1.2875816666666668,
+      "lon": 103.96334666666667,
+      "speedKmh": 4.6,
+      "heading": 301.7,
+      "reportedAt": "2026-10-30T14:31:17.767634+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +307,11 @@
       "mmsi": "538009316",
       "name": "GOOBY",
       "category": "unknown",
-      "lat": 1.2725216666666666,
-      "lon": 103.9053,
-      "speedKmh": 10.4,
-      "heading": 268,
-      "reportedAt": "2026-10-30T14:16:26.488052+00:00"
+      "lat": 1.2701283333333333,
+      "lon": 103.88751166666665,
+      "speedKmh": 4.8,
+      "heading": 279.2,
+      "reportedAt": "2026-10-30T14:31:47.202677+00:00"
     },
     {
       "kind": "ship",
@@ -372,6 +324,114 @@
       "speedKmh": 0.0,
       "heading": 151.5,
       "reportedAt": "2026-10-30T14:16:38.882111+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563079600",
+      "mmsi": "563079600",
+      "name": "STRAITS GRACIOUS",
+      "category": "unknown",
+      "lat": 1.2768799999999998,
+      "lon": 103.88382333333334,
+      "speedKmh": 0.0,
+      "heading": 300.3,
+      "reportedAt": "2026-10-30T14:30:45.835985+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012452",
+      "mmsi": "538012452",
+      "name": "MAESTRO",
+      "category": "unknown",
+      "lat": 1.2821,
+      "lon": 103.93612,
+      "speedKmh": 0.9,
+      "heading": 232.8,
+      "reportedAt": "2026-10-30T14:30:47.376270+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563031300",
+      "mmsi": "563031300",
+      "name": "CLEANSEAS EQUALITY",
+      "category": "unknown",
+      "lat": 1.2931283333333332,
+      "lon": 103.93991333333334,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-10-30T14:30:50.323431+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413398440",
+      "mmsi": "413398440",
+      "name": "JIN HAI TAO",
+      "category": "unknown",
+      "lat": 1.2111233333333333,
+      "lon": 103.88105333333333,
+      "speedKmh": 18.5,
+      "heading": 247.8,
+      "reportedAt": "2026-10-30T14:30:54.809931+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.2377333333333334,
+      "lon": 103.80091666666667,
+      "speedKmh": 0.0,
+      "heading": 182.1,
+      "reportedAt": "2026-10-30T14:31:15.376675+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.27359,
+      "lon": 103.80136166666666,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-30T14:31:20.138983+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020186",
+      "mmsi": "636020186",
+      "name": "CAROLINE",
+      "category": "unknown",
+      "lat": 1.2559049999999998,
+      "lon": 103.92811333333334,
+      "speedKmh": 0.2,
+      "heading": 50,
+      "reportedAt": "2026-10-30T14:31:20.674651+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563088620",
+      "mmsi": "563088620",
+      "name": "NOVA WAVE",
+      "category": "unknown",
+      "lat": 1.261245,
+      "lon": 103.81053166666668,
+      "speedKmh": 11.1,
+      "heading": 98,
+      "reportedAt": "2026-10-30T14:31:34.242717+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636015411",
+      "mmsi": "636015411",
+      "name": "ALMI GALAXY",
+      "category": "unknown",
+      "lat": 1.269,
+      "lon": 103.91278000000001,
+      "speedKmh": 0.0,
+      "heading": 232.3,
+      "reportedAt": "2026-10-30T14:31:36.888984+00:00"
     }
   ],
   "error": null
