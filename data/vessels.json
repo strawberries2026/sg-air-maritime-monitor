@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T06:46:40.424302+00:00",
+  "updatedAt": "2026-10-30T07:01:55.187502+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,23 +7,11 @@
       "mmsi": "636025755",
       "name": "LFG ACE",
       "category": "unknown",
-      "lat": 1.2745416666666667,
-      "lon": 103.88954833333334,
-      "speedKmh": 0.4,
-      "heading": 114.6,
-      "reportedAt": "2026-10-30T06:46:24.739203+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564616000",
-      "mmsi": "564616000",
-      "name": "ARTEMIS",
-      "category": "unknown",
-      "lat": 1.28377,
-      "lon": 103.76123166666666,
-      "speedKmh": 0.0,
-      "heading": 117.3,
-      "reportedAt": "2026-10-30T05:31:21.315875+00:00"
+      "lat": 1.274465,
+      "lon": 103.88974166666667,
+      "speedKmh": 0.2,
+      "heading": 345,
+      "reportedAt": "2026-10-30T07:01:43.725382+00:00"
     },
     {
       "kind": "ship",
@@ -63,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "636020500",
-      "mmsi": "636020500",
-      "name": "MSC LIDIA III",
-      "category": "unknown",
-      "lat": 1.173275,
-      "lon": 103.69337666666667,
-      "speedKmh": 11.1,
-      "heading": 302,
-      "reportedAt": "2026-10-30T05:31:46.719197+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636016728",
       "mmsi": "636016728",
       "name": "BLUE SKY I",
@@ -84,18 +60,6 @@
       "speedKmh": 0.0,
       "heading": 282.3,
       "reportedAt": "2026-10-30T06:30:53.010944+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565263000",
-      "mmsi": "565263000",
-      "name": "HORIZON 9",
-      "category": "unknown",
-      "lat": 1.2289633333333332,
-      "lon": 103.78775,
-      "speedKmh": 28.2,
-      "heading": 157.1,
-      "reportedAt": "2026-10-30T05:31:12.142028+00:00"
     },
     {
       "kind": "ship",
@@ -123,30 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "538012374",
-      "mmsi": "538012374",
-      "name": "NAUTICAL SINGAPORE",
-      "category": "unknown",
-      "lat": 1.1931450000000001,
-      "lon": 103.74855833333332,
-      "speedKmh": 0.0,
-      "heading": 236.2,
-      "reportedAt": "2026-10-30T05:30:52.919824+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563328300",
-      "mmsi": "563328300",
-      "name": "STRAITS WISDOM",
-      "category": "unknown",
-      "lat": 1.2642650000000002,
-      "lon": 103.90221,
-      "speedKmh": 16.1,
-      "heading": 37,
-      "reportedAt": "2026-10-30T05:31:07.012243+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563088620",
       "mmsi": "563088620",
       "name": "NOVA WAVE",
@@ -156,18 +96,6 @@
       "speedKmh": 0.0,
       "heading": 355,
       "reportedAt": "2026-10-30T05:46:15.290475+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563026590",
-      "mmsi": "563026590",
-      "name": "PANDUAN",
-      "category": "unknown",
-      "lat": 1.252015,
-      "lon": 103.85115666666667,
-      "speedKmh": 18.1,
-      "heading": 193.8,
-      "reportedAt": "2026-10-30T05:31:43.817304+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +211,11 @@
       "mmsi": "563269100",
       "name": "STELLAR OF MAJESTIC",
       "category": "unknown",
-      "lat": 1.26097,
-      "lon": 103.81219666666667,
-      "speedKmh": 10.2,
-      "heading": 92.2,
-      "reportedAt": "2026-10-30T06:16:13.017347+00:00"
+      "lat": 1.2619083333333334,
+      "lon": 103.81783,
+      "speedKmh": 0.0,
+      "heading": 22.3,
+      "reportedAt": "2026-10-30T07:01:33.090156+00:00"
     },
     {
       "kind": "ship",
@@ -427,11 +355,11 @@
       "mmsi": "563101900",
       "name": "GREEN EARTH",
       "category": "unknown",
-      "lat": 1.1399966666666665,
-      "lon": 103.76586666666667,
-      "speedKmh": 24.4,
-      "heading": 42.1,
-      "reportedAt": "2026-10-30T06:31:45.968363+00:00"
+      "lat": 1.192615,
+      "lon": 103.87131833333333,
+      "speedKmh": 26.3,
+      "heading": 67.5,
+      "reportedAt": "2026-10-30T07:01:07.493895+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +420,66 @@
       "speedKmh": 8.3,
       "heading": 139.6,
       "reportedAt": "2026-10-30T06:46:29.692213+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352003828",
+      "mmsi": "352003828",
+      "name": "VIET THUAN 56-05",
+      "category": "unknown",
+      "lat": 1.2478216666666666,
+      "lon": 103.89706500000001,
+      "speedKmh": 0.6,
+      "heading": 298.1,
+      "reportedAt": "2026-10-30T07:00:51.580359+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413586730",
+      "mmsi": "413586730",
+      "name": "JIAN HANG FENG DA",
+      "category": "unknown",
+      "lat": 1.2458266666666666,
+      "lon": 103.793025,
+      "speedKmh": 0.0,
+      "heading": 61.7,
+      "reportedAt": "2026-10-30T07:01:08.869422+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477717900",
+      "mmsi": "477717900",
+      "name": "FOREVER CORDIALITY",
+      "category": "unknown",
+      "lat": 1.2130816666666666,
+      "lon": 103.88865000000001,
+      "speedKmh": 16.3,
+      "heading": 243.9,
+      "reportedAt": "2026-10-30T07:01:10.009474+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "209172000",
+      "mmsi": "209172000",
+      "name": "AGIOS SPYRIDONAS",
+      "category": "unknown",
+      "lat": 1.1785066666666668,
+      "lon": 103.83691833333334,
+      "speedKmh": 9.4,
+      "heading": 66,
+      "reportedAt": "2026-10-30T07:01:25.614396+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563230100",
+      "mmsi": "563230100",
+      "name": "UNITY OF MAJESTIC",
+      "category": "unknown",
+      "lat": 1.26158,
+      "lon": 103.81968,
+      "speedKmh": 0.6,
+      "heading": 335.6,
+      "reportedAt": "2026-10-30T07:01:30.849167+00:00"
     }
   ],
   "error": null
