@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T05:46:40.871900+00:00",
+  "updatedAt": "2026-10-30T06:01:55.768903+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "636025755",
       "name": "LFG ACE",
       "category": "unknown",
-      "lat": 1.2741616666666669,
-      "lon": 103.88984,
-      "speedKmh": 0.2,
-      "heading": 84,
-      "reportedAt": "2026-10-30T05:15:45.300466+00:00"
+      "lat": 1.2744866666666668,
+      "lon": 103.88946,
+      "speedKmh": 0.0,
+      "heading": 36.8,
+      "reportedAt": "2026-10-30T06:01:36.230413+00:00"
     },
     {
       "kind": "ship",
@@ -115,23 +115,23 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.239505,
-      "lon": 103.795465,
-      "speedKmh": 0.0,
-      "heading": 263,
-      "reportedAt": "2026-10-30T05:46:09.943466+00:00"
+      "lat": 1.2395233333333333,
+      "lon": 103.79542833333333,
+      "speedKmh": 0.2,
+      "heading": 15,
+      "reportedAt": "2026-10-30T06:01:10.381059+00:00"
     },
     {
       "kind": "ship",
       "id": "511101991",
       "mmsi": "511101991",
       "name": "TAN BINH 134",
-      "category": "unknown",
-      "lat": 1.2557616666666667,
-      "lon": 103.86527,
+      "category": "commercial",
+      "lat": 1.2562866666666668,
+      "lon": 103.865155,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-10-30T05:31:18.112696+00:00"
+      "reportedAt": "2026-10-30T06:01:18.088418+00:00"
     },
     {
       "kind": "ship",
@@ -307,11 +307,11 @@
       "mmsi": "354252000",
       "name": "GRAND ACE10",
       "category": "unknown",
-      "lat": 1.2104483333333333,
-      "lon": 103.80194666666667,
-      "speedKmh": 8.9,
-      "heading": 137.6,
-      "reportedAt": "2026-10-30T05:30:52.701235+00:00"
+      "lat": 1.18162,
+      "lon": 103.83337333333334,
+      "speedKmh": 16.9,
+      "heading": 138.3,
+      "reportedAt": "2026-10-30T06:01:18.300532+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +408,54 @@
       "speedKmh": 0.2,
       "heading": 330.9,
       "reportedAt": "2026-10-30T05:46:09.712864+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413347470",
+      "mmsi": "413347470",
+      "name": "DING HENG 25",
+      "category": "unknown",
+      "lat": 1.2377566666666666,
+      "lon": 103.79272333333333,
+      "speedKmh": 0.0,
+      "heading": 255.4,
+      "reportedAt": "2026-10-30T06:01:04.118317+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "373310000",
+      "mmsi": "373310000",
+      "name": "METIS LEADER",
+      "category": "unknown",
+      "lat": 1.2660966666666666,
+      "lon": 103.84622666666668,
+      "speedKmh": 0.0,
+      "heading": 85.6,
+      "reportedAt": "2026-10-30T06:01:17.548422+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735666666666667,
+      "lon": 103.801365,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-30T06:01:29.541665+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219608000",
+      "mmsi": "219608000",
+      "name": "ASTRID MAERSK",
+      "category": "commercial",
+      "lat": 1.2399133333333334,
+      "lon": 103.90045166666667,
+      "speedKmh": 0.2,
+      "heading": 275.5,
+      "reportedAt": "2026-10-30T06:01:49.464065+00:00"
     }
   ],
   "error": null
