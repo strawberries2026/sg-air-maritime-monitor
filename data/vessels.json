@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T12:16:39.580685+00:00",
+  "updatedAt": "2026-10-30T12:31:51.088083+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "566163000",
-      "mmsi": "566163000",
-      "name": "BRUE",
-      "category": "unknown",
-      "lat": 1.247315,
-      "lon": 103.89873666666668,
-      "speedKmh": 15.9,
-      "heading": 50.1,
-      "reportedAt": "2026-10-30T11:01:17.637540+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352003828",
       "mmsi": "352003828",
       "name": "VIET THUAN 56-05",
@@ -111,30 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "636024966",
-      "mmsi": "636024966",
-      "name": "NORTHERN GUARD",
-      "category": "unknown",
-      "lat": 1.2677833333333333,
-      "lon": 103.7762,
-      "speedKmh": 2.0,
-      "heading": 5,
-      "reportedAt": "2026-10-30T11:01:02.148540+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352005987",
-      "mmsi": "352005987",
-      "name": "HARMONY GOLD",
-      "category": "unknown",
-      "lat": 1.2579033333333334,
-      "lon": 103.89400333333333,
-      "speedKmh": 1.5,
-      "heading": 25.1,
-      "reportedAt": "2026-10-30T11:01:26.163912+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636016529",
       "mmsi": "636016529",
       "name": "MOTARO",
@@ -163,11 +127,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.27359,
-      "lon": 103.80139666666668,
+      "lat": 1.2735783333333333,
+      "lon": 103.80135833333334,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-30T11:46:38.228664+00:00"
+      "reportedAt": "2026-10-30T12:31:38.719310+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +456,78 @@
       "speedKmh": 19.8,
       "heading": 109.7,
       "reportedAt": "2026-10-30T12:16:30.185498+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563223700",
+      "mmsi": "563223700",
+      "name": "SRIWANGI III",
+      "category": "unknown",
+      "lat": 1.2258466666666665,
+      "lon": 103.81153333333333,
+      "speedKmh": 11.9,
+      "heading": 290,
+      "reportedAt": "2026-10-30T12:30:56.266879+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249082000",
+      "mmsi": "249082000",
+      "name": "CMA CGM ALHAMBRA",
+      "category": "unknown",
+      "lat": 1.2646066666666667,
+      "lon": 103.79138166666667,
+      "speedKmh": 0.0,
+      "heading": 31,
+      "reportedAt": "2026-10-30T12:31:01.948802+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.28274,
+      "lon": 103.89224666666668,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-10-30T12:31:06.842355+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564611000",
+      "mmsi": "564611000",
+      "name": "HERON SPIRIT",
+      "category": "unknown",
+      "lat": 1.2618166666666668,
+      "lon": 103.811345,
+      "speedKmh": 9.4,
+      "heading": 270.2,
+      "reportedAt": "2026-10-30T12:31:37.098877+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563315900",
+      "mmsi": "563315900",
+      "name": "PACIFIC WISE",
+      "category": "commercial",
+      "lat": 1.2460983333333333,
+      "lon": 103.86896166666666,
+      "speedKmh": 0.0,
+      "heading": 23.8,
+      "reportedAt": "2026-10-30T12:31:38.719251+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563142000",
+      "mmsi": "563142000",
+      "name": "PENGUIN REDEEM",
+      "category": "unknown",
+      "lat": 1.2530266666666667,
+      "lon": 103.79148666666667,
+      "speedKmh": 30.7,
+      "heading": 211.8,
+      "reportedAt": "2026-10-30T12:31:41.537944+00:00"
     }
   ],
   "error": null
