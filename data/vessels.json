@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:16:43.092883+00:00",
+  "updatedAt": "2026-10-30T13:31:50.496626+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.2,
       "heading": 37.9,
       "reportedAt": "2026-10-30T12:46:31.820145+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "228478900",
-      "mmsi": "228478900",
-      "name": "CMA CGM BAALBECK",
-      "category": "unknown",
-      "lat": 1.2618966666666667,
-      "lon": 103.78980499999999,
-      "speedKmh": 0.0,
-      "heading": 340.7,
-      "reportedAt": "2026-10-30T12:01:31.252534+00:00"
     },
     {
       "kind": "ship",
@@ -63,66 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "373310000",
-      "mmsi": "373310000",
-      "name": "METIS LEADER",
-      "category": "unknown",
-      "lat": 1.2661033333333334,
-      "lon": 103.84624000000001,
-      "speedKmh": 0.0,
-      "heading": 11,
-      "reportedAt": "2026-10-30T12:01:17.572313+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563052200",
-      "mmsi": "563052200",
-      "name": "MAERSK RIO DELTA",
-      "category": "unknown",
-      "lat": 1.19977,
-      "lon": 103.81541333333332,
-      "speedKmh": 14.6,
-      "heading": 130,
-      "reportedAt": "2026-10-30T12:01:08.483171+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352007070",
-      "mmsi": "352007070",
-      "name": "DIVINE MERCY",
-      "category": "unknown",
-      "lat": 1.2818216666666666,
-      "lon": 103.89638166666667,
-      "speedKmh": 0.4,
-      "heading": 282.7,
-      "reportedAt": "2026-10-30T12:01:12.821957+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538003350",
-      "mmsi": "538003350",
-      "name": "AL KHATTIYA",
-      "category": "unknown",
-      "lat": 1.1735816666666667,
-      "lon": 103.70331833333333,
-      "speedKmh": 0.0,
-      "heading": 1,
-      "reportedAt": "2026-10-30T12:01:24.576317+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563079600",
-      "mmsi": "563079600",
-      "name": "STRAITS GRACIOUS",
-      "category": "unknown",
-      "lat": 1.2780283333333335,
-      "lon": 103.88394166666667,
-      "speedKmh": 0.2,
-      "heading": 178.2,
-      "reportedAt": "2026-10-30T12:01:25.857447+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565968000",
       "mmsi": "565968000",
       "name": "LAUREL",
@@ -132,18 +60,6 @@
       "speedKmh": 7.0,
       "heading": 340.5,
       "reportedAt": "2026-10-30T13:00:49.340852+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "412763390",
-      "mmsi": "412763390",
-      "name": "BAIMEI 8",
-      "category": "unknown",
-      "lat": 1.2629166666666667,
-      "lon": 103.8805,
-      "speedKmh": 7.6,
-      "heading": 277,
-      "reportedAt": "2026-10-30T12:01:33.538265+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +79,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.238165,
-      "lon": 103.79597833333334,
-      "speedKmh": 0.7,
-      "heading": 213.6,
-      "reportedAt": "2026-10-30T13:01:10.445354+00:00"
+      "lat": 1.2382483333333334,
+      "lon": 103.795945,
+      "speedKmh": 0.0,
+      "heading": 72.4,
+      "reportedAt": "2026-10-30T13:31:10.488316+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +240,78 @@
       "speedKmh": 0.2,
       "heading": 139.4,
       "reportedAt": "2026-10-30T13:16:02.378820+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219720000",
+      "mmsi": "219720000",
+      "name": "ADRIAN MAERSK",
+      "category": "unknown",
+      "lat": 1.2504316666666666,
+      "lon": 103.99152333333333,
+      "speedKmh": 11.5,
+      "heading": 253.9,
+      "reportedAt": "2026-10-30T13:30:58.783346+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066180",
+      "mmsi": "563066180",
+      "name": "NOBLE PRINCE TG35",
+      "category": "unknown",
+      "lat": 1.2592383333333332,
+      "lon": 103.84390833333333,
+      "speedKmh": 3.5,
+      "heading": 141.4,
+      "reportedAt": "2026-10-30T13:30:58.944287+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566685000",
+      "mmsi": "566685000",
+      "name": "SEA SOLIDARITY",
+      "category": "unknown",
+      "lat": 1.2725516666666665,
+      "lon": 103.75694333333333,
+      "speedKmh": 9.8,
+      "heading": 112.4,
+      "reportedAt": "2026-10-30T13:31:07.573588+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477004600",
+      "mmsi": "477004600",
+      "name": "COSCO WELLINGTON",
+      "category": "unknown",
+      "lat": 1.205665,
+      "lon": 103.83037833333333,
+      "speedKmh": 19.3,
+      "heading": 278,
+      "reportedAt": "2026-10-30T13:31:12.173581+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563269100",
+      "mmsi": "563269100",
+      "name": "STELLAR OF MAJESTIC",
+      "category": "unknown",
+      "lat": 1.2583583333333332,
+      "lon": 103.80393833333332,
+      "speedKmh": 17.2,
+      "heading": 161.3,
+      "reportedAt": "2026-10-30T13:31:16.843345+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563135800",
+      "mmsi": "563135800",
+      "name": "SSF TANIA",
+      "category": "unknown",
+      "lat": 1.2385166666666667,
+      "lon": 103.88421666666666,
+      "speedKmh": 0.0,
+      "heading": 131,
+      "reportedAt": "2026-10-30T13:31:27.729432+00:00"
     }
   ],
   "error": null
