@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T21:01:59.747031+00:00",
+  "updatedAt": "2026-10-30T21:16:40.672214+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,23 +43,11 @@
       "mmsi": "525100552",
       "name": "SELATAN DAMAI",
       "category": "unknown",
-      "lat": 1.2639283333333333,
-      "lon": 103.83554000000001,
+      "lat": 1.2639233333333335,
+      "lon": 103.83555166666666,
       "speedKmh": 0.0,
-      "heading": 1,
-      "reportedAt": "2026-10-30T21:01:37.842035+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002255",
-      "mmsi": "311002255",
-      "name": "UNION GROW",
-      "category": "unknown",
-      "lat": 1.1871833333333333,
-      "lon": 103.8065,
-      "speedKmh": 10.4,
-      "heading": 217,
-      "reportedAt": "2026-10-30T19:46:38.593663+00:00"
+      "heading": 189.1,
+      "reportedAt": "2026-10-30T21:16:37.720636+00:00"
     },
     {
       "kind": "ship",
@@ -219,30 +207,6 @@
     },
     {
       "kind": "ship",
-      "id": "413334020",
-      "mmsi": "413334020",
-      "name": "MA YUE",
-      "category": "unknown",
-      "lat": 1.2418833333333335,
-      "lon": 103.80771666666666,
-      "speedKmh": 0.4,
-      "heading": 88,
-      "reportedAt": "2026-10-30T19:46:23.918258+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371458000",
-      "mmsi": "371458000",
-      "name": "NEW AMORGOS",
-      "category": "unknown",
-      "lat": 1.2506783333333333,
-      "lon": 103.90975166666666,
-      "speedKmh": 0.0,
-      "heading": 207.5,
-      "reportedAt": "2026-10-30T19:46:33.387106+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563062780",
       "mmsi": "563062780",
       "name": "STRAITS ETERNITY",
@@ -355,11 +319,11 @@
       "mmsi": "565688000",
       "name": "KOTA NAZIM",
       "category": "unknown",
-      "lat": 1.2626833333333332,
-      "lon": 103.83778333333333,
-      "speedKmh": 0.0,
-      "heading": 347,
-      "reportedAt": "2026-10-30T20:46:13.643262+00:00"
+      "lat": 1.2624,
+      "lon": 103.83775,
+      "speedKmh": 0.2,
+      "heading": 254,
+      "reportedAt": "2026-10-30T21:16:13.614085+00:00"
     },
     {
       "kind": "ship",
@@ -379,11 +343,11 @@
       "mmsi": "352005987",
       "name": "HARMONY GOLD",
       "category": "unknown",
-      "lat": 1.2557533333333335,
-      "lon": 103.89148333333333,
-      "speedKmh": 0.0,
+      "lat": 1.2558916666666666,
+      "lon": 103.89142833333334,
+      "speedKmh": 0.2,
       "heading": 209.8,
-      "reportedAt": "2026-10-30T20:46:20.599463+00:00"
+      "reportedAt": "2026-10-30T21:16:21.951618+00:00"
     },
     {
       "kind": "ship",
@@ -595,11 +559,11 @@
       "mmsi": "374137000",
       "name": "374137000",
       "category": "unknown",
-      "lat": 1.22541,
-      "lon": 103.93305333333333,
-      "speedKmh": 7.2,
-      "heading": 65.8,
-      "reportedAt": "2026-10-30T21:00:55.643608+00:00"
+      "lat": 1.2368899999999998,
+      "lon": 103.95068166666667,
+      "speedKmh": 9.8,
+      "heading": 352.7,
+      "reportedAt": "2026-10-30T21:16:06.446269+00:00"
     },
     {
       "kind": "ship",
@@ -636,6 +600,78 @@
       "speedKmh": 0.2,
       "heading": 228.7,
       "reportedAt": "2026-10-30T21:01:41.489083+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "205405000",
+      "mmsi": "205405000",
+      "name": "MINERAL TANZANIA",
+      "category": "unknown",
+      "lat": 1.2449466666666666,
+      "lon": 103.92559,
+      "speedKmh": 0.0,
+      "heading": 322.5,
+      "reportedAt": "2026-10-30T21:15:31.321907+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413586730",
+      "mmsi": "413586730",
+      "name": "JIAN HANG FENG DA",
+      "category": "unknown",
+      "lat": 1.2457749999999999,
+      "lon": 103.79157166666667,
+      "speedKmh": 0.2,
+      "heading": 214.7,
+      "reportedAt": "2026-10-30T21:16:10.126988+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012796",
+      "mmsi": "538012796",
+      "name": "MANAH",
+      "category": "unknown",
+      "lat": 1.237885,
+      "lon": 103.81394833333334,
+      "speedKmh": 0.6,
+      "heading": 10.8,
+      "reportedAt": "2026-10-30T21:16:10.961411+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.2505916666666665,
+      "lon": 103.87127333333333,
+      "speedKmh": 0.0,
+      "heading": 309.5,
+      "reportedAt": "2026-10-30T21:16:22.915447+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371458000",
+      "mmsi": "371458000",
+      "name": "NEW AMORGOS",
+      "category": "unknown",
+      "lat": 1.250995,
+      "lon": 103.90842666666667,
+      "speedKmh": 0.0,
+      "heading": 207.5,
+      "reportedAt": "2026-10-30T21:16:36.909730+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066180",
+      "mmsi": "563066180",
+      "name": "NOBLE PRINCE TG35",
+      "category": "unknown",
+      "lat": 1.241075,
+      "lon": 103.78484166666667,
+      "speedKmh": 7.0,
+      "heading": 340.2,
+      "reportedAt": "2026-10-30T21:16:38.925104+00:00"
     }
   ],
   "error": null
