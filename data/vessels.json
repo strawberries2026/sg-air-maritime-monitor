@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T19:16:39.896051+00:00",
+  "updatedAt": "2026-10-30T19:31:48.957667+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "477406000",
       "name": "UNI ACCORD",
       "category": "unknown",
-      "lat": 1.2519,
-      "lon": 103.79798333333333,
-      "speedKmh": 0.0,
-      "heading": 16,
-      "reportedAt": "2026-10-30T18:45:39.974176+00:00"
+      "lat": 1.2518833333333332,
+      "lon": 103.79785,
+      "speedKmh": 0.2,
+      "heading": 219,
+      "reportedAt": "2026-10-30T19:30:40.083916+00:00"
     },
     {
       "kind": "ship",
@@ -75,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "563006410",
-      "mmsi": "563006410",
-      "name": "NOBLE KNIGHT TG36",
-      "category": "unknown",
-      "lat": 1.2312583333333333,
-      "lon": 103.78959166666667,
-      "speedKmh": 18.1,
-      "heading": 336.9,
-      "reportedAt": "2026-10-30T18:00:53.402542+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.27554,
-      "lon": 103.90535,
-      "speedKmh": 0.2,
-      "heading": 232.9,
-      "reportedAt": "2026-10-30T18:01:14.680744+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563087130",
       "mmsi": "563087130",
       "name": "STL T6",
@@ -123,18 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "374274000",
-      "mmsi": "374274000",
-      "name": "AEGEAN PARADISE",
-      "category": "unknown",
-      "lat": 1.2365,
-      "lon": 103.94816666666667,
-      "speedKmh": 7.4,
-      "heading": 250,
-      "reportedAt": "2026-10-30T18:01:37.961101+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563211100",
       "mmsi": "563211100",
       "name": "WAN HAI 335",
@@ -151,11 +115,11 @@
       "mmsi": "565102000",
       "name": "AYER CHERDAS",
       "category": "unknown",
-      "lat": 1.2420499999999999,
-      "lon": 103.803735,
+      "lat": 1.2568966666666666,
+      "lon": 103.840925,
       "speedKmh": 0.2,
-      "heading": 226.5,
-      "reportedAt": "2026-10-30T18:15:25.933764+00:00"
+      "heading": 63.4,
+      "reportedAt": "2026-10-30T19:31:46.204663+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +415,11 @@
       "mmsi": "228478900",
       "name": "CMA CGM BAALBECK",
       "category": "unknown",
-      "lat": 1.2618699999999998,
-      "lon": 103.78980166666666,
+      "lat": 1.2617966666666667,
+      "lon": 103.78983,
       "speedKmh": 0.0,
       "heading": 53.5,
-      "reportedAt": "2026-10-30T18:46:35.718246+00:00"
+      "reportedAt": "2026-10-30T19:31:34.097606+00:00"
     },
     {
       "kind": "ship",
@@ -600,6 +564,102 @@
       "speedKmh": 8.3,
       "heading": 253,
       "reportedAt": "2026-10-30T19:16:35.425927+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "209783000",
+      "mmsi": "209783000",
+      "name": "TROODOS AIR",
+      "category": "unknown",
+      "lat": 1.1875833333333332,
+      "lon": 103.8145,
+      "speedKmh": 18.5,
+      "heading": 234.1,
+      "reportedAt": "2026-10-30T19:30:54.818301+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565332000",
+      "mmsi": "565332000",
+      "name": "VB RAJA",
+      "category": "unknown",
+      "lat": 1.235565,
+      "lon": 103.77095666666668,
+      "speedKmh": 0.0,
+      "heading": 29.8,
+      "reportedAt": "2026-10-30T19:30:55.194196+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636022867",
+      "mmsi": "636022867",
+      "name": "COURAGE",
+      "category": "unknown",
+      "lat": 1.2130016666666668,
+      "lon": 103.88530999999999,
+      "speedKmh": 18.7,
+      "heading": 247.5,
+      "reportedAt": "2026-10-30T19:31:06.031479+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009316",
+      "mmsi": "538009316",
+      "name": "GOOBY",
+      "category": "unknown",
+      "lat": 1.272025,
+      "lon": 103.88282,
+      "speedKmh": 0.2,
+      "heading": 130,
+      "reportedAt": "2026-10-30T19:31:11.774938+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241466000",
+      "mmsi": "241466000",
+      "name": "SEA AMBER",
+      "category": "unknown",
+      "lat": 1.1822366666666668,
+      "lon": 103.829215,
+      "speedKmh": 4.6,
+      "heading": 96.6,
+      "reportedAt": "2026-10-30T19:31:17.382979+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023476",
+      "mmsi": "636023476",
+      "name": "SEA DORY",
+      "category": "unknown",
+      "lat": 1.266665,
+      "lon": 103.86757666666668,
+      "speedKmh": 0.0,
+      "heading": 295.2,
+      "reportedAt": "2026-10-30T19:31:20.448156+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563051600",
+      "mmsi": "563051600",
+      "name": "MAERSK RIO ALFA",
+      "category": "unknown",
+      "lat": 1.2452183333333333,
+      "lon": 103.96827666666667,
+      "speedKmh": 21.9,
+      "heading": 250,
+      "reportedAt": "2026-10-30T19:31:22.651184+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563623000",
+      "mmsi": "563623000",
+      "name": "OXALIS JASMINE",
+      "category": "unknown",
+      "lat": 1.2073500000000001,
+      "lon": 103.8267,
+      "speedKmh": 12.0,
+      "heading": 283.6,
+      "reportedAt": "2026-10-30T19:31:44.234668+00:00"
     }
   ],
   "error": null
