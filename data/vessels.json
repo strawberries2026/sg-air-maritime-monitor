@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T06:16:40.651719+00:00",
+  "updatedAt": "2026-10-30T06:31:50.667057+00:00",
   "items": [
     {
       "kind": "ship",
@@ -67,11 +67,11 @@
       "mmsi": "511101991",
       "name": "TAN BINH 134",
       "category": "unknown",
-      "lat": 1.256445,
-      "lon": 103.86497166666666,
-      "speedKmh": 0.0,
+      "lat": 1.2565016666666666,
+      "lon": 103.86493333333333,
+      "speedKmh": 0.2,
       "heading": null,
-      "reportedAt": "2026-10-30T06:16:17.941974+00:00"
+      "reportedAt": "2026-10-30T06:31:18.967686+00:00"
     },
     {
       "kind": "ship",
@@ -84,42 +84,6 @@
       "speedKmh": 0.2,
       "heading": 306.5,
       "reportedAt": "2026-10-30T05:46:36.820506+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564330000",
-      "mmsi": "564330000",
-      "name": "ASEAN RAIDER 1",
-      "category": "unknown",
-      "lat": 1.2621633333333333,
-      "lon": 103.81832833333333,
-      "speedKmh": 0.0,
-      "heading": 213.2,
-      "reportedAt": "2026-10-30T05:01:02.156682+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012796",
-      "mmsi": "538012796",
-      "name": "MANAH",
-      "category": "unknown",
-      "lat": 1.2369733333333335,
-      "lon": 103.81660833333333,
-      "speedKmh": 0.0,
-      "heading": 254.2,
-      "reportedAt": "2026-10-30T05:01:10.982068+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352001142",
-      "mmsi": "352001142",
-      "name": "GLORY FIRST",
-      "category": "unknown",
-      "lat": 1.2755366666666668,
-      "lon": 103.93697666666667,
-      "speedKmh": 0.0,
-      "heading": 145.6,
-      "reportedAt": "2026-10-30T05:01:13.132337+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +139,11 @@
       "mmsi": "636016728",
       "name": "BLUE SKY I",
       "category": "unknown",
-      "lat": 1.218595,
-      "lon": 103.81288500000001,
+      "lat": 1.2186083333333333,
+      "lon": 103.81285166666666,
       "speedKmh": 0.0,
-      "heading": 342.8,
-      "reportedAt": "2026-10-30T05:30:52.919761+00:00"
+      "heading": 282.3,
+      "reportedAt": "2026-10-30T06:30:53.010944+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +187,11 @@
       "mmsi": "477629100",
       "name": "JOSCO GUIZHOU",
       "category": "unknown",
-      "lat": 1.2758083333333334,
-      "lon": 103.88453833333332,
+      "lat": 1.2760783333333334,
+      "lon": 103.88390166666666,
       "speedKmh": 0.2,
-      "heading": 179.8,
-      "reportedAt": "2026-10-30T05:45:44.920263+00:00"
+      "heading": 106.4,
+      "reportedAt": "2026-10-30T06:30:44.624963+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +355,11 @@
       "mmsi": "563251100",
       "name": "EM NIKITA",
       "category": "unknown",
-      "lat": 1.2257516666666668,
-      "lon": 103.90164499999999,
-      "speedKmh": 15.6,
-      "heading": 240.8,
-      "reportedAt": "2026-10-30T06:15:57.218997+00:00"
+      "lat": 1.2077033333333334,
+      "lon": 103.87042833333334,
+      "speedKmh": 15.4,
+      "heading": 236.1,
+      "reportedAt": "2026-10-30T06:31:25.385628+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +408,114 @@
       "speedKmh": 28.9,
       "heading": 123.1,
       "reportedAt": "2026-10-30T06:16:32.002366+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564346000",
+      "mmsi": "564346000",
+      "name": "HORIZON 6",
+      "category": "unknown",
+      "lat": 1.2610400000000002,
+      "lon": 103.80654833333332,
+      "speedKmh": 10.4,
+      "heading": 66.9,
+      "reportedAt": "2026-10-30T06:30:37.065894+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538002090",
+      "mmsi": "538002090",
+      "name": "CONSTELLATION",
+      "category": "unknown",
+      "lat": 1.25005,
+      "lon": 103.90626666666667,
+      "speedKmh": 0.2,
+      "heading": 183,
+      "reportedAt": "2026-10-30T06:30:50.051221+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636018102",
+      "mmsi": "636018102",
+      "name": "BELITA",
+      "category": "unknown",
+      "lat": 1.2582516666666665,
+      "lon": 103.78773833333334,
+      "speedKmh": 0.0,
+      "heading": 294.9,
+      "reportedAt": "2026-10-30T06:30:52.060527+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "commercial",
+      "lat": 1.2498133333333332,
+      "lon": 103.79639833333334,
+      "speedKmh": 0.0,
+      "heading": 357.1,
+      "reportedAt": "2026-10-30T06:31:02.390530+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563283300",
+      "mmsi": "563283300",
+      "name": "KOTA ORKID",
+      "category": "unknown",
+      "lat": 1.2650333333333335,
+      "lon": 103.83415333333333,
+      "speedKmh": 2.4,
+      "heading": 80.8,
+      "reportedAt": "2026-10-30T06:31:16.540148+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563265500",
+      "mmsi": "563265500",
+      "name": "GOLDEN ANTARES",
+      "category": "unknown",
+      "lat": 1.2306116666666667,
+      "lon": 103.79831,
+      "speedKmh": 15.6,
+      "heading": 70.5,
+      "reportedAt": "2026-10-30T06:31:22.718437+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2261016666666669,
+      "lon": 103.80824166666666,
+      "speedKmh": 0.2,
+      "heading": 169.1,
+      "reportedAt": "2026-10-30T06:31:41.360786+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566639000",
+      "mmsi": "566639000",
+      "name": "TRINITY",
+      "category": "unknown",
+      "lat": 1.17652,
+      "lon": 103.75813166666667,
+      "speedKmh": 0.2,
+      "heading": 219,
+      "reportedAt": "2026-10-30T06:31:45.831363+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563101900",
+      "mmsi": "563101900",
+      "name": "GREEN EARTH",
+      "category": "unknown",
+      "lat": 1.1399966666666665,
+      "lon": 103.76586666666667,
+      "speedKmh": 24.4,
+      "heading": 42.1,
+      "reportedAt": "2026-10-30T06:31:45.968363+00:00"
     }
   ],
   "error": null
