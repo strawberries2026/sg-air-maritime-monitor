@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T12:02:06.964860+00:00",
+  "updatedAt": "2026-10-30T12:16:39.580685+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.9,
       "heading": null,
       "reportedAt": "2026-10-30T11:31:31.141593+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636019768",
-      "mmsi": "636019768",
-      "name": "ARYABHATT 1",
-      "category": "unknown",
-      "lat": 1.62763,
-      "lon": 103.96346333333332,
-      "speedKmh": null,
-      "heading": null,
-      "reportedAt": "2026-10-30T10:45:50.651800+00:00"
     },
     {
       "kind": "ship",
@@ -108,30 +96,6 @@
       "speedKmh": 0.0,
       "heading": 62.1,
       "reportedAt": "2026-10-30T11:45:52.514427+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477004600",
-      "mmsi": "477004600",
-      "name": "COSCO WELLINGTON",
-      "category": "unknown",
-      "lat": 1.24582,
-      "lon": 103.920795,
-      "speedKmh": 0.2,
-      "heading": 297.3,
-      "reportedAt": "2026-10-30T10:45:27.526098+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563133500",
-      "mmsi": "563133500",
-      "name": "KOTA LARIS",
-      "category": "unknown",
-      "lat": 1.25225,
-      "lon": 103.85172666666668,
-      "speedKmh": 16.9,
-      "heading": 144.9,
-      "reportedAt": "2026-10-30T10:46:10.604796+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +199,11 @@
       "mmsi": "574005860",
       "name": "AULAC EAGLE",
       "category": "unknown",
-      "lat": 1.2378333333333333,
+      "lat": 1.2378166666666668,
       "lon": 103.80126666666666,
-      "speedKmh": 0.4,
-      "heading": 177.5,
-      "reportedAt": "2026-10-30T11:46:06.678683+00:00"
+      "speedKmh": 0.2,
+      "heading": 44.4,
+      "reportedAt": "2026-10-30T12:16:07.393317+00:00"
     },
     {
       "kind": "ship",
@@ -504,6 +468,30 @@
       "speedKmh": 0.0,
       "heading": 157,
       "reportedAt": "2026-10-30T12:02:01.417729+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565390000",
+      "mmsi": "565390000",
+      "name": "JAYA OCEAN",
+      "category": "unknown",
+      "lat": 1.23818,
+      "lon": 103.79601,
+      "speedKmh": 0.2,
+      "heading": 46.2,
+      "reportedAt": "2026-10-30T12:16:10.077457+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563088620",
+      "mmsi": "563088620",
+      "name": "NOVA WAVE",
+      "category": "unknown",
+      "lat": 1.2432166666666666,
+      "lon": 103.85420833333333,
+      "speedKmh": 19.8,
+      "heading": 109.7,
+      "reportedAt": "2026-10-30T12:16:30.185498+00:00"
     }
   ],
   "error": null
