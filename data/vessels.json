@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T04:01:56.434750+00:00",
+  "updatedAt": "2026-10-31T04:16:41.536591+00:00",
   "items": [
     {
       "kind": "ship",
@@ -31,11 +31,11 @@
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
       "category": "unknown",
-      "lat": 1.2392216666666667,
-      "lon": 103.79428666666666,
-      "speedKmh": 0.4,
-      "heading": 204.4,
-      "reportedAt": "2026-10-31T03:46:10.342516+00:00"
+      "lat": 1.238855,
+      "lon": 103.79415999999999,
+      "speedKmh": 0.0,
+      "heading": 38.6,
+      "reportedAt": "2026-10-31T04:16:10.033851+00:00"
     },
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "563856000",
-      "mmsi": "563856000",
-      "name": "JUMA",
-      "category": "unknown",
-      "lat": 1.2621399999999998,
-      "lon": 103.91313833333334,
-      "speedKmh": 0.2,
-      "heading": 6.3,
-      "reportedAt": "2026-10-31T02:45:48.450275+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563781000",
       "mmsi": "563781000",
       "name": "SINDO 31",
@@ -72,18 +60,6 @@
       "speedKmh": 10.0,
       "heading": 266.6,
       "reportedAt": "2026-10-31T03:46:16.723411+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352007070",
-      "mmsi": "352007070",
-      "name": "DIVINE MERCY",
-      "category": "unknown",
-      "lat": 1.2256733333333334,
-      "lon": 103.94661166666667,
-      "speedKmh": 16.3,
-      "heading": 73.4,
-      "reportedAt": "2026-10-31T02:45:34.038994+00:00"
     },
     {
       "kind": "ship",
@@ -111,27 +87,15 @@
     },
     {
       "kind": "ship",
-      "id": "376279000",
-      "mmsi": "376279000",
-      "name": "BEN NEVIS",
-      "category": "unknown",
-      "lat": 1.27878,
-      "lon": 103.88207166666666,
-      "speedKmh": 0.7,
-      "heading": 67,
-      "reportedAt": "2026-10-31T02:46:38.480081+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "412036000",
       "mmsi": "412036000",
       "name": "HUA HAI LONG",
       "category": "unknown",
-      "lat": 1.2428866666666667,
-      "lon": 103.94150666666665,
-      "speedKmh": 9.1,
-      "heading": 248.6,
-      "reportedAt": "2026-10-31T03:16:32.059938+00:00"
+      "lat": 1.2499049999999998,
+      "lon": 103.87465166666667,
+      "speedKmh": 8.1,
+      "heading": 302.7,
+      "reportedAt": "2026-10-31T04:15:32.470142+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +331,11 @@
       "mmsi": "525110824",
       "name": "MTS 123",
       "category": "unknown",
-      "lat": 1.26145,
-      "lon": 103.83912833333333,
-      "speedKmh": 0.4,
-      "heading": 279.6,
-      "reportedAt": "2026-10-31T03:45:57.767803+00:00"
+      "lat": 1.2614400000000001,
+      "lon": 103.83913166666666,
+      "speedKmh": 0.0,
+      "heading": 132.4,
+      "reportedAt": "2026-10-31T04:15:47.198416+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +367,11 @@
       "mmsi": "565688000",
       "name": "KOTA NAZIM",
       "category": "unknown",
-      "lat": 1.2624333333333333,
-      "lon": 103.83791666666666,
+      "lat": 1.26245,
+      "lon": 103.83795,
       "speedKmh": 0.2,
-      "heading": 159,
-      "reportedAt": "2026-10-31T03:46:13.448418+00:00"
+      "heading": 157,
+      "reportedAt": "2026-10-31T04:16:13.586963+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +504,114 @@
       "speedKmh": 19.4,
       "heading": 71.4,
       "reportedAt": "2026-10-31T04:01:50.389652+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564966000",
+      "mmsi": "564966000",
+      "name": "HAFNIA PANTHER",
+      "category": "unknown",
+      "lat": 1.2469783333333335,
+      "lon": 103.78000166666668,
+      "speedKmh": 16.9,
+      "heading": 120.2,
+      "reportedAt": "2026-10-31T04:15:39.639859+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "256700000",
+      "mmsi": "256700000",
+      "name": "CMA CGM MONACO",
+      "category": "unknown",
+      "lat": 1.2497216666666666,
+      "lon": 103.97643666666666,
+      "speedKmh": 10.7,
+      "heading": 253.9,
+      "reportedAt": "2026-10-31T04:15:47.563320+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565925000",
+      "mmsi": "565925000",
+      "name": "HORIZON 7",
+      "category": "unknown",
+      "lat": 1.248525,
+      "lon": 103.81249,
+      "speedKmh": 27.0,
+      "heading": 308.6,
+      "reportedAt": "2026-10-31T04:15:50.474708+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "235050802",
+      "mmsi": "235050802",
+      "name": "TOKYO TOWER",
+      "category": "unknown",
+      "lat": 1.1808033333333334,
+      "lon": 103.84881166666668,
+      "speedKmh": 23.2,
+      "heading": 67.4,
+      "reportedAt": "2026-10-31T04:15:54.495916+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565102000",
+      "mmsi": "565102000",
+      "name": "AYER CHERDAS",
+      "category": "unknown",
+      "lat": 1.2691166666666667,
+      "lon": 103.89780333333333,
+      "speedKmh": 0.0,
+      "heading": 273.3,
+      "reportedAt": "2026-10-31T04:16:36.683207+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563341900",
+      "mmsi": "563341900",
+      "name": "MAJESTIC ENCORE",
+      "category": "unknown",
+      "lat": 1.2428133333333333,
+      "lon": 103.85360833333334,
+      "speedKmh": 28.5,
+      "heading": 120.1,
+      "reportedAt": "2026-10-31T04:16:09.535385+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.249665,
+      "lon": 103.79542166666667,
+      "speedKmh": 0.0,
+      "heading": 75.2,
+      "reportedAt": "2026-10-31T04:16:09.535453+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563135800",
+      "mmsi": "563135800",
+      "name": "SSF TANIA",
+      "category": "unknown",
+      "lat": 1.2384016666666668,
+      "lon": 103.88427499999999,
+      "speedKmh": 0.0,
+      "heading": 144,
+      "reportedAt": "2026-10-31T04:16:27.625007+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "548843000",
+      "mmsi": "548843000",
+      "name": "EVA FUJI",
+      "category": "unknown",
+      "lat": 1.170375,
+      "lon": 103.77368333333334,
+      "speedKmh": 8.5,
+      "heading": 234.7,
+      "reportedAt": "2026-10-31T04:16:28.671964+00:00"
     }
   ],
   "error": null
