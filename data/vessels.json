@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-31T12:01:55.326719+00:00",
+  "updatedAt": "2026-10-31T12:16:40.618499+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "525100552",
-      "mmsi": "525100552",
-      "name": "SELATAN DAMAI",
-      "category": "unknown",
-      "lat": 1.2638883333333333,
-      "lon": 103.83558333333333,
-      "speedKmh": 0.0,
-      "heading": 172.6,
-      "reportedAt": "2026-10-31T10:46:37.365244+00:00"
-    },
     {
       "kind": "ship",
       "id": "219179000",
@@ -48,54 +36,6 @@
       "speedKmh": 0.2,
       "heading": null,
       "reportedAt": "2026-10-31T11:30:57.471986+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "372254000",
-      "mmsi": "372254000",
-      "name": "CD FORTUNE",
-      "category": "unknown",
-      "lat": 1.2689166666666667,
-      "lon": 103.89585000000001,
-      "speedKmh": 0.6,
-      "heading": 49,
-      "reportedAt": "2026-10-31T10:46:10.090399+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "247293200",
-      "mmsi": "247293200",
-      "name": "MARE PICENUM",
-      "category": "unknown",
-      "lat": 1.2527883333333334,
-      "lon": 103.91864000000001,
-      "speedKmh": 0.0,
-      "heading": 110.4,
-      "reportedAt": "2026-10-31T10:45:30.600293+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565688000",
-      "mmsi": "565688000",
-      "name": "KOTA NAZIM",
-      "category": "unknown",
-      "lat": 1.2625333333333333,
-      "lon": 103.83784999999999,
-      "speedKmh": 0.0,
-      "heading": 246,
-      "reportedAt": "2026-10-31T10:46:13.390497+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563451000",
-      "mmsi": "563451000",
-      "name": "ENTHRAL",
-      "category": "unknown",
-      "lat": 1.2396866666666668,
-      "lon": 103.89321666666666,
-      "speedKmh": 10.6,
-      "heading": 242.1,
-      "reportedAt": "2026-10-31T10:46:40.029750+00:00"
     },
     {
       "kind": "ship",
@@ -228,6 +168,30 @@
       "speedKmh": 14.6,
       "heading": 224.6,
       "reportedAt": "2026-10-31T12:01:48.591208+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563267100",
+      "mmsi": "563267100",
+      "name": "SHOREA",
+      "category": "unknown",
+      "lat": 1.22122,
+      "lon": 103.874325,
+      "speedKmh": 13.1,
+      "heading": 47.8,
+      "reportedAt": "2026-10-31T12:16:24.699900+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525100552",
+      "mmsi": "525100552",
+      "name": "SELATAN DAMAI",
+      "category": "unknown",
+      "lat": 1.2639266666666666,
+      "lon": 103.83559166666667,
+      "speedKmh": 0.0,
+      "heading": 357.1,
+      "reportedAt": "2026-10-31T12:16:37.369506+00:00"
     }
   ],
   "error": null
