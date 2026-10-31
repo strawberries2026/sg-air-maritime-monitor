@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-31T21:16:41.450985+00:00",
+  "updatedAt": "2026-10-31T21:32:03.500005+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563060100",
-      "mmsi": "563060100",
-      "name": "PSA HULK CS04",
-      "category": "unknown",
-      "lat": 1.2601583333333333,
-      "lon": 103.84307166666667,
-      "speedKmh": 4.8,
-      "heading": 141.1,
-      "reportedAt": "2026-10-31T20:01:08.560626+00:00"
-    },
     {
       "kind": "ship",
       "id": "563275700",
@@ -36,30 +24,6 @@
       "speedKmh": 6.1,
       "heading": 185.9,
       "reportedAt": "2026-10-31T20:32:41.444581+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477139100",
-      "mmsi": "477139100",
-      "name": "COSCO TAURUS",
-      "category": "unknown",
-      "lat": 1.1836083333333332,
-      "lon": 103.80276166666665,
-      "speedKmh": 19.6,
-      "heading": 237.9,
-      "reportedAt": "2026-10-31T20:01:37.057391+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566623000",
-      "mmsi": "566623000",
-      "name": "RESOLUTE NN24",
-      "category": "unknown",
-      "lat": 1.2588766666666666,
-      "lon": 103.84357333333334,
-      "speedKmh": 4.6,
-      "heading": 282.3,
-      "reportedAt": "2026-10-31T20:01:48.604998+00:00"
     },
     {
       "kind": "ship",
@@ -111,42 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "477159500",
-      "mmsi": "477159500",
-      "name": "NEW EMINENCE",
-      "category": "unknown",
-      "lat": 1.1842716666666666,
-      "lon": 103.83750166666667,
-      "speedKmh": 18.3,
-      "heading": 69.8,
-      "reportedAt": "2026-10-31T20:01:32.524318+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566192000",
-      "mmsi": "566192000",
-      "name": "PACIFIC SINCERE",
-      "category": "unknown",
-      "lat": 1.2388249999999998,
-      "lon": 103.79954666666666,
-      "speedKmh": 0.2,
-      "heading": 128.3,
-      "reportedAt": "2026-10-31T20:00:38.145983+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525100908",
-      "mmsi": "525100908",
-      "name": "TB.MING SING",
-      "category": "unknown",
-      "lat": 0.38285,
-      "lon": 104.794695,
-      "speedKmh": 3.5,
-      "heading": 336,
-      "reportedAt": "2026-10-31T20:00:46.070672+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636016179",
       "mmsi": "636016179",
       "name": "BOX ENDEAVOUR",
@@ -187,11 +115,11 @@
       "mmsi": "565688000",
       "name": "KOTA NAZIM",
       "category": "unknown",
-      "lat": 1.2625666666666668,
-      "lon": 103.83784999999999,
+      "lat": 1.26255,
+      "lon": 103.8378,
       "speedKmh": 0.0,
-      "heading": 16,
-      "reportedAt": "2026-10-31T20:16:13.537914+00:00"
+      "heading": 133,
+      "reportedAt": "2026-10-31T21:31:13.550583+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +259,11 @@
       "mmsi": "563009190",
       "name": "NOBLE JEWEL TG45",
       "category": "unknown",
-      "lat": 1.2584983333333333,
-      "lon": 103.85049166666666,
-      "speedKmh": 13.3,
-      "heading": 144.6,
-      "reportedAt": "2026-10-31T21:01:27.458544+00:00"
+      "lat": 1.259375,
+      "lon": 103.84152666666667,
+      "speedKmh": 0.6,
+      "heading": 257.7,
+      "reportedAt": "2026-10-31T21:31:48.809196+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +408,126 @@
       "speedKmh": 0.0,
       "heading": 303,
       "reportedAt": "2026-10-31T21:16:29.741761+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533133199",
+      "mmsi": "533133199",
+      "name": "533133199",
+      "category": "unknown",
+      "lat": 0.5521516666666667,
+      "lon": 104.59107999999999,
+      "speedKmh": 10.7,
+      "heading": 314.9,
+      "reportedAt": "2026-10-31T21:30:55.201361+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565574000",
+      "mmsi": "565574000",
+      "name": "STRAITS NOMURA",
+      "category": "unknown",
+      "lat": 1.219905,
+      "lon": 103.79105833333332,
+      "speedKmh": 11.9,
+      "heading": 137.9,
+      "reportedAt": "2026-10-31T21:31:00.942193+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565838000",
+      "mmsi": "565838000",
+      "name": "DRINA",
+      "category": "unknown",
+      "lat": 1.1970466666666666,
+      "lon": 103.74067333333333,
+      "speedKmh": 3.9,
+      "heading": 257.2,
+      "reportedAt": "2026-10-31T21:31:09.338081+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2826650000000002,
+      "lon": 103.91633833333334,
+      "speedKmh": 0.0,
+      "heading": 326.9,
+      "reportedAt": "2026-10-31T21:31:14.008224+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525109021",
+      "mmsi": "525109021",
+      "name": "SINAR PANGANDARAN",
+      "category": "unknown",
+      "lat": 1.20727,
+      "lon": 103.83190833333333,
+      "speedKmh": 23.2,
+      "heading": 272.9,
+      "reportedAt": "2026-10-31T21:31:14.201935+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636025725",
+      "mmsi": "636025725",
+      "name": "NURAI",
+      "category": "unknown",
+      "lat": 1.18271,
+      "lon": 103.75326833333334,
+      "speedKmh": 0.0,
+      "heading": 329.9,
+      "reportedAt": "2026-10-31T21:31:25.389768+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566623000",
+      "mmsi": "566623000",
+      "name": "RESOLUTE NN24",
+      "category": "unknown",
+      "lat": 1.263785,
+      "lon": 103.83635,
+      "speedKmh": 0.2,
+      "heading": 34.5,
+      "reportedAt": "2026-10-31T21:31:48.014782+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563321500",
+      "mmsi": "563321500",
+      "name": "MAERSK CRETE",
+      "category": "unknown",
+      "lat": 1.2809166666666667,
+      "lon": 103.93757333333333,
+      "speedKmh": 4.3,
+      "heading": 27.7,
+      "reportedAt": "2026-10-31T21:31:48.809127+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "355971000",
+      "mmsi": "355971000",
+      "name": "XT PROGRESS",
+      "category": "unknown",
+      "lat": 1.2485050000000002,
+      "lon": 103.80063333333332,
+      "speedKmh": 0.4,
+      "heading": 232.9,
+      "reportedAt": "2026-10-31T21:31:50.094406+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525500371",
+      "mmsi": "525500371",
+      "name": "KM PEKAN TIRTA",
+      "category": "unknown",
+      "lat": 0.6257816666666667,
+      "lon": 104.616585,
+      "speedKmh": 12.4,
+      "heading": 126,
+      "reportedAt": "2026-10-31T21:31:50.854933+00:00"
     }
   ],
   "error": null
