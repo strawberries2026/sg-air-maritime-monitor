@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T22:01:54.674850+00:00",
+  "updatedAt": "2026-10-31T22:16:40.102465+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 9.4,
       "heading": 288.5,
       "reportedAt": "2026-10-31T21:16:32.612518+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563333600",
-      "mmsi": "563333600",
-      "name": "EVER EVEN",
-      "category": "unknown",
-      "lat": 1.2606483333333334,
-      "lon": 103.79180333333333,
-      "speedKmh": 6.1,
-      "heading": 185.9,
-      "reportedAt": "2026-10-31T20:32:41.444581+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525110824",
-      "mmsi": "525110824",
-      "name": "MTS 123",
-      "category": "unknown",
-      "lat": 1.2614349999999999,
-      "lon": 103.839125,
-      "speedKmh": 0.0,
-      "heading": 193.2,
-      "reportedAt": "2026-10-31T20:32:17.944710+00:00"
     },
     {
       "kind": "ship",
@@ -72,30 +48,6 @@
       "speedKmh": 0.4,
       "heading": 118,
       "reportedAt": "2026-10-31T21:46:13.489076+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "248261000",
-      "mmsi": "248261000",
-      "name": "GLOVIS NOVA",
-      "category": "unknown",
-      "lat": 1.1739666666666666,
-      "lon": 103.80075666666667,
-      "speedKmh": 33.2,
-      "heading": 242.4,
-      "reportedAt": "2026-10-31T20:46:05.667137+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087010",
-      "mmsi": "563087010",
-      "name": "PSA PEGASUS",
-      "category": "unknown",
-      "lat": 1.2515183333333333,
-      "lon": 103.79073833333334,
-      "speedKmh": 13.3,
-      "heading": 233.3,
-      "reportedAt": "2026-10-31T20:46:07.674421+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +127,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.273565,
-      "lon": 103.80136999999999,
+      "lat": 1.273545,
+      "lon": 103.80137833333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-31T21:01:38.171615+00:00"
+      "reportedAt": "2026-10-31T22:16:09.240369+00:00"
     },
     {
       "kind": "ship",
@@ -307,11 +259,11 @@
       "mmsi": "533133199",
       "name": "533133199",
       "category": "unknown",
-      "lat": 0.57006,
-      "lon": 104.57322,
-      "speedKmh": 11.3,
-      "heading": 314.7,
-      "reportedAt": "2026-10-31T21:46:10.115391+00:00"
+      "lat": 0.6066483333333333,
+      "lon": 104.53877833333333,
+      "speedKmh": 11.1,
+      "heading": 317.9,
+      "reportedAt": "2026-10-31T22:15:39.043905+00:00"
     },
     {
       "kind": "ship",
@@ -516,6 +468,54 @@
       "speedKmh": 1.9,
       "heading": 330.4,
       "reportedAt": "2026-10-31T22:01:52.916268+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563002250",
+      "mmsi": "563002250",
+      "name": "CHG 11",
+      "category": "unknown",
+      "lat": 1.2449133333333333,
+      "lon": 103.77741333333333,
+      "speedKmh": 2.8,
+      "heading": 94.6,
+      "reportedAt": "2026-10-31T22:15:42.346042+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241879000",
+      "mmsi": "241879000",
+      "name": "MINERVA ZOE",
+      "category": "unknown",
+      "lat": 1.2166833333333333,
+      "lon": 103.89509166666667,
+      "speedKmh": 26.1,
+      "heading": 241.8,
+      "reportedAt": "2026-10-31T22:16:01.882813+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.23865,
+      "lon": 103.79923333333333,
+      "speedKmh": 0.2,
+      "heading": 182.3,
+      "reportedAt": "2026-10-31T22:16:08.668626+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023650",
+      "mmsi": "636023650",
+      "name": "HMM GARNET",
+      "category": "unknown",
+      "lat": 1.2151516666666666,
+      "lon": 103.80047166666667,
+      "speedKmh": 18.3,
+      "heading": 297,
+      "reportedAt": "2026-10-31T22:16:30.686884+00:00"
     }
   ],
   "error": null
