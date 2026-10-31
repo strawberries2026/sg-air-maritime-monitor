@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T00:16:39.226025+00:00",
+  "updatedAt": "2026-10-31T00:20:09.048052+00:00",
   "items": [
     {
       "kind": "ship",
@@ -355,11 +355,11 @@
       "mmsi": "249937000",
       "name": "ALEGRIA",
       "category": "unknown",
-      "lat": 1.2756366666666668,
-      "lon": 103.880545,
-      "speedKmh": 0.0,
-      "heading": 280.7,
-      "reportedAt": "2026-10-31T00:16:01.975102+00:00"
+      "lat": 1.2756166666666668,
+      "lon": 103.880515,
+      "speedKmh": 0.2,
+      "heading": 196.8,
+      "reportedAt": "2026-10-31T00:19:02.025261+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +528,90 @@
       "speedKmh": 8.1,
       "heading": 85.8,
       "reportedAt": "2026-10-31T00:16:38.392357+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564427000",
+      "mmsi": "564427000",
+      "name": "WATERFRONT 2",
+      "category": "unknown",
+      "lat": 1.2611766666666666,
+      "lon": 103.805235,
+      "speedKmh": 12.2,
+      "heading": 239.2,
+      "reportedAt": "2026-10-31T00:18:55.468133+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565957000",
+      "mmsi": "565957000",
+      "name": "ISANDA",
+      "category": "unknown",
+      "lat": 1.2928416666666667,
+      "lon": 103.74216333333334,
+      "speedKmh": 0.2,
+      "heading": 220.2,
+      "reportedAt": "2026-10-31T00:19:09.349960+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477262600",
+      "mmsi": "477262600",
+      "name": "WESTERN CARNATION",
+      "category": "unknown",
+      "lat": 1.165895,
+      "lon": 103.81224833333334,
+      "speedKmh": 13.9,
+      "heading": 65.8,
+      "reportedAt": "2026-10-31T00:19:10.105264+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006059",
+      "mmsi": "538006059",
+      "name": "538006059",
+      "category": "unknown",
+      "lat": 1.2800583333333333,
+      "lon": 103.95720166666666,
+      "speedKmh": 0.0,
+      "heading": 311.7,
+      "reportedAt": "2026-10-31T00:19:10.628466+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009316",
+      "mmsi": "538009316",
+      "name": "GOOBY",
+      "category": "unknown",
+      "lat": 1.2720999999999998,
+      "lon": 103.88272333333333,
+      "speedKmh": 0.0,
+      "heading": 182.5,
+      "reportedAt": "2026-10-31T00:19:11.541547+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023476",
+      "mmsi": "636023476",
+      "name": "SEA DORY",
+      "category": "unknown",
+      "lat": 1.2666516666666667,
+      "lon": 103.86748333333334,
+      "speedKmh": 0.2,
+      "heading": 231.9,
+      "reportedAt": "2026-10-31T00:19:22.452921+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563135800",
+      "mmsi": "563135800",
+      "name": "SSF TANIA",
+      "category": "unknown",
+      "lat": 1.238205,
+      "lon": 103.88443000000001,
+      "speedKmh": 0.0,
+      "heading": 193.3,
+      "reportedAt": "2026-10-31T00:19:27.553984+00:00"
     }
   ],
   "error": null
