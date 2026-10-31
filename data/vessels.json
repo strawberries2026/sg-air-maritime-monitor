@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-31T12:31:47.765499+00:00",
+  "updatedAt": "2026-10-31T12:46:40.830910+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "432606000",
-      "mmsi": "432606000",
-      "name": "WHITE KINGDOM",
-      "category": "unknown",
-      "lat": 1.2446483333333334,
-      "lon": 103.95226166666666,
-      "speedKmh": 4.6,
-      "heading": 22.3,
-      "reportedAt": "2026-10-31T11:15:41.658281+00:00"
-    },
     {
       "kind": "ship",
       "id": "668116289",
@@ -36,18 +24,6 @@
       "speedKmh": 4.6,
       "heading": 287.3,
       "reportedAt": "2026-10-31T11:30:37.684079+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538006904",
-      "mmsi": "538006904",
-      "name": "APOLLONIUS",
-      "category": "unknown",
-      "lat": 1.2140650000000002,
-      "lon": 103.885005,
-      "speedKmh": 20.2,
-      "heading": 243.8,
-      "reportedAt": "2026-10-31T11:16:00.285831+00:00"
     },
     {
       "kind": "ship",
@@ -216,6 +192,18 @@
       "speedKmh": 0.0,
       "heading": 114.9,
       "reportedAt": "2026-10-31T12:31:41.082118+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440242000",
+      "mmsi": "440242000",
+      "name": "SUPER FORTE",
+      "category": "unknown",
+      "lat": 1.2064616666666665,
+      "lon": 103.80738,
+      "speedKmh": 12.4,
+      "heading": 145.6,
+      "reportedAt": "2026-10-31T12:46:22.576981+00:00"
     }
   ],
   "error": null
