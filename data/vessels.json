@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T10:46:44.072962+00:00",
+  "updatedAt": "2026-10-31T11:02:07.160349+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "241879000",
-      "mmsi": "241879000",
-      "name": "MINERVA ZOE",
-      "category": "unknown",
-      "lat": 1.285235,
-      "lon": 103.91356333333333,
-      "speedKmh": 0.0,
-      "heading": 329.1,
-      "reportedAt": "2026-10-31T09:31:46.837811+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533110714",
       "mmsi": "533110714",
       "name": "HERA",
@@ -60,90 +48,6 @@
       "speedKmh": 0.0,
       "heading": 52.7,
       "reportedAt": "2026-10-31T09:45:30.656550+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563314800",
-      "mmsi": "563314800",
-      "name": "EM SHARLOTTE",
-      "category": "unknown",
-      "lat": 1.2223566666666665,
-      "lon": 103.81426499999999,
-      "speedKmh": 0.2,
-      "heading": 266.2,
-      "reportedAt": "2026-10-31T09:30:46.492675+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563276900",
-      "mmsi": "563276900",
-      "name": "563276900",
-      "category": "unknown",
-      "lat": 1.232145,
-      "lon": 103.785725,
-      "speedKmh": 18.0,
-      "heading": 141.7,
-      "reportedAt": "2026-10-31T09:31:13.571109+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533000981",
-      "mmsi": "533000981",
-      "name": "POWER JME 11",
-      "category": "unknown",
-      "lat": 1.2533333333333334,
-      "lon": 103.86786666666667,
-      "speedKmh": 0.0,
-      "heading": 279.4,
-      "reportedAt": "2026-10-31T09:31:22.787629+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565587000",
-      "mmsi": "565587000",
-      "name": "REGENT GEMINI",
-      "category": "unknown",
-      "lat": 1.22482,
-      "lon": 103.78578,
-      "speedKmh": 9.8,
-      "heading": 150.7,
-      "reportedAt": "2026-10-31T09:31:26.526036+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "370799000",
-      "mmsi": "370799000",
-      "name": "LNG KOLT",
-      "category": "unknown",
-      "lat": 1.1674166666666668,
-      "lon": 103.7529,
-      "speedKmh": 0.4,
-      "heading": 344,
-      "reportedAt": "2026-10-31T09:31:28.942279+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371458000",
-      "mmsi": "371458000",
-      "name": "NEW AMORGOS",
-      "category": "unknown",
-      "lat": 1.2532116666666666,
-      "lon": 103.91174166666666,
-      "speedKmh": 0.0,
-      "heading": 114.9,
-      "reportedAt": "2026-10-31T09:31:34.886710+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564298000",
-      "mmsi": "564298000",
-      "name": "JET FLYTE II",
-      "category": "unknown",
-      "lat": 1.2617616666666664,
-      "lon": 103.80915499999999,
-      "speedKmh": 10.7,
-      "heading": 271.6,
-      "reportedAt": "2026-10-31T09:31:44.490446+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +175,11 @@
       "mmsi": "432606000",
       "name": "WHITE KINGDOM",
       "category": "unknown",
-      "lat": 1.2250016666666668,
-      "lon": 103.93045166666667,
-      "speedKmh": 5.9,
-      "heading": 70.9,
-      "reportedAt": "2026-10-31T10:46:31.253761+00:00"
+      "lat": 1.2295166666666666,
+      "lon": 103.94440833333333,
+      "speedKmh": 6.7,
+      "heading": 59.4,
+      "reportedAt": "2026-10-31T11:02:00.542761+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +187,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2824766666666667,
-      "lon": 103.891925,
+      "lat": 1.2824733333333334,
+      "lon": 103.89190333333333,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-10-31T10:15:33.966458+00:00"
+      "reportedAt": "2026-10-31T11:01:14.516862+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +324,42 @@
       "speedKmh": 10.6,
       "heading": 242.1,
       "reportedAt": "2026-10-31T10:46:40.029750+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565587000",
+      "mmsi": "565587000",
+      "name": "REGENT GEMINI",
+      "category": "unknown",
+      "lat": 1.2286783333333333,
+      "lon": 103.86828999999999,
+      "speedKmh": 5.0,
+      "heading": 14.6,
+      "reportedAt": "2026-10-31T11:01:16.124832+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "572911220",
+      "mmsi": "572911220",
+      "name": "RUI HUA",
+      "category": "unknown",
+      "lat": 1.1749716666666667,
+      "lon": 103.83610166666668,
+      "speedKmh": 22.8,
+      "heading": 64.5,
+      "reportedAt": "2026-10-31T11:01:39.838808+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533000981",
+      "mmsi": "533000981",
+      "name": "POWER JME 11",
+      "category": "unknown",
+      "lat": 1.2533383333333332,
+      "lon": 103.86805,
+      "speedKmh": 0.4,
+      "heading": 101.7,
+      "reportedAt": "2026-10-31T11:01:44.062358+00:00"
     }
   ],
   "error": null
