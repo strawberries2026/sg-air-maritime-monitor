@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T10:16:40.525977+00:00",
+  "updatedAt": "2026-10-31T10:31:50.235183+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,23 +7,11 @@
       "mmsi": "525100552",
       "name": "SELATAN DAMAI",
       "category": "unknown",
-      "lat": 1.2639666666666665,
-      "lon": 103.83556833333334,
+      "lat": 1.2639233333333335,
+      "lon": 103.83551166666666,
       "speedKmh": 0.0,
-      "heading": 190.4,
-      "reportedAt": "2026-10-31T09:31:37.510765+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "412036000",
-      "mmsi": "412036000",
-      "name": "HUA HAI LONG",
-      "category": "unknown",
-      "lat": 1.258715,
-      "lon": 103.86883833333333,
-      "speedKmh": 0.2,
-      "heading": 2.7,
-      "reportedAt": "2026-10-31T09:01:29.181311+00:00"
+      "heading": 190.3,
+      "reportedAt": "2026-10-31T10:31:37.412980+00:00"
     },
     {
       "kind": "ship",
@@ -120,30 +108,6 @@
       "speedKmh": 16.5,
       "heading": 252.8,
       "reportedAt": "2026-10-31T09:15:34.325271+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119038",
-      "mmsi": "525119038",
-      "name": "PRIMA TANGGUH LVI",
-      "category": "unknown",
-      "lat": 1.226985,
-      "lon": 103.81396,
-      "speedKmh": 0.2,
-      "heading": 218.3,
-      "reportedAt": "2026-10-31T09:01:20.524965+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735266666666667,
-      "lon": 103.80141,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-31T09:01:38.855517+00:00"
     },
     {
       "kind": "ship",
@@ -564,6 +528,54 @@
       "speedKmh": 0.0,
       "heading": 103,
       "reportedAt": "2026-10-31T10:16:17.581099+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "376279000",
+      "mmsi": "376279000",
+      "name": "BEN NEVIS",
+      "category": "unknown",
+      "lat": 1.2789683333333335,
+      "lon": 103.88156666666667,
+      "speedKmh": 0.2,
+      "heading": 320.7,
+      "reportedAt": "2026-10-31T10:31:02.697927+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563233400",
+      "mmsi": "563233400",
+      "name": "PEARL  LEGACY",
+      "category": "unknown",
+      "lat": 1.2279449999999998,
+      "lon": 103.79497500000001,
+      "speedKmh": 13.0,
+      "heading": 322.3,
+      "reportedAt": "2026-10-31T10:31:10.750425+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565243000",
+      "mmsi": "565243000",
+      "name": "AYER CHOMEL",
+      "category": "unknown",
+      "lat": 1.24899,
+      "lon": 103.80264333333334,
+      "speedKmh": 0.2,
+      "heading": 26.4,
+      "reportedAt": "2026-10-31T10:31:18.718044+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "372254000",
+      "mmsi": "372254000",
+      "name": "CD FORTUNE",
+      "category": "unknown",
+      "lat": 1.2695,
+      "lon": 103.89718333333333,
+      "speedKmh": 1.3,
+      "heading": 160,
+      "reportedAt": "2026-10-31T10:31:28.619628+00:00"
     }
   ],
   "error": null
