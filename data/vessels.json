@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:18:21.464296+00:00",
+  "updatedAt": "2026-10-31T17:31:49.423224+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2188533333333333,
-      "lon": 103.80428166666667,
-      "speedKmh": 0.2,
-      "heading": 38.3,
-      "reportedAt": "2026-10-31T16:01:03.261480+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538011338",
       "mmsi": "538011338",
       "name": "OSLO STAR",
@@ -84,42 +72,6 @@
       "speedKmh": 18.1,
       "heading": 315.5,
       "reportedAt": "2026-10-31T16:31:48.328563+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "574005860",
-      "mmsi": "574005860",
-      "name": "AULAC EAGLE",
-      "category": "unknown",
-      "lat": 1.23795,
-      "lon": 103.80106666666667,
-      "speedKmh": 0.0,
-      "heading": 103.4,
-      "reportedAt": "2026-10-31T16:01:07.198461+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.2477183333333335,
-      "lon": 103.79683166666668,
-      "speedKmh": 0.0,
-      "heading": 135.8,
-      "reportedAt": "2026-10-31T16:01:07.801845+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563275700",
-      "mmsi": "563275700",
-      "name": "MARINA AMETHYST",
-      "category": "unknown",
-      "lat": 1.2608133333333333,
-      "lon": 103.85102333333333,
-      "speedKmh": 0.0,
-      "heading": 28.5,
-      "reportedAt": "2026-10-31T16:01:42.734172+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +187,11 @@
       "mmsi": "525110824",
       "name": "MTS 123",
       "category": "unknown",
-      "lat": 1.2614316666666667,
-      "lon": 103.839125,
-      "speedKmh": 0.4,
-      "heading": 138.4,
-      "reportedAt": "2026-10-31T17:01:04.219583+00:00"
+      "lat": 1.2614366666666668,
+      "lon": 103.83913166666666,
+      "speedKmh": 0.2,
+      "heading": 324.8,
+      "reportedAt": "2026-10-31T17:31:44.338405+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +300,18 @@
       "speedKmh": 0.0,
       "heading": 189.2,
       "reportedAt": "2026-10-31T17:18:18.244316+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538004111",
+      "mmsi": "538004111",
+      "name": "LUCKY PIONEER",
+      "category": "unknown",
+      "lat": 1.1858849999999999,
+      "lon": 103.82808833333334,
+      "speedKmh": 12.4,
+      "heading": 247.8,
+      "reportedAt": "2026-10-31T17:31:12.222908+00:00"
     }
   ],
   "error": null
