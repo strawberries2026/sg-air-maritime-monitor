@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:46:42.564781+00:00",
+  "updatedAt": "2026-10-31T16:01:56.309620+00:00",
   "items": [
     {
       "kind": "ship",
@@ -91,11 +91,11 @@
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
       "category": "unknown",
-      "lat": 1.2183383333333333,
-      "lon": 103.80438333333333,
-      "speedKmh": 0.4,
-      "heading": 320.1,
-      "reportedAt": "2026-10-31T15:46:03.474096+00:00"
+      "lat": 1.2188533333333333,
+      "lon": 103.80428166666667,
+      "speedKmh": 0.2,
+      "heading": 38.3,
+      "reportedAt": "2026-10-31T16:01:03.261480+00:00"
     },
     {
       "kind": "ship",
@@ -103,11 +103,11 @@
       "mmsi": "538011338",
       "name": "OSLO STAR",
       "category": "unknown",
-      "lat": 1.2308616666666665,
-      "lon": 103.78965833333334,
-      "speedKmh": 16.3,
-      "heading": 327.4,
-      "reportedAt": "2026-10-31T15:46:12.367185+00:00"
+      "lat": 1.2635933333333333,
+      "lon": 103.76324166666667,
+      "speedKmh": 17.0,
+      "heading": 302.3,
+      "reportedAt": "2026-10-31T16:01:53.010058+00:00"
     },
     {
       "kind": "ship",
@@ -132,6 +132,66 @@
       "speedKmh": 11.5,
       "heading": 332.1,
       "reportedAt": "2026-10-31T15:46:19.157835+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563328300",
+      "mmsi": "563328300",
+      "name": "STRAITS WISDOM",
+      "category": "unknown",
+      "lat": 1.2209833333333333,
+      "lon": 103.87511166666667,
+      "speedKmh": 16.5,
+      "heading": 254.1,
+      "reportedAt": "2026-10-31T16:00:48.172175+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.23795,
+      "lon": 103.80106666666667,
+      "speedKmh": 0.0,
+      "heading": 103.4,
+      "reportedAt": "2026-10-31T16:01:07.198461+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.2477183333333335,
+      "lon": 103.79683166666668,
+      "speedKmh": 0.0,
+      "heading": 135.8,
+      "reportedAt": "2026-10-31T16:01:07.801845+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275700",
+      "mmsi": "563275700",
+      "name": "MARINA AMETHYST",
+      "category": "unknown",
+      "lat": 1.2608133333333333,
+      "lon": 103.85102333333333,
+      "speedKmh": 0.0,
+      "heading": 28.5,
+      "reportedAt": "2026-10-31T16:01:42.734172+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566007000",
+      "mmsi": "566007000",
+      "name": "ENERGETIC",
+      "category": "unknown",
+      "lat": 1.179875,
+      "lon": 103.80203833333333,
+      "speedKmh": 12.8,
+      "heading": 248.8,
+      "reportedAt": "2026-10-31T16:01:51.817306+00:00"
     }
   ],
   "error": null
