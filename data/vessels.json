@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:01:53.978324+00:00",
+  "updatedAt": "2026-10-31T19:16:43.693645+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,30 +36,6 @@
       "speedKmh": 0.2,
       "heading": 173.3,
       "reportedAt": "2026-10-31T18:31:31.227944+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525100908",
-      "mmsi": "525100908",
-      "name": "TB.MING SING",
-      "category": "unknown",
-      "lat": 0.3031466666666667,
-      "lon": 104.82296166666667,
-      "speedKmh": 4.1,
-      "heading": 342,
-      "reportedAt": "2026-10-31T17:45:43.669191+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087010",
-      "mmsi": "563087010",
-      "name": "PSA PEGASUS",
-      "category": "unknown",
-      "lat": 1.2617716666666667,
-      "lon": 103.790925,
-      "speedKmh": 0.4,
-      "heading": 271.7,
-      "reportedAt": "2026-10-31T17:45:43.848382+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +139,11 @@
       "mmsi": "370799000",
       "name": "LNG KOLT",
       "category": "unknown",
-      "lat": 1.16905,
-      "lon": 103.75191666666666,
+      "lat": 1.1689,
+      "lon": 103.75186666666667,
       "speedKmh": 0.0,
-      "heading": 266,
-      "reportedAt": "2026-10-31T18:31:29.297645+00:00"
+      "heading": 135,
+      "reportedAt": "2026-10-31T19:16:28.851636+00:00"
     },
     {
       "kind": "ship",
@@ -372,6 +348,66 @@
       "speedKmh": 13.7,
       "heading": 297.9,
       "reportedAt": "2026-10-31T19:01:35.031948+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "212938000",
+      "mmsi": "212938000",
+      "name": "KORONI",
+      "category": "unknown",
+      "lat": 1.14195,
+      "lon": 103.74021666666665,
+      "speedKmh": 22.4,
+      "heading": 255.6,
+      "reportedAt": "2026-10-31T19:15:48.360214+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085710",
+      "mmsi": "563085710",
+      "name": "PSA UNITY",
+      "category": "unknown",
+      "lat": 1.2391800000000002,
+      "lon": 103.78513333333333,
+      "speedKmh": 9.6,
+      "heading": 3.5,
+      "reportedAt": "2026-10-31T19:15:52.685327+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "356758000",
+      "mmsi": "356758000",
+      "name": "MAERSK NESNA",
+      "category": "unknown",
+      "lat": 1.18033,
+      "lon": 103.80679,
+      "speedKmh": 14.4,
+      "heading": 243.6,
+      "reportedAt": "2026-10-31T19:15:55.004961+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563337400",
+      "mmsi": "563337400",
+      "name": "THARINEE NAREE",
+      "category": "unknown",
+      "lat": 1.2313833333333333,
+      "lon": 103.81696666666667,
+      "speedKmh": 0.6,
+      "heading": 211.7,
+      "reportedAt": "2026-10-31T19:15:56.636582+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533130658",
+      "mmsi": "533130658",
+      "name": "LG ASPHALT 2",
+      "category": "unknown",
+      "lat": 1.2426616666666668,
+      "lon": 103.79905833333333,
+      "speedKmh": 0.0,
+      "heading": 113,
+      "reportedAt": "2026-10-31T19:16:38.796384+00:00"
     }
   ],
   "error": null
