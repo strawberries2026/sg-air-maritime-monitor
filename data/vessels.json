@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T22:16:40.102465+00:00",
+  "updatedAt": "2026-10-31T22:31:46.571537+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "533132217",
       "name": "JM SUTERA 9",
       "category": "unknown",
-      "lat": 1.2334016666666665,
-      "lon": 103.79780666666667,
-      "speedKmh": 0.0,
-      "heading": 50,
-      "reportedAt": "2026-10-31T21:45:44.998513+00:00"
+      "lat": 1.2333333333333334,
+      "lon": 103.797705,
+      "speedKmh": 0.2,
+      "heading": 211.2,
+      "reportedAt": "2026-10-31T22:30:45.086384+00:00"
     },
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "565688000",
       "name": "KOTA NAZIM",
       "category": "unknown",
-      "lat": 1.2622666666666666,
-      "lon": 103.83821666666667,
-      "speedKmh": 0.4,
-      "heading": 118,
-      "reportedAt": "2026-10-31T21:46:13.489076+00:00"
+      "lat": 1.2624166666666667,
+      "lon": 103.83796666666667,
+      "speedKmh": 0.7,
+      "heading": 122,
+      "reportedAt": "2026-10-31T22:31:13.598544+00:00"
     },
     {
       "kind": "ship",
@@ -60,18 +60,6 @@
       "speedKmh": 7.2,
       "heading": 278.7,
       "reportedAt": "2026-10-31T21:16:00.959543+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565102000",
-      "mmsi": "565102000",
-      "name": "AYER CHERDAS",
-      "category": "unknown",
-      "lat": 1.265315,
-      "lon": 103.88275833333334,
-      "speedKmh": 10.9,
-      "heading": 249.3,
-      "reportedAt": "2026-10-31T21:00:46.024624+00:00"
     },
     {
       "kind": "ship",
@@ -108,18 +96,6 @@
       "speedKmh": 0.6,
       "heading": 257.7,
       "reportedAt": "2026-10-31T21:31:48.809196+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563294600",
-      "mmsi": "563294600",
-      "name": "CMA CGM VENDOME",
-      "category": "unknown",
-      "lat": 1.21526,
-      "lon": 103.80263833333333,
-      "speedKmh": 15.4,
-      "heading": 296.2,
-      "reportedAt": "2026-10-31T21:01:31.348900+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +391,11 @@
       "mmsi": "477250400",
       "name": "TAMPA BAY",
       "category": "unknown",
-      "lat": 1.2222183333333334,
-      "lon": 103.89754666666666,
-      "speedKmh": 5.7,
-      "heading": 254.9,
-      "reportedAt": "2026-10-31T21:46:17.036240+00:00"
+      "lat": 1.2506650000000001,
+      "lon": 103.85657166666667,
+      "speedKmh": 7.2,
+      "heading": 319.7,
+      "reportedAt": "2026-10-31T22:30:46.904775+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +427,11 @@
       "mmsi": "563105900",
       "name": "PSA MARVEL CS05",
       "category": "unknown",
-      "lat": 1.26425,
-      "lon": 103.83367,
-      "speedKmh": 0.0,
-      "heading": 208.9,
-      "reportedAt": "2026-10-31T22:01:49.343699+00:00"
+      "lat": 1.2663716666666667,
+      "lon": 103.83418499999999,
+      "speedKmh": 0.4,
+      "heading": 65.5,
+      "reportedAt": "2026-10-31T22:30:49.958674+00:00"
     },
     {
       "kind": "ship",
@@ -475,11 +451,11 @@
       "mmsi": "563002250",
       "name": "CHG 11",
       "category": "unknown",
-      "lat": 1.2449133333333333,
-      "lon": 103.77741333333333,
-      "speedKmh": 2.8,
-      "heading": 94.6,
-      "reportedAt": "2026-10-31T22:15:42.346042+00:00"
+      "lat": 1.2424766666666665,
+      "lon": 103.78525333333333,
+      "speedKmh": 4.1,
+      "heading": 117.9,
+      "reportedAt": "2026-10-31T22:30:39.838027+00:00"
     },
     {
       "kind": "ship",
@@ -511,11 +487,47 @@
       "mmsi": "636023650",
       "name": "HMM GARNET",
       "category": "unknown",
-      "lat": 1.2151516666666666,
-      "lon": 103.80047166666667,
-      "speedKmh": 18.3,
-      "heading": 297,
-      "reportedAt": "2026-10-31T22:16:30.686884+00:00"
+      "lat": 1.2420133333333332,
+      "lon": 103.77999,
+      "speedKmh": 13.0,
+      "heading": 326.2,
+      "reportedAt": "2026-10-31T22:31:39.820095+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563984000",
+      "mmsi": "563984000",
+      "name": "SINAR BINTAN",
+      "category": "unknown",
+      "lat": 1.21641,
+      "lon": 103.8771,
+      "speedKmh": 21.3,
+      "heading": 243,
+      "reportedAt": "2026-10-31T22:31:11.916407+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563240600",
+      "mmsi": "563240600",
+      "name": "KOTA JOHAN",
+      "category": "unknown",
+      "lat": 1.2366366666666666,
+      "lon": 103.87284500000001,
+      "speedKmh": 10.6,
+      "heading": 306.4,
+      "reportedAt": "2026-10-31T22:31:13.028588+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012347",
+      "mmsi": "538012347",
+      "name": "ASTERAS",
+      "category": "unknown",
+      "lat": 1.1474216666666666,
+      "lon": 103.78613333333332,
+      "speedKmh": 13.1,
+      "heading": 55.5,
+      "reportedAt": "2026-10-31T22:31:31.773236+00:00"
     }
   ],
   "error": null
