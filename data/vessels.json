@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T18:16:40.470853+00:00",
+  "updatedAt": "2026-10-31T18:31:47.502084+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "210364000",
-      "mmsi": "210364000",
-      "name": "FYLA",
-      "category": "unknown",
-      "lat": 1.1499866666666667,
-      "lon": 103.78467500000001,
-      "speedKmh": 14.6,
-      "heading": 57.4,
-      "reportedAt": "2026-10-31T17:01:36.119532+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563129100",
       "mmsi": "563129100",
       "name": "BRASSAVOLA",
@@ -67,11 +55,11 @@
       "mmsi": "477716100",
       "name": "EVER OASIS",
       "category": "unknown",
-      "lat": 1.2630249999999998,
-      "lon": 103.79351,
+      "lat": 1.2633416666666666,
+      "lon": 103.79363333333335,
       "speedKmh": 0.2,
-      "heading": 314,
-      "reportedAt": "2026-10-31T18:15:40.972552+00:00"
+      "heading": 173.3,
+      "reportedAt": "2026-10-31T18:31:31.227944+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +187,11 @@
       "mmsi": "533133199",
       "name": "533133199",
       "category": "unknown",
-      "lat": 0.3100233333333334,
-      "lon": 104.84778333333334,
-      "speedKmh": 11.1,
-      "heading": 316.7,
-      "reportedAt": "2026-10-31T17:46:14.029103+00:00"
+      "lat": 0.35751166666666667,
+      "lon": 104.793465,
+      "speedKmh": 10.4,
+      "heading": 306.9,
+      "reportedAt": "2026-10-31T18:30:58.126537+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +271,11 @@
       "mmsi": "370799000",
       "name": "LNG KOLT",
       "category": "unknown",
-      "lat": 1.1689666666666667,
-      "lon": 103.75196666666668,
+      "lat": 1.16905,
+      "lon": 103.75191666666666,
       "speedKmh": 0.0,
-      "heading": 331,
-      "reportedAt": "2026-10-31T18:01:30.716916+00:00"
+      "heading": 266,
+      "reportedAt": "2026-10-31T18:31:29.297645+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +283,11 @@
       "mmsi": "314074000",
       "name": "TITAN HARMONY",
       "category": "unknown",
-      "lat": 1.22334,
-      "lon": 103.79472666666668,
-      "speedKmh": 13.1,
-      "heading": 329.7,
-      "reportedAt": "2026-10-31T18:16:33.114244+00:00"
+      "lat": 1.249035,
+      "lon": 103.77859333333335,
+      "speedKmh": 14.3,
+      "heading": 318.5,
+      "reportedAt": "2026-10-31T18:31:12.652018+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +312,66 @@
       "speedKmh": 11.7,
       "heading": 69.8,
       "reportedAt": "2026-10-31T18:15:53.614349+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087310",
+      "mmsi": "563087310",
+      "name": "PSA VELA (NN79)",
+      "category": "unknown",
+      "lat": 1.2601066666666665,
+      "lon": 103.78933,
+      "speedKmh": 0.0,
+      "heading": 40.9,
+      "reportedAt": "2026-10-31T18:30:40.240759+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566009000",
+      "mmsi": "566009000",
+      "name": "SEA PROSPERITY",
+      "category": "unknown",
+      "lat": 1.2228700000000001,
+      "lon": 103.79923666666667,
+      "speedKmh": 0.0,
+      "heading": 262.2,
+      "reportedAt": "2026-10-31T18:31:26.783480+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566000050",
+      "mmsi": "566000050",
+      "name": "SCDF RED DOLPHIN",
+      "category": "unknown",
+      "lat": 1.2562933333333333,
+      "lon": 103.84647166666667,
+      "speedKmh": 16.9,
+      "heading": 89.7,
+      "reportedAt": "2026-10-31T18:31:41.134245+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563766000",
+      "mmsi": "563766000",
+      "name": "MERLION 20",
+      "category": "unknown",
+      "lat": 1.2340200000000001,
+      "lon": 103.79104000000001,
+      "speedKmh": 11.3,
+      "heading": 349.9,
+      "reportedAt": "2026-10-31T18:31:45.623959+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275600",
+      "mmsi": "563275600",
+      "name": "MARINA AMMOLITE",
+      "category": "unknown",
+      "lat": 1.2616983333333331,
+      "lon": 103.85198333333332,
+      "speedKmh": 0.0,
+      "heading": 147.1,
+      "reportedAt": "2026-10-31T18:31:46.641481+00:00"
     }
   ],
   "error": null
