@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T16:16:41.294511+00:00",
+  "updatedAt": "2026-10-31T16:31:49.398480+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.27358,
-      "lon": 103.80134833333334,
+      "lat": 1.2735766666666666,
+      "lon": 103.80138666666667,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-31T15:30:58.216005+00:00"
+      "reportedAt": "2026-10-31T16:31:48.456721+00:00"
     },
     {
       "kind": "ship",
@@ -55,11 +55,11 @@
       "mmsi": "440585000",
       "name": "KMTC KEELUNG",
       "category": "unknown",
-      "lat": 1.177775,
-      "lon": 103.80415166666667,
-      "speedKmh": 13.9,
-      "heading": 250.7,
-      "reportedAt": "2026-10-31T16:16:32.371132+00:00"
+      "lat": 1.1675883333333335,
+      "lon": 103.77994,
+      "speedKmh": 10.9,
+      "heading": 246.3,
+      "reportedAt": "2026-10-31T16:31:43.308674+00:00"
     },
     {
       "kind": "ship",
@@ -127,11 +127,11 @@
       "mmsi": "563328300",
       "name": "STRAITS WISDOM",
       "category": "unknown",
-      "lat": 1.2078733333333331,
-      "lon": 103.83635833333332,
-      "speedKmh": 18.7,
-      "heading": 268.4,
-      "reportedAt": "2026-10-31T16:15:48.112251+00:00"
+      "lat": 1.2207733333333333,
+      "lon": 103.79609833333333,
+      "speedKmh": 18.1,
+      "heading": 315.5,
+      "reportedAt": "2026-10-31T16:31:48.328563+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +211,11 @@
       "mmsi": "477892100",
       "name": "PACIFIC ENERGY",
       "category": "unknown",
-      "lat": 1.1955,
-      "lon": 103.85398333333333,
-      "speedKmh": 18.5,
-      "heading": 242,
-      "reportedAt": "2026-10-31T16:15:58.240579+00:00"
+      "lat": 1.1804166666666667,
+      "lon": 103.81246666666667,
+      "speedKmh": 19.3,
+      "heading": 253,
+      "reportedAt": "2026-10-31T16:31:27.989464+00:00"
     },
     {
       "kind": "ship",
@@ -228,6 +228,30 @@
       "speedKmh": 8.0,
       "heading": 99.1,
       "reportedAt": "2026-10-31T16:16:23.605056+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566623000",
+      "mmsi": "566623000",
+      "name": "RESOLUTE NN24",
+      "category": "unknown",
+      "lat": 1.2619216666666666,
+      "lon": 103.84547833333333,
+      "speedKmh": 0.2,
+      "heading": 205.5,
+      "reportedAt": "2026-10-31T16:31:38.902505+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2237266666666666,
+      "lon": 103.808565,
+      "speedKmh": 0.2,
+      "heading": 228.8,
+      "reportedAt": "2026-10-31T16:31:41.398402+00:00"
     }
   ],
   "error": null
