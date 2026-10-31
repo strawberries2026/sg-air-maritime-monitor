@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:16:40.092569+00:00",
+  "updatedAt": "2026-10-31T17:18:21.464296+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735516666666666,
-      "lon": 103.80136666666667,
+      "lat": 1.2735550000000002,
+      "lon": 103.80137333333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-31T16:45:49.605933+00:00"
+      "reportedAt": "2026-10-31T17:17:07.773950+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +259,11 @@
       "mmsi": "563129100",
       "name": "BRASSAVOLA",
       "category": "unknown",
-      "lat": 1.1756533333333332,
-      "lon": 103.75606166666667,
-      "speedKmh": 0.0,
-      "heading": 109.1,
-      "reportedAt": "2026-10-31T17:15:31.182525+00:00"
+      "lat": 1.1756300000000002,
+      "lon": 103.75608333333334,
+      "speedKmh": 0.2,
+      "heading": 128.1,
+      "reportedAt": "2026-10-31T17:17:36.810392+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +271,11 @@
       "mmsi": "477716100",
       "name": "EVER OASIS",
       "category": "unknown",
-      "lat": 1.2104683333333335,
-      "lon": 103.81162666666667,
-      "speedKmh": 15.6,
-      "heading": 286.5,
-      "reportedAt": "2026-10-31T17:16:21.271236+00:00"
+      "lat": 1.211485,
+      "lon": 103.808485,
+      "speedKmh": 14.4,
+      "heading": 290.6,
+      "reportedAt": "2026-10-31T17:17:50.171132+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +300,54 @@
       "speedKmh": 8.5,
       "heading": 22.7,
       "reportedAt": "2026-10-31T17:16:38.274163+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563038800",
+      "mmsi": "563038800",
+      "name": "MARINE TINA",
+      "category": "unknown",
+      "lat": 1.2285166666666667,
+      "lon": 103.784355,
+      "speedKmh": 12.0,
+      "heading": 133.2,
+      "reportedAt": "2026-10-31T17:17:12.242469+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "248140000",
+      "mmsi": "248140000",
+      "name": "CAPE ARTEMISIO",
+      "category": "unknown",
+      "lat": 1.28364,
+      "lon": 103.76091500000001,
+      "speedKmh": 0.0,
+      "heading": 98.2,
+      "reportedAt": "2026-10-31T17:17:37.654157+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636025718",
+      "mmsi": "636025718",
+      "name": "STAR SHANGHAI",
+      "category": "unknown",
+      "lat": 1.286115,
+      "lon": 103.94138166666667,
+      "speedKmh": 0.0,
+      "heading": 167.6,
+      "reportedAt": "2026-10-31T17:18:01.011900+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636015516",
+      "mmsi": "636015516",
+      "name": "KOTA PRIMROSE",
+      "category": "unknown",
+      "lat": 1.2638916666666666,
+      "lon": 103.83236166666667,
+      "speedKmh": 0.0,
+      "heading": 189.2,
+      "reportedAt": "2026-10-31T17:18:18.244316+00:00"
     }
   ],
   "error": null
