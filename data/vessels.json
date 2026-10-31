@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T20:31:30.955654+00:00",
+  "updatedAt": "2026-10-31T20:46:39.955530+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "563275700",
       "name": "MARINA AMETHYST",
       "category": "unknown",
-      "lat": 1.2608233333333334,
-      "lon": 103.85101833333333,
+      "lat": 1.260845,
+      "lon": 103.85095666666666,
       "speedKmh": 0.0,
       "heading": 28.5,
-      "reportedAt": "2026-10-31T19:30:44.510270+00:00"
+      "reportedAt": "2026-10-31T20:45:42.873291+00:00"
     },
     {
       "kind": "ship",
@@ -99,18 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "212938000",
-      "mmsi": "212938000",
-      "name": "KORONI",
-      "category": "unknown",
-      "lat": 1.14195,
-      "lon": 103.74021666666665,
-      "speedKmh": 22.4,
-      "heading": 255.6,
-      "reportedAt": "2026-10-31T19:15:48.360214+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563085710",
       "mmsi": "563085710",
       "name": "PSA UNITY",
@@ -123,18 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "356758000",
-      "mmsi": "356758000",
-      "name": "MAERSK NESNA",
-      "category": "unknown",
-      "lat": 1.18033,
-      "lon": 103.80679,
-      "speedKmh": 14.4,
-      "heading": 243.6,
-      "reportedAt": "2026-10-31T19:15:55.004961+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563337400",
       "mmsi": "563337400",
       "name": "THARINEE NAREE",
@@ -144,18 +120,6 @@
       "speedKmh": 0.4,
       "heading": 15.9,
       "reportedAt": "2026-10-31T20:15:56.535468+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533130658",
-      "mmsi": "533130658",
-      "name": "LG ASPHALT 2",
-      "category": "unknown",
-      "lat": 1.2426616666666668,
-      "lon": 103.79905833333333,
-      "speedKmh": 0.0,
-      "heading": 113,
-      "reportedAt": "2026-10-31T19:16:38.796384+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +187,11 @@
       "mmsi": "533132217",
       "name": "JM SUTERA 9",
       "category": "unknown",
-      "lat": 1.2258333333333333,
-      "lon": 103.796555,
-      "speedKmh": 5.0,
-      "heading": 3.6,
-      "reportedAt": "2026-10-31T19:31:46.375793+00:00"
+      "lat": 1.2336116666666668,
+      "lon": 103.79809666666667,
+      "speedKmh": 0.0,
+      "heading": 55.1,
+      "reportedAt": "2026-10-31T20:45:44.964476+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +211,11 @@
       "mmsi": "563001270",
       "name": "AYER MANIS",
       "category": "unknown",
-      "lat": 1.2325166666666665,
-      "lon": 103.81295,
-      "speedKmh": 0.0,
+      "lat": 1.2326916666666667,
+      "lon": 103.81307333333332,
+      "speedKmh": 0.4,
       "heading": 0,
-      "reportedAt": "2026-10-31T20:00:38.146044+00:00"
+      "reportedAt": "2026-10-31T20:46:36.471402+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +396,42 @@
       "speedKmh": 14.8,
       "heading": 119.5,
       "reportedAt": "2026-10-31T20:31:22.753432+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "248261000",
+      "mmsi": "248261000",
+      "name": "GLOVIS NOVA",
+      "category": "unknown",
+      "lat": 1.1739666666666666,
+      "lon": 103.80075666666667,
+      "speedKmh": 33.2,
+      "heading": 242.4,
+      "reportedAt": "2026-10-31T20:46:05.667137+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087010",
+      "mmsi": "563087010",
+      "name": "PSA PEGASUS",
+      "category": "unknown",
+      "lat": 1.2515183333333333,
+      "lon": 103.79073833333334,
+      "speedKmh": 13.3,
+      "heading": 233.3,
+      "reportedAt": "2026-10-31T20:46:07.674421+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563152400",
+      "mmsi": "563152400",
+      "name": "KOTA KARIM",
+      "category": "unknown",
+      "lat": 1.2307066666666666,
+      "lon": 103.88626833333333,
+      "speedKmh": 8.7,
+      "heading": 340.3,
+      "reportedAt": "2026-10-31T20:46:09.625257+00:00"
     }
   ],
   "error": null
