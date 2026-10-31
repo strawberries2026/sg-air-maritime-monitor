@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:02:07.160349+00:00",
+  "updatedAt": "2026-10-31T11:16:40.625104+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "525110824",
-      "mmsi": "525110824",
-      "name": "MTS 123",
-      "category": "unknown",
-      "lat": 1.2614733333333334,
-      "lon": 103.83914666666666,
-      "speedKmh": 0.0,
-      "heading": 67.3,
-      "reportedAt": "2026-10-31T09:46:30.388703+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -39,42 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.2404883333333332,
-      "lon": 103.80384000000001,
-      "speedKmh": 0.0,
-      "heading": 52.7,
-      "reportedAt": "2026-10-31T09:45:30.656550+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563002840",
-      "mmsi": "563002840",
-      "name": "WAVEMASTER 5",
-      "category": "unknown",
-      "lat": 1.2617800000000001,
-      "lon": 103.81117833333333,
-      "speedKmh": 9.1,
-      "heading": 275.4,
-      "reportedAt": "2026-10-31T09:45:28.626720+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563081020",
-      "mmsi": "563081020",
-      "name": "563081020",
-      "category": "unknown",
-      "lat": 1.2249466666666666,
-      "lon": 103.77898499999999,
-      "speedKmh": 0.7,
-      "heading": null,
-      "reportedAt": "2026-10-31T09:45:41.365611+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564759000",
       "mmsi": "564759000",
       "name": "I MOLA",
@@ -84,30 +36,6 @@
       "speedKmh": 0.6,
       "heading": 78.6,
       "reportedAt": "2026-10-31T10:15:53.729031+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.249205,
-      "lon": 103.79685666666666,
-      "speedKmh": 0.9,
-      "heading": 165.9,
-      "reportedAt": "2026-10-31T09:46:07.137874+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538009316",
-      "mmsi": "538009316",
-      "name": "GOOBY",
-      "category": "unknown",
-      "lat": 1.2747166666666667,
-      "lon": 103.88428666666667,
-      "speedKmh": 0.0,
-      "heading": 149.6,
-      "reportedAt": "2026-10-31T09:46:10.515156+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +103,11 @@
       "mmsi": "432606000",
       "name": "WHITE KINGDOM",
       "category": "unknown",
-      "lat": 1.2295166666666666,
-      "lon": 103.94440833333333,
-      "speedKmh": 6.7,
-      "heading": 59.4,
-      "reportedAt": "2026-10-31T11:02:00.542761+00:00"
+      "lat": 1.2446483333333334,
+      "lon": 103.95226166666666,
+      "speedKmh": 4.6,
+      "heading": 22.3,
+      "reportedAt": "2026-10-31T11:15:41.658281+00:00"
     },
     {
       "kind": "ship",
@@ -360,6 +288,18 @@
       "speedKmh": 0.4,
       "heading": 101.7,
       "reportedAt": "2026-10-31T11:01:44.062358+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006904",
+      "mmsi": "538006904",
+      "name": "APOLLONIUS",
+      "category": "unknown",
+      "lat": 1.2140650000000002,
+      "lon": 103.885005,
+      "speedKmh": 20.2,
+      "heading": 243.8,
+      "reportedAt": "2026-10-31T11:16:00.285831+00:00"
     }
   ],
   "error": null
