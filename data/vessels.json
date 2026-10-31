@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T15:16:40.903685+00:00",
+  "updatedAt": "2026-10-31T15:31:50.637062+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,6 +24,66 @@
       "speedKmh": 10.4,
       "heading": 160.8,
       "reportedAt": "2026-10-31T14:45:34.020094+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.27358,
+      "lon": 103.80134833333334,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-31T15:30:58.216005+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413142000",
+      "mmsi": "413142000",
+      "name": "XIN HUANG PU",
+      "category": "unknown",
+      "lat": 1.2159066666666667,
+      "lon": 103.68935499999999,
+      "speedKmh": 22.4,
+      "heading": 59.6,
+      "reportedAt": "2026-10-31T15:30:58.601552+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "621819063",
+      "mmsi": "621819063",
+      "name": "KITAKAZE",
+      "category": "unknown",
+      "lat": 1.1982050000000002,
+      "lon": 103.85842333333333,
+      "speedKmh": 15.7,
+      "heading": 242,
+      "reportedAt": "2026-10-31T15:31:09.516740+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119038",
+      "mmsi": "525119038",
+      "name": "PRIMA TANGGUH LVI",
+      "category": "unknown",
+      "lat": 1.2269966666666667,
+      "lon": 103.81485666666667,
+      "speedKmh": 0.0,
+      "heading": 242.4,
+      "reportedAt": "2026-10-31T15:31:17.558225+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440585000",
+      "mmsi": "440585000",
+      "name": "KMTC KEELUNG",
+      "category": "unknown",
+      "lat": 1.2171066666666666,
+      "lon": 103.89634166666666,
+      "speedKmh": 11.5,
+      "heading": 243.2,
+      "reportedAt": "2026-10-31T15:31:41.812873+00:00"
     }
   ],
   "error": null
