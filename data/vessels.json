@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:31:49.365760+00:00",
+  "updatedAt": "2026-10-31T11:46:50.707515+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "564759000",
-      "mmsi": "564759000",
-      "name": "I MOLA",
-      "category": "unknown",
-      "lat": 1.272125,
-      "lon": 103.86872,
-      "speedKmh": 0.6,
-      "heading": 78.6,
-      "reportedAt": "2026-10-31T10:15:53.729031+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "219179000",
       "mmsi": "219179000",
       "name": "MAERSK TRIESTE",
@@ -36,30 +24,6 @@
       "speedKmh": 8.0,
       "heading": 328.6,
       "reportedAt": "2026-10-31T10:46:40.922604+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636022304",
-      "mmsi": "636022304",
-      "name": "INFINITY AQUILA",
-      "category": "unknown",
-      "lat": 1.2758166666666668,
-      "lon": 103.89997166666667,
-      "speedKmh": 0.0,
-      "heading": 115.5,
-      "reportedAt": "2026-10-31T10:01:51.197940+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015471",
-      "mmsi": "636015471",
-      "name": "FPMC C NOBLE",
-      "category": "unknown",
-      "lat": 1.2327716666666668,
-      "lon": 103.93334833333333,
-      "speedKmh": 17.2,
-      "heading": 247.9,
-      "reportedAt": "2026-10-31T10:01:52.450352+00:00"
     },
     {
       "kind": "ship",
@@ -84,54 +48,6 @@
       "speedKmh": 0.2,
       "heading": null,
       "reportedAt": "2026-10-31T11:30:57.471986+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563084060",
-      "mmsi": "563084060",
-      "name": "CLEANSEAS FRIENDLY",
-      "category": "unknown",
-      "lat": 1.2930833333333331,
-      "lon": 103.93891833333333,
-      "speedKmh": 0.0,
-      "heading": 108.7,
-      "reportedAt": "2026-10-31T10:15:40.629905+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565643000",
-      "mmsi": "565643000",
-      "name": "DAVINA",
-      "category": "unknown",
-      "lat": 1.2690683333333332,
-      "lon": 103.91998166666667,
-      "speedKmh": 8.0,
-      "heading": 230.3,
-      "reportedAt": "2026-10-31T10:16:05.498468+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563312700",
-      "mmsi": "563312700",
-      "name": "POGONIA",
-      "category": "unknown",
-      "lat": 1.3014633333333334,
-      "lon": 103.98742999999999,
-      "speedKmh": 0.0,
-      "heading": 186.7,
-      "reportedAt": "2026-10-31T10:16:06.796678+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119095",
-      "mmsi": "525119095",
-      "name": "ARTEMIS",
-      "category": "unknown",
-      "lat": 1.2675166666666666,
-      "lon": 103.89824,
-      "speedKmh": 0.0,
-      "heading": 103,
-      "reportedAt": "2026-10-31T10:16:17.581099+00:00"
     },
     {
       "kind": "ship",
@@ -288,6 +204,30 @@
       "speedKmh": 0.2,
       "heading": 87.8,
       "reportedAt": "2026-10-31T11:31:41.708582+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563033240",
+      "mmsi": "563033240",
+      "name": "UNI SUPPLY 1",
+      "category": "unknown",
+      "lat": 1.2696833333333333,
+      "lon": 103.891535,
+      "speedKmh": 0.2,
+      "heading": 304.4,
+      "reportedAt": "2026-10-31T11:46:47.105265+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241879000",
+      "mmsi": "241879000",
+      "name": "MINERVA ZOE",
+      "category": "unknown",
+      "lat": 1.2857916666666667,
+      "lon": 103.91288166666666,
+      "speedKmh": 0.0,
+      "heading": 278.1,
+      "reportedAt": "2026-10-31T11:46:47.105346+00:00"
     }
   ],
   "error": null
