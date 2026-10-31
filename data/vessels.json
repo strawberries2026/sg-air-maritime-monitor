@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T02:16:45.575460+00:00",
+  "updatedAt": "2026-10-31T02:31:47.867536+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "477262600",
-      "mmsi": "477262600",
-      "name": "WESTERN CARNATION",
-      "category": "unknown",
-      "lat": 1.2101216666666665,
-      "lon": 103.903035,
-      "speedKmh": 20.7,
-      "heading": 52,
-      "reportedAt": "2026-10-31T01:01:21.419414+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566724000",
       "mmsi": "566724000",
       "name": "MERLION 25",
@@ -135,18 +123,6 @@
     },
     {
       "kind": "ship",
-      "id": "563180600",
-      "mmsi": "563180600",
-      "name": "MARINE DYNAMO",
-      "category": "unknown",
-      "lat": 1.2073033333333332,
-      "lon": 103.84300666666667,
-      "speedKmh": 20.9,
-      "heading": 259.9,
-      "reportedAt": "2026-10-31T01:01:46.257822+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563086920",
       "mmsi": "563086920",
       "name": "RIKKA",
@@ -159,18 +135,6 @@
     },
     {
       "kind": "ship",
-      "id": "477754400",
-      "mmsi": "477754400",
-      "name": "NEW VALOR",
-      "category": "unknown",
-      "lat": 1.187245,
-      "lon": 103.84340833333334,
-      "speedKmh": 18.1,
-      "heading": 64.9,
-      "reportedAt": "2026-10-31T01:00:43.790453+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563038800",
       "mmsi": "563038800",
       "name": "MARINE TINA",
@@ -180,30 +144,6 @@
       "speedKmh": 16.9,
       "heading": 244.9,
       "reportedAt": "2026-10-31T01:16:22.344671+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "210381000",
-      "mmsi": "210381000",
-      "name": "ORANJE",
-      "category": "unknown",
-      "lat": 1.2932899999999998,
-      "lon": 103.67536833333334,
-      "speedKmh": 0.0,
-      "heading": 290.6,
-      "reportedAt": "2026-10-31T01:01:03.247799+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021039",
-      "mmsi": "636021039",
-      "name": "TAMBA",
-      "category": "unknown",
-      "lat": 1.2112366666666667,
-      "lon": 103.8952,
-      "speedKmh": 16.9,
-      "heading": 64.8,
-      "reportedAt": "2026-10-31T01:01:07.392682+00:00"
     },
     {
       "kind": "ship",
@@ -228,30 +168,6 @@
       "speedKmh": 1.1,
       "heading": 312.4,
       "reportedAt": "2026-10-31T01:16:12.569935+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371458000",
-      "mmsi": "371458000",
-      "name": "NEW AMORGOS",
-      "category": "unknown",
-      "lat": 1.2506899999999999,
-      "lon": 103.908125,
-      "speedKmh": 0.0,
-      "heading": 207.5,
-      "reportedAt": "2026-10-31T01:01:35.312105+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477139100",
-      "mmsi": "477139100",
-      "name": "COSCO TAURUS",
-      "category": "unknown",
-      "lat": 1.269555,
-      "lon": 103.78428666666667,
-      "speedKmh": 0.0,
-      "heading": 88.6,
-      "reportedAt": "2026-10-31T01:01:41.495458+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +456,42 @@
       "speedKmh": 1.9,
       "heading": 23.4,
       "reportedAt": "2026-10-31T02:16:38.646526+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2755133333333333,
+      "lon": 103.90525,
+      "speedKmh": 0.0,
+      "heading": 352.3,
+      "reportedAt": "2026-10-31T02:31:00.410247+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563781000",
+      "mmsi": "563781000",
+      "name": "SINDO 31",
+      "category": "unknown",
+      "lat": 1.2608866666666667,
+      "lon": 103.81231,
+      "speedKmh": 10.6,
+      "heading": 90.3,
+      "reportedAt": "2026-10-31T02:31:16.964994+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371458000",
+      "mmsi": "371458000",
+      "name": "NEW AMORGOS",
+      "category": "unknown",
+      "lat": 1.2505033333333333,
+      "lon": 103.90803833333332,
+      "speedKmh": 0.0,
+      "heading": 207.5,
+      "reportedAt": "2026-10-31T02:31:34.435902+00:00"
     }
   ],
   "error": null
