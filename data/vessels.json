@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:02:02.177286+00:00",
+  "updatedAt": "2026-10-31T14:16:39.373698+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "440242000",
-      "mmsi": "440242000",
-      "name": "SUPER FORTE",
-      "category": "unknown",
-      "lat": 1.2064616666666665,
-      "lon": 103.80738,
-      "speedKmh": 12.4,
-      "heading": 145.6,
-      "reportedAt": "2026-10-31T12:46:22.576981+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533110714",
       "mmsi": "533110714",
       "name": "HERA",
@@ -36,6 +24,18 @@
       "speedKmh": 0.0,
       "heading": 4.4,
       "reportedAt": "2026-10-31T13:16:06.976323+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565925000",
+      "mmsi": "565925000",
+      "name": "HORIZON 7",
+      "category": "unknown",
+      "lat": 1.256715,
+      "lon": 103.80526,
+      "speedKmh": 20.4,
+      "heading": 332,
+      "reportedAt": "2026-10-31T14:16:03.876508+00:00"
     }
   ],
   "error": null
