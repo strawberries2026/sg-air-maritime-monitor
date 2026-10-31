@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T01:16:42.193223+00:00",
+  "updatedAt": "2026-10-31T01:31:48.688728+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "668116289",
-      "mmsi": "668116289",
-      "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2819016666666667,
-      "lon": 103.89214833333334,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-10-31T00:01:06.957438+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565102000",
       "mmsi": "565102000",
       "name": "AYER CHERDAS",
@@ -60,18 +48,6 @@
       "speedKmh": 0.2,
       "heading": 285.4,
       "reportedAt": "2026-10-31T01:01:36.001389+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "309891000",
-      "mmsi": "309891000",
-      "name": "PLOUTOS",
-      "category": "unknown",
-      "lat": 1.2736333333333334,
-      "lon": 103.91028333333334,
-      "speedKmh": 0.0,
-      "heading": 206,
-      "reportedAt": "2026-10-31T00:01:20.683033+00:00"
     },
     {
       "kind": "ship",
@@ -87,27 +63,15 @@
     },
     {
       "kind": "ship",
-      "id": "563142000",
-      "mmsi": "563142000",
-      "name": "PENGUIN REDEEM",
-      "category": "unknown",
-      "lat": 1.2383549999999999,
-      "lon": 103.782215,
-      "speedKmh": 32.8,
-      "heading": 207,
-      "reportedAt": "2026-10-31T00:00:52.284541+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "413334020",
       "mmsi": "413334020",
       "name": "MA YUE",
       "category": "unknown",
-      "lat": 1.2422166666666667,
-      "lon": 103.80695,
-      "speedKmh": 0.4,
-      "heading": 191,
-      "reportedAt": "2026-10-31T00:31:24.337393+00:00"
+      "lat": 1.2420166666666668,
+      "lon": 103.80693333333333,
+      "speedKmh": 0.0,
+      "heading": 177,
+      "reportedAt": "2026-10-31T01:31:22.067749+00:00"
     },
     {
       "kind": "ship",
@@ -168,18 +132,6 @@
       "speedKmh": 0.0,
       "heading": 9,
       "reportedAt": "2026-10-31T00:45:29.909845+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "228477600",
-      "mmsi": "228477600",
-      "name": "CMA CGM PETRA",
-      "category": "unknown",
-      "lat": 1.1581666666666666,
-      "lon": 103.7497,
-      "speedKmh": 0.0,
-      "heading": 201.2,
-      "reportedAt": "2026-10-31T00:00:59.877109+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +415,11 @@
       "mmsi": "525110824",
       "name": "MTS 123",
       "category": "unknown",
-      "lat": 1.26145,
-      "lon": 103.83914166666666,
+      "lat": 1.2614416666666666,
+      "lon": 103.83912333333333,
       "speedKmh": 0.2,
-      "heading": 270.9,
-      "reportedAt": "2026-10-31T00:31:36.213587+00:00"
+      "heading": 42.5,
+      "reportedAt": "2026-10-31T01:31:46.100517+00:00"
     },
     {
       "kind": "ship",
@@ -487,11 +439,11 @@
       "mmsi": "563337400",
       "name": "THARINEE NAREE",
       "category": "unknown",
-      "lat": 1.2291416666666668,
-      "lon": 103.81716666666667,
-      "speedKmh": 0.6,
-      "heading": 127.6,
-      "reportedAt": "2026-10-31T00:31:43.362639+00:00"
+      "lat": 1.2301266666666666,
+      "lon": 103.81630333333332,
+      "speedKmh": 2.2,
+      "heading": 154.7,
+      "reportedAt": "2026-10-31T01:31:43.989476+00:00"
     },
     {
       "kind": "ship",
@@ -523,11 +475,11 @@
       "mmsi": "209690000",
       "name": "SOPHOCLES GRAECIA",
       "category": "unknown",
-      "lat": 1.21189,
-      "lon": 103.91079666666666,
-      "speedKmh": 15.9,
-      "heading": 64.3,
-      "reportedAt": "2026-10-31T01:15:47.011640+00:00"
+      "lat": 1.226135,
+      "lon": 103.93349666666667,
+      "speedKmh": 8.1,
+      "heading": 58.6,
+      "reportedAt": "2026-10-31T01:30:38.732976+00:00"
     },
     {
       "kind": "ship",
@@ -571,11 +523,11 @@
       "mmsi": "563086920",
       "name": "RIKKA",
       "category": "unknown",
-      "lat": 1.2570816666666667,
-      "lon": 103.92077666666667,
-      "speedKmh": 16.5,
-      "heading": 268.7,
-      "reportedAt": "2026-10-31T00:46:22.876797+00:00"
+      "lat": 1.2651783333333335,
+      "lon": 103.83479166666666,
+      "speedKmh": 3.7,
+      "heading": 257.9,
+      "reportedAt": "2026-10-31T01:31:28.793211+00:00"
     },
     {
       "kind": "ship",
@@ -744,6 +696,42 @@
       "speedKmh": 12.6,
       "heading": 318.8,
       "reportedAt": "2026-10-31T01:16:39.655071+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "256936000",
+      "mmsi": "256936000",
+      "name": "RARAKA",
+      "category": "unknown",
+      "lat": 1.251175,
+      "lon": 103.95987666666666,
+      "speedKmh": 13.3,
+      "heading": 234.1,
+      "reportedAt": "2026-10-31T01:30:52.734179+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "268240202",
+      "mmsi": "268240202",
+      "name": "H7 SFC1",
+      "category": "unknown",
+      "lat": 1.2783166666666665,
+      "lon": 103.9003,
+      "speedKmh": 0.0,
+      "heading": 207.2,
+      "reportedAt": "2026-10-31T01:30:54.463388+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219454000",
+      "mmsi": "219454000",
+      "name": "TORM ARAWA",
+      "category": "unknown",
+      "lat": 1.2616033333333334,
+      "lon": 103.88986666666666,
+      "speedKmh": 0.0,
+      "heading": 356.9,
+      "reportedAt": "2026-10-31T01:31:13.138418+00:00"
     }
   ],
   "error": null
