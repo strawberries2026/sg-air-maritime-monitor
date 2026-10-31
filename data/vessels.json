@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T19:31:47.259329+00:00",
+  "updatedAt": "2026-10-31T19:46:48.546664+00:00",
   "items": [
     {
       "kind": "ship",
@@ -31,11 +31,11 @@
       "mmsi": "563060100",
       "name": "PSA HULK CS04",
       "category": "unknown",
-      "lat": 1.2580449999999999,
-      "lon": 103.84249333333334,
-      "speedKmh": 0.0,
-      "heading": 271.8,
-      "reportedAt": "2026-10-31T18:46:11.323012+00:00"
+      "lat": 1.2614866666666666,
+      "lon": 103.843425,
+      "speedKmh": 1.9,
+      "heading": 349.7,
+      "reportedAt": "2026-10-31T19:45:34.191480+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +67,11 @@
       "mmsi": "370799000",
       "name": "LNG KOLT",
       "category": "unknown",
-      "lat": 1.1689,
+      "lat": 1.1689333333333332,
       "lon": 103.75186666666667,
       "speedKmh": 0.0,
-      "heading": 135,
-      "reportedAt": "2026-10-31T19:16:28.851636+00:00"
+      "heading": 104,
+      "reportedAt": "2026-10-31T19:46:28.972225+00:00"
     },
     {
       "kind": "ship",
@@ -84,18 +84,6 @@
       "speedKmh": 14.3,
       "heading": 318.5,
       "reportedAt": "2026-10-31T18:31:12.652018+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563328600",
-      "mmsi": "563328600",
-      "name": "PEARL OASIS",
-      "category": "unknown",
-      "lat": 1.2268866666666667,
-      "lon": 103.78590166666666,
-      "speedKmh": 17.6,
-      "heading": 140.4,
-      "reportedAt": "2026-10-31T18:15:37.354637+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +259,11 @@
       "mmsi": "477886300",
       "name": "OOCL PIRAEUS",
       "category": "unknown",
-      "lat": 1.2179233333333335,
-      "lon": 103.79858333333333,
-      "speedKmh": 13.7,
-      "heading": 297.9,
-      "reportedAt": "2026-10-31T19:01:35.031948+00:00"
+      "lat": 1.25926,
+      "lon": 103.78913333333334,
+      "speedKmh": 0.7,
+      "heading": 11.8,
+      "reportedAt": "2026-10-31T19:46:03.506862+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +396,78 @@
       "speedKmh": 5.0,
       "heading": 3.6,
       "reportedAt": "2026-10-31T19:31:46.375793+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565662000",
+      "mmsi": "565662000",
+      "name": "MARMORIS",
+      "category": "unknown",
+      "lat": 1.227165,
+      "lon": 103.86744666666667,
+      "speedKmh": 7.8,
+      "heading": 356.9,
+      "reportedAt": "2026-10-31T19:45:42.368814+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "unknown",
+      "lat": 1.2322133333333334,
+      "lon": 103.81285333333334,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-10-31T19:45:58.412888+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019990",
+      "mmsi": "636019990",
+      "name": "SOLAR TINE",
+      "category": "unknown",
+      "lat": 1.2322366666666666,
+      "lon": 103.80216666666666,
+      "speedKmh": 0.0,
+      "heading": 35.8,
+      "reportedAt": "2026-10-31T19:46:12.550490+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477159500",
+      "mmsi": "477159500",
+      "name": "NEW EMINENCE",
+      "category": "unknown",
+      "lat": 1.1695883333333332,
+      "lon": 103.79853333333334,
+      "speedKmh": 18.0,
+      "heading": 59.1,
+      "reportedAt": "2026-10-31T19:46:13.509298+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2825516666666668,
+      "lon": 103.91641833333333,
+      "speedKmh": 0.0,
+      "heading": 187.2,
+      "reportedAt": "2026-10-31T19:46:13.942950+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566241000",
+      "mmsi": "566241000",
+      "name": "VANDA SUCCESS",
+      "category": "unknown",
+      "lat": 1.26223,
+      "lon": 103.76459166666667,
+      "speedKmh": 15.2,
+      "heading": 310.5,
+      "reportedAt": "2026-10-31T19:46:21.652665+00:00"
     }
   ],
   "error": null
