@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T03:16:40.722108+00:00",
+  "updatedAt": "2026-10-31T03:31:46.710366+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": 154,
       "reportedAt": "2026-10-31T02:15:40.213433+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "256936000",
-      "mmsi": "256936000",
-      "name": "RARAKA",
-      "category": "unknown",
-      "lat": 1.2110316666666667,
-      "lon": 103.88228833333332,
-      "speedKmh": 21.1,
-      "heading": 242.9,
-      "reportedAt": "2026-10-31T02:01:21.179941+00:00"
     },
     {
       "kind": "ship",
@@ -87,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "311001666",
-      "mmsi": "311001666",
-      "name": "STAR VOYAGER",
-      "category": "unknown",
-      "lat": 1.2303,
-      "lon": 103.91939333333333,
-      "speedKmh": 21.1,
-      "heading": 249.6,
-      "reportedAt": "2026-10-31T02:01:15.111173+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563079600",
-      "mmsi": "563079600",
-      "name": "STRAITS GRACIOUS",
-      "category": "unknown",
-      "lat": 1.2953533333333334,
-      "lon": 103.93176833333334,
-      "speedKmh": 0.0,
-      "heading": 351.5,
-      "reportedAt": "2026-10-31T02:01:44.967904+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563269100",
       "mmsi": "563269100",
       "name": "STELLAR OF MAJESTIC",
@@ -120,18 +84,6 @@
       "speedKmh": 28.7,
       "heading": 95.2,
       "reportedAt": "2026-10-31T02:15:56.627497+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563002840",
-      "mmsi": "563002840",
-      "name": "WAVEMASTER 5",
-      "category": "unknown",
-      "lat": 1.259935,
-      "lon": 103.80392333333333,
-      "speedKmh": 26.7,
-      "heading": 217.4,
-      "reportedAt": "2026-10-31T02:01:46.308964+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +103,11 @@
       "mmsi": "374022000",
       "name": "MARVEL HERON",
       "category": "unknown",
-      "lat": 1.2248983333333332,
-      "lon": 103.90868,
-      "speedKmh": 21.1,
-      "heading": 242.1,
-      "reportedAt": "2026-10-31T02:16:31.816034+00:00"
+      "lat": 1.1483016666666666,
+      "lon": 103.70769833333334,
+      "speedKmh": 18.9,
+      "heading": 297.1,
+      "reportedAt": "2026-10-31T03:31:41.655770+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +283,11 @@
       "mmsi": "219760000",
       "name": "219760000",
       "category": "unknown",
-      "lat": 1.2323683333333333,
-      "lon": 103.93899833333333,
-      "speedKmh": 12.8,
-      "heading": 52.5,
-      "reportedAt": "2026-10-31T03:15:48.135351+00:00"
+      "lat": 1.2541533333333335,
+      "lon": 103.94176666666667,
+      "speedKmh": 8.7,
+      "heading": 338.9,
+      "reportedAt": "2026-10-31T03:31:14.621300+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +360,78 @@
       "speedKmh": 13.9,
       "heading": 239.1,
       "reportedAt": "2026-10-31T03:16:26.938176+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255803760",
+      "mmsi": "255803760",
+      "name": "MSC GREENWICH",
+      "category": "unknown",
+      "lat": 1.2178433333333334,
+      "lon": 103.79656166666668,
+      "speedKmh": 21.3,
+      "heading": 136,
+      "reportedAt": "2026-10-31T03:30:54.771825+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563230100",
+      "mmsi": "563230100",
+      "name": "UNITY OF MAJESTIC",
+      "category": "unknown",
+      "lat": 1.2618333333333331,
+      "lon": 103.82193000000001,
+      "speedKmh": 0.6,
+      "heading": 265.4,
+      "reportedAt": "2026-10-31T03:31:21.003234+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566886000",
+      "mmsi": "566886000",
+      "name": "WAN HAI 516",
+      "category": "unknown",
+      "lat": 1.237465,
+      "lon": 103.98870333333333,
+      "speedKmh": 25.2,
+      "heading": 84.4,
+      "reportedAt": "2026-10-31T03:31:24.934438+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636093110",
+      "mmsi": "636093110",
+      "name": "THE WHALE SHARK",
+      "category": "unknown",
+      "lat": 1.2397016666666665,
+      "lon": 103.78281166666667,
+      "speedKmh": 19.8,
+      "heading": 197.8,
+      "reportedAt": "2026-10-31T03:31:26.178964+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563079600",
+      "mmsi": "563079600",
+      "name": "STRAITS GRACIOUS",
+      "category": "unknown",
+      "lat": 1.2955283333333334,
+      "lon": 103.93173833333334,
+      "speedKmh": 0.0,
+      "heading": 108.6,
+      "reportedAt": "2026-10-31T03:31:32.384423+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311001666",
+      "mmsi": "311001666",
+      "name": "STAR VOYAGER",
+      "category": "unknown",
+      "lat": 1.2615900000000002,
+      "lon": 103.81596333333333,
+      "speedKmh": 3.3,
+      "heading": 104.7,
+      "reportedAt": "2026-10-31T03:31:43.815937+00:00"
     }
   ],
   "error": null
