@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T05:16:39.911469+00:00",
+  "updatedAt": "2026-10-31T05:31:47.731149+00:00",
   "items": [
     {
       "kind": "ship",
@@ -115,23 +115,11 @@
       "mmsi": "565688000",
       "name": "KOTA NAZIM",
       "category": "unknown",
-      "lat": 1.2627166666666667,
-      "lon": 103.83788333333334,
+      "lat": 1.2625333333333333,
+      "lon": 103.8379,
       "speedKmh": 0.0,
-      "heading": 208,
-      "reportedAt": "2026-10-31T05:16:13.384911+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636022828",
-      "mmsi": "636022828",
-      "name": "UNIVERSAL FRONTIER",
-      "category": "unknown",
-      "lat": 1.2101416666666667,
-      "lon": 103.89769333333334,
-      "speedKmh": 18.7,
-      "heading": 74,
-      "reportedAt": "2026-10-31T04:00:42.663312+00:00"
+      "heading": 45,
+      "reportedAt": "2026-10-31T05:31:13.521199+00:00"
     },
     {
       "kind": "ship",
@@ -144,66 +132,6 @@
       "speedKmh": 16.3,
       "heading": 44.1,
       "reportedAt": "2026-10-31T05:01:19.267479+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563251100",
-      "mmsi": "563251100",
-      "name": "EM NIKITA",
-      "category": "unknown",
-      "lat": 1.2381516666666668,
-      "lon": 103.775445,
-      "speedKmh": 11.5,
-      "heading": 130.7,
-      "reportedAt": "2026-10-31T04:01:02.430741+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566994000",
-      "mmsi": "566994000",
-      "name": "QUEEN STAR 3",
-      "category": "unknown",
-      "lat": 1.26164,
-      "lon": 103.81575,
-      "speedKmh": 8.5,
-      "heading": 288.8,
-      "reportedAt": "2026-10-31T04:01:03.420849+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "228477600",
-      "mmsi": "228477600",
-      "name": "CMA CGM PETRA",
-      "category": "unknown",
-      "lat": 1.158205,
-      "lon": 103.74971833333333,
-      "speedKmh": 0.0,
-      "heading": 201.2,
-      "reportedAt": "2026-10-31T04:01:04.015585+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119038",
-      "mmsi": "525119038",
-      "name": "PRIMA TANGGUH LVI",
-      "category": "unknown",
-      "lat": 1.2284,
-      "lon": 103.81158,
-      "speedKmh": 0.0,
-      "heading": 273.1,
-      "reportedAt": "2026-10-31T04:01:16.720480+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477406000",
-      "mmsi": "477406000",
-      "name": "UNI ACCORD",
-      "category": "unknown",
-      "lat": 1.2101166666666667,
-      "lon": 103.80275,
-      "speedKmh": 13.7,
-      "heading": 132,
-      "reportedAt": "2026-10-31T04:01:26.801111+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +223,11 @@
       "mmsi": "352006950",
       "name": "SWAN GLORY",
       "category": "unknown",
-      "lat": 1.249665,
-      "lon": 103.79542166666667,
+      "lat": 1.2497333333333331,
+      "lon": 103.79499166666666,
       "speedKmh": 0.0,
       "heading": 75.2,
-      "reportedAt": "2026-10-31T04:16:09.535453+00:00"
+      "reportedAt": "2026-10-31T05:31:11.208991+00:00"
     },
     {
       "kind": "ship",
@@ -475,11 +403,11 @@
       "mmsi": "255915779",
       "name": "ESL NINGBO",
       "category": "unknown",
-      "lat": 1.1708016666666665,
-      "lon": 103.82659833333334,
-      "speedKmh": 13.9,
-      "heading": 59.6,
-      "reportedAt": "2026-10-31T05:15:27.101828+00:00"
+      "lat": 1.1918250000000001,
+      "lon": 103.87371333333334,
+      "speedKmh": 17.0,
+      "heading": 72,
+      "reportedAt": "2026-10-31T05:31:42.521672+00:00"
     },
     {
       "kind": "ship",
@@ -576,6 +504,66 @@
       "speedKmh": 0.0,
       "heading": 59.1,
       "reportedAt": "2026-10-31T05:16:38.841939+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563251100",
+      "mmsi": "563251100",
+      "name": "EM NIKITA",
+      "category": "unknown",
+      "lat": 1.2585783333333334,
+      "lon": 103.895565,
+      "speedKmh": 13.9,
+      "heading": 41.4,
+      "reportedAt": "2026-10-31T05:30:51.619441+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566155000",
+      "mmsi": "566155000",
+      "name": "QUEEN STAR 1",
+      "category": "unknown",
+      "lat": 1.2597616666666667,
+      "lon": 103.80433500000001,
+      "speedKmh": 28.5,
+      "heading": 213.3,
+      "reportedAt": "2026-10-31T05:31:00.136440+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525901098",
+      "mmsi": "525901098",
+      "name": "TB WAHANA 2025",
+      "category": "unknown",
+      "lat": 1.22794,
+      "lon": 103.78270333333333,
+      "speedKmh": 7.0,
+      "heading": 148.1,
+      "reportedAt": "2026-10-31T05:31:08.687077+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525100552",
+      "mmsi": "525100552",
+      "name": "SELATAN DAMAI",
+      "category": "unknown",
+      "lat": 1.263905,
+      "lon": 103.83548833333333,
+      "speedKmh": 0.0,
+      "heading": 325.1,
+      "reportedAt": "2026-10-31T05:31:37.451403+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563015600",
+      "mmsi": "563015600",
+      "name": "WINNING RICH",
+      "category": "unknown",
+      "lat": 1.1658333333333333,
+      "lon": 103.79296666666667,
+      "speedKmh": 7.6,
+      "heading": 55,
+      "reportedAt": "2026-10-31T05:31:40.160459+00:00"
     }
   ],
   "error": null
