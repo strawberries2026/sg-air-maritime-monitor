@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:31:49.423224+00:00",
+  "updatedAt": "2026-10-31T17:46:42.122671+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "538011338",
-      "mmsi": "538011338",
-      "name": "OSLO STAR",
-      "category": "unknown",
-      "lat": 1.2635933333333333,
-      "lon": 103.76324166666667,
-      "speedKmh": 17.0,
-      "heading": 302.3,
-      "reportedAt": "2026-10-31T16:01:53.010058+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563180600",
-      "mmsi": "563180600",
-      "name": "MARINE DYNAMO",
-      "category": "unknown",
-      "lat": 1.1983433333333333,
-      "lon": 103.7415,
-      "speedKmh": 0.0,
-      "heading": 296.7,
-      "reportedAt": "2026-10-31T16:15:55.897243+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563328300",
       "mmsi": "563328300",
       "name": "STRAITS WISDOM",
@@ -75,42 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "566007000",
-      "mmsi": "566007000",
-      "name": "ENERGETIC",
-      "category": "unknown",
-      "lat": 1.179875,
-      "lon": 103.80203833333333,
-      "speedKmh": 12.8,
-      "heading": 248.8,
-      "reportedAt": "2026-10-31T16:01:51.817306+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440091000",
-      "mmsi": "440091000",
-      "name": "HOPE MANN",
-      "category": "unknown",
-      "lat": 1.1926666666666668,
-      "lon": 103.8471,
-      "speedKmh": 21.9,
-      "heading": 242,
-      "reportedAt": "2026-10-31T16:15:38.928603+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219179000",
-      "mmsi": "219179000",
-      "name": "MAERSK TRIESTE",
-      "category": "unknown",
-      "lat": 1.2232100000000001,
-      "lon": 103.80156333333333,
-      "speedKmh": 0.2,
-      "heading": 50.3,
-      "reportedAt": "2026-10-31T16:15:41.614201+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "477892100",
       "mmsi": "477892100",
       "name": "PACIFIC ENERGY",
@@ -120,18 +60,6 @@
       "speedKmh": 19.3,
       "heading": 253,
       "reportedAt": "2026-10-31T16:31:27.989464+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636019990",
-      "mmsi": "636019990",
-      "name": "SOLAR TINE",
-      "category": "unknown",
-      "lat": 1.2277449999999999,
-      "lon": 103.79818166666668,
-      "speedKmh": 8.0,
-      "heading": 99.1,
-      "reportedAt": "2026-10-31T16:16:23.605056+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +151,11 @@
       "mmsi": "477716100",
       "name": "EVER OASIS",
       "category": "unknown",
-      "lat": 1.211485,
-      "lon": 103.808485,
-      "speedKmh": 14.4,
-      "heading": 290.6,
-      "reportedAt": "2026-10-31T17:17:50.171132+00:00"
+      "lat": 1.24889,
+      "lon": 103.78881166666666,
+      "speedKmh": 7.2,
+      "heading": 11.5,
+      "reportedAt": "2026-10-31T17:46:11.137388+00:00"
     },
     {
       "kind": "ship",
@@ -312,6 +240,66 @@
       "speedKmh": 12.4,
       "heading": 247.8,
       "reportedAt": "2026-10-31T17:31:12.222908+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525100908",
+      "mmsi": "525100908",
+      "name": "TB.MING SING",
+      "category": "unknown",
+      "lat": 0.3031466666666667,
+      "lon": 104.82296166666667,
+      "speedKmh": 4.1,
+      "heading": 342,
+      "reportedAt": "2026-10-31T17:45:43.669191+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087010",
+      "mmsi": "563087010",
+      "name": "PSA PEGASUS",
+      "category": "unknown",
+      "lat": 1.2617716666666667,
+      "lon": 103.790925,
+      "speedKmh": 0.4,
+      "heading": 271.7,
+      "reportedAt": "2026-10-31T17:45:43.848382+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563060100",
+      "mmsi": "563060100",
+      "name": "PSA HULK CS04",
+      "category": "unknown",
+      "lat": 1.2580433333333334,
+      "lon": 103.84246,
+      "speedKmh": 0.0,
+      "heading": 271.8,
+      "reportedAt": "2026-10-31T17:46:10.728881+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533133199",
+      "mmsi": "533133199",
+      "name": "533133199",
+      "category": "unknown",
+      "lat": 0.3100233333333334,
+      "lon": 104.84778333333334,
+      "speedKmh": 11.1,
+      "heading": 316.7,
+      "reportedAt": "2026-10-31T17:46:14.029103+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275700",
+      "mmsi": "563275700",
+      "name": "MARINA AMETHYST",
+      "category": "unknown",
+      "lat": 1.260795,
+      "lon": 103.85101,
+      "speedKmh": 0.0,
+      "heading": 28.5,
+      "reportedAt": "2026-10-31T17:46:24.216568+00:00"
     }
   ],
   "error": null
