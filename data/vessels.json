@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T18:01:53.477057+00:00",
+  "updatedAt": "2026-10-31T18:16:40.470853+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "413142000",
-      "mmsi": "413142000",
-      "name": "XIN HUANG PU",
-      "category": "unknown",
-      "lat": 1.2648733333333333,
-      "lon": 103.775745,
-      "speedKmh": 0.6,
-      "heading": 184.4,
-      "reportedAt": "2026-10-31T16:46:00.039472+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566623000",
       "mmsi": "566623000",
       "name": "RESOLUTE NN24",
@@ -36,30 +24,6 @@
       "speedKmh": 0.2,
       "heading": 209.3,
       "reportedAt": "2026-10-31T17:16:37.731070+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563036620",
-      "mmsi": "563036620",
-      "name": "PILOT GP01",
-      "category": "unknown",
-      "lat": 1.231495,
-      "lon": 103.80467333333333,
-      "speedKmh": 8.0,
-      "heading": 76.9,
-      "reportedAt": "2026-10-31T16:45:42.938145+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "357332000",
-      "mmsi": "357332000",
-      "name": "MSC REGINA",
-      "category": "unknown",
-      "lat": 1.1699,
-      "lon": 103.806275,
-      "speedKmh": 24.4,
-      "heading": 68.7,
-      "reportedAt": "2026-10-31T16:46:39.558033+00:00"
     },
     {
       "kind": "ship",
@@ -103,11 +67,11 @@
       "mmsi": "477716100",
       "name": "EVER OASIS",
       "category": "unknown",
-      "lat": 1.2594433333333332,
-      "lon": 103.792575,
-      "speedKmh": 3.9,
-      "heading": 10.7,
-      "reportedAt": "2026-10-31T18:00:52.135948+00:00"
+      "lat": 1.2630249999999998,
+      "lon": 103.79351,
+      "speedKmh": 0.2,
+      "heading": 314,
+      "reportedAt": "2026-10-31T18:15:40.972552+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +288,42 @@
       "speedKmh": 0.0,
       "heading": 331,
       "reportedAt": "2026-10-31T18:01:30.716916+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "314074000",
+      "mmsi": "314074000",
+      "name": "TITAN HARMONY",
+      "category": "unknown",
+      "lat": 1.22334,
+      "lon": 103.79472666666668,
+      "speedKmh": 13.1,
+      "heading": 329.7,
+      "reportedAt": "2026-10-31T18:16:33.114244+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563328600",
+      "mmsi": "563328600",
+      "name": "PEARL OASIS",
+      "category": "unknown",
+      "lat": 1.2268866666666667,
+      "lon": 103.78590166666666,
+      "speedKmh": 17.6,
+      "heading": 140.4,
+      "reportedAt": "2026-10-31T18:15:37.354637+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563233400",
+      "mmsi": "563233400",
+      "name": "PEARL  LEGACY",
+      "category": "unknown",
+      "lat": 1.2045283333333332,
+      "lon": 103.84387166666667,
+      "speedKmh": 11.7,
+      "heading": 69.8,
+      "reportedAt": "2026-10-31T18:15:53.614349+00:00"
     }
   ],
   "error": null
