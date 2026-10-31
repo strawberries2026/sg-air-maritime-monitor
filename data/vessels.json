@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T17:01:59.428585+00:00",
+  "updatedAt": "2026-10-31T17:16:40.092569+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "636026549",
-      "mmsi": "636026549",
-      "name": "NAVE POLARIS",
-      "category": "unknown",
-      "lat": 1.2165016666666666,
-      "lon": 103.86747666666666,
-      "speedKmh": 14.6,
-      "heading": 46.8,
-      "reportedAt": "2026-10-31T15:45:37.079969+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -72,18 +60,6 @@
       "speedKmh": 17.0,
       "heading": 302.3,
       "reportedAt": "2026-10-31T16:01:53.010058+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538003024",
-      "mmsi": "538003024",
-      "name": "CLEAN THRASHER",
-      "category": "unknown",
-      "lat": 1.1775166666666665,
-      "lon": 103.83486666666666,
-      "speedKmh": 13.0,
-      "heading": 65,
-      "reportedAt": "2026-10-31T15:46:15.604373+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +187,11 @@
       "mmsi": "566623000",
       "name": "RESOLUTE NN24",
       "category": "unknown",
-      "lat": 1.2619183333333335,
-      "lon": 103.845405,
-      "speedKmh": 0.0,
-      "heading": 205.5,
-      "reportedAt": "2026-10-31T16:46:18.999329+00:00"
+      "lat": 1.261895,
+      "lon": 103.84544333333334,
+      "speedKmh": 0.2,
+      "heading": 209.3,
+      "reportedAt": "2026-10-31T17:16:37.731070+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +252,54 @@
       "speedKmh": 14.6,
       "heading": 57.4,
       "reportedAt": "2026-10-31T17:01:36.119532+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563129100",
+      "mmsi": "563129100",
+      "name": "BRASSAVOLA",
+      "category": "unknown",
+      "lat": 1.1756533333333332,
+      "lon": 103.75606166666667,
+      "speedKmh": 0.0,
+      "heading": 109.1,
+      "reportedAt": "2026-10-31T17:15:31.182525+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477716100",
+      "mmsi": "477716100",
+      "name": "EVER OASIS",
+      "category": "unknown",
+      "lat": 1.2104683333333335,
+      "lon": 103.81162666666667,
+      "speedKmh": 15.6,
+      "heading": 286.5,
+      "reportedAt": "2026-10-31T17:16:21.271236+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636024758",
+      "mmsi": "636024758",
+      "name": "AL KHEESAH",
+      "category": "unknown",
+      "lat": 1.1634416666666667,
+      "lon": 103.757085,
+      "speedKmh": 0.2,
+      "heading": 27.8,
+      "reportedAt": "2026-10-31T17:16:37.245223+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "373344000",
+      "mmsi": "373344000",
+      "name": "DIANTHUS",
+      "category": "unknown",
+      "lat": 1.2465016666666666,
+      "lon": 103.87637333333333,
+      "speedKmh": 8.5,
+      "heading": 22.7,
+      "reportedAt": "2026-10-31T17:16:38.274163+00:00"
     }
   ],
   "error": null
