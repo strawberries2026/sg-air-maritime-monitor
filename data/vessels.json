@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T13:01:57.134675+00:00",
+  "updatedAt": "2026-10-31T13:16:41.246918+00:00",
   "items": [
     {
       "kind": "ship",
@@ -156,6 +156,18 @@
       "speedKmh": 12.4,
       "heading": 145.6,
       "reportedAt": "2026-10-31T12:46:22.576981+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533110714",
+      "mmsi": "533110714",
+      "name": "HERA",
+      "category": "unknown",
+      "lat": 1.24043,
+      "lon": 103.80391,
+      "speedKmh": 0.0,
+      "heading": 4.4,
+      "reportedAt": "2026-10-31T13:16:06.976323+00:00"
     }
   ],
   "error": null
