@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T06:16:42.015007+00:00",
+  "updatedAt": "2026-10-31T06:31:46.815450+00:00",
   "items": [
     {
       "kind": "ship",
@@ -60,18 +60,6 @@
       "speedKmh": 0.2,
       "heading": 268,
       "reportedAt": "2026-10-31T06:01:13.551757+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565823000",
-      "mmsi": "565823000",
-      "name": "MARINE JEWEL",
-      "category": "unknown",
-      "lat": 1.26303,
-      "lon": 103.92027666666667,
-      "speedKmh": 16.3,
-      "heading": 44.1,
-      "reportedAt": "2026-10-31T05:01:19.267479+00:00"
     },
     {
       "kind": "ship",
@@ -159,18 +147,6 @@
     },
     {
       "kind": "ship",
-      "id": "566824000",
-      "mmsi": "566824000",
-      "name": "FRONTEK",
-      "category": "unknown",
-      "lat": 1.2237816666666668,
-      "lon": 103.87229666666667,
-      "speedKmh": 7.6,
-      "heading": 35.6,
-      "reportedAt": "2026-10-31T05:01:39.853369+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "255915779",
       "mmsi": "255915779",
       "name": "ESL NINGBO",
@@ -235,11 +211,11 @@
       "mmsi": "533000981",
       "name": "POWER JME 11",
       "category": "unknown",
-      "lat": 1.2523633333333335,
-      "lon": 103.86757666666668,
-      "speedKmh": 0.2,
-      "heading": 23.4,
-      "reportedAt": "2026-10-31T05:15:50.400259+00:00"
+      "lat": 1.2527783333333333,
+      "lon": 103.86735833333334,
+      "speedKmh": 0.7,
+      "heading": 54.1,
+      "reportedAt": "2026-10-31T06:31:13.154675+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +307,11 @@
       "mmsi": "563015600",
       "name": "WINNING RICH",
       "category": "unknown",
-      "lat": 1.1658333333333333,
-      "lon": 103.79296666666667,
-      "speedKmh": 7.6,
-      "heading": 55,
-      "reportedAt": "2026-10-31T05:31:40.160459+00:00"
+      "lat": 1.1948666666666665,
+      "lon": 103.86083333333333,
+      "speedKmh": 8.7,
+      "heading": 59,
+      "reportedAt": "2026-10-31T06:31:40.929319+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +391,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.2755933333333334,
-      "lon": 103.91587,
-      "speedKmh": 5.0,
-      "heading": 336.9,
-      "reportedAt": "2026-10-31T06:15:55.581740+00:00"
+      "lat": 1.2823300000000002,
+      "lon": 103.916865,
+      "speedKmh": 1.3,
+      "heading": 271.9,
+      "reportedAt": "2026-10-31T06:31:34.266123+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +439,11 @@
       "mmsi": "538009316",
       "name": "GOOBY",
       "category": "unknown",
-      "lat": 1.2745333333333333,
-      "lon": 103.88283666666666,
-      "speedKmh": 1.1,
-      "heading": 237.9,
-      "reportedAt": "2026-10-31T06:01:11.738079+00:00"
+      "lat": 1.2740416666666665,
+      "lon": 103.88265166666666,
+      "speedKmh": 0.4,
+      "heading": 91.6,
+      "reportedAt": "2026-10-31T06:31:11.127998+00:00"
     },
     {
       "kind": "ship",
@@ -732,6 +708,114 @@
       "speedKmh": 12.4,
       "heading": 336,
       "reportedAt": "2026-10-31T06:16:02.383210+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563320800",
+      "mmsi": "563320800",
+      "name": "IGAN",
+      "category": "unknown",
+      "lat": 1.2225983333333335,
+      "lon": 103.78877000000001,
+      "speedKmh": 17.4,
+      "heading": 134.4,
+      "reportedAt": "2026-10-31T06:30:35.851710+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563070140",
+      "mmsi": "563070140",
+      "name": "PSA TAURUS YS52",
+      "category": "unknown",
+      "lat": 1.2430683333333334,
+      "lon": 103.78334166666667,
+      "speedKmh": null,
+      "heading": null,
+      "reportedAt": "2026-10-31T06:30:44.172851+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016179",
+      "mmsi": "636016179",
+      "name": "BOX ENDEAVOUR",
+      "category": "unknown",
+      "lat": 1.2405233333333332,
+      "lon": 103.94202166666668,
+      "speedKmh": 14.1,
+      "heading": 255.6,
+      "reportedAt": "2026-10-31T06:30:49.117899+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.275515,
+      "lon": 103.90507666666667,
+      "speedKmh": 0.2,
+      "heading": 20.9,
+      "reportedAt": "2026-10-31T06:30:59.478976+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533130035",
+      "mmsi": "533130035",
+      "name": "533130035",
+      "category": "unknown",
+      "lat": 1.2609433333333333,
+      "lon": 103.80763833333334,
+      "speedKmh": 9.1,
+      "heading": 86.8,
+      "reportedAt": "2026-10-31T06:31:00.632308+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2192,
+      "lon": 103.80221666666667,
+      "speedKmh": 0.0,
+      "heading": 333.4,
+      "reportedAt": "2026-10-31T06:31:03.032405+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "228477600",
+      "mmsi": "228477600",
+      "name": "CMA CGM PETRA",
+      "category": "unknown",
+      "lat": 1.1593683333333333,
+      "lon": 103.74973833333334,
+      "speedKmh": 0.0,
+      "heading": 0.4,
+      "reportedAt": "2026-10-31T06:31:03.135916+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563083200",
+      "mmsi": "563083200",
+      "name": "THERESA II",
+      "category": "unknown",
+      "lat": 1.2142866666666667,
+      "lon": 103.89015166666667,
+      "speedKmh": 21.5,
+      "heading": 245.8,
+      "reportedAt": "2026-10-31T06:31:09.744189+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636024966",
+      "mmsi": "636024966",
+      "name": "NORTHERN GUARD",
+      "category": "unknown",
+      "lat": 1.23895,
+      "lon": 103.7794,
+      "speedKmh": 14.3,
+      "heading": 146,
+      "reportedAt": "2026-10-31T06:31:38.358023+00:00"
     }
   ],
   "error": null
