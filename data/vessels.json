@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T16:46:44.402180+00:00",
+  "updatedAt": "2026-10-31T17:01:59.428585+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,30 +24,6 @@
       "speedKmh": 0.6,
       "heading": 184.4,
       "reportedAt": "2026-10-31T16:46:00.039472+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "621819063",
-      "mmsi": "621819063",
-      "name": "KITAKAZE",
-      "category": "unknown",
-      "lat": 1.1982050000000002,
-      "lon": 103.85842333333333,
-      "speedKmh": 15.7,
-      "heading": 242,
-      "reportedAt": "2026-10-31T15:31:09.516740+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119038",
-      "mmsi": "525119038",
-      "name": "PRIMA TANGGUH LVI",
-      "category": "unknown",
-      "lat": 1.2269966666666667,
-      "lon": 103.81485666666667,
-      "speedKmh": 0.0,
-      "heading": 242.4,
-      "reportedAt": "2026-10-31T15:31:17.558225+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +252,30 @@
       "speedKmh": 24.4,
       "heading": 68.7,
       "reportedAt": "2026-10-31T16:46:39.558033+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525110824",
+      "mmsi": "525110824",
+      "name": "MTS 123",
+      "category": "unknown",
+      "lat": 1.2614316666666667,
+      "lon": 103.839125,
+      "speedKmh": 0.4,
+      "heading": 138.4,
+      "reportedAt": "2026-10-31T17:01:04.219583+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "210364000",
+      "mmsi": "210364000",
+      "name": "FYLA",
+      "category": "unknown",
+      "lat": 1.1499866666666667,
+      "lon": 103.78467500000001,
+      "speedKmh": 14.6,
+      "heading": 57.4,
+      "reportedAt": "2026-10-31T17:01:36.119532+00:00"
     }
   ],
   "error": null
