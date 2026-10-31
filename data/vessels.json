@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:16:40.625104+00:00",
+  "updatedAt": "2026-10-31T11:31:49.365760+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2188666666666668,
-      "lon": 103.80637666666667,
-      "speedKmh": 0.0,
-      "heading": 307.7,
-      "reportedAt": "2026-10-31T10:01:03.040990+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564759000",
       "mmsi": "564759000",
       "name": "I MOLA",
@@ -39,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "366846000",
-      "mmsi": "366846000",
-      "name": "OVERSEAS MYKONOS",
-      "category": "unknown",
-      "lat": 1.28559,
-      "lon": 103.93951999999999,
-      "speedKmh": 6.1,
-      "heading": 298.2,
-      "reportedAt": "2026-10-31T10:00:43.733403+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "219179000",
       "mmsi": "219179000",
       "name": "MAERSK TRIESTE",
@@ -60,18 +36,6 @@
       "speedKmh": 8.0,
       "heading": 328.6,
       "reportedAt": "2026-10-31T10:46:40.922604+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563269100",
-      "mmsi": "563269100",
-      "name": "STELLAR OF MAJESTIC",
-      "category": "unknown",
-      "lat": 1.2611083333333333,
-      "lon": 103.81199166666667,
-      "speedKmh": 11.1,
-      "heading": 95.5,
-      "reportedAt": "2026-10-31T10:01:02.250044+00:00"
     },
     {
       "kind": "ship",
@@ -115,11 +79,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2824733333333334,
-      "lon": 103.89190333333333,
-      "speedKmh": 0.0,
+      "lat": 1.2826033333333333,
+      "lon": 103.891975,
+      "speedKmh": 0.2,
       "heading": null,
-      "reportedAt": "2026-10-31T11:01:14.516862+00:00"
+      "reportedAt": "2026-10-31T11:30:57.471986+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +223,11 @@
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
       "category": "unknown",
-      "lat": 1.2286783333333333,
-      "lon": 103.86828999999999,
-      "speedKmh": 5.0,
-      "heading": 14.6,
-      "reportedAt": "2026-10-31T11:01:16.124832+00:00"
+      "lat": 1.2485833333333334,
+      "lon": 103.86042666666667,
+      "speedKmh": 4.6,
+      "heading": 287.3,
+      "reportedAt": "2026-10-31T11:30:37.684079+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +264,30 @@
       "speedKmh": 20.2,
       "heading": 243.8,
       "reportedAt": "2026-10-31T11:16:00.285831+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565358000",
+      "mmsi": "565358000",
+      "name": "STRAITS ABUNDANCE",
+      "category": "unknown",
+      "lat": 1.2603416666666667,
+      "lon": 103.90476833333334,
+      "speedKmh": 1.1,
+      "heading": 301.1,
+      "reportedAt": "2026-10-31T11:31:03.655220+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564034000",
+      "mmsi": "564034000",
+      "name": "MERLION 8",
+      "category": "unknown",
+      "lat": 1.2533816666666666,
+      "lon": 103.87852,
+      "speedKmh": 0.2,
+      "heading": 87.8,
+      "reportedAt": "2026-10-31T11:31:41.708582+00:00"
     }
   ],
   "error": null
