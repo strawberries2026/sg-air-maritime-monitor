@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T11:46:50.707515+00:00",
+  "updatedAt": "2026-10-31T12:01:55.326719+00:00",
   "items": [
     {
       "kind": "ship",
@@ -48,42 +48,6 @@
       "speedKmh": 0.2,
       "heading": null,
       "reportedAt": "2026-10-31T11:30:57.471986+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "376279000",
-      "mmsi": "376279000",
-      "name": "BEN NEVIS",
-      "category": "unknown",
-      "lat": 1.2789683333333335,
-      "lon": 103.88156666666667,
-      "speedKmh": 0.2,
-      "heading": 320.7,
-      "reportedAt": "2026-10-31T10:31:02.697927+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563233400",
-      "mmsi": "563233400",
-      "name": "PEARL  LEGACY",
-      "category": "unknown",
-      "lat": 1.2279449999999998,
-      "lon": 103.79497500000001,
-      "speedKmh": 13.0,
-      "heading": 322.3,
-      "reportedAt": "2026-10-31T10:31:10.750425+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565243000",
-      "mmsi": "565243000",
-      "name": "AYER CHOMEL",
-      "category": "unknown",
-      "lat": 1.24899,
-      "lon": 103.80264333333334,
-      "speedKmh": 0.2,
-      "heading": 26.4,
-      "reportedAt": "2026-10-31T10:31:18.718044+00:00"
     },
     {
       "kind": "ship",
@@ -228,6 +192,42 @@
       "speedKmh": 0.0,
       "heading": 278.1,
       "reportedAt": "2026-10-31T11:46:47.105346+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "268240202",
+      "mmsi": "268240202",
+      "name": "H7 SFC1",
+      "category": "unknown",
+      "lat": 1.2796833333333335,
+      "lon": 103.90058333333333,
+      "speedKmh": 0.0,
+      "heading": 259.2,
+      "reportedAt": "2026-10-31T12:00:55.355005+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566010000",
+      "mmsi": "566010000",
+      "name": "ANDROMEDA V",
+      "category": "unknown",
+      "lat": 1.2066716666666666,
+      "lon": 103.87101,
+      "speedKmh": 23.0,
+      "heading": 242,
+      "reportedAt": "2026-10-31T12:01:37.020860+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565015000",
+      "mmsi": "565015000",
+      "name": "REBECCA SCHULTE",
+      "category": "unknown",
+      "lat": 1.243475,
+      "lon": 103.90820166666667,
+      "speedKmh": 14.6,
+      "heading": 224.6,
+      "reportedAt": "2026-10-31T12:01:48.591208+00:00"
     }
   ],
   "error": null
