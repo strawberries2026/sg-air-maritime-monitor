@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T08:01:53.990572+00:00",
+  "updatedAt": "2026-10-31T08:16:51.008916+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "565688000",
       "name": "KOTA NAZIM",
       "category": "unknown",
-      "lat": 1.2625,
-      "lon": 103.83791666666666,
-      "speedKmh": 0.0,
-      "heading": 16,
-      "reportedAt": "2026-10-31T08:01:13.513883+00:00"
+      "lat": 1.26255,
+      "lon": 103.83771666666667,
+      "speedKmh": 0.2,
+      "heading": 298,
+      "reportedAt": "2026-10-31T08:16:13.403156+00:00"
     },
     {
       "kind": "ship",
@@ -48,18 +48,6 @@
       "speedKmh": 0.2,
       "heading": 226.6,
       "reportedAt": "2026-10-31T07:15:39.801343+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563070820",
-      "mmsi": "563070820",
-      "name": "MPA 2",
-      "category": "unknown",
-      "lat": 1.2632733333333335,
-      "lon": 103.8292,
-      "speedKmh": 1.3,
-      "heading": 134.8,
-      "reportedAt": "2026-10-31T06:45:53.893639+00:00"
     },
     {
       "kind": "ship",
@@ -99,18 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563253500",
-      "mmsi": "563253500",
-      "name": "MARINE AZURE",
-      "category": "unknown",
-      "lat": 1.2431416666666666,
-      "lon": 103.78348833333332,
-      "speedKmh": 16.1,
-      "heading": 337,
-      "reportedAt": "2026-10-31T06:46:13.107007+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566210000",
       "mmsi": "566210000",
       "name": "EMISSARY",
@@ -120,18 +96,6 @@
       "speedKmh": 13.3,
       "heading": 30.1,
       "reportedAt": "2026-10-31T07:00:46.493559+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.219325,
-      "lon": 103.80249,
-      "speedKmh": 0.4,
-      "heading": 32,
-      "reportedAt": "2026-10-31T06:46:02.963289+00:00"
     },
     {
       "kind": "ship",
@@ -147,39 +111,15 @@
     },
     {
       "kind": "ship",
-      "id": "566065000",
-      "mmsi": "566065000",
-      "name": "GOLDEN ARANDA",
-      "category": "unknown",
-      "lat": 1.2197466666666665,
-      "lon": 103.86792166666667,
-      "speedKmh": 10.9,
-      "heading": 43.5,
-      "reportedAt": "2026-10-31T06:45:25.224707+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563250100",
       "mmsi": "563250100",
       "name": "PEARL LAVENDER",
       "category": "unknown",
-      "lat": 1.24776,
-      "lon": 103.92573,
-      "speedKmh": 0.4,
-      "heading": 177.6,
-      "reportedAt": "2026-10-31T07:31:02.595433+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566630000",
-      "mmsi": "566630000",
-      "name": "FERESA",
-      "category": "unknown",
-      "lat": 1.2283666666666666,
-      "lon": 103.78760000000001,
-      "speedKmh": 9.4,
-      "heading": 104.2,
-      "reportedAt": "2026-10-31T06:45:48.218655+00:00"
+      "lat": 1.24889,
+      "lon": 103.92771166666667,
+      "speedKmh": 0.7,
+      "heading": 76.2,
+      "reportedAt": "2026-10-31T08:16:13.995041+00:00"
     },
     {
       "kind": "ship",
@@ -192,30 +132,6 @@
       "speedKmh": 8.3,
       "heading": 236.9,
       "reportedAt": "2026-10-31T08:00:57.972370+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563135800",
-      "mmsi": "563135800",
-      "name": "SSF TANIA",
-      "category": "unknown",
-      "lat": 1.2381816666666665,
-      "lon": 103.89256333333333,
-      "speedKmh": 10.4,
-      "heading": 104.3,
-      "reportedAt": "2026-10-31T06:46:04.170866+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533131126",
-      "mmsi": "533131126",
-      "name": "533131126",
-      "category": "unknown",
-      "lat": 1.1933116666666665,
-      "lon": 103.95778166666668,
-      "speedKmh": 5.7,
-      "heading": 234.7,
-      "reportedAt": "2026-10-31T06:46:16.731403+00:00"
     },
     {
       "kind": "ship",
@@ -612,6 +528,102 @@
       "speedKmh": 0.0,
       "heading": 0.2,
       "reportedAt": "2026-10-31T08:01:52.132306+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249937000",
+      "mmsi": "249937000",
+      "name": "ALEGRIA",
+      "category": "unknown",
+      "lat": 1.2761749999999998,
+      "lon": 103.88038,
+      "speedKmh": 0.2,
+      "heading": 341.4,
+      "reportedAt": "2026-10-31T08:15:42.735714+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087310",
+      "mmsi": "563087310",
+      "name": "PSA VELA (NN79)",
+      "category": "unknown",
+      "lat": 1.2463716666666669,
+      "lon": 103.77541333333333,
+      "speedKmh": 12.4,
+      "heading": 91.6,
+      "reportedAt": "2026-10-31T08:15:58.323896+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2189283333333334,
+      "lon": 103.8062,
+      "speedKmh": 0.7,
+      "heading": 37.2,
+      "reportedAt": "2026-10-31T08:16:02.807603+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563098800",
+      "mmsi": "563098800",
+      "name": "MARINE VICKY",
+      "category": "unknown",
+      "lat": 1.2269150000000002,
+      "lon": 103.877365,
+      "speedKmh": 15.0,
+      "heading": 247.2,
+      "reportedAt": "2026-10-31T08:16:27.314103+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "373834000",
+      "mmsi": "373834000",
+      "name": "SEA SHELL",
+      "category": "unknown",
+      "lat": 1.2117083333333334,
+      "lon": 103.79968666666667,
+      "speedKmh": 11.9,
+      "heading": 130.6,
+      "reportedAt": "2026-10-31T08:16:28.356088+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2245199999999998,
+      "lon": 103.80921666666667,
+      "speedKmh": 0.0,
+      "heading": 177,
+      "reportedAt": "2026-10-31T08:16:42.127187+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563070820",
+      "mmsi": "563070820",
+      "name": "MPA 2",
+      "category": "unknown",
+      "lat": 1.2632599999999998,
+      "lon": 103.82915333333334,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-10-31T08:16:43.955909+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636022304",
+      "mmsi": "636022304",
+      "name": "INFINITY AQUILA",
+      "category": "unknown",
+      "lat": 1.275675,
+      "lon": 103.90025333333332,
+      "speedKmh": 0.0,
+      "heading": 115.5,
+      "reportedAt": "2026-10-31T08:16:46.460688+00:00"
     }
   ],
   "error": null
