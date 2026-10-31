@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-10-31T20:16:41.547614+00:00",
+  "updatedAt": "2026-10-31T20:31:30.955654+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735516666666666,
-      "lon": 103.80140166666666,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-10-31T19:01:18.047756+00:00"
-    },
     {
       "kind": "ship",
       "id": "563060100",
@@ -51,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "563180600",
-      "mmsi": "563180600",
-      "name": "MARINE DYNAMO",
-      "category": "unknown",
-      "lat": 1.1978716666666667,
-      "lon": 103.74158666666668,
-      "speedKmh": 0.0,
-      "heading": 143.8,
-      "reportedAt": "2026-10-31T19:00:53.923646+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563333600",
       "mmsi": "563333600",
       "name": "EVER EVEN",
@@ -84,18 +60,6 @@
       "speedKmh": 19.6,
       "heading": 237.9,
       "reportedAt": "2026-10-31T20:01:37.057391+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023755",
-      "mmsi": "636023755",
-      "name": "HANYU FREESIA",
-      "category": "unknown",
-      "lat": 1.183085,
-      "lon": 103.83998333333334,
-      "speedKmh": 21.3,
-      "heading": 75.6,
-      "reportedAt": "2026-10-31T19:00:53.314715+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +396,42 @@
       "speedKmh": 10.2,
       "heading": 33.6,
       "reportedAt": "2026-10-31T20:16:36.369881+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574133000",
+      "mmsi": "574133000",
+      "name": "PETROLIMEX 11",
+      "category": "unknown",
+      "lat": 1.2321016666666667,
+      "lon": 103.80971500000001,
+      "speedKmh": 0.6,
+      "heading": 58.4,
+      "reportedAt": "2026-10-31T20:30:18.415588+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563105900",
+      "mmsi": "563105900",
+      "name": "PSA MARVEL CS05",
+      "category": "unknown",
+      "lat": 1.26762,
+      "lon": 103.77159499999999,
+      "speedKmh": 4.3,
+      "heading": 345.6,
+      "reportedAt": "2026-10-31T20:30:23.151910+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565243000",
+      "mmsi": "565243000",
+      "name": "AYER CHOMEL",
+      "category": "unknown",
+      "lat": 1.2396266666666667,
+      "lon": 103.820445,
+      "speedKmh": 14.8,
+      "heading": 119.5,
+      "reportedAt": "2026-10-31T20:31:22.753432+00:00"
     }
   ],
   "error": null
