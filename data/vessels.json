@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T14:31:46.777895+00:00",
+  "updatedAt": "2026-10-31T14:46:43.628795+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.24043,
-      "lon": 103.80391,
-      "speedKmh": 0.0,
-      "heading": 4.4,
-      "reportedAt": "2026-10-31T13:16:06.976323+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565925000",
       "mmsi": "565925000",
       "name": "HORIZON 7",
@@ -36,6 +24,18 @@
       "speedKmh": 20.4,
       "heading": 332,
       "reportedAt": "2026-10-31T14:16:03.876508+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "511101991",
+      "mmsi": "511101991",
+      "name": "TAN BINH 134",
+      "category": "unknown",
+      "lat": 1.237765,
+      "lon": 103.86467333333333,
+      "speedKmh": 10.4,
+      "heading": 160.8,
+      "reportedAt": "2026-10-31T14:45:34.020094+00:00"
     }
   ],
   "error": null
