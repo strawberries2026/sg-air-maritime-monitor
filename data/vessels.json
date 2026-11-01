@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-11-01T09:01:54.365196+00:00",
+  "updatedAt": "2026-11-01T09:16:39.327032+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563239800",
-      "mmsi": "563239800",
-      "name": "VARANYA BHUM",
-      "category": "unknown",
-      "lat": 1.2639233333333335,
-      "lon": 103.83231500000001,
-      "speedKmh": 0.0,
-      "heading": 280,
-      "reportedAt": "2026-11-01T07:45:39.694438+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "248140000",
-      "mmsi": "248140000",
-      "name": "CAPE ARTEMISIO",
-      "category": "unknown",
-      "lat": 1.2173533333333333,
-      "lon": 103.92035333333334,
-      "speedKmh": 22.6,
-      "heading": 69.8,
-      "reportedAt": "2026-11-01T07:46:29.324543+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538005623",
-      "mmsi": "538005623",
-      "name": "ASTRO VEGA",
-      "category": "unknown",
-      "lat": 1.1919783333333334,
-      "lon": 103.83490666666667,
-      "speedKmh": 16.3,
-      "heading": 246.8,
-      "reportedAt": "2026-11-01T07:45:56.025021+00:00"
-    },
     {
       "kind": "ship",
       "id": "5631101",
@@ -60,42 +24,6 @@
       "speedKmh": 0.2,
       "heading": 235.2,
       "reportedAt": "2026-11-01T08:31:41.722910+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "257552000",
-      "mmsi": "257552000",
-      "name": "VIKING VENUS",
-      "category": "unknown",
-      "lat": 1.1830266666666667,
-      "lon": 103.83429,
-      "speedKmh": 28.0,
-      "heading": 90.2,
-      "reportedAt": "2026-11-01T07:45:53.186879+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566686000",
-      "mmsi": "566686000",
-      "name": "DEMURE",
-      "category": "unknown",
-      "lat": 1.1784533333333334,
-      "lon": 103.75278833333333,
-      "speedKmh": 0.7,
-      "heading": 149.6,
-      "reportedAt": "2026-11-01T07:46:02.302063+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636026667",
-      "mmsi": "636026667",
-      "name": "MOL ENDOWMENT",
-      "category": "unknown",
-      "lat": 1.2323666666666666,
-      "lon": 103.78555,
-      "speedKmh": 15.7,
-      "heading": 145.5,
-      "reportedAt": "2026-11-01T07:46:10.137465+00:00"
     },
     {
       "kind": "ship",
@@ -127,11 +55,11 @@
       "mmsi": "565173000",
       "name": "AYER CHERDEK",
       "category": "unknown",
-      "lat": 1.256955,
-      "lon": 103.84086333333333,
-      "speedKmh": 0.0,
-      "heading": 350,
-      "reportedAt": "2026-11-01T08:31:34.107940+00:00"
+      "lat": 1.2641016666666667,
+      "lon": 103.88041666666666,
+      "speedKmh": 15.9,
+      "heading": 65.6,
+      "reportedAt": "2026-11-01T09:16:24.968337+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +408,66 @@
       "speedKmh": 0.0,
       "heading": 93.6,
       "reportedAt": "2026-11-01T09:01:43.519019+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563239800",
+      "mmsi": "563239800",
+      "name": "VARANYA BHUM",
+      "category": "unknown",
+      "lat": 1.263995,
+      "lon": 103.83222166666665,
+      "speedKmh": 0.0,
+      "heading": 211.9,
+      "reportedAt": "2026-11-01T09:15:38.914588+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636018143",
+      "mmsi": "636018143",
+      "name": "AAL KOBE",
+      "category": "unknown",
+      "lat": 1.2524883333333332,
+      "lon": 103.97569166666668,
+      "speedKmh": 14.6,
+      "heading": 252.3,
+      "reportedAt": "2026-11-01T09:15:46.350023+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563088620",
+      "mmsi": "563088620",
+      "name": "NOVA WAVE",
+      "category": "unknown",
+      "lat": 1.2611400000000001,
+      "lon": 103.80751833333333,
+      "speedKmh": 11.7,
+      "heading": 84.4,
+      "reportedAt": "2026-11-01T09:16:02.689158+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012125",
+      "mmsi": "538012125",
+      "name": "STI MOXIE",
+      "category": "unknown",
+      "lat": 1.2571433333333333,
+      "lon": 103.91446333333333,
+      "speedKmh": 0.0,
+      "heading": 81.7,
+      "reportedAt": "2026-11-01T09:16:06.582199+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525018039",
+      "mmsi": "525018039",
+      "name": "TB BUANA 1302",
+      "category": "unknown",
+      "lat": 1.259625,
+      "lon": 103.84660000000001,
+      "speedKmh": 5.0,
+      "heading": 293.8,
+      "reportedAt": "2026-11-01T09:16:11.083593+00:00"
     }
   ],
   "error": null
