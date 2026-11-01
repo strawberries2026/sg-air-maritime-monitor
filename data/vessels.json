@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:16:43.571888+00:00",
+  "updatedAt": "2026-11-01T04:31:45.839138+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 10.7,
       "heading": 263.7,
       "reportedAt": "2026-11-01T03:46:00.502841+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525114079",
-      "mmsi": "525114079",
-      "name": "KRI TGK 531",
-      "category": "unknown",
-      "lat": 0.8891216666666666,
-      "lon": 104.2954,
-      "speedKmh": 18.0,
-      "heading": 135,
-      "reportedAt": "2026-11-01T03:01:28.240400+00:00"
     },
     {
       "kind": "ship",
@@ -55,11 +43,11 @@
       "mmsi": "533133199",
       "name": "533133199",
       "category": "unknown",
-      "lat": 0.9809983333333334,
-      "lon": 104.18117833333334,
-      "speedKmh": 11.3,
-      "heading": 301.1,
-      "reportedAt": "2026-11-01T04:16:30.044740+00:00"
+      "lat": 0.97995,
+      "lon": 104.15519166666667,
+      "speedKmh": 11.7,
+      "heading": 263.4,
+      "reportedAt": "2026-11-01T04:31:44.944489+00:00"
     },
     {
       "kind": "ship",
@@ -84,30 +72,6 @@
       "speedKmh": 0.0,
       "heading": 39,
       "reportedAt": "2026-11-01T04:01:06.619527+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525100104",
-      "mmsi": "525100104",
-      "name": "525100104",
-      "category": "unknown",
-      "lat": 0.9564050000000001,
-      "lon": 104.268945,
-      "speedKmh": 31.1,
-      "heading": 118,
-      "reportedAt": "2026-11-01T03:01:36.323092+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352005216",
-      "mmsi": "352005216",
-      "name": "HOANG ANH 02",
-      "category": "unknown",
-      "lat": 1.2498466666666666,
-      "lon": 103.80043166666665,
-      "speedKmh": 0.0,
-      "heading": 74.7,
-      "reportedAt": "2026-11-01T03:01:45.565174+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +420,54 @@
       "speedKmh": 19.1,
       "heading": 324.6,
       "reportedAt": "2026-11-01T04:16:35.694429+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2830783333333333,
+      "lon": 103.91610333333333,
+      "speedKmh": 0.0,
+      "heading": 348.8,
+      "reportedAt": "2026-11-01T04:31:14.199786+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538005679",
+      "mmsi": "538005679",
+      "name": "SILVER MONIKA",
+      "category": "unknown",
+      "lat": 1.287925,
+      "lon": 103.73303666666668,
+      "speedKmh": 5.9,
+      "heading": 138.3,
+      "reportedAt": "2026-11-01T04:31:14.675685+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413334020",
+      "mmsi": "413334020",
+      "name": "MA YUE",
+      "category": "unknown",
+      "lat": 1.2415333333333334,
+      "lon": 103.80691666666667,
+      "speedKmh": 0.2,
+      "heading": 145,
+      "reportedAt": "2026-11-01T04:31:23.743757+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563088620",
+      "mmsi": "563088620",
+      "name": "NOVA WAVE",
+      "category": "unknown",
+      "lat": 1.252205,
+      "lon": 103.80951499999999,
+      "speedKmh": 27.8,
+      "heading": 313.1,
+      "reportedAt": "2026-11-01T04:31:32.390339+00:00"
     }
   ],
   "error": null
