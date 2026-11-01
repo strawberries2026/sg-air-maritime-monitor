@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T19:16:41.434643+00:00",
+  "updatedAt": "2026-11-01T19:31:51.385265+00:00",
   "items": [
     {
       "kind": "ship",
@@ -67,11 +67,11 @@
       "mmsi": "563331100",
       "name": "EVER EMIT",
       "category": "unknown",
-      "lat": 1.2569899999999998,
-      "lon": 103.79378666666666,
-      "speedKmh": 0.6,
-      "heading": 283.4,
-      "reportedAt": "2026-11-01T19:16:22.502167+00:00"
+      "lat": 1.2638883333333333,
+      "lon": 103.79332666666666,
+      "speedKmh": 1.7,
+      "heading": 357.4,
+      "reportedAt": "2026-11-01T19:30:41.552446+00:00"
     },
     {
       "kind": "ship",
@@ -99,18 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "373344000",
-      "mmsi": "373344000",
-      "name": "DIANTHUS",
-      "category": "unknown",
-      "lat": 1.2595433333333332,
-      "lon": 103.87984166666666,
-      "speedKmh": 0.2,
-      "heading": 295.6,
-      "reportedAt": "2026-11-01T18:01:50.072331+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -123,18 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "319253400",
-      "mmsi": "319253400",
-      "name": "ACRUX",
-      "category": "unknown",
-      "lat": 1.1419966666666668,
-      "lon": 103.72502833333333,
-      "speedKmh": 19.6,
-      "heading": 302.3,
-      "reportedAt": "2026-11-01T18:01:40.792591+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565102000",
       "mmsi": "565102000",
       "name": "AYER CHERDAS",
@@ -144,30 +120,6 @@
       "speedKmh": 0.0,
       "heading": 348.6,
       "reportedAt": "2026-11-01T18:46:36.445691+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538006862",
-      "mmsi": "538006862",
-      "name": "MAERA",
-      "category": "unknown",
-      "lat": 1.220725,
-      "lon": 103.90156999999999,
-      "speedKmh": 20.2,
-      "heading": 248.8,
-      "reportedAt": "2026-11-01T18:00:57.310439+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "255915679",
-      "mmsi": "255915679",
-      "name": "CMA CGM ETOSHA",
-      "category": "unknown",
-      "lat": 1.2742816666666668,
-      "lon": 103.78354833333333,
-      "speedKmh": 0.0,
-      "heading": 96.3,
-      "reportedAt": "2026-11-01T18:01:46.102343+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +408,42 @@
       "speedKmh": 20.2,
       "heading": 261.2,
       "reportedAt": "2026-11-01T19:16:40.473605+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563084060",
+      "mmsi": "563084060",
+      "name": "CLEANSEAS FRIENDLY",
+      "category": "unknown",
+      "lat": 1.25152,
+      "lon": 103.894615,
+      "speedKmh": 12.2,
+      "heading": 39,
+      "reportedAt": "2026-11-01T19:30:50.076090+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566746000",
+      "mmsi": "566746000",
+      "name": "NEPAMORA",
+      "category": "unknown",
+      "lat": 1.2445816666666665,
+      "lon": 103.79107666666667,
+      "speedKmh": 11.9,
+      "heading": 320.8,
+      "reportedAt": "2026-11-01T19:31:27.793402+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371458000",
+      "mmsi": "371458000",
+      "name": "NEW AMORGOS",
+      "category": "unknown",
+      "lat": 1.2522266666666666,
+      "lon": 103.90815666666667,
+      "speedKmh": 0.2,
+      "heading": 192.9,
+      "reportedAt": "2026-11-01T19:31:44.302481+00:00"
     }
   ],
   "error": null
