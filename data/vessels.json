@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T03:46:42.439335+00:00",
+  "updatedAt": "2026-11-01T04:01:54.161258+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 10.7,
       "heading": 263.7,
       "reportedAt": "2026-11-01T03:46:00.502841+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525002091",
-      "mmsi": "525002091",
-      "name": "525002091",
-      "category": "unknown",
-      "lat": 0.9218116666666667,
-      "lon": 104.24079499999999,
-      "speedKmh": 14.1,
-      "heading": 322,
-      "reportedAt": "2026-11-01T02:31:35.512004+00:00"
     },
     {
       "kind": "ship",
@@ -91,11 +79,11 @@
       "mmsi": "525202114",
       "name": "PANINDO1",
       "category": "unknown",
-      "lat": 0.9861216666666667,
-      "lon": 104.162155,
-      "speedKmh": 8.1,
-      "heading": 276,
-      "reportedAt": "2026-11-01T03:45:58.689517+00:00"
+      "lat": 0.997605,
+      "lon": 104.15155666666666,
+      "speedKmh": 7.4,
+      "heading": 350,
+      "reportedAt": "2026-11-01T04:01:18.215692+00:00"
     },
     {
       "kind": "ship",
@@ -115,11 +103,11 @@
       "mmsi": "525110959",
       "name": "MERANTI DAYA 222",
       "category": "unknown",
-      "lat": 1.0515066666666668,
-      "lon": 104.18893,
+      "lat": 1.0516916666666667,
+      "lon": 104.1888,
       "speedKmh": 0.0,
-      "heading": 81,
-      "reportedAt": "2026-11-01T03:00:57.552922+00:00"
+      "heading": 39,
+      "reportedAt": "2026-11-01T04:01:06.619527+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +151,11 @@
       "mmsi": "563129100",
       "name": "BRASSAVOLA",
       "category": "unknown",
-      "lat": 1.1761533333333332,
-      "lon": 103.755575,
-      "speedKmh": 0.6,
-      "heading": 30.9,
-      "reportedAt": "2026-11-01T03:16:11.296295+00:00"
+      "lat": 1.1760333333333333,
+      "lon": 103.75553,
+      "speedKmh": 0.4,
+      "heading": 13.6,
+      "reportedAt": "2026-11-01T04:01:11.665644+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +247,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735733333333334,
-      "lon": 103.80136333333333,
+      "lat": 1.27356,
+      "lon": 103.801365,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-01T03:45:34.435707+00:00"
+      "reportedAt": "2026-11-01T04:01:36.975471+00:00"
     },
     {
       "kind": "ship",
@@ -336,6 +324,30 @@
       "speedKmh": 0.4,
       "heading": 16.5,
       "reportedAt": "2026-11-01T03:46:37.083759+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "667002545",
+      "mmsi": "667002545",
+      "name": "HONG BANG 6",
+      "category": "unknown",
+      "lat": 1.1782183333333334,
+      "lon": 103.80420000000001,
+      "speedKmh": 8.3,
+      "heading": 246.2,
+      "reportedAt": "2026-11-01T04:01:15.476915+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525016565",
+      "mmsi": "525016565",
+      "name": "KM PRIMA BAHARI",
+      "category": "unknown",
+      "lat": 1.0294466666666666,
+      "lon": 104.12014666666667,
+      "speedKmh": 0.0,
+      "heading": 274,
+      "reportedAt": "2026-11-01T04:01:27.503717+00:00"
     }
   ],
   "error": null
