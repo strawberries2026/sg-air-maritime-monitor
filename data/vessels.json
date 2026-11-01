@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T00:16:40.181852+00:00",
+  "updatedAt": "2026-11-01T00:31:45.550356+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735383333333334,
-      "lon": 103.80136999999999,
+      "lat": 1.2735133333333333,
+      "lon": 103.80137500000001,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-10-31T23:45:49.101900+00:00"
+      "reportedAt": "2026-11-01T00:31:33.017929+00:00"
     },
     {
       "kind": "ship",
@@ -55,11 +55,11 @@
       "mmsi": "563105900",
       "name": "PSA MARVEL CS05",
       "category": "unknown",
-      "lat": 1.264695,
-      "lon": 103.83599666666667,
-      "speedKmh": 0.9,
-      "heading": 260.8,
-      "reportedAt": "2026-11-01T00:01:38.547615+00:00"
+      "lat": 1.2574983333333334,
+      "lon": 103.84231333333334,
+      "speedKmh": 4.1,
+      "heading": 104,
+      "reportedAt": "2026-11-01T00:31:36.983754+00:00"
     },
     {
       "kind": "ship",
@@ -72,18 +72,6 @@
       "speedKmh": 8.7,
       "heading": 295,
       "reportedAt": "2026-10-31T23:45:42.575165+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015516",
-      "mmsi": "636015516",
-      "name": "KOTA PRIMROSE",
-      "category": "commercial",
-      "lat": 1.2613833333333335,
-      "lon": 103.842865,
-      "speedKmh": 4.3,
-      "heading": 128.6,
-      "reportedAt": "2026-10-31T23:01:32.027484+00:00"
     },
     {
       "kind": "ship",
@@ -108,18 +96,6 @@
       "speedKmh": 0.0,
       "heading": 247.9,
       "reportedAt": "2026-10-31T23:46:12.689888+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "255915679",
-      "mmsi": "255915679",
-      "name": "CMA CGM ETOSHA",
-      "category": "unknown",
-      "lat": 1.27431,
-      "lon": 103.783625,
-      "speedKmh": 0.0,
-      "heading": 358.5,
-      "reportedAt": "2026-10-31T23:01:44.352232+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +319,11 @@
       "mmsi": "563239800",
       "name": "VARANYA BHUM",
       "category": "unknown",
-      "lat": 1.2525616666666666,
-      "lon": 103.85650166666666,
-      "speedKmh": 10.4,
-      "heading": 318.6,
-      "reportedAt": "2026-11-01T00:01:53.947281+00:00"
+      "lat": 1.2644183333333332,
+      "lon": 103.83209166666667,
+      "speedKmh": 0.4,
+      "heading": 199.2,
+      "reportedAt": "2026-11-01T00:30:34.714343+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +331,11 @@
       "mmsi": "566623000",
       "name": "RESOLUTE NN24",
       "category": "unknown",
-      "lat": 1.2636433333333335,
-      "lon": 103.84049166666667,
-      "speedKmh": 7.6,
-      "heading": 303.3,
-      "reportedAt": "2026-11-01T00:15:57.802139+00:00"
+      "lat": 1.26463,
+      "lon": 103.83135333333333,
+      "speedKmh": 0.2,
+      "heading": 227.2,
+      "reportedAt": "2026-11-01T00:30:57.598670+00:00"
     },
     {
       "kind": "ship",
@@ -396,6 +372,18 @@
       "speedKmh": 10.9,
       "heading": 107.8,
       "reportedAt": "2026-11-01T00:16:29.962528+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255915679",
+      "mmsi": "255915679",
+      "name": "CMA CGM ETOSHA",
+      "category": "unknown",
+      "lat": 1.2743116666666665,
+      "lon": 103.78361333333334,
+      "speedKmh": 0.0,
+      "heading": 358.5,
+      "reportedAt": "2026-11-01T00:31:40.667540+00:00"
     }
   ],
   "error": null
