@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:01:55.791142+00:00",
+  "updatedAt": "2026-11-01T20:16:39.907247+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "563088620",
       "name": "NOVA WAVE",
       "category": "unknown",
-      "lat": 1.2622316666666669,
-      "lon": 103.818885,
+      "lat": 1.2622416666666667,
+      "lon": 103.81886333333334,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T19:15:44.946595+00:00"
+      "reportedAt": "2026-11-01T20:15:48.958075+00:00"
     },
     {
       "kind": "ship",
@@ -60,30 +60,6 @@
       "speedKmh": 1.7,
       "heading": 357.4,
       "reportedAt": "2026-11-01T19:30:41.552446+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2181483333333332,
-      "lon": 103.80252999999999,
-      "speedKmh": 0.2,
-      "heading": 198.6,
-      "reportedAt": "2026-11-01T18:46:03.072587+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565102000",
-      "mmsi": "565102000",
-      "name": "AYER CHERDAS",
-      "category": "unknown",
-      "lat": 1.2569483333333333,
-      "lon": 103.84086833333335,
-      "speedKmh": 0.0,
-      "heading": 348.6,
-      "reportedAt": "2026-11-01T18:46:36.445691+00:00"
     },
     {
       "kind": "ship",
@@ -111,18 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563253500",
-      "mmsi": "563253500",
-      "name": "MARINE AZURE",
-      "category": "unknown",
-      "lat": 1.25984,
-      "lon": 103.89409833333335,
-      "speedKmh": 12.2,
-      "heading": 13.6,
-      "reportedAt": "2026-11-01T18:45:37.426830+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012301",
       "mmsi": "538012301",
       "name": "GREAT FORTUNE",
@@ -132,18 +96,6 @@
       "speedKmh": 0.2,
       "heading": 197.8,
       "reportedAt": "2026-11-01T19:15:52.913725+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564886000",
-      "mmsi": "564886000",
-      "name": "GRAZIA COSULICH",
-      "category": "unknown",
-      "lat": 1.225115,
-      "lon": 103.867365,
-      "speedKmh": 15.2,
-      "heading": 204.6,
-      "reportedAt": "2026-11-01T18:46:31.330627+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +247,11 @@
       "mmsi": "352003145",
       "name": "PVT AVIRA",
       "category": "unknown",
-      "lat": 1.2184333333333333,
-      "lon": 103.81320000000001,
+      "lat": 1.21945,
+      "lon": 103.8134,
       "speedKmh": 0.0,
-      "heading": 5,
-      "reportedAt": "2026-11-01T19:16:31.861406+00:00"
+      "heading": 4,
+      "reportedAt": "2026-11-01T20:16:29.942780+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +367,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735583333333333,
-      "lon": 103.80134333333334,
+      "lat": 1.2735466666666668,
+      "lon": 103.80137500000001,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-01T20:01:15.363867+00:00"
+      "reportedAt": "2026-11-01T20:16:15.918879+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +396,90 @@
       "speedKmh": 11.5,
       "heading": 76,
       "reportedAt": "2026-11-01T20:01:32.952531+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006555",
+      "mmsi": "352006555",
+      "name": "PIS MADURA",
+      "category": "commercial",
+      "lat": 1.2149150000000002,
+      "lon": 103.81232833333334,
+      "speedKmh": 0.2,
+      "heading": 195.8,
+      "reportedAt": "2026-11-01T20:15:38.009203+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565643000",
+      "mmsi": "565643000",
+      "name": "DAVINA",
+      "category": "unknown",
+      "lat": 1.2616450000000001,
+      "lon": 103.87406166666666,
+      "speedKmh": 10.2,
+      "heading": 234.8,
+      "reportedAt": "2026-11-01T20:16:09.696641+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012796",
+      "mmsi": "538012796",
+      "name": "MANAH",
+      "category": "unknown",
+      "lat": 1.2376399999999999,
+      "lon": 103.81379333333332,
+      "speedKmh": 0.4,
+      "heading": 73.8,
+      "reportedAt": "2026-11-01T20:16:11.012122+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636024968",
+      "mmsi": "636024968",
+      "name": "MACALLAN",
+      "category": "unknown",
+      "lat": 1.2376800000000001,
+      "lon": 103.77002166666666,
+      "speedKmh": 6.9,
+      "heading": 129.1,
+      "reportedAt": "2026-11-01T20:16:28.603704+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "412036000",
+      "mmsi": "412036000",
+      "name": "HUA HAI LONG",
+      "category": "unknown",
+      "lat": 1.257965,
+      "lon": 103.867865,
+      "speedKmh": 0.2,
+      "heading": 270.9,
+      "reportedAt": "2026-11-01T20:16:29.289456+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "215944000",
+      "mmsi": "215944000",
+      "name": "AP ARGOSY",
+      "category": "unknown",
+      "lat": 1.2789133333333333,
+      "lon": 103.92977833333333,
+      "speedKmh": 0.0,
+      "heading": 201.7,
+      "reportedAt": "2026-11-01T20:16:33.586656+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563140000",
+      "mmsi": "563140000",
+      "name": "BTS CAMILLA",
+      "category": "unknown",
+      "lat": 1.2353316666666667,
+      "lon": 103.80034833333335,
+      "speedKmh": 2.0,
+      "heading": 97.4,
+      "reportedAt": "2026-11-01T20:16:34.377055+00:00"
     }
   ],
   "error": null
