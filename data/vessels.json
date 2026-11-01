@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T10:46:39.151915+00:00",
+  "updatedAt": "2026-11-01T11:01:58.018618+00:00",
   "items": [
     {
       "kind": "ship",
@@ -199,11 +199,11 @@
       "mmsi": "241949000",
       "name": "OCEAN STAR",
       "category": "unknown",
-      "lat": 1.2522633333333333,
-      "lon": 103.91837666666667,
+      "lat": 1.252605,
+      "lon": 103.91825833333334,
       "speedKmh": 0.0,
-      "heading": 29.8,
-      "reportedAt": "2026-11-01T10:30:43.371312+00:00"
+      "heading": 43.1,
+      "reportedAt": "2026-11-01T11:01:32.931197+00:00"
     },
     {
       "kind": "ship",
@@ -233,13 +233,13 @@
       "kind": "ship",
       "id": "319253400",
       "mmsi": "319253400",
-      "name": "319253400",
+      "name": "ACRUX",
       "category": "unknown",
-      "lat": 1.2421883333333334,
-      "lon": 103.901865,
+      "lat": 1.242435,
+      "lon": 103.90210333333333,
       "speedKmh": 0.2,
-      "heading": 331.9,
-      "reportedAt": "2026-11-01T10:46:06.467028+00:00"
+      "heading": 119.7,
+      "reportedAt": "2026-11-01T11:01:06.273058+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +276,54 @@
       "speedKmh": 0.4,
       "heading": 355.9,
       "reportedAt": "2026-11-01T10:46:33.716475+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533110714",
+      "mmsi": "533110714",
+      "name": "HERA",
+      "category": "unknown",
+      "lat": 1.2407350000000001,
+      "lon": 103.80339833333333,
+      "speedKmh": 0.2,
+      "heading": 190.3,
+      "reportedAt": "2026-11-01T11:00:45.192450+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086570",
+      "mmsi": "563086570",
+      "name": "TENACITY",
+      "category": "unknown",
+      "lat": 1.2408299999999999,
+      "lon": 103.88614666666668,
+      "speedKmh": 14.4,
+      "heading": 228.6,
+      "reportedAt": "2026-11-01T11:01:14.036722+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "353686000",
+      "mmsi": "353686000",
+      "name": "EAGLE EXPRESS",
+      "category": "unknown",
+      "lat": 1.272065,
+      "lon": 103.91555333333334,
+      "speedKmh": 15.4,
+      "heading": 285.3,
+      "reportedAt": "2026-11-01T11:01:32.201451+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563129100",
+      "mmsi": "563129100",
+      "name": "BRASSAVOLA",
+      "category": "unknown",
+      "lat": 1.1894216666666668,
+      "lon": 103.74967,
+      "speedKmh": 0.2,
+      "heading": 351.6,
+      "reportedAt": "2026-11-01T11:01:41.196836+00:00"
     }
   ],
   "error": null
