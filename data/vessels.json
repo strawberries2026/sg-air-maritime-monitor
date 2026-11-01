@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:01:54.687754+00:00",
+  "updatedAt": "2026-11-01T16:16:38.861105+00:00",
   "items": [
     {
       "kind": "ship",
@@ -31,35 +31,11 @@
       "mmsi": "533110714",
       "name": "HERA",
       "category": "unknown",
-      "lat": 1.2402983333333333,
-      "lon": 103.80403333333334,
+      "lat": 1.2404516666666665,
+      "lon": 103.80405,
       "speedKmh": 0.0,
-      "heading": 217.5,
-      "reportedAt": "2026-11-01T15:31:24.739114+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563118300",
-      "mmsi": "563118300",
-      "name": "WAN HAI 323",
-      "category": "unknown",
-      "lat": 1.2271066666666668,
-      "lon": 103.79315166666667,
-      "speedKmh": 22.2,
-      "heading": 319,
-      "reportedAt": "2026-11-01T14:46:24.961142+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "249261000",
-      "mmsi": "249261000",
-      "name": "CMA CGM OUVEA",
-      "category": "unknown",
-      "lat": 1.2560166666666668,
-      "lon": 103.78635833333333,
-      "speedKmh": 0.0,
-      "heading": 296,
-      "reportedAt": "2026-11-01T14:46:26.347545+00:00"
+      "heading": 23.2,
+      "reportedAt": "2026-11-01T16:15:35.462068+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +271,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2818883333333335,
-      "lon": 103.89200166666666,
+      "lat": 1.2818716666666667,
+      "lon": 103.89197333333333,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T15:46:40.668122+00:00"
+      "reportedAt": "2026-11-01T16:15:51.708935+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +343,11 @@
       "mmsi": "538012125",
       "name": "STI MOXIE",
       "category": "unknown",
-      "lat": 1.2569966666666665,
-      "lon": 103.91527333333333,
+      "lat": 1.2569983333333332,
+      "lon": 103.91523333333333,
       "speedKmh": 0.0,
       "heading": 166.6,
-      "reportedAt": "2026-11-01T16:01:12.383727+00:00"
+      "reportedAt": "2026-11-01T16:16:10.618429+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +384,102 @@
       "speedKmh": 0.0,
       "heading": 272.1,
       "reportedAt": "2026-11-01T16:01:45.673856+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563321500",
+      "mmsi": "563321500",
+      "name": "MAERSK CRETE",
+      "category": "unknown",
+      "lat": 1.2836783333333335,
+      "lon": 103.94058,
+      "speedKmh": 0.0,
+      "heading": 188,
+      "reportedAt": "2026-11-01T16:15:29.921660+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538007386",
+      "mmsi": "538007386",
+      "name": "INTEGRA",
+      "category": "unknown",
+      "lat": 1.2070483333333333,
+      "lon": 103.65756166666667,
+      "speedKmh": 24.4,
+      "heading": 82.9,
+      "reportedAt": "2026-11-01T16:15:34.850509+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533132217",
+      "mmsi": "533132217",
+      "name": "JM SUTERA 9",
+      "category": "unknown",
+      "lat": 1.2321533333333332,
+      "lon": 103.80031333333334,
+      "speedKmh": 0.0,
+      "heading": 53,
+      "reportedAt": "2026-11-01T16:15:45.494488+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636013349",
+      "mmsi": "636013349",
+      "name": "OKINAWA",
+      "category": "unknown",
+      "lat": 1.268155,
+      "lon": 103.96355,
+      "speedKmh": 6.1,
+      "heading": 290.3,
+      "reportedAt": "2026-11-01T16:16:06.298334+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "244410000",
+      "mmsi": "244410000",
+      "name": "ELISABETH",
+      "category": "unknown",
+      "lat": 1.290855,
+      "lon": 103.921725,
+      "speedKmh": 0.2,
+      "heading": 122,
+      "reportedAt": "2026-11-01T16:16:17.188007+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563013850",
+      "mmsi": "563013850",
+      "name": "GP44",
+      "category": "unknown",
+      "lat": 1.2573216666666667,
+      "lon": 103.84449166666667,
+      "speedKmh": 32.0,
+      "heading": 275.6,
+      "reportedAt": "2026-11-01T16:16:35.377025+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "228469700",
+      "mmsi": "228469700",
+      "name": "CMA CGM FORT DIAMANT",
+      "category": "unknown",
+      "lat": 1.225845,
+      "lon": 103.794015,
+      "speedKmh": 15.2,
+      "heading": 329.4,
+      "reportedAt": "2026-11-01T16:16:35.377080+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219019139",
+      "mmsi": "219019139",
+      "name": "MARSTAL MAERSK",
+      "category": "unknown",
+      "lat": 1.2753,
+      "lon": 103.78123333333333,
+      "speedKmh": 0.4,
+      "heading": 6.4,
+      "reportedAt": "2026-11-01T16:16:36.824340+00:00"
     }
   ],
   "error": null
