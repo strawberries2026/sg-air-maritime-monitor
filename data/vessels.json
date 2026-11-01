@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:46:40.319604+00:00",
+  "updatedAt": "2026-11-01T03:01:57.219515+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,42 +36,6 @@
       "speedKmh": 0.2,
       "heading": 212.8,
       "reportedAt": "2026-11-01T02:01:11.483058+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119191",
-      "mmsi": "525119191",
-      "name": "QUEEN CENTURY",
-      "category": "unknown",
-      "lat": 1.2374066666666665,
-      "lon": 103.76814833333333,
-      "speedKmh": 0.0,
-      "heading": 120,
-      "reportedAt": "2026-11-01T01:30:37.414669+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563001270",
-      "mmsi": "563001270",
-      "name": "AYER MANIS",
-      "category": "commercial",
-      "lat": 1.2332416666666668,
-      "lon": 103.812125,
-      "speedKmh": 5.6,
-      "heading": 292.4,
-      "reportedAt": "2026-11-01T01:31:28.537815+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "370799000",
-      "mmsi": "370799000",
-      "name": "LNG KOLT",
-      "category": "unknown",
-      "lat": 1.1688666666666667,
-      "lon": 103.75125,
-      "speedKmh": 0.0,
-      "heading": 165,
-      "reportedAt": "2026-11-01T01:31:28.780136+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +175,11 @@
       "mmsi": "525114079",
       "name": "KRI TGK 531",
       "category": "unknown",
-      "lat": 0.92933,
-      "lon": 104.25411666666668,
-      "speedKmh": 19.1,
-      "heading": 133,
-      "reportedAt": "2026-11-01T02:40:59.126258+00:00"
+      "lat": 0.8891216666666666,
+      "lon": 104.2954,
+      "speedKmh": 18.0,
+      "heading": 135,
+      "reportedAt": "2026-11-01T03:01:28.240400+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +187,11 @@
       "mmsi": "563100400",
       "name": "REGENT  LIBRA",
       "category": "unknown",
-      "lat": 1.0493566666666667,
-      "lon": 104.20810499999999,
-      "speedKmh": 13.7,
-      "heading": 155,
-      "reportedAt": "2026-11-01T02:41:06.705919+00:00"
+      "lat": 1.015685,
+      "lon": 104.22879166666667,
+      "speedKmh": 11.7,
+      "heading": 128,
+      "reportedAt": "2026-11-01T03:01:55.622746+00:00"
     },
     {
       "kind": "ship",
@@ -288,6 +252,42 @@
       "speedKmh": 10.9,
       "heading": 266.8,
       "reportedAt": "2026-11-01T02:46:33.527863+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525110959",
+      "mmsi": "525110959",
+      "name": "MERANTI DAYA 222",
+      "category": "unknown",
+      "lat": 1.0515066666666668,
+      "lon": 104.18893,
+      "speedKmh": 0.0,
+      "heading": 81,
+      "reportedAt": "2026-11-01T03:00:57.552922+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525100104",
+      "mmsi": "525100104",
+      "name": "525100104",
+      "category": "unknown",
+      "lat": 0.9564050000000001,
+      "lon": 104.268945,
+      "speedKmh": 31.1,
+      "heading": 118,
+      "reportedAt": "2026-11-01T03:01:36.323092+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352005216",
+      "mmsi": "352005216",
+      "name": "HOANG ANH 02",
+      "category": "unknown",
+      "lat": 1.2498466666666666,
+      "lon": 103.80043166666665,
+      "speedKmh": 0.0,
+      "heading": 74.7,
+      "reportedAt": "2026-11-01T03:01:45.565174+00:00"
     }
   ],
   "error": null
