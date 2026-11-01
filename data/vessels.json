@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:16:40.309952+00:00",
+  "updatedAt": "2026-11-01T15:31:46.954945+00:00",
   "items": [
     {
       "kind": "ship",
@@ -8,10 +8,10 @@
       "name": "VARANYA BHUM",
       "category": "unknown",
       "lat": 1.26396,
-      "lon": 103.83225333333333,
+      "lon": 103.83224166666668,
       "speedKmh": 0.0,
       "heading": 338.5,
-      "reportedAt": "2026-11-01T14:46:40.483569+00:00"
+      "reportedAt": "2026-11-01T15:30:38.998637+00:00"
     },
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "565102000",
-      "mmsi": "565102000",
-      "name": "AYER CHERDAS",
-      "category": "unknown",
-      "lat": 1.2603783333333332,
-      "lon": 103.90340833333333,
-      "speedKmh": 13.0,
-      "heading": 240.7,
-      "reportedAt": "2026-11-01T14:01:44.967047+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563869000",
       "mmsi": "563869000",
       "name": "SINDO PRINCESS",
@@ -91,11 +79,11 @@
       "mmsi": "533110714",
       "name": "HERA",
       "category": "unknown",
-      "lat": 1.240255,
+      "lat": 1.2402983333333333,
       "lon": 103.80403333333334,
       "speedKmh": 0.0,
-      "heading": 140.8,
-      "reportedAt": "2026-11-01T14:46:24.393046+00:00"
+      "heading": 217.5,
+      "reportedAt": "2026-11-01T15:31:24.739114+00:00"
     },
     {
       "kind": "ship",
@@ -127,11 +115,11 @@
       "mmsi": "538005679",
       "name": "SILVER MONIKA",
       "category": "unknown",
-      "lat": 1.2187333333333332,
-      "lon": 103.822805,
+      "lat": 1.2188333333333332,
+      "lon": 103.82274666666667,
       "speedKmh": 0.2,
-      "heading": 196.8,
-      "reportedAt": "2026-11-01T14:46:37.527430+00:00"
+      "heading": 246.4,
+      "reportedAt": "2026-11-01T15:31:37.460392+00:00"
     },
     {
       "kind": "ship",
@@ -156,6 +144,90 @@
       "speedKmh": 18.0,
       "heading": 90.4,
       "reportedAt": "2026-11-01T15:15:50.479799+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564034000",
+      "mmsi": "564034000",
+      "name": "MERLION 8",
+      "category": "unknown",
+      "lat": 1.2543216666666666,
+      "lon": 103.72872666666667,
+      "speedKmh": 3.1,
+      "heading": 236.7,
+      "reportedAt": "2026-11-01T15:30:58.776670+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "319198600",
+      "mmsi": "319198600",
+      "name": "ANNABELLA",
+      "category": "unknown",
+      "lat": 1.2453283333333334,
+      "lon": 103.84046,
+      "speedKmh": 0.0,
+      "heading": 179.9,
+      "reportedAt": "2026-11-01T15:31:05.035876+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "567624000",
+      "mmsi": "567624000",
+      "name": "NATTHA BHUM",
+      "category": "unknown",
+      "lat": 1.2412816666666666,
+      "lon": 103.93862833333333,
+      "speedKmh": 12.4,
+      "heading": 251.8,
+      "reportedAt": "2026-11-01T15:31:07.063550+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533000981",
+      "mmsi": "533000981",
+      "name": "POWER JME 11",
+      "category": "unknown",
+      "lat": 1.2528566666666667,
+      "lon": 103.86760833333332,
+      "speedKmh": 0.4,
+      "heading": 112.1,
+      "reportedAt": "2026-11-01T15:31:14.127938+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.273565,
+      "lon": 103.801365,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-01T15:31:15.630213+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563036650",
+      "mmsi": "563036650",
+      "name": "PILOT GP04",
+      "category": "unknown",
+      "lat": 1.2568266666666665,
+      "lon": 103.844285,
+      "speedKmh": 30.2,
+      "heading": 83.1,
+      "reportedAt": "2026-11-01T15:31:28.588929+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566000000",
+      "mmsi": "566000000",
+      "name": "HAFNIA FALCON",
+      "category": "unknown",
+      "lat": 1.22463,
+      "lon": 103.79480833333334,
+      "speedKmh": 5.6,
+      "heading": 126.8,
+      "reportedAt": "2026-11-01T15:31:32.382360+00:00"
     }
   ],
   "error": null
