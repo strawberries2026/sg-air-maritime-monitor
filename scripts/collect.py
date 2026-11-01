@@ -105,4 +105,9 @@ async def vessels():
   merge_vessel_observations(list(rows.values()))
  except Exception as e:merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
 if __name__=='__main__':
- aircraft();asyncio.run(vessels());update_history()
+ # Collect independent OpenSky and AISStream feeds concurrently to avoid
+ # adding OpenSky HTTP latency to the AISStream observation window.
+ async def collect_all():
+  await asyncio.gather(asyncio.to_thread(aircraft),vessels())
+ asyncio.run(collect_all())
+ update_history()
