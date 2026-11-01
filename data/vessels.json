@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T19:31:51.385265+00:00",
+  "updatedAt": "2026-11-01T19:46:43.270449+00:00",
   "items": [
     {
       "kind": "ship",
@@ -75,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "563239800",
-      "mmsi": "563239800",
-      "name": "VARANYA BHUM",
-      "category": "unknown",
-      "lat": 1.2639816666666666,
-      "lon": 103.832245,
-      "speedKmh": 0.0,
-      "heading": 223.9,
-      "reportedAt": "2026-11-01T18:16:29.543990+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566532000",
-      "mmsi": "566532000",
-      "name": "STRAITS BRILLIANCE",
-      "category": "unknown",
-      "lat": 1.2045983333333332,
-      "lon": 103.84738,
-      "speedKmh": 5.9,
-      "heading": 63.7,
-      "reportedAt": "2026-11-01T18:16:37.861996+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -120,54 +96,6 @@
       "speedKmh": 0.0,
       "heading": 348.6,
       "reportedAt": "2026-11-01T18:46:36.445691+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565904000",
-      "mmsi": "565904000",
-      "name": "KOTA RESTU",
-      "category": "unknown",
-      "lat": 1.2655833333333333,
-      "lon": 103.87381666666667,
-      "speedKmh": 0.0,
-      "heading": 167,
-      "reportedAt": "2026-11-01T18:15:28.886643+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440265000",
-      "mmsi": "440265000",
-      "name": "UNIVERSAL CREATOR",
-      "category": "unknown",
-      "lat": 1.2597516666666666,
-      "lon": 103.92819833333333,
-      "speedKmh": 0.0,
-      "heading": 218.7,
-      "reportedAt": "2026-11-01T18:15:30.219571+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "228479800",
-      "mmsi": "228479800",
-      "name": "CMA CGM SYRACUSE",
-      "category": "unknown",
-      "lat": 1.2402933333333332,
-      "lon": 103.89788333333333,
-      "speedKmh": 0.6,
-      "heading": 219.5,
-      "reportedAt": "2026-11-01T18:15:35.954700+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563176600",
-      "mmsi": "563176600",
-      "name": "EVER ACME",
-      "category": "unknown",
-      "lat": 1.18884,
-      "lon": 103.82928,
-      "speedKmh": 21.7,
-      "heading": 123.7,
-      "reportedAt": "2026-11-01T18:16:36.913993+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +127,11 @@
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
       "category": "unknown",
-      "lat": 1.262815,
-      "lon": 103.82853333333334,
-      "speedKmh": 0.2,
+      "lat": 1.2628116666666667,
+      "lon": 103.82855333333333,
+      "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T19:16:19.777133+00:00"
+      "reportedAt": "2026-11-01T19:46:11.201579+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +283,11 @@
       "mmsi": "376279000",
       "name": "BEN NEVIS",
       "category": "unknown",
-      "lat": 1.2791366666666666,
-      "lon": 103.88178666666666,
+      "lat": 1.27911,
+      "lon": 103.88176166666668,
       "speedKmh": 0.0,
       "heading": 241.9,
-      "reportedAt": "2026-11-01T19:16:11.737924+00:00"
+      "reportedAt": "2026-11-01T19:46:07.838650+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +372,54 @@
       "speedKmh": 0.2,
       "heading": 192.9,
       "reportedAt": "2026-11-01T19:31:44.302481+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477293200",
+      "mmsi": "477293200",
+      "name": "OOCL SINGAPORE",
+      "category": "unknown",
+      "lat": 1.2662233333333333,
+      "lon": 103.78243666666667,
+      "speedKmh": 0.0,
+      "heading": 6,
+      "reportedAt": "2026-11-01T19:45:41.245612+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533132217",
+      "mmsi": "533132217",
+      "name": "JM SUTERA 9",
+      "category": "unknown",
+      "lat": 1.23222,
+      "lon": 103.79862166666666,
+      "speedKmh": 0.4,
+      "heading": 321.1,
+      "reportedAt": "2026-11-01T19:45:44.950389+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413334020",
+      "mmsi": "413334020",
+      "name": "MA YUE",
+      "category": "unknown",
+      "lat": 1.2416166666666666,
+      "lon": 103.80681666666666,
+      "speedKmh": 0.7,
+      "heading": 216,
+      "reportedAt": "2026-11-01T19:46:21.971049+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311002141",
+      "mmsi": "311002141",
+      "name": "311002141",
+      "category": "unknown",
+      "lat": 1.2913966666666667,
+      "lon": 104.01314833333332,
+      "speedKmh": 0.2,
+      "heading": 3.1,
+      "reportedAt": "2026-11-01T19:46:37.752144+00:00"
     }
   ],
   "error": null
