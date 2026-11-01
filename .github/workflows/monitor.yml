@@ -1,11 +1,10 @@
 name: Monitor tracking feed health
 on:
-  workflow_run:
-    workflows: ["Refresh tracking snapshots"]
-    types: [completed]
   workflow_dispatch:
   schedule:
-    - cron: '3,18,33,48 * * * *'
+    # One independent check each hour also detects missing collection runs.
+    # Avoid redundant health-check runs after every collection completion.
+    - cron: '53 * * * *'
 permissions:
   contents: read
   actions: read
