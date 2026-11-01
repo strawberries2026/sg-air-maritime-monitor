@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-01T19:46:43.270449+00:00",
+  "updatedAt": "2026-11-01T20:01:55.791142+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735416666666666,
-      "lon": 103.80138333333333,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-01T18:31:24.584694+00:00"
-    },
     {
       "kind": "ship",
       "id": "668116289",
@@ -111,18 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "636021910",
-      "mmsi": "636021910",
-      "name": "STOLT ORCA",
-      "category": "unknown",
-      "lat": 1.2165533333333334,
-      "lon": 103.79553166666666,
-      "speedKmh": 22.6,
-      "heading": 325.2,
-      "reportedAt": "2026-11-01T18:31:30.617337+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525018039",
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
@@ -187,11 +163,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.2828166666666665,
-      "lon": 103.91624666666667,
+      "lat": 1.282835,
+      "lon": 103.91621833333333,
       "speedKmh": 0.0,
-      "heading": 333.9,
-      "reportedAt": "2026-11-01T19:01:14.052812+00:00"
+      "heading": 323.7,
+      "reportedAt": "2026-11-01T20:01:14.026432+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +271,11 @@
       "mmsi": "249261000",
       "name": "CMA CGM OUVEA",
       "category": "unknown",
-      "lat": 1.25602,
-      "lon": 103.78635,
+      "lat": 1.2560033333333334,
+      "lon": 103.78636333333334,
       "speedKmh": 0.0,
-      "heading": 29.7,
-      "reportedAt": "2026-11-01T19:16:26.572227+00:00"
+      "heading": 316.1,
+      "reportedAt": "2026-11-01T20:01:26.338455+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +379,11 @@
       "mmsi": "413334020",
       "name": "MA YUE",
       "category": "unknown",
-      "lat": 1.2416166666666666,
-      "lon": 103.80681666666666,
-      "speedKmh": 0.7,
-      "heading": 216,
-      "reportedAt": "2026-11-01T19:46:21.971049+00:00"
+      "lat": 1.2415999999999998,
+      "lon": 103.80678333333334,
+      "speedKmh": 0.4,
+      "heading": 5,
+      "reportedAt": "2026-11-01T20:01:23.242443+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +396,54 @@
       "speedKmh": 0.2,
       "heading": 3.1,
       "reportedAt": "2026-11-01T19:46:37.752144+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636027009",
+      "mmsi": "636027009",
+      "name": "MSC ALIZEE III",
+      "category": "unknown",
+      "lat": 1.20775,
+      "lon": 103.88007999999999,
+      "speedKmh": 11.1,
+      "heading": 238.7,
+      "reportedAt": "2026-11-01T20:01:11.964590+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735583333333333,
+      "lon": 103.80134333333334,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-01T20:01:15.363867+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440716000",
+      "mmsi": "440716000",
+      "name": "DONGJIN VOYAGER",
+      "category": "unknown",
+      "lat": 1.2352083333333332,
+      "lon": 103.93408666666666,
+      "speedKmh": 27.0,
+      "heading": 244.7,
+      "reportedAt": "2026-11-01T20:01:17.855572+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241949000",
+      "mmsi": "241949000",
+      "name": "OCEAN STAR",
+      "category": "unknown",
+      "lat": 1.2303133333333334,
+      "lon": 103.94459666666667,
+      "speedKmh": 11.5,
+      "heading": 76,
+      "reportedAt": "2026-11-01T20:01:32.952531+00:00"
     }
   ],
   "error": null
