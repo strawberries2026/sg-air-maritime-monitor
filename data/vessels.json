@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:01:55.322685+00:00",
+  "updatedAt": "2026-11-01T02:16:51.324905+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 13.3,
       "heading": 133.2,
       "reportedAt": "2026-11-01T01:01:03.460873+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563275600",
-      "mmsi": "563275600",
-      "name": "MARINA AMMOLITE",
-      "category": "unknown",
-      "lat": 1.2616116666666668,
-      "lon": 103.84570166666667,
-      "speedKmh": 0.0,
-      "heading": 162,
-      "reportedAt": "2026-11-01T00:45:46.143020+00:00"
     },
     {
       "kind": "ship",
@@ -72,42 +60,6 @@
       "speedKmh": 15.7,
       "heading": 304.2,
       "reportedAt": "2026-11-01T01:45:51.005026+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012347",
-      "mmsi": "538012347",
-      "name": "ASTERAS",
-      "category": "unknown",
-      "lat": 1.2777966666666667,
-      "lon": 103.91575166666667,
-      "speedKmh": 6.9,
-      "heading": 311.3,
-      "reportedAt": "2026-11-01T00:45:42.158016+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "255962000",
-      "mmsi": "255962000",
-      "name": "CAROLINE",
-      "category": "unknown",
-      "lat": 1.199085,
-      "lon": 103.88363166666666,
-      "speedKmh": 10.4,
-      "heading": 65.3,
-      "reportedAt": "2026-11-01T00:45:48.198592+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477293200",
-      "mmsi": "477293200",
-      "name": "OOCL SINGAPORE",
-      "category": "unknown",
-      "lat": 1.2116733333333334,
-      "lon": 103.81032833333333,
-      "speedKmh": 18.5,
-      "heading": 286.3,
-      "reportedAt": "2026-11-01T00:46:03.243266+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +252,42 @@
       "speedKmh": 0.4,
       "heading": 272.9,
       "reportedAt": "2026-11-01T02:01:12.573306+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563145200",
+      "mmsi": "563145200",
+      "name": "SEYMOUR SUN",
+      "category": "unknown",
+      "lat": 1.2365333333333333,
+      "lon": 103.77983333333333,
+      "speedKmh": 15.4,
+      "heading": 139.9,
+      "reportedAt": "2026-11-01T02:15:58.156446+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563060100",
+      "mmsi": "563060100",
+      "name": "PSA HULK CS04",
+      "category": "unknown",
+      "lat": 1.2645616666666666,
+      "lon": 103.830245,
+      "speedKmh": 16.1,
+      "heading": 69.2,
+      "reportedAt": "2026-11-01T02:16:15.960957+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2246483333333333,
+      "lon": 103.80628,
+      "speedKmh": 1.3,
+      "heading": 27.4,
+      "reportedAt": "2026-11-01T02:16:41.331964+00:00"
     }
   ],
   "error": null
