@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T14:31:46.071786+00:00",
+  "updatedAt": "2026-11-01T14:46:41.198705+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "563239800",
       "name": "VARANYA BHUM",
       "category": "unknown",
-      "lat": 1.2640166666666666,
-      "lon": 103.83225,
+      "lat": 1.26396,
+      "lon": 103.83225333333333,
       "speedKmh": 0.0,
       "heading": 338.5,
-      "reportedAt": "2026-11-01T14:01:20.404249+00:00"
+      "reportedAt": "2026-11-01T14:46:40.483569+00:00"
     },
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "373344000",
-      "mmsi": "373344000",
-      "name": "DIANTHUS",
-      "category": "unknown",
-      "lat": 1.262065,
-      "lon": 103.87991833333334,
-      "speedKmh": 0.4,
-      "heading": 232.4,
-      "reportedAt": "2026-11-01T13:01:49.513273+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525018039",
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
@@ -63,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "566623000",
-      "mmsi": "566623000",
-      "name": "RESOLUTE NN24",
-      "category": "unknown",
-      "lat": 1.2487033333333335,
-      "lon": 103.78276333333334,
-      "speedKmh": 10.2,
-      "heading": 331.8,
-      "reportedAt": "2026-11-01T13:15:37.686946+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012284",
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
@@ -84,18 +60,6 @@
       "speedKmh": 0.2,
       "heading": 308.1,
       "reportedAt": "2026-11-01T14:31:02.963454+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "353686000",
-      "mmsi": "353686000",
-      "name": "EAGLE EXPRESS",
-      "category": "unknown",
-      "lat": 1.2701116666666665,
-      "lon": 103.88780333333334,
-      "speedKmh": 0.2,
-      "heading": 90.6,
-      "reportedAt": "2026-11-01T13:16:06.787847+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +163,47 @@
       "mmsi": "533110714",
       "name": "HERA",
       "category": "unknown",
-      "lat": 1.24025,
-      "lon": 103.804045,
+      "lat": 1.240255,
+      "lon": 103.80403333333334,
+      "speedKmh": 0.0,
+      "heading": 140.8,
+      "reportedAt": "2026-11-01T14:46:24.393046+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563118300",
+      "mmsi": "563118300",
+      "name": "WAN HAI 323",
+      "category": "unknown",
+      "lat": 1.2271066666666668,
+      "lon": 103.79315166666667,
+      "speedKmh": 22.2,
+      "heading": 319,
+      "reportedAt": "2026-11-01T14:46:24.961142+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249261000",
+      "mmsi": "249261000",
+      "name": "CMA CGM OUVEA",
+      "category": "unknown",
+      "lat": 1.2560166666666668,
+      "lon": 103.78635833333333,
+      "speedKmh": 0.0,
+      "heading": 296,
+      "reportedAt": "2026-11-01T14:46:26.347545+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538005679",
+      "mmsi": "538005679",
+      "name": "SILVER MONIKA",
+      "category": "unknown",
+      "lat": 1.2187333333333332,
+      "lon": 103.822805,
       "speedKmh": 0.2,
-      "heading": 204.6,
-      "reportedAt": "2026-11-01T14:31:27.189619+00:00"
+      "heading": 196.8,
+      "reportedAt": "2026-11-01T14:46:37.527430+00:00"
     }
   ],
   "error": null
