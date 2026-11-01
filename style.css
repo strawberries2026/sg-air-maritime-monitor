@@ -118,3 +118,6 @@
 
 /* Public VTIS / STRAITREP reference cards — no live authority data */
 .vtis-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0}.vtis-card{background:#0b2234;border:1px solid #365870;border-radius:12px;padding:14px;min-width:0}.vtis-card h3{font-size:1rem;margin:0 0 7px}.vtis-card p{font-size:.84rem;margin:0 0 10px}.vtis-card a{font-size:.84rem;overflow-wrap:anywhere}.vtis-details{margin-top:12px}.vtis-details summary{cursor:pointer;padding:12px;border:1px solid #365870;border-radius:9px}.vtis-sector-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin-top:12px}.vtis-sector-grid div{padding:11px;background:#0b2234;border-radius:9px;display:flex;flex-direction:column;gap:5px}.vtis-sector-grid span{color:#b6d0df;font-size:.8rem}@media(max-width:480px){.vtis-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.vtis-card{padding:11px}.vtis-sector-grid{grid-template-columns:1fr}}
+
+/* Ensure six mobile bottom navigation destinations remain usable. */
+.bottom-nav a{min-width:0}.bottom-nav a span:last-child{white-space:nowrap}@media(max-width:390px){.bottom-nav a{padding-left:2px;padding-right:2px}.bottom-nav a span:last-child{font-size:.65rem}}
