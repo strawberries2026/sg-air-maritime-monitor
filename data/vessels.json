@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T13:01:53.914031+00:00",
+  "updatedAt": "2026-11-01T13:16:39.718430+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 33.8,
       "reportedAt": "2026-11-01T12:31:25.321760+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012301",
-      "mmsi": "538012301",
-      "name": "GREAT FORTUNE",
-      "category": "unknown",
-      "lat": 1.2228733333333333,
-      "lon": 103.81735,
-      "speedKmh": 0.0,
-      "heading": 23.1,
-      "reportedAt": "2026-11-01T11:46:21.943804+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +288,42 @@
       "speedKmh": 0.2,
       "heading": null,
       "reportedAt": "2026-11-01T13:01:50.152323+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566623000",
+      "mmsi": "566623000",
+      "name": "RESOLUTE NN24",
+      "category": "unknown",
+      "lat": 1.2487033333333335,
+      "lon": 103.78276333333334,
+      "speedKmh": 10.2,
+      "heading": 331.8,
+      "reportedAt": "2026-11-01T13:15:37.686946+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012284",
+      "mmsi": "538012284",
+      "name": "MFM MEMPHIS",
+      "category": "unknown",
+      "lat": 1.2190016666666668,
+      "lon": 103.805325,
+      "speedKmh": 0.2,
+      "heading": 98.2,
+      "reportedAt": "2026-11-01T13:16:03.313790+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "353686000",
+      "mmsi": "353686000",
+      "name": "EAGLE EXPRESS",
+      "category": "unknown",
+      "lat": 1.2701116666666665,
+      "lon": 103.88780333333334,
+      "speedKmh": 0.2,
+      "heading": 90.6,
+      "reportedAt": "2026-11-01T13:16:06.787847+00:00"
     }
   ],
   "error": null
