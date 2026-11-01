@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T00:46:45.650964+00:00",
+  "updatedAt": "2026-11-01T01:01:51.708328+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "563105900",
       "name": "PSA MARVEL CS05",
       "category": "unknown",
-      "lat": 1.2574983333333334,
-      "lon": 103.84231333333334,
-      "speedKmh": 4.1,
-      "heading": 104,
-      "reportedAt": "2026-11-01T00:31:36.983754+00:00"
+      "lat": 1.2593,
+      "lon": 103.84457666666667,
+      "speedKmh": 13.3,
+      "heading": 133.2,
+      "reportedAt": "2026-11-01T01:01:03.460873+00:00"
     },
     {
       "kind": "ship",
@@ -111,27 +111,15 @@
     },
     {
       "kind": "ship",
-      "id": "538011716",
-      "mmsi": "538011716",
-      "name": "PACIFIC SPIRIT",
-      "category": "unknown",
-      "lat": 1.2255150000000001,
-      "lon": 103.80609666666666,
-      "speedKmh": 0.6,
-      "heading": 18.2,
-      "reportedAt": "2026-10-31T23:31:41.330287+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563129100",
       "mmsi": "563129100",
       "name": "BRASSAVOLA",
       "category": "unknown",
-      "lat": 1.17608,
-      "lon": 103.75585333333333,
-      "speedKmh": 0.2,
-      "heading": 58.6,
-      "reportedAt": "2026-10-31T23:41:41.071900+00:00"
+      "lat": 1.1761783333333333,
+      "lon": 103.75576166666666,
+      "speedKmh": 0.7,
+      "heading": 28,
+      "reportedAt": "2026-11-01T01:01:41.864695+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +259,11 @@
       "mmsi": "566623000",
       "name": "RESOLUTE NN24",
       "category": "unknown",
-      "lat": 1.2641916666666666,
-      "lon": 103.83150666666667,
+      "lat": 1.264165,
+      "lon": 103.83158333333334,
       "speedKmh": 0.2,
-      "heading": 185.1,
-      "reportedAt": "2026-11-01T00:46:29.783584+00:00"
+      "heading": 236.5,
+      "reportedAt": "2026-11-01T01:01:38.408008+00:00"
     },
     {
       "kind": "ship",
@@ -372,6 +360,30 @@
       "speedKmh": 18.5,
       "heading": 286.3,
       "reportedAt": "2026-11-01T00:46:03.243266+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352005216",
+      "mmsi": "352005216",
+      "name": "HOANG ANH 02",
+      "category": "commercial",
+      "lat": 1.2500883333333335,
+      "lon": 103.799785,
+      "speedKmh": 0.2,
+      "heading": 337.9,
+      "reportedAt": "2026-11-01T01:01:38.025231+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "405000079",
+      "mmsi": "405000079",
+      "name": "AKIJ GLORY",
+      "category": "unknown",
+      "lat": 1.2196933333333333,
+      "lon": 103.89921166666666,
+      "speedKmh": 21.1,
+      "heading": 241.4,
+      "reportedAt": "2026-11-01T01:01:24.092362+00:00"
     }
   ],
   "error": null
