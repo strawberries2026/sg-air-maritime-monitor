@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T02:41:35.043467+00:00",
+  "updatedAt": "2026-11-01T02:46:40.319604+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "566623000",
-      "mmsi": "566623000",
-      "name": "RESOLUTE NN24",
-      "category": "unknown",
-      "lat": 1.2592483333333333,
-      "lon": 103.843015,
-      "speedKmh": 15.2,
-      "heading": 122.1,
-      "reportedAt": "2026-11-01T01:16:18.758435+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "319154300",
       "mmsi": "319154300",
       "name": "SEA EAGLE",
@@ -39,30 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "563258400",
-      "mmsi": "563258400",
-      "name": "MAJESTIC BOLD",
-      "category": "unknown",
-      "lat": 1.2421483333333332,
-      "lon": 103.85569833333334,
-      "speedKmh": 30.4,
-      "heading": 131.3,
-      "reportedAt": "2026-11-01T01:15:28.759239+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563142000",
-      "mmsi": "563142000",
-      "name": "PENGUIN REDEEM",
-      "category": "unknown",
-      "lat": 1.2268583333333334,
-      "lon": 103.77955166666668,
-      "speedKmh": 12.0,
-      "heading": 196.6,
-      "reportedAt": "2026-11-01T01:15:30.797865+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012796",
       "mmsi": "538012796",
       "name": "MANAH",
@@ -72,30 +36,6 @@
       "speedKmh": 0.2,
       "heading": 212.8,
       "reportedAt": "2026-11-01T02:01:11.483058+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563275700",
-      "mmsi": "563275700",
-      "name": "MARINA AMETHYST",
-      "category": "unknown",
-      "lat": 1.2617466666666668,
-      "lon": 103.85192333333333,
-      "speedKmh": 0.0,
-      "heading": 275.7,
-      "reportedAt": "2026-11-01T01:16:23.425308+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636025725",
-      "mmsi": "636025725",
-      "name": "NURAI",
-      "category": "unknown",
-      "lat": 1.1827583333333334,
-      "lon": 103.75328833333333,
-      "speedKmh": 0.0,
-      "heading": 244.9,
-      "reportedAt": "2026-11-01T01:16:24.015604+00:00"
     },
     {
       "kind": "ship",
@@ -312,6 +252,42 @@
       "speedKmh": 0.0,
       "heading": 54,
       "reportedAt": "2026-11-01T02:41:25.906644+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533133199",
+      "mmsi": "533133199",
+      "name": "533133199",
+      "category": "unknown",
+      "lat": 0.91345,
+      "lon": 104.27541500000001,
+      "speedKmh": 7.8,
+      "heading": 305.7,
+      "reportedAt": "2026-11-01T02:46:00.900588+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525202114",
+      "mmsi": "525202114",
+      "name": "PANINDO1",
+      "category": "unknown",
+      "lat": 0.9602416666666667,
+      "lon": 104.21307166666666,
+      "speedKmh": 4.8,
+      "heading": 307,
+      "reportedAt": "2026-11-01T02:46:06.318603+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563323700",
+      "mmsi": "563323700",
+      "name": "MAJESTIC SERENITY",
+      "category": "unknown",
+      "lat": 1.2620333333333333,
+      "lon": 103.80962,
+      "speedKmh": 10.9,
+      "heading": 266.8,
+      "reportedAt": "2026-11-01T02:46:33.527863+00:00"
     }
   ],
   "error": null
