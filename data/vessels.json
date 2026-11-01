@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T21:01:54.951151+00:00",
+  "updatedAt": "2026-11-01T21:16:38.562068+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "525018039",
-      "mmsi": "525018039",
-      "name": "TB BUANA 1302",
-      "category": "unknown",
-      "lat": 1.2628116666666667,
-      "lon": 103.82855333333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-01T19:46:11.201579+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "241614000",
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
@@ -36,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": 307.1,
       "reportedAt": "2026-11-01T20:46:13.923557+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "376279000",
-      "mmsi": "376279000",
-      "name": "BEN NEVIS",
-      "category": "unknown",
-      "lat": 1.27911,
-      "lon": 103.88176166666668,
-      "speedKmh": 0.0,
-      "heading": 241.9,
-      "reportedAt": "2026-11-01T19:46:07.838650+00:00"
     },
     {
       "kind": "ship",
@@ -75,30 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "477293200",
-      "mmsi": "477293200",
-      "name": "OOCL SINGAPORE",
-      "category": "unknown",
-      "lat": 1.2662233333333333,
-      "lon": 103.78243666666667,
-      "speedKmh": 0.0,
-      "heading": 6,
-      "reportedAt": "2026-11-01T19:45:41.245612+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533132217",
-      "mmsi": "533132217",
-      "name": "JM SUTERA 9",
-      "category": "unknown",
-      "lat": 1.23222,
-      "lon": 103.79862166666666,
-      "speedKmh": 0.4,
-      "heading": 321.1,
-      "reportedAt": "2026-11-01T19:45:44.950389+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "413334020",
       "mmsi": "413334020",
       "name": "MA YUE",
@@ -108,18 +60,6 @@
       "speedKmh": 0.0,
       "heading": 201,
       "reportedAt": "2026-11-01T20:31:22.808872+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002141",
-      "mmsi": "311002141",
-      "name": "311002141",
-      "category": "unknown",
-      "lat": 1.2913966666666667,
-      "lon": 104.01314833333332,
-      "speedKmh": 0.2,
-      "heading": 3.1,
-      "reportedAt": "2026-11-01T19:46:37.752144+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +283,11 @@
       "mmsi": "477528600",
       "name": "BRIGHT VENTURE",
       "category": "unknown",
-      "lat": 1.2121733333333333,
-      "lon": 103.89834,
-      "speedKmh": 10.2,
-      "heading": 66.1,
-      "reportedAt": "2026-11-01T21:00:57.550334+00:00"
+      "lat": 1.2206133333333333,
+      "lon": 103.91652,
+      "speedKmh": 8.3,
+      "heading": 65.8,
+      "reportedAt": "2026-11-01T21:16:36.618976+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +384,66 @@
       "speedKmh": 0.2,
       "heading": 82.6,
       "reportedAt": "2026-11-01T21:01:51.482469+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005680",
+      "mmsi": "574005680",
+      "name": "AULAC AURORA",
+      "category": "unknown",
+      "lat": 1.2461166666666665,
+      "lon": 103.80935,
+      "speedKmh": 0.4,
+      "heading": 5,
+      "reportedAt": "2026-11-01T21:15:27.195393+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477293200",
+      "mmsi": "477293200",
+      "name": "OOCL SINGAPORE",
+      "category": "unknown",
+      "lat": 1.2662499999999999,
+      "lon": 103.78262333333333,
+      "speedKmh": 0.0,
+      "heading": 62.5,
+      "reportedAt": "2026-11-01T21:15:40.845847+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566385000",
+      "mmsi": "566385000",
+      "name": "STRAITS QUEST",
+      "category": "unknown",
+      "lat": 1.2318583333333335,
+      "lon": 103.81156166666666,
+      "speedKmh": 9.8,
+      "heading": 136.6,
+      "reportedAt": "2026-11-01T21:15:47.345925+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119038",
+      "mmsi": "525119038",
+      "name": "PRIMA TANGGUH LVI",
+      "category": "unknown",
+      "lat": 1.2289583333333334,
+      "lon": 103.81217166666667,
+      "speedKmh": 0.0,
+      "heading": 253.3,
+      "reportedAt": "2026-11-01T21:16:30.476562+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563079190",
+      "mmsi": "563079190",
+      "name": "STL PS1",
+      "category": "unknown",
+      "lat": 1.2809549999999998,
+      "lon": 103.884505,
+      "speedKmh": 0.2,
+      "heading": 334,
+      "reportedAt": "2026-11-01T21:16:33.419289+00:00"
     }
   ],
   "error": null
