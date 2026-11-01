@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T16:16:38.861105+00:00",
+  "updatedAt": "2026-11-01T16:30:35.563498+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
       "category": "unknown",
-      "lat": 1.2628083333333333,
+      "lat": 1.26282,
       "lon": 103.82853333333334,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T15:15:31.885331+00:00"
+      "reportedAt": "2026-11-01T16:29:41.229816+00:00"
     },
     {
       "kind": "ship",
@@ -127,11 +127,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.273565,
-      "lon": 103.801365,
+      "lat": 1.2735349999999999,
+      "lon": 103.80137500000001,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-01T15:31:15.630213+00:00"
+      "reportedAt": "2026-11-01T16:30:16.576882+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +199,11 @@
       "mmsi": "538012301",
       "name": "GREAT FORTUNE",
       "category": "unknown",
-      "lat": 1.222655,
-      "lon": 103.81721166666667,
-      "speedKmh": 0.0,
-      "heading": 324.2,
-      "reportedAt": "2026-11-01T16:01:51.968497+00:00"
+      "lat": 1.22244,
+      "lon": 103.81705833333334,
+      "speedKmh": 0.2,
+      "heading": 206.1,
+      "reportedAt": "2026-11-01T16:29:51.398241+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +480,102 @@
       "speedKmh": 0.4,
       "heading": 6.4,
       "reportedAt": "2026-11-01T16:16:36.824340+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636021689",
+      "mmsi": "636021689",
+      "name": "DING HENG 26",
+      "category": "unknown",
+      "lat": 1.2444183333333332,
+      "lon": 103.79611666666666,
+      "speedKmh": 0.2,
+      "heading": 15,
+      "reportedAt": "2026-11-01T16:29:34.695845+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413558470",
+      "mmsi": "413558470",
+      "name": "YUE DAN",
+      "category": "unknown",
+      "lat": 1.2320833333333332,
+      "lon": 103.81500666666668,
+      "speedKmh": 0.0,
+      "heading": 35.9,
+      "reportedAt": "2026-11-01T16:29:40.949532+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255803760",
+      "mmsi": "255803760",
+      "name": "MSC GREENWICH",
+      "category": "unknown",
+      "lat": 1.2460133333333334,
+      "lon": 103.890685,
+      "speedKmh": 0.0,
+      "heading": 40,
+      "reportedAt": "2026-11-01T16:29:48.159624+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563325200",
+      "mmsi": "563325200",
+      "name": "MARINE HERO",
+      "category": "unknown",
+      "lat": 1.2859716666666665,
+      "lon": 103.93564333333333,
+      "speedKmh": 0.9,
+      "heading": 203.5,
+      "reportedAt": "2026-11-01T16:29:48.159695+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241519000",
+      "mmsi": "241519000",
+      "name": "MARAN AJAX",
+      "category": "unknown",
+      "lat": 1.2446583333333334,
+      "lon": 103.92094833333334,
+      "speedKmh": 0.2,
+      "heading": 276.8,
+      "reportedAt": "2026-11-01T16:29:51.510859+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563164600",
+      "mmsi": "563164600",
+      "name": "VOLTA",
+      "category": "unknown",
+      "lat": 1.2215416666666667,
+      "lon": 103.81207333333333,
+      "speedKmh": 0.4,
+      "heading": 224.3,
+      "reportedAt": "2026-11-01T16:29:56.187085+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563030850",
+      "mmsi": "563030850",
+      "name": "MERLION 30",
+      "category": "unknown",
+      "lat": 1.2013183333333333,
+      "lon": 103.74431333333334,
+      "speedKmh": 0.4,
+      "heading": 116.3,
+      "reportedAt": "2026-11-01T16:30:06.218127+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566680000",
+      "mmsi": "566680000",
+      "name": "VITALITY",
+      "category": "unknown",
+      "lat": 1.2167483333333335,
+      "lon": 103.86749499999999,
+      "speedKmh": 10.2,
+      "heading": 35.7,
+      "reportedAt": "2026-11-01T16:30:12.899848+00:00"
     }
   ],
   "error": null
