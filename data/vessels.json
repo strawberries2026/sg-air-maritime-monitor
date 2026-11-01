@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T01:31:47.753424+00:00",
+  "updatedAt": "2026-11-01T01:46:39.770989+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-01T00:31:33.017929+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477250400",
-      "mmsi": "477250400",
-      "name": "TAMPA BAY",
-      "category": "unknown",
-      "lat": 1.2636033333333332,
-      "lon": 103.82599833333333,
-      "speedKmh": 0.7,
-      "heading": 250.7,
-      "reportedAt": "2026-11-01T00:16:26.759141+00:00"
     },
     {
       "kind": "ship",
@@ -87,42 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "352004357",
-      "mmsi": "352004357",
-      "name": "LS MERCURY",
-      "category": "unknown",
-      "lat": 1.2465350000000002,
-      "lon": 103.79968166666666,
-      "speedKmh": 1.3,
-      "heading": 261.5,
-      "reportedAt": "2026-11-01T00:16:11.516666+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.2490333333333332,
-      "lon": 103.79497833333333,
-      "speedKmh": 0.7,
-      "heading": 28.2,
-      "reportedAt": "2026-11-01T00:16:15.401172+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566540000",
-      "mmsi": "566540000",
-      "name": "ZMAGA",
-      "category": "unknown",
-      "lat": 1.18741,
-      "lon": 103.76191666666666,
-      "speedKmh": 10.9,
-      "heading": 107.8,
-      "reportedAt": "2026-11-01T00:16:29.962528+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "255915679",
       "mmsi": "255915679",
       "name": "CMA CGM ETOSHA",
@@ -139,11 +91,11 @@
       "mmsi": "319154300",
       "name": "SEA EAGLE",
       "category": "unknown",
-      "lat": 1.1887116666666666,
-      "lon": 103.82939,
-      "speedKmh": 18.3,
-      "heading": 242.1,
-      "reportedAt": "2026-11-01T00:45:40.803454+00:00"
+      "lat": 1.1629800000000001,
+      "lon": 103.69425666666666,
+      "speedKmh": 15.7,
+      "heading": 304.2,
+      "reportedAt": "2026-11-01T01:45:51.005026+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +252,66 @@
       "speedKmh": 0.0,
       "heading": 165,
       "reportedAt": "2026-11-01T01:31:28.780136+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525601594",
+      "mmsi": "525601594",
+      "name": "TB AMADEUS 1",
+      "category": "unknown",
+      "lat": 1.2595233333333333,
+      "lon": 103.84915333333333,
+      "speedKmh": 6.1,
+      "heading": 280.8,
+      "reportedAt": "2026-11-01T01:45:30.800940+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566540000",
+      "mmsi": "566540000",
+      "name": "ZMAGA",
+      "category": "unknown",
+      "lat": 1.24356,
+      "lon": 103.787475,
+      "speedKmh": 10.7,
+      "heading": 38.7,
+      "reportedAt": "2026-11-01T01:45:46.596529+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533110714",
+      "mmsi": "533110714",
+      "name": "HERA",
+      "category": "unknown",
+      "lat": 1.2415583333333333,
+      "lon": 103.80170833333334,
+      "speedKmh": 0.4,
+      "heading": 211,
+      "reportedAt": "2026-11-01T01:46:14.801767+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563026600",
+      "mmsi": "563026600",
+      "name": "WAVEMASTER 8",
+      "category": "unknown",
+      "lat": 1.2620466666666668,
+      "lon": 103.81123333333333,
+      "speedKmh": 9.8,
+      "heading": 269.5,
+      "reportedAt": "2026-11-01T01:46:21.305355+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011167",
+      "mmsi": "538011167",
+      "name": "KOTA CALLAO",
+      "category": "unknown",
+      "lat": 1.2626716666666666,
+      "lon": 103.83842833333333,
+      "speedKmh": 0.4,
+      "heading": 204.9,
+      "reportedAt": "2026-11-01T01:46:36.140524+00:00"
     }
   ],
   "error": null
