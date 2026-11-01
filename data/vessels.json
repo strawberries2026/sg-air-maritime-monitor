@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T00:01:59.676061+00:00",
+  "updatedAt": "2026-11-01T00:16:40.181852+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 0.0,
       "heading": 248.7,
       "reportedAt": "2026-10-31T23:15:44.919596+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563001270",
-      "mmsi": "563001270",
-      "name": "AYER MANIS",
-      "category": "unknown",
-      "lat": 1.23244,
-      "lon": 103.81279833333333,
-      "speedKmh": 0.4,
-      "heading": 118.3,
-      "reportedAt": "2026-10-31T22:45:57.711162+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565688000",
-      "mmsi": "565688000",
-      "name": "KOTA NAZIM",
-      "category": "unknown",
-      "lat": 1.2626166666666667,
-      "lon": 103.84061666666666,
-      "speedKmh": 3.1,
-      "heading": 158,
-      "reportedAt": "2026-10-31T22:46:28.152257+00:00"
     },
     {
       "kind": "ship",
@@ -55,11 +31,11 @@
       "mmsi": "477250400",
       "name": "TAMPA BAY",
       "category": "unknown",
-      "lat": 1.2648066666666666,
-      "lon": 103.82946,
-      "speedKmh": 2.2,
-      "heading": 254.2,
-      "reportedAt": "2026-11-01T00:01:56.567783+00:00"
+      "lat": 1.2636033333333332,
+      "lon": 103.82599833333333,
+      "speedKmh": 0.7,
+      "heading": 250.7,
+      "reportedAt": "2026-11-01T00:16:26.759141+00:00"
     },
     {
       "kind": "ship",
@@ -96,42 +72,6 @@
       "speedKmh": 8.7,
       "heading": 295,
       "reportedAt": "2026-10-31T23:45:42.575165+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563125800",
-      "mmsi": "563125800",
-      "name": "MARITIME VALOR",
-      "category": "unknown",
-      "lat": 1.2240266666666666,
-      "lon": 103.81125666666667,
-      "speedKmh": 0.0,
-      "heading": 231.4,
-      "reportedAt": "2026-10-31T22:45:36.282272+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563294600",
-      "mmsi": "563294600",
-      "name": "CMA CGM VENDOME",
-      "category": "unknown",
-      "lat": 1.264355,
-      "lon": 103.79139333333333,
-      "speedKmh": 0.2,
-      "heading": 266,
-      "reportedAt": "2026-10-31T22:46:00.163591+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538006179",
-      "mmsi": "538006179",
-      "name": "ZIRCON",
-      "category": "unknown",
-      "lat": 1.2563083333333334,
-      "lon": 103.73246166666667,
-      "speedKmh": 21.3,
-      "heading": 231.7,
-      "reportedAt": "2026-10-31T22:46:03.559149+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +175,11 @@
       "mmsi": "563275600",
       "name": "MARINA AMMOLITE",
       "category": "unknown",
-      "lat": 1.2616283333333334,
-      "lon": 103.84570333333333,
+      "lat": 1.2616116666666668,
+      "lon": 103.84571833333332,
       "speedKmh": 0.0,
       "heading": 162,
-      "reportedAt": "2026-10-31T23:41:45.773943+00:00"
+      "reportedAt": "2026-11-01T00:16:25.668578+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +348,54 @@
       "speedKmh": 10.4,
       "heading": 318.6,
       "reportedAt": "2026-11-01T00:01:53.947281+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566623000",
+      "mmsi": "566623000",
+      "name": "RESOLUTE NN24",
+      "category": "unknown",
+      "lat": 1.2636433333333335,
+      "lon": 103.84049166666667,
+      "speedKmh": 7.6,
+      "heading": 303.3,
+      "reportedAt": "2026-11-01T00:15:57.802139+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004357",
+      "mmsi": "352004357",
+      "name": "LS MERCURY",
+      "category": "unknown",
+      "lat": 1.2465350000000002,
+      "lon": 103.79968166666666,
+      "speedKmh": 1.3,
+      "heading": 261.5,
+      "reportedAt": "2026-11-01T00:16:11.516666+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.2490333333333332,
+      "lon": 103.79497833333333,
+      "speedKmh": 0.7,
+      "heading": 28.2,
+      "reportedAt": "2026-11-01T00:16:15.401172+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566540000",
+      "mmsi": "566540000",
+      "name": "ZMAGA",
+      "category": "unknown",
+      "lat": 1.18741,
+      "lon": 103.76191666666666,
+      "speedKmh": 10.9,
+      "heading": 107.8,
+      "reportedAt": "2026-11-01T00:16:29.962528+00:00"
     }
   ],
   "error": null
