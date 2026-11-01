@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T15:01:54.663702+00:00",
+  "updatedAt": "2026-11-01T15:16:40.309952+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
       "category": "unknown",
-      "lat": 1.2628266666666665,
-      "lon": 103.82848666666668,
+      "lat": 1.2628083333333333,
+      "lon": 103.82853333333334,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T15:00:49.868636+00:00"
+      "reportedAt": "2026-11-01T15:15:31.885331+00:00"
     },
     {
       "kind": "ship",
@@ -48,30 +48,6 @@
       "speedKmh": 14.3,
       "heading": 237.7,
       "reportedAt": "2026-11-01T14:16:27.586037+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538006030",
-      "mmsi": "538006030",
-      "name": "SFL PUMA",
-      "category": "unknown",
-      "lat": 1.2650383333333333,
-      "lon": 103.92483333333332,
-      "speedKmh": 0.0,
-      "heading": 337.4,
-      "reportedAt": "2026-11-01T13:46:03.640278+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563275700",
-      "mmsi": "563275700",
-      "name": "MARINA AMETHYST",
-      "category": "unknown",
-      "lat": 1.2359833333333334,
-      "lon": 103.80465333333333,
-      "speedKmh": 9.3,
-      "heading": 269.4,
-      "reportedAt": "2026-11-01T13:46:32.477268+00:00"
     },
     {
       "kind": "ship",
@@ -168,6 +144,18 @@
       "speedKmh": 12.0,
       "heading": 296.2,
       "reportedAt": "2026-11-01T15:01:45.918202+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477588200",
+      "mmsi": "477588200",
+      "name": "XING ZHI HAI",
+      "category": "unknown",
+      "lat": 1.2343866666666665,
+      "lon": 103.94062833333334,
+      "speedKmh": 18.0,
+      "heading": 90.4,
+      "reportedAt": "2026-11-01T15:15:50.479799+00:00"
     }
   ],
   "error": null
