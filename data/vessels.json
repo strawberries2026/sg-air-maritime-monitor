@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T01:16:39.236511+00:00",
+  "updatedAt": "2026-11-01T01:31:47.753424+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,87 +63,15 @@
     },
     {
       "kind": "ship",
-      "id": "538003024",
-      "mmsi": "538003024",
-      "name": "CLEAN THRASHER",
-      "category": "unknown",
-      "lat": 1.1626333333333332,
-      "lon": 103.76943333333334,
-      "speedKmh": 25.7,
-      "heading": 234,
-      "reportedAt": "2026-11-01T00:01:18.300923+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566612000",
-      "mmsi": "566612000",
-      "name": "SEA ENDURANCE",
-      "category": "unknown",
-      "lat": 1.2513516666666669,
-      "lon": 103.78911333333333,
-      "speedKmh": 12.2,
-      "heading": 272.6,
-      "reportedAt": "2026-11-01T00:00:50.762598+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636022819",
-      "mmsi": "636022819",
-      "name": "SDM TIANJIN",
-      "category": "unknown",
-      "lat": 1.1588783333333335,
-      "lon": 103.79650333333333,
-      "speedKmh": 14.3,
-      "heading": 63,
-      "reportedAt": "2026-11-01T00:00:54.293178+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "574005860",
-      "mmsi": "574005860",
-      "name": "AULAC EAGLE",
-      "category": "unknown",
-      "lat": 1.2388333333333332,
-      "lon": 103.79893333333332,
-      "speedKmh": 0.2,
-      "heading": 214.8,
-      "reportedAt": "2026-11-01T00:01:08.036465+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "370799000",
-      "mmsi": "370799000",
-      "name": "LNG KOLT",
-      "category": "unknown",
-      "lat": 1.1689166666666668,
-      "lon": 103.75131666666667,
-      "speedKmh": 0.0,
-      "heading": 12,
-      "reportedAt": "2026-11-01T00:01:28.949896+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.2412999999999998,
-      "lon": 103.80146666666666,
-      "speedKmh": 0.2,
-      "heading": 228.7,
-      "reportedAt": "2026-11-01T00:01:37.642664+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563239800",
       "mmsi": "563239800",
       "name": "VARANYA BHUM",
       "category": "unknown",
-      "lat": 1.26398,
-      "lon": 103.83224666666666,
+      "lat": 1.2639766666666667,
+      "lon": 103.83224833333334,
       "speedKmh": 0.0,
-      "heading": 176.3,
-      "reportedAt": "2026-11-01T00:46:44.392520+00:00"
+      "heading": 249.1,
+      "reportedAt": "2026-11-01T01:31:14.192781+00:00"
     },
     {
       "kind": "ship",
@@ -336,6 +264,42 @@
       "speedKmh": 0.0,
       "heading": 244.9,
       "reportedAt": "2026-11-01T01:16:24.015604+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119191",
+      "mmsi": "525119191",
+      "name": "QUEEN CENTURY",
+      "category": "unknown",
+      "lat": 1.2374066666666665,
+      "lon": 103.76814833333333,
+      "speedKmh": 0.0,
+      "heading": 120,
+      "reportedAt": "2026-11-01T01:30:37.414669+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "commercial",
+      "lat": 1.2332416666666668,
+      "lon": 103.812125,
+      "speedKmh": 5.6,
+      "heading": 292.4,
+      "reportedAt": "2026-11-01T01:31:28.537815+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370799000",
+      "mmsi": "370799000",
+      "name": "LNG KOLT",
+      "category": "unknown",
+      "lat": 1.1688666666666667,
+      "lon": 103.75125,
+      "speedKmh": 0.0,
+      "heading": 165,
+      "reportedAt": "2026-11-01T01:31:28.780136+00:00"
     }
   ],
   "error": null
