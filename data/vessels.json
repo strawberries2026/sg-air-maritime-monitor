@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T14:16:43.527974+00:00",
+  "updatedAt": "2026-11-01T14:31:46.071786+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,54 +36,6 @@
       "speedKmh": 0.2,
       "heading": 343.5,
       "reportedAt": "2026-11-01T13:31:44.870459+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563253500",
-      "mmsi": "563253500",
-      "name": "MARINE AZURE",
-      "category": "unknown",
-      "lat": 1.259295,
-      "lon": 103.89153833333333,
-      "speedKmh": 1.5,
-      "heading": 156.6,
-      "reportedAt": "2026-11-01T13:00:58.150645+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563079600",
-      "mmsi": "563079600",
-      "name": "STRAITS GRACIOUS",
-      "category": "unknown",
-      "lat": 1.2442749999999998,
-      "lon": 103.78253166666667,
-      "speedKmh": 11.5,
-      "heading": 337.1,
-      "reportedAt": "2026-11-01T13:00:46.120911+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566103000",
-      "mmsi": "566103000",
-      "name": "GLOVER",
-      "category": "unknown",
-      "lat": 1.23862,
-      "lon": 103.77744833333333,
-      "speedKmh": 16.7,
-      "heading": 143.8,
-      "reportedAt": "2026-11-01T13:01:08.572432+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "668116289",
-      "mmsi": "668116289",
-      "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2826683333333333,
-      "lon": 103.89204333333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-01T13:01:24.162900+00:00"
     },
     {
       "kind": "ship",
@@ -127,11 +79,11 @@
       "mmsi": "538012284",
       "name": "MFM MEMPHIS",
       "category": "unknown",
-      "lat": 1.2190016666666668,
-      "lon": 103.805325,
+      "lat": 1.2185666666666668,
+      "lon": 103.80550833333334,
       "speedKmh": 0.2,
-      "heading": 98.2,
-      "reportedAt": "2026-11-01T13:16:03.313790+00:00"
+      "heading": 308.1,
+      "reportedAt": "2026-11-01T14:31:02.963454+00:00"
     },
     {
       "kind": "ship",
@@ -216,6 +168,42 @@
       "speedKmh": 13.0,
       "heading": 240.7,
       "reportedAt": "2026-11-01T14:01:44.967047+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563869000",
+      "mmsi": "563869000",
+      "name": "SINDO PRINCESS",
+      "category": "unknown",
+      "lat": 1.26282,
+      "lon": 103.81872166666668,
+      "speedKmh": 9.1,
+      "heading": 79.6,
+      "reportedAt": "2026-11-01T14:30:36.355394+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "228469700",
+      "mmsi": "228469700",
+      "name": "CMA CGM FORT DIAMANT",
+      "category": "unknown",
+      "lat": 1.2517316666666667,
+      "lon": 103.96402666666667,
+      "speedKmh": 15.2,
+      "heading": 252.9,
+      "reportedAt": "2026-11-01T14:30:36.885656+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533110714",
+      "mmsi": "533110714",
+      "name": "HERA",
+      "category": "unknown",
+      "lat": 1.24025,
+      "lon": 103.804045,
+      "speedKmh": 0.2,
+      "heading": 204.6,
+      "reportedAt": "2026-11-01T14:31:27.189619+00:00"
     }
   ],
   "error": null
