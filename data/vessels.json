@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T20:46:41.037271+00:00",
+  "updatedAt": "2026-11-01T20:49:39.245200+00:00",
   "items": [
     {
       "kind": "ship",
@@ -79,11 +79,11 @@
       "mmsi": "352003145",
       "name": "PVT AVIRA",
       "category": "unknown",
-      "lat": 1.2192833333333333,
-      "lon": 103.81325,
+      "lat": 1.2192333333333332,
+      "lon": 103.8133,
       "speedKmh": 0.0,
-      "heading": 135,
-      "reportedAt": "2026-11-01T20:31:29.213968+00:00"
+      "heading": 313,
+      "reportedAt": "2026-11-01T20:49:29.139251+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +271,11 @@
       "mmsi": "412036000",
       "name": "HUA HAI LONG",
       "category": "unknown",
-      "lat": 1.2579933333333335,
-      "lon": 103.8678,
-      "speedKmh": 0.2,
-      "heading": 308.4,
-      "reportedAt": "2026-11-01T20:31:29.286501+00:00"
+      "lat": 1.2580483333333334,
+      "lon": 103.86777833333333,
+      "speedKmh": 0.0,
+      "heading": 89.7,
+      "reportedAt": "2026-11-01T20:49:29.311358+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +295,11 @@
       "mmsi": "563140000",
       "name": "BTS CAMILLA",
       "category": "unknown",
-      "lat": 1.236145,
-      "lon": 103.80076666666668,
-      "speedKmh": 0.0,
-      "heading": 194.3,
-      "reportedAt": "2026-11-01T20:45:32.341174+00:00"
+      "lat": 1.2361499999999999,
+      "lon": 103.80071666666666,
+      "speedKmh": 0.2,
+      "heading": 274.6,
+      "reportedAt": "2026-11-01T20:48:32.150275+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +384,30 @@
       "speedKmh": 0.0,
       "heading": 4.2,
       "reportedAt": "2026-11-01T20:45:45.783108+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477528600",
+      "mmsi": "477528600",
+      "name": "BRIGHT VENTURE",
+      "category": "unknown",
+      "lat": 1.2044666666666666,
+      "lon": 103.87901000000001,
+      "speedKmh": 11.3,
+      "heading": 63.8,
+      "reportedAt": "2026-11-01T20:48:46.915146+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563182900",
+      "mmsi": "563182900",
+      "name": "FUELNG VENOSA",
+      "category": "unknown",
+      "lat": 1.1811466666666666,
+      "lon": 103.75520166666666,
+      "speedKmh": 10.7,
+      "heading": 139.6,
+      "reportedAt": "2026-11-01T20:49:13.824822+00:00"
     }
   ],
   "error": null
