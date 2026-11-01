@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T09:16:39.327032+00:00",
+  "updatedAt": "2026-11-01T09:44:17.843983+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,30 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "564346000",
-      "mmsi": "564346000",
-      "name": "HORIZON 6",
-      "category": "unknown",
-      "lat": 1.2612916666666665,
-      "lon": 103.81155333333332,
-      "speedKmh": 10.7,
-      "heading": 85.4,
-      "reportedAt": "2026-11-01T07:46:39.433204+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021770",
-      "mmsi": "636021770",
-      "name": "MSC AAYA",
-      "category": "unknown",
-      "lat": 1.2252233333333333,
-      "lon": 103.94431833333333,
-      "speedKmh": 22.4,
-      "heading": 80.5,
-      "reportedAt": "2026-11-01T08:00:46.533952+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565173000",
       "mmsi": "565173000",
       "name": "AYER CHERDEK",
@@ -60,18 +36,6 @@
       "speedKmh": 15.9,
       "heading": 65.6,
       "reportedAt": "2026-11-01T09:16:24.968337+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636012766",
-      "mmsi": "636012766",
-      "name": "ALIAKMON",
-      "category": "unknown",
-      "lat": 1.263935,
-      "lon": 103.96178,
-      "speedKmh": 6.1,
-      "heading": 63.1,
-      "reportedAt": "2026-11-01T08:00:59.079291+00:00"
     },
     {
       "kind": "ship",
@@ -96,30 +60,6 @@
       "speedKmh": 18.5,
       "heading": 312,
       "reportedAt": "2026-11-01T08:31:21.403699+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "511101907",
-      "mmsi": "511101907",
-      "name": "CHANG YANG JIN LONG",
-      "category": "unknown",
-      "lat": 1.27136,
-      "lon": 103.89881666666666,
-      "speedKmh": 0.2,
-      "heading": 47.2,
-      "reportedAt": "2026-11-01T08:01:30.738386+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563042900",
-      "mmsi": "563042900",
-      "name": "STRAITS INTEGRITY",
-      "category": "unknown",
-      "lat": 1.2452883333333333,
-      "lon": 103.798525,
-      "speedKmh": 0.7,
-      "heading": 131.1,
-      "reportedAt": "2026-11-01T08:01:38.366599+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +403,83 @@
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
       "category": "unknown",
-      "lat": 1.259625,
-      "lon": 103.84660000000001,
+      "lat": 1.2640266666666666,
+      "lon": 103.82812666666668,
       "speedKmh": 5.0,
-      "heading": 293.8,
-      "reportedAt": "2026-11-01T09:16:11.083593+00:00"
+      "heading": 235.2,
+      "reportedAt": "2026-11-01T09:43:40.473440+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538090617",
+      "mmsi": "538090617",
+      "name": "HANSA SEALIFTER",
+      "category": "unknown",
+      "lat": 1.2552333333333332,
+      "lon": 103.96511666666667,
+      "speedKmh": 18.1,
+      "heading": 249,
+      "reportedAt": "2026-11-01T09:43:09.093833+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566241000",
+      "mmsi": "566241000",
+      "name": "VANDA SUCCESS",
+      "category": "unknown",
+      "lat": 1.239005,
+      "lon": 103.776005,
+      "speedKmh": 15.9,
+      "heading": 134.4,
+      "reportedAt": "2026-11-01T09:43:30.001502+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011167",
+      "mmsi": "538011167",
+      "name": "KOTA CALLAO",
+      "category": "unknown",
+      "lat": 1.26237,
+      "lon": 103.83816166666666,
+      "speedKmh": 0.0,
+      "heading": 216.5,
+      "reportedAt": "2026-11-01T09:43:47.767356+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249937000",
+      "mmsi": "249937000",
+      "name": "ALEGRIA",
+      "category": "unknown",
+      "lat": 1.2765633333333333,
+      "lon": 103.88055166666666,
+      "speedKmh": 0.0,
+      "heading": 317.7,
+      "reportedAt": "2026-11-01T09:43:57.883499+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005850",
+      "mmsi": "574005850",
+      "name": "AULAC SIRIUS",
+      "category": "unknown",
+      "lat": 1.2455666666666665,
+      "lon": 103.80623333333332,
+      "speedKmh": 0.0,
+      "heading": 313,
+      "reportedAt": "2026-11-01T09:44:02.934872+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636027250",
+      "mmsi": "636027250",
+      "name": "SIA OCEAN",
+      "category": "unknown",
+      "lat": 1.2647133333333334,
+      "lon": 103.88658166666667,
+      "speedKmh": 0.0,
+      "heading": 303.6,
+      "reportedAt": "2026-11-01T09:44:12.471730+00:00"
     }
   ],
   "error": null
