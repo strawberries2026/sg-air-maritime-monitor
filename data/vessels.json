@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T11:16:38.812133+00:00",
+  "updatedAt": "2026-11-01T11:31:46.891412+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "440029000",
-      "mmsi": "440029000",
-      "name": "SEA CRYSTAL",
-      "category": "unknown",
-      "lat": 1.2369016666666668,
-      "lon": 103.795595,
-      "speedKmh": 8.9,
-      "heading": 257,
-      "reportedAt": "2026-11-01T10:00:53.151617+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "431766000",
-      "mmsi": "431766000",
-      "name": "DEMETER LEADER",
-      "category": "unknown",
-      "lat": 1.24635,
-      "lon": 103.95485000000001,
-      "speedKmh": 16.7,
-      "heading": 247,
-      "reportedAt": "2026-11-01T10:01:16.780360+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "249819000",
       "mmsi": "249819000",
       "name": "CMA CGM LIBRA",
@@ -91,11 +67,11 @@
       "mmsi": "352004348",
       "name": "NAIAD",
       "category": "unknown",
-      "lat": 1.2714783333333335,
-      "lon": 103.90360166666666,
-      "speedKmh": 5.6,
-      "heading": 305.6,
-      "reportedAt": "2026-11-01T11:15:27.584690+00:00"
+      "lat": 1.2733483333333333,
+      "lon": 103.88874833333333,
+      "speedKmh": 6.3,
+      "heading": 271.8,
+      "reportedAt": "2026-11-01T11:31:09.119738+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +115,11 @@
       "mmsi": "563275600",
       "name": "MARINA AMMOLITE",
       "category": "unknown",
-      "lat": 1.260845,
-      "lon": 103.85097833333333,
+      "lat": 1.2608400000000002,
+      "lon": 103.85098333333333,
       "speedKmh": 0.0,
       "heading": 33.8,
-      "reportedAt": "2026-11-01T10:45:25.852778+00:00"
+      "reportedAt": "2026-11-01T11:31:45.901629+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +127,11 @@
       "mmsi": "319253400",
       "name": "ACRUX",
       "category": "unknown",
-      "lat": 1.242435,
-      "lon": 103.90210333333333,
-      "speedKmh": 0.2,
-      "heading": 119.7,
-      "reportedAt": "2026-11-01T11:01:06.273058+00:00"
+      "lat": 1.24258,
+      "lon": 103.90181166666666,
+      "speedKmh": 0.0,
+      "heading": 147.1,
+      "reportedAt": "2026-11-01T11:31:07.091003+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +252,126 @@
       "speedKmh": 0.2,
       "heading": 355.5,
       "reportedAt": "2026-11-01T11:16:37.401181+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "666001751",
+      "mmsi": "666001751",
+      "name": "666001751",
+      "category": "unknown",
+      "lat": 1.1904933333333332,
+      "lon": 103.84080999999999,
+      "speedKmh": 8.0,
+      "heading": 241.4,
+      "reportedAt": "2026-11-01T11:30:36.129441+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011696",
+      "mmsi": "538011696",
+      "name": "DHT LION",
+      "category": "unknown",
+      "lat": 1.2172466666666668,
+      "lon": 103.90020833333332,
+      "speedKmh": 17.0,
+      "heading": 249.9,
+      "reportedAt": "2026-11-01T11:30:45.351373+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "268265001",
+      "mmsi": "268265001",
+      "name": "FORZA ROMA",
+      "category": "unknown",
+      "lat": 1.2815333333333332,
+      "lon": 103.90819333333334,
+      "speedKmh": 0.0,
+      "heading": 123.2,
+      "reportedAt": "2026-11-01T11:30:49.080145+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566474000",
+      "mmsi": "566474000",
+      "name": "STRAITS ORACLE",
+      "category": "unknown",
+      "lat": 1.2616533333333335,
+      "lon": 103.89448666666667,
+      "speedKmh": 13.9,
+      "heading": 50.5,
+      "reportedAt": "2026-11-01T11:30:49.080204+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440061000",
+      "mmsi": "440061000",
+      "name": "HMM CHITTAGONG",
+      "category": "unknown",
+      "lat": 1.2334166666666666,
+      "lon": 103.91732499999999,
+      "speedKmh": 24.1,
+      "heading": 243.8,
+      "reportedAt": "2026-11-01T11:30:58.589835+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370587000",
+      "mmsi": "370587000",
+      "name": "ONE HENRY HUDSON",
+      "category": "unknown",
+      "lat": 1.2456916666666666,
+      "lon": 103.95111666666666,
+      "speedKmh": 18.5,
+      "heading": 249,
+      "reportedAt": "2026-11-01T11:31:16.931586+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275700",
+      "mmsi": "563275700",
+      "name": "MARINA AMETHYST",
+      "category": "unknown",
+      "lat": 1.2655666666666667,
+      "lon": 103.863865,
+      "speedKmh": 0.0,
+      "heading": 40.7,
+      "reportedAt": "2026-11-01T11:31:24.058952+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352003145",
+      "mmsi": "352003145",
+      "name": "PVT AVIRA",
+      "category": "unknown",
+      "lat": 1.2178499999999999,
+      "lon": 103.81608333333334,
+      "speedKmh": 0.0,
+      "heading": 292,
+      "reportedAt": "2026-11-01T11:31:31.967017+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563113200",
+      "mmsi": "563113200",
+      "name": "WAN HAI 322",
+      "category": "unknown",
+      "lat": 1.1899516666666665,
+      "lon": 103.83517333333333,
+      "speedKmh": 19.8,
+      "heading": 243.8,
+      "reportedAt": "2026-11-01T11:31:39.245807+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086610",
+      "mmsi": "563086610",
+      "name": "CSM HYDRA",
+      "category": "unknown",
+      "lat": 1.2155533333333333,
+      "lon": 103.80045,
+      "speedKmh": 14.3,
+      "heading": 126.4,
+      "reportedAt": "2026-11-01T11:31:42.471503+00:00"
     }
   ],
   "error": null
