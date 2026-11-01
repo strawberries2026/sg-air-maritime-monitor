@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T03:01:57.219515+00:00",
+  "updatedAt": "2026-11-01T03:16:40.486276+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "319154300",
-      "mmsi": "319154300",
-      "name": "SEA EAGLE",
-      "category": "unknown",
-      "lat": 1.1629800000000001,
-      "lon": 103.69425666666666,
-      "speedKmh": 15.7,
-      "heading": 304.2,
-      "reportedAt": "2026-11-01T01:45:51.005026+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012796",
       "mmsi": "538012796",
       "name": "MANAH",
@@ -36,66 +24,6 @@
       "speedKmh": 0.2,
       "heading": 212.8,
       "reportedAt": "2026-11-01T02:01:11.483058+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525601594",
-      "mmsi": "525601594",
-      "name": "TB AMADEUS 1",
-      "category": "unknown",
-      "lat": 1.2595233333333333,
-      "lon": 103.84915333333333,
-      "speedKmh": 6.1,
-      "heading": 280.8,
-      "reportedAt": "2026-11-01T01:45:30.800940+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566540000",
-      "mmsi": "566540000",
-      "name": "ZMAGA",
-      "category": "unknown",
-      "lat": 1.24356,
-      "lon": 103.787475,
-      "speedKmh": 10.7,
-      "heading": 38.7,
-      "reportedAt": "2026-11-01T01:45:46.596529+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.2415583333333333,
-      "lon": 103.80170833333334,
-      "speedKmh": 0.4,
-      "heading": 211,
-      "reportedAt": "2026-11-01T01:46:14.801767+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563026600",
-      "mmsi": "563026600",
-      "name": "WAVEMASTER 8",
-      "category": "unknown",
-      "lat": 1.2620466666666668,
-      "lon": 103.81123333333333,
-      "speedKmh": 9.8,
-      "heading": 269.5,
-      "reportedAt": "2026-11-01T01:46:21.305355+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011167",
-      "mmsi": "538011167",
-      "name": "KOTA CALLAO",
-      "category": "unknown",
-      "lat": 1.2626716666666666,
-      "lon": 103.83842833333333,
-      "speedKmh": 0.4,
-      "heading": 204.9,
-      "reportedAt": "2026-11-01T01:46:36.140524+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +139,11 @@
       "mmsi": "525289999",
       "name": "COMBAT SURV STATION",
       "category": "unknown",
-      "lat": 1.1876566666666666,
-      "lon": 104.02195499999999,
+      "lat": 1.1876950000000002,
+      "lon": 104.02197666666666,
       "speedKmh": 0.0,
       "heading": 54,
-      "reportedAt": "2026-11-01T02:41:25.906644+00:00"
+      "reportedAt": "2026-11-01T03:15:36.336563+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +151,11 @@
       "mmsi": "533133199",
       "name": "533133199",
       "category": "unknown",
-      "lat": 0.91345,
-      "lon": 104.27541500000001,
-      "speedKmh": 7.8,
-      "heading": 305.7,
-      "reportedAt": "2026-11-01T02:46:00.900588+00:00"
+      "lat": 0.9282199999999999,
+      "lon": 104.25620666666667,
+      "speedKmh": 0.7,
+      "heading": 68,
+      "reportedAt": "2026-11-01T03:15:30.110672+00:00"
     },
     {
       "kind": "ship",
@@ -288,6 +216,42 @@
       "speedKmh": 0.0,
       "heading": 74.7,
       "reportedAt": "2026-11-01T03:01:45.565174+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525201810",
+      "mmsi": "525201810",
+      "name": "PANCARAN PROSPERITY",
+      "category": "unknown",
+      "lat": 1.0862166666666666,
+      "lon": 104.16408166666666,
+      "speedKmh": 0.0,
+      "heading": 135,
+      "reportedAt": "2026-11-01T03:16:06.099646+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563129100",
+      "mmsi": "563129100",
+      "name": "BRASSAVOLA",
+      "category": "unknown",
+      "lat": 1.1761533333333332,
+      "lon": 103.755575,
+      "speedKmh": 0.6,
+      "heading": 30.9,
+      "reportedAt": "2026-11-01T03:16:11.296295+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525104079",
+      "mmsi": "525104079",
+      "name": "TRANSKO DARA 3202",
+      "category": "unknown",
+      "lat": 1.0541616666666667,
+      "lon": 104.21688999999999,
+      "speedKmh": 0.0,
+      "heading": 130,
+      "reportedAt": "2026-11-01T03:16:28.559999+00:00"
     }
   ],
   "error": null
