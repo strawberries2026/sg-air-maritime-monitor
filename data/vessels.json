@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T09:44:17.843983+00:00",
+  "updatedAt": "2026-11-01T09:46:38.090008+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "538012284",
-      "mmsi": "538012284",
-      "name": "MFM MEMPHIS",
-      "category": "unknown",
-      "lat": 1.2203416666666667,
-      "lon": 103.80267,
-      "speedKmh": 0.4,
-      "heading": 90.1,
-      "reportedAt": "2026-11-01T08:16:03.381862+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533170679",
       "mmsi": "533170679",
       "name": "DANUM 175",
@@ -75,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "538012301",
-      "mmsi": "538012301",
-      "name": "GREAT FORTUNE",
-      "category": "unknown",
-      "lat": 1.2315733333333334,
-      "lon": 103.798235,
-      "speedKmh": 11.1,
-      "heading": 119.9,
-      "reportedAt": "2026-11-01T08:15:31.627134+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "273276080",
-      "mmsi": "273276080",
-      "name": "ORION",
-      "category": "unknown",
-      "lat": 1.1566066666666666,
-      "lon": 103.70456833333333,
-      "speedKmh": 20.9,
-      "heading": 305.7,
-      "reportedAt": "2026-11-01T08:15:38.990498+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563332800",
       "mmsi": "563332800",
       "name": "MAERSK FERRATO",
@@ -111,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "566156000",
-      "mmsi": "566156000",
-      "name": "QUEEN STAR 2",
-      "category": "unknown",
-      "lat": 1.257255,
-      "lon": 103.80400666666667,
-      "speedKmh": 28.9,
-      "heading": 149.8,
-      "reportedAt": "2026-11-01T08:15:45.508942+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563021070",
       "mmsi": "563021070",
       "name": "PILOT GP53",
@@ -132,30 +84,6 @@
       "speedKmh": 31.7,
       "heading": 190.5,
       "reportedAt": "2026-11-01T08:31:38.761293+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021068",
-      "mmsi": "636021068",
-      "name": "NEW HANDY",
-      "category": "unknown",
-      "lat": 1.2243033333333335,
-      "lon": 103.87452333333334,
-      "speedKmh": 15.4,
-      "heading": 232,
-      "reportedAt": "2026-11-01T08:16:04.299481+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "304523000",
-      "mmsi": "304523000",
-      "name": "BBC HOUSTON",
-      "category": "unknown",
-      "lat": 1.2672933333333334,
-      "lon": 103.87863666666667,
-      "speedKmh": 0.0,
-      "heading": 101,
-      "reportedAt": "2026-11-01T08:16:15.854695+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +408,30 @@
       "speedKmh": 0.0,
       "heading": 303.6,
       "reportedAt": "2026-11-01T09:44:12.471730+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563164600",
+      "mmsi": "563164600",
+      "name": "VOLTA",
+      "category": "unknown",
+      "lat": 1.2356116666666668,
+      "lon": 103.79135500000001,
+      "speedKmh": 11.7,
+      "heading": 125.8,
+      "reportedAt": "2026-11-01T09:45:36.540184+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565904000",
+      "mmsi": "565904000",
+      "name": "KOTA RESTU",
+      "category": "unknown",
+      "lat": 1.2664499999999999,
+      "lon": 103.8782,
+      "speedKmh": 0.4,
+      "heading": 171,
+      "reportedAt": "2026-11-01T09:46:28.958380+00:00"
     }
   ],
   "error": null
