@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:01:53.020463+00:00",
+  "updatedAt": "2026-11-01T22:16:39.654826+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-01T21:01:19.949437+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "241614000",
-      "mmsi": "241614000",
-      "name": "MINERVA OLYMPIA",
-      "category": "unknown",
-      "lat": 1.28297,
-      "lon": 103.91615833333334,
-      "speedKmh": 0.0,
-      "heading": 307.1,
-      "reportedAt": "2026-11-01T20:46:13.923557+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +55,11 @@
       "mmsi": "636024968",
       "name": "MACALLAN",
       "category": "unknown",
-      "lat": 1.2332166666666666,
-      "lon": 103.77288833333334,
+      "lat": 1.2332083333333335,
+      "lon": 103.77291666666666,
       "speedKmh": 0.0,
-      "heading": 223.5,
-      "reportedAt": "2026-11-01T22:01:49.006331+00:00"
+      "heading": 35.2,
+      "reportedAt": "2026-11-01T22:16:38.000051+00:00"
     },
     {
       "kind": "ship",
@@ -99,18 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563294700",
-      "mmsi": "563294700",
-      "name": "EM SHONA",
-      "category": "unknown",
-      "lat": 1.2588366666666666,
-      "lon": 103.78914333333334,
-      "speedKmh": 3.5,
-      "heading": 60.8,
-      "reportedAt": "2026-11-01T20:46:32.615382+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "574005860",
       "mmsi": "574005860",
       "name": "AULAC EAGLE",
@@ -120,30 +96,6 @@
       "speedKmh": 0.0,
       "heading": 319.9,
       "reportedAt": "2026-11-01T22:01:07.085731+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "319187800",
-      "mmsi": "319187800",
-      "name": "PLATINUM",
-      "category": "unknown",
-      "lat": 1.2343183333333334,
-      "lon": 103.820055,
-      "speedKmh": 1.3,
-      "heading": 342.5,
-      "reportedAt": "2026-11-01T20:45:29.615127+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566000000",
-      "mmsi": "566000000",
-      "name": "HAFNIA FALCON",
-      "category": "unknown",
-      "lat": 1.2242866666666667,
-      "lon": 103.79779333333333,
-      "speedKmh": 0.0,
-      "heading": 4.2,
-      "reportedAt": "2026-11-01T20:45:45.783108+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +163,11 @@
       "mmsi": "563275700",
       "name": "MARINA AMETHYST",
       "category": "unknown",
-      "lat": 1.2547716666666666,
-      "lon": 103.85959333333334,
-      "speedKmh": 10.2,
-      "heading": 178.1,
-      "reportedAt": "2026-11-01T21:46:26.312288+00:00"
+      "lat": 1.262085,
+      "lon": 103.85940666666667,
+      "speedKmh": 5.4,
+      "heading": 349,
+      "reportedAt": "2026-11-01T22:16:30.198041+00:00"
     },
     {
       "kind": "ship",
@@ -476,10 +428,10 @@
       "name": "TB BUANA 1302",
       "category": "unknown",
       "lat": 1.262805,
-      "lon": 103.8285,
+      "lon": 103.82853333333334,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T22:01:49.989646+00:00"
+      "reportedAt": "2026-11-01T22:16:19.574489+00:00"
     },
     {
       "kind": "ship",
@@ -516,6 +468,78 @@
       "speedKmh": 0.0,
       "heading": 216.5,
       "reportedAt": "2026-11-01T22:01:48.770108+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477624900",
+      "mmsi": "477624900",
+      "name": "COSCO SHIPPING GLORY",
+      "category": "unknown",
+      "lat": 1.2576466666666666,
+      "lon": 103.940005,
+      "speedKmh": 8.0,
+      "heading": 348.7,
+      "reportedAt": "2026-11-01T22:15:39.960009+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "431766000",
+      "mmsi": "431766000",
+      "name": "DEMETER LEADER",
+      "category": "unknown",
+      "lat": 1.24445,
+      "lon": 103.7149,
+      "speedKmh": 22.4,
+      "heading": 231,
+      "reportedAt": "2026-11-01T22:15:43.560374+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563332600",
+      "mmsi": "563332600",
+      "name": "PAOLINA COSULICH",
+      "category": "unknown",
+      "lat": 1.2427166666666667,
+      "lon": 103.85887166666666,
+      "speedKmh": 11.5,
+      "heading": 140,
+      "reportedAt": "2026-11-01T22:15:45.767578+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012796",
+      "mmsi": "538012796",
+      "name": "MANAH",
+      "category": "unknown",
+      "lat": 1.2381983333333333,
+      "lon": 103.81366,
+      "speedKmh": 0.6,
+      "heading": 26.9,
+      "reportedAt": "2026-11-01T22:16:10.940587+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006644",
+      "mmsi": "538006644",
+      "name": "SILVER MILLIE",
+      "category": "unknown",
+      "lat": 1.1785999999999999,
+      "lon": 103.84075166666666,
+      "speedKmh": 14.3,
+      "heading": 66.2,
+      "reportedAt": "2026-11-01T22:16:17.641521+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016728",
+      "mmsi": "636016728",
+      "name": "BLUE SKY I",
+      "category": "unknown",
+      "lat": 1.2365216666666667,
+      "lon": 103.7817,
+      "speedKmh": 15.9,
+      "heading": 311.2,
+      "reportedAt": "2026-11-01T22:16:37.045016+00:00"
     }
   ],
   "error": null
