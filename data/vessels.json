@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T13:31:50.254069+00:00",
+  "updatedAt": "2026-11-01T13:46:38.069938+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "563275700",
-      "mmsi": "563275700",
-      "name": "MARINA AMETHYST",
-      "category": "unknown",
-      "lat": 1.26556,
-      "lon": 103.86272000000001,
-      "speedKmh": 0.0,
-      "heading": 136.6,
-      "reportedAt": "2026-11-01T12:16:06.527044+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "352003145",
       "mmsi": "352003145",
       "name": "PVT AVIRA",
@@ -48,42 +36,6 @@
       "speedKmh": 0.0,
       "heading": 342,
       "reportedAt": "2026-11-01T13:31:29.887185+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "574005860",
-      "mmsi": "574005860",
-      "name": "AULAC EAGLE",
-      "category": "unknown",
-      "lat": 1.2382833333333332,
-      "lon": 103.80085000000001,
-      "speedKmh": 0.0,
-      "heading": 99.6,
-      "reportedAt": "2026-11-01T12:16:08.104568+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "412036000",
-      "mmsi": "412036000",
-      "name": "HUA HAI LONG",
-      "category": "unknown",
-      "lat": 1.2589633333333334,
-      "lon": 103.86849666666667,
-      "speedKmh": 0.2,
-      "heading": 23.1,
-      "reportedAt": "2026-11-01T12:16:29.154252+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.27358,
-      "lon": 103.80136333333333,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-01T12:16:35.088546+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +276,42 @@
       "speedKmh": 16.3,
       "heading": 43.3,
       "reportedAt": "2026-11-01T13:31:37.914710+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009985",
+      "mmsi": "538009985",
+      "name": "DINO",
+      "category": "unknown",
+      "lat": 1.2387633333333334,
+      "lon": 103.93498666666666,
+      "speedKmh": 9.4,
+      "heading": 236.1,
+      "reportedAt": "2026-11-01T13:45:39.397765+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006030",
+      "mmsi": "538006030",
+      "name": "SFL PUMA",
+      "category": "unknown",
+      "lat": 1.2650383333333333,
+      "lon": 103.92483333333332,
+      "speedKmh": 0.0,
+      "heading": 337.4,
+      "reportedAt": "2026-11-01T13:46:03.640278+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275700",
+      "mmsi": "563275700",
+      "name": "MARINA AMETHYST",
+      "category": "unknown",
+      "lat": 1.2359833333333334,
+      "lon": 103.80465333333333,
+      "speedKmh": 9.3,
+      "heading": 269.4,
+      "reportedAt": "2026-11-01T13:46:32.477268+00:00"
     }
   ],
   "error": null
