@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T18:16:40.072918+00:00",
+  "updatedAt": "2026-11-01T18:31:46.266526+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735433333333332,
-      "lon": 103.80138000000001,
+      "lat": 1.2735416666666666,
+      "lon": 103.80138333333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-01T17:30:36.324895+00:00"
+      "reportedAt": "2026-11-01T18:31:24.584694+00:00"
     },
     {
       "kind": "ship",
@@ -75,27 +75,15 @@
     },
     {
       "kind": "ship",
-      "id": "566680000",
-      "mmsi": "566680000",
-      "name": "VITALITY",
-      "category": "unknown",
-      "lat": 1.2500916666666666,
-      "lon": 103.87500833333334,
-      "speedKmh": 0.4,
-      "heading": 346.9,
-      "reportedAt": "2026-11-01T17:01:22.239112+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563088620",
       "mmsi": "563088620",
       "name": "NOVA WAVE",
       "category": "unknown",
-      "lat": 1.262235,
+      "lat": 1.26223,
       "lon": 103.81886666666666,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-01T18:16:09.946627+00:00"
+      "reportedAt": "2026-11-01T18:30:40.475878+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +127,11 @@
       "mmsi": "563331100",
       "name": "EVER EMIT",
       "category": "unknown",
-      "lat": 1.2065233333333334,
-      "lon": 103.82425833333333,
-      "speedKmh": 17.4,
-      "heading": 276.8,
-      "reportedAt": "2026-11-01T18:16:12.771122+00:00"
+      "lat": 1.2214816666666666,
+      "lon": 103.79513333333333,
+      "speedKmh": 12.2,
+      "heading": 329.7,
+      "reportedAt": "2026-11-01T18:31:11.694432+00:00"
     },
     {
       "kind": "ship",
@@ -156,30 +144,6 @@
       "speedKmh": 0.0,
       "heading": 223.9,
       "reportedAt": "2026-11-01T18:16:29.543990+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636019357",
-      "mmsi": "636019357",
-      "name": "STAR MARISA",
-      "category": "unknown",
-      "lat": 1.1565800000000002,
-      "lon": 103.77693666666667,
-      "speedKmh": 14.4,
-      "heading": 51.5,
-      "reportedAt": "2026-11-01T17:01:26.634909+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086920",
-      "mmsi": "563086920",
-      "name": "RIKKA",
-      "category": "unknown",
-      "lat": 1.2678166666666668,
-      "lon": 103.89331999999999,
-      "speedKmh": 8.9,
-      "heading": 66.6,
-      "reportedAt": "2026-11-01T17:01:29.408987+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +432,30 @@
       "speedKmh": 21.7,
       "heading": 123.7,
       "reportedAt": "2026-11-01T18:16:36.913993+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "368270000",
+      "mmsi": "368270000",
+      "name": "SLNC  STAR",
+      "category": "unknown",
+      "lat": 1.2229966666666667,
+      "lon": 103.89242333333333,
+      "speedKmh": 5.0,
+      "heading": 30.1,
+      "reportedAt": "2026-11-01T18:30:39.967907+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636021910",
+      "mmsi": "636021910",
+      "name": "STOLT ORCA",
+      "category": "unknown",
+      "lat": 1.2165533333333334,
+      "lon": 103.79553166666666,
+      "speedKmh": 22.6,
+      "heading": 325.2,
+      "reportedAt": "2026-11-01T18:31:30.617337+00:00"
     }
   ],
   "error": null
