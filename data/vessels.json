@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T12:31:47.879746+00:00",
+  "updatedAt": "2026-11-01T12:46:40.359940+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,51 +63,15 @@
     },
     {
       "kind": "ship",
-      "id": "353686000",
-      "mmsi": "353686000",
-      "name": "EAGLE EXPRESS",
-      "category": "unknown",
-      "lat": 1.271285,
-      "lon": 103.893255,
-      "speedKmh": 6.7,
-      "heading": 260.5,
-      "reportedAt": "2026-11-01T11:16:21.698027+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "351870000",
-      "mmsi": "351870000",
-      "name": "PRINCESS ROYAL",
-      "category": "unknown",
-      "lat": 1.1902083333333333,
-      "lon": 103.84371666666667,
-      "speedKmh": 12.2,
-      "heading": 242.6,
-      "reportedAt": "2026-11-01T11:15:36.389397+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563239800",
       "mmsi": "563239800",
       "name": "VARANYA BHUM",
       "category": "unknown",
-      "lat": 1.2639816666666666,
+      "lat": 1.2640166666666666,
       "lon": 103.83223500000001,
       "speedKmh": 0.0,
       "heading": 338.5,
-      "reportedAt": "2026-11-01T12:31:00.074512+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538005679",
-      "mmsi": "538005679",
-      "name": "SILVER MONIKA",
-      "category": "unknown",
-      "lat": 1.2189216666666667,
-      "lon": 103.822725,
-      "speedKmh": 0.2,
-      "heading": 355.5,
-      "reportedAt": "2026-11-01T11:16:37.401181+00:00"
+      "reportedAt": "2026-11-01T12:46:20.008775+00:00"
     },
     {
       "kind": "ship",
@@ -330,12 +294,12 @@
       "id": "565390000",
       "mmsi": "565390000",
       "name": "JAYA OCEAN",
-      "category": "commercial",
-      "lat": 1.245375,
-      "lon": 103.79318166666667,
-      "speedKmh": 0.0,
-      "heading": 51.3,
-      "reportedAt": "2026-11-01T12:31:20.938795+00:00"
+      "category": "unknown",
+      "lat": 1.2453266666666667,
+      "lon": 103.79323500000001,
+      "speedKmh": 0.4,
+      "heading": 160.9,
+      "reportedAt": "2026-11-01T12:46:21.011111+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +312,54 @@
       "speedKmh": 25.6,
       "heading": 255.6,
       "reportedAt": "2026-11-01T12:31:38.317683+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "630001363",
+      "mmsi": "630001363",
+      "name": "H7 SFC2",
+      "category": "unknown",
+      "lat": 1.2798166666666666,
+      "lon": 103.90198333333333,
+      "speedKmh": 0.0,
+      "heading": 287,
+      "reportedAt": "2026-11-01T12:45:47.243255+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563253500",
+      "mmsi": "563253500",
+      "name": "MARINE AZURE",
+      "category": "unknown",
+      "lat": 1.2651516666666667,
+      "lon": 103.90074666666666,
+      "speedKmh": 9.3,
+      "heading": 271.7,
+      "reportedAt": "2026-11-01T12:45:47.441465+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563856000",
+      "mmsi": "563856000",
+      "name": "JUMA",
+      "category": "unknown",
+      "lat": 1.259025,
+      "lon": 103.87484500000001,
+      "speedKmh": 1.5,
+      "heading": 203.9,
+      "reportedAt": "2026-11-01T12:45:55.112185+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.2476733333333334,
+      "lon": 103.79708000000001,
+      "speedKmh": 0.4,
+      "heading": 16.1,
+      "reportedAt": "2026-11-01T12:46:12.859892+00:00"
     }
   ],
   "error": null
