@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-01T12:01:54.315526+00:00",
+  "updatedAt": "2026-11-01T12:16:41.134334+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "565904000",
-      "mmsi": "565904000",
-      "name": "KOTA RESTU",
-      "category": "unknown",
-      "lat": 1.2660833333333334,
-      "lon": 103.87813333333334,
-      "speedKmh": 0.7,
-      "heading": 322,
-      "reportedAt": "2026-11-01T10:46:28.850284+00:00"
-    },
     {
       "kind": "ship",
       "id": "352004348",
@@ -60,30 +48,6 @@
       "speedKmh": 0.0,
       "heading": 147.1,
       "reportedAt": "2026-11-01T11:31:07.091003+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016728",
-      "mmsi": "636016728",
-      "name": "BLUE SKY I",
-      "category": "unknown",
-      "lat": 1.2277183333333332,
-      "lon": 103.80118999999999,
-      "speedKmh": 0.9,
-      "heading": 14.8,
-      "reportedAt": "2026-11-01T10:46:15.757919+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "666001752",
-      "mmsi": "666001752",
-      "name": "666001752",
-      "category": "unknown",
-      "lat": 1.2341933333333333,
-      "lon": 103.9341,
-      "speedKmh": 16.9,
-      "heading": 244.5,
-      "reportedAt": "2026-11-01T10:46:21.146465+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +223,11 @@
       "mmsi": "563275700",
       "name": "MARINA AMETHYST",
       "category": "unknown",
-      "lat": 1.2655666666666667,
-      "lon": 103.863865,
+      "lat": 1.26556,
+      "lon": 103.86272000000001,
       "speedKmh": 0.0,
-      "heading": 40.7,
-      "reportedAt": "2026-11-01T11:31:24.058952+00:00"
+      "heading": 136.6,
+      "reportedAt": "2026-11-01T12:16:06.527044+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +235,11 @@
       "mmsi": "352003145",
       "name": "PVT AVIRA",
       "category": "unknown",
-      "lat": 1.2178499999999999,
-      "lon": 103.81608333333334,
+      "lat": 1.2180833333333332,
+      "lon": 103.81618333333333,
       "speedKmh": 0.0,
-      "heading": 292,
-      "reportedAt": "2026-11-01T11:31:31.967017+00:00"
+      "heading": 17,
+      "reportedAt": "2026-11-01T12:16:32.284590+00:00"
     },
     {
       "kind": "ship",
@@ -312,6 +276,54 @@
       "speedKmh": 9.4,
       "heading": 176.2,
       "reportedAt": "2026-11-01T12:01:12.104686+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005860",
+      "mmsi": "574005860",
+      "name": "AULAC EAGLE",
+      "category": "unknown",
+      "lat": 1.2382833333333332,
+      "lon": 103.80085000000001,
+      "speedKmh": 0.0,
+      "heading": 99.6,
+      "reportedAt": "2026-11-01T12:16:08.104568+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "412036000",
+      "mmsi": "412036000",
+      "name": "HUA HAI LONG",
+      "category": "unknown",
+      "lat": 1.2589633333333334,
+      "lon": 103.86849666666667,
+      "speedKmh": 0.2,
+      "heading": 23.1,
+      "reportedAt": "2026-11-01T12:16:29.154252+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.27358,
+      "lon": 103.80136333333333,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-01T12:16:35.088546+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249253000",
+      "mmsi": "249253000",
+      "name": "RIO GRANDE",
+      "category": "unknown",
+      "lat": 1.1948,
+      "lon": 103.86508333333333,
+      "speedKmh": 32.0,
+      "heading": 63.9,
+      "reportedAt": "2026-11-01T12:16:40.376561+00:00"
     }
   ],
   "error": null
