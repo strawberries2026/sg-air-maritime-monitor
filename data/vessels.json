@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-11-01T11:46:39.188746+00:00",
+  "updatedAt": "2026-11-01T12:01:54.315526+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "636018143",
-      "mmsi": "636018143",
-      "name": "AAL KOBE",
-      "category": "unknown",
-      "lat": 1.2627966666666666,
-      "lon": 103.89188833333333,
-      "speedKmh": 11.5,
-      "heading": 2.1,
-      "reportedAt": "2026-11-01T10:30:59.251514+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525018039",
-      "mmsi": "525018039",
-      "name": "TB BUANA 1302",
-      "category": "unknown",
-      "lat": 1.2628216666666667,
-      "lon": 103.82852,
-      "speedKmh": 0.2,
-      "heading": null,
-      "reportedAt": "2026-11-01T10:31:40.748244+00:00"
-    },
     {
       "kind": "ship",
       "id": "565904000",
@@ -51,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "636017742",
-      "mmsi": "636017742",
-      "name": "SOUTHERN QUOKKA",
-      "category": "unknown",
-      "lat": 1.1950399999999999,
-      "lon": 103.87810833333333,
-      "speedKmh": 28.5,
-      "heading": 69.2,
-      "reportedAt": "2026-11-01T10:30:40.672221+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "241949000",
       "mmsi": "241949000",
       "name": "OCEAN STAR",
@@ -72,18 +36,6 @@
       "speedKmh": 0.0,
       "heading": 43.1,
       "reportedAt": "2026-11-01T11:01:32.931197+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2759216666666666,
-      "lon": 103.90557666666668,
-      "speedKmh": 0.2,
-      "heading": 0.3,
-      "reportedAt": "2026-11-01T10:30:59.793784+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +103,11 @@
       "mmsi": "533110714",
       "name": "HERA",
       "category": "unknown",
-      "lat": 1.2407350000000001,
-      "lon": 103.80339833333333,
+      "lat": 1.2401666666666666,
+      "lon": 103.80401833333333,
       "speedKmh": 0.2,
-      "heading": 190.3,
-      "reportedAt": "2026-11-01T11:00:45.192450+00:00"
+      "heading": 16.9,
+      "reportedAt": "2026-11-01T12:01:45.351821+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +300,18 @@
       "speedKmh": 14.3,
       "heading": 126.4,
       "reportedAt": "2026-11-01T11:31:42.471503+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563090600",
+      "mmsi": "563090600",
+      "name": "MTM VANCOUVER",
+      "category": "unknown",
+      "lat": 1.2719516666666666,
+      "lon": 103.92723500000001,
+      "speedKmh": 9.4,
+      "heading": 176.2,
+      "reportedAt": "2026-11-01T12:01:12.104686+00:00"
     }
   ],
   "error": null
