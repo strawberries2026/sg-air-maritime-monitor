@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T07:16:43.453275+00:00",
+  "updatedAt": "2026-11-02T07:31:46.254603+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,30 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "563029230",
-      "mmsi": "563029230",
-      "name": "SYNERGY",
-      "category": "unknown",
-      "lat": 1.2415316666666667,
-      "lon": 103.79580333333334,
-      "speedKmh": 0.2,
-      "heading": 59.5,
-      "reportedAt": "2026-11-02T06:00:46.835809+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "210662000",
-      "mmsi": "210662000",
-      "name": "NAVIGATOR OF THE SEA",
-      "category": "unknown",
-      "lat": 1.2645216666666668,
-      "lon": 103.86074166666667,
-      "speedKmh": 0.0,
-      "heading": 321.6,
-      "reportedAt": "2026-11-02T06:01:32.577071+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566019000",
       "mmsi": "566019000",
       "name": "SINCERITY",
@@ -72,18 +48,6 @@
       "speedKmh": 12.4,
       "heading": 328.2,
       "reportedAt": "2026-11-02T07:16:24.248916+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735566666666667,
-      "lon": 103.80139666666668,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-02T06:01:35.880475+00:00"
     },
     {
       "kind": "ship",
@@ -147,18 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "319225500",
-      "mmsi": "319225500",
-      "name": "319225500",
-      "category": "unknown",
-      "lat": 1.2626933333333334,
-      "lon": 103.81180833333333,
-      "speedKmh": 0.0,
-      "heading": 27.9,
-      "reportedAt": "2026-11-02T06:01:20.404503+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538008423",
       "mmsi": "538008423",
       "name": "MARAN MARS",
@@ -187,11 +139,11 @@
       "mmsi": "566000000",
       "name": "HAFNIA FALCON",
       "category": "unknown",
-      "lat": 1.22447,
-      "lon": 103.79675999999999,
-      "speedKmh": 0.4,
-      "heading": 18.1,
-      "reportedAt": "2026-11-02T07:00:48.650916+00:00"
+      "lat": 1.2253666666666667,
+      "lon": 103.79790666666666,
+      "speedKmh": 0.2,
+      "heading": 82.3,
+      "reportedAt": "2026-11-02T07:30:53.891838+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +336,42 @@
       "speedKmh": 0.6,
       "heading": 34.7,
       "reportedAt": "2026-11-02T07:16:41.850252+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563927000",
+      "mmsi": "563927000",
+      "name": "STRAITS MUNIFICENT",
+      "category": "unknown",
+      "lat": 1.276065,
+      "lon": 103.88799333333333,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-02T07:30:44.080946+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "630001140",
+      "mmsi": "630001140",
+      "name": "WAN MING PING DENG",
+      "category": "unknown",
+      "lat": 1.20907,
+      "lon": 103.87934666666666,
+      "speedKmh": 18.3,
+      "heading": 246.5,
+      "reportedAt": "2026-11-02T07:30:57.783464+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.2485683333333335,
+      "lon": 103.79527,
+      "speedKmh": 0.2,
+      "heading": 139.8,
+      "reportedAt": "2026-11-02T07:31:19.484550+00:00"
     }
   ],
   "error": null
