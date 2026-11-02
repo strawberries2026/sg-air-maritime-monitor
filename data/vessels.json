@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T12:16:49.311883+00:00",
+  "updatedAt": "2026-11-02T12:31:50.250495+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 207,
       "reportedAt": "2026-11-02T11:31:11.126278+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477251800",
-      "mmsi": "477251800",
-      "name": "OOCL GRACE",
-      "category": "unknown",
-      "lat": 1.2696816666666666,
-      "lon": 103.78456666666666,
-      "speedKmh": 0.0,
-      "heading": 15.1,
-      "reportedAt": "2026-11-02T11:01:16.355433+00:00"
     },
     {
       "kind": "ship",
@@ -75,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2757599999999998,
-      "lon": 103.90576333333334,
-      "speedKmh": 0.0,
-      "heading": 345,
-      "reportedAt": "2026-11-02T11:01:00.296782+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566133000",
       "mmsi": "566133000",
       "name": "RESILIENT NN23",
@@ -115,11 +91,11 @@
       "mmsi": "338566000",
       "name": "KAMOKUIKI",
       "category": "unknown",
-      "lat": 1.2776883333333333,
-      "lon": 103.88952333333333,
+      "lat": 1.277935,
+      "lon": 103.88887,
       "speedKmh": 0.0,
-      "heading": 97.8,
-      "reportedAt": "2026-11-02T11:15:31.765510+00:00"
+      "heading": 173.4,
+      "reportedAt": "2026-11-02T12:30:47.462462+00:00"
     },
     {
       "kind": "ship",
@@ -144,54 +120,6 @@
       "speedKmh": 18.0,
       "heading": 241.2,
       "reportedAt": "2026-11-02T11:45:27.541090+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563337400",
-      "mmsi": "563337400",
-      "name": "THARINEE NAREE",
-      "category": "unknown",
-      "lat": 1.2335316666666667,
-      "lon": 103.81324500000001,
-      "speedKmh": 11.5,
-      "heading": 285.5,
-      "reportedAt": "2026-11-02T11:00:58.592507+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636018143",
-      "mmsi": "636018143",
-      "name": "AAL KOBE",
-      "category": "unknown",
-      "lat": 1.2560483333333332,
-      "lon": 103.93382,
-      "speedKmh": 0.2,
-      "heading": 158.9,
-      "reportedAt": "2026-11-02T11:01:22.020337+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564287000",
-      "mmsi": "564287000",
-      "name": "RUTH",
-      "category": "unknown",
-      "lat": 1.233,
-      "lon": 103.78007,
-      "speedKmh": 13.3,
-      "heading": 139.2,
-      "reportedAt": "2026-11-02T11:01:36.997917+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563215600",
-      "mmsi": "563215600",
-      "name": "ZALE",
-      "category": "unknown",
-      "lat": 1.2545733333333333,
-      "lon": 103.89694,
-      "speedKmh": 0.0,
-      "heading": 333.4,
-      "reportedAt": "2026-11-02T11:01:48.746814+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +343,11 @@
       "mmsi": "268262604",
       "name": "CARTWHEEL",
       "category": "unknown",
-      "lat": 1.2699283333333333,
-      "lon": 103.90177666666666,
-      "speedKmh": 0.0,
+      "lat": 1.2701066666666667,
+      "lon": 103.90163666666668,
+      "speedKmh": 0.2,
       "heading": 42.7,
-      "reportedAt": "2026-11-02T12:00:59.246567+00:00"
+      "reportedAt": "2026-11-02T12:31:09.167095+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +408,78 @@
       "speedKmh": 2.6,
       "heading": 244.7,
       "reportedAt": "2026-11-02T12:16:17.570009+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565127000",
+      "mmsi": "565127000",
+      "name": "KOTA RAKYAT",
+      "category": "unknown",
+      "lat": 1.2492916666666667,
+      "lon": 103.85761166666666,
+      "speedKmh": 10.7,
+      "heading": 310,
+      "reportedAt": "2026-11-02T12:30:38.298688+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563205600",
+      "mmsi": "563205600",
+      "name": "SANMAR SONATINA",
+      "category": "unknown",
+      "lat": 1.23925,
+      "lon": 103.95246666666667,
+      "speedKmh": 19.6,
+      "heading": 250,
+      "reportedAt": "2026-11-02T12:30:49.410852+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006229",
+      "mmsi": "538006229",
+      "name": "SOUTHERN STAR",
+      "category": "unknown",
+      "lat": 1.274195,
+      "lon": 103.88033833333334,
+      "speedKmh": 0.0,
+      "heading": 42.8,
+      "reportedAt": "2026-11-02T12:31:04.505301+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249218000",
+      "mmsi": "249218000",
+      "name": "CMA CGM NINGBO",
+      "category": "unknown",
+      "lat": 1.23557,
+      "lon": 103.92591333333333,
+      "speedKmh": 4.8,
+      "heading": 243.3,
+      "reportedAt": "2026-11-02T12:31:06.035675+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.27358,
+      "lon": 103.80137833333333,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-02T12:31:15.648599+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "356060000",
+      "mmsi": "356060000",
+      "name": "MINAMOTO",
+      "category": "unknown",
+      "lat": 1.2651000000000001,
+      "lon": 103.88091666666666,
+      "speedKmh": 0.6,
+      "heading": 298,
+      "reportedAt": "2026-11-02T12:31:18.601764+00:00"
     }
   ],
   "error": null
