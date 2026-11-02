@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T13:46:38.993895+00:00",
+  "updatedAt": "2026-11-02T13:59:39.849312+00:00",
   "items": [
     {
       "kind": "ship",
@@ -102,12 +102,12 @@
       "id": "215944000",
       "mmsi": "215944000",
       "name": "AP ARGOSY",
-      "category": "unknown",
-      "lat": 1.28022,
-      "lon": 103.93306833333332,
+      "category": "commercial",
+      "lat": 1.280295,
+      "lon": 103.93310333333334,
       "speedKmh": 0.0,
       "heading": 112.7,
-      "reportedAt": "2026-11-02T13:46:34.499300+00:00"
+      "reportedAt": "2026-11-02T13:58:40.057264+00:00"
     },
     {
       "kind": "ship",
@@ -487,11 +487,11 @@
       "mmsi": "563250100",
       "name": "PEARL LAVENDER",
       "category": "unknown",
-      "lat": 1.2365633333333332,
-      "lon": 103.78015166666667,
-      "speedKmh": 18.0,
-      "heading": 136.9,
-      "reportedAt": "2026-11-02T13:30:44.608876+00:00"
+      "lat": 1.20094,
+      "lon": 103.83712666666666,
+      "speedKmh": 15.4,
+      "heading": 85.3,
+      "reportedAt": "2026-11-02T13:59:34.416240+00:00"
     },
     {
       "kind": "ship",
@@ -588,6 +588,78 @@
       "speedKmh": 0.0,
       "heading": 335.3,
       "reportedAt": "2026-11-02T13:46:14.042348+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636021689",
+      "mmsi": "636021689",
+      "name": "DING HENG 26",
+      "category": "unknown",
+      "lat": 1.24633,
+      "lon": 103.785605,
+      "speedKmh": 7.2,
+      "heading": 283.1,
+      "reportedAt": "2026-11-02T13:59:26.003435+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566724000",
+      "mmsi": "566724000",
+      "name": "MERLION 25",
+      "category": "unknown",
+      "lat": 1.1853633333333333,
+      "lon": 103.79924833333332,
+      "speedKmh": 8.0,
+      "heading": 75.7,
+      "reportedAt": "2026-11-02T13:59:06.996086+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006839",
+      "mmsi": "352006839",
+      "name": "RIVER MAS",
+      "category": "unknown",
+      "lat": 1.2799133333333332,
+      "lon": 103.89134,
+      "speedKmh": 0.2,
+      "heading": 352.3,
+      "reportedAt": "2026-11-02T13:59:28.374533+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563327300",
+      "mmsi": "563327300",
+      "name": "YM WORTHINESS",
+      "category": "commercial",
+      "lat": 1.1768833333333333,
+      "lon": 103.79533333333333,
+      "speedKmh": 13.9,
+      "heading": 242,
+      "reportedAt": "2026-11-02T13:59:29.910831+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085680",
+      "mmsi": "563085680",
+      "name": "PILOT 13",
+      "category": "unknown",
+      "lat": 1.2570783333333333,
+      "lon": 103.842535,
+      "speedKmh": 15.0,
+      "heading": 83.3,
+      "reportedAt": "2026-11-02T13:59:30.268968+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414728000",
+      "mmsi": "414728000",
+      "name": "AN XING ZUO",
+      "category": "unknown",
+      "lat": 1.25571,
+      "lon": 103.90227666666667,
+      "speedKmh": 0.0,
+      "heading": 152.7,
+      "reportedAt": "2026-11-02T13:59:34.652557+00:00"
     }
   ],
   "error": null
