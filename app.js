@@ -275,7 +275,7 @@ function renderMovementDashboard(){
   }
   const count=document.getElementById(id),status=document.getElementById(statusId);
   if(count)count.textContent=observations?String(keys.size):'—';
-  if(status)status.textContent=observations?'Partial public-feed coverage · distinct identifiers, not total movements.':'Insufficient valid observations to report a 24-hour count.';
+  if(status)status.textContent=observations?'24-hour rolling window · '+keys.size+' distinct observed '+(kind==='air'?'aircraft ICAO identifiers':'vessel MMSI identifiers')+' · partial feed coverage; not verified arrivals, departures or crossings.':'No valid 24-hour history available. This does not mean zero traffic.';
  }
 }
 
