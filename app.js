@@ -82,9 +82,17 @@ const airlineHints={SIA:'Singapore Airlines',SCO:'Scoot',TGW:'Scoot',AWQ:'Indone
 const airlineHint=x=>{if(x.kind!=='air')return null;const call=String(x.callsign||x.name||'').toUpperCase().trim();const prefix=call.slice(0,3);return /^[A-Z]{3}[0-9A-Z]+$/.test(call)&&airlineHints[prefix]?airlineHints[prefix]:null};
 let recordLimit=12;
 const recent=t=>t&&Number.isFinite(Date.parse(t))&&Date.now()-Date.parse(t)<90*60000&&Date.parse(t)<=Date.now()+60000;
+// Geographic view filter is a monitoring aid, not a maritime boundary.
+let maritimeView='singapore';
+const pedraCentre=[1.330,104.407];
+function inMaritimeView(x){
+ if(x.kind!=='ship')return true;
+ if(maritimeView==='pedra')return map.distance([x.lat,x.lon],pedraCentre)<=20000;
+ return x.lat>=0.9&&x.lat<=1.55&&x.lon>=103.45&&x.lon<=104.15;
+}
 function render(){
  const mode=el('mode').value,category=el('category').value,q=el('search').value.toLowerCase().trim();
- const rows=[...(mode==='ship'?[]:air),...(mode==='air'?[]:ships)].filter(x=>(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
+ const rows=[...(mode==='ship'?[]:air),...(mode==='air'?[]:ships)].filter(x=>inMaritimeView(x)&&(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
  layers.clearLayers();markers.clear();trailLayer.clearLayers();
  for(const x of rows){
   const key=x.kind+':'+x.id;
@@ -223,8 +231,8 @@ el('recordSort').addEventListener('change',render);
 el('showMoreRecords').addEventListener('click',()=>{recordLimit+=20;render()});
 el('showLessRecords').addEventListener('click',()=>{recordLimit=12;render();el('recordCount').scrollIntoView({behavior:'smooth',block:'center'})});el('refresh').addEventListener('click',load);
 const pedra=[1.330,104.407];
-el('pedraBrancaButton').addEventListener('click',()=>{el('mode').value='ship';el('category').value='all';el('search').value='';recordLimit=12;render();syncMapModeButtons();map.invalidateSize();map.setView(pedra,13,{animate:false});pedraMarker.openPopup();const nearby=ships.filter(x=>map.distance([x.lat,x.lon],pedra)<=20000);const feed=lastFeeds?.s;el('pedraBrancaStatus').textContent=feed?.error?'Maritime feed error: '+feed.error:!feed||!freshness(feed.updated).ok?'Maritime snapshot is stale or unavailable; vessel locations cannot be verified.':nearby.length?nearby.length+' vessel report(s) within 20 km of Pedra Branca in the latest available AIS snapshot. Coverage is incomplete.':'No vessel reports within 20 km of Pedra Branca in the latest available AIS snapshot. This does not mean the area is empty.';el('map').scrollIntoView({behavior:'smooth',block:'start'});});
-el('singaporeMapButton').addEventListener('click',()=>{map.setView([1.3521,103.8198],9);el('mode').value='all';render();syncMapModeButtons();el('pedraBrancaStatus').textContent='Singapore overview restored.';});
+el('pedraBrancaButton').addEventListener('click',()=>{maritimeView='pedra';el('mode').value='ship';el('category').value='all';el('search').value='';recordLimit=12;render();syncMapModeButtons();map.invalidateSize();map.setView(pedra,13,{animate:false});pedraMarker.openPopup();const nearby=ships.filter(x=>map.distance([x.lat,x.lon],pedra)<=20000);const feed=lastFeeds?.s;el('pedraBrancaStatus').textContent=feed?.error?'Maritime feed error: '+feed.error:!feed||!freshness(feed.updated).ok?'Maritime snapshot is stale or unavailable; vessel locations cannot be verified.':nearby.length?nearby.length+' vessel report(s) within 20 km of Pedra Branca in the latest available AIS snapshot. Coverage is incomplete.':'No vessel reports within 20 km of Pedra Branca in the latest available AIS snapshot. This does not mean the area is empty.';el('map').scrollIntoView({behavior:'smooth',block:'start'});});
+el('singaporeMapButton').addEventListener('click',()=>{maritimeView='singapore';map.setView([1.3521,103.8198],10);el('mode').value='all';render();syncMapModeButtons();el('pedraBrancaStatus').textContent='Singapore vicinity view restored. Display filter is illustrative, not a legal maritime boundary.';});
 syncMapModeButtons();load();setInterval(load,60000);setInterval(updateHealth,30000);
 
 // v1.4.0: optional flight number handoff to official airport information.
