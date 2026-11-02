@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:46:50.893857+00:00",
+  "updatedAt": "2026-11-02T09:01:56.972499+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "566000000",
-      "mmsi": "566000000",
-      "name": "HAFNIA FALCON",
-      "category": "unknown",
-      "lat": 1.2253666666666667,
-      "lon": 103.79790666666666,
-      "speedKmh": 0.2,
-      "heading": 82.3,
-      "reportedAt": "2026-11-02T07:30:53.891838+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563260500",
       "mmsi": "563260500",
       "name": "OXALIS DAISY",
@@ -36,30 +24,6 @@
       "speedKmh": 16.7,
       "heading": 61.5,
       "reportedAt": "2026-11-02T08:00:53.757738+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563927000",
-      "mmsi": "563927000",
-      "name": "STRAITS MUNIFICENT",
-      "category": "unknown",
-      "lat": 1.276065,
-      "lon": 103.88799333333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-02T07:30:44.080946+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "630001140",
-      "mmsi": "630001140",
-      "name": "WAN MING PING DENG",
-      "category": "unknown",
-      "lat": 1.20907,
-      "lon": 103.87934666666666,
-      "speedKmh": 18.3,
-      "heading": 246.5,
-      "reportedAt": "2026-11-02T07:30:57.783464+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +235,11 @@
       "mmsi": "538012796",
       "name": "MANAH",
       "category": "unknown",
-      "lat": 1.2350833333333333,
-      "lon": 103.81559666666666,
+      "lat": 1.2351466666666666,
+      "lon": 103.815945,
       "speedKmh": 0.0,
-      "heading": 43,
-      "reportedAt": "2026-11-02T08:16:11.112260+00:00"
+      "heading": 165.8,
+      "reportedAt": "2026-11-02T09:01:11.037063+00:00"
     },
     {
       "kind": "ship",
@@ -372,6 +336,54 @@
       "speedKmh": 2.6,
       "heading": 56.9,
       "reportedAt": "2026-11-02T08:46:45.349785+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636024968",
+      "mmsi": "636024968",
+      "name": "MACALLAN",
+      "category": "unknown",
+      "lat": 1.2332133333333333,
+      "lon": 103.77291166666667,
+      "speedKmh": 0.0,
+      "heading": 48.2,
+      "reportedAt": "2026-11-02T09:00:58.022779+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533133276",
+      "mmsi": "533133276",
+      "name": "GENEVIEVE",
+      "category": "unknown",
+      "lat": 1.2355833333333335,
+      "lon": 103.79716666666667,
+      "speedKmh": 0.0,
+      "heading": 116.2,
+      "reportedAt": "2026-11-02T09:01:07.705068+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563781000",
+      "mmsi": "563781000",
+      "name": "SINDO 31",
+      "category": "unknown",
+      "lat": 1.2612466666666668,
+      "lon": 103.81029,
+      "speedKmh": 11.1,
+      "heading": 96.1,
+      "reportedAt": "2026-11-02T09:01:14.473254+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563069950",
+      "mmsi": "563069950",
+      "name": "EVER BRIGHT",
+      "category": "unknown",
+      "lat": 1.2719333333333334,
+      "lon": 103.88881666666666,
+      "speedKmh": 0.2,
+      "heading": 25,
+      "reportedAt": "2026-11-02T09:01:39.042877+00:00"
     }
   ],
   "error": null
