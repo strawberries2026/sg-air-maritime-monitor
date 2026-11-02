@@ -86,7 +86,7 @@ const recent=t=>t&&Number.isFinite(Date.parse(t))&&Date.now()-Date.parse(t)<90*6
 let maritimeView='singapore';
 const pedraCentre=[1.330,104.407];
 function inMaritimeView(x){
- if(x.kind!=='ship')return true;
+ if(x.kind!=='ship')return maritimeView!=='pedra';
  if(maritimeView==='pedra')return map.distance([x.lat,x.lon],pedraCentre)<=20000;
  return x.lat>=0.9&&x.lat<=1.55&&x.lon>=103.45&&x.lon<=104.15;
 }
