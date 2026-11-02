@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T05:46:40.872186+00:00",
+  "updatedAt": "2026-11-02T05:54:35.228103+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "352005216",
-      "mmsi": "352005216",
-      "name": "HOANG ANH 02",
-      "category": "unknown",
-      "lat": 1.2500766666666665,
-      "lon": 103.79976833333333,
-      "speedKmh": 0.2,
-      "heading": 254.3,
-      "reportedAt": "2026-11-02T04:16:45.499213+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564167000",
       "mmsi": "564167000",
       "name": "HY AMBER",
@@ -115,11 +103,11 @@
       "mmsi": "477713800",
       "name": "CHIPOLBROK PACIFIC",
       "category": "unknown",
-      "lat": 1.2451,
-      "lon": 103.96042333333334,
-      "speedKmh": 11.1,
-      "heading": 254.2,
-      "reportedAt": "2026-11-02T04:31:11.394514+00:00"
+      "lat": 1.2482883333333334,
+      "lon": 103.85928666666668,
+      "speedKmh": 8.7,
+      "heading": 334.8,
+      "reportedAt": "2026-11-02T05:54:10.182034+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +528,42 @@
       "speedKmh": 0.0,
       "heading": 0.8,
       "reportedAt": "2026-11-02T05:46:18.925413+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563033100",
+      "mmsi": "563033100",
+      "name": "MARINE ZAMBEZI",
+      "category": "unknown",
+      "lat": 1.2242250000000001,
+      "lon": 103.78982666666667,
+      "speedKmh": 9.6,
+      "heading": 144.1,
+      "reportedAt": "2026-11-02T05:53:28.282033+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275700",
+      "mmsi": "563275700",
+      "name": "MARINA AMETHYST",
+      "category": "unknown",
+      "lat": 1.26271,
+      "lon": 103.84660666666667,
+      "speedKmh": 0.0,
+      "heading": 308.2,
+      "reportedAt": "2026-11-02T05:53:42.652177+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565587000",
+      "mmsi": "565587000",
+      "name": "REGENT GEMINI",
+      "category": "unknown",
+      "lat": 1.2581166666666665,
+      "lon": 103.84866666666667,
+      "speedKmh": 3.5,
+      "heading": 298.1,
+      "reportedAt": "2026-11-02T05:53:46.908624+00:00"
     }
   ],
   "error": null
