@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:01:54.379102+00:00",
+  "updatedAt": "2026-11-02T08:16:40.196457+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "413339610",
-      "mmsi": "413339610",
-      "name": "HONG BO 9",
-      "category": "unknown",
-      "lat": 1.25015,
-      "lon": 103.88903166666667,
-      "speedKmh": 4.1,
-      "heading": 26.3,
-      "reportedAt": "2026-11-02T06:46:09.493350+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006077",
-      "mmsi": "352006077",
-      "name": "PIS BELITUNG",
-      "category": "unknown",
-      "lat": 1.15804,
-      "lon": 103.79918166666667,
-      "speedKmh": 18.7,
-      "heading": 59.3,
-      "reportedAt": "2026-11-02T06:46:12.288879+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533110714",
       "mmsi": "533110714",
       "name": "HERA",
@@ -96,18 +72,6 @@
       "speedKmh": 0.4,
       "heading": 251.7,
       "reportedAt": "2026-11-02T07:01:12.250552+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023955",
-      "mmsi": "636023955",
-      "name": "PACIFIC INDIGO",
-      "category": "unknown",
-      "lat": 1.2292033333333334,
-      "lon": 103.79997333333334,
-      "speedKmh": 0.4,
-      "heading": 208.5,
-      "reportedAt": "2026-11-02T06:46:34.959019+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +223,11 @@
       "mmsi": "636023304",
       "name": "ZHENSHI NAVIGATOR",
       "category": "unknown",
-      "lat": 1.2221783333333331,
-      "lon": 103.89502166666666,
-      "speedKmh": 5.4,
-      "heading": 276.1,
-      "reportedAt": "2026-11-02T07:46:36.138667+00:00"
+      "lat": 1.2305933333333334,
+      "lon": 103.87677833333333,
+      "speedKmh": 7.6,
+      "heading": 349.4,
+      "reportedAt": "2026-11-02T08:15:36.484320+00:00"
     },
     {
       "kind": "ship",
@@ -312,6 +276,102 @@
       "speedKmh": 0.6,
       "heading": 32,
       "reportedAt": "2026-11-02T08:01:49.048679+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563029230",
+      "mmsi": "563029230",
+      "name": "SYNERGY",
+      "category": "unknown",
+      "lat": 1.2893700000000001,
+      "lon": 103.91424,
+      "speedKmh": 8.3,
+      "heading": 64.4,
+      "reportedAt": "2026-11-02T08:15:25.079469+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085680",
+      "mmsi": "563085680",
+      "name": "PILOT 13",
+      "category": "unknown",
+      "lat": 1.2621033333333334,
+      "lon": 103.879075,
+      "speedKmh": 28.7,
+      "heading": 226.5,
+      "reportedAt": "2026-11-02T08:15:30.634021+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563140000",
+      "mmsi": "563140000",
+      "name": "BTS CAMILLA",
+      "category": "unknown",
+      "lat": 1.2354883333333333,
+      "lon": 103.80068166666666,
+      "speedKmh": 0.2,
+      "heading": 6.8,
+      "reportedAt": "2026-11-02T08:15:32.154458+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735716666666665,
+      "lon": 103.80139666666668,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-02T08:15:54.700241+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563142000",
+      "mmsi": "563142000",
+      "name": "PENGUIN REDEEM",
+      "category": "unknown",
+      "lat": 1.225595,
+      "lon": 103.77864666666666,
+      "speedKmh": 0.4,
+      "heading": 105,
+      "reportedAt": "2026-11-02T08:15:57.238924+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023528",
+      "mmsi": "636023528",
+      "name": "ANJI FOREVER",
+      "category": "unknown",
+      "lat": 1.2812866666666667,
+      "lon": 103.89914666666667,
+      "speedKmh": 7.2,
+      "heading": 75.1,
+      "reportedAt": "2026-11-02T08:16:03.196355+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012796",
+      "mmsi": "538012796",
+      "name": "MANAH",
+      "category": "unknown",
+      "lat": 1.2350833333333333,
+      "lon": 103.81559666666666,
+      "speedKmh": 0.0,
+      "heading": 43,
+      "reportedAt": "2026-11-02T08:16:11.112260+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119136",
+      "mmsi": "525119136",
+      "name": "ALPHA POINT",
+      "category": "unknown",
+      "lat": 1.2222083333333333,
+      "lon": 103.93528833333333,
+      "speedKmh": 20.2,
+      "heading": 67,
+      "reportedAt": "2026-11-02T08:16:29.275265+00:00"
     }
   ],
   "error": null
