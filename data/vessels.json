@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T05:01:54.950740+00:00",
+  "updatedAt": "2026-11-02T05:16:39.088819+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "370385000",
       "name": "SPLENDOR KEELUNG",
       "category": "unknown",
-      "lat": 1.2691833333333333,
-      "lon": 103.87643333333334,
-      "speedKmh": 0.2,
-      "heading": 293,
-      "reportedAt": "2026-11-02T05:01:18.445168+00:00"
+      "lat": 1.2693333333333332,
+      "lon": 103.87646666666666,
+      "speedKmh": 0.4,
+      "heading": 269,
+      "reportedAt": "2026-11-02T05:16:18.560101+00:00"
     },
     {
       "kind": "ship",
@@ -96,18 +96,6 @@
       "speedKmh": 17.8,
       "heading": 235.2,
       "reportedAt": "2026-11-02T04:16:11.280451+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564743000",
-      "mmsi": "564743000",
-      "name": "KST KIJANG",
-      "category": "unknown",
-      "lat": 1.22962,
-      "lon": 103.77668833333334,
-      "speedKmh": 0.6,
-      "heading": 102.2,
-      "reportedAt": "2026-11-02T03:45:48.656892+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +391,11 @@
       "mmsi": "563029230",
       "name": "SYNERGY",
       "category": "unknown",
-      "lat": 1.2417816666666668,
-      "lon": 103.79604166666667,
+      "lat": 1.2410050000000001,
+      "lon": 103.79543333333332,
       "speedKmh": 0.2,
-      "heading": 244.9,
-      "reportedAt": "2026-11-02T04:45:47.309070+00:00"
+      "heading": 201.7,
+      "reportedAt": "2026-11-02T05:15:56.617727+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +468,54 @@
       "speedKmh": 0.2,
       "heading": 79.4,
       "reportedAt": "2026-11-02T05:01:36.122763+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563265500",
+      "mmsi": "563265500",
+      "name": "GOLDEN ANTARES",
+      "category": "unknown",
+      "lat": 1.2331066666666668,
+      "lon": 103.78183666666668,
+      "speedKmh": 14.3,
+      "heading": 141.2,
+      "reportedAt": "2026-11-02T05:15:29.487363+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563132900",
+      "mmsi": "563132900",
+      "name": "ESSENCE",
+      "category": "unknown",
+      "lat": 1.2133466666666666,
+      "lon": 103.79845166666668,
+      "speedKmh": 13.0,
+      "heading": 137.2,
+      "reportedAt": "2026-11-02T05:15:58.134544+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565660000",
+      "mmsi": "565660000",
+      "name": "ISSELIA",
+      "category": "unknown",
+      "lat": 1.2112233333333333,
+      "lon": 103.80495833333333,
+      "speedKmh": 14.6,
+      "heading": 341.2,
+      "reportedAt": "2026-11-02T05:15:59.537235+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086060",
+      "mmsi": "563086060",
+      "name": "HENG SHENG",
+      "category": "unknown",
+      "lat": 1.2322483333333334,
+      "lon": 103.78053833333334,
+      "speedKmh": 9.8,
+      "heading": 142.4,
+      "reportedAt": "2026-11-02T05:16:07.639588+00:00"
     }
   ],
   "error": null
