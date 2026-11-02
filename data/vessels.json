@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:31:48.364706+00:00",
+  "updatedAt": "2026-11-02T08:46:50.893857+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-02T08:01:27.039900+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563294700",
-      "mmsi": "563294700",
-      "name": "EM SHONA",
-      "category": "unknown",
-      "lat": 1.2454316666666665,
-      "lon": 103.780185,
-      "speedKmh": 12.4,
-      "heading": 328.2,
-      "reportedAt": "2026-11-02T07:16:24.248916+00:00"
     },
     {
       "kind": "ship",
@@ -48,30 +36,6 @@
       "speedKmh": 16.7,
       "heading": 61.5,
       "reportedAt": "2026-11-02T08:00:53.757738+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006555",
-      "mmsi": "352006555",
-      "name": "PIS MADURA",
-      "category": "unknown",
-      "lat": 1.213195,
-      "lon": 103.81180666666667,
-      "speedKmh": 0.2,
-      "heading": 181.4,
-      "reportedAt": "2026-11-02T07:15:38.059393+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564759000",
-      "mmsi": "564759000",
-      "name": "I MOLA",
-      "category": "unknown",
-      "lat": 1.2718383333333334,
-      "lon": 103.86908,
-      "speedKmh": 0.6,
-      "heading": 34.7,
-      "reportedAt": "2026-11-02T07:16:41.850252+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +115,11 @@
       "mmsi": "563362000",
       "name": "KOTA CEMPAKA",
       "category": "unknown",
-      "lat": 1.2437033333333334,
-      "lon": 103.88858333333333,
-      "speedKmh": 7.6,
-      "heading": 30.7,
-      "reportedAt": "2026-11-02T08:30:52.138456+00:00"
+      "lat": 1.2522266666666666,
+      "lon": 103.893285,
+      "speedKmh": 0.7,
+      "heading": 233.9,
+      "reportedAt": "2026-11-02T08:46:02.070230+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +247,11 @@
       "mmsi": "563142000",
       "name": "PENGUIN REDEEM",
       "category": "unknown",
-      "lat": 1.225595,
-      "lon": 103.77864666666666,
-      "speedKmh": 0.4,
-      "heading": 105,
-      "reportedAt": "2026-11-02T08:15:57.238924+00:00"
+      "lat": 1.2256166666666668,
+      "lon": 103.77861166666666,
+      "speedKmh": 0.2,
+      "heading": 65.8,
+      "reportedAt": "2026-11-02T08:45:57.191503+00:00"
     },
     {
       "kind": "ship",
@@ -360,6 +324,54 @@
       "speedKmh": 8.5,
       "heading": 330.7,
       "reportedAt": "2026-11-02T08:31:20.497502+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564167000",
+      "mmsi": "564167000",
+      "name": "HY AMBER",
+      "category": "commercial",
+      "lat": 1.27205,
+      "lon": 103.88980666666666,
+      "speedKmh": 11.9,
+      "heading": 33,
+      "reportedAt": "2026-11-02T08:45:56.766820+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "211886490",
+      "mmsi": "211886490",
+      "name": "AL JMELIYAH",
+      "category": "unknown",
+      "lat": 1.2738683333333334,
+      "lon": 103.77762,
+      "speedKmh": 1.5,
+      "heading": 301.4,
+      "reportedAt": "2026-11-02T08:46:08.300880+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563147600",
+      "mmsi": "563147600",
+      "name": "PSA WANDA (NN26)",
+      "category": "unknown",
+      "lat": 1.26143,
+      "lon": 103.84492333333333,
+      "speedKmh": 15.0,
+      "heading": 332.9,
+      "reportedAt": "2026-11-02T08:46:20.583251+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565209000",
+      "mmsi": "565209000",
+      "name": "PARMELIA I",
+      "category": "unknown",
+      "lat": 1.2947266666666666,
+      "lon": 103.932175,
+      "speedKmh": 2.6,
+      "heading": 56.9,
+      "reportedAt": "2026-11-02T08:46:45.349785+00:00"
     }
   ],
   "error": null
