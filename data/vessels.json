@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T11:31:48.976501+00:00",
+  "updatedAt": "2026-11-02T11:46:39.533822+00:00",
   "items": [
     {
       "kind": "ship",
@@ -135,18 +135,6 @@
     },
     {
       "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.2407666666666666,
-      "lon": 103.80378333333333,
-      "speedKmh": 0.0,
-      "heading": 165.2,
-      "reportedAt": "2026-11-02T10:15:42.323591+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "374578000",
       "mmsi": "374578000",
       "name": "374578000",
@@ -223,11 +211,11 @@
       "mmsi": "566133000",
       "name": "RESILIENT NN23",
       "category": "unknown",
-      "lat": 1.2621833333333332,
-      "lon": 103.841925,
-      "speedKmh": 7.4,
-      "heading": 310.3,
-      "reportedAt": "2026-11-02T10:31:14.710010+00:00"
+      "lat": 1.26482,
+      "lon": 103.85357666666667,
+      "speedKmh": 6.7,
+      "heading": 165.2,
+      "reportedAt": "2026-11-02T11:46:24.166763+00:00"
     },
     {
       "kind": "ship",
@@ -319,11 +307,11 @@
       "mmsi": "538006644",
       "name": "SILVER MILLIE",
       "category": "unknown",
-      "lat": 1.2496266666666667,
-      "lon": 103.93295166666667,
-      "speedKmh": 0.2,
-      "heading": 32.9,
-      "reportedAt": "2026-11-02T11:31:08.181378+00:00"
+      "lat": 1.2495733333333334,
+      "lon": 103.93305333333333,
+      "speedKmh": 0.0,
+      "heading": 128.5,
+      "reportedAt": "2026-11-02T11:45:59.448170+00:00"
     },
     {
       "kind": "ship",
@@ -355,11 +343,11 @@
       "mmsi": "636025232",
       "name": "MSC KAVYA II",
       "category": "unknown",
-      "lat": 1.2184783333333333,
-      "lon": 103.87934333333332,
-      "speedKmh": 10.9,
-      "heading": 228.6,
-      "reportedAt": "2026-11-02T11:00:57.768517+00:00"
+      "lat": 1.1730983333333334,
+      "lon": 103.79340499999999,
+      "speedKmh": 18.0,
+      "heading": 241.2,
+      "reportedAt": "2026-11-02T11:45:27.541090+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +516,78 @@
       "speedKmh": 23.2,
       "heading": 56.9,
       "reportedAt": "2026-11-02T11:31:25.906415+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009095",
+      "mmsi": "538009095",
+      "name": "IZUMI",
+      "category": "unknown",
+      "lat": 1.2906933333333332,
+      "lon": 103.96456166666667,
+      "speedKmh": 0.0,
+      "heading": 15.5,
+      "reportedAt": "2026-11-02T11:45:25.906334+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564526000",
+      "mmsi": "564526000",
+      "name": "EVER BEST",
+      "category": "unknown",
+      "lat": 1.2803966666666668,
+      "lon": 103.90460666666667,
+      "speedKmh": 9.4,
+      "heading": 48.5,
+      "reportedAt": "2026-11-02T11:46:06.039078+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.2826033333333333,
+      "lon": 103.89369333333335,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-11-02T11:46:11.196115+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563021430",
+      "mmsi": "563021430",
+      "name": "PILOT GP54",
+      "category": "unknown",
+      "lat": 1.2539216666666666,
+      "lon": 103.85910666666668,
+      "speedKmh": 46.3,
+      "heading": 88.6,
+      "reportedAt": "2026-11-02T11:46:13.027664+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2844033333333333,
+      "lon": 103.920265,
+      "speedKmh": 0.0,
+      "heading": 162.5,
+      "reportedAt": "2026-11-02T11:46:14.295282+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563024500",
+      "mmsi": "563024500",
+      "name": "MARINE QUEENIE",
+      "category": "unknown",
+      "lat": 1.2576500000000002,
+      "lon": 103.87299333333334,
+      "speedKmh": 8.9,
+      "heading": 64.6,
+      "reportedAt": "2026-11-02T11:46:31.146259+00:00"
     }
   ],
   "error": null
