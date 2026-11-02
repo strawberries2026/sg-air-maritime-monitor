@@ -25,3 +25,13 @@ test('Pedra Branca view excludes Singapore port',()=>assert.equal(ctx.check(ship
 test('Pedra Branca view excludes aircraft',()=>assert.equal(ctx.check({kind:'air',lat:1.33,lon:104.407},'pedra'),false));
 test('Singapore view preserves aircraft',()=>assert.equal(ctx.check({kind:'air',lat:1.33,lon:104.407},'singapore'),true));
 test('Pedra Branca radius excludes locations beyond 20km',()=>assert.equal(ctx.check(ship(1.33,104.65),'pedra'),false));
+
+// Guard the active map against presenting stale maritime snapshots as current.
+test('render excludes vessels when maritime feed is stale',()=>{
+ const renderStart=source.indexOf('function render(){');
+ const renderEnd=source.indexOf('layers.clearLayers()',renderStart);
+ assert.ok(renderStart>=0&&renderEnd>renderStart);
+ const renderBody=source.slice(renderStart,renderEnd);
+ assert.match(renderBody,/const maritimeFeedOk=lastFeeds\?\.s&&!lastFeeds\.s\.error&&freshness\(lastFeeds\.s\.updated\)\.ok/);
+ assert.match(renderBody,/mode==='air'\|\|!maritimeFeedOk\?\[\]:ships/);
+});
