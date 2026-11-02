@@ -97,7 +97,8 @@ function render(){
  const coverage=document.getElementById('maritimeCoverageNotice');
  if(coverage){const feed=lastFeeds?.s;const healthy=feed&&!feed.error&&freshness(feed.updated).ok;const count=ships.filter(inMaritimeView).length;const area=maritimeView==='pedra'?'within 20 km of Pedra Branca':'in the Singapore vicinity';coverage.textContent=!healthy?'⚠ Maritime feed is unavailable or stale. Vessel positions and counts cannot be verified.':('⚠ Partial AIS coverage: '+count+' vessel observation(s) '+area+'; '+ships.length+' reports in the wider collection area. Positions may be delayed. Not a complete live traffic count.');}
  const mode=el('mode').value,category=el('category').value,q=el('search').value.toLowerCase().trim();
- const rows=[...(mode==='ship'?[]:air),...(mode==='air'?[]:ships)].filter(x=>inMaritimeView(x)&&(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
+ const maritimeFeedOk=lastFeeds?.s&&!lastFeeds.s.error&&freshness(lastFeeds.s.updated).ok;
+ const rows=[...(mode==='ship'?[]:air),...(mode==='air'||!maritimeFeedOk?[]:ships)].filter(x=>inMaritimeView(x)&&(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
  layers.clearLayers();markers.clear();trailLayer.clearLayers();
  for(const x of rows){
   const key=x.kind+':'+x.id;
