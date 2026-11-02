@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T04:46:40.527763+00:00",
+  "updatedAt": "2026-11-02T05:01:54.950740+00:00",
   "items": [
     {
       "kind": "ship",
@@ -42,12 +42,12 @@
       "id": "370385000",
       "mmsi": "370385000",
       "name": "SPLENDOR KEELUNG",
-      "category": "commercial",
+      "category": "unknown",
       "lat": 1.2691833333333333,
-      "lon": 103.87646666666666,
-      "speedKmh": 0.0,
-      "heading": 346,
-      "reportedAt": "2026-11-02T03:46:18.537603+00:00"
+      "lon": 103.87643333333334,
+      "speedKmh": 0.2,
+      "heading": 293,
+      "reportedAt": "2026-11-02T05:01:18.445168+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +67,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2822816666666665,
-      "lon": 103.89186,
+      "lat": 1.2822850000000001,
+      "lon": 103.89188,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-02T04:45:40.018402+00:00"
+      "reportedAt": "2026-11-02T05:01:25.543131+00:00"
     },
     {
       "kind": "ship",
@@ -84,30 +84,6 @@
       "speedKmh": 0.2,
       "heading": 276.7,
       "reportedAt": "2026-11-02T04:15:38.391165+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.27355,
-      "lon": 103.80139166666666,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-02T03:30:35.805743+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563325200",
-      "mmsi": "563325200",
-      "name": "MARINE HERO",
-      "category": "commercial",
-      "lat": 1.2623366666666667,
-      "lon": 103.87496666666667,
-      "speedKmh": 1.9,
-      "heading": 285.9,
-      "reportedAt": "2026-11-02T03:30:43.674449+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +115,11 @@
       "mmsi": "563079960",
       "name": "MATA IKAN",
       "category": "unknown",
-      "lat": 1.221975,
-      "lon": 103.78136666666666,
-      "speedKmh": 1.5,
-      "heading": 127.1,
-      "reportedAt": "2026-11-02T03:46:20.472523+00:00"
+      "lat": 1.2176216666666666,
+      "lon": 103.77254666666666,
+      "speedKmh": 20.9,
+      "heading": 101.8,
+      "reportedAt": "2026-11-02T05:01:40.194296+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +444,42 @@
       "speedKmh": 0.0,
       "heading": 214.3,
       "reportedAt": "2026-11-02T04:46:32.349700+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563056400",
+      "mmsi": "563056400",
+      "name": "MARINE TERRACE",
+      "category": "unknown",
+      "lat": 1.2366233333333334,
+      "lon": 103.78329666666667,
+      "speedKmh": 14.3,
+      "heading": 314.7,
+      "reportedAt": "2026-11-02T05:00:43.569877+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563869000",
+      "mmsi": "563869000",
+      "name": "SINDO PRINCESS",
+      "category": "unknown",
+      "lat": 1.2621766666666665,
+      "lon": 103.81897000000001,
+      "speedKmh": 0.0,
+      "heading": 353.7,
+      "reportedAt": "2026-11-02T05:00:58.003714+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "338566000",
+      "mmsi": "338566000",
+      "name": "KAMOKUIKI",
+      "category": "unknown",
+      "lat": 1.276855,
+      "lon": 103.8868,
+      "speedKmh": 0.2,
+      "heading": 79.4,
+      "reportedAt": "2026-11-02T05:01:36.122763+00:00"
     }
   ],
   "error": null
