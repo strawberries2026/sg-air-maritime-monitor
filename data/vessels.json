@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:16:40.196457+00:00",
+  "updatedAt": "2026-11-02T08:31:48.364706+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,30 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "636016118",
-      "mmsi": "636016118",
-      "name": "JOANNA",
-      "category": "unknown",
-      "lat": 1.2102933333333332,
-      "lon": 103.81318666666667,
-      "speedKmh": 14.6,
-      "heading": 278.9,
-      "reportedAt": "2026-11-02T07:01:08.464017+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563275700",
-      "mmsi": "563275700",
-      "name": "MARINA AMETHYST",
-      "category": "unknown",
-      "lat": 1.2626416666666667,
-      "lon": 103.84666666666666,
-      "speedKmh": 0.0,
-      "heading": 308.2,
-      "reportedAt": "2026-11-02T07:01:42.497539+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566000000",
       "mmsi": "566000000",
       "name": "HAFNIA FALCON",
@@ -60,30 +36,6 @@
       "speedKmh": 0.2,
       "heading": 82.3,
       "reportedAt": "2026-11-02T07:30:53.891838+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533110714",
-      "mmsi": "533110714",
-      "name": "HERA",
-      "category": "unknown",
-      "lat": 1.2406283333333334,
-      "lon": 103.80217333333333,
-      "speedKmh": 0.4,
-      "heading": 251.7,
-      "reportedAt": "2026-11-02T07:01:12.250552+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563026600",
-      "mmsi": "563026600",
-      "name": "WAVEMASTER 8",
-      "category": "unknown",
-      "lat": 1.2238683333333333,
-      "lon": 103.83734,
-      "speedKmh": 28.5,
-      "heading": 315,
-      "reportedAt": "2026-11-02T07:00:54.547073+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +151,11 @@
       "mmsi": "563362000",
       "name": "KOTA CEMPAKA",
       "category": "unknown",
-      "lat": 1.226965,
-      "lon": 103.902845,
-      "speedKmh": 1.9,
-      "heading": 191.5,
-      "reportedAt": "2026-11-02T07:46:03.434747+00:00"
+      "lat": 1.2437033333333334,
+      "lon": 103.88858333333333,
+      "speedKmh": 7.6,
+      "heading": 30.7,
+      "reportedAt": "2026-11-02T08:30:52.138456+00:00"
     },
     {
       "kind": "ship",
@@ -372,6 +324,42 @@
       "speedKmh": 20.2,
       "heading": 67,
       "reportedAt": "2026-11-02T08:16:29.275265+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563275700",
+      "mmsi": "563275700",
+      "name": "MARINA AMETHYST",
+      "category": "unknown",
+      "lat": 1.2674266666666665,
+      "lon": 103.861195,
+      "speedKmh": 1.3,
+      "heading": 68.1,
+      "reportedAt": "2026-11-02T08:30:39.152881+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370385000",
+      "mmsi": "370385000",
+      "name": "SPLENDOR KEELUNG",
+      "category": "unknown",
+      "lat": 1.2684166666666667,
+      "lon": 103.87811666666667,
+      "speedKmh": 0.2,
+      "heading": 38,
+      "reportedAt": "2026-11-02T08:31:18.523501+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477251800",
+      "mmsi": "477251800",
+      "name": "OOCL GRACE",
+      "category": "unknown",
+      "lat": 1.2299333333333335,
+      "lon": 103.79029999999999,
+      "speedKmh": 8.5,
+      "heading": 330.7,
+      "reportedAt": "2026-11-02T08:31:20.497502+00:00"
     }
   ],
   "error": null
