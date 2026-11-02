@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-02T12:01:58.407561+00:00",
+  "updatedAt": "2026-11-02T12:16:49.311883+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735699999999999,
-      "lon": 103.80137500000001,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-02T10:45:44.465802+00:00"
-    },
     {
       "kind": "ship",
       "id": "538012796",
@@ -75,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "563084060",
-      "mmsi": "563084060",
-      "name": "CLEANSEAS FRIENDLY",
-      "category": "unknown",
-      "lat": 1.2942883333333335,
-      "lon": 103.94012333333333,
-      "speedKmh": 0.0,
-      "heading": 62.4,
-      "reportedAt": "2026-11-02T10:46:30.327445+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636023374",
       "mmsi": "636023374",
       "name": "DONGBANG GIANT NO.8",
@@ -96,18 +72,6 @@
       "speedKmh": 1.1,
       "heading": 85.7,
       "reportedAt": "2026-11-02T11:31:33.726564+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371768000",
-      "mmsi": "371768000",
-      "name": "MISTRAL I",
-      "category": "unknown",
-      "lat": 1.2669433333333333,
-      "lon": 103.89413333333333,
-      "speedKmh": 0.0,
-      "heading": 36.2,
-      "reportedAt": "2026-11-02T10:45:47.547111+00:00"
     },
     {
       "kind": "ship",
@@ -147,18 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "565127000",
-      "mmsi": "565127000",
-      "name": "KOTA RAKYAT",
-      "category": "unknown",
-      "lat": 1.2484733333333333,
-      "lon": 103.96736666666668,
-      "speedKmh": 19.6,
-      "heading": 254,
-      "reportedAt": "2026-11-02T10:45:32.195877+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "338566000",
       "mmsi": "338566000",
       "name": "KAMOKUIKI",
@@ -175,35 +127,11 @@
       "mmsi": "538006644",
       "name": "SILVER MILLIE",
       "category": "unknown",
-      "lat": 1.2495733333333334,
-      "lon": 103.93305333333333,
+      "lat": 1.24987,
+      "lon": 103.9329,
       "speedKmh": 0.0,
-      "heading": 128.5,
-      "reportedAt": "2026-11-02T11:45:59.448170+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566019000",
-      "mmsi": "566019000",
-      "name": "SINCERITY",
-      "category": "unknown",
-      "lat": 1.2945216666666668,
-      "lon": 103.94834166666666,
-      "speedKmh": 0.0,
-      "heading": 3.7,
-      "reportedAt": "2026-11-02T10:45:59.295546+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "370385000",
-      "mmsi": "370385000",
-      "name": "SPLENDOR KEELUNG",
-      "category": "unknown",
-      "lat": 1.2693,
-      "lon": 103.87678333333334,
-      "speedKmh": 0.2,
-      "heading": 21,
-      "reportedAt": "2026-11-02T10:46:18.578223+00:00"
+      "heading": 6.2,
+      "reportedAt": "2026-11-02T12:16:38.967691+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +259,11 @@
       "mmsi": "563325200",
       "name": "MARINE HERO",
       "category": "unknown",
-      "lat": 1.2595016666666665,
-      "lon": 103.92172333333333,
-      "speedKmh": 0.6,
-      "heading": 48.5,
-      "reportedAt": "2026-11-02T12:01:44.785761+00:00"
+      "lat": 1.2594766666666668,
+      "lon": 103.92143166666666,
+      "speedKmh": 0.4,
+      "heading": 312.7,
+      "reportedAt": "2026-11-02T12:16:35.151737+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +391,11 @@
       "mmsi": "566687000",
       "name": "STRAITS HARMONY",
       "category": "unknown",
-      "lat": 1.2806583333333335,
-      "lon": 103.92086666666667,
-      "speedKmh": 9.4,
-      "heading": 256.1,
-      "reportedAt": "2026-11-02T12:00:52.017297+00:00"
+      "lat": 1.2758049999999999,
+      "lon": 103.89907833333334,
+      "speedKmh": 9.8,
+      "heading": 248.4,
+      "reportedAt": "2026-11-02T12:16:12.364952+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +456,30 @@
       "speedKmh": 0.0,
       "heading": 112.7,
       "reportedAt": "2026-11-02T12:01:36.031771+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413610790",
+      "mmsi": "413610790",
+      "name": "DONG FANG 102",
+      "category": "unknown",
+      "lat": 1.1723166666666667,
+      "lon": 103.79495,
+      "speedKmh": 15.6,
+      "heading": 232.9,
+      "reportedAt": "2026-11-02T12:15:59.167698+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "431662000",
+      "mmsi": "431662000",
+      "name": "SUZUKASAN",
+      "category": "unknown",
+      "lat": 1.2552633333333332,
+      "lon": 103.95097166666666,
+      "speedKmh": 2.6,
+      "heading": 244.7,
+      "reportedAt": "2026-11-02T12:16:17.570009+00:00"
     }
   ],
   "error": null
