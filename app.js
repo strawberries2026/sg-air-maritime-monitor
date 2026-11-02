@@ -91,6 +91,8 @@ function inMaritimeView(x){
  return x.lat>=0.9&&x.lat<=1.55&&x.lon>=103.45&&x.lon<=104.15;
 }
 function render(){
+ const coverage=document.getElementById('maritimeCoverageNotice');
+ if(coverage){const count=ships.filter(inMaritimeView).length;const area=maritimeView==='pedra'?'within 20 km of Pedra Branca':'in the Singapore vicinity';coverage.textContent='⚠ Partial AIS coverage: '+count+' vessel observation(s) '+area+'; '+ships.length+' reports in the wider collection area. Positions may be delayed. Not a complete live traffic count.';}
  const mode=el('mode').value,category=el('category').value,q=el('search').value.toLowerCase().trim();
  const rows=[...(mode==='ship'?[]:air),...(mode==='air'?[]:ships)].filter(x=>inMaritimeView(x)&&(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
  layers.clearLayers();markers.clear();trailLayer.clearLayers();
