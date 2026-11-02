@@ -217,7 +217,7 @@ async function load(){
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
   el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
-  el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note)note.textContent='⚠ Partial AIS coverage: '+ships.length+' distinct vessel observation(s) within the past 90 minutes. These are sampled reports, NOT all vessels in Singapore waters. Positions may be delayed; tap a vessel to see its last report.';
+  el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note){const visible=ships.filter(inMaritimeView);const label=maritimeView==='pedra'?'within 20 km of Pedra Branca':'in the Singapore vicinity view';note.textContent='⚠ Partial AIS coverage: '+visible.length+' vessel observation(s) '+label+' (from '+ships.length+' reports in the wider collection area). These are sampled positions, not a complete live traffic count. Tap a vessel to check its reporting time.';}
   await loadHistory();updateHealth();render();
   if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+((a.error||s.error)?'Feed error; see status below':'Latest published snapshots loaded');
  }catch(error){if(homeStatus)homeStatus.textContent='Refresh unsuccessful: '+error.message;console.warn('Snapshot refresh failed',error);
