@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T19:46:41.717120+00:00",
+  "updatedAt": "2026-11-02T20:01:58.256657+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "574003580",
-      "mmsi": "574003580",
-      "name": "PVT SATURN",
-      "category": "unknown",
-      "lat": 1.2255166666666668,
-      "lon": 103.79446666666666,
-      "speedKmh": 17.6,
-      "heading": 321,
-      "reportedAt": "2026-11-02T18:31:40.388057+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "5631101",
       "mmsi": "5631101",
       "name": "PSAB",
@@ -63,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "565127000",
-      "mmsi": "565127000",
-      "name": "KOTA RAKYAT",
-      "category": "unknown",
-      "lat": 1.2640366666666667,
-      "lon": 103.83555333333334,
-      "speedKmh": 0.0,
-      "heading": 353,
-      "reportedAt": "2026-11-02T18:31:07.459542+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "357044000",
       "mmsi": "357044000",
       "name": "TRIDENT HOPE",
@@ -84,18 +60,6 @@
       "speedKmh": 0.4,
       "heading": 249.4,
       "reportedAt": "2026-11-02T19:15:52.423351+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566000000",
-      "mmsi": "566000000",
-      "name": "HAFNIA FALCON",
-      "category": "unknown",
-      "lat": 1.2230183333333333,
-      "lon": 103.79889666666666,
-      "speedKmh": 0.2,
-      "heading": 322.4,
-      "reportedAt": "2026-11-02T18:30:53.900913+00:00"
     },
     {
       "kind": "ship",
@@ -111,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "538006339",
-      "mmsi": "538006339",
-      "name": "DEVBULK SADIYE",
-      "category": "unknown",
-      "lat": 1.2841966666666667,
-      "lon": 103.92494333333335,
-      "speedKmh": 0.7,
-      "heading": 226.4,
-      "reportedAt": "2026-11-02T18:31:07.888894+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "241614000",
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
@@ -132,30 +84,6 @@
       "speedKmh": 0.0,
       "heading": 346.6,
       "reportedAt": "2026-11-02T18:46:14.124489+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "370385000",
-      "mmsi": "370385000",
-      "name": "SPLENDOR KEELUNG",
-      "category": "unknown",
-      "lat": 1.2689833333333334,
-      "lon": 103.87678333333334,
-      "speedKmh": 0.0,
-      "heading": 171,
-      "reportedAt": "2026-11-02T18:31:18.645946+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563079500",
-      "mmsi": "563079500",
-      "name": "CRESCENT RIVER",
-      "category": "unknown",
-      "lat": 1.2663983333333335,
-      "lon": 103.919915,
-      "speedKmh": 0.0,
-      "heading": 167.3,
-      "reportedAt": "2026-11-02T18:31:50.316169+00:00"
     },
     {
       "kind": "ship",
@@ -187,11 +115,11 @@
       "mmsi": "563235100",
       "name": "EA JERSEY",
       "category": "unknown",
-      "lat": 1.2688266666666665,
-      "lon": 103.911535,
-      "speedKmh": 0.4,
-      "heading": 212,
-      "reportedAt": "2026-11-02T18:45:44.620565+00:00"
+      "lat": 1.267215,
+      "lon": 103.91205666666666,
+      "speedKmh": 0.2,
+      "heading": 99,
+      "reportedAt": "2026-11-02T20:00:44.858918+00:00"
     },
     {
       "kind": "ship",
@@ -720,6 +648,66 @@
       "speedKmh": 12.0,
       "heading": 60.2,
       "reportedAt": "2026-11-02T19:46:28.434037+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413471590",
+      "mmsi": "413471590",
+      "name": "SHENG HANG HUA 17",
+      "category": "commercial",
+      "lat": 1.2542683333333333,
+      "lon": 103.80145999999999,
+      "speedKmh": 0.0,
+      "heading": 181.9,
+      "reportedAt": "2026-11-02T20:01:01.453060+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566019000",
+      "mmsi": "566019000",
+      "name": "SINCERITY",
+      "category": "unknown",
+      "lat": 1.2800633333333333,
+      "lon": 103.916105,
+      "speedKmh": 10.6,
+      "heading": 72.7,
+      "reportedAt": "2026-11-02T20:01:31.720879+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119038",
+      "mmsi": "525119038",
+      "name": "PRIMA TANGGUH LVI",
+      "category": "unknown",
+      "lat": 1.2271949999999998,
+      "lon": 103.81229333333334,
+      "speedKmh": 0.0,
+      "heading": 318,
+      "reportedAt": "2026-11-02T20:01:33.405879+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440265000",
+      "mmsi": "440265000",
+      "name": "UNIVERSAL CREATOR",
+      "category": "unknown",
+      "lat": 1.2613183333333333,
+      "lon": 103.92669333333333,
+      "speedKmh": 0.0,
+      "heading": 75,
+      "reportedAt": "2026-11-02T20:01:41.759360+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119095",
+      "mmsi": "525119095",
+      "name": "ARTEMIS",
+      "category": "unknown",
+      "lat": 1.2654116666666666,
+      "lon": 103.89601833333333,
+      "speedKmh": 0.0,
+      "heading": 34.3,
+      "reportedAt": "2026-11-02T20:01:55.227595+00:00"
     }
   ],
   "error": null
