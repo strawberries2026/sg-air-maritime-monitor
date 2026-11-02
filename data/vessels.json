@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T13:31:48.060277+00:00",
+  "updatedAt": "2026-11-02T13:46:38.993895+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,27 +15,15 @@
     },
     {
       "kind": "ship",
-      "id": "538006644",
-      "mmsi": "538006644",
-      "name": "SILVER MILLIE",
-      "category": "unknown",
-      "lat": 1.24987,
-      "lon": 103.9329,
-      "speedKmh": 0.0,
-      "heading": 6.2,
-      "reportedAt": "2026-11-02T12:16:38.967691+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563069100",
       "mmsi": "563069100",
       "name": "SALAMAH",
       "category": "unknown",
-      "lat": 1.2980383333333334,
-      "lon": 103.96559333333333,
+      "lat": 1.2979216666666666,
+      "lon": 103.96548,
       "speedKmh": 0.0,
-      "heading": 275.2,
-      "reportedAt": "2026-11-02T12:46:24.340908+00:00"
+      "heading": 61.1,
+      "reportedAt": "2026-11-02T13:45:55.298045+00:00"
     },
     {
       "kind": "ship",
@@ -115,23 +103,11 @@
       "mmsi": "215944000",
       "name": "AP ARGOSY",
       "category": "unknown",
-      "lat": 1.2802333333333331,
-      "lon": 103.93320166666668,
+      "lat": 1.28022,
+      "lon": 103.93306833333332,
       "speedKmh": 0.0,
       "heading": 112.7,
-      "reportedAt": "2026-11-02T13:16:39.571946+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413610790",
-      "mmsi": "413610790",
-      "name": "DONG FANG 102",
-      "category": "unknown",
-      "lat": 1.1723166666666667,
-      "lon": 103.79495,
-      "speedKmh": 15.6,
-      "heading": 232.9,
-      "reportedAt": "2026-11-02T12:15:59.167698+00:00"
+      "reportedAt": "2026-11-02T13:46:34.499300+00:00"
     },
     {
       "kind": "ship",
@@ -306,12 +282,12 @@
       "id": "563141000",
       "mmsi": "563141000",
       "name": "NOC 8",
-      "category": "commercial",
-      "lat": 1.2983866666666666,
+      "category": "unknown",
+      "lat": 1.2983933333333333,
       "lon": 103.94746333333333,
       "speedKmh": 0.0,
-      "heading": 56.3,
-      "reportedAt": "2026-11-02T12:46:20.051148+00:00"
+      "heading": 27.1,
+      "reportedAt": "2026-11-02T13:45:49.160525+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +516,78 @@
       "speedKmh": 0.2,
       "heading": 259.4,
       "reportedAt": "2026-11-02T13:31:16.079059+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533180090",
+      "mmsi": "533180090",
+      "name": "GRAND VISION",
+      "category": "unknown",
+      "lat": 1.1546566666666667,
+      "lon": 103.78180333333333,
+      "speedKmh": 35.9,
+      "heading": 53.9,
+      "reportedAt": "2026-11-02T13:45:27.734693+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636027250",
+      "mmsi": "636027250",
+      "name": "SIA OCEAN",
+      "category": "unknown",
+      "lat": 1.2643099999999998,
+      "lon": 103.88626833333333,
+      "speedKmh": 0.4,
+      "heading": 297.7,
+      "reportedAt": "2026-11-02T13:46:28.862773+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086930",
+      "mmsi": "563086930",
+      "name": "PSA PISCES",
+      "category": "unknown",
+      "lat": 1.2488783333333333,
+      "lon": 103.78714833333333,
+      "speedKmh": 19.4,
+      "heading": 154.9,
+      "reportedAt": "2026-11-02T13:45:28.423446+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563258600",
+      "mmsi": "563258600",
+      "name": "MARINE BLUE",
+      "category": "unknown",
+      "lat": 1.2588983333333335,
+      "lon": 103.90304833333333,
+      "speedKmh": 15.2,
+      "heading": 232.7,
+      "reportedAt": "2026-11-02T13:45:43.816468+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371768000",
+      "mmsi": "371768000",
+      "name": "MISTRAL I",
+      "category": "unknown",
+      "lat": 1.2676216666666666,
+      "lon": 103.89351666666667,
+      "speedKmh": 0.0,
+      "heading": 36.2,
+      "reportedAt": "2026-11-02T13:45:48.146631+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2847066666666669,
+      "lon": 103.92007,
+      "speedKmh": 0.0,
+      "heading": 335.3,
+      "reportedAt": "2026-11-02T13:46:14.042348+00:00"
     }
   ],
   "error": null
