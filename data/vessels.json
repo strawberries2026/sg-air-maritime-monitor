@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T16:16:44.377917+00:00",
+  "updatedAt": "2026-11-02T16:31:52.260721+00:00",
   "items": [
     {
       "kind": "ship",
@@ -96,30 +96,6 @@
       "speedKmh": 0.2,
       "heading": 264.2,
       "reportedAt": "2026-11-02T16:16:27.627021+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311002207",
-      "mmsi": "311002207",
-      "name": "CHANG SHOU STAR",
-      "category": "unknown",
-      "lat": 1.2319,
-      "lon": 103.93036666666667,
-      "speedKmh": 20.9,
-      "heading": 253,
-      "reportedAt": "2026-11-02T15:01:26.867033+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "310855000",
-      "mmsi": "310855000",
-      "name": "GH HELM",
-      "category": "unknown",
-      "lat": 1.2713333333333334,
-      "lon": 103.96948333333333,
-      "speedKmh": 0.0,
-      "heading": 145,
-      "reportedAt": "2026-11-02T15:01:38.122111+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +307,11 @@
       "mmsi": "268262604",
       "name": "CARTWHEEL",
       "category": "unknown",
-      "lat": 1.2708183333333334,
-      "lon": 103.90008833333333,
+      "lat": 1.2706266666666666,
+      "lon": 103.89938833333333,
       "speedKmh": 0.0,
       "heading": 42.7,
-      "reportedAt": "2026-11-02T15:45:39.355414+00:00"
+      "reportedAt": "2026-11-02T16:30:40.844740+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +415,11 @@
       "mmsi": "538007464",
       "name": "SAMJOHN VISION",
       "category": "unknown",
-      "lat": 1.2347333333333335,
-      "lon": 103.93808666666668,
-      "speedKmh": 12.6,
-      "heading": 103.2,
-      "reportedAt": "2026-11-02T16:01:59.451602+00:00"
+      "lat": 1.2395266666666667,
+      "lon": 104.01088166666666,
+      "speedKmh": 18.7,
+      "heading": 74.1,
+      "reportedAt": "2026-11-02T16:31:49.115425+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +504,114 @@
       "speedKmh": 21.7,
       "heading": 243.3,
       "reportedAt": "2026-11-02T16:16:25.080621+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.2824383333333331,
+      "lon": 103.892355,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-02T16:30:38.356818+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563034300",
+      "mmsi": "563034300",
+      "name": "MARINE ROSE",
+      "category": "unknown",
+      "lat": 1.2457,
+      "lon": 103.78916666666667,
+      "speedKmh": 8.7,
+      "heading": 24.5,
+      "reportedAt": "2026-11-02T16:30:38.496312+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564264000",
+      "mmsi": "564264000",
+      "name": "KOTA SETIA",
+      "category": "unknown",
+      "lat": 1.2068083333333335,
+      "lon": 103.87918166666667,
+      "speedKmh": 14.3,
+      "heading": 63.5,
+      "reportedAt": "2026-11-02T16:30:39.443385+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563235100",
+      "mmsi": "563235100",
+      "name": "EA JERSEY",
+      "category": "unknown",
+      "lat": 1.2703116666666667,
+      "lon": 103.91356333333333,
+      "speedKmh": 0.2,
+      "heading": 259,
+      "reportedAt": "2026-11-02T16:30:44.435241+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440138000",
+      "mmsi": "440138000",
+      "name": "HAEIN HOPE",
+      "category": "unknown",
+      "lat": 1.18455,
+      "lon": 103.75913333333332,
+      "speedKmh": 0.2,
+      "heading": 240,
+      "reportedAt": "2026-11-02T16:30:44.925842+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "305617000",
+      "mmsi": "305617000",
+      "name": "CHEMTRANS NOVA",
+      "category": "unknown",
+      "lat": 1.2542916666666666,
+      "lon": 103.92277333333332,
+      "speedKmh": 6.7,
+      "heading": 247.1,
+      "reportedAt": "2026-11-02T16:30:55.132949+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563030850",
+      "mmsi": "563030850",
+      "name": "MERLION 30",
+      "category": "unknown",
+      "lat": 1.2018516666666665,
+      "lon": 103.74415166666667,
+      "speedKmh": 0.0,
+      "heading": 160.9,
+      "reportedAt": "2026-11-02T16:31:17.565917+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370385000",
+      "mmsi": "370385000",
+      "name": "SPLENDOR KEELUNG",
+      "category": "unknown",
+      "lat": 1.2691333333333332,
+      "lon": 103.87671666666667,
+      "speedKmh": 0.2,
+      "heading": 10,
+      "reportedAt": "2026-11-02T16:31:34.159494+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352898773",
+      "mmsi": "352898773",
+      "name": "ST AJISAI",
+      "category": "unknown",
+      "lat": 1.2059016666666666,
+      "lon": 103.89991333333334,
+      "speedKmh": 26.7,
+      "heading": 58.3,
+      "reportedAt": "2026-11-02T16:31:42.175164+00:00"
     }
   ],
   "error": null
