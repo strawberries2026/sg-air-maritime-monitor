@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T10:16:47.324495+00:00",
+  "updatedAt": "2026-11-02T10:32:00.226519+00:00",
   "items": [
     {
       "kind": "ship",
@@ -67,47 +67,11 @@
       "mmsi": "563147600",
       "name": "PSA WANDA (NN26)",
       "category": "unknown",
-      "lat": 1.2592183333333333,
-      "lon": 103.85397166666667,
-      "speedKmh": 1.3,
-      "heading": 260.9,
-      "reportedAt": "2026-11-02T10:16:39.733744+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636024968",
-      "mmsi": "636024968",
-      "name": "MACALLAN",
-      "category": "unknown",
-      "lat": 1.2332133333333333,
-      "lon": 103.77291166666667,
-      "speedKmh": 0.0,
-      "heading": 48.2,
-      "reportedAt": "2026-11-02T09:00:58.022779+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533133276",
-      "mmsi": "533133276",
-      "name": "GENEVIEVE",
-      "category": "unknown",
-      "lat": 1.2355833333333335,
-      "lon": 103.79716666666667,
-      "speedKmh": 0.0,
-      "heading": 116.2,
-      "reportedAt": "2026-11-02T09:01:07.705068+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563781000",
-      "mmsi": "563781000",
-      "name": "SINDO 31",
-      "category": "unknown",
-      "lat": 1.2612466666666668,
-      "lon": 103.81029,
-      "speedKmh": 11.1,
-      "heading": 96.1,
-      "reportedAt": "2026-11-02T09:01:14.473254+00:00"
+      "lat": 1.2632333333333332,
+      "lon": 103.840915,
+      "speedKmh": 7.2,
+      "heading": 313.1,
+      "reportedAt": "2026-11-02T10:31:49.176786+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +307,11 @@
       "mmsi": "357232000",
       "name": "YOZAN",
       "category": "unknown",
-      "lat": 1.2007666666666668,
-      "lon": 103.89340666666666,
-      "speedKmh": 13.7,
-      "heading": 41,
-      "reportedAt": "2026-11-02T10:01:39.189837+00:00"
+      "lat": 1.2291166666666666,
+      "lon": 103.93794,
+      "speedKmh": 10.0,
+      "heading": 50.4,
+      "reportedAt": "2026-11-02T10:30:48.664458+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +427,11 @@
       "mmsi": "566999000",
       "name": "WAN HAI 621",
       "category": "unknown",
-      "lat": 1.24895,
-      "lon": 103.979,
+      "lat": 1.2295666666666667,
+      "lon": 103.92451666666666,
       "speedKmh": 12.8,
-      "heading": 249,
-      "reportedAt": "2026-11-02T10:01:24.051823+00:00"
+      "heading": 248,
+      "reportedAt": "2026-11-02T10:31:12.319366+00:00"
     },
     {
       "kind": "ship",
@@ -511,11 +475,131 @@
       "mmsi": "374578000",
       "name": "374578000",
       "category": "unknown",
-      "lat": 1.2489283333333332,
-      "lon": 103.96921999999999,
-      "speedKmh": 16.1,
-      "heading": 254.1,
-      "reportedAt": "2026-11-02T10:15:53.725331+00:00"
+      "lat": 1.236515,
+      "lon": 103.936595,
+      "speedKmh": 13.9,
+      "heading": 252.1,
+      "reportedAt": "2026-11-02T10:30:46.330271+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565574000",
+      "mmsi": "565574000",
+      "name": "STRAITS NOMURA",
+      "category": "unknown",
+      "lat": 1.2082616666666666,
+      "lon": 103.83845666666666,
+      "speedKmh": 11.5,
+      "heading": 270.7,
+      "reportedAt": "2026-11-02T10:30:47.040135+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371768000",
+      "mmsi": "371768000",
+      "name": "MISTRAL I",
+      "category": "unknown",
+      "lat": 1.2667050000000002,
+      "lon": 103.894235,
+      "speedKmh": 0.0,
+      "heading": 36.2,
+      "reportedAt": "2026-11-02T10:30:49.752990+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525901302",
+      "mmsi": "525901302",
+      "name": "WIRA LOEWISA",
+      "category": "unknown",
+      "lat": 1.1911433333333332,
+      "lon": 103.885765,
+      "speedKmh": 17.6,
+      "heading": 255.4,
+      "reportedAt": "2026-11-02T10:30:56.468908+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2757683333333332,
+      "lon": 103.90576166666666,
+      "speedKmh": 0.0,
+      "heading": 194.3,
+      "reportedAt": "2026-11-02T10:31:00.498423+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563781000",
+      "mmsi": "563781000",
+      "name": "SINDO 31",
+      "category": "unknown",
+      "lat": 1.2546833333333334,
+      "lon": 103.79655166666666,
+      "speedKmh": 20.2,
+      "heading": 230.6,
+      "reportedAt": "2026-11-02T10:31:09.679544+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566133000",
+      "mmsi": "566133000",
+      "name": "RESILIENT NN23",
+      "category": "unknown",
+      "lat": 1.2621833333333332,
+      "lon": 103.841925,
+      "speedKmh": 7.4,
+      "heading": 310.3,
+      "reportedAt": "2026-11-02T10:31:14.710010+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352005583",
+      "mmsi": "352005583",
+      "name": "FIRST ACE",
+      "category": "unknown",
+      "lat": 1.1866483333333333,
+      "lon": 103.84141500000001,
+      "speedKmh": 21.7,
+      "heading": 66.8,
+      "reportedAt": "2026-11-02T10:31:28.873690+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525020108",
+      "mmsi": "525020108",
+      "name": "CIPTA JAYA MANDIRI",
+      "category": "unknown",
+      "lat": 1.2262433333333334,
+      "lon": 103.78558500000001,
+      "speedKmh": 7.6,
+      "heading": 144.6,
+      "reportedAt": "2026-11-02T10:31:39.735202+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "373344000",
+      "mmsi": "373344000",
+      "name": "DIANTHUS",
+      "category": "unknown",
+      "lat": 1.26089,
+      "lon": 103.88208166666666,
+      "speedKmh": 0.0,
+      "heading": 347.5,
+      "reportedAt": "2026-11-02T10:31:48.695834+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574001750",
+      "mmsi": "574001750",
+      "name": "AULAC DIAMOND",
+      "category": "unknown",
+      "lat": 1.2429833333333333,
+      "lon": 103.79833333333333,
+      "speedKmh": 0.0,
+      "heading": 214,
+      "reportedAt": "2026-11-02T10:31:51.906804+00:00"
     }
   ],
   "error": null
