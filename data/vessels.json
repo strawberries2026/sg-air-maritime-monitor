@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T12:31:49.516323+00:00",
+  "updatedAt": "2026-11-03T12:46:40.313672+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "563062700",
-      "mmsi": "563062700",
-      "name": "ALS VENUS",
-      "category": "unknown",
-      "lat": 1.2308016666666668,
-      "lon": 103.78729,
-      "speedKmh": 12.6,
-      "heading": 327.7,
-      "reportedAt": "2026-11-03T11:16:01.536916+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012796",
       "mmsi": "538012796",
       "name": "MANAH",
@@ -39,18 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "563337400",
-      "mmsi": "563337400",
-      "name": "THARINEE NAREE",
-      "category": "unknown",
-      "lat": 1.230805,
-      "lon": 103.80334166666667,
-      "speedKmh": 0.7,
-      "heading": 120,
-      "reportedAt": "2026-11-03T11:15:48.503179+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "311000239",
       "mmsi": "311000239",
       "name": "AFRICAN STARLING",
@@ -60,18 +36,6 @@
       "speedKmh": 0.2,
       "heading": 102.6,
       "reportedAt": "2026-11-03T12:30:37.426587+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563069950",
-      "mmsi": "563069950",
-      "name": "EVER BRIGHT",
-      "category": "unknown",
-      "lat": 1.26305,
-      "lon": 103.87688333333334,
-      "speedKmh": 10.0,
-      "heading": 63,
-      "reportedAt": "2026-11-03T11:15:47.533896+00:00"
     },
     {
       "kind": "ship",
@@ -396,6 +360,42 @@
       "speedKmh": 0.2,
       "heading": 96.7,
       "reportedAt": "2026-11-03T12:31:24.692405+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564759000",
+      "mmsi": "564759000",
+      "name": "I MOLA",
+      "category": "commercial",
+      "lat": 1.2721466666666668,
+      "lon": 103.86878666666667,
+      "speedKmh": 0.7,
+      "heading": 123.2,
+      "reportedAt": "2026-11-03T12:46:10.217477+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.2829066666666666,
+      "lon": 103.89330333333334,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-03T12:46:14.786712+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477906900",
+      "mmsi": "477906900",
+      "name": "EASTERN VENTURE",
+      "category": "unknown",
+      "lat": 1.2514800000000001,
+      "lon": 103.957075,
+      "speedKmh": 8.3,
+      "heading": 237.5,
+      "reportedAt": "2026-11-03T12:46:19.400887+00:00"
     }
   ],
   "error": null
