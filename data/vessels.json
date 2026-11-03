@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T14:02:00.792291+00:00",
+  "updatedAt": "2026-11-03T14:16:39.918497+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "564759000",
-      "mmsi": "564759000",
-      "name": "I MOLA",
-      "category": "commercial",
-      "lat": 1.2721466666666668,
-      "lon": 103.86878666666667,
-      "speedKmh": 0.7,
-      "heading": 123.2,
-      "reportedAt": "2026-11-03T12:46:10.217477+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "668116289",
       "mmsi": "668116289",
       "name": "SOON LI 28",
@@ -60,18 +48,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-03T13:15:24.207067+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477906900",
-      "mmsi": "477906900",
-      "name": "EASTERN VENTURE",
-      "category": "unknown",
-      "lat": 1.2514800000000001,
-      "lon": 103.957075,
-      "speedKmh": 8.3,
-      "heading": 237.5,
-      "reportedAt": "2026-11-03T12:46:19.400887+00:00"
     },
     {
       "kind": "ship",
@@ -139,11 +115,11 @@
       "mmsi": "636093165",
       "name": "STEN IDUN",
       "category": "unknown",
-      "lat": 1.2270533333333333,
-      "lon": 103.79234333333333,
-      "speedKmh": 5.9,
-      "heading": 88,
-      "reportedAt": "2026-11-03T13:16:29.013122+00:00"
+      "lat": 1.2348716666666666,
+      "lon": 103.80302,
+      "speedKmh": 0.0,
+      "heading": 355.2,
+      "reportedAt": "2026-11-03T14:16:26.217098+00:00"
     },
     {
       "kind": "ship",
@@ -216,6 +192,42 @@
       "speedKmh": 4.1,
       "heading": 122,
       "reportedAt": "2026-11-03T14:01:20.839050+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352002132",
+      "mmsi": "352002132",
+      "name": "DAFENGGANG HESHUNHAO",
+      "category": "unknown",
+      "lat": 1.1873583333333333,
+      "lon": 103.83694666666666,
+      "speedKmh": 22.6,
+      "heading": 244,
+      "reportedAt": "2026-11-03T14:16:01.274870+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538002090",
+      "mmsi": "538002090",
+      "name": "CONSTELLATION",
+      "category": "unknown",
+      "lat": 1.2633833333333333,
+      "lon": 103.91983333333333,
+      "speedKmh": 0.0,
+      "heading": 295,
+      "reportedAt": "2026-11-03T14:16:24.303685+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563220600",
+      "mmsi": "563220600",
+      "name": "AUGUSTE SCHULTE",
+      "category": "unknown",
+      "lat": 1.2132399999999999,
+      "lon": 103.88393333333333,
+      "speedKmh": 17.8,
+      "heading": 249.7,
+      "reportedAt": "2026-11-03T14:16:24.303756+00:00"
     }
   ],
   "error": null
