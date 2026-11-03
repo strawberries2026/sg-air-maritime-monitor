@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:31:48.531723+00:00",
+  "updatedAt": "2026-11-03T11:46:41.359665+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "441511000",
-      "mmsi": "441511000",
-      "name": "GLOVIS SONIC",
-      "category": "unknown",
-      "lat": 1.2175900000000002,
-      "lon": 103.90619666666666,
-      "speedKmh": 12.8,
-      "heading": 67.3,
-      "reportedAt": "2026-11-03T10:16:03.398982+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563085870",
-      "mmsi": "563085870",
-      "name": "CSM VIPER",
-      "category": "unknown",
-      "lat": 1.2602316666666666,
-      "lon": 103.88098666666666,
-      "speedKmh": 0.2,
-      "heading": 22.9,
-      "reportedAt": "2026-11-03T10:15:38.216554+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "413471590",
       "mmsi": "413471590",
       "name": "SHENG HANG HUA 17",
@@ -84,18 +60,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-03T11:25:58.891590+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087090",
-      "mmsi": "563087090",
-      "name": "STL PT6",
-      "category": "unknown",
-      "lat": 1.2856233333333333,
-      "lon": 103.88597833333333,
-      "speedKmh": 0.2,
-      "heading": 151.4,
-      "reportedAt": "2026-11-03T10:16:00.532030+00:00"
     },
     {
       "kind": "ship",
@@ -132,30 +96,6 @@
       "speedKmh": 0.0,
       "heading": 326,
       "reportedAt": "2026-11-03T11:01:14.278802+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563051600",
-      "mmsi": "563051600",
-      "name": "MAERSK RIO ALFA",
-      "category": "unknown",
-      "lat": 1.2762983333333333,
-      "lon": 103.77576,
-      "speedKmh": 0.2,
-      "heading": 306.9,
-      "reportedAt": "2026-11-03T10:16:29.489820+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636024968",
-      "mmsi": "636024968",
-      "name": "MACALLAN",
-      "category": "unknown",
-      "lat": 1.2262583333333335,
-      "lon": 103.78516166666667,
-      "speedKmh": 12.6,
-      "heading": 135.9,
-      "reportedAt": "2026-11-03T10:16:31.969060+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +283,11 @@
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
       "category": "unknown",
-      "lat": 1.2526249999999999,
-      "lon": 103.90414000000001,
-      "speedKmh": 9.3,
-      "heading": 47.7,
-      "reportedAt": "2026-11-03T11:31:06.569732+00:00"
+      "lat": 1.26822,
+      "lon": 103.91896666666666,
+      "speedKmh": 9.4,
+      "heading": 31.5,
+      "reportedAt": "2026-11-03T11:46:06.738418+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +348,78 @@
       "speedKmh": 0.2,
       "heading": 13.4,
       "reportedAt": "2026-11-03T11:31:42.939707+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477856200",
+      "mmsi": "477856200",
+      "name": "JIN HAI ZHOU",
+      "category": "unknown",
+      "lat": 1.2317816666666666,
+      "lon": 103.78793999999999,
+      "speedKmh": 17.0,
+      "heading": 309.2,
+      "reportedAt": "2026-11-03T11:45:41.290709+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565122000",
+      "mmsi": "565122000",
+      "name": "VENUS",
+      "category": "unknown",
+      "lat": 1.1970683333333334,
+      "lon": 103.74200666666667,
+      "speedKmh": 0.2,
+      "heading": 160.5,
+      "reportedAt": "2026-11-03T11:45:48.474065+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "441511000",
+      "mmsi": "441511000",
+      "name": "GLOVIS SONIC",
+      "category": "unknown",
+      "lat": 1.2620033333333334,
+      "lon": 103.93011166666666,
+      "speedKmh": 11.3,
+      "heading": 287.9,
+      "reportedAt": "2026-11-03T11:46:13.927919+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525601594",
+      "mmsi": "525601594",
+      "name": "TB AMADEUS 1",
+      "category": "unknown",
+      "lat": 1.2631883333333334,
+      "lon": 103.82916666666667,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-03T11:46:18.642683+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255915641",
+      "mmsi": "255915641",
+      "name": "ESL KABIR",
+      "category": "unknown",
+      "lat": 1.1728233333333333,
+      "lon": 103.81102333333334,
+      "speedKmh": 27.2,
+      "heading": 66.2,
+      "reportedAt": "2026-11-03T11:46:26.603297+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "305372000",
+      "mmsi": "305372000",
+      "name": "BBC GDANSK",
+      "category": "unknown",
+      "lat": 1.2743883333333335,
+      "lon": 103.87697166666666,
+      "speedKmh": 0.4,
+      "heading": 65.1,
+      "reportedAt": "2026-11-03T11:46:31.797209+00:00"
     }
   ],
   "error": null
