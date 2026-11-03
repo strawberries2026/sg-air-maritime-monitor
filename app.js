@@ -94,6 +94,8 @@ function render(){
  const sgButton=document.getElementById('singaporeMapButton'),pbButton=document.getElementById('pedraBrancaButton');
  if(sgButton)sgButton.setAttribute('aria-pressed',String(maritimeView==='singapore'));
  if(pbButton)pbButton.setAttribute('aria-pressed',String(maritimeView==='pedra'));
+ const maritimeHealthy=lastFeeds?.s&&!lastFeeds.s.error&&freshness(lastFeeds.s.updated).ok;
+ const vesselCount=document.getElementById('shipCount');if(vesselCount)vesselCount.textContent=maritimeHealthy?ships.filter(inMaritimeView).length:'—';
  const coverage=document.getElementById('maritimeCoverageNotice');
  if(coverage){const feed=lastFeeds?.s;const healthy=feed&&!feed.error&&freshness(feed.updated).ok;const count=ships.filter(inMaritimeView).length;const area=maritimeView==='pedra'?'within 20 km of Pedra Branca':'in the Singapore vicinity';coverage.textContent=!healthy?'⚠ Maritime feed is unavailable or stale. Vessel positions and counts cannot be verified.':('⚠ Partial AIS coverage: '+count+' vessel observation(s) '+area+'; '+ships.length+' reports in the wider collection area. Positions may be delayed. Not a complete live traffic count.');}
  const mode=el('mode').value,category=el('category').value,q=el('search').value.toLowerCase().trim();
