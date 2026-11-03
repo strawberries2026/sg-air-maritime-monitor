@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T10:16:41.479154+00:00",
+  "updatedAt": "2026-11-03T10:31:50.765570+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,35 +7,23 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735716666666665,
-      "lon": 103.80137333333333,
+      "lat": 1.2735633333333332,
+      "lon": 103.80138166666667,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-03T10:01:44.959932+00:00"
+      "reportedAt": "2026-11-03T10:30:46.225639+00:00"
     },
     {
       "kind": "ship",
       "id": "563294700",
       "mmsi": "563294700",
       "name": "EM SHONA",
-      "category": "commercial",
-      "lat": 1.295285,
-      "lon": 103.949235,
-      "speedKmh": 0.2,
-      "heading": 28.1,
-      "reportedAt": "2026-11-03T09:45:37.080239+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "commercial",
-      "lat": 1.2495916666666667,
-      "lon": 103.79593333333334,
-      "speedKmh": 0.2,
-      "heading": 268.6,
-      "reportedAt": "2026-11-03T09:01:28.479779+00:00"
+      "category": "unknown",
+      "lat": 1.2951516666666667,
+      "lon": 103.94985166666667,
+      "speedKmh": 1.1,
+      "heading": 134.9,
+      "reportedAt": "2026-11-03T10:30:49.955774+00:00"
     },
     {
       "kind": "ship",
@@ -103,23 +91,11 @@
       "mmsi": "563012720",
       "name": "CLEANSEAS UNITED",
       "category": "unknown",
-      "lat": 1.2746950000000001,
-      "lon": 103.88592666666666,
-      "speedKmh": 0.4,
-      "heading": 216.3,
-      "reportedAt": "2026-11-03T09:45:49.343226+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "268262604",
-      "mmsi": "268262604",
-      "name": "CARTWHEEL",
-      "category": "unknown",
-      "lat": 1.270475,
-      "lon": 103.89794333333333,
-      "speedKmh": 0.0,
-      "heading": 42.7,
-      "reportedAt": "2026-11-03T09:01:21.145742+00:00"
+      "lat": 1.2742566666666666,
+      "lon": 103.88473333333333,
+      "speedKmh": 1.3,
+      "heading": 252.3,
+      "reportedAt": "2026-11-03T10:31:18.321083+00:00"
     },
     {
       "kind": "ship",
@@ -132,30 +108,6 @@
       "speedKmh": 19.3,
       "heading": 54.9,
       "reportedAt": "2026-11-03T10:00:46.319545+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563085930",
-      "mmsi": "563085930",
-      "name": "RELIABLE I",
-      "category": "unknown",
-      "lat": 1.2651616666666667,
-      "lon": 103.90455333333333,
-      "speedKmh": 15.0,
-      "heading": 32.2,
-      "reportedAt": "2026-11-03T09:01:40.173602+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477234900",
-      "mmsi": "477234900",
-      "name": "OCEAN HAPPINESS",
-      "category": "unknown",
-      "lat": 1.2641933333333335,
-      "lon": 103.90057,
-      "speedKmh": 0.2,
-      "heading": 281,
-      "reportedAt": "2026-11-03T09:01:49.038278+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +343,11 @@
       "mmsi": "413471590",
       "name": "SHENG HANG HUA 17",
       "category": "unknown",
-      "lat": 1.25342,
-      "lon": 103.80278833333334,
+      "lat": 1.2534566666666669,
+      "lon": 103.80289666666665,
       "speedKmh": 0.0,
       "heading": 144.5,
-      "reportedAt": "2026-11-03T10:16:01.536592+00:00"
+      "reportedAt": "2026-11-03T10:31:01.886811+00:00"
     },
     {
       "kind": "ship",
@@ -499,11 +451,11 @@
       "mmsi": "563149800",
       "name": "KOTA CAHAYA",
       "category": "unknown",
-      "lat": 1.2640166666666666,
-      "lon": 103.83335000000001,
+      "lat": 1.2639,
+      "lon": 103.83341666666666,
       "speedKmh": 0.0,
       "heading": 163,
-      "reportedAt": "2026-11-03T10:16:14.338912+00:00"
+      "reportedAt": "2026-11-03T10:31:14.427918+00:00"
     },
     {
       "kind": "ship",
@@ -528,6 +480,30 @@
       "speedKmh": 12.6,
       "heading": 135.9,
       "reportedAt": "2026-11-03T10:16:31.969060+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563337400",
+      "mmsi": "563337400",
+      "name": "THARINEE NAREE",
+      "category": "unknown",
+      "lat": 1.2411933333333331,
+      "lon": 103.78073333333333,
+      "speedKmh": 11.7,
+      "heading": 109,
+      "reportedAt": "2026-11-03T10:31:15.532593+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566799000",
+      "mmsi": "566799000",
+      "name": "EVERMORE",
+      "category": "unknown",
+      "lat": 1.22438,
+      "lon": 103.79592833333332,
+      "speedKmh": 5.6,
+      "heading": 320.7,
+      "reportedAt": "2026-11-03T10:31:28.896463+00:00"
     }
   ],
   "error": null
