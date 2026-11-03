@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T21:16:46.031428+00:00",
+  "updatedAt": "2026-11-03T21:31:55.136149+00:00",
   "items": [
     {
       "kind": "ship",
@@ -307,11 +307,11 @@
       "mmsi": "352004436",
       "name": "CELESTIAL",
       "category": "unknown",
-      "lat": 1.24999,
-      "lon": 103.90076166666667,
-      "speedKmh": 16.1,
-      "heading": 318.1,
-      "reportedAt": "2026-11-03T20:46:47.478343+00:00"
+      "lat": 1.2633016666666668,
+      "lon": 103.90098666666667,
+      "speedKmh": 0.2,
+      "heading": 223.8,
+      "reportedAt": "2026-11-03T21:31:17.428342+00:00"
     },
     {
       "kind": "ship",
@@ -516,6 +516,102 @@
       "speedKmh": 0.2,
       "heading": 117,
       "reportedAt": "2026-11-03T21:16:37.555098+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "310696000",
+      "mmsi": "310696000",
+      "name": "GASLOG SARATOGA",
+      "category": "unknown",
+      "lat": 1.1855383333333334,
+      "lon": 103.82203833333332,
+      "speedKmh": 10.0,
+      "heading": 247.8,
+      "reportedAt": "2026-11-03T21:30:41.319938+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563008910",
+      "mmsi": "563008910",
+      "name": "MARINA VIVO",
+      "category": "unknown",
+      "lat": 1.2498966666666667,
+      "lon": 103.78726,
+      "speedKmh": 10.2,
+      "heading": 131.4,
+      "reportedAt": "2026-11-03T21:30:54.999410+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566000000",
+      "mmsi": "566000000",
+      "name": "HAFNIA FALCON",
+      "category": "unknown",
+      "lat": 1.2237066666666665,
+      "lon": 103.79761166666667,
+      "speedKmh": 0.0,
+      "heading": 297.9,
+      "reportedAt": "2026-11-03T21:31:03.736333+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012796",
+      "mmsi": "538012796",
+      "name": "MANAH",
+      "category": "unknown",
+      "lat": 1.2383683333333333,
+      "lon": 103.81396333333333,
+      "speedKmh": 0.2,
+      "heading": 291.5,
+      "reportedAt": "2026-11-03T21:31:11.126439+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563021460",
+      "mmsi": "563021460",
+      "name": "PILOT GP57",
+      "category": "unknown",
+      "lat": 1.2546466666666667,
+      "lon": 103.777065,
+      "speedKmh": 32.0,
+      "heading": 139,
+      "reportedAt": "2026-11-03T21:31:20.158874+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004357",
+      "mmsi": "352004357",
+      "name": "LS MERCURY",
+      "category": "unknown",
+      "lat": 1.2367966666666668,
+      "lon": 103.79538,
+      "speedKmh": 6.3,
+      "heading": 93.9,
+      "reportedAt": "2026-11-03T21:31:24.370631+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006229",
+      "mmsi": "538006229",
+      "name": "SOUTHERN STAR",
+      "category": "unknown",
+      "lat": 1.2734683333333334,
+      "lon": 103.87978666666666,
+      "speedKmh": 0.0,
+      "heading": 343.2,
+      "reportedAt": "2026-11-03T21:31:33.179615+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "205542000",
+      "mmsi": "205542000",
+      "name": "MINERAL THIBAUT",
+      "category": "unknown",
+      "lat": 1.1901516666666665,
+      "lon": 103.83771166666666,
+      "speedKmh": 26.9,
+      "heading": 247,
+      "reportedAt": "2026-11-03T21:31:35.439210+00:00"
     }
   ],
   "error": null
