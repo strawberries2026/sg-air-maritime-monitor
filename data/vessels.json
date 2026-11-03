@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T14:16:39.918497+00:00",
+  "updatedAt": "2026-11-03T14:31:50.021023+00:00",
   "items": [
     {
       "kind": "ship",
@@ -48,30 +48,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-03T13:15:24.207067+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563029230",
-      "mmsi": "563029230",
-      "name": "SYNERGY",
-      "category": "unknown",
-      "lat": 1.2593783333333335,
-      "lon": 103.84154333333332,
-      "speedKmh": 0.0,
-      "heading": 220.6,
-      "reportedAt": "2026-11-03T13:01:45.891806+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.2485033333333333,
-      "lon": 103.79693,
-      "speedKmh": 0.0,
-      "heading": 317.2,
-      "reportedAt": "2026-11-03T13:01:25.825095+00:00"
     },
     {
       "kind": "ship",
@@ -228,6 +204,78 @@
       "speedKmh": 17.8,
       "heading": 249.7,
       "reportedAt": "2026-11-03T14:16:24.303756+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "257366000",
+      "mmsi": "257366000",
+      "name": "HOEGH ST.PETERSBURG",
+      "category": "unknown",
+      "lat": 1.2763266666666666,
+      "lon": 103.89319333333333,
+      "speedKmh": 0.0,
+      "heading": 355.9,
+      "reportedAt": "2026-11-03T14:30:38.189290+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477717900",
+      "mmsi": "477717900",
+      "name": "FOREVER CORDIALITY",
+      "category": "unknown",
+      "lat": 1.2276200000000002,
+      "lon": 103.78591666666667,
+      "speedKmh": 23.0,
+      "heading": 143.8,
+      "reportedAt": "2026-11-03T14:31:44.635391+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563294600",
+      "mmsi": "563294600",
+      "name": "CMA CGM VENDOME",
+      "category": "unknown",
+      "lat": 1.2592766666666668,
+      "lon": 103.78975166666667,
+      "speedKmh": 0.9,
+      "heading": 164.8,
+      "reportedAt": "2026-11-03T14:31:05.835773+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "248002000",
+      "mmsi": "248002000",
+      "name": "CMA CGM OSMIUM",
+      "category": "unknown",
+      "lat": 1.2328633333333334,
+      "lon": 103.87830333333333,
+      "speedKmh": 15.2,
+      "heading": 221.9,
+      "reportedAt": "2026-11-03T14:31:18.240011+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563039300",
+      "mmsi": "563039300",
+      "name": "NEW HORIZON",
+      "category": "unknown",
+      "lat": 1.2419283333333333,
+      "lon": 103.79523,
+      "speedKmh": 0.4,
+      "heading": 254.3,
+      "reportedAt": "2026-11-03T14:31:24.333046+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311000387",
+      "mmsi": "311000387",
+      "name": "CHEYENNE",
+      "category": "unknown",
+      "lat": 1.17818,
+      "lon": 103.76186,
+      "speedKmh": 0.2,
+      "heading": 188.9,
+      "reportedAt": "2026-11-03T14:31:32.036476+00:00"
     }
   ],
   "error": null
