@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T16:02:00.716477+00:00",
+  "updatedAt": "2026-11-03T16:16:42.023674+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 10.6,
       "heading": 263,
       "reportedAt": "2026-11-03T15:01:10.356568+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563220600",
-      "mmsi": "563220600",
-      "name": "AUGUSTE SCHULTE",
-      "category": "unknown",
-      "lat": 1.1846366666666666,
-      "lon": 103.81818,
-      "speedKmh": 15.6,
-      "heading": 252,
-      "reportedAt": "2026-11-03T14:46:03.192888+00:00"
     },
     {
       "kind": "ship",
@@ -75,42 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "352687000",
-      "mmsi": "352687000",
-      "name": "SOL MALAYSIA",
-      "category": "unknown",
-      "lat": 1.2514716666666668,
-      "lon": 103.80065333333333,
-      "speedKmh": 0.0,
-      "heading": 1.1,
-      "reportedAt": "2026-11-03T14:45:31.982021+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566065000",
-      "mmsi": "566065000",
-      "name": "GOLDEN ARANDA",
-      "category": "unknown",
-      "lat": 1.1828033333333332,
-      "lon": 103.77085166666667,
-      "speedKmh": 11.5,
-      "heading": 93.2,
-      "reportedAt": "2026-11-03T14:45:49.073860+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352003006",
-      "mmsi": "352003006",
-      "name": "ATHENA HOPE",
-      "category": "unknown",
-      "lat": 1.2637433333333334,
-      "lon": 103.87726666666667,
-      "speedKmh": 0.0,
-      "heading": 203.8,
-      "reportedAt": "2026-11-03T14:46:18.577052+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "5631101",
       "mmsi": "5631101",
       "name": "PSAB",
@@ -120,18 +72,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-03T15:46:33.767390+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563029230",
-      "mmsi": "563029230",
-      "name": "SYNERGY",
-      "category": "unknown",
-      "lat": 1.259345,
-      "lon": 103.84153833333333,
-      "speedKmh": 0.0,
-      "heading": 220.6,
-      "reportedAt": "2026-11-03T14:46:36.948219+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +420,54 @@
       "speedKmh": 0.0,
       "heading": 77.8,
       "reportedAt": "2026-11-03T16:01:33.240085+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086590",
+      "mmsi": "563086590",
+      "name": "PSA SUCCESS CS10",
+      "category": "unknown",
+      "lat": 1.2684133333333334,
+      "lon": 103.77271,
+      "speedKmh": 21.1,
+      "heading": 32.7,
+      "reportedAt": "2026-11-03T16:15:56.923711+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563258600",
+      "mmsi": "563258600",
+      "name": "MARINE BLUE",
+      "category": "unknown",
+      "lat": 1.256095,
+      "lon": 103.85840333333334,
+      "speedKmh": 4.3,
+      "heading": 283.2,
+      "reportedAt": "2026-11-03T16:16:12.960453+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563149800",
+      "mmsi": "563149800",
+      "name": "KOTA CAHAYA",
+      "category": "unknown",
+      "lat": 1.2638500000000001,
+      "lon": 103.83324999999999,
+      "speedKmh": 0.0,
+      "heading": 299,
+      "reportedAt": "2026-11-03T16:16:14.347638+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370385000",
+      "mmsi": "370385000",
+      "name": "SPLENDOR KEELUNG",
+      "category": "unknown",
+      "lat": 1.2688333333333333,
+      "lon": 103.87830000000001,
+      "speedKmh": 0.0,
+      "heading": 221,
+      "reportedAt": "2026-11-03T16:16:18.652352+00:00"
     }
   ],
   "error": null
