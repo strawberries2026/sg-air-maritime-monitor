@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:46:41.359665+00:00",
+  "updatedAt": "2026-11-03T12:02:01.564990+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-03T11:01:35.659614+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563294700",
-      "mmsi": "563294700",
-      "name": "EM SHONA",
-      "category": "unknown",
-      "lat": 1.2951516666666667,
-      "lon": 103.94985166666667,
-      "speedKmh": 1.1,
-      "heading": 134.9,
-      "reportedAt": "2026-11-03T10:30:49.955774+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563012720",
-      "mmsi": "563012720",
-      "name": "CLEANSEAS UNITED",
-      "category": "unknown",
-      "lat": 1.2742566666666666,
-      "lon": 103.88473333333333,
-      "speedKmh": 1.3,
-      "heading": 252.3,
-      "reportedAt": "2026-11-03T10:31:18.321083+00:00"
     },
     {
       "kind": "ship",
@@ -108,18 +84,6 @@
       "speedKmh": 0.7,
       "heading": 120,
       "reportedAt": "2026-11-03T11:15:48.503179+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566799000",
-      "mmsi": "566799000",
-      "name": "EVERMORE",
-      "category": "unknown",
-      "lat": 1.22438,
-      "lon": 103.79592833333332,
-      "speedKmh": 5.6,
-      "heading": 320.7,
-      "reportedAt": "2026-11-03T10:31:28.896463+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +384,42 @@
       "speedKmh": 0.4,
       "heading": 65.1,
       "reportedAt": "2026-11-03T11:46:31.797209+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2683733333333334,
+      "lon": 103.92479833333333,
+      "speedKmh": 8.5,
+      "heading": 317.2,
+      "reportedAt": "2026-11-03T12:00:59.046054+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563077900",
+      "mmsi": "563077900",
+      "name": "EAGLE LIKA",
+      "category": "unknown",
+      "lat": 1.2256283333333333,
+      "lon": 103.94724833333333,
+      "speedKmh": 23.5,
+      "heading": 67.7,
+      "reportedAt": "2026-11-03T12:01:01.440825+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352001525",
+      "mmsi": "352001525",
+      "name": "EVER OPTIMA",
+      "category": "unknown",
+      "lat": 1.2052566666666666,
+      "lon": 103.80702833333334,
+      "speedKmh": 9.3,
+      "heading": 132.1,
+      "reportedAt": "2026-11-03T12:01:22.428712+00:00"
     }
   ],
   "error": null
