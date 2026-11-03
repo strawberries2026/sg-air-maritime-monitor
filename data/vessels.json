@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T15:16:42.350786+00:00",
+  "updatedAt": "2026-11-03T15:31:49.164278+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.6,
       "heading": 246.9,
       "reportedAt": "2026-11-03T15:15:54.174968+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012796",
-      "mmsi": "538012796",
-      "name": "MANAH",
-      "category": "unknown",
-      "lat": 1.2365433333333333,
-      "lon": 103.81641166666667,
-      "speedKmh": 0.0,
-      "heading": 358.8,
-      "reportedAt": "2026-11-03T14:01:11.231260+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +139,11 @@
       "mmsi": "311000387",
       "name": "CHEYENNE",
       "category": "unknown",
-      "lat": 1.17818,
-      "lon": 103.76186,
-      "speedKmh": 0.2,
-      "heading": 188.9,
-      "reportedAt": "2026-11-03T14:31:32.036476+00:00"
+      "lat": 1.17871,
+      "lon": 103.76220833333333,
+      "speedKmh": 0.0,
+      "heading": 13.2,
+      "reportedAt": "2026-11-03T15:31:33.775087+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +372,66 @@
       "speedKmh": 0.0,
       "heading": 288.2,
       "reportedAt": "2026-11-03T15:16:35.929120+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255806127",
+      "mmsi": "255806127",
+      "name": "AS SOPHIA",
+      "category": "unknown",
+      "lat": 1.2486033333333333,
+      "lon": 103.71900833333333,
+      "speedKmh": 20.6,
+      "heading": 236.9,
+      "reportedAt": "2026-11-03T15:30:50.266792+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "268262604",
+      "mmsi": "268262604",
+      "name": "CARTWHEEL",
+      "category": "unknown",
+      "lat": 1.27079,
+      "lon": 103.90082000000001,
+      "speedKmh": 0.0,
+      "heading": 42.7,
+      "reportedAt": "2026-11-03T15:30:59.097148+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "314074000",
+      "mmsi": "314074000",
+      "name": "TITAN HARMONY",
+      "category": "unknown",
+      "lat": 1.2230400000000001,
+      "lon": 103.80356,
+      "speedKmh": 20.0,
+      "heading": 152.3,
+      "reportedAt": "2026-11-03T15:31:08.285278+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "412379690",
+      "mmsi": "412379690",
+      "name": "ZHONG GU 3",
+      "category": "unknown",
+      "lat": 1.1443466666666666,
+      "lon": 103.779335,
+      "speedKmh": 29.4,
+      "heading": 57.5,
+      "reportedAt": "2026-11-03T15:31:24.790960+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563338600",
+      "mmsi": "563338600",
+      "name": "GINGA COPPER",
+      "category": "unknown",
+      "lat": 1.1848683333333334,
+      "lon": 103.769165,
+      "speedKmh": 0.9,
+      "heading": 5.2,
+      "reportedAt": "2026-11-03T15:31:37.635699+00:00"
     }
   ],
   "error": null
