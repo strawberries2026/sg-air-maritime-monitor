@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T23:31:48.083390+00:00",
+  "updatedAt": "2026-11-03T23:40:38.995991+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "565122000",
       "name": "VENUS",
       "category": "unknown",
-      "lat": 1.1970616666666667,
-      "lon": 103.740825,
+      "lat": 1.1971433333333332,
+      "lon": 103.7409,
       "speedKmh": 0.0,
       "heading": 118.1,
-      "reportedAt": "2026-11-03T22:31:38.597544+00:00"
+      "reportedAt": "2026-11-03T23:39:57.911940+00:00"
     },
     {
       "kind": "ship",
@@ -115,11 +115,11 @@
       "mmsi": "564977000",
       "name": "PM CROWN",
       "category": "unknown",
-      "lat": 1.2587583333333332,
-      "lon": 103.90740833333332,
+      "lat": 1.2588083333333333,
+      "lon": 103.90730666666667,
       "speedKmh": 0.0,
-      "heading": 164.6,
-      "reportedAt": "2026-11-03T22:15:41.570723+00:00"
+      "heading": 147.3,
+      "reportedAt": "2026-11-03T23:40:23.433296+00:00"
     },
     {
       "kind": "ship",
@@ -379,11 +379,11 @@
       "mmsi": "563001270",
       "name": "AYER MANIS",
       "category": "unknown",
-      "lat": 1.2443666666666668,
-      "lon": 103.79015166666666,
-      "speedKmh": 0.6,
-      "heading": 77.9,
-      "reportedAt": "2026-11-03T23:01:44.694255+00:00"
+      "lat": 1.2448833333333333,
+      "lon": 103.78869,
+      "speedKmh": 11.7,
+      "heading": 163.5,
+      "reportedAt": "2026-11-03T23:40:33.116401+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +456,102 @@
       "speedKmh": 0.2,
       "heading": 38.5,
       "reportedAt": "2026-11-03T23:31:34.062666+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563060100",
+      "mmsi": "563060100",
+      "name": "PSA HULK CS04",
+      "category": "unknown",
+      "lat": 1.2242383333333333,
+      "lon": 103.79000333333333,
+      "speedKmh": 10.2,
+      "heading": 20.4,
+      "reportedAt": "2026-11-03T23:39:28.390677+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566994000",
+      "mmsi": "566994000",
+      "name": "QUEEN STAR 3",
+      "category": "unknown",
+      "lat": 1.2629333333333332,
+      "lon": 103.819425,
+      "speedKmh": 0.0,
+      "heading": 259.9,
+      "reportedAt": "2026-11-03T23:39:30.921314+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563258600",
+      "mmsi": "563258600",
+      "name": "MARINE BLUE",
+      "category": "unknown",
+      "lat": 1.2621233333333335,
+      "lon": 103.83869333333334,
+      "speedKmh": 0.0,
+      "heading": 36,
+      "reportedAt": "2026-11-03T23:40:27.160894+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563137600",
+      "mmsi": "563137600",
+      "name": "KOTA JAYA",
+      "category": "unknown",
+      "lat": 1.23572,
+      "lon": 103.87502166666667,
+      "speedKmh": 14.1,
+      "heading": 314,
+      "reportedAt": "2026-11-03T23:40:07.729220+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563149800",
+      "mmsi": "563149800",
+      "name": "KOTA CAHAYA",
+      "category": "unknown",
+      "lat": 1.2639500000000001,
+      "lon": 103.83353333333334,
+      "speedKmh": 0.2,
+      "heading": 63,
+      "reportedAt": "2026-11-03T23:40:14.268363+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "314940000",
+      "mmsi": "314940000",
+      "name": "ECO PRIDE 1",
+      "category": "unknown",
+      "lat": 1.2844933333333333,
+      "lon": 103.92168,
+      "speedKmh": 0.0,
+      "heading": 323,
+      "reportedAt": "2026-11-03T23:40:27.385817+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "354196000",
+      "mmsi": "354196000",
+      "name": "BUNUN ACE",
+      "category": "unknown",
+      "lat": 1.1955500000000001,
+      "lon": 103.87671666666667,
+      "speedKmh": 13.9,
+      "heading": 59.3,
+      "reportedAt": "2026-11-03T23:40:31.858828+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440202000",
+      "mmsi": "440202000",
+      "name": "GLOVIS SUNRISE",
+      "category": "unknown",
+      "lat": 1.26596,
+      "lon": 103.84607166666666,
+      "speedKmh": 0.0,
+      "heading": 344.3,
+      "reportedAt": "2026-11-03T23:40:34.714734+00:00"
     }
   ],
   "error": null
