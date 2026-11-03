@@ -44,8 +44,8 @@ test('monitoring area buttons are accessible and present in markup',()=>{
  assert.match(html,/id="maritimeCoverageNotice"[^>]*aria-live="polite"/);
 });
 test('area selection handlers update the view and render',()=>{
- assert.match(source,/id\('pedraBrancaButton'\)\.addEventListener\('click',\(\)=>\{maritimeView='pedra'/);
- assert.match(source,/id\('singaporeMapButton'\)\.addEventListener\('click',\(\)=>\{maritimeView='singapore'/);
+ assert.match(source,/el\('pedraBrancaButton'\)\.addEventListener\('click',\(\)=>\{maritimeView='pedra'/);
+ assert.match(source,/el\('singaporeMapButton'\)\.addEventListener\('click',\(\)=>\{maritimeView='singapore'/);
  assert.match(source,/sgButton\.setAttribute\('aria-pressed',String\(maritimeView==='singapore'\)\)/);
  assert.match(source,/pbButton\.setAttribute\('aria-pressed',String\(maritimeView==='pedra'\)\)/);
 });
