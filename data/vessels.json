@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:16:40.225087+00:00",
+  "updatedAt": "2026-11-03T11:26:53.473014+00:00",
   "items": [
     {
       "kind": "ship",
@@ -103,11 +103,11 @@
       "mmsi": "563067430",
       "name": "NOC 7",
       "category": "unknown",
-      "lat": 1.28006,
-      "lon": 103.88197666666666,
-      "speedKmh": 0.2,
+      "lat": 1.2797416666666666,
+      "lon": 103.88246000000001,
+      "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-03T10:01:27.987812+00:00"
+      "reportedAt": "2026-11-03T11:25:58.891590+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +348,78 @@
       "speedKmh": 10.0,
       "heading": 63,
       "reportedAt": "2026-11-03T11:15:47.533896+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563322500",
+      "mmsi": "563322500",
+      "name": "BTS ECLIPSE",
+      "category": "unknown",
+      "lat": 1.2265933333333334,
+      "lon": 103.81009,
+      "speedKmh": 0.0,
+      "heading": 314.5,
+      "reportedAt": "2026-11-03T11:25:46.968694+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566687000",
+      "mmsi": "566687000",
+      "name": "STRAITS HARMONY",
+      "category": "unknown",
+      "lat": 1.2524133333333334,
+      "lon": 103.80185833333333,
+      "speedKmh": 0.6,
+      "heading": 140.9,
+      "reportedAt": "2026-11-03T11:25:54.719311+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477538400",
+      "mmsi": "477538400",
+      "name": "KIRA",
+      "category": "unknown",
+      "lat": 1.290665,
+      "lon": 103.91865333333334,
+      "speedKmh": 0.0,
+      "heading": 94,
+      "reportedAt": "2026-11-03T11:26:08.459549+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563258600",
+      "mmsi": "563258600",
+      "name": "MARINE BLUE",
+      "category": "unknown",
+      "lat": 1.22619,
+      "lon": 103.87474833333334,
+      "speedKmh": 16.5,
+      "heading": 41.4,
+      "reportedAt": "2026-11-03T11:26:29.935575+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086610",
+      "mmsi": "563086610",
+      "name": "CSM HYDRA",
+      "category": "unknown",
+      "lat": 1.226405,
+      "lon": 103.78421333333334,
+      "speedKmh": 12.4,
+      "heading": 150.9,
+      "reportedAt": "2026-11-03T11:26:37.627885+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566532000",
+      "mmsi": "566532000",
+      "name": "STRAITS BRILLIANCE",
+      "category": "unknown",
+      "lat": 1.2485016666666666,
+      "lon": 103.89932,
+      "speedKmh": 9.3,
+      "heading": 48.6,
+      "reportedAt": "2026-11-03T11:26:37.627961+00:00"
     }
   ],
   "error": null
