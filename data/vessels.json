@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-03T15:02:11.265302+00:00",
+  "updatedAt": "2026-11-03T15:16:42.350786+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "636016293",
-      "mmsi": "636016293",
-      "name": "ELANDRA MELODY",
-      "category": "unknown",
-      "lat": 1.2172166666666666,
-      "lon": 103.800825,
-      "speedKmh": 17.2,
-      "heading": 312.3,
-      "reportedAt": "2026-11-03T13:46:03.288910+00:00"
-    },
     {
       "kind": "ship",
       "id": "636093165",
@@ -27,27 +15,15 @@
     },
     {
       "kind": "ship",
-      "id": "563149800",
-      "mmsi": "563149800",
-      "name": "KOTA CAHAYA",
-      "category": "unknown",
-      "lat": 1.2640166666666666,
-      "lon": 103.8334,
-      "speedKmh": 0.0,
-      "heading": 117,
-      "reportedAt": "2026-11-03T13:46:14.286504+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563085720",
       "mmsi": "563085720",
       "name": "PSA ACHIEVE",
       "category": "unknown",
-      "lat": 1.24704,
-      "lon": 103.85007333333333,
-      "speedKmh": 17.0,
-      "heading": 43.4,
-      "reportedAt": "2026-11-03T14:00:50.724237+00:00"
+      "lat": 1.2625833333333332,
+      "lon": 103.84100333333335,
+      "speedKmh": 0.6,
+      "heading": 246.9,
+      "reportedAt": "2026-11-03T15:15:54.174968+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +127,11 @@
       "mmsi": "248002000",
       "name": "CMA CGM OSMIUM",
       "category": "unknown",
-      "lat": 1.2328633333333334,
-      "lon": 103.87830333333333,
-      "speedKmh": 15.2,
-      "heading": 221.9,
-      "reportedAt": "2026-11-03T14:31:18.240011+00:00"
+      "lat": 1.2313116666666666,
+      "lon": 103.78807,
+      "speedKmh": 10.2,
+      "heading": 332.2,
+      "reportedAt": "2026-11-03T15:16:38.322019+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +139,11 @@
       "mmsi": "563039300",
       "name": "NEW HORIZON",
       "category": "unknown",
-      "lat": 1.2419283333333333,
-      "lon": 103.79523,
-      "speedKmh": 0.4,
-      "heading": 254.3,
-      "reportedAt": "2026-11-03T14:31:24.333046+00:00"
+      "lat": 1.2418483333333334,
+      "lon": 103.79563833333333,
+      "speedKmh": 0.6,
+      "heading": 255.1,
+      "reportedAt": "2026-11-03T15:16:21.131852+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +300,90 @@
       "speedKmh": 18.1,
       "heading": 69.5,
       "reportedAt": "2026-11-03T15:02:00.632409+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "677071900",
+      "mmsi": "677071900",
+      "name": "MT FU YU",
+      "category": "unknown",
+      "lat": 1.2420916666666666,
+      "lon": 103.79019833333334,
+      "speedKmh": 0.4,
+      "heading": 173.9,
+      "reportedAt": "2026-11-03T15:16:00.648302+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563215600",
+      "mmsi": "563215600",
+      "name": "ZALE",
+      "category": "unknown",
+      "lat": 1.2373466666666666,
+      "lon": 103.821215,
+      "speedKmh": 0.0,
+      "heading": 330.6,
+      "reportedAt": "2026-11-03T15:16:09.729622+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563147600",
+      "mmsi": "563147600",
+      "name": "PSA WANDA (NN26)",
+      "category": "unknown",
+      "lat": 1.2628249999999999,
+      "lon": 103.84056666666667,
+      "speedKmh": 0.7,
+      "heading": 268.8,
+      "reportedAt": "2026-11-03T15:16:20.188510+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087010",
+      "mmsi": "563087010",
+      "name": "PSA PEGASUS",
+      "category": "unknown",
+      "lat": 1.229515,
+      "lon": 103.789575,
+      "speedKmh": 10.0,
+      "heading": 325.8,
+      "reportedAt": "2026-11-03T15:16:21.400180+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563362000",
+      "mmsi": "563362000",
+      "name": "KOTA CEMPAKA",
+      "category": "unknown",
+      "lat": 1.2626183333333332,
+      "lon": 103.84035999999999,
+      "speedKmh": 0.7,
+      "heading": 261.2,
+      "reportedAt": "2026-11-03T15:16:27.508929+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525601594",
+      "mmsi": "525601594",
+      "name": "TB AMADEUS 1",
+      "category": "unknown",
+      "lat": 1.2631983333333332,
+      "lon": 103.82915333333334,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-03T15:16:28.619328+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "419001849",
+      "mmsi": "419001849",
+      "name": "MAJESTY",
+      "category": "unknown",
+      "lat": 1.2608083333333333,
+      "lon": 103.90408333333333,
+      "speedKmh": 0.0,
+      "heading": 288.2,
+      "reportedAt": "2026-11-03T15:16:35.929120+00:00"
     }
   ],
   "error": null
