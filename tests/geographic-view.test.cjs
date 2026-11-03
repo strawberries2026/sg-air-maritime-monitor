@@ -49,3 +49,9 @@ test('area selection handlers update the view and render',()=>{
  assert.match(source,/sgButton\.setAttribute\('aria-pressed',String\(maritimeView==='singapore'\)\)/);
  assert.match(source,/pbButton\.setAttribute\('aria-pressed',String\(maritimeView==='pedra'\)\)/);
 });
+
+test('vessel dashboard count is filtered to selected area and feed health',()=>{
+ const html=fs.readFileSync('index.html','utf8');
+ assert.match(html,/Vessels in selected area/);
+ assert.match(source,/vesselCount\.textContent=maritimeHealthy\?ships\.filter\(inMaritimeView\)\.length:'—'/);
+});
