@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-03T12:16:46.028985+00:00",
+  "updatedAt": "2026-11-03T12:31:49.516323+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.27358,
-      "lon": 103.80138166666667,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-03T11:01:35.659614+00:00"
-    },
     {
       "kind": "ship",
       "id": "563067430",
@@ -51,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "563149800",
-      "mmsi": "563149800",
-      "name": "KOTA CAHAYA",
-      "category": "unknown",
-      "lat": 1.2639666666666665,
-      "lon": 103.83336666666668,
-      "speedKmh": 0.0,
-      "heading": 326,
-      "reportedAt": "2026-11-03T11:01:14.278802+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563337400",
       "mmsi": "563337400",
       "name": "THARINEE NAREE",
@@ -75,51 +51,15 @@
     },
     {
       "kind": "ship",
-      "id": "563187200",
-      "mmsi": "563187200",
-      "name": "PRABHU LAL",
-      "category": "unknown",
-      "lat": 1.1585166666666666,
-      "lon": 103.76611666666666,
-      "speedKmh": 1.1,
-      "heading": 235,
-      "reportedAt": "2026-11-03T11:00:45.522611+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563031300",
-      "mmsi": "563031300",
-      "name": "CLEANSEAS EQUALITY",
-      "category": "unknown",
-      "lat": 1.2221233333333332,
-      "lon": 103.78965333333333,
-      "speedKmh": 11.5,
-      "heading": 134.1,
-      "reportedAt": "2026-11-03T11:01:08.805163+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563142000",
-      "mmsi": "563142000",
-      "name": "PENGUIN REDEEM",
-      "category": "unknown",
-      "lat": 1.2309283333333334,
-      "lon": 103.77956999999999,
-      "speedKmh": 18.9,
-      "heading": 182.9,
-      "reportedAt": "2026-11-03T11:01:20.782076+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "311000239",
       "mmsi": "311000239",
       "name": "AFRICAN STARLING",
       "category": "unknown",
-      "lat": 1.265005,
-      "lon": 103.88469833333333,
+      "lat": 1.2651350000000001,
+      "lon": 103.88554833333333,
       "speedKmh": 0.2,
-      "heading": 77.2,
-      "reportedAt": "2026-11-03T11:15:36.864641+00:00"
+      "heading": 102.6,
+      "reportedAt": "2026-11-03T12:30:37.426587+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +348,54 @@
       "speedKmh": 10.9,
       "heading": 278.8,
       "reportedAt": "2026-11-03T12:16:37.471195+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "257366000",
+      "mmsi": "257366000",
+      "name": "HOEGH ST.PETERSBURG",
+      "category": "unknown",
+      "lat": 1.2762716666666667,
+      "lon": 103.89324,
+      "speedKmh": 0.2,
+      "heading": 359.4,
+      "reportedAt": "2026-11-03T12:30:38.080264+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016293",
+      "mmsi": "636016293",
+      "name": "ELANDRA MELODY",
+      "category": "unknown",
+      "lat": 1.269855,
+      "lon": 103.91011333333333,
+      "speedKmh": 4.1,
+      "heading": 134.1,
+      "reportedAt": "2026-11-03T12:30:43.463963+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352003006",
+      "mmsi": "352003006",
+      "name": "ATHENA HOPE",
+      "category": "unknown",
+      "lat": 1.2639116666666665,
+      "lon": 103.87708166666667,
+      "speedKmh": 0.0,
+      "heading": 161.9,
+      "reportedAt": "2026-11-03T12:31:18.041685+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "419001849",
+      "mmsi": "419001849",
+      "name": "MAJESTY",
+      "category": "unknown",
+      "lat": 1.260875,
+      "lon": 103.903515,
+      "speedKmh": 0.2,
+      "heading": 96.7,
+      "reportedAt": "2026-11-03T12:31:24.692405+00:00"
     }
   ],
   "error": null
