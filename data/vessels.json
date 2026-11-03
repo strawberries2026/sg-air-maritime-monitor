@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T10:31:50.765570+00:00",
+  "updatedAt": "2026-11-03T10:46:39.880995+00:00",
   "items": [
     {
       "kind": "ship",
@@ -111,30 +111,6 @@
     },
     {
       "kind": "ship",
-      "id": "566339000",
-      "mmsi": "566339000",
-      "name": "SEA SERENITY",
-      "category": "unknown",
-      "lat": 1.22397,
-      "lon": 103.78852666666667,
-      "speedKmh": 8.3,
-      "heading": 143.1,
-      "reportedAt": "2026-11-03T09:01:52.243207+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564588000",
-      "mmsi": "564588000",
-      "name": "KOTA RATNA",
-      "category": "unknown",
-      "lat": 1.2639983333333333,
-      "lon": 103.835815,
-      "speedKmh": 0.0,
-      "heading": 189.9,
-      "reportedAt": "2026-11-03T09:15:37.187503+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "413558470",
       "mmsi": "413558470",
       "name": "YUE DAN",
@@ -144,30 +120,6 @@
       "speedKmh": 0.0,
       "heading": 199.3,
       "reportedAt": "2026-11-03T09:31:13.406558+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563033250",
-      "mmsi": "563033250",
-      "name": "LIBERTY 88",
-      "category": "unknown",
-      "lat": 1.26412,
-      "lon": 103.83568666666666,
-      "speedKmh": 0.2,
-      "heading": 149,
-      "reportedAt": "2026-11-03T09:16:19.789502+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023894",
-      "mmsi": "636023894",
-      "name": "KINAROS",
-      "category": "unknown",
-      "lat": 1.1502966666666665,
-      "lon": 103.79025,
-      "speedKmh": 6.3,
-      "heading": 49.5,
-      "reportedAt": "2026-11-03T09:16:28.823552+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +295,11 @@
       "mmsi": "413471590",
       "name": "SHENG HANG HUA 17",
       "category": "unknown",
-      "lat": 1.2534566666666669,
-      "lon": 103.80289666666665,
+      "lat": 1.25339,
+      "lon": 103.80293,
       "speedKmh": 0.0,
       "heading": 144.5,
-      "reportedAt": "2026-11-03T10:31:01.886811+00:00"
+      "reportedAt": "2026-11-03T10:46:04.706301+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +403,11 @@
       "mmsi": "563149800",
       "name": "KOTA CAHAYA",
       "category": "unknown",
-      "lat": 1.2639,
-      "lon": 103.83341666666666,
+      "lat": 1.2638,
+      "lon": 103.83343333333333,
       "speedKmh": 0.0,
-      "heading": 163,
-      "reportedAt": "2026-11-03T10:31:14.427918+00:00"
+      "heading": 170,
+      "reportedAt": "2026-11-03T10:46:14.217134+00:00"
     },
     {
       "kind": "ship",
@@ -504,6 +456,42 @@
       "speedKmh": 5.6,
       "heading": 320.7,
       "reportedAt": "2026-11-03T10:31:28.896463+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413311110",
+      "mmsi": "413311110",
+      "name": "DING HENG 19",
+      "category": "unknown",
+      "lat": 1.2331416666666668,
+      "lon": 103.79811666666666,
+      "speedKmh": 0.0,
+      "heading": 68.5,
+      "reportedAt": "2026-11-03T10:45:25.005546+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563147600",
+      "mmsi": "563147600",
+      "name": "PSA WANDA (NN26)",
+      "category": "unknown",
+      "lat": 1.2607916666666665,
+      "lon": 103.85105333333333,
+      "speedKmh": 0.2,
+      "heading": 239.8,
+      "reportedAt": "2026-11-03T10:45:59.552394+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538010648",
+      "mmsi": "538010648",
+      "name": "ADVANTAGE PORTOFINO",
+      "category": "unknown",
+      "lat": 1.2466133333333334,
+      "lon": 103.90174333333333,
+      "speedKmh": 0.0,
+      "heading": 113.1,
+      "reportedAt": "2026-11-03T10:46:14.735934+00:00"
     }
   ],
   "error": null
