@@ -35,3 +35,17 @@ test('render excludes vessels when maritime feed is stale',()=>{
  assert.match(renderBody,/const maritimeFeedOk=lastFeeds\?\.s&&!lastFeeds\.s\.error&&freshness\(lastFeeds\.s\.updated\)\.ok/);
  assert.match(renderBody,/mode==='air'\|\|!maritimeFeedOk\?\[\]:ships/);
 });
+
+// UI wiring checks do not replace real browser or Android interaction testing.
+test('monitoring area buttons are accessible and present in markup',()=>{
+ const html=fs.readFileSync('index.html','utf8');
+ assert.match(html,/<button[^>]*id="singaporeMapButton"[^>]*aria-pressed="true"/);
+ assert.match(html,/<button[^>]*id="pedraBrancaButton"[^>]*aria-pressed="false"/);
+ assert.match(html,/id="maritimeCoverageNotice"[^>]*aria-live="polite"/);
+});
+test('area selection handlers update the view and render',()=>{
+ assert.match(source,/id\('pedraBrancaButton'\)\.addEventListener\('click',\(\)=>\{maritimeView='pedra'/);
+ assert.match(source,/id\('singaporeMapButton'\)\.addEventListener\('click',\(\)=>\{maritimeView='singapore'/);
+ assert.match(source,/sgButton\.setAttribute\('aria-pressed',String\(maritimeView==='singapore'\)\)/);
+ assert.match(source,/pbButton\.setAttribute\('aria-pressed',String\(maritimeView==='pedra'\)\)/);
+});
