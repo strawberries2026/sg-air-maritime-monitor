@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T12:16:39.450837+00:00",
+  "updatedAt": "2026-11-04T12:31:50.123347+00:00",
   "items": [
     {
       "kind": "ship",
@@ -235,11 +235,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2827133333333334,
-      "lon": 103.89200833333332,
-      "speedKmh": 0.0,
+      "lat": 1.2825983333333333,
+      "lon": 103.89195666666666,
+      "speedKmh": 0.2,
       "heading": null,
-      "reportedAt": "2026-11-04T12:15:55.623168+00:00"
+      "reportedAt": "2026-11-04T12:31:42.754957+00:00"
     },
     {
       "kind": "ship",
@@ -264,6 +264,78 @@
       "speedKmh": 0.0,
       "heading": 144.5,
       "reportedAt": "2026-11-04T12:16:10.924862+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009180",
+      "mmsi": "563009180",
+      "name": "NOBLE ACE TG41",
+      "category": "unknown",
+      "lat": 1.2626416666666667,
+      "lon": 103.84663833333335,
+      "speedKmh": 0.2,
+      "heading": 343.6,
+      "reportedAt": "2026-11-04T12:30:40.485079+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "431260000",
+      "mmsi": "431260000",
+      "name": "ONE MANHATTAN",
+      "category": "unknown",
+      "lat": 1.2352916666666667,
+      "lon": 103.91917,
+      "speedKmh": 11.9,
+      "heading": 252.5,
+      "reportedAt": "2026-11-04T12:30:57.137862+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563319900",
+      "mmsi": "563319900",
+      "name": "MAJESTIC INFINITY",
+      "category": "unknown",
+      "lat": 1.2609866666666667,
+      "lon": 103.81333333333333,
+      "speedKmh": 10.0,
+      "heading": 89.9,
+      "reportedAt": "2026-11-04T12:30:59.257520+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564611000",
+      "mmsi": "564611000",
+      "name": "HERON SPIRIT",
+      "category": "unknown",
+      "lat": 1.2621566666666666,
+      "lon": 103.81443333333333,
+      "speedKmh": 9.3,
+      "heading": 259.4,
+      "reportedAt": "2026-11-04T12:31:03.918573+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563336000",
+      "mmsi": "563336000",
+      "name": "HY JADE",
+      "category": "unknown",
+      "lat": 1.2645000000000002,
+      "lon": 103.89689666666666,
+      "speedKmh": 12.8,
+      "heading": 250.5,
+      "reportedAt": "2026-11-04T12:31:13.635792+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414923000",
+      "mmsi": "414923000",
+      "name": "CHANG HANG HU PO",
+      "category": "unknown",
+      "lat": 1.2599883333333333,
+      "lon": 103.90674166666666,
+      "speedKmh": 0.0,
+      "heading": 152.7,
+      "reportedAt": "2026-11-04T12:31:45.685384+00:00"
     }
   ],
   "error": null
