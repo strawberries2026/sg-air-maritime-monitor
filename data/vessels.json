@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T18:31:49.826278+00:00",
+  "updatedAt": "2026-11-04T18:44:55.681420+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735383333333334,
-      "lon": 103.80140666666667,
+      "lat": 1.273545,
+      "lon": 103.80139166666666,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-04T18:31:12.731413+00:00"
+      "reportedAt": "2026-11-04T18:44:31.977896+00:00"
     },
     {
       "kind": "ship",
@@ -48,18 +48,6 @@
       "speedKmh": 0.7,
       "heading": 8.2,
       "reportedAt": "2026-11-04T17:16:04.725673+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565660000",
-      "mmsi": "565660000",
-      "name": "ISSELIA",
-      "category": "unknown",
-      "lat": 1.2316483333333332,
-      "lon": 103.79081333333333,
-      "speedKmh": 13.1,
-      "heading": 323,
-      "reportedAt": "2026-11-04T17:01:53.376511+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +283,11 @@
       "mmsi": "565951000",
       "name": "RELIANT CS01",
       "category": "unknown",
-      "lat": 1.2626333333333333,
-      "lon": 103.846685,
+      "lat": 1.262635,
+      "lon": 103.84668,
       "speedKmh": 0.0,
       "heading": 255,
-      "reportedAt": "2026-11-04T18:01:10.045870+00:00"
+      "reportedAt": "2026-11-04T18:44:50.565855+00:00"
     },
     {
       "kind": "ship",
@@ -523,11 +511,83 @@
       "mmsi": "372643000",
       "name": "KITTY TIDE",
       "category": "unknown",
-      "lat": 1.2379316666666667,
-      "lon": 103.81861166666665,
+      "lat": 1.237955,
+      "lon": 103.81857333333333,
       "speedKmh": 0.0,
       "heading": 191.2,
-      "reportedAt": "2026-11-04T18:31:45.829061+00:00"
+      "reportedAt": "2026-11-04T18:43:45.760879+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563171200",
+      "mmsi": "563171200",
+      "name": "PHOENIX VANTAGE",
+      "category": "unknown",
+      "lat": 1.213115,
+      "lon": 103.87949,
+      "speedKmh": 14.6,
+      "heading": 240,
+      "reportedAt": "2026-11-04T18:43:41.540097+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563750000",
+      "mmsi": "563750000",
+      "name": "PSA SUSTAINABILITY",
+      "category": "unknown",
+      "lat": 1.2658966666666667,
+      "lon": 103.84113166666666,
+      "speedKmh": 0.0,
+      "heading": 149.8,
+      "reportedAt": "2026-11-04T18:44:18.016216+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565497000",
+      "mmsi": "565497000",
+      "name": "TORM TROILUS",
+      "category": "unknown",
+      "lat": 1.2855283333333332,
+      "lon": 103.94710333333335,
+      "speedKmh": 12.4,
+      "heading": 227.8,
+      "reportedAt": "2026-11-04T18:44:25.013950+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "339301880",
+      "mmsi": "339301880",
+      "name": "UNION GLORY",
+      "category": "unknown",
+      "lat": 1.2672199999999998,
+      "lon": 103.88168,
+      "speedKmh": 0.0,
+      "heading": 338.2,
+      "reportedAt": "2026-11-04T18:44:29.763343+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085930",
+      "mmsi": "563085930",
+      "name": "RELIABLE I",
+      "category": "unknown",
+      "lat": 1.2711066666666668,
+      "lon": 103.87691833333334,
+      "speedKmh": 0.0,
+      "heading": 216.8,
+      "reportedAt": "2026-11-04T18:44:33.081650+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563243900",
+      "mmsi": "563243900",
+      "name": "PEARL LILY",
+      "category": "unknown",
+      "lat": 1.2143366666666668,
+      "lon": 103.79792333333333,
+      "speedKmh": 15.7,
+      "heading": 138.7,
+      "reportedAt": "2026-11-04T18:44:33.081704+00:00"
     }
   ],
   "error": null
