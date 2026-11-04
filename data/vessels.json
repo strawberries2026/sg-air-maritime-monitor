@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:46:41.383401+00:00",
+  "updatedAt": "2026-11-04T22:01:57.538496+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-04T21:46:11.521903+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "668116289",
-      "mmsi": "668116289",
-      "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2817,
-      "lon": 103.89197833333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-04T20:31:18.286187+00:00"
     },
     {
       "kind": "ship",
@@ -75,30 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "636017516",
-      "mmsi": "636017516",
-      "name": "MSC MIRJA",
-      "category": "unknown",
-      "lat": 1.184345,
-      "lon": 103.8372,
-      "speedKmh": 15.7,
-      "heading": 64.2,
-      "reportedAt": "2026-11-04T20:30:43.452974+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "368270000",
-      "mmsi": "368270000",
-      "name": "SLNC  STAR",
-      "category": "unknown",
-      "lat": 1.2562916666666666,
-      "lon": 103.876595,
-      "speedKmh": 0.2,
-      "heading": 336,
-      "reportedAt": "2026-11-04T20:30:43.716127+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563024400",
       "mmsi": "563024400",
       "name": "TICO CAPRICORN",
@@ -108,66 +72,6 @@
       "speedKmh": 10.4,
       "heading": 333.7,
       "reportedAt": "2026-11-04T21:31:31.360581+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009180",
-      "mmsi": "563009180",
-      "name": "NOBLE ACE TG41",
-      "category": "unknown",
-      "lat": 1.258035,
-      "lon": 103.84242666666667,
-      "speedKmh": 0.0,
-      "heading": 179.8,
-      "reportedAt": "2026-11-04T20:31:21.318430+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "235084298",
-      "mmsi": "235084298",
-      "name": "ERVING",
-      "category": "unknown",
-      "lat": 1.1701916666666667,
-      "lon": 103.81905,
-      "speedKmh": 16.5,
-      "heading": 67.5,
-      "reportedAt": "2026-11-04T20:31:22.865274+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232046110",
-      "mmsi": "232046110",
-      "name": "KAHALA",
-      "category": "unknown",
-      "lat": 1.2653583333333331,
-      "lon": 103.81204166666666,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-04T20:31:26.390422+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566717000",
-      "mmsi": "566717000",
-      "name": "MARINA ARIEL",
-      "category": "unknown",
-      "lat": 1.26043,
-      "lon": 103.85103666666667,
-      "speedKmh": 1.9,
-      "heading": 152.2,
-      "reportedAt": "2026-11-04T20:31:44.412715+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563085870",
-      "mmsi": "563085870",
-      "name": "CSM VIPER",
-      "category": "unknown",
-      "lat": 1.2176666666666667,
-      "lon": 103.80136999999999,
-      "speedKmh": 0.2,
-      "heading": 316.9,
-      "reportedAt": "2026-11-04T20:31:50.102103+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +355,11 @@
       "mmsi": "477949200",
       "name": "RUICO SAPPHIRE",
       "category": "unknown",
-      "lat": 1.2416216666666666,
-      "lon": 103.79256000000001,
+      "lat": 1.2421166666666668,
+      "lon": 103.79240833333333,
       "speedKmh": 0.2,
-      "heading": 19.4,
-      "reportedAt": "2026-11-04T21:45:58.125209+00:00"
+      "heading": 339.8,
+      "reportedAt": "2026-11-04T22:00:58.271696+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +384,102 @@
       "speedKmh": 0.6,
       "heading": 294.1,
       "reportedAt": "2026-11-04T21:46:26.414670+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.2815083333333335,
+      "lon": 103.89203,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-04T22:00:55.432053+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2754533333333333,
+      "lon": 103.91001666666666,
+      "speedKmh": 0.0,
+      "heading": 259.1,
+      "reportedAt": "2026-11-04T22:01:04.931912+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563100400",
+      "mmsi": "563100400",
+      "name": "REGENT  LIBRA",
+      "category": "unknown",
+      "lat": 1.24133,
+      "lon": 103.78066666666668,
+      "speedKmh": 7.4,
+      "heading": 329.2,
+      "reportedAt": "2026-11-04T22:01:08.258796+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "319225500",
+      "mmsi": "319225500",
+      "name": "ABEONA",
+      "category": "unknown",
+      "lat": 1.2626716666666666,
+      "lon": 103.811805,
+      "speedKmh": 0.0,
+      "heading": 256.4,
+      "reportedAt": "2026-11-04T22:01:19.781147+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "419001629",
+      "mmsi": "419001629",
+      "name": "JAG RAJIV",
+      "category": "unknown",
+      "lat": 1.10022,
+      "lon": 103.74001166666667,
+      "speedKmh": 21.7,
+      "heading": 37.7,
+      "reportedAt": "2026-11-04T22:01:25.239119+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "232046110",
+      "mmsi": "232046110",
+      "name": "KAHALA",
+      "category": "unknown",
+      "lat": 1.2653583333333331,
+      "lon": 103.81202499999999,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-04T22:01:26.278657+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009210",
+      "mmsi": "563009210",
+      "name": "NOBLE ORION TG46",
+      "category": "unknown",
+      "lat": 1.264225,
+      "lon": 103.83573,
+      "speedKmh": 0.0,
+      "heading": 100.8,
+      "reportedAt": "2026-11-04T22:01:26.936410+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533132085",
+      "mmsi": "533132085",
+      "name": "SALAM MAJU",
+      "category": "unknown",
+      "lat": 1.2177166666666668,
+      "lon": 103.8997,
+      "speedKmh": 24.8,
+      "heading": 243.8,
+      "reportedAt": "2026-11-04T22:01:51.099715+00:00"
     }
   ],
   "error": null
