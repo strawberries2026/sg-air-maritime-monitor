@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T20:16:39.917380+00:00",
+  "updatedAt": "2026-11-04T20:31:52.248943+00:00",
   "items": [
     {
       "kind": "ship",
@@ -99,18 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "538009555",
-      "mmsi": "538009555",
-      "name": "FJ CAMELIA",
-      "category": "unknown",
-      "lat": 1.202025,
-      "lon": 103.88038166666666,
-      "speedKmh": 23.9,
-      "heading": 63.9,
-      "reportedAt": "2026-11-04T19:01:26.753816+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "268262604",
       "mmsi": "268262604",
       "name": "CARTWHEEL",
@@ -120,30 +108,6 @@
       "speedKmh": 0.2,
       "heading": 101.2,
       "reportedAt": "2026-11-04T19:31:40.381343+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440449000",
-      "mmsi": "440449000",
-      "name": "KMTC LONG BEACH",
-      "category": "unknown",
-      "lat": 1.2370333333333332,
-      "lon": 103.97164,
-      "speedKmh": 27.8,
-      "heading": 63.1,
-      "reportedAt": "2026-11-04T19:01:40.845184+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563083550",
-      "mmsi": "563083550",
-      "name": "CLEANSEAS JOY",
-      "category": "unknown",
-      "lat": 1.223695,
-      "lon": 103.81528666666667,
-      "speedKmh": 0.0,
-      "heading": 141.8,
-      "reportedAt": "2026-11-04T19:01:52.181220+00:00"
     },
     {
       "kind": "ship",
@@ -187,11 +151,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2823516666666668,
-      "lon": 103.892035,
+      "lat": 1.2817,
+      "lon": 103.89197833333333,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-04T19:16:40.190492+00:00"
+      "reportedAt": "2026-11-04T20:31:18.286187+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +384,114 @@
       "speedKmh": 0.4,
       "heading": 178.2,
       "reportedAt": "2026-11-04T20:16:32.562168+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563021100",
+      "mmsi": "563021100",
+      "name": "KAI EI MARU 15",
+      "category": "unknown",
+      "lat": 1.261025,
+      "lon": 103.75973666666667,
+      "speedKmh": 16.1,
+      "heading": 139.7,
+      "reportedAt": "2026-11-04T20:30:39.785987+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636017516",
+      "mmsi": "636017516",
+      "name": "MSC MIRJA",
+      "category": "unknown",
+      "lat": 1.184345,
+      "lon": 103.8372,
+      "speedKmh": 15.7,
+      "heading": 64.2,
+      "reportedAt": "2026-11-04T20:30:43.452974+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "368270000",
+      "mmsi": "368270000",
+      "name": "SLNC  STAR",
+      "category": "unknown",
+      "lat": 1.2562916666666666,
+      "lon": 103.876595,
+      "speedKmh": 0.2,
+      "heading": 336,
+      "reportedAt": "2026-11-04T20:30:43.716127+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563024400",
+      "mmsi": "563024400",
+      "name": "TICO CAPRICORN",
+      "category": "unknown",
+      "lat": 1.2244733333333333,
+      "lon": 103.87122666666667,
+      "speedKmh": 10.4,
+      "heading": 227.9,
+      "reportedAt": "2026-11-04T20:30:43.969481+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009180",
+      "mmsi": "563009180",
+      "name": "NOBLE ACE TG41",
+      "category": "unknown",
+      "lat": 1.258035,
+      "lon": 103.84242666666667,
+      "speedKmh": 0.0,
+      "heading": 179.8,
+      "reportedAt": "2026-11-04T20:31:21.318430+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "235084298",
+      "mmsi": "235084298",
+      "name": "ERVING",
+      "category": "unknown",
+      "lat": 1.1701916666666667,
+      "lon": 103.81905,
+      "speedKmh": 16.5,
+      "heading": 67.5,
+      "reportedAt": "2026-11-04T20:31:22.865274+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "232046110",
+      "mmsi": "232046110",
+      "name": "KAHALA",
+      "category": "unknown",
+      "lat": 1.2653583333333331,
+      "lon": 103.81204166666666,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-04T20:31:26.390422+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566717000",
+      "mmsi": "566717000",
+      "name": "MARINA ARIEL",
+      "category": "unknown",
+      "lat": 1.26043,
+      "lon": 103.85103666666667,
+      "speedKmh": 1.9,
+      "heading": 152.2,
+      "reportedAt": "2026-11-04T20:31:44.412715+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085870",
+      "mmsi": "563085870",
+      "name": "CSM VIPER",
+      "category": "unknown",
+      "lat": 1.2176666666666667,
+      "lon": 103.80136999999999,
+      "speedKmh": 0.2,
+      "heading": 316.9,
+      "reportedAt": "2026-11-04T20:31:50.102103+00:00"
     }
   ],
   "error": null
