@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T17:02:04.709273+00:00",
+  "updatedAt": "2026-11-04T17:16:49.171044+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "563406000",
       "name": "BTS CALYPSO",
       "category": "unknown",
-      "lat": 1.2382833333333332,
-      "lon": 103.80025,
+      "lat": 1.2382,
+      "lon": 103.80018333333334,
       "speedKmh": 0.0,
       "heading": 198,
-      "reportedAt": "2026-11-04T16:45:42.859519+00:00"
+      "reportedAt": "2026-11-04T17:15:43.675394+00:00"
     },
     {
       "kind": "ship",
@@ -24,30 +24,6 @@
       "speedKmh": 0.0,
       "heading": 101.2,
       "reportedAt": "2026-11-04T17:01:00.436035+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311000239",
-      "mmsi": "311000239",
-      "name": "AFRICAN STARLING",
-      "category": "unknown",
-      "lat": 1.22345,
-      "lon": 103.929715,
-      "speedKmh": 24.1,
-      "heading": 61.1,
-      "reportedAt": "2026-11-04T15:46:39.297840+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636024546",
-      "mmsi": "636024546",
-      "name": "PAN UNIVERSAL",
-      "category": "unknown",
-      "lat": 1.1815266666666666,
-      "lon": 103.81947333333332,
-      "speedKmh": 19.8,
-      "heading": 246.6,
-      "reportedAt": "2026-11-04T15:46:22.672032+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +235,11 @@
       "mmsi": "372014000",
       "name": "SPINNAKER SW",
       "category": "unknown",
-      "lat": 1.2596983333333334,
-      "lon": 103.88237166666666,
+      "lat": 1.2600183333333335,
+      "lon": 103.88289166666667,
       "speedKmh": 0.7,
-      "heading": 221.1,
-      "reportedAt": "2026-11-04T17:01:23.933308+00:00"
+      "heading": 8.2,
+      "reportedAt": "2026-11-04T17:16:04.725673+00:00"
     },
     {
       "kind": "ship",
@@ -300,6 +276,54 @@
       "speedKmh": 13.1,
       "heading": 323,
       "reportedAt": "2026-11-04T17:01:53.376511+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477850100",
+      "mmsi": "477850100",
+      "name": "PINE EXPRESS",
+      "category": "unknown",
+      "lat": 1.2279166666666665,
+      "lon": 103.81886666666666,
+      "speedKmh": 0.0,
+      "heading": 49,
+      "reportedAt": "2026-11-04T17:15:55.695259+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538012615",
+      "mmsi": "538012615",
+      "name": "POAVOSA WISDOM",
+      "category": "unknown",
+      "lat": 1.2639,
+      "lon": 103.87760666666667,
+      "speedKmh": 0.0,
+      "heading": 126.7,
+      "reportedAt": "2026-11-04T17:16:28.217703+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009521",
+      "mmsi": "538009521",
+      "name": "AEGEAN SPIRIT",
+      "category": "unknown",
+      "lat": 1.2240900000000001,
+      "lon": 103.91289666666667,
+      "speedKmh": 6.3,
+      "heading": 256.2,
+      "reportedAt": "2026-11-04T17:16:32.166236+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249937000",
+      "mmsi": "249937000",
+      "name": "ALEGRIA",
+      "category": "unknown",
+      "lat": 1.2758233333333335,
+      "lon": 103.88044333333333,
+      "speedKmh": 0.0,
+      "heading": 310.5,
+      "reportedAt": "2026-11-04T17:16:41.912065+00:00"
     }
   ],
   "error": null
