@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:31:48.944649+00:00",
+  "updatedAt": "2026-11-04T22:46:39.274347+00:00",
   "items": [
     {
       "kind": "ship",
@@ -51,30 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "574005100",
-      "mmsi": "574005100",
-      "name": "HAIAN EAST",
-      "category": "unknown",
-      "lat": 1.2397633333333333,
-      "lon": 103.78549500000001,
-      "speedKmh": 4.3,
-      "heading": 359.5,
-      "reportedAt": "2026-11-04T21:15:48.756658+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565951000",
-      "mmsi": "565951000",
-      "name": "RELIANT CS01",
-      "category": "unknown",
-      "lat": 1.2615733333333334,
-      "lon": 103.84583333333333,
-      "speedKmh": 0.0,
-      "heading": 33.1,
-      "reportedAt": "2026-11-04T21:15:40.961899+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "244410000",
       "mmsi": "244410000",
       "name": "ELISABETH",
@@ -99,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "533131107",
-      "mmsi": "533131107",
-      "name": "PUSAKA ABADI",
-      "category": "unknown",
-      "lat": 1.2452566666666667,
-      "lon": 103.79361,
-      "speedKmh": 0.2,
-      "heading": 273.5,
-      "reportedAt": "2026-11-04T21:01:48.956148+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563886000",
       "mmsi": "563886000",
       "name": "KOTA AZAM",
@@ -132,42 +96,6 @@
       "speedKmh": 0.2,
       "heading": 119.2,
       "reportedAt": "2026-11-04T22:30:56.433134+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477850100",
-      "mmsi": "477850100",
-      "name": "PINE EXPRESS",
-      "category": "unknown",
-      "lat": 1.2295,
-      "lon": 103.81651666666667,
-      "speedKmh": 0.0,
-      "heading": 10,
-      "reportedAt": "2026-11-04T21:15:54.440065+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563846000",
-      "mmsi": "563846000",
-      "name": "MARINE PROTECTOR",
-      "category": "unknown",
-      "lat": 1.2437533333333335,
-      "lon": 103.81224333333333,
-      "speedKmh": 1.1,
-      "heading": 314.3,
-      "reportedAt": "2026-11-04T21:15:58.721100+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021857",
-      "mmsi": "636021857",
-      "name": "XIAMEN",
-      "category": "unknown",
-      "lat": 1.2367483333333333,
-      "lon": 103.93958666666667,
-      "speedKmh": 14.6,
-      "heading": 244.8,
-      "reportedAt": "2026-11-04T21:16:14.928107+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +319,11 @@
       "mmsi": "563318300",
       "name": "CMA CGM GRAND PALAIS",
       "category": "unknown",
-      "lat": 1.2299083333333334,
-      "lon": 103.91653666666666,
-      "speedKmh": 7.0,
-      "heading": 245.1,
-      "reportedAt": "2026-11-04T22:15:52.486376+00:00"
+      "lat": 1.2171183333333333,
+      "lon": 103.88307,
+      "speedKmh": 10.2,
+      "heading": 251.3,
+      "reportedAt": "2026-11-04T22:45:54.889883+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +367,11 @@
       "mmsi": "636023595",
       "name": "INVICTUS",
       "category": "unknown",
-      "lat": 1.2609416666666666,
-      "lon": 103.92570166666665,
-      "speedKmh": 2.4,
-      "heading": 306.2,
-      "reportedAt": "2026-11-04T22:31:24.555797+00:00"
+      "lat": 1.2620633333333333,
+      "lon": 103.92249833333334,
+      "speedKmh": 0.6,
+      "heading": 89.2,
+      "reportedAt": "2026-11-04T22:46:35.936915+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +396,42 @@
       "speedKmh": 0.4,
       "heading": 32.4,
       "reportedAt": "2026-11-04T22:31:46.661710+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371324000",
+      "mmsi": "371324000",
+      "name": "SAO QUIXOTE",
+      "category": "unknown",
+      "lat": 1.229475,
+      "lon": 103.88743333333333,
+      "speedKmh": 0.2,
+      "heading": 291.8,
+      "reportedAt": "2026-11-04T22:45:32.293660+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "368270000",
+      "mmsi": "368270000",
+      "name": "SLNC  STAR",
+      "category": "unknown",
+      "lat": 1.2562583333333335,
+      "lon": 103.87643666666666,
+      "speedKmh": 0.2,
+      "heading": 340.4,
+      "reportedAt": "2026-11-04T22:45:45.245394+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440138000",
+      "mmsi": "440138000",
+      "name": "HAEIN HOPE",
+      "category": "unknown",
+      "lat": 1.18475,
+      "lon": 103.75665000000001,
+      "speedKmh": 0.0,
+      "heading": 83,
+      "reportedAt": "2026-11-04T22:45:45.757909+00:00"
     }
   ],
   "error": null
