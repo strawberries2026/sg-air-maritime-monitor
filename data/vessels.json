@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-04T05:16:39.265541+00:00",
+  "updatedAt": "2026-11-04T05:31:48.094554+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "219773000",
-      "mmsi": "219773000",
-      "name": "TORM HEDWIG",
-      "category": "unknown",
-      "lat": 1.2520333333333333,
-      "lon": 103.90057499999999,
-      "speedKmh": 0.0,
-      "heading": 169.2,
-      "reportedAt": "2026-11-04T04:01:04.066301+00:00"
-    },
     {
       "kind": "ship",
       "id": "255803760",
@@ -27,27 +15,15 @@
     },
     {
       "kind": "ship",
-      "id": "563321500",
-      "mmsi": "563321500",
-      "name": "MAERSK CRETE",
-      "category": "unknown",
-      "lat": 1.2279133333333334,
-      "lon": 103.79696333333332,
-      "speedKmh": 0.2,
-      "heading": 203,
-      "reportedAt": "2026-11-04T04:00:54.282527+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563337400",
       "mmsi": "563337400",
       "name": "THARINEE NAREE",
       "category": "unknown",
-      "lat": 1.2300533333333334,
-      "lon": 103.80142000000001,
-      "speedKmh": 0.2,
-      "heading": 188.5,
-      "reportedAt": "2026-11-04T04:15:37.337480+00:00"
+      "lat": 1.2296166666666666,
+      "lon": 103.80117833333334,
+      "speedKmh": 0.0,
+      "heading": 240.4,
+      "reportedAt": "2026-11-04T05:30:37.346408+00:00"
     },
     {
       "kind": "ship",
@@ -84,18 +60,6 @@
       "speedKmh": 0.0,
       "heading": 108,
       "reportedAt": "2026-11-04T05:01:14.261063+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "319225500",
-      "mmsi": "319225500",
-      "name": "ABEONA",
-      "category": "unknown",
-      "lat": 1.2626616666666666,
-      "lon": 103.81180166666667,
-      "speedKmh": 0.0,
-      "heading": 249.7,
-      "reportedAt": "2026-11-04T04:01:20.666745+00:00"
     },
     {
       "kind": "ship",
@@ -187,11 +151,11 @@
       "mmsi": "563273700",
       "name": "GOLDEN SIRIUS",
       "category": "unknown",
-      "lat": 1.2402833333333334,
-      "lon": 103.79749666666666,
+      "lat": 1.2402516666666665,
+      "lon": 103.79741833333333,
       "speedKmh": 0.2,
-      "heading": 221.1,
-      "reportedAt": "2026-11-04T05:16:23.389943+00:00"
+      "heading": 243.5,
+      "reportedAt": "2026-11-04T05:31:23.418110+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +259,11 @@
       "mmsi": "563029230",
       "name": "SYNERGY",
       "category": "unknown",
-      "lat": 1.2885733333333333,
-      "lon": 103.91256333333334,
+      "lat": 1.2547833333333334,
+      "lon": 103.85775333333332,
       "speedKmh": 9.1,
-      "heading": 236.6,
-      "reportedAt": "2026-11-04T04:46:26.078548+00:00"
+      "heading": 232.7,
+      "reportedAt": "2026-11-04T05:31:45.951962+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +456,138 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-04T05:16:26.258344+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563233500",
+      "mmsi": "563233500",
+      "name": "ENERGY LUMINA",
+      "category": "unknown",
+      "lat": 1.2158466666666667,
+      "lon": 103.795355,
+      "speedKmh": 13.1,
+      "heading": 131.1,
+      "reportedAt": "2026-11-04T05:30:33.080892+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525003103",
+      "mmsi": "525003103",
+      "name": "SPECTRUM ARCTIC",
+      "category": "unknown",
+      "lat": 1.2973999999999999,
+      "lon": 103.99925,
+      "speedKmh": 0.2,
+      "heading": 202,
+      "reportedAt": "2026-11-04T05:30:40.704004+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636014865",
+      "mmsi": "636014865",
+      "name": "KOUTALIANOS",
+      "category": "unknown",
+      "lat": 1.1438333333333333,
+      "lon": 103.77986666666668,
+      "speedKmh": 18.3,
+      "heading": 58,
+      "reportedAt": "2026-11-04T05:30:52.569359+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "419001849",
+      "mmsi": "419001849",
+      "name": "MAJESTY",
+      "category": "unknown",
+      "lat": 1.2589716666666668,
+      "lon": 103.90161666666667,
+      "speedKmh": 0.0,
+      "heading": 289.1,
+      "reportedAt": "2026-11-04T05:30:54.817674+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "256311000",
+      "mmsi": "256311000",
+      "name": "CMA CGM GEORGE SAND",
+      "category": "unknown",
+      "lat": 1.2178766666666665,
+      "lon": 103.89419166666667,
+      "speedKmh": 8.3,
+      "heading": 256.9,
+      "reportedAt": "2026-11-04T05:31:01.292569+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563121600",
+      "mmsi": "563121600",
+      "name": "MAJESTY",
+      "category": "unknown",
+      "lat": 1.25413,
+      "lon": 103.86480499999999,
+      "speedKmh": 0.0,
+      "heading": 140.4,
+      "reportedAt": "2026-11-04T05:31:11.367601+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "256223000",
+      "mmsi": "256223000",
+      "name": "CLEAN FUTURE",
+      "category": "unknown",
+      "lat": 1.2447450000000002,
+      "lon": 103.953215,
+      "speedKmh": 17.0,
+      "heading": 254,
+      "reportedAt": "2026-11-04T05:31:17.773940+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477464400",
+      "mmsi": "477464400",
+      "name": "COSCO ISTANBUL",
+      "category": "unknown",
+      "lat": 1.2278566666666668,
+      "lon": 103.91802166666666,
+      "speedKmh": 20.9,
+      "heading": 244,
+      "reportedAt": "2026-11-04T05:31:19.457046+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564346000",
+      "mmsi": "564346000",
+      "name": "HORIZON 6",
+      "category": "unknown",
+      "lat": 1.2205683333333333,
+      "lon": 103.79410333333334,
+      "speedKmh": 28.0,
+      "heading": 130.5,
+      "reportedAt": "2026-11-04T05:31:27.303336+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020816",
+      "mmsi": "636020816",
+      "name": "NAVE ELECTRON",
+      "category": "unknown",
+      "lat": 1.1777533333333332,
+      "lon": 103.819765,
+      "speedKmh": 19.8,
+      "heading": 66.5,
+      "reportedAt": "2026-11-04T05:31:38.047896+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563322500",
+      "mmsi": "563322500",
+      "name": "BTS ECLIPSE",
+      "category": "commercial",
+      "lat": 1.2271783333333335,
+      "lon": 103.80783,
+      "speedKmh": 0.2,
+      "heading": 205.7,
+      "reportedAt": "2026-11-04T05:31:46.302715+00:00"
     }
   ],
   "error": null
