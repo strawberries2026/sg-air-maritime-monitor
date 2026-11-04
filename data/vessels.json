@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T15:46:42.996244+00:00",
+  "updatedAt": "2026-11-04T16:02:02.883563+00:00",
   "items": [
     {
       "kind": "ship",
@@ -48,30 +48,6 @@
       "speedKmh": 22.4,
       "heading": 239.8,
       "reportedAt": "2026-11-04T15:01:11.212628+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566753000",
-      "mmsi": "566753000",
-      "name": "HAI SOON 33",
-      "category": "unknown",
-      "lat": 1.2283033333333333,
-      "lon": 103.78275000000001,
-      "speedKmh": 14.1,
-      "heading": 150.8,
-      "reportedAt": "2026-11-04T14:31:35.296134+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "355722000",
-      "mmsi": "355722000",
-      "name": "EVER CHASTE",
-      "category": "unknown",
-      "lat": 1.2288733333333333,
-      "lon": 103.94746666666667,
-      "speedKmh": 26.1,
-      "heading": 69.4,
-      "reportedAt": "2026-11-04T14:31:47.466814+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +175,11 @@
       "mmsi": "477966600",
       "name": "DING HENG 45",
       "category": "unknown",
-      "lat": 1.2228466666666666,
-      "lon": 103.90447333333333,
-      "speedKmh": 21.3,
-      "heading": 251.1,
-      "reportedAt": "2026-11-04T15:46:27.956647+00:00"
+      "lat": 1.2061116666666665,
+      "lon": 103.87140666666666,
+      "speedKmh": 9.4,
+      "heading": 236.9,
+      "reportedAt": "2026-11-04T16:00:59.840698+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +187,11 @@
       "mmsi": "352006950",
       "name": "SWAN GLORY",
       "category": "unknown",
-      "lat": 1.248335,
-      "lon": 103.79689499999999,
+      "lat": 1.2482433333333334,
+      "lon": 103.79689,
       "speedKmh": 0.0,
       "heading": 1.5,
-      "reportedAt": "2026-11-04T15:46:36.655013+00:00"
+      "reportedAt": "2026-11-04T16:01:32.743585+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +199,47 @@
       "mmsi": "565102000",
       "name": "AYER CHERDAS",
       "category": "unknown",
-      "lat": 1.2569883333333334,
-      "lon": 103.84085666666667,
+      "lat": 1.256955,
+      "lon": 103.84087500000001,
       "speedKmh": 0.0,
       "heading": 340.2,
-      "reportedAt": "2026-11-04T15:46:38.458595+00:00"
+      "reportedAt": "2026-11-04T16:00:59.337948+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563260500",
+      "mmsi": "563260500",
+      "name": "OXALIS DAISY",
+      "category": "unknown",
+      "lat": 1.21744,
+      "lon": 103.86933833333333,
+      "speedKmh": 20.9,
+      "heading": 234.7,
+      "reportedAt": "2026-11-04T16:01:31.795284+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563030850",
+      "mmsi": "563030850",
+      "name": "MERLION 30",
+      "category": "unknown",
+      "lat": 1.1994399999999998,
+      "lon": 103.743615,
+      "speedKmh": 0.0,
+      "heading": 8,
+      "reportedAt": "2026-11-04T16:01:35.018166+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563337400",
+      "mmsi": "563337400",
+      "name": "THARINEE NAREE",
+      "category": "unknown",
+      "lat": 1.2282633333333335,
+      "lon": 103.803865,
+      "speedKmh": 0.0,
+      "heading": 43.1,
+      "reportedAt": "2026-11-04T16:01:58.593366+00:00"
     }
   ],
   "error": null
