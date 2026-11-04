@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:01:57.538496+00:00",
+  "updatedAt": "2026-11-04T22:16:41.565462+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": 225.5,
       "reportedAt": "2026-11-04T21:46:36.080261+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566753000",
-      "mmsi": "566753000",
-      "name": "HAI SOON 33",
-      "category": "unknown",
-      "lat": 1.2635433333333335,
-      "lon": 103.901265,
-      "speedKmh": 0.0,
-      "heading": 196.9,
-      "reportedAt": "2026-11-04T20:45:25.794068+00:00"
     },
     {
       "kind": "ship",
@@ -72,54 +60,6 @@
       "speedKmh": 10.4,
       "heading": 333.7,
       "reportedAt": "2026-11-04T21:31:31.360581+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563750000",
-      "mmsi": "563750000",
-      "name": "PSA SUSTAINABILITY",
-      "category": "unknown",
-      "lat": 1.2659083333333332,
-      "lon": 103.84113333333333,
-      "speedKmh": 0.0,
-      "heading": 149.8,
-      "reportedAt": "2026-11-04T20:45:38.303410+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.2464133333333334,
-      "lon": 103.86673333333333,
-      "speedKmh": 0.2,
-      "heading": 208.2,
-      "reportedAt": "2026-11-04T20:45:47.107635+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477612200",
-      "mmsi": "477612200",
-      "name": "OOCL NEW ZEALAND",
-      "category": "unknown",
-      "lat": 1.2267933333333334,
-      "lon": 103.79117666666666,
-      "speedKmh": 13.1,
-      "heading": 332.6,
-      "reportedAt": "2026-11-04T20:45:57.587090+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563141000",
-      "mmsi": "563141000",
-      "name": "NOC 8",
-      "category": "unknown",
-      "lat": 1.2243166666666667,
-      "lon": 103.81379666666666,
-      "speedKmh": 0.0,
-      "heading": 207.1,
-      "reportedAt": "2026-11-04T20:46:19.295685+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +271,11 @@
       "mmsi": "563337400",
       "name": "THARINEE NAREE",
       "category": "unknown",
-      "lat": 1.2295266666666669,
-      "lon": 103.80159,
-      "speedKmh": 0.7,
-      "heading": 168.1,
-      "reportedAt": "2026-11-04T21:45:36.771005+00:00"
+      "lat": 1.199225,
+      "lon": 103.8266,
+      "speedKmh": 5.0,
+      "heading": 79.7,
+      "reportedAt": "2026-11-04T22:16:37.067110+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +331,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2815083333333335,
-      "lon": 103.89203,
+      "lat": 1.2814683333333332,
+      "lon": 103.892035,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-04T22:00:55.432053+00:00"
+      "reportedAt": "2026-11-04T22:16:35.619131+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +343,11 @@
       "mmsi": "538008962",
       "name": "GPO EMERALD",
       "category": "unknown",
-      "lat": 1.2754533333333333,
-      "lon": 103.91001666666666,
+      "lat": 1.2754699999999999,
+      "lon": 103.91002166666667,
       "speedKmh": 0.0,
-      "heading": 259.1,
-      "reportedAt": "2026-11-04T22:01:04.931912+00:00"
+      "heading": 141.7,
+      "reportedAt": "2026-11-04T22:16:04.494661+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +420,18 @@
       "speedKmh": 24.8,
       "heading": 243.8,
       "reportedAt": "2026-11-04T22:01:51.099715+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563318300",
+      "mmsi": "563318300",
+      "name": "CMA CGM GRAND PALAIS",
+      "category": "unknown",
+      "lat": 1.2299083333333334,
+      "lon": 103.91653666666666,
+      "speedKmh": 7.0,
+      "heading": 245.1,
+      "reportedAt": "2026-11-04T22:15:52.486376+00:00"
     }
   ],
   "error": null
