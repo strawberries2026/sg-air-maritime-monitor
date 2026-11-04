@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T20:31:52.248943+00:00",
+  "updatedAt": "2026-11-04T20:46:39.100156+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,23 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735366666666665,
-      "lon": 103.80139166666666,
+      "lat": 1.2735566666666667,
+      "lon": 103.80136333333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-04T20:16:01.983881+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012615",
-      "mmsi": "538012615",
-      "name": "POAVOSA WISDOM",
-      "category": "unknown",
-      "lat": 1.26219,
-      "lon": 103.87753166666667,
-      "speedKmh": 0.2,
-      "heading": 126.7,
-      "reportedAt": "2026-11-04T19:16:32.798201+00:00"
+      "reportedAt": "2026-11-04T20:45:52.111399+00:00"
     },
     {
       "kind": "ship",
@@ -108,42 +96,6 @@
       "speedKmh": 0.2,
       "heading": 101.2,
       "reportedAt": "2026-11-04T19:31:40.381343+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440138000",
-      "mmsi": "440138000",
-      "name": "HAEIN HOPE",
-      "category": "unknown",
-      "lat": 1.1843166666666667,
-      "lon": 103.75846666666666,
-      "speedKmh": 0.2,
-      "heading": 190,
-      "reportedAt": "2026-11-04T19:15:44.570690+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.247685,
-      "lon": 103.8759,
-      "speedKmh": 8.5,
-      "heading": 23.6,
-      "reportedAt": "2026-11-04T19:16:13.211894+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565587000",
-      "mmsi": "565587000",
-      "name": "REGENT GEMINI",
-      "category": "unknown",
-      "lat": 1.2342666666666666,
-      "lon": 103.78852499999999,
-      "speedKmh": 8.9,
-      "heading": 334,
-      "reportedAt": "2026-11-04T19:16:16.426831+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +235,11 @@
       "mmsi": "563333100",
       "name": "VANDA PIONEER",
       "category": "unknown",
-      "lat": 1.262215,
-      "lon": 103.83849000000001,
+      "lat": 1.262155,
+      "lon": 103.83848666666667,
       "speedKmh": 0.0,
       "heading": 225.5,
-      "reportedAt": "2026-11-04T19:46:46.259258+00:00"
+      "reportedAt": "2026-11-04T20:45:25.384334+00:00"
     },
     {
       "kind": "ship",
@@ -307,11 +259,11 @@
       "mmsi": "566753000",
       "name": "HAI SOON 33",
       "category": "unknown",
-      "lat": 1.2639183333333333,
-      "lon": 103.90108333333333,
+      "lat": 1.2635433333333335,
+      "lon": 103.901265,
       "speedKmh": 0.0,
       "heading": 196.9,
-      "reportedAt": "2026-11-04T20:15:26.467900+00:00"
+      "reportedAt": "2026-11-04T20:45:25.794068+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +444,54 @@
       "speedKmh": 0.2,
       "heading": 316.9,
       "reportedAt": "2026-11-04T20:31:50.102103+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563750000",
+      "mmsi": "563750000",
+      "name": "PSA SUSTAINABILITY",
+      "category": "unknown",
+      "lat": 1.2659083333333332,
+      "lon": 103.84113333333333,
+      "speedKmh": 0.0,
+      "heading": 149.8,
+      "reportedAt": "2026-11-04T20:45:38.303410+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.2464133333333334,
+      "lon": 103.86673333333333,
+      "speedKmh": 0.2,
+      "heading": 208.2,
+      "reportedAt": "2026-11-04T20:45:47.107635+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477612200",
+      "mmsi": "477612200",
+      "name": "OOCL NEW ZEALAND",
+      "category": "unknown",
+      "lat": 1.2267933333333334,
+      "lon": 103.79117666666666,
+      "speedKmh": 13.1,
+      "heading": 332.6,
+      "reportedAt": "2026-11-04T20:45:57.587090+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563141000",
+      "mmsi": "563141000",
+      "name": "NOC 8",
+      "category": "unknown",
+      "lat": 1.2243166666666667,
+      "lon": 103.81379666666666,
+      "speedKmh": 0.0,
+      "heading": 207.1,
+      "reportedAt": "2026-11-04T20:46:19.295685+00:00"
     }
   ],
   "error": null
