@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T23:31:48.675376+00:00",
+  "updatedAt": "2026-11-04T23:46:40.205478+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,51 +15,27 @@
     },
     {
       "kind": "ship",
-      "id": "563337400",
-      "mmsi": "563337400",
-      "name": "THARINEE NAREE",
-      "category": "unknown",
-      "lat": 1.199225,
-      "lon": 103.8266,
-      "speedKmh": 5.0,
-      "heading": 79.7,
-      "reportedAt": "2026-11-04T22:16:37.067110+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "477949200",
       "mmsi": "477949200",
       "name": "RUICO SAPPHIRE",
       "category": "unknown",
-      "lat": 1.2424083333333333,
-      "lon": 103.79250333333333,
+      "lat": 1.242705,
+      "lon": 103.79272999999999,
       "speedKmh": 0.2,
-      "heading": 16.4,
-      "reportedAt": "2026-11-04T23:15:58.111865+00:00"
+      "heading": 248.4,
+      "reportedAt": "2026-11-04T23:45:58.127175+00:00"
     },
     {
       "kind": "ship",
       "id": "668116289",
       "mmsi": "668116289",
       "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2815716666666668,
-      "lon": 103.89198,
+      "category": "commercial",
+      "lat": 1.2815333333333332,
+      "lon": 103.892015,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-04T23:15:23.517094+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2754699999999999,
-      "lon": 103.91002166666667,
-      "speedKmh": 0.0,
-      "heading": 141.7,
-      "reportedAt": "2026-11-04T22:16:04.494661+00:00"
+      "reportedAt": "2026-11-04T23:45:31.726204+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +43,11 @@
       "mmsi": "319225500",
       "name": "ABEONA",
       "category": "unknown",
-      "lat": 1.26267,
+      "lat": 1.2626683333333333,
       "lon": 103.81180166666667,
       "speedKmh": 0.0,
-      "heading": 100.8,
-      "reportedAt": "2026-11-04T23:01:21.147453+00:00"
+      "heading": 4.8,
+      "reportedAt": "2026-11-04T23:46:20.550544+00:00"
     },
     {
       "kind": "ship",
@@ -87,27 +63,15 @@
     },
     {
       "kind": "ship",
-      "id": "533132085",
-      "mmsi": "533132085",
-      "name": "SALAM MAJU",
-      "category": "unknown",
-      "lat": 1.2177166666666668,
-      "lon": 103.8997,
-      "speedKmh": 24.8,
-      "heading": 243.8,
-      "reportedAt": "2026-11-04T22:01:51.099715+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563318300",
       "mmsi": "563318300",
       "name": "CMA CGM GRAND PALAIS",
       "category": "unknown",
-      "lat": 1.2171183333333333,
-      "lon": 103.88307,
-      "speedKmh": 10.2,
-      "heading": 251.3,
-      "reportedAt": "2026-11-04T22:45:54.889883+00:00"
+      "lat": 1.2352683333333334,
+      "lon": 103.78723166666667,
+      "speedKmh": 6.9,
+      "heading": 354.2,
+      "reportedAt": "2026-11-04T23:46:03.652283+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +259,11 @@
       "mmsi": "255803760",
       "name": "MSC GREENWICH",
       "category": "unknown",
-      "lat": 1.2436783333333332,
-      "lon": 103.89130333333333,
+      "lat": 1.24372,
+      "lon": 103.89127333333333,
       "speedKmh": 0.0,
-      "heading": 301.5,
-      "reportedAt": "2026-11-04T23:30:37.000560+00:00"
+      "heading": 306,
+      "reportedAt": "2026-11-04T23:45:36.761676+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +295,11 @@
       "mmsi": "268262604",
       "name": "CARTWHEEL",
       "category": "unknown",
-      "lat": 1.267865,
-      "lon": 103.89787500000001,
-      "speedKmh": 0.0,
+      "lat": 1.2678049999999998,
+      "lon": 103.89792833333333,
+      "speedKmh": 0.2,
       "heading": 101.2,
-      "reportedAt": "2026-11-04T23:15:40.176719+00:00"
+      "reportedAt": "2026-11-04T23:46:10.553129+00:00"
     },
     {
       "kind": "ship",
@@ -420,6 +384,42 @@
       "speedKmh": 0.0,
       "heading": 340.9,
       "reportedAt": "2026-11-04T23:31:35.187678+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563332900",
+      "mmsi": "563332900",
+      "name": "MANAVAI",
+      "category": "unknown",
+      "lat": 1.220585,
+      "lon": 103.81276,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-11-04T23:45:39.776491+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2385383333333333,
+      "lon": 103.71600666666667,
+      "speedKmh": 15.6,
+      "heading": 75.1,
+      "reportedAt": "2026-11-04T23:45:56.746236+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563293600",
+      "mmsi": "563293600",
+      "name": "ZIM SAMMY OFER",
+      "category": "unknown",
+      "lat": 1.1580783333333333,
+      "lon": 103.78333333333333,
+      "speedKmh": 28.9,
+      "heading": 64.7,
+      "reportedAt": "2026-11-04T23:46:18.040705+00:00"
     }
   ],
   "error": null
