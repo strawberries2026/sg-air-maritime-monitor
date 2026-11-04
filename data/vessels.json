@@ -1,42 +1,6 @@
 {
-  "updatedAt": "2026-11-04T12:01:58.098173+00:00",
+  "updatedAt": "2026-11-04T12:16:39.450837+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735583333333333,
-      "lon": 103.80135333333332,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-04T10:45:58.165450+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563069950",
-      "mmsi": "563069950",
-      "name": "EVER BRIGHT",
-      "category": "unknown",
-      "lat": 1.2622666666666666,
-      "lon": 103.92184999999999,
-      "speedKmh": 0.0,
-      "heading": 161,
-      "reportedAt": "2026-11-04T10:45:38.431163+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564880000",
-      "mmsi": "564880000",
-      "name": "KOTA HALUS",
-      "category": "unknown",
-      "lat": 1.2639233333333335,
-      "lon": 103.83558500000001,
-      "speedKmh": 0.0,
-      "heading": 2.2,
-      "reportedAt": "2026-11-04T10:46:37.722461+00:00"
-    },
     {
       "kind": "ship",
       "id": "525018039",
@@ -48,18 +12,6 @@
       "speedKmh": 6.7,
       "heading": 147.5,
       "reportedAt": "2026-11-04T12:00:50.548150+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219773000",
-      "mmsi": "219773000",
-      "name": "TORM HEDWIG",
-      "category": "unknown",
-      "lat": 1.2524183333333334,
-      "lon": 103.90031833333335,
-      "speedKmh": 0.2,
-      "heading": 300.5,
-      "reportedAt": "2026-11-04T10:46:03.716882+00:00"
     },
     {
       "kind": "ship",
@@ -103,11 +55,11 @@
       "mmsi": "563190900",
       "name": "GOODTRANS 1",
       "category": "unknown",
-      "lat": 1.2733016666666666,
-      "lon": 103.88387833333333,
+      "lat": 1.2735100000000001,
+      "lon": 103.88397333333334,
       "speedKmh": 0.0,
       "heading": 209,
-      "reportedAt": "2026-11-04T11:46:38.266958+00:00"
+      "reportedAt": "2026-11-04T12:16:17.974488+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +211,59 @@
       "mmsi": "636093165",
       "name": "STEN IDUN",
       "category": "unknown",
-      "lat": 1.2353783333333332,
-      "lon": 103.80032833333333,
+      "lat": 1.2350999999999999,
+      "lon": 103.80034,
       "speedKmh": 0.0,
       "heading": 19.9,
-      "reportedAt": "2026-11-04T12:01:33.757995+00:00"
+      "reportedAt": "2026-11-04T12:16:33.395137+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574004310",
+      "mmsi": "574004310",
+      "name": "ROYAL 79",
+      "category": "unknown",
+      "lat": 1.2883783333333334,
+      "lon": 103.91303166666667,
+      "speedKmh": 0.2,
+      "heading": 335.9,
+      "reportedAt": "2026-11-04T12:15:43.105675+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.2827133333333334,
+      "lon": 103.89200833333332,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-04T12:15:55.623168+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735666666666667,
+      "lon": 103.801385,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-04T12:16:01.516228+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413471590",
+      "mmsi": "413471590",
+      "name": "SHENG HANG HUA 17",
+      "category": "unknown",
+      "lat": 1.2541,
+      "lon": 103.80115500000001,
+      "speedKmh": 0.0,
+      "heading": 144.5,
+      "reportedAt": "2026-11-04T12:16:10.924862+00:00"
     }
   ],
   "error": null
