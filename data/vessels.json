@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T12:31:50.123347+00:00",
+  "updatedAt": "2026-11-04T12:46:40.497352+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,42 +12,6 @@
       "speedKmh": 6.7,
       "heading": 147.5,
       "reportedAt": "2026-11-04T12:00:50.548150+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "338566000",
-      "mmsi": "338566000",
-      "name": "KAMOKUIKI",
-      "category": "unknown",
-      "lat": 1.259725,
-      "lon": 103.89446333333333,
-      "speedKmh": 11.9,
-      "heading": 165.3,
-      "reportedAt": "2026-11-04T11:14:22.910327+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "457676000",
-      "mmsi": "457676000",
-      "name": "XIN LI 6",
-      "category": "unknown",
-      "lat": 1.2249333333333332,
-      "lon": 103.91569333333334,
-      "speedKmh": 16.3,
-      "heading": 246.3,
-      "reportedAt": "2026-11-04T11:15:01.050607+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563321500",
-      "mmsi": "563321500",
-      "name": "MAERSK CRETE",
-      "category": "unknown",
-      "lat": 1.2277516666666666,
-      "lon": 103.79678166666666,
-      "speedKmh": 0.2,
-      "heading": 197.5,
-      "reportedAt": "2026-11-04T11:15:17.629036+00:00"
     },
     {
       "kind": "ship",
@@ -336,6 +300,54 @@
       "speedKmh": 0.0,
       "heading": 152.7,
       "reportedAt": "2026-11-04T12:31:45.685384+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563080820",
+      "mmsi": "563080820",
+      "name": "DIVETECH ANDREWCHEE",
+      "category": "unknown",
+      "lat": 1.24854,
+      "lon": 103.80024666666667,
+      "speedKmh": 19.1,
+      "heading": 299.5,
+      "reportedAt": "2026-11-04T12:45:41.590563+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "356814000",
+      "mmsi": "356814000",
+      "name": "AZURE DOLPHIN",
+      "category": "unknown",
+      "lat": 1.2123066666666666,
+      "lon": 103.87841666666667,
+      "speedKmh": 17.8,
+      "heading": 245.6,
+      "reportedAt": "2026-11-04T12:45:42.597348+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564778000",
+      "mmsi": "564778000",
+      "name": "HY PARTNER",
+      "category": "unknown",
+      "lat": 1.2637166666666666,
+      "lon": 103.88198666666668,
+      "speedKmh": 8.3,
+      "heading": 219.3,
+      "reportedAt": "2026-11-04T12:46:06.522055+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "244410000",
+      "mmsi": "244410000",
+      "name": "ELISABETH",
+      "category": "unknown",
+      "lat": 1.29031,
+      "lon": 103.92163000000001,
+      "speedKmh": 0.4,
+      "heading": 143,
+      "reportedAt": "2026-11-04T12:46:17.382469+00:00"
     }
   ],
   "error": null
