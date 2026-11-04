@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T03:02:00.613994+00:00",
+  "updatedAt": "2026-11-04T03:15:57.159184+00:00",
   "items": [
     {
       "kind": "ship",
@@ -31,11 +31,11 @@
       "mmsi": "419001849",
       "name": "MAJESTY",
       "category": "unknown",
-      "lat": 1.2588666666666666,
-      "lon": 103.90171666666667,
-      "speedKmh": 0.0,
-      "heading": 120.2,
-      "reportedAt": "2026-11-04T02:45:46.180403+00:00"
+      "lat": 1.2587033333333333,
+      "lon": 103.90175666666667,
+      "speedKmh": 0.2,
+      "heading": 139.6,
+      "reportedAt": "2026-11-04T03:14:56.130973+00:00"
     },
     {
       "kind": "ship",
@@ -123,18 +123,6 @@
     },
     {
       "kind": "ship",
-      "id": "574003580",
-      "mmsi": "574003580",
-      "name": "PVT SATURN",
-      "category": "unknown",
-      "lat": 1.1948,
-      "lon": 103.82228333333335,
-      "speedKmh": 11.1,
-      "heading": 134,
-      "reportedAt": "2026-11-04T01:45:46.288676+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "431398000",
       "mmsi": "431398000",
       "name": "AEGEAN CLOVER",
@@ -144,30 +132,6 @@
       "speedKmh": 15.4,
       "heading": 73.3,
       "reportedAt": "2026-11-04T02:45:26.992084+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563350200",
-      "mmsi": "563350200",
-      "name": "MAJESTIC MAGIC",
-      "category": "unknown",
-      "lat": 1.2608333333333335,
-      "lon": 103.82004166666667,
-      "speedKmh": 1.7,
-      "heading": 270.8,
-      "reportedAt": "2026-11-04T01:45:48.699528+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016728",
-      "mmsi": "636016728",
-      "name": "BLUE SKY I",
-      "category": "unknown",
-      "lat": 1.223855,
-      "lon": 103.81419833333332,
-      "speedKmh": 0.6,
-      "heading": 332.3,
-      "reportedAt": "2026-11-04T01:45:52.615897+00:00"
     },
     {
       "kind": "ship",
@@ -612,6 +576,78 @@
       "speedKmh": 0.0,
       "heading": 72,
       "reportedAt": "2026-11-04T03:01:46.344023+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413541220",
+      "mmsi": "413541220",
+      "name": "XIN HENG SHUN 17",
+      "category": "unknown",
+      "lat": 1.24427,
+      "lon": 103.77884833333333,
+      "speedKmh": 10.7,
+      "heading": 100.7,
+      "reportedAt": "2026-11-04T03:14:44.307491+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563248800",
+      "mmsi": "563248800",
+      "name": "EM NATASHA",
+      "category": "unknown",
+      "lat": 1.2759533333333333,
+      "lon": 103.91425333333333,
+      "speedKmh": 13.1,
+      "heading": 129.3,
+      "reportedAt": "2026-11-04T03:15:13.574965+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533133106",
+      "mmsi": "533133106",
+      "name": "ATLANTIC EXPLORER",
+      "category": "unknown",
+      "lat": 1.1369716666666667,
+      "lon": 103.76661166666666,
+      "speedKmh": 18.9,
+      "heading": 43.9,
+      "reportedAt": "2026-11-04T03:15:30.910926+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563073310",
+      "mmsi": "563073310",
+      "name": "VB SUPER",
+      "category": "unknown",
+      "lat": 1.2608066666666666,
+      "lon": 103.851005,
+      "speedKmh": 0.0,
+      "heading": 279.4,
+      "reportedAt": "2026-11-04T03:15:38.247969+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023689",
+      "mmsi": "636023689",
+      "name": "WANEN",
+      "category": "unknown",
+      "lat": 1.21956,
+      "lon": 103.79235333333332,
+      "speedKmh": 18.9,
+      "heading": 142.4,
+      "reportedAt": "2026-11-04T03:15:40.148232+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565358000",
+      "mmsi": "565358000",
+      "name": "STRAITS ABUNDANCE",
+      "category": "unknown",
+      "lat": 1.2213633333333334,
+      "lon": 103.79581833333333,
+      "speedKmh": 13.1,
+      "heading": 323.3,
+      "reportedAt": "2026-11-04T03:15:43.595342+00:00"
     }
   ],
   "error": null
