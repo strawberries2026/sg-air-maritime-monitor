@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T18:02:00.206539+00:00",
+  "updatedAt": "2026-11-04T18:16:40.994260+00:00",
   "items": [
     {
       "kind": "ship",
@@ -60,42 +60,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-04T17:45:41.382202+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008333",
-      "mmsi": "538008333",
-      "name": "KAPSALI",
-      "category": "unknown",
-      "lat": 1.217215,
-      "lon": 103.87660333333334,
-      "speedKmh": 9.1,
-      "heading": 220.7,
-      "reportedAt": "2026-11-04T16:45:37.708905+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563750000",
-      "mmsi": "563750000",
-      "name": "PSA SUSTAINABILITY",
-      "category": "unknown",
-      "lat": 1.2659016666666667,
-      "lon": 103.84113666666667,
-      "speedKmh": 0.0,
-      "heading": 149.8,
-      "reportedAt": "2026-11-04T16:45:53.706158+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538006501",
-      "mmsi": "538006501",
-      "name": "MAHADAH SILVER",
-      "category": "commercial",
-      "lat": 1.2165566666666665,
-      "lon": 103.80916666666667,
-      "speedKmh": 0.2,
-      "heading": 341,
-      "reportedAt": "2026-11-04T16:45:57.144618+00:00"
     },
     {
       "kind": "ship",
@@ -174,12 +138,12 @@
       "id": "538012615",
       "mmsi": "538012615",
       "name": "POAVOSA WISDOM",
-      "category": "unknown",
-      "lat": 1.2639,
-      "lon": 103.87760666666667,
+      "category": "commercial",
+      "lat": 1.2636833333333333,
+      "lon": 103.87771,
       "speedKmh": 0.0,
       "heading": 126.7,
-      "reportedAt": "2026-11-04T17:16:28.217703+00:00"
+      "reportedAt": "2026-11-04T18:16:26.804825+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +307,11 @@
       "mmsi": "563030850",
       "name": "MERLION 30",
       "category": "unknown",
-      "lat": 1.1995166666666668,
-      "lon": 103.74353333333333,
-      "speedKmh": 0.0,
+      "lat": 1.1994833333333332,
+      "lon": 103.743585,
+      "speedKmh": 0.2,
       "heading": 8,
-      "reportedAt": "2026-11-04T18:00:55.421535+00:00"
+      "reportedAt": "2026-11-04T18:16:23.602032+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +432,66 @@
       "speedKmh": 20.4,
       "heading": 78.2,
       "reportedAt": "2026-11-04T18:01:58.248913+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370645000",
+      "mmsi": "370645000",
+      "name": "PRINCESS TOPAZ",
+      "category": "unknown",
+      "lat": 1.2667566666666665,
+      "lon": 103.73856333333333,
+      "speedKmh": 1.5,
+      "heading": 4.9,
+      "reportedAt": "2026-11-04T18:16:18.988268+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477699100",
+      "mmsi": "477699100",
+      "name": "NEW PROSPERITY",
+      "category": "unknown",
+      "lat": 1.1767366666666668,
+      "lon": 103.82093833333333,
+      "speedKmh": 18.3,
+      "heading": 71.3,
+      "reportedAt": "2026-11-04T18:16:25.232804+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566639000",
+      "mmsi": "566639000",
+      "name": "MT.TRINITY",
+      "category": "unknown",
+      "lat": 1.21103,
+      "lon": 103.80367833333334,
+      "speedKmh": 11.5,
+      "heading": 124,
+      "reportedAt": "2026-11-04T18:16:38.885174+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414923000",
+      "mmsi": "414923000",
+      "name": "CHANG HANG HU PO",
+      "category": "unknown",
+      "lat": 1.2609016666666666,
+      "lon": 103.90921,
+      "speedKmh": 0.0,
+      "heading": 89.8,
+      "reportedAt": "2026-11-04T18:16:38.885238+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563083710",
+      "mmsi": "563083710",
+      "name": "PILOT 11",
+      "category": "unknown",
+      "lat": 1.25788,
+      "lon": 103.79468333333332,
+      "speedKmh": 34.4,
+      "heading": 173.9,
+      "reportedAt": "2026-11-04T18:16:39.527576+00:00"
     }
   ],
   "error": null
