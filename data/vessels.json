@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T22:16:41.565462+00:00",
+  "updatedAt": "2026-11-04T22:31:48.944649+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": 225.5,
       "reportedAt": "2026-11-04T21:46:36.080261+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563216500",
-      "mmsi": "563216500",
-      "name": "TORM GENESIS",
-      "category": "unknown",
-      "lat": 1.18852,
-      "lon": 103.82861666666666,
-      "speedKmh": 18.9,
-      "heading": 239.4,
-      "reportedAt": "2026-11-04T21:01:46.306431+00:00"
     },
     {
       "kind": "ship",
@@ -99,30 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "563079370",
-      "mmsi": "563079370",
-      "name": "COMMON DOLPHIN",
-      "category": "unknown",
-      "lat": 1.2114233333333333,
-      "lon": 103.775015,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-04T21:01:24.720018+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "376279000",
-      "mmsi": "376279000",
-      "name": "BEN NEVIS",
-      "category": "unknown",
-      "lat": 1.2782433333333332,
-      "lon": 103.88278333333332,
-      "speedKmh": 0.0,
-      "heading": 266.7,
-      "reportedAt": "2026-11-04T21:01:30.715543+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "372643000",
       "mmsi": "372643000",
       "name": "KITTY TIDE",
@@ -163,11 +127,11 @@
       "mmsi": "636016293",
       "name": "ELANDRA MELODY",
       "category": "unknown",
-      "lat": 1.2433133333333333,
-      "lon": 103.79533666666666,
-      "speedKmh": 9.3,
-      "heading": 103.8,
-      "reportedAt": "2026-11-04T21:15:43.151378+00:00"
+      "lat": 1.2342716666666667,
+      "lon": 103.81641666666665,
+      "speedKmh": 0.2,
+      "heading": 119.2,
+      "reportedAt": "2026-11-04T22:30:56.433134+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +367,11 @@
       "mmsi": "563009210",
       "name": "NOBLE ORION TG46",
       "category": "unknown",
-      "lat": 1.264225,
-      "lon": 103.83573,
+      "lat": 1.2582116666666667,
+      "lon": 103.84226833333334,
       "speedKmh": 0.0,
-      "heading": 100.8,
-      "reportedAt": "2026-11-04T22:01:26.936410+00:00"
+      "heading": 251.1,
+      "reportedAt": "2026-11-04T22:31:26.671572+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +396,78 @@
       "speedKmh": 7.0,
       "heading": 245.1,
       "reportedAt": "2026-11-04T22:15:52.486376+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563038700",
+      "mmsi": "563038700",
+      "name": "MARINE SELENA",
+      "category": "unknown",
+      "lat": 1.20526,
+      "lon": 103.84648,
+      "speedKmh": 8.9,
+      "heading": 69.5,
+      "reportedAt": "2026-11-04T22:30:33.914680+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "471072000",
+      "mmsi": "471072000",
+      "name": "ARZANA",
+      "category": "unknown",
+      "lat": 1.24727,
+      "lon": 103.80730333333332,
+      "speedKmh": 0.2,
+      "heading": 222.3,
+      "reportedAt": "2026-11-04T22:30:34.794935+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565523000",
+      "mmsi": "565523000",
+      "name": "HANTEK 3",
+      "category": "unknown",
+      "lat": 1.23434,
+      "lon": 103.79005666666667,
+      "speedKmh": 2.8,
+      "heading": 63,
+      "reportedAt": "2026-11-04T22:30:54.416609+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023595",
+      "mmsi": "636023595",
+      "name": "INVICTUS",
+      "category": "unknown",
+      "lat": 1.2609416666666666,
+      "lon": 103.92570166666665,
+      "speedKmh": 2.4,
+      "heading": 306.2,
+      "reportedAt": "2026-11-04T22:31:24.555797+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311002094",
+      "mmsi": "311002094",
+      "name": "HAI XING",
+      "category": "unknown",
+      "lat": 1.2631133333333333,
+      "lon": 103.90153333333333,
+      "speedKmh": 5.0,
+      "heading": 88.5,
+      "reportedAt": "2026-11-04T22:31:38.677069+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563322500",
+      "mmsi": "563322500",
+      "name": "BTS ECLIPSE",
+      "category": "unknown",
+      "lat": 1.2274583333333333,
+      "lon": 103.80785999999999,
+      "speedKmh": 0.4,
+      "heading": 32.4,
+      "reportedAt": "2026-11-04T22:31:46.661710+00:00"
     }
   ],
   "error": null
