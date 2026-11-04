@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T12:46:40.497352+00:00",
+  "updatedAt": "2026-11-04T13:01:58.102447+00:00",
   "items": [
     {
       "kind": "ship",
@@ -175,11 +175,11 @@
       "mmsi": "636093165",
       "name": "STEN IDUN",
       "category": "unknown",
-      "lat": 1.2350999999999999,
-      "lon": 103.80034,
-      "speedKmh": 0.0,
+      "lat": 1.2357900000000002,
+      "lon": 103.80044333333333,
+      "speedKmh": 0.2,
       "heading": 19.9,
-      "reportedAt": "2026-11-04T12:16:33.395137+00:00"
+      "reportedAt": "2026-11-04T13:01:34.983139+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +223,11 @@
       "mmsi": "413471590",
       "name": "SHENG HANG HUA 17",
       "category": "unknown",
-      "lat": 1.2541,
-      "lon": 103.80115500000001,
-      "speedKmh": 0.0,
-      "heading": 144.5,
-      "reportedAt": "2026-11-04T12:16:10.924862+00:00"
+      "lat": 1.2534266666666667,
+      "lon": 103.80269833333334,
+      "speedKmh": 0.2,
+      "heading": 81.9,
+      "reportedAt": "2026-11-04T13:01:12.146299+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +348,54 @@
       "speedKmh": 0.4,
       "heading": 143,
       "reportedAt": "2026-11-04T12:46:17.382469+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352001123",
+      "mmsi": "352001123",
+      "name": "CONCORD SERENITY",
+      "category": "unknown",
+      "lat": 1.2282833333333334,
+      "lon": 103.79021666666667,
+      "speedKmh": 9.8,
+      "heading": 326,
+      "reportedAt": "2026-11-04T13:00:58.641972+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.248065,
+      "lon": 103.79675999999999,
+      "speedKmh": 0.2,
+      "heading": 22.9,
+      "reportedAt": "2026-11-04T13:01:33.909719+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563362000",
+      "mmsi": "563362000",
+      "name": "KOTA CEMPAKA",
+      "category": "unknown",
+      "lat": 1.2633633333333334,
+      "lon": 103.83962,
+      "speedKmh": 0.9,
+      "heading": 28.6,
+      "reportedAt": "2026-11-04T13:01:46.195341+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563021100",
+      "mmsi": "563021100",
+      "name": "KAI EI MARU 15",
+      "category": "unknown",
+      "lat": 1.22641,
+      "lon": 103.79440666666666,
+      "speedKmh": 17.0,
+      "heading": 323.8,
+      "reportedAt": "2026-11-04T13:01:57.129554+00:00"
     }
   ],
   "error": null
