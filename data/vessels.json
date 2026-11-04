@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T23:16:38.714848+00:00",
+  "updatedAt": "2026-11-04T23:31:48.675376+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "563100400",
-      "mmsi": "563100400",
-      "name": "REGENT  LIBRA",
-      "category": "unknown",
-      "lat": 1.24133,
-      "lon": 103.78066666666668,
-      "speedKmh": 7.4,
-      "heading": 329.2,
-      "reportedAt": "2026-11-04T22:01:08.258796+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "319225500",
       "mmsi": "319225500",
       "name": "ABEONA",
@@ -84,30 +72,6 @@
       "speedKmh": 0.0,
       "heading": 100.8,
       "reportedAt": "2026-11-04T23:01:21.147453+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "419001629",
-      "mmsi": "419001629",
-      "name": "JAG RAJIV",
-      "category": "unknown",
-      "lat": 1.10022,
-      "lon": 103.74001166666667,
-      "speedKmh": 21.7,
-      "heading": 37.7,
-      "reportedAt": "2026-11-04T22:01:25.239119+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232046110",
-      "mmsi": "232046110",
-      "name": "KAHALA",
-      "category": "unknown",
-      "lat": 1.2653583333333331,
-      "lon": 103.81202499999999,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-04T22:01:26.278657+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +247,11 @@
       "mmsi": "533180127",
       "name": "MTT PULAU PINANG",
       "category": "unknown",
-      "lat": 1.2346783333333333,
-      "lon": 103.94145166666667,
-      "speedKmh": 14.6,
-      "heading": 249.6,
-      "reportedAt": "2026-11-04T23:01:06.042995+00:00"
+      "lat": 1.2098016666666667,
+      "lon": 103.88037,
+      "speedKmh": 14.1,
+      "heading": 246.4,
+      "reportedAt": "2026-11-04T23:31:16.831609+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +295,11 @@
       "mmsi": "255803760",
       "name": "MSC GREENWICH",
       "category": "unknown",
-      "lat": 1.2436183333333333,
-      "lon": 103.89134833333333,
+      "lat": 1.2436783333333332,
+      "lon": 103.89130333333333,
       "speedKmh": 0.0,
-      "heading": 174.5,
-      "reportedAt": "2026-11-04T23:15:36.902461+00:00"
+      "heading": 301.5,
+      "reportedAt": "2026-11-04T23:30:37.000560+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +372,54 @@
       "speedKmh": 11.1,
       "heading": 72.1,
       "reportedAt": "2026-11-04T23:16:26.581902+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009205",
+      "mmsi": "538009205",
+      "name": "PACIFIC TOPAZ",
+      "category": "unknown",
+      "lat": 1.1668200000000002,
+      "lon": 103.71118,
+      "speedKmh": 0.2,
+      "heading": 94.3,
+      "reportedAt": "2026-11-04T23:30:51.014649+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565173000",
+      "mmsi": "565173000",
+      "name": "AYER CHERDEK",
+      "category": "unknown",
+      "lat": 1.25575,
+      "lon": 103.846475,
+      "speedKmh": 13.0,
+      "heading": 285.5,
+      "reportedAt": "2026-11-04T23:31:04.339777+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.246275,
+      "lon": 103.86676666666668,
+      "speedKmh": 0.0,
+      "heading": 272,
+      "reportedAt": "2026-11-04T23:31:32.164171+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.2484416666666667,
+      "lon": 103.79503833333334,
+      "speedKmh": 0.0,
+      "heading": 340.9,
+      "reportedAt": "2026-11-04T23:31:35.187678+00:00"
     }
   ],
   "error": null
