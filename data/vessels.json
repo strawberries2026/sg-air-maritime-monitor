@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:46:40.508493+00:00",
+  "updatedAt": "2026-11-04T17:02:04.709273+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "268262604",
       "name": "CARTWHEEL",
       "category": "unknown",
-      "lat": 1.27073,
-      "lon": 103.90021166666666,
+      "lat": 1.2707283333333335,
+      "lon": 103.90012666666667,
       "speedKmh": 0.0,
       "heading": 101.2,
-      "reportedAt": "2026-11-04T16:46:01.402356+00:00"
+      "reportedAt": "2026-11-04T17:01:00.436035+00:00"
     },
     {
       "kind": "ship",
@@ -67,11 +67,11 @@
       "mmsi": "352006950",
       "name": "SWAN GLORY",
       "category": "unknown",
-      "lat": 1.248205,
-      "lon": 103.79690000000001,
+      "lat": 1.247985,
+      "lon": 103.796905,
       "speedKmh": 0.0,
       "heading": 1.5,
-      "reportedAt": "2026-11-04T16:16:34.851423+00:00"
+      "reportedAt": "2026-11-04T17:01:36.144252+00:00"
     },
     {
       "kind": "ship",
@@ -151,11 +151,11 @@
       "mmsi": "477949200",
       "name": "RUICO SAPPHIRE",
       "category": "unknown",
-      "lat": 1.2415116666666668,
-      "lon": 103.79479666666666,
-      "speedKmh": 0.0,
-      "heading": 215.5,
-      "reportedAt": "2026-11-04T16:30:58.277661+00:00"
+      "lat": 1.2414066666666665,
+      "lon": 103.79484666666667,
+      "speedKmh": 0.4,
+      "heading": 194.8,
+      "reportedAt": "2026-11-04T17:00:58.269613+00:00"
     },
     {
       "kind": "ship",
@@ -252,6 +252,54 @@
       "speedKmh": 0.0,
       "heading": 307.8,
       "reportedAt": "2026-11-04T16:46:01.923549+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "372014000",
+      "mmsi": "372014000",
+      "name": "SPINNAKER SW",
+      "category": "unknown",
+      "lat": 1.2596983333333334,
+      "lon": 103.88237166666666,
+      "speedKmh": 0.7,
+      "heading": 221.1,
+      "reportedAt": "2026-11-04T17:01:23.933308+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564880000",
+      "mmsi": "564880000",
+      "name": "KOTA HALUS",
+      "category": "unknown",
+      "lat": 1.2638166666666666,
+      "lon": 103.83553166666667,
+      "speedKmh": 0.0,
+      "heading": 6.8,
+      "reportedAt": "2026-11-04T17:01:37.872855+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566724000",
+      "mmsi": "566724000",
+      "name": "MERLION 25",
+      "category": "unknown",
+      "lat": 1.2181783333333334,
+      "lon": 103.87138166666666,
+      "speedKmh": 14.1,
+      "heading": 56.3,
+      "reportedAt": "2026-11-04T17:01:40.712752+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565660000",
+      "mmsi": "565660000",
+      "name": "ISSELIA",
+      "category": "unknown",
+      "lat": 1.2316483333333332,
+      "lon": 103.79081333333333,
+      "speedKmh": 13.1,
+      "heading": 323,
+      "reportedAt": "2026-11-04T17:01:53.376511+00:00"
     }
   ],
   "error": null
