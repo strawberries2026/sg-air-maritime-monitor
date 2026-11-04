@@ -1,30 +1,6 @@
 {
-  "updatedAt": "2026-11-04T16:02:02.883563+00:00",
+  "updatedAt": "2026-11-04T16:16:39.681674+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735666666666667,
-      "lon": 103.801385,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-04T14:46:32.649610+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563332900",
-      "mmsi": "563332900",
-      "name": "MANAVAI",
-      "category": "unknown",
-      "lat": 1.219905,
-      "lon": 103.81407166666666,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-04T14:45:39.688594+00:00"
-    },
     {
       "kind": "ship",
       "id": "339301880",
@@ -48,42 +24,6 @@
       "speedKmh": 22.4,
       "heading": 239.8,
       "reportedAt": "2026-11-04T15:01:11.212628+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565904000",
-      "mmsi": "565904000",
-      "name": "KOTA RESTU",
-      "category": "unknown",
-      "lat": 1.1743666666666668,
-      "lon": 103.83593333333333,
-      "speedKmh": 12.8,
-      "heading": 67,
-      "reportedAt": "2026-11-04T14:45:45.016058+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "374890000",
-      "mmsi": "374890000",
-      "name": "EAGLE ASIA 10",
-      "category": "unknown",
-      "lat": 1.2401616666666666,
-      "lon": 103.78207833333333,
-      "speedKmh": 16.1,
-      "heading": 331.7,
-      "reportedAt": "2026-11-04T14:46:02.975841+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563059500",
-      "mmsi": "563059500",
-      "name": "MARINE PARADE",
-      "category": "unknown",
-      "lat": 1.2700766666666667,
-      "lon": 103.91962166666667,
-      "speedKmh": 0.4,
-      "heading": 81,
-      "reportedAt": "2026-11-04T14:46:20.177099+00:00"
     },
     {
       "kind": "ship",
@@ -187,11 +127,11 @@
       "mmsi": "352006950",
       "name": "SWAN GLORY",
       "category": "unknown",
-      "lat": 1.2482433333333334,
-      "lon": 103.79689,
+      "lat": 1.248205,
+      "lon": 103.79690000000001,
       "speedKmh": 0.0,
       "heading": 1.5,
-      "reportedAt": "2026-11-04T16:01:32.743585+00:00"
+      "reportedAt": "2026-11-04T16:16:34.851423+00:00"
     },
     {
       "kind": "ship",
@@ -240,6 +180,18 @@
       "speedKmh": 0.0,
       "heading": 43.1,
       "reportedAt": "2026-11-04T16:01:58.593366+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538013131",
+      "mmsi": "538013131",
+      "name": "RUBBLE I",
+      "category": "unknown",
+      "lat": 1.2715716666666668,
+      "lon": 103.877285,
+      "speedKmh": 0.0,
+      "heading": 261,
+      "reportedAt": "2026-11-04T16:16:18.067849+00:00"
     }
   ],
   "error": null
