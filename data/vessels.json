@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T21:01:57.070144+00:00",
+  "updatedAt": "2026-11-04T21:16:39.803093+00:00",
   "items": [
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "525109025",
-      "mmsi": "525109025",
-      "name": "S.PANGKALAN BRANDAN",
-      "category": "unknown",
-      "lat": 1.2600216666666666,
-      "lon": 103.841195,
-      "speedKmh": 0.4,
-      "heading": 259.7,
-      "reportedAt": "2026-11-04T19:45:57.498932+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564880000",
       "mmsi": "564880000",
       "name": "KOTA HALUS",
@@ -84,30 +72,6 @@
       "speedKmh": 3.9,
       "heading": 339.8,
       "reportedAt": "2026-11-04T20:16:03.788723+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.2483333333333335,
-      "lon": 103.79677833333334,
-      "speedKmh": 0.0,
-      "heading": 169.2,
-      "reportedAt": "2026-11-04T19:46:35.076268+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119082",
-      "mmsi": "525119082",
-      "name": "SEA CHAMPION",
-      "category": "unknown",
-      "lat": 1.2472383333333332,
-      "lon": 103.91723,
-      "speedKmh": 0.0,
-      "heading": 250.9,
-      "reportedAt": "2026-11-04T19:46:35.076324+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +355,11 @@
       "mmsi": "574005100",
       "name": "HAIAN EAST",
       "category": "unknown",
-      "lat": 1.2238250000000002,
-      "lon": 103.79361166666666,
-      "speedKmh": 11.5,
-      "heading": 323.9,
-      "reportedAt": "2026-11-04T21:00:57.765387+00:00"
+      "lat": 1.2397633333333333,
+      "lon": 103.78549500000001,
+      "speedKmh": 4.3,
+      "heading": 359.5,
+      "reportedAt": "2026-11-04T21:15:48.756658+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +367,11 @@
       "mmsi": "565951000",
       "name": "RELIANT CS01",
       "category": "unknown",
-      "lat": 1.2616066666666665,
-      "lon": 103.84578666666667,
+      "lat": 1.2615733333333334,
+      "lon": 103.84583333333333,
       "speedKmh": 0.0,
       "heading": 33.1,
-      "reportedAt": "2026-11-04T21:01:00.711096+00:00"
+      "reportedAt": "2026-11-04T21:15:40.961899+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +432,66 @@
       "speedKmh": 0.2,
       "heading": 273.5,
       "reportedAt": "2026-11-04T21:01:48.956148+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563886000",
+      "mmsi": "563886000",
+      "name": "KOTA AZAM",
+      "category": "unknown",
+      "lat": 1.2443950000000001,
+      "lon": 103.85953833333333,
+      "speedKmh": 9.1,
+      "heading": 333.7,
+      "reportedAt": "2026-11-04T21:15:27.821447+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016293",
+      "mmsi": "636016293",
+      "name": "ELANDRA MELODY",
+      "category": "unknown",
+      "lat": 1.2433133333333333,
+      "lon": 103.79533666666666,
+      "speedKmh": 9.3,
+      "heading": 103.8,
+      "reportedAt": "2026-11-04T21:15:43.151378+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477850100",
+      "mmsi": "477850100",
+      "name": "PINE EXPRESS",
+      "category": "unknown",
+      "lat": 1.2295,
+      "lon": 103.81651666666667,
+      "speedKmh": 0.0,
+      "heading": 10,
+      "reportedAt": "2026-11-04T21:15:54.440065+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563846000",
+      "mmsi": "563846000",
+      "name": "MARINE PROTECTOR",
+      "category": "unknown",
+      "lat": 1.2437533333333335,
+      "lon": 103.81224333333333,
+      "speedKmh": 1.1,
+      "heading": 314.3,
+      "reportedAt": "2026-11-04T21:15:58.721100+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636021857",
+      "mmsi": "636021857",
+      "name": "XIAMEN",
+      "category": "unknown",
+      "lat": 1.2367483333333333,
+      "lon": 103.93958666666667,
+      "speedKmh": 14.6,
+      "heading": 244.8,
+      "reportedAt": "2026-11-04T21:16:14.928107+00:00"
     }
   ],
   "error": null
