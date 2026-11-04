@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T11:46:44.123845+00:00",
+  "updatedAt": "2026-11-04T12:01:58.098173+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,27 +39,15 @@
     },
     {
       "kind": "ship",
-      "id": "636025573",
-      "mmsi": "636025573",
-      "name": "VOKARIA",
-      "category": "unknown",
-      "lat": 1.2180066666666667,
-      "lon": 103.89520666666667,
-      "speedKmh": 24.3,
-      "heading": 242.3,
-      "reportedAt": "2026-11-04T10:30:54.374732+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525018039",
       "mmsi": "525018039",
       "name": "TB BUANA 1302",
       "category": "unknown",
-      "lat": 1.2569933333333334,
-      "lon": 103.84666666666666,
+      "lat": 1.2350483333333335,
+      "lon": 103.8632,
       "speedKmh": 6.7,
-      "heading": 126.7,
-      "reportedAt": "2026-11-04T11:31:30.048136+00:00"
+      "heading": 147.5,
+      "reportedAt": "2026-11-04T12:00:50.548150+00:00"
     },
     {
       "kind": "ship",
@@ -216,6 +204,66 @@
       "speedKmh": 5.9,
       "heading": 111.6,
       "reportedAt": "2026-11-04T11:46:38.670316+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440313000",
+      "mmsi": "440313000",
+      "name": "HMM MONGLA",
+      "category": "unknown",
+      "lat": 1.22949,
+      "lon": 103.86914333333334,
+      "speedKmh": 21.3,
+      "heading": 153.4,
+      "reportedAt": "2026-11-04T12:01:09.022332+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563051600",
+      "mmsi": "563051600",
+      "name": "MAERSK RIO ALFA",
+      "category": "unknown",
+      "lat": 1.27632,
+      "lon": 103.77567333333333,
+      "speedKmh": 0.0,
+      "heading": 116.3,
+      "reportedAt": "2026-11-04T12:01:09.920340+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086090",
+      "mmsi": "563086090",
+      "name": "PILOT 16",
+      "category": "unknown",
+      "lat": 1.2795783333333333,
+      "lon": 103.888475,
+      "speedKmh": 0.9,
+      "heading": 251.6,
+      "reportedAt": "2026-11-04T12:01:21.618232+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085930",
+      "mmsi": "563085930",
+      "name": "RELIABLE I",
+      "category": "unknown",
+      "lat": 1.2681933333333333,
+      "lon": 103.87351166666667,
+      "speedKmh": 15.2,
+      "heading": 17.4,
+      "reportedAt": "2026-11-04T12:01:32.723476+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636093165",
+      "mmsi": "636093165",
+      "name": "STEN IDUN",
+      "category": "unknown",
+      "lat": 1.2353783333333332,
+      "lon": 103.80032833333333,
+      "speedKmh": 0.0,
+      "heading": 19.9,
+      "reportedAt": "2026-11-04T12:01:33.757995+00:00"
     }
   ],
   "error": null
