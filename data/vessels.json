@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T16:31:50.744570+00:00",
+  "updatedAt": "2026-11-04T16:46:40.508493+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,23 +7,23 @@
       "mmsi": "563406000",
       "name": "BTS CALYPSO",
       "category": "unknown",
-      "lat": 1.2385666666666666,
-      "lon": 103.80018333333334,
-      "speedKmh": 0.2,
-      "heading": 192,
-      "reportedAt": "2026-11-04T15:45:44.060522+00:00"
+      "lat": 1.2382833333333332,
+      "lon": 103.80025,
+      "speedKmh": 0.0,
+      "heading": 198,
+      "reportedAt": "2026-11-04T16:45:42.859519+00:00"
     },
     {
       "kind": "ship",
       "id": "268262604",
       "mmsi": "268262604",
       "name": "CARTWHEEL",
-      "category": "commercial",
-      "lat": 1.2707616666666666,
-      "lon": 103.90014166666667,
-      "speedKmh": 0.2,
+      "category": "unknown",
+      "lat": 1.27073,
+      "lon": 103.90021166666666,
+      "speedKmh": 0.0,
       "heading": 101.2,
-      "reportedAt": "2026-11-04T15:46:11.472210+00:00"
+      "reportedAt": "2026-11-04T16:46:01.402356+00:00"
     },
     {
       "kind": "ship",
@@ -192,6 +192,66 @@
       "speedKmh": 0.9,
       "heading": 124,
       "reportedAt": "2026-11-04T16:31:49.915917+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.27353,
+      "lon": 103.801385,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-04T16:45:32.520760+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008333",
+      "mmsi": "538008333",
+      "name": "KAPSALI",
+      "category": "unknown",
+      "lat": 1.217215,
+      "lon": 103.87660333333334,
+      "speedKmh": 9.1,
+      "heading": 220.7,
+      "reportedAt": "2026-11-04T16:45:37.708905+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563750000",
+      "mmsi": "563750000",
+      "name": "PSA SUSTAINABILITY",
+      "category": "unknown",
+      "lat": 1.2659016666666667,
+      "lon": 103.84113666666667,
+      "speedKmh": 0.0,
+      "heading": 149.8,
+      "reportedAt": "2026-11-04T16:45:53.706158+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006501",
+      "mmsi": "538006501",
+      "name": "MAHADAH SILVER",
+      "category": "commercial",
+      "lat": 1.2165566666666665,
+      "lon": 103.80916666666667,
+      "speedKmh": 0.2,
+      "heading": 341,
+      "reportedAt": "2026-11-04T16:45:57.144618+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009180",
+      "mmsi": "563009180",
+      "name": "NOBLE ACE TG41",
+      "category": "unknown",
+      "lat": 1.2616666666666667,
+      "lon": 103.84573333333333,
+      "speedKmh": 0.0,
+      "heading": 307.8,
+      "reportedAt": "2026-11-04T16:46:01.923549+00:00"
     }
   ],
   "error": null
