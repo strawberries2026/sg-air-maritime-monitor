@@ -1,29 +1,17 @@
 {
-  "updatedAt": "2026-11-04T03:15:57.159184+00:00",
+  "updatedAt": "2026-11-04T03:31:50.145935+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563001270",
-      "mmsi": "563001270",
-      "name": "AYER MANIS",
-      "category": "unknown",
-      "lat": 1.256935,
-      "lon": 103.84083166666666,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-04T02:01:14.308374+00:00"
-    },
     {
       "kind": "ship",
       "id": "419001849",
       "mmsi": "419001849",
       "name": "MAJESTY",
       "category": "unknown",
-      "lat": 1.2587033333333333,
+      "lat": 1.258765,
       "lon": 103.90175666666667,
       "speedKmh": 0.2,
-      "heading": 139.6,
-      "reportedAt": "2026-11-04T03:14:56.130973+00:00"
+      "heading": 111.4,
+      "reportedAt": "2026-11-04T03:31:06.354707+00:00"
     },
     {
       "kind": "ship",
@@ -31,11 +19,11 @@
       "mmsi": "219773000",
       "name": "TORM HEDWIG",
       "category": "unknown",
-      "lat": 1.252035,
-      "lon": 103.90054,
+      "lat": 1.2517866666666668,
+      "lon": 103.90068666666666,
       "speedKmh": 0.0,
       "heading": 169.2,
-      "reportedAt": "2026-11-04T02:46:03.884669+00:00"
+      "reportedAt": "2026-11-04T03:31:03.736078+00:00"
     },
     {
       "kind": "ship",
@@ -132,30 +120,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-04T03:16:58.055602+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563008450",
-      "mmsi": "563008450",
-      "name": "SINDO 10",
-      "category": "unknown",
-      "lat": 1.2444233333333334,
-      "lon": 103.85370666666667,
-      "speedKmh": 28.2,
-      "heading": 109.4,
-      "reportedAt": "2026-11-04T02:01:11.245815+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012615",
-      "mmsi": "538012615",
-      "name": "POAVOSA WISDOM",
-      "category": "unknown",
-      "lat": 1.2618116666666666,
-      "lon": 103.87504333333332,
-      "speedKmh": 0.0,
-      "heading": 235.7,
-      "reportedAt": "2026-11-04T02:01:25.075335+00:00"
     },
     {
       "kind": "ship",
@@ -576,6 +540,102 @@
       "speedKmh": 13.1,
       "heading": 323.3,
       "reportedAt": "2026-11-04T03:15:43.595342+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "405000413",
+      "mmsi": "405000413",
+      "name": "FATEMA JAHAN I",
+      "category": "unknown",
+      "lat": 1.25629,
+      "lon": 103.94956166666665,
+      "speedKmh": 6.5,
+      "heading": 343.8,
+      "reportedAt": "2026-11-04T03:30:36.113376+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255601240",
+      "mmsi": "255601240",
+      "name": "ELISABETH OLDENDORFF",
+      "category": "unknown",
+      "lat": 1.2410866666666667,
+      "lon": 103.87528833333334,
+      "speedKmh": 4.1,
+      "heading": 351.7,
+      "reportedAt": "2026-11-04T03:30:41.371571+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "unknown",
+      "lat": 1.2689583333333334,
+      "lon": 103.89071833333334,
+      "speedKmh": 12.0,
+      "heading": 63.5,
+      "reportedAt": "2026-11-04T03:31:04.808100+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219179000",
+      "mmsi": "219179000",
+      "name": "MAERSK TRIESTE",
+      "category": "unknown",
+      "lat": 1.2199333333333333,
+      "lon": 103.82215500000001,
+      "speedKmh": 0.2,
+      "heading": 143.6,
+      "reportedAt": "2026-11-04T03:31:25.640463+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564526000",
+      "mmsi": "564526000",
+      "name": "EVER BEST",
+      "category": "unknown",
+      "lat": 1.2768216666666667,
+      "lon": 103.90054,
+      "speedKmh": 6.7,
+      "heading": 68.6,
+      "reportedAt": "2026-11-04T03:31:30.849834+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477493700",
+      "mmsi": "477493700",
+      "name": "ANGEL NO. 11",
+      "category": "unknown",
+      "lat": 1.2512516666666669,
+      "lon": 103.80413333333333,
+      "speedKmh": 0.0,
+      "heading": 6.6,
+      "reportedAt": "2026-11-04T03:31:38.351615+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352986146",
+      "mmsi": "352986146",
+      "name": "EVER ACE",
+      "category": "unknown",
+      "lat": 1.26508,
+      "lon": 103.79265833333334,
+      "speedKmh": 0.4,
+      "heading": 330,
+      "reportedAt": "2026-11-04T03:31:44.195793+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011737",
+      "mmsi": "538011737",
+      "name": "DHT ADDAX",
+      "category": "unknown",
+      "lat": 1.2534966666666667,
+      "lon": 103.92703333333334,
+      "speedKmh": 0.0,
+      "heading": 309.9,
+      "reportedAt": "2026-11-04T03:31:45.757480+00:00"
     }
   ],
   "error": null
