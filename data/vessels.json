@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T14:16:41.509652+00:00",
+  "updatedAt": "2026-11-04T14:31:56.461337+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735699999999999,
+      "lat": 1.2735916666666667,
       "lon": 103.80136,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-04T13:45:52.237422+00:00"
+      "reportedAt": "2026-11-04T14:31:22.465259+00:00"
     },
     {
       "kind": "ship",
@@ -84,42 +84,6 @@
       "speedKmh": 0.2,
       "heading": 2.9,
       "reportedAt": "2026-11-04T13:46:17.141703+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352001123",
-      "mmsi": "352001123",
-      "name": "CONCORD SERENITY",
-      "category": "unknown",
-      "lat": 1.2282833333333334,
-      "lon": 103.79021666666667,
-      "speedKmh": 9.8,
-      "heading": 326,
-      "reportedAt": "2026-11-04T13:00:58.641972+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.248065,
-      "lon": 103.79675999999999,
-      "speedKmh": 0.2,
-      "heading": 22.9,
-      "reportedAt": "2026-11-04T13:01:33.909719+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563362000",
-      "mmsi": "563362000",
-      "name": "KOTA CEMPAKA",
-      "category": "unknown",
-      "lat": 1.2633633333333334,
-      "lon": 103.83962,
-      "speedKmh": 0.9,
-      "heading": 28.6,
-      "reportedAt": "2026-11-04T13:01:46.195341+00:00"
     },
     {
       "kind": "ship",
@@ -924,6 +888,42 @@
       "speedKmh": 23.0,
       "heading": 66.1,
       "reportedAt": "2026-11-04T14:16:33.400633+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023553",
+      "mmsi": "636023553",
+      "name": "NORDIC HAWK",
+      "category": "unknown",
+      "lat": 1.2079300000000002,
+      "lon": 103.87268999999999,
+      "speedKmh": 18.3,
+      "heading": 240.9,
+      "reportedAt": "2026-11-04T14:31:13.024290+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566753000",
+      "mmsi": "566753000",
+      "name": "HAI SOON 33",
+      "category": "unknown",
+      "lat": 1.2283033333333333,
+      "lon": 103.78275000000001,
+      "speedKmh": 14.1,
+      "heading": 150.8,
+      "reportedAt": "2026-11-04T14:31:35.296134+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "355722000",
+      "mmsi": "355722000",
+      "name": "EVER CHASTE",
+      "category": "unknown",
+      "lat": 1.2288733333333333,
+      "lon": 103.94746666666667,
+      "speedKmh": 26.1,
+      "heading": 69.4,
+      "reportedAt": "2026-11-04T14:31:47.466814+00:00"
     }
   ],
   "error": null
