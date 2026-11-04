@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T10:31:54.154025+00:00",
+  "updatedAt": "2026-11-04T10:46:42.181191+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735616666666667,
-      "lon": 103.80136833333333,
+      "lat": 1.2735583333333333,
+      "lon": 103.80135333333332,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-04T10:01:38.162001+00:00"
+      "reportedAt": "2026-11-04T10:45:58.165450+00:00"
     },
     {
       "kind": "ship",
@@ -39,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "563352400",
-      "mmsi": "563352400",
-      "name": "ELM GALAXY",
-      "category": "unknown",
-      "lat": 1.1866750000000001,
-      "lon": 103.81871,
-      "speedKmh": 12.2,
-      "heading": 247.9,
-      "reportedAt": "2026-11-04T09:15:55.551784+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636018739",
-      "mmsi": "636018739",
-      "name": "ES TREASURE",
-      "category": "unknown",
-      "lat": 1.18781,
-      "lon": 103.84144833333333,
-      "speedKmh": 20.6,
-      "heading": 72.9,
-      "reportedAt": "2026-11-04T09:15:25.525537+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "372014000",
       "mmsi": "372014000",
       "name": "SPINNAKER SW",
@@ -72,18 +48,6 @@
       "speedKmh": 0.0,
       "heading": 278.4,
       "reportedAt": "2026-11-04T09:31:15.671627+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "668116289",
-      "mmsi": "668116289",
-      "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2822033333333331,
-      "lon": 103.89183,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-04T09:15:40.731108+00:00"
     },
     {
       "kind": "ship",
@@ -132,18 +96,6 @@
       "speedKmh": 0.0,
       "heading": 324,
       "reportedAt": "2026-11-04T10:16:41.330970+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564855000",
-      "mmsi": "564855000",
-      "name": "TOLL EMPEROR",
-      "category": "unknown",
-      "lat": 1.205835,
-      "lon": 103.83796000000001,
-      "speedKmh": 10.9,
-      "heading": 304.1,
-      "reportedAt": "2026-11-04T09:15:49.316630+00:00"
     },
     {
       "kind": "ship",
@@ -271,11 +223,11 @@
       "mmsi": "563069950",
       "name": "EVER BRIGHT",
       "category": "unknown",
-      "lat": 1.2622166666666668,
-      "lon": 103.9218,
+      "lat": 1.2622666666666666,
+      "lon": 103.92184999999999,
       "speedKmh": 0.0,
-      "heading": 181,
-      "reportedAt": "2026-11-04T09:45:47.429899+00:00"
+      "heading": 161,
+      "reportedAt": "2026-11-04T10:45:38.431163+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +283,11 @@
       "mmsi": "564880000",
       "name": "KOTA HALUS",
       "category": "unknown",
-      "lat": 1.2639166666666666,
-      "lon": 103.83555333333334,
+      "lat": 1.2639233333333335,
+      "lon": 103.83558500000001,
       "speedKmh": 0.0,
-      "heading": 339.8,
-      "reportedAt": "2026-11-04T09:46:37.966093+00:00"
+      "heading": 2.2,
+      "reportedAt": "2026-11-04T10:46:37.722461+00:00"
     },
     {
       "kind": "ship",
@@ -552,6 +504,30 @@
       "speedKmh": 0.2,
       "heading": 97,
       "reportedAt": "2026-11-04T10:16:25.051734+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525018039",
+      "mmsi": "525018039",
+      "name": "TB BUANA 1302",
+      "category": "unknown",
+      "lat": 1.2633633333333334,
+      "lon": 103.82941333333333,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-04T10:45:28.796925+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "219773000",
+      "mmsi": "219773000",
+      "name": "TORM HEDWIG",
+      "category": "unknown",
+      "lat": 1.2524183333333334,
+      "lon": 103.90031833333335,
+      "speedKmh": 0.2,
+      "heading": 300.5,
+      "reportedAt": "2026-11-04T10:46:03.716882+00:00"
     }
   ],
   "error": null
