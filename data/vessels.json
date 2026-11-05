@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:01:59.379871+00:00",
+  "updatedAt": "2026-11-05T18:16:41.489288+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-05T17:31:07.779447+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563750000",
-      "mmsi": "563750000",
-      "name": "PSA SUSTAINABILITY",
-      "category": "unknown",
-      "lat": 1.2659316666666667,
-      "lon": 103.84112166666667,
-      "speedKmh": 0.0,
-      "heading": 149.8,
-      "reportedAt": "2026-11-05T16:46:28.975580+00:00"
     },
     {
       "kind": "ship",
@@ -75,18 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "563087650",
-      "mmsi": "563087650",
-      "name": "PILOT 20",
-      "category": "unknown",
-      "lat": 1.2457116666666666,
-      "lon": 103.79826,
-      "speedKmh": 33.9,
-      "heading": 347.1,
-      "reportedAt": "2026-11-05T16:45:40.098354+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565951000",
       "mmsi": "565951000",
       "name": "RELIANT CS01",
@@ -96,18 +72,6 @@
       "speedKmh": 0.0,
       "heading": 28.8,
       "reportedAt": "2026-11-05T17:31:39.367306+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563060900",
-      "mmsi": "563060900",
-      "name": "BTS SUMMER",
-      "category": "unknown",
-      "lat": 1.1940333333333333,
-      "lon": 103.81153333333333,
-      "speedKmh": 7.4,
-      "heading": 228,
-      "reportedAt": "2026-11-05T16:46:18.973233+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +139,11 @@
       "mmsi": "563092000",
       "name": "COMO",
       "category": "unknown",
-      "lat": 1.256835,
-      "lon": 103.78800333333334,
-      "speedKmh": 3.1,
-      "heading": 197.8,
-      "reportedAt": "2026-11-05T17:15:35.722613+00:00"
+      "lat": 1.253595,
+      "lon": 103.72840166666667,
+      "speedKmh": 9.3,
+      "heading": 230.4,
+      "reportedAt": "2026-11-05T18:15:36.483185+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +247,11 @@
       "mmsi": "525020108",
       "name": "CIPTA JAYA MANDIRI",
       "category": "unknown",
-      "lat": 1.2455933333333333,
-      "lon": 103.81373,
-      "speedKmh": 0.0,
+      "lat": 1.2457533333333333,
+      "lon": 103.81369,
+      "speedKmh": 0.2,
       "heading": null,
-      "reportedAt": "2026-11-05T17:31:37.645604+00:00"
+      "reportedAt": "2026-11-05T18:16:17.219611+00:00"
     },
     {
       "kind": "ship",
@@ -360,6 +324,78 @@
       "speedKmh": 2.8,
       "heading": 261,
       "reportedAt": "2026-11-05T18:01:43.161530+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477850100",
+      "mmsi": "477850100",
+      "name": "PINE EXPRESS",
+      "category": "unknown",
+      "lat": 1.2292666666666667,
+      "lon": 103.81878333333334,
+      "speedKmh": 0.0,
+      "heading": 331,
+      "reportedAt": "2026-11-05T18:15:55.328697+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005560",
+      "mmsi": "574005560",
+      "name": "PVT ORIANA",
+      "category": "unknown",
+      "lat": 1.2462166666666665,
+      "lon": 103.94340000000001,
+      "speedKmh": 11.7,
+      "heading": 246,
+      "reportedAt": "2026-11-05T18:16:08.075807+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563098800",
+      "mmsi": "563098800",
+      "name": "MARINE VICKY",
+      "category": "unknown",
+      "lat": 1.22085,
+      "lon": 103.79732,
+      "speedKmh": 15.6,
+      "heading": 319.1,
+      "reportedAt": "2026-11-05T18:16:17.219537+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009190",
+      "mmsi": "563009190",
+      "name": "NOBLE JEWEL TG45",
+      "category": "unknown",
+      "lat": 1.2630899999999998,
+      "lon": 103.846315,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-05T18:16:32.281490+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020992",
+      "mmsi": "636020992",
+      "name": "ARCHER",
+      "category": "unknown",
+      "lat": 1.2762316666666667,
+      "lon": 103.77565333333334,
+      "speedKmh": 0.0,
+      "heading": 21.4,
+      "reportedAt": "2026-11-05T18:16:33.651456+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563333100",
+      "mmsi": "563333100",
+      "name": "VANDA PIONEER",
+      "category": "unknown",
+      "lat": 1.2124883333333334,
+      "lon": 103.80379666666666,
+      "speedKmh": 21.1,
+      "heading": 130.5,
+      "reportedAt": "2026-11-05T18:16:34.526719+00:00"
     }
   ],
   "error": null
