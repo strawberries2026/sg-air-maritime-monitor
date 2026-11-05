@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T00:46:40.304398+00:00",
+  "updatedAt": "2026-11-05T01:01:56.580104+00:00",
   "items": [
     {
       "kind": "ship",
@@ -55,23 +55,11 @@
       "mmsi": "471072000",
       "name": "ARZANA",
       "category": "unknown",
-      "lat": 1.2473133333333335,
-      "lon": 103.80745666666667,
+      "lat": 1.2472133333333335,
+      "lon": 103.80760333333333,
       "speedKmh": 0.2,
-      "heading": 152.3,
-      "reportedAt": "2026-11-04T23:58:55.412969+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533180127",
-      "mmsi": "533180127",
-      "name": "MTT PULAU PINANG",
-      "category": "unknown",
-      "lat": 1.2098016666666667,
-      "lon": 103.88037,
-      "speedKmh": 14.1,
-      "heading": 246.4,
-      "reportedAt": "2026-11-04T23:31:16.831609+00:00"
+      "heading": 2.5,
+      "reportedAt": "2026-11-05T01:01:50.437640+00:00"
     },
     {
       "kind": "ship",
@@ -111,30 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "538009205",
-      "mmsi": "538009205",
-      "name": "PACIFIC TOPAZ",
-      "category": "unknown",
-      "lat": 1.1668200000000002,
-      "lon": 103.71118,
-      "speedKmh": 0.2,
-      "heading": 94.3,
-      "reportedAt": "2026-11-04T23:30:51.014649+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565173000",
-      "mmsi": "565173000",
-      "name": "AYER CHERDEK",
-      "category": "unknown",
-      "lat": 1.25575,
-      "lon": 103.846475,
-      "speedKmh": 13.0,
-      "heading": 285.5,
-      "reportedAt": "2026-11-04T23:31:04.339777+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563087130",
       "mmsi": "563087130",
       "name": "STL T6",
@@ -144,18 +108,6 @@
       "speedKmh": 0.2,
       "heading": 185.6,
       "reportedAt": "2026-11-04T23:58:53.468883+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006950",
-      "mmsi": "352006950",
-      "name": "SWAN GLORY",
-      "category": "unknown",
-      "lat": 1.2484416666666667,
-      "lon": 103.79503833333334,
-      "speedKmh": 0.0,
-      "heading": 340.9,
-      "reportedAt": "2026-11-04T23:31:35.187678+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +127,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.2385383333333333,
-      "lon": 103.71600666666667,
-      "speedKmh": 15.6,
-      "heading": 75.1,
-      "reportedAt": "2026-11-04T23:45:56.746236+00:00"
+      "lat": 1.2193233333333333,
+      "lon": 103.87185833333334,
+      "speedKmh": 13.9,
+      "heading": 41,
+      "reportedAt": "2026-11-05T01:01:16.533650+00:00"
     },
     {
       "kind": "ship",
@@ -624,6 +576,54 @@
       "speedKmh": 11.1,
       "heading": 259,
       "reportedAt": "2026-11-05T00:46:33.729357+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566010000",
+      "mmsi": "566010000",
+      "name": "ANDROMEDA V",
+      "category": "unknown",
+      "lat": 1.1283566666666667,
+      "lon": 103.757335,
+      "speedKmh": 23.9,
+      "heading": 42,
+      "reportedAt": "2026-11-05T01:01:03.570946+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563141000",
+      "mmsi": "563141000",
+      "name": "NOC 8",
+      "category": "unknown",
+      "lat": 1.2458500000000001,
+      "lon": 103.85033333333334,
+      "speedKmh": 10.4,
+      "heading": 58.8,
+      "reportedAt": "2026-11-05T01:01:08.091801+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "209171000",
+      "mmsi": "209171000",
+      "name": "LADYCHARM",
+      "category": "commercial",
+      "lat": 1.2424,
+      "lon": 103.89989999999999,
+      "speedKmh": 0.0,
+      "heading": 36,
+      "reportedAt": "2026-11-05T01:01:41.445132+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563120700",
+      "mmsi": "563120700",
+      "name": "MAESTRO",
+      "category": "unknown",
+      "lat": 1.2653816666666666,
+      "lon": 103.88812666666666,
+      "speedKmh": 2.4,
+      "heading": 53.5,
+      "reportedAt": "2026-11-05T01:01:54.685946+00:00"
     }
   ],
   "error": null
