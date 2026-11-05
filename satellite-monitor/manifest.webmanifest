@@ -1,0 +1,18 @@
+{
+  "name": "SG Satellite Monitor",
+  "short_name": "SG Satellites",
+  "description": "Predicted satellite positions over Singapore and Pedra Branca",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#081a2b",
+  "theme_color": "#081a2b",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
