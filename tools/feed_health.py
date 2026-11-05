@@ -29,6 +29,8 @@ def check(path, now, threshold):
         if value is None:
             raise ValueError("No recognized refresh timestamp")
         timestamp = parse_time(value)
+        if data.get("error"):
+            return {"status": "error", "last_refresh_utc": timestamp.isoformat(), "error": str(data["error"])}
         age = (now - timestamp).total_seconds() / 60
         if age < -5:
             raise ValueError("Refresh timestamp is in the future")
