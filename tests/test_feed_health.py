@@ -37,6 +37,8 @@ class FeedHealthTests(unittest.TestCase):
             self.assertEqual(check(path, now, 45)["status"], "stale")
             path.write_text('{"updatedAt":"2026-11-06T00:10:00Z","error":null}')
             self.assertEqual(check(path, now, 45)["status"], "unknown")
+            path.write_text('{"updatedAt":"2026-11-06T00:00:00","error":null}')
+            self.assertEqual(check(path, now, 45)["status"], "unknown")
 
 if __name__ == "__main__":
     unittest.main()
