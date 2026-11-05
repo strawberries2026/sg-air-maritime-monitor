@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:46:38.500171+00:00",
+  "updatedAt": "2026-11-05T04:02:03.195396+00:00",
   "items": [
     {
       "kind": "ship",
@@ -51,51 +51,15 @@
     },
     {
       "kind": "ship",
-      "id": "563086590",
-      "mmsi": "563086590",
-      "name": "PSA SUCCESS CS10",
-      "category": "unknown",
-      "lat": 1.2481433333333334,
-      "lon": 103.78675833333334,
-      "speedKmh": 10.2,
-      "heading": 210.5,
-      "reportedAt": "2026-11-05T02:31:00.056579+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "419765000",
       "mmsi": "419765000",
       "name": "JAG APARNA",
       "category": "unknown",
       "lat": 1.2538666666666667,
-      "lon": 103.91871666666665,
-      "speedKmh": 0.0,
-      "heading": 310,
-      "reportedAt": "2026-11-05T03:45:53.754715+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563406000",
-      "mmsi": "563406000",
-      "name": "BTS CALYPSO",
-      "category": "unknown",
-      "lat": 1.2391333333333334,
-      "lon": 103.79791666666667,
+      "lon": 103.91888333333333,
       "speedKmh": 0.2,
-      "heading": 16,
-      "reportedAt": "2026-11-05T02:30:44.169171+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563042900",
-      "mmsi": "563042900",
-      "name": "STRAITS INTEGRITY",
-      "category": "unknown",
-      "lat": 1.2540799999999999,
-      "lon": 103.90548833333334,
-      "speedKmh": 2.8,
-      "heading": 121.8,
-      "reportedAt": "2026-11-05T02:30:54.444447+00:00"
+      "heading": 170,
+      "reportedAt": "2026-11-05T04:01:33.663646+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +139,11 @@
       "mmsi": "567226000",
       "name": "TASCO AMATA",
       "category": "unknown",
-      "lat": 1.2418166666666666,
-      "lon": 103.79895,
-      "speedKmh": 0.4,
-      "heading": 148,
-      "reportedAt": "2026-11-05T03:16:32.943642+00:00"
+      "lat": 1.2419166666666668,
+      "lon": 103.80006666666667,
+      "speedKmh": 0.0,
+      "heading": 294,
+      "reportedAt": "2026-11-05T04:01:32.378183+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +240,66 @@
       "speedKmh": 1.3,
       "heading": 231.9,
       "reportedAt": "2026-11-05T03:46:15.628507+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563034500",
+      "mmsi": "563034500",
+      "name": "QUEEN STAR 8",
+      "category": "unknown",
+      "lat": 1.2622133333333332,
+      "lon": 103.81948666666668,
+      "speedKmh": 0.0,
+      "heading": 155.8,
+      "reportedAt": "2026-11-05T04:01:13.361004+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119095",
+      "mmsi": "525119095",
+      "name": "ARTEMIS",
+      "category": "unknown",
+      "lat": 1.26549,
+      "lon": 103.89547333333333,
+      "speedKmh": 0.0,
+      "heading": 154.5,
+      "reportedAt": "2026-11-05T04:01:15.513037+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566496000",
+      "mmsi": "566496000",
+      "name": "MARINE ORACLE",
+      "category": "unknown",
+      "lat": 1.2213283333333333,
+      "lon": 103.78731333333333,
+      "speedKmh": 9.6,
+      "heading": 134.1,
+      "reportedAt": "2026-11-05T04:01:35.950437+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566095000",
+      "mmsi": "566095000",
+      "name": "TAURUS LEADER",
+      "category": "unknown",
+      "lat": 1.2154,
+      "lon": 103.80230833333333,
+      "speedKmh": 19.3,
+      "heading": 301.1,
+      "reportedAt": "2026-11-05T04:01:38.171252+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563074930",
+      "mmsi": "563074930",
+      "name": "INFINITI  VIRTUS",
+      "category": "unknown",
+      "lat": 1.2484250000000001,
+      "lon": 103.86946666666667,
+      "speedKmh": 0.2,
+      "heading": 272.1,
+      "reportedAt": "2026-11-05T04:01:38.171308+00:00"
     }
   ],
   "error": null
