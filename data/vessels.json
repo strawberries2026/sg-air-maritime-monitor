@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T00:01:59.107039+00:00",
+  "updatedAt": "2026-11-05T00:16:44.700753+00:00",
   "items": [
     {
       "kind": "ship",
@@ -75,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "636023595",
-      "mmsi": "636023595",
-      "name": "INVICTUS",
-      "category": "unknown",
-      "lat": 1.2620633333333333,
-      "lon": 103.92249833333334,
-      "speedKmh": 0.6,
-      "heading": 89.2,
-      "reportedAt": "2026-11-04T22:46:35.936915+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371324000",
-      "mmsi": "371324000",
-      "name": "SAO QUIXOTE",
-      "category": "unknown",
-      "lat": 1.229475,
-      "lon": 103.88743333333333,
-      "speedKmh": 0.2,
-      "heading": 291.8,
-      "reportedAt": "2026-11-04T22:45:32.293660+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "368270000",
       "mmsi": "368270000",
       "name": "SLNC  STAR",
@@ -108,18 +84,6 @@
       "speedKmh": 0.0,
       "heading": 55.5,
       "reportedAt": "2026-11-04T23:15:43.334626+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440138000",
-      "mmsi": "440138000",
-      "name": "HAEIN HOPE",
-      "category": "unknown",
-      "lat": 1.18475,
-      "lon": 103.75665000000001,
-      "speedKmh": 0.0,
-      "heading": 83,
-      "reportedAt": "2026-11-04T22:45:45.757909+00:00"
     },
     {
       "kind": "ship",
@@ -552,6 +516,42 @@
       "speedKmh": 0.0,
       "heading": 301.2,
       "reportedAt": "2026-11-05T00:01:52.196795+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "259801000",
+      "mmsi": "259801000",
+      "name": "SEA1 AMETHYST",
+      "category": "unknown",
+      "lat": 1.2699116666666665,
+      "lon": 103.88101,
+      "speedKmh": 0.0,
+      "heading": 174.6,
+      "reportedAt": "2026-11-05T00:15:45.641644+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413558470",
+      "mmsi": "413558470",
+      "name": "YUE DAN",
+      "category": "unknown",
+      "lat": 1.2328766666666666,
+      "lon": 103.81325333333332,
+      "speedKmh": 0.6,
+      "heading": 9,
+      "reportedAt": "2026-11-05T00:16:08.718965+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563060200",
+      "mmsi": "563060200",
+      "name": "PSA THOR CS03",
+      "category": "unknown",
+      "lat": 1.2549,
+      "lon": 103.78947833333334,
+      "speedKmh": 9.4,
+      "heading": 236.1,
+      "reportedAt": "2026-11-05T00:16:16.676576+00:00"
     }
   ],
   "error": null
