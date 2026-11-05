@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T10:31:48.897026+00:00",
+  "updatedAt": "2026-11-05T10:46:39.691116+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,30 +27,6 @@
     },
     {
       "kind": "ship",
-      "id": "477636800",
-      "mmsi": "477636800",
-      "name": "NING JING HAI",
-      "category": "unknown",
-      "lat": 1.2416116666666668,
-      "lon": 103.94102833333334,
-      "speedKmh": 5.6,
-      "heading": 19.9,
-      "reportedAt": "2026-11-05T09:16:35.899672+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "305630000",
-      "mmsi": "305630000",
-      "name": "BBC ELISABETH",
-      "category": "unknown",
-      "lat": 1.2345350000000002,
-      "lon": 103.92530333333335,
-      "speedKmh": 17.8,
-      "heading": 248.1,
-      "reportedAt": "2026-11-05T09:01:54.090938+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563038000",
       "mmsi": "563038000",
       "name": "FLAGSHIP",
@@ -75,39 +51,15 @@
     },
     {
       "kind": "ship",
-      "id": "636023595",
-      "mmsi": "636023595",
-      "name": "INVICTUS",
-      "category": "unknown",
-      "lat": 1.2632766666666666,
-      "lon": 103.92215166666666,
-      "speedKmh": 0.6,
-      "heading": 188.8,
-      "reportedAt": "2026-11-05T09:16:10.112511+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010690",
-      "mmsi": "538010690",
-      "name": "TS VANCOUVER",
-      "category": "unknown",
-      "lat": 1.1877583333333335,
-      "lon": 103.83015833333334,
-      "speedKmh": 27.0,
-      "heading": 251.3,
-      "reportedAt": "2026-11-05T09:16:34.210656+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566532000",
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
-      "category": "unknown",
-      "lat": 1.2716566666666667,
-      "lon": 103.89157333333333,
+      "category": "commercial",
+      "lat": 1.2716749999999999,
+      "lon": 103.89172,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T10:01:36.670680+00:00"
+      "reportedAt": "2026-11-05T10:46:26.919867+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +199,11 @@
       "mmsi": "563314800",
       "name": "EM SHARLOTTE",
       "category": "unknown",
-      "lat": 1.2562616666666666,
-      "lon": 103.86783,
-      "speedKmh": 0.2,
-      "heading": 144.4,
-      "reportedAt": "2026-11-05T10:01:22.411889+00:00"
+      "lat": 1.2706466666666667,
+      "lon": 103.89546333333332,
+      "speedKmh": 11.3,
+      "heading": 67.4,
+      "reportedAt": "2026-11-05T10:45:52.444884+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +384,66 @@
       "speedKmh": 3.9,
       "heading": 210.3,
       "reportedAt": "2026-11-05T10:31:27.789160+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255803760",
+      "mmsi": "255803760",
+      "name": "MSC GREENWICH",
+      "category": "unknown",
+      "lat": 1.24424,
+      "lon": 103.89073833333333,
+      "speedKmh": 0.0,
+      "heading": 129.5,
+      "reportedAt": "2026-11-05T10:45:36.778455+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525003103",
+      "mmsi": "525003103",
+      "name": "SPECTRUM ARCTIC",
+      "category": "unknown",
+      "lat": 1.2971166666666667,
+      "lon": 103.99923333333332,
+      "speedKmh": 0.0,
+      "heading": 357,
+      "reportedAt": "2026-11-05T10:45:42.113983+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563927000",
+      "mmsi": "563927000",
+      "name": "STRAITS MUNIFICENT",
+      "category": "unknown",
+      "lat": 1.259735,
+      "lon": 103.87900666666665,
+      "speedKmh": 10.7,
+      "heading": 204.5,
+      "reportedAt": "2026-11-05T10:45:54.437492+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011786",
+      "mmsi": "538011786",
+      "name": "DARYA PRIYA",
+      "category": "unknown",
+      "lat": 1.1674716666666667,
+      "lon": 103.78529499999999,
+      "speedKmh": 23.0,
+      "heading": 240.8,
+      "reportedAt": "2026-11-05T10:46:08.061363+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563034430",
+      "mmsi": "563034430",
+      "name": "MERLION 31",
+      "category": "unknown",
+      "lat": 1.2261816666666665,
+      "lon": 103.81784666666667,
+      "speedKmh": 0.6,
+      "heading": 64.6,
+      "reportedAt": "2026-11-05T10:46:24.217299+00:00"
     }
   ],
   "error": null
