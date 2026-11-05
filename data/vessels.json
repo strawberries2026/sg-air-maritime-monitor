@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T11:16:40.296750+00:00",
+  "updatedAt": "2026-11-05T11:31:50.679722+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563038000",
-      "mmsi": "563038000",
-      "name": "FLAGSHIP",
-      "category": "unknown",
-      "lat": 1.2738883333333333,
-      "lon": 103.91764833333333,
-      "speedKmh": 9.3,
-      "heading": 51.6,
-      "reportedAt": "2026-11-05T10:01:27.996004+00:00"
-    },
     {
       "kind": "ship",
       "id": "668116289",
@@ -51,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "565587000",
-      "mmsi": "565587000",
-      "name": "REGENT GEMINI",
-      "category": "unknown",
-      "lat": 1.2626199999999999,
-      "lon": 103.82846500000001,
-      "speedKmh": 0.0,
-      "heading": 178.5,
-      "reportedAt": "2026-11-05T10:01:36.059341+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525301513",
-      "mmsi": "525301513",
-      "name": "TB LL DODI",
-      "category": "unknown",
-      "lat": 1.2604066666666667,
-      "lon": 103.84021166666666,
-      "speedKmh": 0.0,
-      "heading": 1.9,
-      "reportedAt": "2026-11-05T10:01:21.046343+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563314800",
       "mmsi": "563314800",
       "name": "EM SHARLOTTE",
@@ -84,30 +48,6 @@
       "speedKmh": 11.3,
       "heading": 67.4,
       "reportedAt": "2026-11-05T10:45:52.444884+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563082690",
-      "mmsi": "563082690",
-      "name": "ARUNDINA",
-      "category": "unknown",
-      "lat": 1.2595266666666667,
-      "lon": 103.91166166666667,
-      "speedKmh": 5.9,
-      "heading": 173.4,
-      "reportedAt": "2026-11-05T10:01:42.000862+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "471072000",
-      "mmsi": "471072000",
-      "name": "ARZANA",
-      "category": "unknown",
-      "lat": 1.24725,
-      "lon": 103.80725333333334,
-      "speedKmh": 0.4,
-      "heading": 320.3,
-      "reportedAt": "2026-11-05T10:01:50.389972+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +403,11 @@
       "mmsi": "525601594",
       "name": "TB AMADEUS 1",
       "category": "unknown",
-      "lat": 1.254575,
-      "lon": 103.85802666666667,
+      "lat": 1.2566716666666666,
+      "lon": 103.85600666666666,
       "speedKmh": 5.2,
-      "heading": 293.3,
-      "reportedAt": "2026-11-05T11:15:37.511248+00:00"
+      "heading": 288.2,
+      "reportedAt": "2026-11-05T11:31:47.862739+00:00"
     },
     {
       "kind": "ship",
@@ -475,11 +415,11 @@
       "mmsi": "636016293",
       "name": "ELANDRA MELODY",
       "category": "unknown",
-      "lat": 1.2343616666666668,
-      "lon": 103.81614833333333,
-      "speedKmh": 0.0,
-      "heading": 172,
-      "reportedAt": "2026-11-05T11:15:57.075748+00:00"
+      "lat": 1.2353483333333335,
+      "lon": 103.81638333333333,
+      "speedKmh": 0.9,
+      "heading": 1.4,
+      "reportedAt": "2026-11-05T11:30:55.964913+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +432,42 @@
       "speedKmh": 14.8,
       "heading": 108.1,
       "reportedAt": "2026-11-05T11:16:37.332623+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564885000",
+      "mmsi": "564885000",
+      "name": "OCEAN FLYTE",
+      "category": "unknown",
+      "lat": 1.2608233333333334,
+      "lon": 103.81278,
+      "speedKmh": 10.4,
+      "heading": 93.1,
+      "reportedAt": "2026-11-05T11:30:38.984693+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023332",
+      "mmsi": "636023332",
+      "name": "THOR HIGHWAY",
+      "category": "unknown",
+      "lat": 1.169085,
+      "lon": 103.75127666666667,
+      "speedKmh": 0.0,
+      "heading": 306.8,
+      "reportedAt": "2026-11-05T11:31:24.591438+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563042900",
+      "mmsi": "563042900",
+      "name": "STRAITS INTEGRITY",
+      "category": "unknown",
+      "lat": 1.2529866666666665,
+      "lon": 103.90609666666666,
+      "speedKmh": 0.0,
+      "heading": 356.2,
+      "reportedAt": "2026-11-05T11:31:39.225237+00:00"
     }
   ],
   "error": null
