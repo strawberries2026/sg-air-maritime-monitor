@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T19:01:59.058459+00:00",
+  "updatedAt": "2026-11-05T19:16:40.632977+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "525109025",
-      "mmsi": "525109025",
-      "name": "S.PANGKALAN BRANDAN",
-      "category": "unknown",
-      "lat": 1.2597433333333332,
-      "lon": 103.84077833333335,
-      "speedKmh": 0.0,
-      "heading": 221.4,
-      "reportedAt": "2026-11-05T17:46:32.959842+00:00"
-    },
     {
       "kind": "ship",
       "id": "565173000",
@@ -63,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "477958300",
-      "mmsi": "477958300",
-      "name": "OOCL HOUSTON",
-      "category": "unknown",
-      "lat": 1.26595,
-      "lon": 103.7744,
-      "speedKmh": 1.5,
-      "heading": 258,
-      "reportedAt": "2026-11-05T17:46:03.222752+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563038700",
       "mmsi": "563038700",
       "name": "MARINE SELENA",
@@ -84,18 +60,6 @@
       "speedKmh": 7.0,
       "heading": 308.1,
       "reportedAt": "2026-11-05T18:01:04.608032+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023332",
-      "mmsi": "636023332",
-      "name": "THOR HIGHWAY",
-      "category": "unknown",
-      "lat": 1.16956,
-      "lon": 103.75199500000001,
-      "speedKmh": 0.0,
-      "heading": 163.3,
-      "reportedAt": "2026-11-05T17:46:24.740230+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +139,11 @@
       "mmsi": "563009190",
       "name": "NOBLE JEWEL TG45",
       "category": "unknown",
-      "lat": 1.2630899999999998,
-      "lon": 103.846315,
-      "speedKmh": 0.0,
+      "lat": 1.26307,
+      "lon": 103.84630333333332,
+      "speedKmh": 0.2,
       "heading": 0,
-      "reportedAt": "2026-11-05T18:16:32.281490+00:00"
+      "reportedAt": "2026-11-05T19:16:22.144994+00:00"
     },
     {
       "kind": "ship",
@@ -372,6 +336,42 @@
       "speedKmh": 21.3,
       "heading": 238.5,
       "reportedAt": "2026-11-05T19:01:55.610186+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563212900",
+      "mmsi": "563212900",
+      "name": "XINHUI EXPRESS",
+      "category": "unknown",
+      "lat": 1.1723883333333334,
+      "lon": 103.82198166666667,
+      "speedKmh": 22.4,
+      "heading": 66.6,
+      "reportedAt": "2026-11-05T19:15:27.049967+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566241000",
+      "mmsi": "566241000",
+      "name": "VANDA SUCCESS",
+      "category": "unknown",
+      "lat": 1.2646216666666668,
+      "lon": 103.90618333333333,
+      "speedKmh": 13.9,
+      "heading": 222.3,
+      "reportedAt": "2026-11-05T19:15:56.121022+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565951000",
+      "mmsi": "565951000",
+      "name": "RELIANT CS01",
+      "category": "unknown",
+      "lat": 1.262505,
+      "lon": 103.84478833333333,
+      "speedKmh": 0.0,
+      "heading": 339.4,
+      "reportedAt": "2026-11-05T19:16:20.810834+00:00"
     }
   ],
   "error": null
