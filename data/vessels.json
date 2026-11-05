@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T08:16:39.198875+00:00",
+  "updatedAt": "2026-11-05T08:31:47.370720+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,30 +24,6 @@
       "speedKmh": 0.0,
       "heading": 358.4,
       "reportedAt": "2026-11-05T07:46:32.732584+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538009555",
-      "mmsi": "538009555",
-      "name": "FJ CAMELIA",
-      "category": "unknown",
-      "lat": 1.2857416666666666,
-      "lon": 103.96284166666666,
-      "speedKmh": 0.0,
-      "heading": 315,
-      "reportedAt": "2026-11-05T07:00:46.358736+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "371324000",
-      "mmsi": "371324000",
-      "name": "SAO QUIXOTE",
-      "category": "unknown",
-      "lat": 1.1674366666666667,
-      "lon": 103.78578666666667,
-      "speedKmh": 23.9,
-      "heading": 238.9,
-      "reportedAt": "2026-11-05T07:00:41.446400+00:00"
     },
     {
       "kind": "ship",
@@ -123,42 +99,6 @@
     },
     {
       "kind": "ship",
-      "id": "563084060",
-      "mmsi": "563084060",
-      "name": "CLEANSEAS FRIENDLY",
-      "category": "unknown",
-      "lat": 1.23466,
-      "lon": 103.89354333333334,
-      "speedKmh": 0.0,
-      "heading": 311.3,
-      "reportedAt": "2026-11-05T07:00:50.921441+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087460",
-      "mmsi": "563087460",
-      "name": "PLUTO",
-      "category": "unknown",
-      "lat": 1.2465316666666666,
-      "lon": 103.79437333333334,
-      "speedKmh": 15.4,
-      "heading": 280.7,
-      "reportedAt": "2026-11-05T07:00:57.655312+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023595",
-      "mmsi": "636023595",
-      "name": "INVICTUS",
-      "category": "unknown",
-      "lat": 1.2620216666666666,
-      "lon": 103.92242833333333,
-      "speedKmh": 0.0,
-      "heading": 338.1,
-      "reportedAt": "2026-11-05T07:01:10.218024+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525119038",
       "mmsi": "525119038",
       "name": "PRIMA TANGGUH LVI",
@@ -199,11 +139,11 @@
       "mmsi": "565173000",
       "name": "AYER CHERDEK",
       "category": "unknown",
-      "lat": 1.2796316666666667,
-      "lon": 103.88804333333333,
+      "lat": 1.279865,
+      "lon": 103.887985,
       "speedKmh": 0.2,
-      "heading": 138.6,
-      "reportedAt": "2026-11-05T07:15:25.448635+00:00"
+      "heading": 298.5,
+      "reportedAt": "2026-11-05T08:31:35.220963+00:00"
     },
     {
       "kind": "ship",
@@ -403,11 +343,11 @@
       "mmsi": "477850100",
       "name": "PINE EXPRESS",
       "category": "unknown",
-      "lat": 1.2282499999999998,
-      "lon": 103.816,
-      "speedKmh": 0.2,
+      "lat": 1.22915,
+      "lon": 103.81613333333333,
+      "speedKmh": 0.4,
       "heading": 22,
-      "reportedAt": "2026-11-05T07:45:54.631141+00:00"
+      "reportedAt": "2026-11-05T08:30:55.780595+00:00"
     },
     {
       "kind": "ship",
@@ -624,6 +564,18 @@
       "speedKmh": 8.0,
       "heading": 155.3,
       "reportedAt": "2026-11-05T08:16:28.104274+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255803760",
+      "mmsi": "255803760",
+      "name": "MSC GREENWICH",
+      "category": "unknown",
+      "lat": 1.2448883333333332,
+      "lon": 103.89044833333334,
+      "speedKmh": 0.0,
+      "heading": 303.6,
+      "reportedAt": "2026-11-05T08:30:36.917623+00:00"
     }
   ],
   "error": null
