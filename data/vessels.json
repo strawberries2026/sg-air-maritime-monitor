@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T16:31:57.755152+00:00",
+  "updatedAt": "2026-11-05T16:46:42.914447+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,42 +12,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-05T16:01:37.119299+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023458",
-      "mmsi": "636023458",
-      "name": "ARRABBIATA",
-      "category": "unknown",
-      "lat": 1.2237616666666669,
-      "lon": 103.87527333333334,
-      "speedKmh": 2.6,
-      "heading": 260.2,
-      "reportedAt": "2026-11-05T15:16:06.603194+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016070",
-      "mmsi": "636016070",
-      "name": "INDIAN SOLIDARITY",
-      "category": "unknown",
-      "lat": 1.2375016666666667,
-      "lon": 103.95195333333332,
-      "speedKmh": 12.4,
-      "heading": 255.6,
-      "reportedAt": "2026-11-05T15:16:14.152554+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "440257000",
-      "mmsi": "440257000",
-      "name": "GLOVIS STELLA",
-      "category": "unknown",
-      "lat": 1.284165,
-      "lon": 103.909445,
-      "speedKmh": 0.2,
-      "heading": 191.9,
-      "reportedAt": "2026-11-05T15:16:29.377021+00:00"
     },
     {
       "kind": "ship",
@@ -91,11 +55,11 @@
       "mmsi": "563750000",
       "name": "PSA SUSTAINABILITY",
       "category": "unknown",
-      "lat": 1.2659449999999999,
-      "lon": 103.841135,
+      "lat": 1.2659316666666667,
+      "lon": 103.84112166666667,
       "speedKmh": 0.0,
       "heading": 149.8,
-      "reportedAt": "2026-11-05T15:46:16.457020+00:00"
+      "reportedAt": "2026-11-05T16:46:28.975580+00:00"
     },
     {
       "kind": "ship",
@@ -348,6 +312,42 @@
       "speedKmh": 9.4,
       "heading": 139.3,
       "reportedAt": "2026-11-05T16:31:52.593871+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087650",
+      "mmsi": "563087650",
+      "name": "PILOT 20",
+      "category": "unknown",
+      "lat": 1.2457116666666666,
+      "lon": 103.79826,
+      "speedKmh": 33.9,
+      "heading": 347.1,
+      "reportedAt": "2026-11-05T16:45:40.098354+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565951000",
+      "mmsi": "565951000",
+      "name": "RELIANT CS01",
+      "category": "unknown",
+      "lat": 1.2583783333333334,
+      "lon": 103.84562333333334,
+      "speedKmh": 10.4,
+      "heading": 80.7,
+      "reportedAt": "2026-11-05T16:46:29.764508+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563060900",
+      "mmsi": "563060900",
+      "name": "BTS SUMMER",
+      "category": "unknown",
+      "lat": 1.1940333333333333,
+      "lon": 103.81153333333333,
+      "speedKmh": 7.4,
+      "heading": 228,
+      "reportedAt": "2026-11-05T16:46:18.973233+00:00"
     }
   ],
   "error": null
