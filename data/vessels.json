@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T05:16:39.584831+00:00",
+  "updatedAt": "2026-11-05T05:31:48.386519+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.2,
       "heading": 333,
       "reportedAt": "2026-11-05T04:46:13.417818+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "567226000",
-      "mmsi": "567226000",
-      "name": "TASCO AMATA",
-      "category": "unknown",
-      "lat": 1.2419166666666668,
-      "lon": 103.80006666666667,
-      "speedKmh": 0.0,
-      "heading": 294,
-      "reportedAt": "2026-11-05T04:01:32.378183+00:00"
     },
     {
       "kind": "ship",
@@ -72,30 +60,6 @@
       "speedKmh": 0.2,
       "heading": 154.5,
       "reportedAt": "2026-11-05T05:01:14.801409+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566496000",
-      "mmsi": "566496000",
-      "name": "MARINE ORACLE",
-      "category": "unknown",
-      "lat": 1.2213283333333333,
-      "lon": 103.78731333333333,
-      "speedKmh": 9.6,
-      "heading": 134.1,
-      "reportedAt": "2026-11-05T04:01:35.950437+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566095000",
-      "mmsi": "566095000",
-      "name": "TAURUS LEADER",
-      "category": "unknown",
-      "lat": 1.2154,
-      "lon": 103.80230833333333,
-      "speedKmh": 19.3,
-      "heading": 301.1,
-      "reportedAt": "2026-11-05T04:01:38.171252+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +127,11 @@
       "mmsi": "563073090",
       "name": "563073090",
       "category": "unknown",
-      "lat": 1.2715766666666668,
-      "lon": 103.870615,
-      "speedKmh": 0.0,
-      "heading": 210.7,
-      "reportedAt": "2026-11-05T04:31:12.880831+00:00"
+      "lat": 1.2715783333333335,
+      "lon": 103.87044666666667,
+      "speedKmh": 0.7,
+      "heading": 253.8,
+      "reportedAt": "2026-11-05T05:31:13.186573+00:00"
     },
     {
       "kind": "ship",
@@ -391,11 +355,11 @@
       "mmsi": "563406000",
       "name": "BTS CALYPSO",
       "category": "unknown",
-      "lat": 1.2389833333333333,
-      "lon": 103.79780000000001,
-      "speedKmh": 0.2,
-      "heading": 25,
-      "reportedAt": "2026-11-05T05:15:43.752165+00:00"
+      "lat": 1.2393833333333333,
+      "lon": 103.79798333333333,
+      "speedKmh": 0.4,
+      "heading": 30,
+      "reportedAt": "2026-11-05T05:30:44.239095+00:00"
     },
     {
       "kind": "ship",
@@ -451,11 +415,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.2529933333333332,
-      "lon": 103.90576666666666,
+      "lat": 1.253025,
+      "lon": 103.90577499999999,
       "speedKmh": 0.0,
-      "heading": 298.9,
-      "reportedAt": "2026-11-05T05:16:16.923793+00:00"
+      "heading": 294.2,
+      "reportedAt": "2026-11-05T05:31:47.300361+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +456,66 @@
       "speedKmh": 0.0,
       "heading": 228.7,
       "reportedAt": "2026-11-05T05:16:32.808287+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538013104",
+      "mmsi": "538013104",
+      "name": "538013104",
+      "category": "unknown",
+      "lat": 1.2276516666666666,
+      "lon": 103.920175,
+      "speedKmh": 20.4,
+      "heading": 244.7,
+      "reportedAt": "2026-11-05T05:30:32.995537+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565173000",
+      "mmsi": "565173000",
+      "name": "AYER CHERDEK",
+      "category": "unknown",
+      "lat": 1.2803049999999998,
+      "lon": 103.88817666666667,
+      "speedKmh": 0.4,
+      "heading": 14.8,
+      "reportedAt": "2026-11-05T05:30:44.239027+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "305240000",
+      "mmsi": "305240000",
+      "name": "ASC LOTTI",
+      "category": "unknown",
+      "lat": 1.1878683333333333,
+      "lon": 103.84701666666666,
+      "speedKmh": 15.7,
+      "heading": 59.9,
+      "reportedAt": "2026-11-05T05:30:50.098211+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "370385000",
+      "mmsi": "370385000",
+      "name": "SPLENDOR KEELUNG",
+      "category": "unknown",
+      "lat": 1.2674666666666667,
+      "lon": 103.88293333333333,
+      "speedKmh": 13.1,
+      "heading": 120,
+      "reportedAt": "2026-11-05T05:30:56.512719+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563269100",
+      "mmsi": "563269100",
+      "name": "STELLAR OF MAJESTIC",
+      "category": "unknown",
+      "lat": 1.2592533333333333,
+      "lon": 103.80427333333334,
+      "speedKmh": 10.4,
+      "heading": 335.3,
+      "reportedAt": "2026-11-05T05:31:10.827512+00:00"
     }
   ],
   "error": null
