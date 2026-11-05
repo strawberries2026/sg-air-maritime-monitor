@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:02:03.528548+00:00",
+  "updatedAt": "2026-11-05T15:16:41.699025+00:00",
   "items": [
     {
       "kind": "ship",
@@ -91,11 +91,11 @@
       "mmsi": "636023458",
       "name": "ARRABBIATA",
       "category": "unknown",
-      "lat": 1.2290233333333334,
-      "lon": 103.91927333333334,
-      "speedKmh": 18.5,
-      "heading": 248,
-      "reportedAt": "2026-11-05T14:31:16.152884+00:00"
+      "lat": 1.2237616666666669,
+      "lon": 103.87527333333334,
+      "speedKmh": 2.6,
+      "heading": 260.2,
+      "reportedAt": "2026-11-05T15:16:06.603194+00:00"
     },
     {
       "kind": "ship",
@@ -156,6 +156,30 @@
       "speedKmh": 0.0,
       "heading": 113.2,
       "reportedAt": "2026-11-05T15:01:43.404383+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016070",
+      "mmsi": "636016070",
+      "name": "INDIAN SOLIDARITY",
+      "category": "unknown",
+      "lat": 1.2375016666666667,
+      "lon": 103.95195333333332,
+      "speedKmh": 12.4,
+      "heading": 255.6,
+      "reportedAt": "2026-11-05T15:16:14.152554+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "440257000",
+      "mmsi": "440257000",
+      "name": "GLOVIS STELLA",
+      "category": "unknown",
+      "lat": 1.284165,
+      "lon": 103.909445,
+      "speedKmh": 0.2,
+      "heading": 191.9,
+      "reportedAt": "2026-11-05T15:16:29.377021+00:00"
     }
   ],
   "error": null
