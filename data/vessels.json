@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:31:49.336436+00:00",
+  "updatedAt": "2026-11-05T15:46:43.902373+00:00",
   "items": [
     {
       "kind": "ship",
@@ -156,6 +156,54 @@
       "speedKmh": 0.0,
       "heading": 298.1,
       "reportedAt": "2026-11-05T15:31:23.859482+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "567226000",
+      "mmsi": "567226000",
+      "name": "TASCO AMATA",
+      "category": "unknown",
+      "lat": 1.2423666666666666,
+      "lon": 103.80003333333335,
+      "speedKmh": 0.0,
+      "heading": 152,
+      "reportedAt": "2026-11-05T15:45:32.762363+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563750000",
+      "mmsi": "563750000",
+      "name": "PSA SUSTAINABILITY",
+      "category": "unknown",
+      "lat": 1.2659449999999999,
+      "lon": 103.841135,
+      "speedKmh": 0.0,
+      "heading": 149.8,
+      "reportedAt": "2026-11-05T15:46:16.457020+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566842000",
+      "mmsi": "566842000",
+      "name": "HUMBER",
+      "category": "unknown",
+      "lat": 1.2235716666666667,
+      "lon": 103.78789166666667,
+      "speedKmh": 12.4,
+      "heading": 140.5,
+      "reportedAt": "2026-11-05T15:46:27.379092+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087130",
+      "mmsi": "563087130",
+      "name": "STL T6",
+      "category": "unknown",
+      "lat": 1.2463466666666667,
+      "lon": 103.86664,
+      "speedKmh": 0.2,
+      "heading": 7.9,
+      "reportedAt": "2026-11-05T15:46:39.704988+00:00"
     }
   ],
   "error": null
