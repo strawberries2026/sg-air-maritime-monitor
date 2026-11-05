@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T13:46:43.643834+00:00",
+  "updatedAt": "2026-11-05T14:01:57.732150+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735966666666667,
-      "lon": 103.80138833333334,
+      "lat": 1.2735866666666666,
+      "lon": 103.80138000000001,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T12:46:01.303066+00:00"
+      "reportedAt": "2026-11-05T14:01:10.690328+00:00"
     },
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "563042900",
-      "mmsi": "563042900",
-      "name": "STRAITS INTEGRITY",
-      "category": "unknown",
-      "lat": 1.2496383333333334,
-      "lon": 103.87066833333333,
-      "speedKmh": 1.1,
-      "heading": 261.5,
-      "reportedAt": "2026-11-05T12:31:39.739164+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565587000",
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
@@ -84,42 +72,6 @@
       "speedKmh": 0.0,
       "heading": 220.9,
       "reportedAt": "2026-11-05T13:16:04.659463+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012125",
-      "mmsi": "538012125",
-      "name": "STI MOXIE",
-      "category": "unknown",
-      "lat": 1.2351266666666667,
-      "lon": 103.80503999999999,
-      "speedKmh": 0.0,
-      "heading": 351.8,
-      "reportedAt": "2026-11-05T12:30:59.314169+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525109025",
-      "mmsi": "525109025",
-      "name": "S.PANGKALAN BRANDAN",
-      "category": "unknown",
-      "lat": 1.2597733333333332,
-      "lon": 103.84076499999999,
-      "speedKmh": 0.0,
-      "heading": 354.3,
-      "reportedAt": "2026-11-05T12:31:32.872832+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563088620",
-      "mmsi": "563088620",
-      "name": "NOVA WAVE",
-      "category": "unknown",
-      "lat": 1.2629566666666667,
-      "lon": 103.81655500000001,
-      "speedKmh": 2.6,
-      "heading": 288,
-      "reportedAt": "2026-11-05T12:31:54.442670+00:00"
     },
     {
       "kind": "ship",
@@ -199,11 +151,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2828133333333334,
-      "lon": 103.89248500000001,
+      "lat": 1.2823566666666666,
+      "lon": 103.89334166666666,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T13:00:49.436641+00:00"
+      "reportedAt": "2026-11-05T14:01:46.940702+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +228,42 @@
       "speedKmh": 4.6,
       "heading": 331,
       "reportedAt": "2026-11-05T13:31:42.576614+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538010075",
+      "mmsi": "538010075",
+      "name": "THAI CHEMI",
+      "category": "unknown",
+      "lat": 1.2168833333333333,
+      "lon": 103.89244000000001,
+      "speedKmh": 27.0,
+      "heading": 245.9,
+      "reportedAt": "2026-11-05T14:01:10.940627+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538009521",
+      "mmsi": "538009521",
+      "name": "AEGEAN SPIRIT",
+      "category": "unknown",
+      "lat": 1.2586983333333335,
+      "lon": 103.8802,
+      "speedKmh": 5.6,
+      "heading": 40.6,
+      "reportedAt": "2026-11-05T14:01:26.491459+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564654000",
+      "mmsi": "564654000",
+      "name": "PIL0T GP43",
+      "category": "unknown",
+      "lat": 1.257095,
+      "lon": 103.84116166666666,
+      "speedKmh": 0.2,
+      "heading": 262.3,
+      "reportedAt": "2026-11-05T14:01:41.970978+00:00"
     }
   ],
   "error": null
