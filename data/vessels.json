@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T14:31:49.841130+00:00",
+  "updatedAt": "2026-11-05T14:46:42.762312+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,18 +15,6 @@
     },
     {
       "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.24623,
-      "lon": 103.86658666666668,
-      "speedKmh": 0.0,
-      "heading": 268.4,
-      "reportedAt": "2026-11-05T13:16:36.087642+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565587000",
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
@@ -36,18 +24,6 @@
       "speedKmh": 0.0,
       "heading": 178.5,
       "reportedAt": "2026-11-05T13:30:45.930229+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "403297001",
-      "mmsi": "403297001",
-      "name": "BAHRI DIRIYAH",
-      "category": "unknown",
-      "lat": 1.2701566666666666,
-      "lon": 103.90909166666667,
-      "speedKmh": 0.0,
-      "heading": 220.9,
-      "reportedAt": "2026-11-05T13:16:04.659463+00:00"
     },
     {
       "kind": "ship",
@@ -163,11 +139,23 @@
       "mmsi": "352004846",
       "name": "STR VIGOR",
       "category": "unknown",
-      "lat": 1.2662466666666667,
-      "lon": 103.88671500000001,
-      "speedKmh": 0.6,
-      "heading": 50.2,
-      "reportedAt": "2026-11-05T14:31:26.102465+00:00"
+      "lat": 1.2671516666666667,
+      "lon": 103.88699166666667,
+      "speedKmh": 0.4,
+      "heading": 346.1,
+      "reportedAt": "2026-11-05T14:46:36.769676+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "374044000",
+      "mmsi": "374044000",
+      "name": "SUNRISE SPRING",
+      "category": "unknown",
+      "lat": 1.2806333333333333,
+      "lon": 103.89814333333334,
+      "speedKmh": 0.2,
+      "heading": 337,
+      "reportedAt": "2026-11-05T14:46:18.489756+00:00"
     }
   ],
   "error": null
