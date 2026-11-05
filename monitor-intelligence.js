@@ -11,11 +11,11 @@
   const FRESHNESS_LIMIT_MS = 45 * 60 * 1000;
   function feedHealth(feed, nowMs = Date.now()) {
     const updated = feed && typeof feed.updatedAt === 'string' ? Date.parse(feed.updatedAt) : NaN;
+    if (feed && feed.error) return { status: 'error', ageMinutes: null, reason: String(feed.error) };
     if (!Number.isFinite(updated)) return { status: 'unknown', ageMinutes: null, reason: 'Missing or invalid updatedAt' };
     const ageMs = nowMs - updated;
     if (ageMs < -2 * 60 * 1000) return { status: 'unknown', ageMinutes: null, reason: 'Timestamp is in the future' };
     const ageMinutes = Math.max(0, Math.floor(ageMs / 60000));
-    if (feed.error) return { status: 'error', ageMinutes, reason: String(feed.error) };
     return { status: ageMs > FRESHNESS_LIMIT_MS ? 'stale' : 'fresh', ageMinutes, reason: ageMs > FRESHNESS_LIMIT_MS ? 'Feed exceeds 45 minutes' : 'Within 45 minutes' };
   }
   function evaluateFeeds(aircraft, vessels, nowMs = Date.now()) {
@@ -32,7 +32,11 @@
     const result = [];
     for (const kind of ['aircraft', 'vessels']) {
       const feed = health[kind];
-      if (!feed || feed.status === 'unknown') continue;
+      if (!feed) continue;
+      if (feed.status === 'unknown') {
+        result.push({ severity: 'warning', source: kind, message: 'Feed freshness cannot be verified' });
+        continue;
+      }
       if (feed.status === 'stale' || feed.status === 'error')
         result.push({ severity: 'warning', source: kind, message: feed.reason });
       // Coverage changes are advisory only; partial public feeds cannot prove traffic anomalies.
