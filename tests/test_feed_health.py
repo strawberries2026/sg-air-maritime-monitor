@@ -21,6 +21,8 @@ class FeedHealthTests(unittest.TestCase):
             self.assertEqual(check(path, now, 45)["status"], "stale")
             path.write_text('{"updatedAt":"2026-11-05T23:30:00Z","items":[],"error":null}')
             self.assertEqual(check(path, now, 45)["status"], "current")
+            path.write_text('{"updatedAt":"2026-11-05T23:30:00Z","error":"provider timeout"}')
+            self.assertEqual(check(path, now, 45)["status"], "error")
             path.write_text('{"other":"no timestamp"}')
             self.assertEqual(check(path, now, 45)["status"], "unknown")
 
