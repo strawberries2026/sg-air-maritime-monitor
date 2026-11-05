@@ -82,9 +82,25 @@ const airlineHints={SIA:'Singapore Airlines',SCO:'Scoot',TGW:'Scoot',AWQ:'Indone
 const airlineHint=x=>{if(x.kind!=='air')return null;const call=String(x.callsign||x.name||'').toUpperCase().trim();const prefix=call.slice(0,3);return /^[A-Z]{3}[0-9A-Z]+$/.test(call)&&airlineHints[prefix]?airlineHints[prefix]:null};
 let recordLimit=12;
 const recent=t=>t&&Number.isFinite(Date.parse(t))&&Date.now()-Date.parse(t)<90*60000&&Date.parse(t)<=Date.now()+60000;
+// Geographic view filter is a monitoring aid, not a maritime boundary.
+let maritimeView='singapore';
+const pedraCentre=[1.330,104.407];
+function inMaritimeView(x){
+ if(x.kind!=='ship')return maritimeView!=='pedra';
+ if(maritimeView==='pedra')return map.distance([x.lat,x.lon],pedraCentre)<=20000;
+ return x.lat>=0.9&&x.lat<=1.55&&x.lon>=103.45&&x.lon<=104.15;
+}
 function render(){
+ const sgButton=document.getElementById('singaporeMapButton'),pbButton=document.getElementById('pedraBrancaButton');
+ if(sgButton)sgButton.setAttribute('aria-pressed',String(maritimeView==='singapore'));
+ if(pbButton)pbButton.setAttribute('aria-pressed',String(maritimeView==='pedra'));
+ const maritimeHealthy=lastFeeds?.s&&!lastFeeds.s.error&&freshness(lastFeeds.s.updated).ok;
+ const vesselCount=document.getElementById('shipCount');if(vesselCount)vesselCount.textContent=maritimeHealthy?ships.filter(inMaritimeView).length:'—';
+ const coverage=document.getElementById('maritimeCoverageNotice');
+ if(coverage){const feed=lastFeeds?.s;const healthy=feed&&!feed.error&&freshness(feed.updated).ok;const count=ships.filter(inMaritimeView).length;const area=maritimeView==='pedra'?'within 20 km of Pedra Branca':'in the Singapore vicinity';coverage.textContent=!healthy?'⚠ Maritime feed is unavailable or stale. Vessel positions and counts cannot be verified.':('⚠ Partial AIS coverage: '+count+' vessel observation(s) '+area+'; '+ships.length+' reports in the wider collection area. Positions may be delayed. Not a complete live traffic count.');}
  const mode=el('mode').value,category=el('category').value,q=el('search').value.toLowerCase().trim();
- const rows=[...(mode==='ship'?[]:air),...(mode==='air'?[]:ships)].filter(x=>(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
+ const maritimeFeedOk=lastFeeds?.s&&!lastFeeds.s.error&&freshness(lastFeeds.s.updated).ok;
+ const rows=[...(mode==='ship'?[]:air),...(mode==='air'||!maritimeFeedOk?[]:ships)].filter(x=>inMaritimeView(x)&&(category==='all'||x.category===category)&&(!q||[x.id,x.name,x.callsign,x.icao24,x.mmsi].some(v=>String(v||'').toLowerCase().includes(q))));
  layers.clearLayers();markers.clear();trailLayer.clearLayers();
  for(const x of rows){
   const key=x.kind+':'+x.id;
@@ -209,7 +225,7 @@ async function load(){
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
   el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
-  el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note)note.textContent='⚠ Partial AIS coverage: '+ships.length+' distinct vessel observation(s) within the past 90 minutes. These are sampled reports, NOT all vessels in Singapore waters. Positions may be delayed; tap a vessel to see its last report.';
+  el('updated').textContent='Checked '+sgt(new Date().toISOString());
   await loadHistory();updateHealth();render();
   if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+((a.error||s.error)?'Feed error; see status below':'Latest published snapshots loaded');
  }catch(error){if(homeStatus)homeStatus.textContent='Refresh unsuccessful: '+error.message;console.warn('Snapshot refresh failed',error);
@@ -223,8 +239,8 @@ el('recordSort').addEventListener('change',render);
 el('showMoreRecords').addEventListener('click',()=>{recordLimit+=20;render()});
 el('showLessRecords').addEventListener('click',()=>{recordLimit=12;render();el('recordCount').scrollIntoView({behavior:'smooth',block:'center'})});el('refresh').addEventListener('click',load);
 const pedra=[1.330,104.407];
-el('pedraBrancaButton').addEventListener('click',()=>{el('mode').value='ship';el('category').value='all';el('search').value='';recordLimit=12;render();syncMapModeButtons();map.invalidateSize();map.setView(pedra,13,{animate:false});pedraMarker.openPopup();const nearby=ships.filter(x=>map.distance([x.lat,x.lon],pedra)<=20000);const feed=lastFeeds?.s;el('pedraBrancaStatus').textContent=feed?.error?'Maritime feed error: '+feed.error:!feed||!freshness(feed.updated).ok?'Maritime snapshot is stale or unavailable; vessel locations cannot be verified.':nearby.length?nearby.length+' vessel report(s) within 20 km of Pedra Branca in the latest available AIS snapshot. Coverage is incomplete.':'No vessel reports within 20 km of Pedra Branca in the latest available AIS snapshot. This does not mean the area is empty.';el('map').scrollIntoView({behavior:'smooth',block:'start'});});
-el('singaporeMapButton').addEventListener('click',()=>{map.setView([1.3521,103.8198],9);el('mode').value='all';render();syncMapModeButtons();el('pedraBrancaStatus').textContent='Singapore overview restored.';});
+el('pedraBrancaButton').addEventListener('click',()=>{maritimeView='pedra';el('mode').value='ship';el('category').value='all';el('search').value='';recordLimit=12;render();syncMapModeButtons();map.invalidateSize();map.setView(pedra,13,{animate:false});pedraMarker.openPopup();const nearby=ships.filter(x=>map.distance([x.lat,x.lon],pedra)<=20000);const feed=lastFeeds?.s;el('pedraBrancaStatus').textContent=feed?.error?'Maritime feed error: '+feed.error:!feed||!freshness(feed.updated).ok?'Maritime snapshot is stale or unavailable; vessel locations cannot be verified.':nearby.length?nearby.length+' vessel report(s) within 20 km of Pedra Branca in the latest available AIS snapshot. Coverage is incomplete.':'No vessel reports within 20 km of Pedra Branca in the latest available AIS snapshot. This does not mean the area is empty.';el('map').scrollIntoView({behavior:'smooth',block:'start'});});
+el('singaporeMapButton').addEventListener('click',()=>{maritimeView='singapore';map.setView([1.3521,103.8198],10);el('mode').value='all';render();syncMapModeButtons();el('pedraBrancaStatus').textContent='Singapore vicinity view restored. Display filter is illustrative, not a legal maritime boundary.';});
 syncMapModeButtons();load();setInterval(load,60000);setInterval(updateHealth,30000);
 
 // v1.4.0: optional flight number handoff to official airport information.
