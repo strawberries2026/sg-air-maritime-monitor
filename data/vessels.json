@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T07:01:56.793823+00:00",
+  "updatedAt": "2026-11-05T07:16:39.240232+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,30 +12,6 @@
       "speedKmh": 0.2,
       "heading": 138,
       "reportedAt": "2026-11-05T06:01:03.909152+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563034500",
-      "mmsi": "563034500",
-      "name": "QUEEN STAR 8",
-      "category": "unknown",
-      "lat": 1.2621816666666668,
-      "lon": 103.81947166666667,
-      "speedKmh": 0.0,
-      "heading": 155.8,
-      "reportedAt": "2026-11-05T05:46:21.937435+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566753000",
-      "mmsi": "566753000",
-      "name": "HAI SOON 33",
-      "category": "unknown",
-      "lat": 1.2776583333333333,
-      "lon": 103.89317333333334,
-      "speedKmh": 0.6,
-      "heading": 220.1,
-      "reportedAt": "2026-11-05T05:45:35.150170+00:00"
     },
     {
       "kind": "ship",
@@ -55,35 +31,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2813733333333335,
-      "lon": 103.892165,
-      "speedKmh": 0.2,
+      "lat": 1.2821716666666667,
+      "lon": 103.89183833333333,
+      "speedKmh": 0.4,
       "heading": null,
-      "reportedAt": "2026-11-05T06:15:44.585468+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477895900",
-      "mmsi": "477895900",
-      "name": "SNL HAIKOU",
-      "category": "unknown",
-      "lat": 1.2348766666666668,
-      "lon": 103.97051333333334,
-      "speedKmh": 28.9,
-      "heading": 75.7,
-      "reportedAt": "2026-11-05T05:46:39.016336+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "241614000",
-      "mmsi": "241614000",
-      "name": "MINERVA OLYMPIA",
-      "category": "unknown",
-      "lat": 1.25318,
-      "lon": 103.90563333333333,
-      "speedKmh": 0.2,
-      "heading": 247.7,
-      "reportedAt": "2026-11-05T05:45:57.503643+00:00"
+      "reportedAt": "2026-11-05T07:15:43.427442+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +283,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.273565,
-      "lon": 103.80137666666666,
+      "lat": 1.27355,
+      "lon": 103.80136666666667,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T06:34:38.420291+00:00"
+      "reportedAt": "2026-11-05T07:16:28.283517+00:00"
     },
     {
       "kind": "ship",
@@ -499,11 +451,11 @@
       "mmsi": "566687000",
       "name": "STRAITS HARMONY",
       "category": "unknown",
-      "lat": 1.2724616666666668,
-      "lon": 103.91634166666667,
+      "lat": 1.258115,
+      "lon": 103.89513000000001,
       "speedKmh": 12.4,
-      "heading": 235.2,
-      "reportedAt": "2026-11-05T07:01:49.171657+00:00"
+      "heading": 243.8,
+      "reportedAt": "2026-11-05T07:15:30.279022+00:00"
     },
     {
       "kind": "ship",
@@ -516,6 +468,66 @@
       "speedKmh": 7.4,
       "heading": 317.2,
       "reportedAt": "2026-11-05T07:01:51.026879+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565173000",
+      "mmsi": "565173000",
+      "name": "AYER CHERDEK",
+      "category": "unknown",
+      "lat": 1.2796316666666667,
+      "lon": 103.88804333333333,
+      "speedKmh": 0.2,
+      "heading": 138.6,
+      "reportedAt": "2026-11-05T07:15:25.448635+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566474000",
+      "mmsi": "566474000",
+      "name": "STRAITS ORACLE",
+      "category": "unknown",
+      "lat": 1.1756183333333332,
+      "lon": 103.75307500000001,
+      "speedKmh": 0.0,
+      "heading": 147.4,
+      "reportedAt": "2026-11-05T07:15:51.445567+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019213",
+      "mmsi": "636019213",
+      "name": "MSC FAITH",
+      "category": "unknown",
+      "lat": 1.1734183333333335,
+      "lon": 103.76678,
+      "speedKmh": 0.0,
+      "heading": 219,
+      "reportedAt": "2026-11-05T07:15:58.006432+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533000313",
+      "mmsi": "533000313",
+      "name": "SJ SATU",
+      "category": "unknown",
+      "lat": 1.2224,
+      "lon": 103.79010166666667,
+      "speedKmh": 10.9,
+      "heading": 148.2,
+      "reportedAt": "2026-11-05T07:16:05.392005+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477139900",
+      "mmsi": "477139900",
+      "name": "COSCO KILIMANJARO",
+      "category": "unknown",
+      "lat": 1.21106,
+      "lon": 103.81126666666667,
+      "speedKmh": 13.5,
+      "heading": 286.8,
+      "reportedAt": "2026-11-05T07:16:31.885262+00:00"
     }
   ],
   "error": null
