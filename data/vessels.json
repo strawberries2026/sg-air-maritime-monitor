@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T13:16:41.042885+00:00",
+  "updatedAt": "2026-11-05T13:31:50.940715+00:00",
   "items": [
     {
       "kind": "ship",
@@ -63,66 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "566474000",
-      "mmsi": "566474000",
-      "name": "STRAITS ORACLE",
-      "category": "unknown",
-      "lat": 1.24022,
-      "lon": 103.80662000000001,
-      "speedKmh": 0.4,
-      "heading": 95.4,
-      "reportedAt": "2026-11-05T12:00:58.877470+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566133000",
-      "mmsi": "566133000",
-      "name": "RESILIENT NN23",
-      "category": "unknown",
-      "lat": 1.232325,
-      "lon": 103.79049499999999,
-      "speedKmh": 8.3,
-      "heading": 230.3,
-      "reportedAt": "2026-11-05T12:01:04.023582+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563034500",
-      "mmsi": "563034500",
-      "name": "QUEEN STAR 8",
-      "category": "unknown",
-      "lat": 1.24878,
-      "lon": 103.81207833333333,
-      "speedKmh": 20.7,
-      "heading": 135.3,
-      "reportedAt": "2026-11-05T12:01:04.600164+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "258872000",
-      "mmsi": "258872000",
-      "name": "HOEGH TRAPPER",
-      "category": "unknown",
-      "lat": 1.2501666666666666,
-      "lon": 103.8875,
-      "speedKmh": 1.1,
-      "heading": 248.7,
-      "reportedAt": "2026-11-05T12:01:11.164774+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119095",
-      "mmsi": "525119095",
-      "name": "ARTEMIS",
-      "category": "unknown",
-      "lat": 1.2655166666666666,
-      "lon": 103.89532,
-      "speedKmh": 0.0,
-      "heading": 134.7,
-      "reportedAt": "2026-11-05T12:01:16.090331+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563327300",
       "mmsi": "563327300",
       "name": "YM WORTHINESS",
@@ -132,42 +72,6 @@
       "speedKmh": 13.9,
       "heading": 325.1,
       "reportedAt": "2026-11-05T12:16:20.658958+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563323700",
-      "mmsi": "563323700",
-      "name": "MAJESTIC SERENITY",
-      "category": "unknown",
-      "lat": 1.263055,
-      "lon": 103.81942333333333,
-      "speedKmh": 0.0,
-      "heading": 195.2,
-      "reportedAt": "2026-11-05T12:01:26.036142+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563021430",
-      "mmsi": "563021430",
-      "name": "PILOT GP54",
-      "category": "unknown",
-      "lat": 1.2571416666666666,
-      "lon": 103.84114500000001,
-      "speedKmh": 0.2,
-      "heading": 55.6,
-      "reportedAt": "2026-11-05T12:01:35.728036+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011927",
-      "mmsi": "538011927",
-      "name": "DHT IMPALA",
-      "category": "unknown",
-      "lat": 1.1682549999999998,
-      "lon": 103.79830166666667,
-      "speedKmh": 19.3,
-      "heading": 62.7,
-      "reportedAt": "2026-11-05T12:01:39.449731+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +127,11 @@
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
       "category": "unknown",
-      "lat": 1.2626783333333333,
-      "lon": 103.82850666666667,
+      "lat": 1.2626583333333334,
+      "lon": 103.82851166666666,
       "speedKmh": 0.0,
       "heading": 178.5,
-      "reportedAt": "2026-11-05T12:45:56.068781+00:00"
+      "reportedAt": "2026-11-05T13:30:45.930229+00:00"
     },
     {
       "kind": "ship",
@@ -432,6 +336,30 @@
       "speedKmh": 0.0,
       "heading": 18,
       "reportedAt": "2026-11-05T13:01:44.608732+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563066530",
+      "mmsi": "563066530",
+      "name": "PSA POLARIS YS50",
+      "category": "unknown",
+      "lat": 1.247925,
+      "lon": 103.782775,
+      "speedKmh": 4.1,
+      "heading": 334.2,
+      "reportedAt": "2026-11-05T13:31:27.961178+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020437",
+      "mmsi": "636020437",
+      "name": "IRENES RAY",
+      "category": "unknown",
+      "lat": 1.2484666666666666,
+      "lon": 103.78215,
+      "speedKmh": 4.6,
+      "heading": 331,
+      "reportedAt": "2026-11-05T13:31:42.576614+00:00"
     }
   ],
   "error": null
