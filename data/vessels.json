@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T18:31:50.155557+00:00",
+  "updatedAt": "2026-11-05T18:46:39.770023+00:00",
   "items": [
     {
       "kind": "ship",
@@ -24,30 +24,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-05T17:30:50.294839+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563011000",
-      "mmsi": "563011000",
-      "name": "KOTA NANHAI",
-      "category": "unknown",
-      "lat": 1.2652333333333334,
-      "lon": 103.83425000000001,
-      "speedKmh": 2.2,
-      "heading": 250,
-      "reportedAt": "2026-11-05T17:15:55.955003+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563074930",
-      "mmsi": "563074930",
-      "name": "INFINITI  VIRTUS",
-      "category": "unknown",
-      "lat": 1.2091133333333335,
-      "lon": 103.80342,
-      "speedKmh": 8.9,
-      "heading": 122.4,
-      "reportedAt": "2026-11-05T17:01:53.141240+00:00"
     },
     {
       "kind": "ship",
@@ -99,18 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "566717000",
-      "mmsi": "566717000",
-      "name": "MARINA ARIEL",
-      "category": "unknown",
-      "lat": 1.2632249999999998,
-      "lon": 103.846345,
-      "speedKmh": 0.0,
-      "heading": 298.1,
-      "reportedAt": "2026-11-05T17:15:44.808774+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563233500",
       "mmsi": "563233500",
       "name": "ENERGY LUMINA",
@@ -120,18 +84,6 @@
       "speedKmh": 0.0,
       "heading": 171.1,
       "reportedAt": "2026-11-05T18:00:49.280978+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413369440",
-      "mmsi": "413369440",
-      "name": "LH HOPE",
-      "category": "unknown",
-      "lat": 1.2241966666666668,
-      "lon": 103.87595,
-      "speedKmh": 7.0,
-      "heading": 290.8,
-      "reportedAt": "2026-11-05T17:16:16.649468+00:00"
     },
     {
       "kind": "ship",
@@ -396,6 +348,78 @@
       "speedKmh": 17.8,
       "heading": 45.9,
       "reportedAt": "2026-11-05T18:31:43.631796+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004846",
+      "mmsi": "352004846",
+      "name": "STR VIGOR",
+      "category": "unknown",
+      "lat": 1.268365,
+      "lon": 103.88665333333333,
+      "speedKmh": 0.2,
+      "heading": 178.7,
+      "reportedAt": "2026-11-05T18:45:25.244266+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "257447000",
+      "mmsi": "257447000",
+      "name": "STAVANGER PEARL",
+      "category": "unknown",
+      "lat": 1.1449866666666668,
+      "lon": 103.77948166666667,
+      "speedKmh": 19.4,
+      "heading": 52.7,
+      "reportedAt": "2026-11-05T18:45:42.497408+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414276000",
+      "mmsi": "414276000",
+      "name": "CHANG RONG KOU",
+      "category": "unknown",
+      "lat": 1.2673233333333334,
+      "lon": 103.891495,
+      "speedKmh": 0.0,
+      "heading": 228.6,
+      "reportedAt": "2026-11-05T18:45:48.691677+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086930",
+      "mmsi": "563086930",
+      "name": "PSA PISCES",
+      "category": "unknown",
+      "lat": 1.254405,
+      "lon": 103.78616666666667,
+      "speedKmh": 7.4,
+      "heading": 233.3,
+      "reportedAt": "2026-11-05T18:45:56.234932+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525301513",
+      "mmsi": "525301513",
+      "name": "TB LL DODI",
+      "category": "unknown",
+      "lat": 1.2604,
+      "lon": 103.84023333333333,
+      "speedKmh": 0.0,
+      "heading": 164.2,
+      "reportedAt": "2026-11-05T18:46:02.930067+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.2758933333333333,
+      "lon": 103.91017166666667,
+      "speedKmh": 0.0,
+      "heading": 135.9,
+      "reportedAt": "2026-11-05T18:46:04.637521+00:00"
     }
   ],
   "error": null
