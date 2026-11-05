@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T15:16:41.699025+00:00",
+  "updatedAt": "2026-11-05T15:31:49.336436+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "5631101",
-      "mmsi": "5631101",
-      "name": "PSAB",
-      "category": "unknown",
-      "lat": 1.2735866666666666,
-      "lon": 103.80138000000001,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-05T14:01:10.690328+00:00"
-    },
     {
       "kind": "ship",
       "id": "668116289",
@@ -24,42 +12,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-05T15:01:21.728504+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010075",
-      "mmsi": "538010075",
-      "name": "THAI CHEMI",
-      "category": "unknown",
-      "lat": 1.2168833333333333,
-      "lon": 103.89244000000001,
-      "speedKmh": 27.0,
-      "heading": 245.9,
-      "reportedAt": "2026-11-05T14:01:10.940627+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538009521",
-      "mmsi": "538009521",
-      "name": "AEGEAN SPIRIT",
-      "category": "unknown",
-      "lat": 1.2586983333333335,
-      "lon": 103.8802,
-      "speedKmh": 5.6,
-      "heading": 40.6,
-      "reportedAt": "2026-11-05T14:01:26.491459+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564654000",
-      "mmsi": "564654000",
-      "name": "PIL0T GP43",
-      "category": "unknown",
-      "lat": 1.257095,
-      "lon": 103.84116166666666,
-      "speedKmh": 0.2,
-      "heading": 262.3,
-      "reportedAt": "2026-11-05T14:01:41.970978+00:00"
     },
     {
       "kind": "ship",
@@ -180,6 +132,30 @@
       "speedKmh": 0.2,
       "heading": 191.9,
       "reportedAt": "2026-11-05T15:16:29.377021+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019213",
+      "mmsi": "636019213",
+      "name": "MSC FAITH",
+      "category": "unknown",
+      "lat": 1.1738416666666667,
+      "lon": 103.76658,
+      "speedKmh": 0.2,
+      "heading": 135.3,
+      "reportedAt": "2026-11-05T15:31:00.246164+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566717000",
+      "mmsi": "566717000",
+      "name": "MARINA ARIEL",
+      "category": "unknown",
+      "lat": 1.2632466666666666,
+      "lon": 103.84630333333332,
+      "speedKmh": 0.0,
+      "heading": 298.1,
+      "reportedAt": "2026-11-05T15:31:23.859482+00:00"
     }
   ],
   "error": null
