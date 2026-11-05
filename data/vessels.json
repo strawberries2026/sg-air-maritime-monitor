@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:31:52.520072+00:00",
+  "updatedAt": "2026-11-05T17:46:40.249186+00:00",
   "items": [
     {
       "kind": "ship",
@@ -224,10 +224,10 @@
       "name": "S.PANGKALAN BRANDAN",
       "category": "unknown",
       "lat": 1.2597433333333332,
-      "lon": 103.84076333333334,
+      "lon": 103.84077833333335,
       "speedKmh": 0.0,
-      "heading": 41.8,
-      "reportedAt": "2026-11-05T17:01:32.920177+00:00"
+      "heading": 221.4,
+      "reportedAt": "2026-11-05T17:46:32.959842+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +295,11 @@
       "mmsi": "563233500",
       "name": "ENERGY LUMINA",
       "category": "unknown",
-      "lat": 1.2717466666666666,
-      "lon": 103.92260833333333,
-      "speedKmh": 2.4,
-      "heading": 331.6,
-      "reportedAt": "2026-11-05T17:16:10.912457+00:00"
+      "lat": 1.270705,
+      "lon": 103.91786333333333,
+      "speedKmh": 0.6,
+      "heading": 131.1,
+      "reportedAt": "2026-11-05T17:46:19.879917+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +384,42 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-05T17:31:37.645604+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477958300",
+      "mmsi": "477958300",
+      "name": "OOCL HOUSTON",
+      "category": "unknown",
+      "lat": 1.26595,
+      "lon": 103.7744,
+      "speedKmh": 1.5,
+      "heading": 258,
+      "reportedAt": "2026-11-05T17:46:03.222752+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563038700",
+      "mmsi": "563038700",
+      "name": "MARINE SELENA",
+      "category": "unknown",
+      "lat": 1.2439583333333333,
+      "lon": 103.86608333333334,
+      "speedKmh": 11.9,
+      "heading": 305.7,
+      "reportedAt": "2026-11-05T17:46:23.290239+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023332",
+      "mmsi": "636023332",
+      "name": "THOR HIGHWAY",
+      "category": "unknown",
+      "lat": 1.16956,
+      "lon": 103.75199500000001,
+      "speedKmh": 0.0,
+      "heading": 163.3,
+      "reportedAt": "2026-11-05T17:46:24.740230+00:00"
     }
   ],
   "error": null
