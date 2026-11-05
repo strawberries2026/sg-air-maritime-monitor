@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T22:31:48.409489+00:00",
+  "updatedAt": "2026-11-05T22:46:38.987577+00:00",
   "items": [
     {
       "kind": "ship",
@@ -79,11 +79,11 @@
       "mmsi": "413369440",
       "name": "LH HOPE",
       "category": "unknown",
-      "lat": 1.2630216666666667,
-      "lon": 103.88785166666666,
+      "lat": 1.26251,
+      "lon": 103.88797833333334,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T21:45:57.138459+00:00"
+      "reportedAt": "2026-11-05T22:46:27.252643+00:00"
     },
     {
       "kind": "ship",
@@ -96,18 +96,6 @@
       "speedKmh": 0.4,
       "heading": 151.8,
       "reportedAt": "2026-11-05T21:45:36.119301+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119038",
-      "mmsi": "525119038",
-      "name": "PRIMA TANGGUH LVI",
-      "category": "unknown",
-      "lat": 1.2294116666666668,
-      "lon": 103.81222166666666,
-      "speedKmh": 0.0,
-      "heading": 225.5,
-      "reportedAt": "2026-11-05T21:01:51.438694+00:00"
     },
     {
       "kind": "ship",
@@ -132,18 +120,6 @@
       "speedKmh": 1.9,
       "heading": 43,
       "reportedAt": "2026-11-05T21:31:22.536910+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564886000",
-      "mmsi": "564886000",
-      "name": "GRAZIA COSULICH",
-      "category": "unknown",
-      "lat": 1.2532783333333335,
-      "lon": 103.91899666666667,
-      "speedKmh": 0.0,
-      "heading": 300.8,
-      "reportedAt": "2026-11-05T21:16:35.409173+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +516,54 @@
       "speedKmh": 20.9,
       "heading": 65.4,
       "reportedAt": "2026-11-05T22:31:46.360192+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636025088",
+      "mmsi": "636025088",
+      "name": "YORK DOWNS",
+      "category": "unknown",
+      "lat": 1.2191966666666665,
+      "lon": 103.80044333333333,
+      "speedKmh": 0.0,
+      "heading": 213.2,
+      "reportedAt": "2026-11-05T22:45:25.780641+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477850100",
+      "mmsi": "477850100",
+      "name": "PINE EXPRESS",
+      "category": "unknown",
+      "lat": 1.2298499999999999,
+      "lon": 103.81773333333334,
+      "speedKmh": 0.6,
+      "heading": 105,
+      "reportedAt": "2026-11-05T22:45:55.798327+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "232060236",
+      "mmsi": "232060236",
+      "name": "PACIFIC GUILLEMOT",
+      "category": "unknown",
+      "lat": 1.2207466666666666,
+      "lon": 103.76204833333333,
+      "speedKmh": 12.4,
+      "heading": 107.7,
+      "reportedAt": "2026-11-05T22:46:17.847166+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006503",
+      "mmsi": "538006503",
+      "name": "YANKUL SILVER",
+      "category": "unknown",
+      "lat": 1.2612266666666665,
+      "lon": 103.98346666666666,
+      "speedKmh": 10.0,
+      "heading": 260.5,
+      "reportedAt": "2026-11-05T22:46:32.667611+00:00"
     }
   ],
   "error": null
