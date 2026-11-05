@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T11:31:50.679722+00:00",
+  "updatedAt": "2026-11-05T11:46:39.809045+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,23 +19,11 @@
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
       "category": "unknown",
-      "lat": 1.2713949999999998,
-      "lon": 103.89181333333333,
-      "speedKmh": 0.0,
+      "lat": 1.2713183333333333,
+      "lon": 103.89175333333333,
+      "speedKmh": 0.2,
       "heading": null,
-      "reportedAt": "2026-11-05T11:16:37.521408+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "244130525",
-      "mmsi": "244130525",
-      "name": "FWN ARCTIC",
-      "category": "unknown",
-      "lat": 1.27484,
-      "lon": 103.89059999999999,
-      "speedKmh": 1.3,
-      "heading": 198.8,
-      "reportedAt": "2026-11-05T10:15:29.269068+00:00"
+      "reportedAt": "2026-11-05T11:46:17.049490+00:00"
     },
     {
       "kind": "ship",
@@ -51,30 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "538011716",
-      "mmsi": "538011716",
-      "name": "PACIFIC SPIRIT",
-      "category": "unknown",
-      "lat": 1.2548866666666667,
-      "lon": 103.91174833333334,
-      "speedKmh": 0.4,
-      "heading": 288,
-      "reportedAt": "2026-11-05T10:01:53.862539+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "414713000",
-      "mmsi": "414713000",
-      "name": "XIN HANG ZHOU",
-      "category": "unknown",
-      "lat": 1.2093033333333334,
-      "lon": 103.800665,
-      "speedKmh": 9.6,
-      "heading": 139.7,
-      "reportedAt": "2026-11-05T10:15:35.827792+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "5631101",
       "mmsi": "5631101",
       "name": "PSAB",
@@ -84,30 +48,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-05T11:01:48.043911+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "403297001",
-      "mmsi": "403297001",
-      "name": "BAHRI DIRIYAH",
-      "category": "unknown",
-      "lat": 1.2700033333333332,
-      "lon": 103.90905333333333,
-      "speedKmh": 0.0,
-      "heading": 9.8,
-      "reportedAt": "2026-11-05T10:16:03.031387+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563253500",
-      "mmsi": "563253500",
-      "name": "MARINE AZURE",
-      "category": "unknown",
-      "lat": 1.202015,
-      "lon": 103.83774166666667,
-      "speedKmh": 10.7,
-      "heading": 73.8,
-      "reportedAt": "2026-11-05T10:16:18.807324+00:00"
     },
     {
       "kind": "ship",
@@ -211,11 +151,11 @@
       "mmsi": "255803760",
       "name": "MSC GREENWICH",
       "category": "unknown",
-      "lat": 1.24424,
-      "lon": 103.89073833333333,
+      "lat": 1.2440083333333334,
+      "lon": 103.89083833333333,
       "speedKmh": 0.0,
-      "heading": 129.5,
-      "reportedAt": "2026-11-05T10:45:36.778455+00:00"
+      "heading": 15.1,
+      "reportedAt": "2026-11-05T11:45:36.811050+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +223,11 @@
       "mmsi": "565951000",
       "name": "RELIANT CS01",
       "category": "unknown",
-      "lat": 1.2638150000000001,
-      "lon": 103.83636333333334,
+      "lat": 1.2637983333333334,
+      "lon": 103.83636499999999,
       "speedKmh": 0.0,
       "heading": 161.3,
-      "reportedAt": "2026-11-05T11:00:59.220249+00:00"
+      "reportedAt": "2026-11-05T11:45:49.562659+00:00"
     },
     {
       "kind": "ship",
@@ -463,11 +403,35 @@
       "mmsi": "563042900",
       "name": "STRAITS INTEGRITY",
       "category": "unknown",
-      "lat": 1.2529866666666665,
-      "lon": 103.90609666666666,
+      "lat": 1.2529516666666667,
+      "lon": 103.90611833333334,
       "speedKmh": 0.0,
       "heading": 356.2,
-      "reportedAt": "2026-11-05T11:31:39.225237+00:00"
+      "reportedAt": "2026-11-05T11:46:00.133658+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "533048500",
+      "mmsi": "533048500",
+      "name": "ORKIM LEADER",
+      "category": "unknown",
+      "lat": 1.2395483333333333,
+      "lon": 103.79489333333332,
+      "speedKmh": 5.2,
+      "heading": 179.4,
+      "reportedAt": "2026-11-05T11:46:09.161824+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538013131",
+      "mmsi": "538013131",
+      "name": "RUBBLE I",
+      "category": "unknown",
+      "lat": 1.27139,
+      "lon": 103.876385,
+      "speedKmh": 0.0,
+      "heading": 295.9,
+      "reportedAt": "2026-11-05T11:46:20.753918+00:00"
     }
   ],
   "error": null
