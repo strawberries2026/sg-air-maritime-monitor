@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T02:16:39.635455+00:00",
+  "updatedAt": "2026-11-05T02:31:48.116708+00:00",
   "items": [
     {
       "kind": "ship",
@@ -31,11 +31,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.2402233333333332,
-      "lon": 103.892175,
-      "speedKmh": 11.5,
-      "heading": 50.3,
-      "reportedAt": "2026-11-05T01:16:06.635754+00:00"
+      "lat": 1.253215,
+      "lon": 103.90586499999999,
+      "speedKmh": 0.0,
+      "heading": 181.8,
+      "reportedAt": "2026-11-05T02:31:26.792000+00:00"
     },
     {
       "kind": "ship",
@@ -78,48 +78,12 @@
       "id": "636023595",
       "mmsi": "636023595",
       "name": "INVICTUS",
-      "category": "commercial",
-      "lat": 1.2629633333333332,
-      "lon": 103.92225,
-      "speedKmh": 0.0,
-      "heading": 151.9,
-      "reportedAt": "2026-11-05T01:15:26.381945+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566010000",
-      "mmsi": "566010000",
-      "name": "ANDROMEDA V",
       "category": "unknown",
-      "lat": 1.1283566666666667,
-      "lon": 103.757335,
-      "speedKmh": 23.9,
-      "heading": 42,
-      "reportedAt": "2026-11-05T01:01:03.570946+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563141000",
-      "mmsi": "563141000",
-      "name": "NOC 8",
-      "category": "unknown",
-      "lat": 1.2458500000000001,
-      "lon": 103.85033333333334,
-      "speedKmh": 10.4,
-      "heading": 58.8,
-      "reportedAt": "2026-11-05T01:01:08.091801+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "209171000",
-      "mmsi": "209171000",
-      "name": "LADYCHARM",
-      "category": "commercial",
-      "lat": 1.2424,
-      "lon": 103.89989999999999,
+      "lat": 1.2630716666666666,
+      "lon": 103.92234,
       "speedKmh": 0.0,
-      "heading": 36,
-      "reportedAt": "2026-11-05T01:01:41.445132+00:00"
+      "heading": 196.1,
+      "reportedAt": "2026-11-05T02:30:44.977876+00:00"
     },
     {
       "kind": "ship",
@@ -319,11 +283,11 @@
       "mmsi": "563086590",
       "name": "PSA SUCCESS CS10",
       "category": "unknown",
-      "lat": 1.2543283333333333,
-      "lon": 103.79044999999999,
-      "speedKmh": 2.4,
-      "heading": 75,
-      "reportedAt": "2026-11-05T02:16:01.323603+00:00"
+      "lat": 1.2481433333333334,
+      "lon": 103.78675833333334,
+      "speedKmh": 10.2,
+      "heading": 210.5,
+      "reportedAt": "2026-11-05T02:31:00.056579+00:00"
     },
     {
       "kind": "ship",
@@ -336,6 +300,30 @@
       "speedKmh": 0.2,
       "heading": 132,
       "reportedAt": "2026-11-05T02:16:22.404281+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563406000",
+      "mmsi": "563406000",
+      "name": "BTS CALYPSO",
+      "category": "unknown",
+      "lat": 1.2391333333333334,
+      "lon": 103.79791666666667,
+      "speedKmh": 0.2,
+      "heading": 16,
+      "reportedAt": "2026-11-05T02:30:44.169171+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563042900",
+      "mmsi": "563042900",
+      "name": "STRAITS INTEGRITY",
+      "category": "unknown",
+      "lat": 1.2540799999999999,
+      "lon": 103.90548833333334,
+      "speedKmh": 2.8,
+      "heading": 121.8,
+      "reportedAt": "2026-11-05T02:30:54.444447+00:00"
     }
   ],
   "error": null
