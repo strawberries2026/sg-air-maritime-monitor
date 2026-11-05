@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T23:16:39.401073+00:00",
+  "updatedAt": "2026-11-05T23:31:46.800493+00:00",
   "items": [
     {
       "kind": "ship",
@@ -48,30 +48,6 @@
       "speedKmh": 0.2,
       "heading": 254.1,
       "reportedAt": "2026-11-05T22:16:33.627504+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636019213",
-      "mmsi": "636019213",
-      "name": "MSC FAITH",
-      "category": "commercial",
-      "lat": 1.1739683333333335,
-      "lon": 103.76617333333334,
-      "speedKmh": 0.0,
-      "heading": 359.7,
-      "reportedAt": "2026-11-05T22:01:00.195104+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "235479000",
-      "mmsi": "235479000",
-      "name": "EVER EXCEL",
-      "category": "unknown",
-      "lat": 1.2742466666666667,
-      "lon": 103.78355333333334,
-      "speedKmh": 0.0,
-      "heading": 195.6,
-      "reportedAt": "2026-11-05T22:00:50.162011+00:00"
     },
     {
       "kind": "ship",
@@ -319,11 +295,11 @@
       "mmsi": "431220000",
       "name": "ASTRAL ACE",
       "category": "unknown",
-      "lat": 1.232925,
-      "lon": 103.91745999999999,
-      "speedKmh": 10.2,
-      "heading": 248,
-      "reportedAt": "2026-11-05T23:01:40.003731+00:00"
+      "lat": 1.24257,
+      "lon": 103.86765333333332,
+      "speedKmh": 11.3,
+      "heading": 309.2,
+      "reportedAt": "2026-11-05T23:31:39.753007+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +343,11 @@
       "mmsi": "533132941",
       "name": "MTT PORT KELANG",
       "category": "unknown",
-      "lat": 1.2344666666666666,
-      "lon": 103.93891666666667,
-      "speedKmh": 19.3,
-      "heading": 248.1,
-      "reportedAt": "2026-11-05T23:15:32.480155+00:00"
+      "lat": 1.2161416666666667,
+      "lon": 103.89436666666667,
+      "speedKmh": 19.1,
+      "heading": 247.6,
+      "reportedAt": "2026-11-05T23:31:12.817503+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +391,11 @@
       "mmsi": "538012425",
       "name": "ELANDRA KUNLUN",
       "category": "unknown",
-      "lat": 1.2372216666666667,
-      "lon": 103.89693166666666,
+      "lat": 1.2372133333333333,
+      "lon": 103.89710833333334,
       "speedKmh": 0.0,
-      "heading": 91.9,
-      "reportedAt": "2026-11-05T23:16:13.500808+00:00"
+      "heading": 105.5,
+      "reportedAt": "2026-11-05T23:30:33.696828+00:00"
     },
     {
       "kind": "ship",
@@ -456,6 +432,66 @@
       "speedKmh": 15.6,
       "heading": 328.1,
       "reportedAt": "2026-11-05T23:16:31.190274+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "259801000",
+      "mmsi": "259801000",
+      "name": "SEA1 AMETHYST",
+      "category": "unknown",
+      "lat": 1.2697533333333333,
+      "lon": 103.88089166666667,
+      "speedKmh": 0.0,
+      "heading": 300.5,
+      "reportedAt": "2026-11-05T23:30:40.729461+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "305811000",
+      "mmsi": "305811000",
+      "name": "BBC MAINZ",
+      "category": "unknown",
+      "lat": 1.2466383333333333,
+      "lon": 103.85725833333332,
+      "speedKmh": 10.9,
+      "heading": 184.2,
+      "reportedAt": "2026-11-05T23:30:48.953592+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "unknown",
+      "lat": 1.2569616666666665,
+      "lon": 103.840815,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-05T23:31:18.194858+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087010",
+      "mmsi": "563087010",
+      "name": "PSA PEGASUS",
+      "category": "unknown",
+      "lat": 1.2078883333333332,
+      "lon": 103.79732333333332,
+      "speedKmh": 0.2,
+      "heading": 331.4,
+      "reportedAt": "2026-11-05T23:31:21.309363+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006950",
+      "mmsi": "352006950",
+      "name": "SWAN GLORY",
+      "category": "unknown",
+      "lat": 1.248865,
+      "lon": 103.79526000000001,
+      "speedKmh": 0.6,
+      "heading": 3.9,
+      "reportedAt": "2026-11-05T23:31:41.521419+00:00"
     }
   ],
   "error": null
