@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T10:01:55.603200+00:00",
+  "updatedAt": "2026-11-05T10:16:40.331694+00:00",
   "items": [
     {
       "kind": "ship",
@@ -12,18 +12,6 @@
       "speedKmh": 0.0,
       "heading": 219,
       "reportedAt": "2026-11-05T09:30:54.686819+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636093165",
-      "mmsi": "636093165",
-      "name": "STEN IDUN",
-      "category": "unknown",
-      "lat": 1.2353533333333333,
-      "lon": 103.799775,
-      "speedKmh": 0.0,
-      "heading": 67.6,
-      "reportedAt": "2026-11-05T08:46:35.462439+00:00"
     },
     {
       "kind": "ship",
@@ -60,54 +48,6 @@
       "speedKmh": 5.6,
       "heading": 19.9,
       "reportedAt": "2026-11-05T09:16:35.899672+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563087090",
-      "mmsi": "563087090",
-      "name": "STL PT6",
-      "category": "unknown",
-      "lat": 1.2846366666666666,
-      "lon": 103.88632,
-      "speedKmh": 0.7,
-      "heading": 209.3,
-      "reportedAt": "2026-11-05T08:45:28.777817+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016293",
-      "mmsi": "636016293",
-      "name": "ELANDRA MELODY",
-      "category": "unknown",
-      "lat": 1.2348050000000002,
-      "lon": 103.81586333333333,
-      "speedKmh": 0.0,
-      "heading": 284.7,
-      "reportedAt": "2026-11-05T08:45:57.667501+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563265500",
-      "mmsi": "563265500",
-      "name": "GOLDEN ANTARES",
-      "category": "unknown",
-      "lat": 1.27247,
-      "lon": 103.90815833333333,
-      "speedKmh": 7.2,
-      "heading": 225.3,
-      "reportedAt": "2026-11-05T08:46:18.083850+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563341900",
-      "mmsi": "563341900",
-      "name": "MAJESTIC ENCORE",
-      "category": "unknown",
-      "lat": 1.2080766666666667,
-      "lon": 103.87992333333334,
-      "speedKmh": 36.5,
-      "heading": 308.9,
-      "reportedAt": "2026-11-05T08:46:30.469820+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +115,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.282165,
-      "lon": 103.89178333333332,
-      "speedKmh": 0.2,
+      "lat": 1.2820749999999999,
+      "lon": 103.8918,
+      "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T09:15:47.163081+00:00"
+      "reportedAt": "2026-11-05T10:15:57.418934+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +223,11 @@
       "mmsi": "244130525",
       "name": "FWN ARCTIC",
       "category": "unknown",
-      "lat": 1.2725700000000002,
-      "lon": 103.89587333333334,
-      "speedKmh": 5.6,
-      "heading": 293.7,
-      "reportedAt": "2026-11-05T10:01:19.258198+00:00"
+      "lat": 1.27484,
+      "lon": 103.89059999999999,
+      "speedKmh": 1.3,
+      "heading": 198.8,
+      "reportedAt": "2026-11-05T10:15:29.269068+00:00"
     },
     {
       "kind": "ship",
@@ -396,6 +336,54 @@
       "speedKmh": 0.4,
       "heading": 288,
       "reportedAt": "2026-11-05T10:01:53.862539+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414713000",
+      "mmsi": "414713000",
+      "name": "XIN HANG ZHOU",
+      "category": "unknown",
+      "lat": 1.2093033333333334,
+      "lon": 103.800665,
+      "speedKmh": 9.6,
+      "heading": 139.7,
+      "reportedAt": "2026-11-05T10:15:35.827792+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "5631101",
+      "mmsi": "5631101",
+      "name": "PSAB",
+      "category": "unknown",
+      "lat": 1.2735699999999999,
+      "lon": 103.80134833333334,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-05T10:15:58.036261+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "403297001",
+      "mmsi": "403297001",
+      "name": "BAHRI DIRIYAH",
+      "category": "unknown",
+      "lat": 1.2700033333333332,
+      "lon": 103.90905333333333,
+      "speedKmh": 0.0,
+      "heading": 9.8,
+      "reportedAt": "2026-11-05T10:16:03.031387+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563253500",
+      "mmsi": "563253500",
+      "name": "MARINE AZURE",
+      "category": "unknown",
+      "lat": 1.202015,
+      "lon": 103.83774166666667,
+      "speedKmh": 10.7,
+      "heading": 73.8,
+      "reportedAt": "2026-11-05T10:16:18.807324+00:00"
     }
   ],
   "error": null
