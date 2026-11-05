@@ -17,7 +17,10 @@ def parse_time(value):
         value = value.strip()
         if value.isdigit():
             return parse_time(int(value))
-        return dt.datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+        parsed = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            raise ValueError("Timestamp must include a timezone")
+        return parsed.astimezone(dt.timezone.utc)
     raise ValueError("Unsupported timestamp format")
 
 def check(path, now, threshold):
@@ -29,11 +32,11 @@ def check(path, now, threshold):
         if value is None:
             raise ValueError("No recognized refresh timestamp")
         timestamp = parse_time(value)
-        if data.get("error"):
-            return {"status": "error", "last_refresh_utc": timestamp.isoformat(), "error": str(data["error"])}
         age = (now - timestamp).total_seconds() / 60
         if age < -5:
             raise ValueError("Refresh timestamp is in the future")
+        if data.get("error"):
+            return {"status": "error", "last_refresh_utc": timestamp.isoformat(), "age_minutes": round(age, 1), "error": str(data["error"])}
         return {"status": "stale" if age > threshold else "current", "last_refresh_utc": timestamp.isoformat(), "age_minutes": round(age, 1)}
     except (OSError, ValueError, TypeError, OverflowError, KeyError) as exc:
         return {"status": "unknown", "error": str(exc)}
