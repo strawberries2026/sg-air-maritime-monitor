@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T14:57:39.163856+00:00",
+  "updatedAt": "2026-11-05T15:02:03.528548+00:00",
   "items": [
     {
       "kind": "ship",
@@ -15,51 +15,15 @@
     },
     {
       "kind": "ship",
-      "id": "565587000",
-      "mmsi": "565587000",
-      "name": "REGENT GEMINI",
-      "category": "unknown",
-      "lat": 1.2626583333333334,
-      "lon": 103.82851166666666,
-      "speedKmh": 0.0,
-      "heading": 178.5,
-      "reportedAt": "2026-11-05T13:30:45.930229+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "668116289",
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2824883333333332,
-      "lon": 103.89327333333334,
+      "lat": 1.2824683333333333,
+      "lon": 103.89330166666667,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T14:16:24.212467+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563066530",
-      "mmsi": "563066530",
-      "name": "PSA POLARIS YS50",
-      "category": "unknown",
-      "lat": 1.247925,
-      "lon": 103.782775,
-      "speedKmh": 4.1,
-      "heading": 334.2,
-      "reportedAt": "2026-11-05T13:31:27.961178+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636020437",
-      "mmsi": "636020437",
-      "name": "IRENES RAY",
-      "category": "unknown",
-      "lat": 1.2484666666666666,
-      "lon": 103.78215,
-      "speedKmh": 4.6,
-      "heading": 331,
-      "reportedAt": "2026-11-05T13:31:42.576614+00:00"
+      "reportedAt": "2026-11-05T15:01:21.728504+00:00"
     },
     {
       "kind": "ship",
@@ -156,6 +120,42 @@
       "speedKmh": 0.2,
       "heading": 337,
       "reportedAt": "2026-11-05T14:46:18.489756+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636026710",
+      "mmsi": "636026710",
+      "name": "LFG KEDAH",
+      "category": "commercial",
+      "lat": 1.2411733333333332,
+      "lon": 103.90453666666667,
+      "speedKmh": 7.2,
+      "heading": 143.7,
+      "reportedAt": "2026-11-05T15:00:55.764458+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525200748",
+      "mmsi": "525200748",
+      "name": "AKRA 101",
+      "category": "unknown",
+      "lat": 1.2308016666666668,
+      "lon": 103.90887,
+      "speedKmh": 13.7,
+      "heading": 247.7,
+      "reportedAt": "2026-11-05T15:01:39.915096+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538006229",
+      "mmsi": "538006229",
+      "name": "SOUTHERN STAR",
+      "category": "unknown",
+      "lat": 1.273825,
+      "lon": 103.88008333333333,
+      "speedKmh": 0.0,
+      "heading": 113.2,
+      "reportedAt": "2026-11-05T15:01:43.404383+00:00"
     }
   ],
   "error": null
