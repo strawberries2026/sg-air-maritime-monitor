@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:02:01.426480+00:00",
+  "updatedAt": "2026-11-05T03:16:41.012628+00:00",
   "items": [
     {
       "kind": "ship",
@@ -31,23 +31,11 @@
       "mmsi": "636023595",
       "name": "INVICTUS",
       "category": "unknown",
-      "lat": 1.2630716666666666,
-      "lon": 103.92234,
+      "lat": 1.262245,
+      "lon": 103.92258166666667,
       "speedKmh": 0.0,
-      "heading": 196.1,
-      "reportedAt": "2026-11-05T02:30:44.977876+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023025",
-      "mmsi": "636023025",
-      "name": "SYDNEY BRIDGE",
-      "category": "unknown",
-      "lat": 1.2079233333333332,
-      "lon": 103.91695,
-      "speedKmh": 32.0,
-      "heading": 65.2,
-      "reportedAt": "2026-11-05T01:45:53.663768+00:00"
+      "heading": 167.1,
+      "reportedAt": "2026-11-05T03:15:25.672756+00:00"
     },
     {
       "kind": "ship",
@@ -63,27 +51,15 @@
     },
     {
       "kind": "ship",
-      "id": "565957000",
-      "mmsi": "565957000",
-      "name": "ISANDA",
-      "category": "unknown",
-      "lat": 1.234915,
-      "lon": 103.780255,
-      "speedKmh": 11.1,
-      "heading": 136.7,
-      "reportedAt": "2026-11-05T01:45:45.239620+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "370385000",
       "mmsi": "370385000",
       "name": "SPLENDOR KEELUNG",
-      "category": "commercial",
-      "lat": 1.2691333333333332,
-      "lon": 103.8766,
+      "category": "unknown",
+      "lat": 1.2686833333333332,
+      "lon": 103.8768,
       "speedKmh": 0.4,
-      "heading": 172,
-      "reportedAt": "2026-11-05T02:46:18.367470+00:00"
+      "heading": 14,
+      "reportedAt": "2026-11-05T03:16:18.803197+00:00"
     },
     {
       "kind": "ship",
@@ -276,6 +252,42 @@
       "speedKmh": 0.2,
       "heading": 290.4,
       "reportedAt": "2026-11-05T03:01:54.066889+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "567226000",
+      "mmsi": "567226000",
+      "name": "TASCO AMATA",
+      "category": "unknown",
+      "lat": 1.2418166666666666,
+      "lon": 103.79895,
+      "speedKmh": 0.4,
+      "heading": 148,
+      "reportedAt": "2026-11-05T03:16:32.943642+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565951000",
+      "mmsi": "565951000",
+      "name": "RELIANT CS01",
+      "category": "unknown",
+      "lat": 1.2576150000000001,
+      "lon": 103.84370333333332,
+      "speedKmh": 14.3,
+      "heading": 101.5,
+      "reportedAt": "2026-11-05T03:16:10.368187+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352006540",
+      "mmsi": "352006540",
+      "name": "LONG XING 01",
+      "category": "commercial",
+      "lat": 1.2445633333333332,
+      "lon": 103.78745166666666,
+      "speedKmh": 5.9,
+      "heading": 107.8,
+      "reportedAt": "2026-11-05T03:16:18.803127+00:00"
     }
   ],
   "error": null
