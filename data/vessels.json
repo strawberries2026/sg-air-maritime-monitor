@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T00:16:44.700753+00:00",
+  "updatedAt": "2026-11-05T00:31:49.607640+00:00",
   "items": [
     {
       "kind": "ship",
@@ -39,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "563009210",
-      "mmsi": "563009210",
-      "name": "NOBLE ORION TG46",
-      "category": "unknown",
-      "lat": 1.2582099999999998,
-      "lon": 103.842225,
-      "speedKmh": 0.2,
-      "heading": 26.8,
-      "reportedAt": "2026-11-04T23:01:40.095976+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563318300",
       "mmsi": "563318300",
       "name": "CMA CGM GRAND PALAIS",
@@ -87,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "563026600",
-      "mmsi": "563026600",
-      "name": "WAVEMASTER 8",
-      "category": "unknown",
-      "lat": 1.2622066666666667,
-      "lon": 103.81892666666666,
-      "speedKmh": 0.0,
-      "heading": 355,
-      "reportedAt": "2026-11-04T23:00:48.500223+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563202500",
-      "mmsi": "563202500",
-      "name": "EA CENTAURUS",
-      "category": "unknown",
-      "lat": 1.2768183333333334,
-      "lon": 103.75616166666667,
-      "speedKmh": 0.0,
-      "heading": 310.7,
-      "reportedAt": "2026-11-04T23:00:51.051508+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533180127",
       "mmsi": "533180127",
       "name": "MTT PULAU PINANG",
@@ -120,18 +84,6 @@
       "speedKmh": 14.1,
       "heading": 246.4,
       "reportedAt": "2026-11-04T23:31:16.831609+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538009555",
-      "mmsi": "538009555",
-      "name": "FJ CAMELIA",
-      "category": "unknown",
-      "lat": 1.2857466666666668,
-      "lon": 103.962665,
-      "speedKmh": 0.0,
-      "heading": 288.3,
-      "reportedAt": "2026-11-04T23:01:45.477190+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +319,11 @@
       "mmsi": "563333100",
       "name": "VANDA PIONEER",
       "category": "unknown",
-      "lat": 1.2621983333333333,
-      "lon": 103.83847666666666,
+      "lat": 1.2622233333333335,
+      "lon": 103.83852333333333,
       "speedKmh": 0.0,
       "heading": 225.5,
-      "reportedAt": "2026-11-04T23:58:46.601163+00:00"
+      "reportedAt": "2026-11-05T00:31:26.680894+00:00"
     },
     {
       "kind": "ship",
@@ -552,6 +504,66 @@
       "speedKmh": 9.4,
       "heading": 236.1,
       "reportedAt": "2026-11-05T00:16:16.676576+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563267500",
+      "mmsi": "563267500",
+      "name": "PEARL LEGEND",
+      "category": "unknown",
+      "lat": 1.21527,
+      "lon": 103.79549666666666,
+      "speedKmh": 13.7,
+      "heading": 138.3,
+      "reportedAt": "2026-11-05T00:30:38.197937+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477850100",
+      "mmsi": "477850100",
+      "name": "PINE EXPRESS",
+      "category": "unknown",
+      "lat": 1.2300833333333334,
+      "lon": 103.81663333333333,
+      "speedKmh": 0.4,
+      "heading": 179,
+      "reportedAt": "2026-11-05T00:30:58.149831+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "257366000",
+      "mmsi": "257366000",
+      "name": "HOEGH ST.PETERSBURG",
+      "category": "unknown",
+      "lat": 1.23097,
+      "lon": 103.91938499999999,
+      "speedKmh": 17.6,
+      "heading": 236.3,
+      "reportedAt": "2026-11-05T00:31:08.576882+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563087590",
+      "mmsi": "563087590",
+      "name": "PSA VOLANS",
+      "category": "unknown",
+      "lat": 1.249845,
+      "lon": 103.79178499999999,
+      "speedKmh": 5.7,
+      "heading": 20.9,
+      "reportedAt": "2026-11-05T00:31:14.912622+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241458000",
+      "mmsi": "241458000",
+      "name": "APACHE",
+      "category": "unknown",
+      "lat": 1.1842866666666665,
+      "lon": 103.83658999999999,
+      "speedKmh": 17.6,
+      "heading": 66.4,
+      "reportedAt": "2026-11-05T00:31:39.186873+00:00"
     }
   ],
   "error": null
