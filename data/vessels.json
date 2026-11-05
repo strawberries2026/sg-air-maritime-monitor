@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T09:46:43.107240+00:00",
+  "updatedAt": "2026-11-05T10:01:55.603200+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "565173000",
-      "mmsi": "565173000",
-      "name": "AYER CHERDEK",
-      "category": "unknown",
-      "lat": 1.279865,
-      "lon": 103.887985,
-      "speedKmh": 0.2,
-      "heading": 298.5,
-      "reportedAt": "2026-11-05T08:31:35.220963+00:00"
-    },
     {
       "kind": "ship",
       "id": "477850100",
@@ -72,18 +60,6 @@
       "speedKmh": 5.6,
       "heading": 19.9,
       "reportedAt": "2026-11-05T09:16:35.899672+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "255803760",
-      "mmsi": "255803760",
-      "name": "MSC GREENWICH",
-      "category": "unknown",
-      "lat": 1.2448883333333332,
-      "lon": 103.89044833333334,
-      "speedKmh": 0.0,
-      "heading": 303.6,
-      "reportedAt": "2026-11-05T08:30:36.917623+00:00"
     },
     {
       "kind": "ship",
@@ -187,11 +163,11 @@
       "mmsi": "563038000",
       "name": "FLAGSHIP",
       "category": "unknown",
-      "lat": 1.23379,
-      "lon": 103.87739499999999,
-      "speedKmh": 8.7,
-      "heading": 48.6,
-      "reportedAt": "2026-11-05T09:15:28.109072+00:00"
+      "lat": 1.2738883333333333,
+      "lon": 103.91764833333333,
+      "speedKmh": 9.3,
+      "heading": 51.6,
+      "reportedAt": "2026-11-05T10:01:27.996004+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +211,11 @@
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
       "category": "unknown",
-      "lat": 1.2718433333333332,
-      "lon": 103.89158666666667,
-      "speedKmh": 0.2,
+      "lat": 1.2716566666666667,
+      "lon": 103.89157333333333,
+      "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T09:16:36.676260+00:00"
+      "reportedAt": "2026-11-05T10:01:36.670680+00:00"
     },
     {
       "kind": "ship",
@@ -307,11 +283,11 @@
       "mmsi": "244130525",
       "name": "FWN ARCTIC",
       "category": "unknown",
-      "lat": 1.2640716666666667,
-      "lon": 103.89895833333334,
-      "speedKmh": 4.8,
-      "heading": 19.3,
-      "reportedAt": "2026-11-05T09:45:58.307828+00:00"
+      "lat": 1.2725700000000002,
+      "lon": 103.89587333333334,
+      "speedKmh": 5.6,
+      "heading": 293.7,
+      "reportedAt": "2026-11-05T10:01:19.258198+00:00"
     },
     {
       "kind": "ship",
@@ -354,12 +330,72 @@
       "id": "565587000",
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
-      "category": "commercial",
-      "lat": 1.2626266666666666,
-      "lon": 103.82848166666666,
+      "category": "unknown",
+      "lat": 1.2626199999999999,
+      "lon": 103.82846500000001,
       "speedKmh": 0.0,
       "heading": 178.5,
-      "reportedAt": "2026-11-05T09:46:35.390299+00:00"
+      "reportedAt": "2026-11-05T10:01:36.059341+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525301513",
+      "mmsi": "525301513",
+      "name": "TB LL DODI",
+      "category": "unknown",
+      "lat": 1.2604066666666667,
+      "lon": 103.84021166666666,
+      "speedKmh": 0.0,
+      "heading": 1.9,
+      "reportedAt": "2026-11-05T10:01:21.046343+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563314800",
+      "mmsi": "563314800",
+      "name": "EM SHARLOTTE",
+      "category": "unknown",
+      "lat": 1.2562616666666666,
+      "lon": 103.86783,
+      "speedKmh": 0.2,
+      "heading": 144.4,
+      "reportedAt": "2026-11-05T10:01:22.411889+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563082690",
+      "mmsi": "563082690",
+      "name": "ARUNDINA",
+      "category": "unknown",
+      "lat": 1.2595266666666667,
+      "lon": 103.91166166666667,
+      "speedKmh": 5.9,
+      "heading": 173.4,
+      "reportedAt": "2026-11-05T10:01:42.000862+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "471072000",
+      "mmsi": "471072000",
+      "name": "ARZANA",
+      "category": "unknown",
+      "lat": 1.24725,
+      "lon": 103.80725333333334,
+      "speedKmh": 0.4,
+      "heading": 320.3,
+      "reportedAt": "2026-11-05T10:01:50.389972+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011716",
+      "mmsi": "538011716",
+      "name": "PACIFIC SPIRIT",
+      "category": "unknown",
+      "lat": 1.2548866666666667,
+      "lon": 103.91174833333334,
+      "speedKmh": 0.4,
+      "heading": 288,
+      "reportedAt": "2026-11-05T10:01:53.862539+00:00"
     }
   ],
   "error": null
