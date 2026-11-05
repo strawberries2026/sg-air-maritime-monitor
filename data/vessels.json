@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T19:46:39.192836+00:00",
+  "updatedAt": "2026-11-05T20:01:57.905862+00:00",
   "items": [
     {
       "kind": "ship",
@@ -36,18 +36,6 @@
       "speedKmh": 0.0,
       "heading": 133.8,
       "reportedAt": "2026-11-05T19:45:28.019518+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012125",
-      "mmsi": "538012125",
-      "name": "STI MOXIE",
-      "category": "unknown",
-      "lat": 1.23468,
-      "lon": 103.80585833333333,
-      "speedKmh": 0.0,
-      "heading": 351.8,
-      "reportedAt": "2026-11-05T18:30:56.423179+00:00"
     },
     {
       "kind": "ship",
@@ -175,11 +163,11 @@
       "mmsi": "268262604",
       "name": "CARTWHEEL",
       "category": "unknown",
-      "lat": 1.2702316666666666,
-      "lon": 103.90076666666667,
+      "lat": 1.2696416666666666,
+      "lon": 103.900925,
       "speedKmh": 0.0,
       "heading": 168.2,
-      "reportedAt": "2026-11-05T19:01:40.091545+00:00"
+      "reportedAt": "2026-11-05T20:01:39.888538+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +319,11 @@
       "mmsi": "574490000",
       "name": "GREAT WALRUS",
       "category": "unknown",
-      "lat": 1.2189333333333332,
-      "lon": 103.900025,
+      "lat": 1.2013883333333333,
+      "lon": 103.86152333333332,
       "speedKmh": 19.4,
-      "heading": 247.1,
-      "reportedAt": "2026-11-05T19:46:13.128275+00:00"
+      "heading": 243.9,
+      "reportedAt": "2026-11-05T20:00:49.375108+00:00"
     },
     {
       "kind": "ship",
@@ -360,6 +348,54 @@
       "speedKmh": 5.2,
       "heading": 168.6,
       "reportedAt": "2026-11-05T19:46:35.229285+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.252275,
+      "lon": 103.90963833333333,
+      "speedKmh": 0.0,
+      "heading": 206.4,
+      "reportedAt": "2026-11-05T20:01:09.037690+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563021100",
+      "mmsi": "563021100",
+      "name": "KAI EI MARU 15",
+      "category": "unknown",
+      "lat": 1.2623883333333334,
+      "lon": 103.90026166666667,
+      "speedKmh": 11.9,
+      "heading": 198.5,
+      "reportedAt": "2026-11-05T20:01:21.342216+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563001270",
+      "mmsi": "563001270",
+      "name": "AYER MANIS",
+      "category": "unknown",
+      "lat": 1.2785,
+      "lon": 103.88231166666667,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-05T20:01:37.882742+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525020108",
+      "mmsi": "525020108",
+      "name": "CIPTA JAYA MANDIRI",
+      "category": "unknown",
+      "lat": 1.2453583333333333,
+      "lon": 103.81355166666667,
+      "speedKmh": 0.2,
+      "heading": null,
+      "reportedAt": "2026-11-05T20:01:46.875694+00:00"
     }
   ],
   "error": null
