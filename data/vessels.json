@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:16:42.390457+00:00",
+  "updatedAt": "2026-11-05T21:28:23.016771+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2457883333333333,
-      "lon": 103.86698,
+      "lat": 1.24582,
+      "lon": 103.86684666666666,
       "speedKmh": 0.0,
-      "heading": 292.2,
-      "reportedAt": "2026-11-05T21:15:59.660256+00:00"
+      "heading": 292,
+      "reportedAt": "2026-11-05T21:27:30.790014+00:00"
     },
     {
       "kind": "ship",
@@ -55,11 +55,11 @@
       "mmsi": "538012425",
       "name": "ELANDRA KUNLUN",
       "category": "unknown",
-      "lat": 1.23685,
-      "lon": 103.898165,
+      "lat": 1.23702,
+      "lon": 103.897435,
       "speedKmh": 0.0,
-      "heading": 274.7,
-      "reportedAt": "2026-11-05T20:46:34.708287+00:00"
+      "heading": 49.6,
+      "reportedAt": "2026-11-05T21:27:42.956181+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +468,66 @@
       "speedKmh": 0.0,
       "heading": 227,
       "reportedAt": "2026-11-05T21:16:41.435826+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311000716",
+      "mmsi": "311000716",
+      "name": "ARIANA",
+      "category": "unknown",
+      "lat": 1.1808483333333333,
+      "lon": 103.81178,
+      "speedKmh": 22.0,
+      "heading": 247.9,
+      "reportedAt": "2026-11-05T21:27:18.380217+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "371016000",
+      "mmsi": "371016000",
+      "name": "POSITIVE LEADER",
+      "category": "commercial",
+      "lat": 1.234325,
+      "lon": 103.78631166666668,
+      "speedKmh": 18.1,
+      "heading": 327,
+      "reportedAt": "2026-11-05T21:27:34.955756+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241973000",
+      "mmsi": "241973000",
+      "name": "KAMBOS",
+      "category": "unknown",
+      "lat": 1.1646533333333333,
+      "lon": 103.80752666666667,
+      "speedKmh": 16.7,
+      "heading": 64,
+      "reportedAt": "2026-11-05T21:27:35.706721+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538011411",
+      "mmsi": "538011411",
+      "name": "ATHENIAN STAR",
+      "category": "unknown",
+      "lat": 1.2093766666666668,
+      "lon": 103.81728833333334,
+      "speedKmh": 10.2,
+      "heading": 282.5,
+      "reportedAt": "2026-11-05T21:27:59.277587+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "574005100",
+      "mmsi": "574005100",
+      "name": "HAIAN EAST",
+      "category": "unknown",
+      "lat": 1.2398116666666668,
+      "lon": 103.77628833333333,
+      "speedKmh": 17.6,
+      "heading": 148.8,
+      "reportedAt": "2026-11-05T21:28:17.836529+00:00"
     }
   ],
   "error": null
