@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T22:16:41.113424+00:00",
+  "updatedAt": "2026-11-05T22:31:48.409489+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.24582,
-      "lon": 103.86684666666666,
+      "lat": 1.2458733333333332,
+      "lon": 103.86668666666667,
       "speedKmh": 0.0,
-      "heading": 292,
-      "reportedAt": "2026-11-05T21:27:30.790014+00:00"
+      "heading": 310.1,
+      "reportedAt": "2026-11-05T22:31:12.981158+00:00"
     },
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735516666666666,
-      "lon": 103.80136666666667,
+      "lat": 1.2735550000000002,
+      "lon": 103.80137666666666,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T22:01:50.488649+00:00"
+      "reportedAt": "2026-11-05T22:31:27.329034+00:00"
     },
     {
       "kind": "ship",
@@ -84,18 +84,6 @@
       "speedKmh": 0.0,
       "heading": 0,
       "reportedAt": "2026-11-05T21:45:57.138459+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023595",
-      "mmsi": "636023595",
-      "name": "INVICTUS",
-      "category": "unknown",
-      "lat": 1.2610050000000002,
-      "lon": 103.92366166666667,
-      "speedKmh": 0.2,
-      "heading": 305.7,
-      "reportedAt": "2026-11-05T21:01:10.192945+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +427,11 @@
       "mmsi": "563022820",
       "name": "MARINA ZIRCON",
       "category": "unknown",
-      "lat": 1.2541666666666667,
-      "lon": 103.85052,
-      "speedKmh": 13.3,
-      "heading": 320.3,
-      "reportedAt": "2026-11-05T22:15:28.920310+00:00"
+      "lat": 1.2601166666666666,
+      "lon": 103.84062166666666,
+      "speedKmh": 0.0,
+      "heading": 238.1,
+      "reportedAt": "2026-11-05T22:30:39.571778+00:00"
     },
     {
       "kind": "ship",
@@ -492,6 +480,66 @@
       "speedKmh": 0.0,
       "heading": 328.9,
       "reportedAt": "2026-11-05T22:16:34.728108+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "255803760",
+      "mmsi": "255803760",
+      "name": "MSC GREENWICH",
+      "category": "unknown",
+      "lat": 1.2436,
+      "lon": 103.89131833333333,
+      "speedKmh": 0.0,
+      "heading": 332.9,
+      "reportedAt": "2026-11-05T22:30:36.934843+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "314940000",
+      "mmsi": "314940000",
+      "name": "ECO PRIDE 1",
+      "category": "unknown",
+      "lat": 1.2836916666666667,
+      "lon": 103.92135333333334,
+      "speedKmh": 0.0,
+      "heading": 19.9,
+      "reportedAt": "2026-11-05T22:31:32.180815+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566133000",
+      "mmsi": "566133000",
+      "name": "RESILIENT NN23",
+      "category": "unknown",
+      "lat": 1.2263733333333335,
+      "lon": 103.79305,
+      "speedKmh": 13.0,
+      "heading": 294.3,
+      "reportedAt": "2026-11-05T22:31:35.121151+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "431528000",
+      "mmsi": "431528000",
+      "name": "ONE MAGNIFICENCE",
+      "category": "unknown",
+      "lat": 1.2266466666666667,
+      "lon": 103.79114,
+      "speedKmh": 11.5,
+      "heading": 326.4,
+      "reportedAt": "2026-11-05T22:31:36.966291+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564611000",
+      "mmsi": "564611000",
+      "name": "HERON SPIRIT",
+      "category": "unknown",
+      "lat": 1.2555450000000001,
+      "lon": 103.792625,
+      "speedKmh": 20.9,
+      "heading": 65.4,
+      "reportedAt": "2026-11-05T22:31:46.360192+00:00"
     }
   ],
   "error": null
