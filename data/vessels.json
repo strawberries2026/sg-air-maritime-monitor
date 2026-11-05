@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T12:46:43.905913+00:00",
+  "updatedAt": "2026-11-05T13:01:58.375931+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "566532000",
       "name": "STRAITS BRILLIANCE",
       "category": "unknown",
-      "lat": 1.271725,
-      "lon": 103.89173333333333,
+      "lat": 1.2719816666666666,
+      "lon": 103.89219333333334,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T12:31:16.981108+00:00"
+      "reportedAt": "2026-11-05T13:01:17.625338+00:00"
     },
     {
       "kind": "ship",
@@ -60,54 +60,6 @@
       "speedKmh": 0.0,
       "heading": 281.6,
       "reportedAt": "2026-11-05T12:45:37.589250+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525601594",
-      "mmsi": "525601594",
-      "name": "TB AMADEUS 1",
-      "category": "unknown",
-      "lat": 1.2566716666666666,
-      "lon": 103.85600666666666,
-      "speedKmh": 5.2,
-      "heading": 288.2,
-      "reportedAt": "2026-11-05T11:31:47.862739+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636016293",
-      "mmsi": "636016293",
-      "name": "ELANDRA MELODY",
-      "category": "unknown",
-      "lat": 1.2353483333333335,
-      "lon": 103.81638333333333,
-      "speedKmh": 0.9,
-      "heading": 1.4,
-      "reportedAt": "2026-11-05T11:30:55.964913+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564885000",
-      "mmsi": "564885000",
-      "name": "OCEAN FLYTE",
-      "category": "unknown",
-      "lat": 1.2608233333333334,
-      "lon": 103.81278,
-      "speedKmh": 10.4,
-      "heading": 93.1,
-      "reportedAt": "2026-11-05T11:30:38.984693+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636023332",
-      "mmsi": "636023332",
-      "name": "THOR HIGHWAY",
-      "category": "unknown",
-      "lat": 1.169085,
-      "lon": 103.75127666666667,
-      "speedKmh": 0.0,
-      "heading": 306.8,
-      "reportedAt": "2026-11-05T11:31:24.591438+00:00"
     },
     {
       "kind": "ship",
@@ -444,6 +396,78 @@
       "speedKmh": 0.4,
       "heading": 121,
       "reportedAt": "2026-11-05T12:46:35.516146+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636025569",
+      "mmsi": "636025569",
+      "name": "NEREUS",
+      "category": "unknown",
+      "lat": 1.2321233333333335,
+      "lon": 103.88952833333333,
+      "speedKmh": 15.6,
+      "heading": 332,
+      "reportedAt": "2026-11-05T13:00:45.640439+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "668116289",
+      "mmsi": "668116289",
+      "name": "SOON LI 28",
+      "category": "unknown",
+      "lat": 1.2828133333333334,
+      "lon": 103.89248500000001,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-05T13:00:49.436641+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "commercial",
+      "lat": 1.2532733333333332,
+      "lon": 103.90575166666666,
+      "speedKmh": 0.0,
+      "heading": 6,
+      "reportedAt": "2026-11-05T13:01:08.741520+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566687000",
+      "mmsi": "566687000",
+      "name": "STRAITS HARMONY",
+      "category": "unknown",
+      "lat": 1.2499283333333333,
+      "lon": 103.87617166666668,
+      "speedKmh": 0.0,
+      "heading": 94.6,
+      "reportedAt": "2026-11-05T13:01:14.035825+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "431687000",
+      "mmsi": "431687000",
+      "name": "AQUAMARINE ACE",
+      "category": "unknown",
+      "lat": 1.264745,
+      "lon": 103.85474500000001,
+      "speedKmh": 4.3,
+      "heading": 305,
+      "reportedAt": "2026-11-05T13:01:33.572804+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565173000",
+      "mmsi": "565173000",
+      "name": "AYER CHERDEK",
+      "category": "unknown",
+      "lat": 1.28027,
+      "lon": 103.88842833333334,
+      "speedKmh": 0.0,
+      "heading": 18,
+      "reportedAt": "2026-11-05T13:01:44.608732+00:00"
     }
   ],
   "error": null
