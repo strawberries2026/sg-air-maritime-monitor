@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:01:56.301230+00:00",
+  "updatedAt": "2026-11-05T21:16:42.390457+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.24579,
-      "lon": 103.86762666666667,
+      "lat": 1.2457883333333333,
+      "lon": 103.86698,
       "speedKmh": 0.0,
-      "heading": 133.8,
-      "reportedAt": "2026-11-05T20:46:00.128296+00:00"
+      "heading": 292.2,
+      "reportedAt": "2026-11-05T21:15:59.660256+00:00"
     },
     {
       "kind": "ship",
@@ -51,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "563212900",
-      "mmsi": "563212900",
-      "name": "XINHUI EXPRESS",
-      "category": "unknown",
-      "lat": 1.20842,
-      "lon": 103.916475,
-      "speedKmh": 22.0,
-      "heading": 74.5,
-      "reportedAt": "2026-11-05T19:45:48.454482+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538012425",
       "mmsi": "538012425",
       "name": "ELANDRA KUNLUN",
@@ -87,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "477224700",
-      "mmsi": "477224700",
-      "name": "EGRET OASIS",
-      "category": "unknown",
-      "lat": 1.2109416666666666,
-      "lon": 103.88407333333333,
-      "speedKmh": 19.8,
-      "heading": 240.3,
-      "reportedAt": "2026-11-05T19:45:31.964171+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563073580",
-      "mmsi": "563073580",
-      "name": "VB MAX",
-      "category": "unknown",
-      "lat": 1.2415333333333334,
-      "lon": 103.79273166666667,
-      "speedKmh": 1.9,
-      "heading": null,
-      "reportedAt": "2026-11-05T19:45:52.830466+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "567226000",
       "mmsi": "567226000",
       "name": "TASCO AMATA",
@@ -132,30 +96,6 @@
       "speedKmh": 19.4,
       "heading": 243.9,
       "reportedAt": "2026-11-05T20:00:49.375108+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566717000",
-      "mmsi": "566717000",
-      "name": "MARINA ARIEL",
-      "category": "unknown",
-      "lat": 1.2628183333333332,
-      "lon": 103.846495,
-      "speedKmh": 0.0,
-      "heading": 243,
-      "reportedAt": "2026-11-05T19:46:34.029398+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566833000",
-      "mmsi": "566833000",
-      "name": "MAERSK TIMARU",
-      "category": "unknown",
-      "lat": 1.2312116666666666,
-      "lon": 103.80185666666667,
-      "speedKmh": 5.2,
-      "heading": 168.6,
-      "reportedAt": "2026-11-05T19:46:35.229285+00:00"
     },
     {
       "kind": "ship",
@@ -480,6 +420,54 @@
       "speedKmh": 0.0,
       "heading": 225.5,
       "reportedAt": "2026-11-05T21:01:51.438694+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "374286000",
+      "mmsi": "374286000",
+      "name": "BLPL TRUST",
+      "category": "unknown",
+      "lat": 1.2630466666666667,
+      "lon": 103.79244666666666,
+      "speedKmh": 2.0,
+      "heading": 243.2,
+      "reportedAt": "2026-11-05T21:16:26.016840+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636017971",
+      "mmsi": "636017971",
+      "name": "HALLEY",
+      "category": "unknown",
+      "lat": 1.2676699999999999,
+      "lon": 103.77797166666666,
+      "speedKmh": 7.6,
+      "heading": 54.2,
+      "reportedAt": "2026-11-05T21:16:25.301176+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564886000",
+      "mmsi": "564886000",
+      "name": "GRAZIA COSULICH",
+      "category": "unknown",
+      "lat": 1.2532783333333335,
+      "lon": 103.91899666666667,
+      "speedKmh": 0.0,
+      "heading": 300.8,
+      "reportedAt": "2026-11-05T21:16:35.409173+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525109025",
+      "mmsi": "525109025",
+      "name": "525109025",
+      "category": "unknown",
+      "lat": 1.25974,
+      "lon": 103.840755,
+      "speedKmh": 0.0,
+      "heading": 227,
+      "reportedAt": "2026-11-05T21:16:41.435826+00:00"
     }
   ],
   "error": null
