@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T12:32:00.747544+00:00",
+  "updatedAt": "2026-11-05T12:46:43.905913+00:00",
   "items": [
     {
       "kind": "ship",
@@ -19,11 +19,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735816666666666,
-      "lon": 103.80137500000001,
+      "lat": 1.2735966666666667,
+      "lon": 103.80138833333334,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T12:01:29.765815+00:00"
+      "reportedAt": "2026-11-05T12:46:01.303066+00:00"
     },
     {
       "kind": "ship",
@@ -31,11 +31,11 @@
       "mmsi": "255803760",
       "name": "MSC GREENWICH",
       "category": "unknown",
-      "lat": 1.2440083333333334,
-      "lon": 103.89083833333333,
+      "lat": 1.2443549999999999,
+      "lon": 103.89070833333334,
       "speedKmh": 0.0,
-      "heading": 15.1,
-      "reportedAt": "2026-11-05T11:45:36.811050+00:00"
+      "heading": 8.4,
+      "reportedAt": "2026-11-05T12:45:36.902606+00:00"
     },
     {
       "kind": "ship",
@@ -55,23 +55,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2461066666666667,
-      "lon": 103.86660666666667,
+      "lat": 1.2462383333333333,
+      "lon": 103.86647333333333,
       "speedKmh": 0.0,
-      "heading": 270.2,
-      "reportedAt": "2026-11-05T12:15:56.274981+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563060200",
-      "mmsi": "563060200",
-      "name": "PSA THOR CS03",
-      "category": "unknown",
-      "lat": 1.2440883333333335,
-      "lon": 103.78478333333334,
-      "speedKmh": 6.1,
-      "heading": 348.4,
-      "reportedAt": "2026-11-05T11:15:44.990082+00:00"
+      "heading": 281.6,
+      "reportedAt": "2026-11-05T12:45:37.589250+00:00"
     },
     {
       "kind": "ship",
@@ -96,18 +84,6 @@
       "speedKmh": 0.9,
       "heading": 1.4,
       "reportedAt": "2026-11-05T11:30:55.964913+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010586",
-      "mmsi": "538010586",
-      "name": "LIU JIANG KOU",
-      "category": "unknown",
-      "lat": 1.2714316666666667,
-      "lon": 103.916825,
-      "speedKmh": 14.8,
-      "heading": 108.1,
-      "reportedAt": "2026-11-05T11:16:37.332623+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +307,11 @@
       "mmsi": "565587000",
       "name": "REGENT GEMINI",
       "category": "unknown",
-      "lat": 1.2626333333333333,
-      "lon": 103.82845999999999,
+      "lat": 1.2626783333333333,
+      "lon": 103.82850666666667,
       "speedKmh": 0.0,
       "heading": 178.5,
-      "reportedAt": "2026-11-05T12:15:46.706909+00:00"
+      "reportedAt": "2026-11-05T12:45:56.068781+00:00"
     },
     {
       "kind": "ship",
@@ -408,6 +384,66 @@
       "speedKmh": 2.6,
       "heading": 288,
       "reportedAt": "2026-11-05T12:31:54.442670+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "259801000",
+      "mmsi": "259801000",
+      "name": "SEA1 AMETHYST",
+      "category": "unknown",
+      "lat": 1.2697616666666667,
+      "lon": 103.88072333333334,
+      "speedKmh": 0.0,
+      "heading": 300.5,
+      "reportedAt": "2026-11-05T12:45:36.146136+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019213",
+      "mmsi": "636019213",
+      "name": "MSC FAITH",
+      "category": "unknown",
+      "lat": 1.1733699999999998,
+      "lon": 103.76642666666666,
+      "speedKmh": 0.0,
+      "heading": 135.3,
+      "reportedAt": "2026-11-05T12:45:57.670532+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "209469000",
+      "mmsi": "209469000",
+      "name": "FAIRWAY",
+      "category": "unknown",
+      "lat": 1.2304366666666666,
+      "lon": 103.78680166666666,
+      "speedKmh": 27.4,
+      "heading": 138.6,
+      "reportedAt": "2026-11-05T12:46:01.303025+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566007000",
+      "mmsi": "566007000",
+      "name": "ENERGETIC",
+      "category": "unknown",
+      "lat": 1.1991433333333332,
+      "lon": 103.83754166666667,
+      "speedKmh": 10.6,
+      "heading": 91.9,
+      "reportedAt": "2026-11-05T12:46:14.591329+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004846",
+      "mmsi": "352004846",
+      "name": "STR VIGOR",
+      "category": "unknown",
+      "lat": 1.2656766666666668,
+      "lon": 103.88502,
+      "speedKmh": 0.4,
+      "heading": 121,
+      "reportedAt": "2026-11-05T12:46:35.516146+00:00"
     }
   ],
   "error": null
