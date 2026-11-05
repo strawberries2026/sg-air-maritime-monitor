@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T04:02:03.195396+00:00",
+  "updatedAt": "2026-11-05T04:16:43.879016+00:00",
   "items": [
     {
       "kind": "ship",
@@ -60,30 +60,6 @@
       "speedKmh": 0.2,
       "heading": 170,
       "reportedAt": "2026-11-05T04:01:33.663646+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "353900000",
-      "mmsi": "353900000",
-      "name": "SAO TITAN",
-      "category": "unknown",
-      "lat": 1.2675266666666665,
-      "lon": 103.94272666666667,
-      "speedKmh": 0.2,
-      "heading": 98,
-      "reportedAt": "2026-11-05T02:45:45.352368+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565587000",
-      "mmsi": "565587000",
-      "name": "REGENT GEMINI",
-      "category": "unknown",
-      "lat": 1.2504083333333333,
-      "lon": 103.86933166666667,
-      "speedKmh": 0.9,
-      "heading": 196.1,
-      "reportedAt": "2026-11-05T02:45:46.547623+00:00"
     },
     {
       "kind": "ship",
@@ -223,11 +199,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.246205,
-      "lon": 103.86686666666667,
-      "speedKmh": 0.2,
-      "heading": 172.8,
-      "reportedAt": "2026-11-05T03:46:09.165621+00:00"
+      "lat": 1.24634,
+      "lon": 103.86665333333333,
+      "speedKmh": 0.0,
+      "heading": 139.3,
+      "reportedAt": "2026-11-05T04:15:30.233031+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +271,35 @@
       "mmsi": "563074930",
       "name": "INFINITI  VIRTUS",
       "category": "unknown",
-      "lat": 1.2484250000000001,
-      "lon": 103.86946666666667,
+      "lat": 1.248445,
+      "lon": 103.86945333333333,
       "speedKmh": 0.2,
-      "heading": 272.1,
-      "reportedAt": "2026-11-05T04:01:38.171308+00:00"
+      "heading": 153.1,
+      "reportedAt": "2026-11-05T04:16:38.886441+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636016293",
+      "mmsi": "636016293",
+      "name": "ELANDRA MELODY",
+      "category": "unknown",
+      "lat": 1.233975,
+      "lon": 103.81853,
+      "speedKmh": 0.0,
+      "heading": 156.9,
+      "reportedAt": "2026-11-05T04:15:56.865315+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "441854000",
+      "mmsi": "441854000",
+      "name": "KOREA CHEMI",
+      "category": "unknown",
+      "lat": 1.2181933333333332,
+      "lon": 103.89164333333333,
+      "speedKmh": 19.3,
+      "heading": 245.7,
+      "reportedAt": "2026-11-05T04:16:17.270641+00:00"
     }
   ],
   "error": null
