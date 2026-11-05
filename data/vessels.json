@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T05:31:48.386519+00:00",
+  "updatedAt": "2026-11-05T05:46:42.158879+00:00",
   "items": [
     {
       "kind": "ship",
@@ -27,27 +27,15 @@
     },
     {
       "kind": "ship",
-      "id": "563087130",
-      "mmsi": "563087130",
-      "name": "STL T6",
-      "category": "unknown",
-      "lat": 1.24634,
-      "lon": 103.86665333333333,
-      "speedKmh": 0.0,
-      "heading": 139.3,
-      "reportedAt": "2026-11-05T04:15:30.233031+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563034500",
       "mmsi": "563034500",
       "name": "QUEEN STAR 8",
       "category": "unknown",
-      "lat": 1.262185,
-      "lon": 103.819495,
+      "lat": 1.2621816666666668,
+      "lon": 103.81947166666667,
       "speedKmh": 0.0,
       "heading": 155.8,
-      "reportedAt": "2026-11-05T05:16:22.553929+00:00"
+      "reportedAt": "2026-11-05T05:46:21.937435+00:00"
     },
     {
       "kind": "ship",
@@ -84,18 +72,6 @@
       "speedKmh": 0.0,
       "heading": 156.9,
       "reportedAt": "2026-11-05T05:16:02.910522+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "441854000",
-      "mmsi": "441854000",
-      "name": "KOREA CHEMI",
-      "category": "unknown",
-      "lat": 1.2181933333333332,
-      "lon": 103.89164333333333,
-      "speedKmh": 19.3,
-      "heading": 245.7,
-      "reportedAt": "2026-11-05T04:16:17.270641+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +223,11 @@
       "mmsi": "566753000",
       "name": "HAI SOON 33",
       "category": "unknown",
-      "lat": 1.2770366666666668,
-      "lon": 103.89291333333334,
-      "speedKmh": 0.2,
-      "heading": 78.9,
-      "reportedAt": "2026-11-05T05:00:56.316059+00:00"
+      "lat": 1.2776583333333333,
+      "lon": 103.89317333333334,
+      "speedKmh": 0.6,
+      "heading": 220.1,
+      "reportedAt": "2026-11-05T05:45:35.150170+00:00"
     },
     {
       "kind": "ship",
@@ -283,11 +259,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2829083333333335,
-      "lon": 103.89254333333334,
-      "speedKmh": 0.2,
-      "heading": null,
-      "reportedAt": "2026-11-05T05:00:50.929714+00:00"
+      "lat": 1.2824733333333334,
+      "lon": 103.89194333333333,
+      "speedKmh": 0.6,
+      "heading": 200.1,
+      "reportedAt": "2026-11-05T05:45:51.438027+00:00"
     },
     {
       "kind": "ship",
@@ -295,11 +271,11 @@
       "mmsi": "477895900",
       "name": "SNL HAIKOU",
       "category": "unknown",
-      "lat": 1.15577,
-      "lon": 103.79175333333333,
-      "speedKmh": 28.5,
-      "heading": 56.9,
-      "reportedAt": "2026-11-05T05:00:57.756451+00:00"
+      "lat": 1.2348766666666668,
+      "lon": 103.97051333333334,
+      "speedKmh": 28.9,
+      "heading": 75.7,
+      "reportedAt": "2026-11-05T05:46:39.016336+00:00"
     },
     {
       "kind": "ship",
@@ -415,11 +391,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.253025,
-      "lon": 103.90577499999999,
-      "speedKmh": 0.0,
-      "heading": 294.2,
-      "reportedAt": "2026-11-05T05:31:47.300361+00:00"
+      "lat": 1.25318,
+      "lon": 103.90563333333333,
+      "speedKmh": 0.2,
+      "heading": 247.7,
+      "reportedAt": "2026-11-05T05:45:57.503643+00:00"
     },
     {
       "kind": "ship",
@@ -516,6 +492,42 @@
       "speedKmh": 10.4,
       "heading": 335.3,
       "reportedAt": "2026-11-05T05:31:10.827512+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563085870",
+      "mmsi": "563085870",
+      "name": "CSM VIPER",
+      "category": "unknown",
+      "lat": 1.29356,
+      "lon": 103.93675833333333,
+      "speedKmh": 0.0,
+      "heading": 131.7,
+      "reportedAt": "2026-11-05T05:45:27.225517+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "311002484",
+      "mmsi": "311002484",
+      "name": "311002484",
+      "category": "unknown",
+      "lat": 1.2267566666666667,
+      "lon": 103.92306833333333,
+      "speedKmh": 21.9,
+      "heading": 248.5,
+      "reportedAt": "2026-11-05T05:45:53.062400+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563009210",
+      "mmsi": "563009210",
+      "name": "NOBLE ORION TG46",
+      "category": "unknown",
+      "lat": 1.2608433333333333,
+      "lon": 103.82539666666666,
+      "speedKmh": 0.2,
+      "heading": 322.4,
+      "reportedAt": "2026-11-05T05:46:16.666874+00:00"
     }
   ],
   "error": null
