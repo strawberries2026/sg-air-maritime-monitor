@@ -9,7 +9,7 @@ import datetime as dt
 import json
 from pathlib import Path
 
-KEYS = ("refreshed_at", "updated_at", "timestamp", "collected_at", "generated_at", "last_updated", "last_refresh", "snapshot_time")
+KEYS = ("updatedAt", "refreshed_at", "updated_at", "timestamp", "collected_at", "generated_at", "last_updated", "last_refresh", "snapshot_time")
 def parse_time(value):
     if isinstance(value, (int, float)):
         return dt.datetime.fromtimestamp(value / (1000 if value > 1e11 else 1), dt.timezone.utc)
