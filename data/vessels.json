@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:31:52.966178+00:00",
+  "updatedAt": "2026-11-05T21:46:38.227984+00:00",
   "items": [
     {
       "kind": "ship",
@@ -43,11 +43,11 @@
       "mmsi": "538012425",
       "name": "ELANDRA KUNLUN",
       "category": "unknown",
-      "lat": 1.23702,
-      "lon": 103.897435,
+      "lat": 1.2370566666666667,
+      "lon": 103.89717,
       "speedKmh": 0.0,
-      "heading": 49.6,
-      "reportedAt": "2026-11-05T21:27:42.956181+00:00"
+      "heading": 293.6,
+      "reportedAt": "2026-11-05T21:46:03.537810+00:00"
     },
     {
       "kind": "ship",
@@ -75,30 +75,6 @@
     },
     {
       "kind": "ship",
-      "id": "563021100",
-      "mmsi": "563021100",
-      "name": "KAI EI MARU 15",
-      "category": "unknown",
-      "lat": 1.2488366666666666,
-      "lon": 103.900205,
-      "speedKmh": 1.5,
-      "heading": 173.6,
-      "reportedAt": "2026-11-05T20:15:46.846793+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563078430",
-      "mmsi": "563078430",
-      "name": "BOONTEK",
-      "category": "unknown",
-      "lat": 1.1937616666666666,
-      "lon": 103.74170666666667,
-      "speedKmh": 0.2,
-      "heading": 198.1,
-      "reportedAt": "2026-11-05T20:15:31.508134+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "405000090",
       "mmsi": "405000090",
       "name": "AKIJ WAVE",
@@ -108,30 +84,6 @@
       "speedKmh": 15.4,
       "heading": 59.5,
       "reportedAt": "2026-11-05T21:31:17.696826+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "414276000",
-      "mmsi": "414276000",
-      "name": "CHANG RONG KOU",
-      "category": "unknown",
-      "lat": 1.2672483333333333,
-      "lon": 103.89140666666667,
-      "speedKmh": 0.0,
-      "heading": 228.6,
-      "reportedAt": "2026-11-05T20:15:47.642151+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352004123",
-      "mmsi": "352004123",
-      "name": "DDELPHINUS 12",
-      "category": "unknown",
-      "lat": 1.2180183333333334,
-      "lon": 103.900265,
-      "speedKmh": 20.2,
-      "heading": 245.6,
-      "reportedAt": "2026-11-05T20:15:54.794837+00:00"
     },
     {
       "kind": "ship",
@@ -259,11 +211,11 @@
       "mmsi": "413369440",
       "name": "LH HOPE",
       "category": "unknown",
-      "lat": 1.264395,
-      "lon": 103.88849166666667,
+      "lat": 1.2630216666666667,
+      "lon": 103.88785166666666,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T21:00:46.097699+00:00"
+      "reportedAt": "2026-11-05T21:45:57.138459+00:00"
     },
     {
       "kind": "ship",
@@ -343,11 +295,11 @@
       "mmsi": "566687000",
       "name": "STRAITS HARMONY",
       "category": "unknown",
-      "lat": 1.2553033333333334,
-      "lon": 103.86375833333334,
-      "speedKmh": 0.2,
-      "heading": 300.5,
-      "reportedAt": "2026-11-05T21:01:45.788282+00:00"
+      "lat": 1.2553783333333333,
+      "lon": 103.86364666666667,
+      "speedKmh": 0.4,
+      "heading": 151.8,
+      "reportedAt": "2026-11-05T21:45:36.119301+00:00"
     },
     {
       "kind": "ship",
@@ -367,11 +319,11 @@
       "mmsi": "374286000",
       "name": "BLPL TRUST",
       "category": "unknown",
-      "lat": 1.2630466666666667,
-      "lon": 103.79244666666666,
-      "speedKmh": 2.0,
-      "heading": 243.2,
-      "reportedAt": "2026-11-05T21:16:26.016840+00:00"
+      "lat": 1.261445,
+      "lon": 103.79048666666667,
+      "speedKmh": 0.9,
+      "heading": 245.7,
+      "reportedAt": "2026-11-05T21:45:25.387946+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +391,11 @@
       "mmsi": "241973000",
       "name": "KAMBOS",
       "category": "unknown",
-      "lat": 1.1646533333333333,
-      "lon": 103.80752666666667,
-      "speedKmh": 16.7,
-      "heading": 64,
-      "reportedAt": "2026-11-05T21:27:35.706721+00:00"
+      "lat": 1.18282,
+      "lon": 103.84991166666667,
+      "speedKmh": 17.4,
+      "heading": 71,
+      "reportedAt": "2026-11-05T21:46:15.402191+00:00"
     },
     {
       "kind": "ship",
@@ -540,6 +492,90 @@
       "speedKmh": 0.0,
       "heading": 288.4,
       "reportedAt": "2026-11-05T21:31:51.591768+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "567559000",
+      "mmsi": "567559000",
+      "name": "SRI KANCHANADIT",
+      "category": "unknown",
+      "lat": 1.2078766666666667,
+      "lon": 103.79697333333334,
+      "speedKmh": 0.0,
+      "heading": 213.9,
+      "reportedAt": "2026-11-05T21:45:30.494081+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565951000",
+      "mmsi": "565951000",
+      "name": "RELIANT CS01",
+      "category": "unknown",
+      "lat": 1.2625033333333335,
+      "lon": 103.84479333333334,
+      "speedKmh": 0.0,
+      "heading": 339.4,
+      "reportedAt": "2026-11-05T21:45:39.567031+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563187800",
+      "mmsi": "563187800",
+      "name": "PSA PHOENIX CS09",
+      "category": "unknown",
+      "lat": 1.2688083333333333,
+      "lon": 103.77479333333333,
+      "speedKmh": 4.4,
+      "heading": 203.1,
+      "reportedAt": "2026-11-05T21:45:41.400994+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414276000",
+      "mmsi": "414276000",
+      "name": "CHANG RONG KOU",
+      "category": "unknown",
+      "lat": 1.26673,
+      "lon": 103.891045,
+      "speedKmh": 0.0,
+      "heading": 228.6,
+      "reportedAt": "2026-11-05T21:45:47.540047+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019213",
+      "mmsi": "636019213",
+      "name": "MSC FAITH",
+      "category": "unknown",
+      "lat": 1.174075,
+      "lon": 103.76621333333333,
+      "speedKmh": 0.2,
+      "heading": 359.7,
+      "reportedAt": "2026-11-05T21:46:01.345977+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563021100",
+      "mmsi": "563021100",
+      "name": "KAI EI MARU 15",
+      "category": "unknown",
+      "lat": 1.24902,
+      "lon": 103.89574166666667,
+      "speedKmh": 0.2,
+      "heading": 18.4,
+      "reportedAt": "2026-11-05T21:46:14.827721+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "374044000",
+      "mmsi": "374044000",
+      "name": "SUNRISE SPRING",
+      "category": "unknown",
+      "lat": 1.27993,
+      "lon": 103.89596833333333,
+      "speedKmh": 0.0,
+      "heading": 336.5,
+      "reportedAt": "2026-11-05T21:46:18.373935+00:00"
     }
   ],
   "error": null
