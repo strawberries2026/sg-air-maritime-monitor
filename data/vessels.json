@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T17:02:01.530309+00:00",
+  "updatedAt": "2026-11-05T17:16:39.452206+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "668116289",
       "name": "SOON LI 28",
       "category": "unknown",
-      "lat": 1.2824633333333333,
-      "lon": 103.89330666666666,
+      "lat": 1.2823466666666665,
+      "lon": 103.89335166666666,
       "speedKmh": 0.0,
       "heading": null,
-      "reportedAt": "2026-11-05T16:01:37.119299+00:00"
+      "reportedAt": "2026-11-05T17:16:35.484268+00:00"
     },
     {
       "kind": "ship",
@@ -36,18 +36,6 @@
       "speedKmh": 0.0,
       "heading": 149.8,
       "reportedAt": "2026-11-05T16:46:28.975580+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566842000",
-      "mmsi": "566842000",
-      "name": "HUMBER",
-      "category": "unknown",
-      "lat": 1.2235716666666667,
-      "lon": 103.78789166666667,
-      "speedKmh": 12.4,
-      "heading": 140.5,
-      "reportedAt": "2026-11-05T15:46:27.379092+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +235,11 @@
       "mmsi": "563011000",
       "name": "KOTA NANHAI",
       "category": "unknown",
-      "lat": 1.2605166666666667,
-      "lon": 103.84365,
-      "speedKmh": 8.7,
-      "heading": 303,
-      "reportedAt": "2026-11-05T17:01:35.905845+00:00"
+      "lat": 1.2652333333333334,
+      "lon": 103.83425000000001,
+      "speedKmh": 2.2,
+      "heading": 250,
+      "reportedAt": "2026-11-05T17:15:55.955003+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +372,54 @@
       "speedKmh": 0.0,
       "heading": 358,
       "reportedAt": "2026-11-05T17:01:55.099703+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563092000",
+      "mmsi": "563092000",
+      "name": "COMO",
+      "category": "unknown",
+      "lat": 1.256835,
+      "lon": 103.78800333333334,
+      "speedKmh": 3.1,
+      "heading": 197.8,
+      "reportedAt": "2026-11-05T17:15:35.722613+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566717000",
+      "mmsi": "566717000",
+      "name": "MARINA ARIEL",
+      "category": "unknown",
+      "lat": 1.2632249999999998,
+      "lon": 103.846345,
+      "speedKmh": 0.0,
+      "heading": 298.1,
+      "reportedAt": "2026-11-05T17:15:44.808774+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563233500",
+      "mmsi": "563233500",
+      "name": "ENERGY LUMINA",
+      "category": "unknown",
+      "lat": 1.2717466666666666,
+      "lon": 103.92260833333333,
+      "speedKmh": 2.4,
+      "heading": 331.6,
+      "reportedAt": "2026-11-05T17:16:10.912457+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413369440",
+      "mmsi": "413369440",
+      "name": "LH HOPE",
+      "category": "unknown",
+      "lat": 1.2241966666666668,
+      "lon": 103.87595,
+      "speedKmh": 7.0,
+      "heading": 290.8,
+      "reportedAt": "2026-11-05T17:16:16.649468+00:00"
     }
   ],
   "error": null
