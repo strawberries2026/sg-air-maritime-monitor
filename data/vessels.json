@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T14:16:42.479691+00:00",
+  "updatedAt": "2026-11-05T14:31:49.841130+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "566532000",
-      "mmsi": "566532000",
-      "name": "STRAITS BRILLIANCE",
-      "category": "unknown",
-      "lat": 1.2719816666666666,
-      "lon": 103.89219333333334,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-05T13:01:17.625338+00:00"
-    },
     {
       "kind": "ship",
       "id": "5631101",
@@ -63,18 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "636025569",
-      "mmsi": "636025569",
-      "name": "NEREUS",
-      "category": "unknown",
-      "lat": 1.2321233333333335,
-      "lon": 103.88952833333333,
-      "speedKmh": 15.6,
-      "heading": 332,
-      "reportedAt": "2026-11-05T13:00:45.640439+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "668116289",
       "mmsi": "668116289",
       "name": "SOON LI 28",
@@ -84,54 +60,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-05T14:16:24.212467+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "241614000",
-      "mmsi": "241614000",
-      "name": "MINERVA OLYMPIA",
-      "category": "commercial",
-      "lat": 1.2532733333333332,
-      "lon": 103.90575166666666,
-      "speedKmh": 0.0,
-      "heading": 6,
-      "reportedAt": "2026-11-05T13:01:08.741520+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566687000",
-      "mmsi": "566687000",
-      "name": "STRAITS HARMONY",
-      "category": "unknown",
-      "lat": 1.2499283333333333,
-      "lon": 103.87617166666668,
-      "speedKmh": 0.0,
-      "heading": 94.6,
-      "reportedAt": "2026-11-05T13:01:14.035825+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "431687000",
-      "mmsi": "431687000",
-      "name": "AQUAMARINE ACE",
-      "category": "unknown",
-      "lat": 1.264745,
-      "lon": 103.85474500000001,
-      "speedKmh": 4.3,
-      "heading": 305,
-      "reportedAt": "2026-11-05T13:01:33.572804+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565173000",
-      "mmsi": "565173000",
-      "name": "AYER CHERDEK",
-      "category": "unknown",
-      "lat": 1.28027,
-      "lon": 103.88842833333334,
-      "speedKmh": 0.0,
-      "heading": 18,
-      "reportedAt": "2026-11-05T13:01:44.608732+00:00"
     },
     {
       "kind": "ship",
@@ -192,6 +120,54 @@
       "speedKmh": 0.2,
       "heading": 262.3,
       "reportedAt": "2026-11-05T14:01:41.970978+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566687000",
+      "mmsi": "566687000",
+      "name": "STRAITS HARMONY",
+      "category": "unknown",
+      "lat": 1.2548516666666667,
+      "lon": 103.86426833333333,
+      "speedKmh": 0.0,
+      "heading": 128.5,
+      "reportedAt": "2026-11-05T14:30:44.170989+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563059200",
+      "mmsi": "563059200",
+      "name": "MAERSK HERRERA",
+      "category": "unknown",
+      "lat": 1.25045,
+      "lon": 103.97265,
+      "speedKmh": 18.0,
+      "heading": 251.8,
+      "reportedAt": "2026-11-05T14:30:52.281157+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636023458",
+      "mmsi": "636023458",
+      "name": "ARRABBIATA",
+      "category": "unknown",
+      "lat": 1.2290233333333334,
+      "lon": 103.91927333333334,
+      "speedKmh": 18.5,
+      "heading": 248,
+      "reportedAt": "2026-11-05T14:31:16.152884+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "352004846",
+      "mmsi": "352004846",
+      "name": "STR VIGOR",
+      "category": "unknown",
+      "lat": 1.2662466666666667,
+      "lon": 103.88671500000001,
+      "speedKmh": 0.6,
+      "heading": 50.2,
+      "reportedAt": "2026-11-05T14:31:26.102465+00:00"
     }
   ],
   "error": null
