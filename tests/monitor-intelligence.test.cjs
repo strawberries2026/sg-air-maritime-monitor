@@ -35,3 +35,13 @@ test('situation summary identifies partial coverage', () => {
  assert.match(s, /not official movements/);
  assert.match(s, /event=schedule/);
 });
+
+test('provider error without timestamp is still an error', () => {
+ assert.equal(m.feedHealth({error:'source offline'}, now).status, 'error');
+});
+test('unknown freshness creates a verification advisory', () => {
+ const h = m.evaluateFeeds({}, feed(1), now);
+ const a = m.alerts(h, {aircraft:0,vessels:1}, {});
+ assert.equal(a.length, 1);
+ assert.match(a[0].message, /cannot be verified/);
+});
