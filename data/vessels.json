@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T02:31:48.116708+00:00",
+  "updatedAt": "2026-11-05T02:46:38.786596+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "471072000",
-      "mmsi": "471072000",
-      "name": "ARZANA",
-      "category": "unknown",
-      "lat": 1.2472133333333335,
-      "lon": 103.80760333333333,
-      "speedKmh": 0.2,
-      "heading": 2.5,
-      "reportedAt": "2026-11-05T01:01:50.437640+00:00"
-    },
     {
       "kind": "ship",
       "id": "5631101",
@@ -51,18 +39,6 @@
     },
     {
       "kind": "ship",
-      "id": "566474000",
-      "mmsi": "566474000",
-      "name": "STRAITS ORACLE",
-      "category": "unknown",
-      "lat": 1.1857466666666667,
-      "lon": 103.75985999999999,
-      "speedKmh": 0.2,
-      "heading": 282.8,
-      "reportedAt": "2026-11-05T01:16:33.087267+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636026710",
       "mmsi": "636026710",
       "name": "LFG KEDAH",
@@ -84,54 +60,6 @@
       "speedKmh": 0.0,
       "heading": 196.1,
       "reportedAt": "2026-11-05T02:30:44.977876+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563120700",
-      "mmsi": "563120700",
-      "name": "MAESTRO",
-      "category": "unknown",
-      "lat": 1.2653816666666666,
-      "lon": 103.88812666666666,
-      "speedKmh": 2.4,
-      "heading": 53.5,
-      "reportedAt": "2026-11-05T01:01:54.685946+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563273700",
-      "mmsi": "563273700",
-      "name": "GOLDEN SIRIUS",
-      "category": "unknown",
-      "lat": 1.2338833333333334,
-      "lon": 103.77945500000001,
-      "speedKmh": 15.0,
-      "heading": 133.7,
-      "reportedAt": "2026-11-05T01:15:48.153917+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009210",
-      "mmsi": "563009210",
-      "name": "NOBLE ORION TG46",
-      "category": "unknown",
-      "lat": 1.2616966666666667,
-      "lon": 103.84569499999999,
-      "speedKmh": 0.2,
-      "heading": 352.7,
-      "reportedAt": "2026-11-05T01:16:26.632266+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565587000",
-      "mmsi": "565587000",
-      "name": "REGENT GEMINI",
-      "category": "unknown",
-      "lat": 1.250385,
-      "lon": 103.86949166666666,
-      "speedKmh": 1.1,
-      "heading": 189.8,
-      "reportedAt": "2026-11-05T01:16:28.683771+00:00"
     },
     {
       "kind": "ship",
@@ -198,12 +126,12 @@
       "id": "370385000",
       "mmsi": "370385000",
       "name": "SPLENDOR KEELUNG",
-      "category": "unknown",
-      "lat": 1.2695833333333333,
-      "lon": 103.87645,
-      "speedKmh": 0.2,
-      "heading": 178,
-      "reportedAt": "2026-11-05T01:46:18.591382+00:00"
+      "category": "commercial",
+      "lat": 1.2691333333333332,
+      "lon": 103.8766,
+      "speedKmh": 0.4,
+      "heading": 172,
+      "reportedAt": "2026-11-05T02:46:18.367470+00:00"
     },
     {
       "kind": "ship",
@@ -324,6 +252,30 @@
       "speedKmh": 2.8,
       "heading": 121.8,
       "reportedAt": "2026-11-05T02:30:54.444447+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "353900000",
+      "mmsi": "353900000",
+      "name": "SAO TITAN",
+      "category": "unknown",
+      "lat": 1.2675266666666665,
+      "lon": 103.94272666666667,
+      "speedKmh": 0.2,
+      "heading": 98,
+      "reportedAt": "2026-11-05T02:45:45.352368+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565587000",
+      "mmsi": "565587000",
+      "name": "REGENT GEMINI",
+      "category": "unknown",
+      "lat": 1.2504083333333333,
+      "lon": 103.86933166666667,
+      "speedKmh": 0.9,
+      "heading": 196.1,
+      "reportedAt": "2026-11-05T02:45:46.547623+00:00"
     }
   ],
   "error": null
