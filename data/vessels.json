@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:16:39.124513+00:00",
+  "updatedAt": "2026-11-06T00:31:48.459124+00:00",
   "items": [
     {
       "kind": "ship",
@@ -51,42 +51,6 @@
     },
     {
       "kind": "ship",
-      "id": "368270000",
-      "mmsi": "368270000",
-      "name": "SLNC  STAR",
-      "category": "unknown",
-      "lat": 1.256,
-      "lon": 103.87605833333333,
-      "speedKmh": 0.0,
-      "heading": 128,
-      "reportedAt": "2026-11-05T23:00:44.002907+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "241614000",
-      "mmsi": "241614000",
-      "name": "MINERVA OLYMPIA",
-      "category": "unknown",
-      "lat": 1.2519083333333334,
-      "lon": 103.90630833333333,
-      "speedKmh": 0.0,
-      "heading": 143.2,
-      "reportedAt": "2026-11-05T23:01:08.786619+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "319225500",
-      "mmsi": "319225500",
-      "name": "ABEONA",
-      "category": "unknown",
-      "lat": 1.2626766666666667,
-      "lon": 103.81180333333333,
-      "speedKmh": 0.0,
-      "heading": 251,
-      "reportedAt": "2026-11-05T23:01:19.709607+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "431220000",
       "mmsi": "431220000",
       "name": "ASTRAL ACE",
@@ -96,18 +60,6 @@
       "speedKmh": 11.3,
       "heading": 309.2,
       "reportedAt": "2026-11-05T23:31:39.753007+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563322500",
-      "mmsi": "563322500",
-      "name": "BTS ECLIPSE",
-      "category": "commercial",
-      "lat": 1.2274500000000002,
-      "lon": 103.80788166666666,
-      "speedKmh": 0.2,
-      "heading": 149.3,
-      "reportedAt": "2026-11-05T23:01:46.817936+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +420,90 @@
       "speedKmh": 13.0,
       "heading": 136.1,
       "reportedAt": "2026-11-06T00:16:26.752888+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "572979220",
+      "mmsi": "572979220",
+      "name": "CORAL BAY",
+      "category": "unknown",
+      "lat": 1.2246133333333333,
+      "lon": 103.81935666666666,
+      "speedKmh": 0.0,
+      "heading": 193.8,
+      "reportedAt": "2026-11-06T00:30:38.617567+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "249937000",
+      "mmsi": "249937000",
+      "name": "ALEGRIA",
+      "category": "unknown",
+      "lat": 1.183,
+      "lon": 103.76787666666668,
+      "speedKmh": 0.2,
+      "heading": 142.9,
+      "reportedAt": "2026-11-06T00:30:44.940028+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "564034000",
+      "mmsi": "564034000",
+      "name": "MERLION 8",
+      "category": "unknown",
+      "lat": 1.26307,
+      "lon": 103.76150666666668,
+      "speedKmh": 13.3,
+      "heading": 294.4,
+      "reportedAt": "2026-11-06T00:31:03.115289+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "566392000",
+      "mmsi": "566392000",
+      "name": "DEBONAIR",
+      "category": "unknown",
+      "lat": 1.2653033333333332,
+      "lon": 103.89299666666668,
+      "speedKmh": 1.9,
+      "heading": 250.1,
+      "reportedAt": "2026-11-06T00:31:07.521348+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563084060",
+      "mmsi": "563084060",
+      "name": "563084060",
+      "category": "unknown",
+      "lat": 1.2954833333333333,
+      "lon": 103.93500166666666,
+      "speedKmh": 0.0,
+      "heading": 315.3,
+      "reportedAt": "2026-11-06T00:31:21.254075+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "403297001",
+      "mmsi": "403297001",
+      "name": "BAHRI DIRIYAH",
+      "category": "unknown",
+      "lat": 1.2703133333333334,
+      "lon": 103.91102500000001,
+      "speedKmh": 0.9,
+      "heading": 34.5,
+      "reportedAt": "2026-11-06T00:31:36.317322+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563079960",
+      "mmsi": "563079960",
+      "name": "MATA IKAN",
+      "category": "unknown",
+      "lat": 1.269685,
+      "lon": 103.86952,
+      "speedKmh": 18.9,
+      "heading": 331.7,
+      "reportedAt": "2026-11-06T00:31:44.392769+00:00"
     }
   ],
   "error": null
