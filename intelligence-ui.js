@@ -77,14 +77,23 @@
       [state.aircraft,state.vessels] = await Promise.all(responses.map(r => r.json()));
       render();
     } catch (_) {
-      $('intel-air').textContent = 'Unavailable';
-      $('intel-ship').textContent = 'Unavailable';
+      state.aircraft = null;
+      state.vessels = null;
+      state.health = null;
+      for (const id of ['intel-air', 'intel-ship']) {
+        $(id).textContent = 'Unavailable';
+        $(id).dataset.health = 'unknown';
+      }
+      $('intel-air-count').textContent = '—';
+      $('intel-ship-count').textContent = '—';
+      $('intel-summary').textContent = 'Situation summary unavailable: published snapshots could not be verified.';
+      $('intel-density').textContent = 'Observation density unavailable.';
       $('intel-alerts').textContent = 'Unable to verify published snapshots. Retry refresh.';
     }
   }
   $('intel-copy').addEventListener('click', () => {
     const summary = $('intel-summary').textContent;
-    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(summary).catch(() => { $('intel-copy').textContent = 'Copy unavailable'; });
+    if (navigator.clipboard?.writeText) navigator.clipboard.writeText(summary).then(() => { $('intel-copy').textContent = 'Copied'; setTimeout(() => { $('intel-copy').textContent = 'Copy situation summary'; }, 2000); }).catch(() => { $('intel-copy').textContent = 'Copy unavailable'; });
     else $('intel-copy').textContent = 'Copy unavailable';
   });
   document.getElementById('homeRefresh')?.addEventListener('click', () => { refresh(); loadHistory(); });
