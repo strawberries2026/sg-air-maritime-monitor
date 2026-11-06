@@ -69,7 +69,10 @@
       $('intel-trends').textContent = tracks.length + ' identifiers and ' + points + ' timestamped track points in available history. These are observations, not verified trips.';
     } catch (_) { $('intel-trends').textContent = 'Historical observations currently unavailable.'; }
   }
+  let refreshing = false;
   async function refresh() {
+    if (refreshing) return;
+    refreshing = true;
     try {
       const stamp = Date.now();
       const responses = await Promise.all(['aircraft','vessels'].map(k => fetch('./data/' + k + '.json?intelligence=' + stamp, {cache:'no-store'})));
@@ -89,6 +92,8 @@
       $('intel-summary').textContent = 'Situation summary unavailable: published snapshots could not be verified.';
       $('intel-density').textContent = 'Observation density unavailable.';
       $('intel-alerts').textContent = 'Unable to verify published snapshots. Retry refresh.';
+    } finally {
+      refreshing = false;
     }
   }
   $('intel-copy').addEventListener('click', () => {
@@ -99,5 +104,11 @@
   document.getElementById('homeRefresh')?.addEventListener('click', () => { refresh(); loadHistory(); });
   refresh(); loadHistory();
   // Re-evaluate age locally even if upstream snapshots do not change.
-  setInterval(render, 60 * 1000);
+  setInterval(() => {
+    render();
+    if (!document.hidden) refresh();
+  }, 60 * 1000);
+  document.addEventListener('visibilitychange', () => {
+    if (!document.hidden) { refresh(); loadHistory(); }
+  });
 })();
