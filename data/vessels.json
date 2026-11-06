@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T01:16:43.650364+00:00",
+  "updatedAt": "2026-11-06T01:31:46.528897+00:00",
   "items": [
     {
       "kind": "ship",
@@ -355,11 +355,11 @@
       "mmsi": "374044000",
       "name": "SUNRISE SPRING",
       "category": "unknown",
-      "lat": 1.2796133333333333,
-      "lon": 103.896995,
+      "lat": 1.2796883333333333,
+      "lon": 103.89708833333334,
       "speedKmh": 0.0,
-      "heading": 33.2,
-      "reportedAt": "2026-11-06T01:16:18.421529+00:00"
+      "heading": 45.2,
+      "reportedAt": "2026-11-06T01:31:18.361195+00:00"
     },
     {
       "kind": "ship",
@@ -384,6 +384,54 @@
       "speedKmh": 0.2,
       "heading": 60.2,
       "reportedAt": "2026-11-06T01:16:39.714878+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565643000",
+      "mmsi": "565643000",
+      "name": "DAVINA",
+      "category": "unknown",
+      "lat": 1.2274683333333334,
+      "lon": 103.87817666666666,
+      "speedKmh": 11.9,
+      "heading": 237.5,
+      "reportedAt": "2026-11-06T01:30:36.291852+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563125900",
+      "mmsi": "563125900",
+      "name": "PERTAMINA PRIDE",
+      "category": "unknown",
+      "lat": 1.2405283333333335,
+      "lon": 103.95577499999999,
+      "speedKmh": 18.0,
+      "heading": 250.6,
+      "reportedAt": "2026-11-06T01:31:06.743317+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "241614000",
+      "mmsi": "241614000",
+      "name": "MINERVA OLYMPIA",
+      "category": "unknown",
+      "lat": 1.2518983333333333,
+      "lon": 103.90708833333333,
+      "speedKmh": 0.0,
+      "heading": 248.3,
+      "reportedAt": "2026-11-06T01:31:08.697429+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "565951000",
+      "mmsi": "565951000",
+      "name": "RELIANT CS01",
+      "category": "unknown",
+      "lat": 1.2577916666666666,
+      "lon": 103.84230333333333,
+      "speedKmh": 0.2,
+      "heading": 306.4,
+      "reportedAt": "2026-11-06T01:31:19.088954+00:00"
     }
   ],
   "error": null
