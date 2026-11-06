@@ -1,0 +1,29 @@
+name: Validate monitoring intelligence PR
+on:
+  pull_request:
+    paths:
+      - 'monitor-intelligence.js'
+      - 'intelligence-ui.js'
+      - 'tests/monitor-intelligence.test.cjs'
+      - 'index.html'
+      - 'style.css'
+      - '.github/workflows/intelligence-ci.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  intelligence-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript syntax
+        run: |
+          node --check monitor-intelligence.js
+          node --check intelligence-ui.js
+          node --check tests/monitor-intelligence.test.cjs
+      - name: Run monitoring intelligence regression tests
+        run: node --test tests/monitor-intelligence.test.cjs
