@@ -45,3 +45,15 @@ test('unknown freshness creates a verification advisory', () => {
  assert.equal(a.length, 1);
  assert.match(a[0].message, /cannot be verified/);
 });
+
+test('stale feed alerts are warnings, not proof of traffic change', () => {
+ const h = m.evaluateFeeds(feed(50), feed(2), now);
+ const notes = m.alerts(h, {aircraft:0,vessels:8}, {aircraft:30,vessels:8});
+ assert.equal(notes.length, 1);
+ assert.equal(notes[0].severity, 'warning');
+ assert.equal(notes[0].source, 'aircraft');
+});
+test('no traffic baseline does not fabricate traffic alerts', () => {
+ const h = m.evaluateFeeds(feed(2), feed(2), now);
+ assert.deepEqual(m.alerts(h, {aircraft:5,vessels:7}, {}), []);
+});
