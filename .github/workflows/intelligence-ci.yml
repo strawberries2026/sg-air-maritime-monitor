@@ -7,6 +7,8 @@ on:
       - 'tests/monitor-intelligence.test.cjs'
       - 'index.html'
       - 'style.css'
+      - 'sw.js'
+      - 'manifest.webmanifest'
       - '.github/workflows/intelligence-ci.yml'
   workflow_dispatch:
 permissions:
@@ -24,6 +26,7 @@ jobs:
         run: |
           node --check monitor-intelligence.js
           node --check intelligence-ui.js
+          node --check sw.js
           node --check tests/monitor-intelligence.test.cjs
       - name: Run monitoring intelligence regression tests
         run: node --test tests/monitor-intelligence.test.cjs
