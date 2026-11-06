@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T02:46:40.258398+00:00",
+  "updatedAt": "2026-11-06T03:01:57.740854+00:00",
   "items": [
     {
       "kind": "ship",
@@ -87,18 +87,6 @@
     },
     {
       "kind": "ship",
-      "id": "374044000",
-      "mmsi": "374044000",
-      "name": "SUNRISE SPRING",
-      "category": "unknown",
-      "lat": 1.2796883333333333,
-      "lon": 103.89708833333334,
-      "speedKmh": 0.0,
-      "heading": 45.2,
-      "reportedAt": "2026-11-06T01:31:18.361195+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563187800",
       "mmsi": "563187800",
       "name": "PSA PHOENIX CS09",
@@ -108,30 +96,6 @@
       "speedKmh": 0.0,
       "heading": 131.6,
       "reportedAt": "2026-11-06T02:00:51.106710+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565643000",
-      "mmsi": "565643000",
-      "name": "DAVINA",
-      "category": "unknown",
-      "lat": 1.2274683333333334,
-      "lon": 103.87817666666666,
-      "speedKmh": 11.9,
-      "heading": 237.5,
-      "reportedAt": "2026-11-06T01:30:36.291852+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563125900",
-      "mmsi": "563125900",
-      "name": "PERTAMINA PRIDE",
-      "category": "unknown",
-      "lat": 1.2405283333333335,
-      "lon": 103.95577499999999,
-      "speedKmh": 18.0,
-      "heading": 250.6,
-      "reportedAt": "2026-11-06T01:31:06.743317+00:00"
     },
     {
       "kind": "ship",
@@ -235,11 +199,11 @@
       "mmsi": "563111200",
       "name": "SINAR SUNDA",
       "category": "unknown",
-      "lat": 1.210065,
-      "lon": 103.80476666666667,
-      "speedKmh": 8.3,
-      "heading": 129.5,
-      "reportedAt": "2026-11-06T02:15:43.723077+00:00"
+      "lat": 1.20123,
+      "lon": 103.88169833333333,
+      "speedKmh": 22.4,
+      "heading": 75.6,
+      "reportedAt": "2026-11-06T03:01:54.383274+00:00"
     },
     {
       "kind": "ship",
@@ -247,11 +211,11 @@
       "mmsi": "563087130",
       "name": "STL T6",
       "category": "unknown",
-      "lat": 1.2460483333333334,
-      "lon": 103.86815333333334,
+      "lat": 1.2460083333333332,
+      "lon": 103.86812,
       "speedKmh": 0.0,
-      "heading": 57,
-      "reportedAt": "2026-11-06T02:45:55.823726+00:00"
+      "heading": 33.4,
+      "reportedAt": "2026-11-06T03:00:56.113041+00:00"
     },
     {
       "kind": "ship",
@@ -600,6 +564,66 @@
       "speedKmh": 19.4,
       "heading": 248,
       "reportedAt": "2026-11-06T02:45:43.545539+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "354855000",
+      "mmsi": "354855000",
+      "name": "354855000",
+      "category": "unknown",
+      "lat": 1.2671133333333333,
+      "lon": 103.885505,
+      "speedKmh": 2.6,
+      "heading": 330.1,
+      "reportedAt": "2026-11-06T03:00:56.307574+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525109025",
+      "mmsi": "525109025",
+      "name": "S.PANGKALAN BRANDAN",
+      "category": "unknown",
+      "lat": 1.25973,
+      "lon": 103.84075166666666,
+      "speedKmh": 0.0,
+      "heading": 135.8,
+      "reportedAt": "2026-11-06T03:01:01.001901+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "412487000",
+      "mmsi": "412487000",
+      "name": "HE PING HAI",
+      "category": "unknown",
+      "lat": 1.2624833333333332,
+      "lon": 103.93079666666667,
+      "speedKmh": 11.3,
+      "heading": 134.1,
+      "reportedAt": "2026-11-06T03:01:04.603010+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "538008962",
+      "mmsi": "538008962",
+      "name": "GPO EMERALD",
+      "category": "unknown",
+      "lat": 1.27645,
+      "lon": 103.91060166666666,
+      "speedKmh": 0.2,
+      "heading": 193.6,
+      "reportedAt": "2026-11-06T03:01:05.973202+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "525119095",
+      "mmsi": "525119095",
+      "name": "ARTEMIS",
+      "category": "unknown",
+      "lat": 1.2666716666666666,
+      "lon": 103.89830333333333,
+      "speedKmh": 0.2,
+      "heading": 7.7,
+      "reportedAt": "2026-11-06T03:01:15.792295+00:00"
     }
   ],
   "error": null
