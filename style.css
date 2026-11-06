@@ -121,3 +121,21 @@
 
 /* Ensure six mobile bottom navigation destinations remain usable. */
 .bottom-nav a{min-width:0}.bottom-nav a span:last-child{white-space:nowrap}@media(max-width:390px){.bottom-nav a{padding-left:2px;padding-right:2px}.bottom-nav a span:last-child{font-size:.65rem}}
+
+/* Optional monitoring intelligence v2.1 — compact Android-friendly panel */
+.intelligence-panel{margin:12px 0 18px}
+.intelligence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.intelligence-grid article{min-width:0;border:1px solid #365870;border-radius:12px;background:#0b2234;padding:12px;display:flex;flex-direction:column;gap:7px}
+.intelligence-grid small{color:#b6d0df;font-size:.78rem}
+.intelligence-grid strong{font-size:1rem;overflow-wrap:anywhere}
+.intelligence-grid strong[data-health="fresh"]{color:#84e0b2}
+.intelligence-grid strong[data-health="stale"],.intelligence-grid strong[data-health="error"]{color:#ffbe83}
+.intelligence-grid strong[data-health="unknown"]{color:#c9d6df}
+.intelligence-note{font-size:.82rem;color:#b6d0df;line-height:1.5}
+.intelligence-panel details{border:1px solid #365870;border-radius:10px;padding:10px;margin-top:10px}
+.intelligence-panel summary{cursor:pointer;font-weight:650}
+.intelligence-heat-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:3px;margin:10px 0}
+.intelligence-heat-grid span{aspect-ratio:1.3;border:1px solid #35566b;border-radius:3px}
+.intelligence-density small{color:#b6d0df}
+.intelligence-summary{white-space:pre-wrap;overflow-wrap:anywhere;font-family:inherit;font-size:.78rem;line-height:1.5}
+@media(max-width:380px){.intelligence-grid article{padding:9px}.intelligence-grid strong{font-size:.85rem}}
