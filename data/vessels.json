@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T00:02:02.711806+00:00",
+  "updatedAt": "2026-11-06T00:16:39.124513+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,23 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735666666666667,
-      "lon": 103.80139333333334,
+      "lat": 1.2735349999999999,
+      "lon": 103.80138333333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-05T23:01:47.687626+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413369440",
-      "mmsi": "413369440",
-      "name": "LH HOPE",
-      "category": "unknown",
-      "lat": 1.26251,
-      "lon": 103.88797833333334,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-05T22:46:27.252643+00:00"
+      "reportedAt": "2026-11-06T00:15:46.082565+00:00"
     },
     {
       "kind": "ship",
@@ -48,42 +36,6 @@
       "speedKmh": 9.3,
       "heading": 273.3,
       "reportedAt": "2026-11-05T23:45:56.068536+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636025088",
-      "mmsi": "636025088",
-      "name": "YORK DOWNS",
-      "category": "unknown",
-      "lat": 1.2191966666666665,
-      "lon": 103.80044333333333,
-      "speedKmh": 0.0,
-      "heading": 213.2,
-      "reportedAt": "2026-11-05T22:45:25.780641+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477850100",
-      "mmsi": "477850100",
-      "name": "PINE EXPRESS",
-      "category": "unknown",
-      "lat": 1.2298499999999999,
-      "lon": 103.81773333333334,
-      "speedKmh": 0.6,
-      "heading": 105,
-      "reportedAt": "2026-11-05T22:45:55.798327+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232060236",
-      "mmsi": "232060236",
-      "name": "PACIFIC GUILLEMOT",
-      "category": "unknown",
-      "lat": 1.2207466666666666,
-      "lon": 103.76204833333333,
-      "speedKmh": 12.4,
-      "heading": 107.7,
-      "reportedAt": "2026-11-05T22:46:17.847166+00:00"
     },
     {
       "kind": "ship",
@@ -439,11 +391,11 @@
       "mmsi": "533132083",
       "name": "ORKIM EMERALD",
       "category": "unknown",
-      "lat": 1.2077466666666665,
-      "lon": 103.81896499999999,
-      "speedKmh": 17.6,
-      "heading": 277.5,
-      "reportedAt": "2026-11-06T00:01:42.025217+00:00"
+      "lat": 1.2237783333333332,
+      "lon": 103.79320666666668,
+      "speedKmh": 11.5,
+      "heading": 330.4,
+      "reportedAt": "2026-11-06T00:15:48.353656+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +420,54 @@
       "speedKmh": 0.4,
       "heading": 213.5,
       "reportedAt": "2026-11-06T00:01:58.388113+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563269100",
+      "mmsi": "563269100",
+      "name": "STELLAR OF MAJESTIC",
+      "category": "unknown",
+      "lat": 1.2601466666666667,
+      "lon": 103.80481833333333,
+      "speedKmh": 15.6,
+      "heading": 213.1,
+      "reportedAt": "2026-11-06T00:15:35.498415+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563248400",
+      "mmsi": "563248400",
+      "name": "PEARL LEGO",
+      "category": "unknown",
+      "lat": 1.2946233333333335,
+      "lon": 103.94091666666667,
+      "speedKmh": 0.4,
+      "heading": 103.8,
+      "reportedAt": "2026-11-06T00:15:39.957870+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563027990",
+      "mmsi": "563027990",
+      "name": "PERSEITY",
+      "category": "unknown",
+      "lat": 1.2299783333333332,
+      "lon": 103.80176,
+      "speedKmh": 0.0,
+      "heading": null,
+      "reportedAt": "2026-11-06T00:16:24.216122+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563024500",
+      "mmsi": "563024500",
+      "name": "MARINE QUEENIE",
+      "category": "unknown",
+      "lat": 1.2386000000000001,
+      "lon": 103.77606166666666,
+      "speedKmh": 13.0,
+      "heading": 136.1,
+      "reportedAt": "2026-11-06T00:16:26.752888+00:00"
     }
   ],
   "error": null
