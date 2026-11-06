@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T01:48:38.550854+00:00",
+  "updatedAt": "2026-11-06T02:01:57.642803+00:00",
   "items": [
     {
       "kind": "ship",
@@ -7,11 +7,11 @@
       "mmsi": "5631101",
       "name": "PSAB",
       "category": "unknown",
-      "lat": 1.2735366666666665,
-      "lon": 103.80136,
+      "lat": 1.2735466666666668,
+      "lon": 103.80136333333333,
       "speedKmh": 0.0,
       "heading": 0,
-      "reportedAt": "2026-11-06T01:01:17.490688+00:00"
+      "reportedAt": "2026-11-06T02:01:47.871871+00:00"
     },
     {
       "kind": "ship",
@@ -63,42 +63,6 @@
     },
     {
       "kind": "ship",
-      "id": "564034000",
-      "mmsi": "564034000",
-      "name": "MERLION 8",
-      "category": "unknown",
-      "lat": 1.26307,
-      "lon": 103.76150666666668,
-      "speedKmh": 13.3,
-      "heading": 294.4,
-      "reportedAt": "2026-11-06T00:31:03.115289+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566392000",
-      "mmsi": "566392000",
-      "name": "DEBONAIR",
-      "category": "unknown",
-      "lat": 1.2653033333333332,
-      "lon": 103.89299666666668,
-      "speedKmh": 1.9,
-      "heading": 250.1,
-      "reportedAt": "2026-11-06T00:31:07.521348+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563084060",
-      "mmsi": "563084060",
-      "name": "563084060",
-      "category": "unknown",
-      "lat": 1.2954833333333333,
-      "lon": 103.93500166666666,
-      "speedKmh": 0.0,
-      "heading": 315.3,
-      "reportedAt": "2026-11-06T00:31:21.254075+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "403297001",
       "mmsi": "403297001",
       "name": "BAHRI DIRIYAH",
@@ -108,18 +72,6 @@
       "speedKmh": 23.2,
       "heading": 249.3,
       "reportedAt": "2026-11-06T01:01:54.922915+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563079960",
-      "mmsi": "563079960",
-      "name": "MATA IKAN",
-      "category": "unknown",
-      "lat": 1.269685,
-      "lon": 103.86952,
-      "speedKmh": 18.9,
-      "heading": 331.7,
-      "reportedAt": "2026-11-06T00:31:44.392769+00:00"
     },
     {
       "kind": "ship",
@@ -293,13 +245,13 @@
       "kind": "ship",
       "id": "563187800",
       "mmsi": "563187800",
-      "name": "563187800",
+      "name": "PSA PHOENIX CS09",
       "category": "unknown",
-      "lat": 1.2580216666666668,
-      "lon": 103.84245833333333,
+      "lat": 1.2580133333333334,
+      "lon": 103.84249,
       "speedKmh": 0.0,
-      "heading": 353.8,
-      "reportedAt": "2026-11-06T01:48:00.128271+00:00"
+      "heading": 131.6,
+      "reportedAt": "2026-11-06T02:00:51.106710+00:00"
     },
     {
       "kind": "ship",
@@ -331,11 +283,11 @@
       "mmsi": "241614000",
       "name": "MINERVA OLYMPIA",
       "category": "unknown",
-      "lat": 1.2519433333333334,
-      "lon": 103.90703666666667,
+      "lat": 1.2520283333333333,
+      "lon": 103.90725333333333,
       "speedKmh": 0.0,
-      "heading": 333.1,
-      "reportedAt": "2026-11-06T01:46:08.891336+00:00"
+      "heading": 113.3,
+      "reportedAt": "2026-11-06T02:01:08.791801+00:00"
     },
     {
       "kind": "ship",
@@ -468,6 +420,114 @@
       "speedKmh": 0.0,
       "heading": 74.3,
       "reportedAt": "2026-11-06T01:48:07.709714+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "477168700",
+      "mmsi": "477168700",
+      "name": "ORE SHENZHEN",
+      "category": "unknown",
+      "lat": 1.2257133333333334,
+      "lon": 103.92086333333333,
+      "speedKmh": 23.0,
+      "heading": 249.2,
+      "reportedAt": "2026-11-06T02:00:45.417508+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414208000",
+      "mmsi": "414208000",
+      "name": "YUAN CHUN HU",
+      "category": "unknown",
+      "lat": 1.16976,
+      "lon": 103.80338166666667,
+      "speedKmh": 15.2,
+      "heading": 67.1,
+      "reportedAt": "2026-11-06T02:00:50.506947+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "630001140",
+      "mmsi": "630001140",
+      "name": "WAN MING PING DENG",
+      "category": "unknown",
+      "lat": 1.1679933333333332,
+      "lon": 103.821245,
+      "speedKmh": 18.3,
+      "heading": 63.8,
+      "reportedAt": "2026-11-06T02:00:58.724082+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563086150",
+      "mmsi": "563086150",
+      "name": "PILOT 17",
+      "category": "unknown",
+      "lat": 1.211255,
+      "lon": 103.79052499999999,
+      "speedKmh": 34.3,
+      "heading": 20.3,
+      "reportedAt": "2026-11-06T02:01:16.412317+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636020437",
+      "mmsi": "636020437",
+      "name": "IRENES RAY",
+      "category": "unknown",
+      "lat": 1.2689833333333334,
+      "lon": 103.77115,
+      "speedKmh": 0.0,
+      "heading": 153,
+      "reportedAt": "2026-11-06T02:01:20.990207+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "563033100",
+      "mmsi": "563033100",
+      "name": "MARINE ZAMBEZI",
+      "category": "unknown",
+      "lat": 1.2225183333333334,
+      "lon": 103.79417666666667,
+      "speedKmh": 11.9,
+      "heading": 133.7,
+      "reportedAt": "2026-11-06T02:01:21.430544+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "636019156",
+      "mmsi": "636019156",
+      "name": "DELOS",
+      "category": "unknown",
+      "lat": 1.15073,
+      "lon": 103.77541666666666,
+      "speedKmh": 16.1,
+      "heading": 49.9,
+      "reportedAt": "2026-11-06T02:01:25.182712+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "414342000",
+      "mmsi": "414342000",
+      "name": "FAN YA GUANG ZHOU",
+      "category": "unknown",
+      "lat": 1.2333416666666668,
+      "lon": 103.93627,
+      "speedKmh": 22.2,
+      "heading": 243,
+      "reportedAt": "2026-11-06T02:01:32.745830+00:00"
+    },
+    {
+      "kind": "ship",
+      "id": "413369440",
+      "mmsi": "413369440",
+      "name": "LH HOPE",
+      "category": "unknown",
+      "lat": 1.263165,
+      "lon": 103.89018166666666,
+      "speedKmh": 0.0,
+      "heading": 0,
+      "reportedAt": "2026-11-06T02:01:37.398253+00:00"
     }
   ],
   "error": null
