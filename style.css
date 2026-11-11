@@ -121,3 +121,6 @@
 
 /* Ensure six mobile bottom navigation destinations remain usable. */
 .bottom-nav a{min-width:0}.bottom-nav a span:last-child{white-space:nowrap}@media(max-width:390px){.bottom-nav a{padding-left:2px;padding-right:2px}.bottom-nav a span:last-child{font-size:.65rem}}
+
+/* Monitoring Intelligence: additive mobile-first cards */
+.intelligence-panel{margin-block:1rem}.intelligence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}.intelligence-grid article{min-width:0;padding:.8rem;border:1px solid var(--border,#64748b55);border-radius:12px;display:grid;gap:.4rem}.intelligence-grid small{opacity:.8}.intelligence-grid strong{overflow-wrap:anywhere}.intelligence-grid [data-health=stale],.intelligence-grid [data-health=error],.intelligence-grid [data-health=unknown]{color:#e69a37}.intelligence-note{font-size:.85rem;opacity:.8}.intelligence-heat-grid{display:grid;grid-template-columns:repeat(8,1fr);gap:3px;aspect-ratio:8/6;max-width:460px}.intelligence-heat-grid span{border-radius:3px;min-height:12px}.intelligence-summary{white-space:pre-wrap;overflow-wrap:anywhere;max-width:100%}

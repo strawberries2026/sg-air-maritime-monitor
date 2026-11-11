@@ -1,0 +1,56 @@
+name: Validate monitoring intelligence PR
+on:
+  pull_request:
+    paths:
+      - 'monitor-intelligence.js'
+      - 'intelligence-ui.js'
+      - 'tests/monitor-intelligence.test.cjs'
+      - 'index.html'
+      - 'style.css'
+      - 'sw.js'
+      - 'manifest.webmanifest'
+      - '.github/workflows/intelligence-ci.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  intelligence-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript syntax
+        run: |
+          node --check monitor-intelligence.js
+          node --check intelligence-ui.js
+          node --check sw.js
+          node --check tests/monitor-intelligence.test.cjs
+      - name: Verify dashboard and offline shell asset references
+        run: |
+          node - <<'NODE'
+          const fs = require('node:fs');
+          const assert = require('node:assert/strict');
+          const html = fs.readFileSync('index.html', 'utf8');
+          const sw = fs.readFileSync('sw.js', 'utf8');
+          const manifest = JSON.parse(fs.readFileSync('manifest.webmanifest', 'utf8'));
+          for (const file of ['monitor-intelligence.js', 'intelligence-ui.js']) {
+            assert.ok(html.includes('src="' + file + '?'), 'Dashboard missing ' + file);
+            assert.ok(sw.includes('./' + file + '?'), 'Offline shell missing ' + file);
+            assert.ok(fs.existsSync(file), 'Missing script ' + file);
+          }
+          for (const file of ['index.html', 'style.css', 'app.js', 'icon.svg']) {
+            assert.ok(fs.existsSync(file), 'Missing offline shell asset ' + file);
+          }
+          for (const icon of manifest.icons || []) {
+            assert.ok(fs.existsSync(icon.src), 'Missing PWA icon ' + icon.src);
+          }
+          assert.ok(manifest.start_url.startsWith('/sg-air-maritime-monitor/'));
+          assert.ok(manifest.scope.startsWith('/sg-air-maritime-monitor/'));
+          assert.ok(sw.includes("url.pathname.includes('/data/')"), 'Live data must bypass shell cache');
+          console.log('Dashboard, PWA manifest and offline shell references verified');
+          NODE
+      - name: Run monitoring intelligence regression tests
+        run: node --test tests/monitor-intelligence.test.cjs
