@@ -6,7 +6,7 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
   function timestamp(value) {
-    if (typeof value !== 'string' || !/(Z|[+-]\\d{2}:\\d{2})$/i.test(value)) return NaN;
+    if (typeof value !== 'string' || !/(Z|[+-]\d{2}:\d{2})$/i.test(value)) return NaN;
     return Date.parse(value);
   }
   function classify(record, snapshotTime, thresholdMinutes = 45) {
