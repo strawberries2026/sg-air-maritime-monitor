@@ -124,7 +124,7 @@
 
 /* Phase 1 mobile UX: presentation only; collector, map and feeds untouched. */
 @media(max-width:760px){
-  .bottom-nav{grid-template-columns:repeat(5,minmax(0,1fr));align-items:stretch;gap:2px;padding:6px 5px calc(6px + env(safe-area-inset-bottom,0px))}
+  .bottom-nav{grid-template-columns:repeat(6,minmax(0,1fr));align-items:stretch;gap:2px;padding:6px 5px calc(6px + env(safe-area-inset-bottom,0px))}
   .bottom-nav a{min-height:54px;padding:4px 1px;line-height:1.15}
   .bottom-nav a span:first-child{font-size:21px}
   .bottom-nav a span:last-child{font-size:11px}
