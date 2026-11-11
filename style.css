@@ -121,3 +121,16 @@
 
 /* Ensure six mobile bottom navigation destinations remain usable. */
 .bottom-nav a{min-width:0}.bottom-nav a span:last-child{white-space:nowrap}@media(max-width:390px){.bottom-nav a{padding-left:2px;padding-right:2px}.bottom-nav a span:last-child{font-size:.65rem}}
+
+/* Optional monitoring intelligence panel — scoped to prevent existing dashboard regressions. */
+.intelligence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}
+.intelligence-grid article{min-width:0;padding:12px;background:#102c40;border:1px solid #385c73;border-radius:12px;display:flex;flex-direction:column;gap:7px}
+.intelligence-grid strong{overflow-wrap:anywhere;font-size:1rem}
+.intelligence-grid small,.intelligence-note{color:#b8d4e4;font-size:.83rem;line-height:1.5}
+.intelligence-panel details{margin-top:12px;padding:12px;border:1px solid #385c73;border-radius:10px}
+.intelligence-panel summary{cursor:pointer;min-height:36px}
+.intelligence-heat-grid{display:grid;grid-template-columns:repeat(8,minmax(0,1fr));gap:3px;margin:10px 0}
+.intelligence-heat-grid span{aspect-ratio:1;border:1px solid #2c5067;border-radius:3px}
+.intelligence-summary{white-space:pre-wrap;overflow-wrap:anywhere;font-size:.75rem;line-height:1.5}
+#intel-copy{min-height:44px}
+@media(min-width:760px){.intelligence-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
