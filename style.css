@@ -121,3 +121,20 @@
 
 /* Ensure six mobile bottom navigation destinations remain usable. */
 .bottom-nav a{min-width:0}.bottom-nav a span:last-child{white-space:nowrap}@media(max-width:390px){.bottom-nav a{padding-left:2px;padding-right:2px}.bottom-nav a span:last-child{font-size:.65rem}}
+
+/* Phase 1 mobile UX: presentation only; collector, map and feeds untouched. */
+@media(max-width:760px){
+  .bottom-nav{grid-template-columns:repeat(5,minmax(0,1fr));align-items:stretch;gap:2px;padding:6px 5px calc(6px + env(safe-area-inset-bottom,0px))}
+  .bottom-nav a{min-height:54px;padding:4px 1px;line-height:1.15}
+  .bottom-nav a span:first-child{font-size:21px}
+  .bottom-nav a span:last-child{font-size:11px}
+  body{padding-bottom:calc(78px + env(safe-area-inset-bottom,0px))}
+  .stats{gap:9px}
+  .stats article{min-width:0;padding:12px}
+  .stats article small{font-size:.72rem;line-height:1.35}
+  .panel{margin-top:14px;margin-bottom:14px}
+  .force-overview-card{min-height:105px}
+  .vtis-card{padding:11px}
+  footer{font-size:.75rem;line-height:1.5}
+}
+@media(max-width:390px){.bottom-nav a span:last-child{font-size:10px}}
