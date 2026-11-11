@@ -1,0 +1,25 @@
+name: Validate intelligence dashboard preview
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check monitor-intelligence.js && node --check intelligence-ui.js && node --check sw.js
+      - run: node --test tests/monitor-intelligence.test.cjs
+      - name: Verify integration references
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');const assert=require('node:assert/strict');
+          const html=fs.readFileSync('index.html','utf8'),sw=fs.readFileSync('sw.js','utf8');
+          for(const f of ['monitor-intelligence.js','intelligence-ui.js']){assert.ok(html.includes('src="'+f+'?'));assert.ok(sw.includes('./'+f+'?'));}
+          assert.ok(html.includes('data-bottom-nav="vtis"'),'VTIS navigation must remain');
+          assert.ok(sw.includes("url.pathname.includes('/data/')"),'Live data bypasses cache');
+          console.log('Intelligence scripts, VTIS and live-data cache bypass verified');
+          NODE
