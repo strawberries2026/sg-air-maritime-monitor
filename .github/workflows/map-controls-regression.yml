@@ -1,0 +1,30 @@
+name: Map controls regression checks
+on: [pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate JavaScript and map shortcuts
+        run: |
+          node --check app.js
+          node - <<'NODE'
+          const fs=require('node:fs');const assert=require('node:assert/strict');
+          const html=fs.readFileSync('index.html','utf8');
+          const js=fs.readFileSync('app.js','utf8');
+          const css=fs.readFileSync('style.css','utf8');
+          const sw=fs.readFileSync('sw.js','utf8');
+          for(const id of ['map','mapSingaporeShortcut','mapPedraShortcut','pedraBrancaButton','singaporeMapButton'])assert.ok(html.includes('id="'+id+'"'),'Missing '+id);
+          assert.ok(js.includes("el('mapSingaporeShortcut')?.addEventListener('click',()=>el('singaporeMapButton').click())"));
+          assert.ok(js.includes("el('mapPedraShortcut')?.addEventListener('click',()=>el('pedraBrancaButton').click())"));
+          assert.ok(js.includes('L.markerClusterGroup'),'Marker clustering missing');
+          assert.ok(css.includes('.map-quick-tools'),'Map toolbar CSS missing');
+          assert.ok(sw.includes("url.pathname.includes('/data/')"),'Live feeds must bypass cache');
+          console.log('Map controls, existing clustering, and feed bypass verified');
+          NODE
