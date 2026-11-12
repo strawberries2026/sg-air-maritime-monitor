@@ -1,0 +1,30 @@
+name: Android preview bundle (no deployment)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify required app assets
+        run: |
+          test -f index.html
+          test -f app.js
+          test -f observation-freshness.js
+          test -f sw.js
+          node --test tests/observation-freshness.test.cjs tests/pwa-shell.test.cjs tests/dashboard-integration.test.cjs
+      - name: Package read-only preview
+        run: |
+          mkdir -p preview/data
+          cp index.html app.js observation-freshness.js style.css sw.js manifest.webmanifest icon.svg preview/
+          for file in icon-192.png icon-512.png; do if test -f "$file"; then cp "$file" preview/; fi; done
+          printf '%s\n' 'PREVIEW ONLY — run with an HTTP server for full PWA testing. Opening index.html directly may block fetches and service workers. This artifact does not deploy or run collectors.' > preview/README.txt
+          printf '%s\n' '{"items":[],"updatedAt":null,"error":"Preview bundle: no live feed included"}' > preview/data/aircraft.json
+          printf '%s\n' '{"items":[],"updatedAt":null,"error":"Preview bundle: no live feed included"}' > preview/data/vessels.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sg-air-maritime-android-preview
+          path: preview/
+          retention-days: 7
