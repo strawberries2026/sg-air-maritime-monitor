@@ -4,6 +4,9 @@ on:
     paths:
       - 'observation-freshness.js'
       - 'tests/observation-freshness.test.cjs'
+      - 'tests/pwa-shell.test.cjs'
+      - 'sw.js'
+      - 'index.html'
       - '.github/workflows/observation-freshness-tests.yml'
   workflow_dispatch:
 permissions:
@@ -16,4 +19,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/observation-freshness.test.cjs
+      - run: node --test tests/observation-freshness.test.cjs tests/pwa-shell.test.cjs
