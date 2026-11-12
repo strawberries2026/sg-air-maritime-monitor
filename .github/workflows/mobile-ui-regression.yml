@@ -22,7 +22,7 @@ jobs:
           assert.ok(nav,'Mobile bottom navigation exists');
           const tabs=[...nav[0].matchAll(/data-bottom-nav="([^"]+)"/g)].map(x=>x[1]);
           assert.deepEqual(tabs,['home','aircraft','maritime','map','vtis','more']);
-          for(const id of ['map','vtis-straitrep','sources-section'])assert.ok(html.includes('id="'+id+'"'),'Missing destination '+id);
+          for(const id of ['map','vtis-straitrep','satellite-monitoring'])assert.ok(html.includes('id="'+id+'"'),'Missing destination '+id);
           assert.ok(css.includes('grid-template-columns:repeat(6,minmax(0,1fr))'),'Six mobile columns required');
           assert.ok(css.includes('safe-area-inset-bottom'),'Safe area missing');
           assert.ok(sw.includes("url.pathname.includes('/data/')"),'Live feed must bypass PWA cache');
