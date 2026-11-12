@@ -155,3 +155,10 @@
  .stats article{padding:11px}
  .feed-snapshot-time{display:block;font-size:11px;line-height:1.4;color:#a7c6d9;margin-top:4px;overflow-wrap:anywhere}
 }
+
+/* v2.0.3: compact map legend and nearby landmark shortcuts. */
+.map-quick-tools{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:9px;padding:10px 12px;margin:10px 0;background:#102b3e;border:1px solid #365870;border-radius:12px}
+.map-quick-actions,.map-legend{display:flex;flex-wrap:wrap;align-items:center;gap:7px}
+.map-quick-actions button{min-height:40px;border:1px solid #56829b;background:#173e55;color:#e5eef6;border-radius:9px;padding:8px 11px;font-weight:650;cursor:pointer}
+.map-legend span{font-size:12px;color:#c7ddea}
+@media(max-width:760px){.map-quick-tools{margin:8px 0;padding:9px}.map-quick-actions{width:100%}.map-quick-actions button{flex:1 1 auto}.map-legend{gap:6px 12px}.map-legend span{font-size:11px}}
