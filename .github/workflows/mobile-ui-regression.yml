@@ -18,7 +18,9 @@ jobs:
           const html=fs.readFileSync('index.html','utf8');
           const css=fs.readFileSync('style.css','utf8');
           const sw=fs.readFileSync('sw.js','utf8');
-          const nav=html.match(/<nav class="bottom-nav"[\\s\\S]*?<\\/nav>/);
+          const navStart=html.indexOf('<nav class="bottom-nav"');
+          const navEnd=html.indexOf('</nav>',navStart);
+          const nav=navStart>=0&&navEnd>navStart?[html.slice(navStart,navEnd+6)]:null;
           assert.ok(nav,'Mobile bottom navigation exists');
           const tabs=[...nav[0].matchAll(/data-bottom-nav="([^"]+)"/g)].map(x=>x[1]);
           assert.deepEqual(tabs,['home','aircraft','maritime','map','vtis','more']);
