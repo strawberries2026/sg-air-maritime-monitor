@@ -1,8 +1,8 @@
 // Scoped offline shell for SG Air & Maritime Monitor only.
 // Never delete or overwrite caches belonging to other GitHub Pages apps.
 const PREFIX='sg-air-maritime-shell-';
-const CACHE=PREFIX+'v2.0.3';
-const SHELL=['./','./index.html','./style.css?v=2.0.3','./app.js?v=2.0.3','./icon.svg'];
+const CACHE=PREFIX+'v2.0.4';
+const SHELL=['./','./index.html','./style.css?v=2.0.4','./app.js?v=2.0.4','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(
   caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())
 ));
