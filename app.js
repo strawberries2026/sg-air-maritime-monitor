@@ -157,6 +157,7 @@ function showFeed(kind,data){
  const label=data.error?'Error':state.label;
  el(id).textContent=label;el(id).className='small status '+(data.error?'bad':state.tone);
  el(id).title=data.error||('Snapshot '+sgt(data.updated)+'; '+ageLabel(data.updated));
+ const statusNode=el(id);let stamp=statusNode.parentElement.querySelector('.feed-snapshot-time');if(!stamp){stamp=document.createElement('small');stamp.className='feed-snapshot-time';statusNode.insertAdjacentElement('afterend',stamp);}stamp.textContent=data.updated?'Snapshot: '+sgt(data.updated):'Snapshot time unavailable';
 }
 async function get(path,kind){
  try{

@@ -145,3 +145,13 @@
   .bottom-nav>a{min-width:0;max-width:100%;width:auto;padding:4px 0;overflow:hidden}
   .bottom-nav>a span:last-child{font-size:clamp(9px,2.5vw,11px);white-space:nowrap}
 }
+
+/* v2.0.2: mobile quick navigation scroll affordance and compact dashboard. */
+@media(max-width:760px){
+ .quick-nav{position:relative;gap:7px;scroll-snap-type:x proximity;overscroll-behavior-x:contain;padding:10px 14px 13px;scrollbar-width:auto;scrollbar-color:#79b4cf #15354a}
+ .quick-nav a{scroll-snap-align:start;padding:8px 11px;font-size:12px}
+ .home-refresh-bar{margin:10px 0 8px;gap:8px}
+ .stats{margin-top:8px;margin-bottom:10px}
+ .stats article{padding:11px}
+ .feed-snapshot-time{display:block;font-size:11px;line-height:1.4;color:#a7c6d9;margin-top:4px;overflow-wrap:anywhere}
+}
