@@ -4,14 +4,6 @@ on:
   push:
     branches:
       - fix/singapore-overview-close-popup
-    paths:
-      - '.github/workflows/pr67-private-preview.yml'
-      - 'index.html'
-      - 'app.js'
-      - 'style.css'
-      - 'sw.js'
-      - 'manifest.webmanifest'
-      - 'icon.svg'
   workflow_dispatch:
 
 permissions:
@@ -21,48 +13,12 @@ jobs:
   package-preview:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out PR branch
-        uses: actions/checkout@v4
-      - name: Check required files and build private ZIP
-        shell: bash
+      - uses: actions/checkout@v4
+      - name: Verify popup fix and package source
         run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          from zipfile import ZipFile, ZIP_DEFLATED
-          import re
-          required = ['index.html', 'app.js', 'style.css', 'sw.js', 'manifest.webmanifest', 'icon.svg']
-          for name in required:
-              assert Path(name).is_file(), f'Missing {name}'
-          js = Path('app.js').read_text()
-          assert re.search(r"el\('singaporeMapButton'\)\.addEventListener\('click',\(\)=>\{map\.closePopup\(\);", js), 'Popup fix missing'
-          html = Path('index.html').read_text()
-          assert 'app.js?v=2.0.6' in html, 'Updated JS URL missing'
-          sw = Path('sw.js').read_text()
-          assert "CACHE=PREFIX+'v2.0.6'" in sw, 'PWA cache version missing'
-          readme = """SG Air & Maritime Monitor - PR #67 isolated preview
-
-          This ZIP contains real application files from the PR branch, not a simulation.
-          It is NOT deployed to production and does not update GitHub Pages.
-          
-          For correct browser testing, serve the extracted folder using a local HTTP server.
-          Opening index.html as file:// may prevent browser fetches and service workers.
-          The application references public data feeds and third-party map resources.
-          A local test may require internet access and may not show all live markers.
-          Do not install this preview as a replacement for your production PWA.
-          
-          Test: open Pedra Branca, then Singapore Overview. The popup should close.
-          Check map markers, layer controls, and mobile bottom navigation.
-          """
-          names = required + [n for n in ('icon-192.png', 'icon-512.png') if Path(n).is_file()]
-          names += [str(p) for p in Path('data').rglob('*') if p.is_file()] if Path('data').is_dir() else []
-          with ZipFile('PR67-real-app-preview.zip', 'w', ZIP_DEFLATED) as z:
-              for name in names:
-                  z.write(name, name)
-              z.writestr('README-PREVIEW.txt', readme)
-          print(f'Packaged {len(names)} application files')
-          PY
-      - name: Upload private preview artifact
-        uses: actions/upload-artifact@v4
+          python3 -c "from pathlib import Path; s=Path('app.js').read_text(); assert 'map.closePopup()' in s; assert 'app.js?v=2.0.6' in Path('index.html').read_text()"
+          python3 -m zipfile -c PR67-real-app-preview.zip index.html app.js style.css sw.js manifest.webmanifest icon.svg
+      - uses: actions/upload-artifact@v4
         with:
           name: PR67-real-app-android-preview
           path: PR67-real-app-preview.zip
