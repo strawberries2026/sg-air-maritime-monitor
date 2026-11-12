@@ -138,3 +138,10 @@
   footer{font-size:.75rem;line-height:1.5}
 }
 @media(max-width:390px){.bottom-nav a span:last-child{font-size:10px}}
+
+/* v2.0.1: prevent six-tab navigation wrapping on narrow Android screens. */
+@media(max-width:760px){
+  .bottom-nav{display:grid!important;grid-template-columns:repeat(6,minmax(0,1fr))!important;grid-auto-flow:row;gap:1px;align-items:stretch}
+  .bottom-nav>a{min-width:0;max-width:100%;width:auto;padding:4px 0;overflow:hidden}
+  .bottom-nav>a span:last-child{font-size:clamp(9px,2.5vw,11px);white-space:nowrap}
+}
