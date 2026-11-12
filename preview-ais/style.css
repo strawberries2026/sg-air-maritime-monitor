@@ -121,3 +121,6 @@
 
 /* Ensure six mobile bottom navigation destinations remain usable. */
 .bottom-nav a{min-width:0}.bottom-nav a span:last-child{white-space:nowrap}@media(max-width:390px){.bottom-nav a{padding-left:2px;padding-right:2px}.bottom-nav a span:last-child{font-size:.65rem}}
+
+/* Preview-only: six fixed mobile destinations, one row. */
+@media(max-width:760px){.bottom-nav{grid-template-columns:repeat(6,minmax(0,1fr));gap:1px;padding-left:3px;padding-right:3px}.bottom-nav a{padding:3px 0;min-width:0}.bottom-nav a span:first-child{font-size:clamp(17px,4vw,23px)}.bottom-nav a span:last-child{font-size:clamp(9px,2.2vw,11px)}}
