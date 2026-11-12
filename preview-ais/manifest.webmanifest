@@ -1,0 +1,19 @@
+{
+  "id": "/sg-air-maritime-monitor/preview-ais/",
+  "name": "SG Air & Maritime Monitor (Preview)",
+  "short_name": "SG Air Preview",
+  "description": "Singapore aircraft and public maritime monitoring",
+  "start_url": "/sg-air-maritime-monitor/preview-ais/",
+  "scope": "/sg-air-maritime-monitor/preview-ais/",
+  "display": "standalone",
+  "background_color": "#071b2c",
+  "theme_color": "#071b2c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
