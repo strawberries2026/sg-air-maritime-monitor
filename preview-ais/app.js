@@ -209,10 +209,10 @@ async function load(){
  try{
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
-  el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
+  el('airCount').textContent='—';el('shipCount').textContent='—'; // Archived preview: never present historical observations as current counts.
   el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note){const age=s.observationHealth;const warning=age?(age.stale+' of '+age.total+' vessel reports exceed '+age.thresholdMinutes+' minutes; '+age.unknown+' have unknown age. '):'Observation ages unavailable. ';note.textContent='⚠ Partial AIS coverage: '+warning+ships.length+' vessel observation(s) within the past 90 minutes. Positions are sampled, delayed or incomplete — not live traffic totals. Tap a vessel to see its last report.';}
   await loadHistory();updateHealth();render();
-  if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+((a.error||s.error)?'Feed error; see status below':'Latest published snapshots loaded');
+  if(homeStatus)homeStatus.textContent='TEST PREVIEW · Archived snapshots only · Aircraft: '+(a.updated?sgt(a.updated):'unavailable')+' · Maritime: '+(s.updated?sgt(s.updated):'unavailable')+' · '+((a.error||s.error)?'Feed error':'Not live');
  }catch(error){if(homeStatus)homeStatus.textContent='Refresh unsuccessful: '+error.message;console.warn('Snapshot refresh failed',error);
  }finally{el('refresh').disabled=false;refreshInProgress=false;if(homeButton){homeButton.disabled=false;homeButton.textContent='↻ Refresh data';}}
 }
