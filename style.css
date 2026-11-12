@@ -165,6 +165,6 @@
 
 /* Keep the Pedra Branca landmark popup readable on narrow Android screens. */
 #map .pedra-popup .leaflet-popup-content-wrapper{max-width:calc(100vw - 64px);box-sizing:border-box}
-#map .pedra-popup .leaflet-popup-content{width:auto!important;min-width:0;max-width:min(240px,calc(100vw - 100px));overflow-wrap:anywhere;word-break:normal;line-height:1.45}
+#map .pedra-popup .leaflet-popup-content{width:min(240px,calc(100vw - 112px))!important;min-width:0;max-width:none;overflow-wrap:break-word;word-break:normal;line-height:1.45}
 #map .pedra-popup .leaflet-popup-content a{overflow-wrap:anywhere}
 #map .pedra-popup .leaflet-popup-close-button{z-index:2}
