@@ -165,7 +165,8 @@ async function get(path,kind){
   const d=await r.json();if(!Array.isArray(d.items))throw Error('Invalid snapshot data');
   const error=d.error?String(d.error):null;
   const rows=error?[]:d.items.filter(x=>x.kind===kind&&recent(x.reportedAt)&&Number.isFinite(x.lat)&&Number.isFinite(x.lon));
-  return{rows,updated:d.updatedAt||null,error};
+  const observationHealth=kind==='ship'&&!error&&typeof SGObservationFreshness!=='undefined'?SGObservationFreshness.summarize(d):null;
+  return{rows,updated:d.updatedAt||null,error,observationHealth};
  }catch(e){return{rows:[],updated:null,error:kind+': '+e.message}}
 }
 let lastFeeds=null;
@@ -210,7 +211,7 @@ async function load(){
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
   el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
-  el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note)note.textContent='⚠ Partial AIS coverage: '+ships.length+' distinct vessel observation(s) within the past 90 minutes. These are sampled reports, NOT all vessels in Singapore waters. Positions may be delayed; tap a vessel to see its last report.';
+  el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note){const age=s.observationHealth;const detail=age?(age.stale+' of '+age.total+' reports older than '+age.thresholdMinutes+' minutes; '+age.unknown+' unknown age. '):'Observation ages unavailable. ';note.textContent='⚠ Partial AIS coverage: '+detail+ships.length+' recent vessel observation(s) shown. '+(!freshness(s.updated).ok?'Snapshot is stale. ':'')+'Positions are sampled or delayed, not live traffic totals. Tap a vessel for its last report.';}
   await loadHistory();updateHealth();render();
   if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+((a.error||s.error)?'Feed error; see status below':'Latest published snapshots loaded');
  }catch(error){if(homeStatus)homeStatus.textContent='Refresh unsuccessful: '+error.message;console.warn('Snapshot refresh failed',error);
