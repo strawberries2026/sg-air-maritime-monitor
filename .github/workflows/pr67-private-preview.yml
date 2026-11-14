@@ -1,0 +1,26 @@
+name: PR67 private Android preview package
+
+on:
+  push:
+    branches:
+      - fix/singapore-overview-close-popup
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify popup fix and package source
+        run: |
+          python3 -c "from pathlib import Path; s=Path('app.js').read_text(); assert 'map.closePopup()' in s; assert 'app.js?v=2.0.6' in Path('index.html').read_text()"
+          python3 -m zipfile -c PR67-real-app-preview.zip index.html app.js style.css sw.js manifest.webmanifest icon.svg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PR67-real-app-android-preview
+          path: PR67-real-app-preview.zip
+          retention-days: 7
+          if-no-files-found: error
