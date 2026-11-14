@@ -24,6 +24,10 @@ jobs:
           assert.ok(js.includes("el('mapSingaporeShortcut')?.addEventListener('click',()=>el('singaporeMapButton').click())"));
           assert.ok(js.includes("el('mapPedraShortcut')?.addEventListener('click',()=>el('pedraBrancaButton').click())"));
           assert.ok(js.includes('L.markerClusterGroup'),'Marker clustering missing');
+          const overview=js.match(/el\('singaporeMapButton'\)\.addEventListener\('click',\(\)=>\{([^}]+)\}\);/);
+          assert.ok(overview,'Singapore Overview click handler missing');
+          assert.ok(overview[1].includes('map.closePopup()'),'Singapore Overview must close active popup');
+          assert.ok(overview[1].indexOf('map.closePopup()') < overview[1].indexOf('map.setView('),'Popup must close before resetting map view');
           assert.ok(css.includes('.map-quick-tools'),'Map toolbar CSS missing');
           assert.ok(sw.includes("url.pathname.includes('/data/')"),'Live feeds must bypass cache');
           console.log('Map controls, existing clustering, and feed bypass verified');
