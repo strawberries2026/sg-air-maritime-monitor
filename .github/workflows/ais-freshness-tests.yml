@@ -1,5 +1,8 @@
 name: AIS freshness and dashboard regression tests
 on:
+  push:
+    branches:
+      - feature/ais-freshness-verified-20261114
   pull_request:
     paths:
       - 'observation-freshness.js'
