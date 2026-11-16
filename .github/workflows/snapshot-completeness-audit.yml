@@ -1,0 +1,22 @@
+name: Snapshot completeness audit
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_snapshot_completeness.py'
+      - '.github/workflows/snapshot-completeness-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check audit syntax
+        run: python -m py_compile scripts/audit_snapshot_completeness.py
+      - name: Run read-only audit against published snapshots
+        run: python scripts/audit_snapshot_completeness.py
