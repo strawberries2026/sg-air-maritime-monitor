@@ -25,6 +25,7 @@ def inspect_feed(filename):
     valid = 0
     invalid = 0
     unique = set()
+    duplicate_ids = 0
     for row in rows:
         if not isinstance(row, dict):
             invalid += 1
@@ -39,15 +40,32 @@ def inspect_feed(filename):
             invalid += 1
             continue
         valid += 1
-        unique.add(str(ident))
+        identifier = str(ident)
+        if identifier in unique:
+            duplicate_ids += 1
+        unique.add(identifier)
+    age = (NOW - updated).total_seconds() / 60 if updated else None
+    if age is None:
+        freshness = "unknown"
+    elif age < -2:
+        freshness = "future_timestamp"
+    elif age > 45:
+        freshness = "stale"
+    else:
+        freshness = "fresh"
+    source_error = data.get("error") or None
     return {
         "feed": filename,
-        "snapshot_age_minutes": round((NOW - updated).total_seconds() / 60, 1) if updated else None,
+        "snapshot_age_minutes": round(age, 1) if age is not None else None,
+        "freshness_threshold_minutes": 45,
+        "freshness_status": freshness,
         "published_records": len(rows),
         "valid_records": valid,
         "invalid_records": invalid,
         "unique_identifiers": len(unique),
-        "source_error": data.get("error") or None,
+        "duplicate_identifiers": duplicate_ids,
+        "source_error": source_error,
+        "source_status": "error" if source_error else "no_reported_error",
     }
 
 
