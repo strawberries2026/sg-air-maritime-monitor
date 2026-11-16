@@ -179,3 +179,13 @@
  .compact-movement .movement-airport-card details{margin-top:3px}
  .compact-movement .movement-compact-disclaimer{font-size:.76rem}
 }
+
+/* Mobile Movement Dashboard: concise full-width airport information rows. */
+@media(max-width:650px){
+ .compact-movement .movement-grid>.movement-airport-card{grid-column:1/-1;display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:12px;align-items:center;padding:10px 12px}
+ .compact-movement .movement-airport-card h3{grid-column:1;grid-row:1;margin:0;font-size:.92rem}
+ .compact-movement .movement-airport-card h3 small{display:inline;font-size:.7rem;margin-left:5px}
+ .compact-movement .movement-airport-card .movement-compact-meta{grid-column:1;grid-row:2;margin:3px 0!important;line-height:1.3!important}
+ .compact-movement .movement-airport-card .movement-card-action{grid-column:2;grid-row:1/3;margin:0;white-space:nowrap;font-size:.76rem}
+ .compact-movement .movement-airport-card details{grid-column:1/-1;margin-top:5px}
+}
