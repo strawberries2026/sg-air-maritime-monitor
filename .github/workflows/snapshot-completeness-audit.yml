@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - 'scripts/audit_snapshot_completeness.py'
+      - 'tests/test_snapshot_audit.py'
       - '.github/workflows/snapshot-completeness-audit.yml'
   workflow_dispatch:
 permissions:
@@ -20,3 +21,5 @@ jobs:
         run: python -m py_compile scripts/audit_snapshot_completeness.py
       - name: Run read-only audit against published snapshots
         run: python scripts/audit_snapshot_completeness.py
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -p 'test_snapshot_audit.py' -v
