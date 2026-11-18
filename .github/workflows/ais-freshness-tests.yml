@@ -1,0 +1,41 @@
+name: AIS freshness and dashboard regression tests
+on:
+  push:
+    branches:
+      - feature/ais-freshness-verified-20261114
+  pull_request:
+    paths:
+      - 'observation-freshness.js'
+      - 'tests/observation-freshness.test.cjs'
+      - 'tests/dashboard-integration.test.cjs'
+      - 'app.js'
+      - 'index.html'
+      - 'sw.js'
+      - '.github/workflows/ais-freshness-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check app.js
+      - run: node --check observation-freshness.js
+      - run: node --test tests/observation-freshness.test.cjs tests/dashboard-integration.test.cjs
+      - name: Package isolated Android review bundle
+        run: |
+          mkdir -p android-review/data
+          cp index.html app.js observation-freshness.js style.css sw.js manifest.webmanifest icon.svg android-review/
+          for file in icon-192.png icon-512.png; do if test -f "$file"; then cp "$file" android-review/; fi; done
+          printf '%s\n' '{"items":[],"updatedAt":null,"error":"Isolated Android review: no live feed included"}' > android-review/data/aircraft.json
+          printf '%s\n' '{"items":[],"updatedAt":null,"error":"Isolated Android review: no live feed included"}' > android-review/data/vessels.json
+          printf '%s\n' 'PR REVIEW ONLY. No live AIS/ADS-B data. Serve this folder via HTTP for browser/PWA checks. This job never deploys or runs collectors.' > android-review/README.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ais-freshness-pr70-android-review
+          path: android-review/
+          retention-days: 7
