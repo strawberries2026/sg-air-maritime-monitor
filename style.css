@@ -167,6 +167,12 @@
 #map .pedra-popup .leaflet-popup-content-wrapper{max-width:calc(100vw - 64px);box-sizing:border-box}
 #map .pedra-popup .leaflet-popup-content{width:min(240px,calc(100vw - 112px))!important;min-width:0;max-width:none;overflow-wrap:break-word;word-break:normal;line-height:1.45}
 #map .pedra-popup .leaflet-popup-content a{overflow-wrap:anywhere}
+#map .pedra-popup .compact-popup details{display:block;min-width:0}
+#map .pedra-popup .compact-popup summary{cursor:pointer;display:list-item;list-style-position:inside}
+#map .pedra-popup .compact-popup .pedra-detail-text{margin:8px 0;line-height:1.45;font-size:12px;overflow-wrap:break-word}
+#map .pedra-popup .compact-popup details>a{display:block;margin:8px 0;line-height:1.4}
+#map .pedra-popup .compact-popup details>small{display:block;line-height:1.45;margin-top:6px}
+
 #map .pedra-popup .leaflet-popup-close-button{z-index:2}
 
 /* Movement dashboard: observation-first layout and compact airport links on Android. */

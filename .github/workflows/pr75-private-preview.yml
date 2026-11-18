@@ -1,0 +1,34 @@
+name: PR75 isolated Android preview
+on:
+  push:
+    branches:
+      - ux/pedra-branca-compact-popup
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate compact popup and build real-app preview
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import zipfile
+          app = Path('app.js').read_text()
+          assert 'pedraMarker=' in app and '<summary>More information</summary>' in app
+          assert 'map.closePopup()' in app
+          files = ['index.html','app.js','style.css','sw.js','manifest.webmanifest','icon.svg','icon-192.png','icon-512.png']
+          files = [p for p in files if Path(p).is_file()]
+          files += [str(p) for p in Path('data').rglob('*') if p.is_file()]
+          with zipfile.ZipFile('PR75-real-app-android-preview.zip','w',zipfile.ZIP_DEFLATED) as z:
+              for p in files: z.write(p)
+              z.writestr('README-PREVIEW.txt', 'PR #75 isolated real-app preview. Serve extracted files via a local HTTP server for Android testing. Not deployed to production. Test compact Pedra Branca popup, More information, and Singapore Overview popup closure. Do not install over production PWA. Public data and map resources may require internet.\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: PR75-real-app-android-preview
+          path: PR75-real-app-android-preview.zip
+          retention-days: 7
+          if-no-files-found: error
