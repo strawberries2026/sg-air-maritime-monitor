@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - feature/ais-freshness-verified-20261114
+      - pr70-sync-staging-20261115
   pull_request:
     paths:
       - 'observation-freshness.js'
