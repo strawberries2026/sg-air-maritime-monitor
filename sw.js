@@ -2,7 +2,7 @@
 // Never delete or overwrite caches belonging to other GitHub Pages apps.
 const PREFIX='sg-air-maritime-shell-';
 const CACHE=PREFIX+'v2.0.5';
-const SHELL=['./','./index.html','./style.css?v=2.0.5','./app.js?v=2.0.5','./icon.svg'];
+const SHELL=['./','./index.html','./style.css?v=2.0.5','./observation-freshness.js?v=2.0.7','./app.js?v=2.0.7','./icon.svg'];
 self.addEventListener('install',event=>event.waitUntil(
   caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())
 ));
