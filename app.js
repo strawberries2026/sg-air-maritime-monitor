@@ -137,7 +137,7 @@ async function loadHistory(){
   if(!r.ok)throw Error('History not yet published');
   const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
  }catch(e){historyTracks={};}
- renderObservationTrends();renderMovementDashboard();renderMovementTrendChart();
+ renderObservationTrends();renderMovementDashboard();renderMovementTrendChart();updateDataQuality();
 }
 document.getElementById('homeRefresh')?.addEventListener('click',load);
 el('trailToggle').addEventListener('click',()=>{trailVisible=!trailVisible;const obj=[...air,...ships].find(x=>x.kind+':'+x.id===selectedKey);if(obj)showDetails(obj);});
@@ -168,6 +168,21 @@ async function get(path,kind){
   return{rows,updated:d.updatedAt||null,error};
  }catch(e){return{rows:[],updated:null,error:kind+': '+e.message}}
 }
+function updateDataQuality(){
+ const target=document.getElementById('dataQualityContent');
+ if(!target||!lastFeeds)return;
+ const details=[];
+ for(const [label,feed] of [['Aircraft',lastFeeds.a],['Maritime',lastFeeds.s]]){
+  const seen=new Set();let duplicates=0;
+  for(const item of feed.rows){const id=String(item.id||'');if(!id)continue;if(seen.has(id))duplicates++;else seen.add(id);}
+  const state=freshness(feed.updated);
+  details.push(label+': '+(feed.error?'Source error':state.label)+' · '+feed.rows.length+' recent valid position(s) · '+duplicates+' repeated identifier(s)'+(feed.error?' · '+feed.error:''));
+ }
+ const tracks=historyTracks&&typeof historyTracks==='object'?Object.keys(historyTracks):[];
+ const count=prefix=>tracks.filter(key=>key.startsWith(prefix)&&Array.isArray(historyTracks[key])&&historyTracks[key].some(point=>{const time=Date.parse(point.at);return Number.isFinite(time)&&time<=Date.now()&&Date.now()-time<=86400000;})).length;
+ details.push('History, past 24 hours: '+count('air:')+' aircraft identifiers · '+count('ship:')+' vessel identifiers');
+ target.textContent=details.join(' | ');
+}
 let lastFeeds=null;
 function updateHealth(){
  if(!lastFeeds)return;
@@ -196,6 +211,7 @@ function updateHealth(){
  }
  el('airFeedTime').textContent='✈ Aircraft: '+(a.updated?sgt(a.updated)+' SGT · '+ageLabel(a.updated):'No valid timestamp');
  el('shipFeedTime').textContent='🚢 Maritime: '+(s.updated?sgt(s.updated)+' SGT · '+ageLabel(s.updated):'No valid timestamp');
+ updateDataQuality();
  el('feedDetail').textContent=['Aircraft snapshot: '+sgt(a.updated)+' ('+ageLabel(a.updated)+')','Vessel snapshot: '+sgt(s.updated)+' ('+ageLabel(s.updated)+')',a.error,s.error].filter(Boolean).join(' • ');
 }
 let refreshInProgress=false;

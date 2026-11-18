@@ -1,0 +1,36 @@
+name: Data quality Android preview
+on:
+  pull_request:
+    paths:
+      - 'app.js'
+      - 'index.html'
+      - 'sw.js'
+      - '.github/workflows/data-quality-android-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test dependencies
+        run: |
+          npm install --no-save playwright@1.58.2
+          npx playwright install --with-deps chromium
+      - name: Capture Android-sized preview and verify panel
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/preview-server.log 2>&1 &
+          node scripts/verify_data_quality_preview.cjs
+      - name: Upload preview screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr81-android-data-quality-preview
+          path: preview-output/
+          if-no-files-found: warn
+          retention-days: 7
