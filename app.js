@@ -133,7 +133,8 @@ function showDetails(x){
 }
 async function loadHistory(){
  try{
-  const r=await fetch('data/history.json?t='+Date.now(),{cache:'no-store'});
+  const historySource=location.hostname==='sg-air-maritime-pr82-preview.pages.dev'?'https://raw.githubusercontent.com/strawberries2026/sg-air-maritime-monitor/main/data/history.json':'data/history.json';
+  const r=await fetch(historySource+'?t='+Date.now(),{cache:'no-store'});
   if(!r.ok)throw Error('History not yet published');
   const d=await r.json();historyTracks=d.tracks&&typeof d.tracks==='object'?d.tracks:{};
  }catch(e){historyTracks={};}
@@ -161,7 +162,9 @@ function showFeed(kind,data){
 }
 async function get(path,kind){
  try{
-  const r=await fetch(path+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
+  const previewHost=location.hostname==='sg-air-maritime-pr82-preview.pages.dev';
+  const source=previewHost?'https://raw.githubusercontent.com/strawberries2026/sg-air-maritime-monitor/main/'+path:path;
+  const r=await fetch(source+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
   const d=await r.json();if(!Array.isArray(d.items))throw Error('Invalid snapshot data');
   const error=d.error?String(d.error):null;
   const rows=error?[]:d.items.filter(x=>x.kind===kind&&recent(x.reportedAt)&&Number.isFinite(x.lat)&&Number.isFinite(x.lon));
