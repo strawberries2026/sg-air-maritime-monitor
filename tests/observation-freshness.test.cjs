@@ -1,0 +1,10 @@
+const assert = require('node:assert/strict');
+const test = require('node:test');
+const { classify, summarize } = require('../observation-freshness.js');
+const ref = '2026-11-11T12:00:00Z';
+test('45 minute boundary is current', () => assert.equal(classify({reportedAt:'2026-11-11T11:15:00Z'},ref).status,'current'));
+test('older observation is stale', () => assert.equal(classify({reportedAt:'2026-11-11T11:14:59Z'},ref).status,'stale'));
+test('missing and timezone-less timestamps are unknown', () => { assert.equal(classify({},ref).status,'unknown'); assert.equal(classify({reportedAt:'2026-11-11T11:59:00'},ref).status,'unknown'); });
+test('future clock skew over 5 minutes is unknown', () => assert.equal(classify({reportedAt:'2026-11-11T12:06:00Z'},ref).status,'unknown'));
+test('timezone offsets work', () => assert.equal(classify({reportedAt:'2026-11-11T19:00:00+08:00'},ref).status,'stale'));
+test('mixed observations counted independently of snapshot freshness', () => assert.deepEqual(summarize({updatedAt:ref,items:[{reportedAt:'2026-11-11T11:59:00Z'},{reportedAt:'2026-11-11T10:59:00Z'},{}]}),{total:3,current:1,stale:1,unknown:1,thresholdMinutes:45,snapshotUpdatedAt:ref,providerError:null}));
