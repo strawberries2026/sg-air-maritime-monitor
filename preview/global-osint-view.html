@@ -5,7 +5,7 @@
 </head><body><header><h1>🌐 SG Global OSINT View</h1><div class="sub">Experimental 3D world view · Public reference locations only · No live tracking feeds</div></header>
 <nav aria-label="World navigation"><button id="world">🌍 World</button><button id="singapore">🇸🇬 Singapore</button><button id="pedra">📍 Pedra Branca</button><button id="reset">↻ Reset view</button></nav>
 <p id="status" role="status">Loading 3D globe…</p><div id="globe" aria-label="Interactive 3D globe"></div>
-<footer>Experimental preview only. Imagery requires an internet connection and may be unavailable. Singapore and Pedra Branca reference points are geographic markers, not real-time intelligence. No personal location access, tracking or operational data. Not for operational decision-making. <a href="../index.html">Return to existing monitor</a>.</footer>
+<footer>Experimental preview only. Imagery requires an internet connection and may be unavailable. Singapore and Pedra Branca reference points are geographic markers, not real-time intelligence. No personal location access, tracking or operational data. Not for operational decision-making. <a href="../index.html">Return to existing monitor</a> · <a href="global-osint-2d.html">Open lightweight 2D fallback</a>.</footer>
 <script src="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Cesium.js"></script>
 <script>
 'use strict';
@@ -24,5 +24,5 @@ try{
  document.getElementById('singapore').onclick=()=>fly(points.singapore);
  document.getElementById('pedra').onclick=()=>fly(points.pedra);
  world();status.textContent='3D globe ready · Reference markers only · No live feeds';
-}catch(error){status.textContent='3D globe unavailable on this device or network. Existing 2D monitor remains available.';document.getElementById('globe').textContent='3D preview could not load. Use the link below to return to the existing monitor.';}
+}catch(error){status.textContent='3D globe unavailable on this device or network. Existing 2D monitor remains available.';document.getElementById('globe').innerHTML='<p style="padding:20px">3D preview could not load. <a href="global-osint-2d.html">Open lightweight 2D fallback</a>.</p>';}
 </script></body></html>
