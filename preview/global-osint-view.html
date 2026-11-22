@@ -17,12 +17,18 @@ try{
  if(!window.Cesium)throw Error('3D library unavailable');
  viewer=new Cesium.Viewer('globe',{animation:false,timeline:false,baseLayerPicker:false,geocoder:false,homeButton:false,sceneModePicker:false,navigationHelpButton:false,fullscreenButton:false,infoBox:true,selectionIndicator:true,terrainProvider:new Cesium.EllipsoidTerrainProvider(),imageryProvider:new Cesium.OpenStreetMapImageryProvider({url:'https://tile.openstreetmap.org/'})});
  viewer.scene.globe.depthTestAgainstTerrain=false;
- for(const [name,p] of Object.entries(points)){viewer.entities.add({name:name==='pedra'?'Pedra Branca (Singapore)':'Singapore',position:Cesium.Cartesian3.fromDegrees(p.lon,p.lat),point:{pixelSize:11,color:Cesium.Color.CYAN,outlineColor:Cesium.Color.BLACK,outlineWidth:2},label:{text:name==='pedra'?'Pedra Branca':'Singapore',font:'14px sans-serif',pixelOffset:new Cesium.Cartesian2(0,-22),fillColor:Cesium.Color.WHITE,outlineColor:Cesium.Color.BLACK,outlineWidth:2,style:Cesium.LabelStyle.FILL_AND_OUTLINE}})}
- const world=()=>viewer.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(103.8198,1.3521,22000000),duration:1.3});
+ viewer.scene.globe.baseColor=Cesium.Color.fromCssColorString('#235477');
+ viewer.scene.skyAtmosphere.show=false;
+ viewer.scene.globe.showGroundAtmosphere=false;
+ let imageryErrors=0;
+ const imageryLayer=viewer.imageryLayers.get(0);
+ if(imageryLayer&&imageryLayer.imageryProvider&&imageryLayer.imageryProvider.errorEvent){imageryLayer.imageryProvider.errorEvent.addEventListener(()=>{imageryErrors++;if(imageryErrors===1)status.textContent='Map imagery may be blocked in this local Android file. Try the 2D fallback below.';});}
+ for(const [name,p] of Object.entries(points)){viewer.entities.add({name:name==='pedra'?'Pedra Branca (Singapore)':'Singapore',position:Cesium.Cartesian3.fromDegrees(p.lon,p.lat),point:{pixelSize:11,color:Cesium.Color.CYAN,outlineColor:Cesium.Color.BLACK,outlineWidth:2},label:{text:name==='pedra'?'Pedra Branca':'Singapore',font:'14px sans-serif',pixelOffset:new Cesium.Cartesian2(0,-22),fillColor:Cesium.Color.WHITE,outlineColor:Cesium.Color.BLACK,outlineWidth:2,style:Cesium.LabelStyle.FILL_AND_OUTLINE,distanceDisplayCondition:new Cesium.DistanceDisplayCondition(0,1500000)}})}
+ const world=()=>viewer.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(103.8198,1.3521,12500000),duration:1.3});
  document.getElementById('world').onclick=world;
  document.getElementById('reset').onclick=world;
  document.getElementById('singapore').onclick=()=>fly(points.singapore);
  document.getElementById('pedra').onclick=()=>fly(points.pedra);
- world();status.textContent='3D globe ready · Reference markers only · No live feeds';
+ world();status.textContent='3D initialized; check that Earth imagery is visible. If black, try 2D fallback.';
 }catch(error){status.textContent='3D globe unavailable on this device or network. Existing 2D monitor remains available.';document.getElementById('globe').innerHTML='<p style="padding:20px">3D preview could not load. <a href="global-osint-2d.html">Open lightweight 2D fallback</a>.</p>';}
 </script></body></html>
