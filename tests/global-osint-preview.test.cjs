@@ -1,0 +1,11 @@
+'use strict';
+const fs=require('node:fs');
+const assert=require('node:assert/strict');
+const html=fs.readFileSync('preview/global-osint-view.html','utf8');
+for(const id of ['world','singapore','pedra','reset','status','globe'])assert.match(html,new RegExp('id="'+id+'"'));
+assert.match(html,/Cesium\.Viewer/);
+assert.match(html,/OpenStreetMapImageryProvider/);
+assert.match(html,/No live tracking feeds/);
+assert.match(html,/Not for operational decision-making/);
+assert.doesNotMatch(html,/navigator\.geolocation|OPENSKY_CLIENT_SECRET|AISSTREAM_API_KEY|api[_-]?key\s*=/i);
+console.log('SG Global OSINT offline HTML smoke checks passed');
