@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#081526"><title>SG Global OSINT View — Prototype</title>
+<link href="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+<style>body{margin:0;background:#081526;color:#e9f2fa;font:15px system-ui,sans-serif}header{padding:12px 16px}h1{font-size:1.15rem;margin:0 0 6px}.sub{font-size:.8rem;color:#bdd1e1}#globe{height:65vh;min-height:360px}nav{display:flex;gap:8px;flex-wrap:wrap;padding:12px}button,a.button{background:#163450;color:white;border:1px solid #5481a5;border-radius:8px;padding:10px 12px;font:inherit}button:focus-visible{outline:3px solid #ffd166}#status{padding:0 14px 10px;min-height:24px}footer{padding:14px;font-size:.8rem;color:#bdd1e1}a{color:#a9dcff}@media(max-width:600px){#globe{height:59vh;min-height:300px}}</style>
+</head><body><header><h1>🌐 SG Global OSINT View</h1><div class="sub">Experimental 3D world view · Public reference locations only · No live tracking feeds</div></header>
+<nav aria-label="World navigation"><button id="world">🌍 World</button><button id="singapore">🇸🇬 Singapore</button><button id="pedra">📍 Pedra Branca</button><button id="reset">↻ Reset view</button></nav>
+<p id="status" role="status">Loading 3D globe…</p><div id="globe" aria-label="Interactive 3D globe"></div>
+<footer>Experimental preview only. Imagery requires an internet connection and may be unavailable. Singapore and Pedra Branca reference points are geographic markers, not real-time intelligence. No personal location access, tracking or operational data. Not for operational decision-making. <a href="../index.html">Return to existing monitor</a>.</footer>
+<script src="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Cesium.js"></script>
+<script>
+'use strict';
+const status=document.getElementById('status');
+const points={singapore:{lon:103.8198,lat:1.3521,height:140000},pedra:{lon:104.405,lat:1.331, height:55000}};
+let viewer;
+function fly(p){if(!viewer)return;viewer.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(p.lon,p.lat,p.height),duration:1.3});}
+try{
+ if(!window.Cesium)throw Error('3D library unavailable');
+ viewer=new Cesium.Viewer('globe',{animation:false,timeline:false,baseLayerPicker:false,geocoder:false,homeButton:false,sceneModePicker:false,navigationHelpButton:false,fullscreenButton:false,infoBox:true,selectionIndicator:true,terrainProvider:new Cesium.EllipsoidTerrainProvider(),imageryProvider:new Cesium.OpenStreetMapImageryProvider({url:'https://tile.openstreetmap.org/'})});
+ viewer.scene.globe.depthTestAgainstTerrain=false;
+ for(const [name,p] of Object.entries(points)){viewer.entities.add({name:name==='pedra'?'Pedra Branca (Singapore)':'Singapore',position:Cesium.Cartesian3.fromDegrees(p.lon,p.lat),point:{pixelSize:11,color:Cesium.Color.CYAN,outlineColor:Cesium.Color.BLACK,outlineWidth:2},label:{text:name==='pedra'?'Pedra Branca':'Singapore',font:'14px sans-serif',pixelOffset:new Cesium.Cartesian2(0,-22),fillColor:Cesium.Color.WHITE,outlineColor:Cesium.Color.BLACK,outlineWidth:2,style:Cesium.LabelStyle.FILL_AND_OUTLINE}})}
+ const world=()=>viewer.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(103.8198,1.3521,22000000),duration:1.3});
+ document.getElementById('world').onclick=world;
+ document.getElementById('reset').onclick=world;
+ document.getElementById('singapore').onclick=()=>fly(points.singapore);
+ document.getElementById('pedra').onclick=()=>fly(points.pedra);
+ world();status.textContent='3D globe ready · Reference markers only · No live feeds';
+}catch(error){status.textContent='3D globe unavailable on this device or network. Existing 2D monitor remains available.';document.getElementById('globe').textContent='3D preview could not load. Use the link below to return to the existing monitor.';}
+</script></body></html>
