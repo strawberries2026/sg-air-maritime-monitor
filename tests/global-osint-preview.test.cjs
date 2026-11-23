@@ -43,3 +43,8 @@ assert.ok(html.indexOf('diagnoseButton.onclick=') < html.indexOf('if(!window.Ces
 assert.match(html,/Cesium loaded:/);
 
 assert.match(html,/Cesium\.Material\.fromType\('Color'/);
+
+assert.match(html,/id="primitive"/);
+assert.match(html,/EllipsoidGeometry/);
+assert.match(html,/PerInstanceColorAppearance/);
+assert.match(html,/independent sphere test:/);
