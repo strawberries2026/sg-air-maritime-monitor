@@ -94,31 +94,36 @@ async def vessels():
  try:import websockets
  except ImportError:merge_vessel_observations([],'Missing websockets dependency.');return
  rows={};static={}
- # Two bounded attempts for transient opening-handshake failures.
  for attempt in range(2):
   try:
    async with websockets.connect('wss://stream.aisstream.io/v0/stream',compression='deflate',open_timeout=20,ping_interval=20) as ws:
-   await ws.send(json.dumps({'APIKey':key,'BoundingBoxes':[[[0.3,102.4],[2.4,105.3]]],'FilterMessageTypes':['PositionReport','StandardClassBPositionReport','ExtendedClassBPositionReport','ShipStaticData','StaticDataReport']}))
-   end=asyncio.get_running_loop().time()+75
-   while asyncio.get_running_loop().time()<end:
-    try:raw=await asyncio.wait_for(ws.recv(),timeout=min(12,max(.1,end-asyncio.get_running_loop().time())))
-    except asyncio.TimeoutError:continue
-    m=json.loads(raw);typ=m.get('MessageType','');meta=m.get('MetaData') or {};body=(m.get('Message') or {}).get(typ) or {};mmsi=str(meta.get('MMSI') or body.get('UserID') or '')
-    if not mmsi:continue
-    if typ in ('ShipStaticData','StaticDataReport'):
-     static[mmsi]=body;continue
-    if typ not in ('PositionReport','StandardClassBPositionReport','ExtendedClassBPositionReport'):continue
-    lat=body.get('Latitude');lon=body.get('Longitude')
-    if lat is None or lon is None or not (.3<=lat<=2.4 and 102.4<=lon<=105.3):continue
-    speed=body.get('Sog');heading=body.get('Cog')
-    if speed is not None and not 0<=speed<=102.2:speed=None
-    if heading is not None and not 0<=heading<360:heading=None
-    rows[mmsi]={'kind':'ship','id':mmsi,'mmsi':mmsi,'name':meta.get('ShipName') or mmsi,'category':'unknown','lat':lat,'lon':lon,'speedKmh':round(speed*1.852,1) if speed is not None else None,'heading':heading,'reportedAt':NOW()}
-  for mmsi,row in rows.items():
-   d=static.get(mmsi) or {};row['name']=(d.get('Name') or d.get('ShipName') or row['name']).strip()
-   row['category']=vessel_category(d.get('Type') or d.get('ShipType'))
-  merge_vessel_observations(list(rows.values()))
- except Exception as e:merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
+    await ws.send(json.dumps({'APIKey':key,'BoundingBoxes':[[[0.3,102.4],[2.4,105.3]]],'FilterMessageTypes':['PositionReport','StandardClassBPositionReport','ExtendedClassBPositionReport','ShipStaticData','StaticDataReport']}))
+    end=asyncio.get_running_loop().time()+75
+    while asyncio.get_running_loop().time()<end:
+     try:raw=await asyncio.wait_for(ws.recv(),timeout=min(12,max(.1,end-asyncio.get_running_loop().time())))
+     except asyncio.TimeoutError:continue
+     m=json.loads(raw);typ=m.get('MessageType','');meta=m.get('MetaData') or {};body=(m.get('Message') or {}).get(typ) or {};mmsi=str(meta.get('MMSI') or body.get('UserID') or '')
+     if not mmsi:continue
+     if typ in ('ShipStaticData','StaticDataReport'):
+      static[mmsi]=body;continue
+     if typ not in ('PositionReport','StandardClassBPositionReport','ExtendedClassBPositionReport'):continue
+     lat=body.get('Latitude');lon=body.get('Longitude')
+     if lat is None or lon is None or not (.3<=lat<=2.4 and 102.4<=lon<=105.3):continue
+     speed=body.get('Sog');heading=body.get('Cog')
+     if speed is not None and not 0<=speed<=102.2:speed=None
+     if heading is not None and not 0<=heading<360:heading=None
+     rows[mmsi]={'kind':'ship','id':mmsi,'mmsi':mmsi,'name':meta.get('ShipName') or mmsi,'category':'unknown','lat':lat,'lon':lon,'speedKmh':round(speed*1.852,1) if speed is not None else None,'heading':heading,'reportedAt':NOW()}
+   break
+  except Exception as e:
+   if attempt==0 and ('timed out' in str(e).lower() or isinstance(e,(TimeoutError,asyncio.TimeoutError))):
+    await asyncio.sleep(2)
+    continue
+   merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
+   return
+ for mmsi,row in rows.items():
+  d=static.get(mmsi) or {};row['name']=(d.get('Name') or d.get('ShipName') or row['name']).strip()
+  row['category']=vessel_category(d.get('Type') or d.get('ShipType'))
+ merge_vessel_observations(list(rows.values()))
 if __name__=='__main__':
  # Collect independent OpenSky and AISStream feeds concurrently to avoid
  # adding OpenSky HTTP latency to the AISStream observation window.
