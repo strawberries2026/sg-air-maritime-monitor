@@ -130,17 +130,4 @@ if __name__=='__main__':
  async def collect_all():
   await asyncio.gather(asyncio.to_thread(aircraft),vessels())
  asyncio.run(collect_all())
- update_history()   break
-  except Exception as e:
-   if attempt==0 and ('timed out' in str(e).lower() or isinstance(e,(TimeoutError,asyncio.TimeoutError))):
-    await asyncio.sleep(2)
-    continue
-   merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
-   return
-if __name__=='__main__':
- # Collect independent OpenSky and AISStream feeds concurrently to avoid
- # adding OpenSky HTTP latency to the AISStream observation window.
- async def collect_all():
-  await asyncio.gather(asyncio.to_thread(aircraft),vessels())
- asyncio.run(collect_all())
  update_history()
