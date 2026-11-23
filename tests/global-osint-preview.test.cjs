@@ -11,6 +11,9 @@ assert.doesNotMatch(html,/navigator\.geolocation|OPENSKY_CLIENT_SECRET|AISSTREAM
 const fallback=fs.readFileSync('preview/global-osint-2d.html','utf8');
 assert.match(fallback,/L\.map/);
 assert.match(fallback,/Pedra Branca/);
+for(const id of ['layer-sg','layer-pb'])assert.match(fallback,new RegExp('id="'+id+'"'));
+assert.match(fallback,/aria-pressed/);
+assert.match(fallback,/removeLayer/);
 assert.match(html,/global-osint-2d\.html/);
 assert.match(html,/id="fallback"/);
 assert.match(html,/webglcontextlost/);
