@@ -34,3 +34,6 @@ assert.match(html,/id="fallback"/);
 assert.match(html,/webglcontextlost/);
 assert.match(html,/WebGL unsupported/);
 console.log('SG Global OSINT 3D and 2D offline HTML smoke checks passed');
+
+// Diagnostic handler must be registered before Leaflet availability is checked.
+assert.ok(fallback.indexOf("getElementById('diagnose-2d').onclick") < fallback.indexOf("if(!window.L)"));
