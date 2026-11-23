@@ -1,0 +1,23 @@
+name: Vessel collection regression checks
+on:
+  pull_request:
+    paths:
+      - 'scripts/collect.py'
+      - 'tests/test_vessel_health.py'
+      - '.github/workflows/vessel-health-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile collector
+        run: python -m py_compile scripts/collect.py
+      - name: Test vessel freshness, expiry and recovery
+        run: python -m unittest discover -s tests -p test_vessel_health.py -v
