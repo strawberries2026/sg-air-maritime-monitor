@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T21:16:47.715221+00:00",
+  "updatedAt": "2026-11-23T21:31:17.876528+00:00",
   "lastSuccessAt": "2026-11-23T21:16:47.715221+00:00",
   "items": [
     {
@@ -40,18 +40,6 @@
     },
     {
       "kind": "ship",
-      "id": "563087790",
-      "mmsi": "563087790",
-      "name": "SEA STAR 6",
-      "category": "unknown",
-      "lat": 1.2687066666666666,
-      "lon": 103.86595833333334,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-23T19:46:48.434266+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525500422",
       "mmsi": "525500422",
       "name": "TB. BUANA BETA",
@@ -61,18 +49,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-23T20:16:14.404874+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "374274000",
-      "mmsi": "374274000",
-      "name": "AEGEAN PARADISE",
-      "category": "unknown",
-      "lat": 1.2425,
-      "lon": 104.03466666666667,
-      "speedKmh": 8.1,
-      "heading": 73,
-      "reportedAt": "2026-11-23T19:47:15.850017+00:00"
     },
     {
       "kind": "ship",
@@ -172,30 +148,6 @@
     },
     {
       "kind": "ship",
-      "id": "636017867",
-      "mmsi": "636017867",
-      "name": "MSC TINA",
-      "category": "unknown",
-      "lat": 1.2236616666666669,
-      "lon": 103.69889333333334,
-      "speedKmh": 22.6,
-      "heading": 51.5,
-      "reportedAt": "2026-11-23T19:46:52.920524+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086090",
-      "mmsi": "563086090",
-      "name": "PILOT 16",
-      "category": "unknown",
-      "lat": 1.23293,
-      "lon": 103.89181166666667,
-      "speedKmh": 20.4,
-      "heading": 247.5,
-      "reportedAt": "2026-11-23T19:46:54.308899+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565299000",
       "mmsi": "565299000",
       "name": "BEYOND",
@@ -217,66 +169,6 @@
       "speedKmh": 0.0,
       "heading": 309.3,
       "reportedAt": "2026-11-23T21:00:58.620626+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "249654000",
-      "mmsi": "249654000",
-      "name": "BOKA STRIKER",
-      "category": "unknown",
-      "lat": 1.2645466666666667,
-      "lon": 103.87064666666667,
-      "speedKmh": 0.0,
-      "heading": 72.5,
-      "reportedAt": "2026-11-23T19:47:04.733627+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563015800",
-      "mmsi": "563015800",
-      "name": "MAXWELL",
-      "category": "unknown",
-      "lat": 1.277725,
-      "lon": 103.9494,
-      "speedKmh": 0.0,
-      "heading": 226.8,
-      "reportedAt": "2026-11-23T19:47:09.539935+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525015585",
-      "mmsi": "525015585",
-      "name": "RAWABI 99",
-      "category": "unknown",
-      "lat": 1.1570716666666667,
-      "lon": 103.99368333333334,
-      "speedKmh": 0.0,
-      "heading": 274.9,
-      "reportedAt": "2026-11-23T19:47:10.525648+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563040500",
-      "mmsi": "563040500",
-      "name": "FOMENTO THREE",
-      "category": "unknown",
-      "lat": 1.2830066666666666,
-      "lon": 104.01084166666666,
-      "speedKmh": 0.0,
-      "heading": 335.6,
-      "reportedAt": "2026-11-23T19:47:14.767607+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563014090",
-      "mmsi": "563014090",
-      "name": "F5 PRIME",
-      "category": "unknown",
-      "lat": 1.20832,
-      "lon": 103.90823666666667,
-      "speedKmh": 6.7,
-      "heading": 120.7,
-      "reportedAt": "2026-11-23T19:47:15.849968+00:00"
     },
     {
       "kind": "ship",
@@ -1587,5 +1479,5 @@
       "reportedAt": "2026-11-23T21:16:44.945918+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
