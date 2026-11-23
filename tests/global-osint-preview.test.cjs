@@ -12,4 +12,7 @@ const fallback=fs.readFileSync('preview/global-osint-2d.html','utf8');
 assert.match(fallback,/L\.map/);
 assert.match(fallback,/Pedra Branca/);
 assert.match(html,/global-osint-2d\.html/);
+assert.match(html,/id="fallback"/);
+assert.match(html,/webglcontextlost/);
+assert.match(html,/WebGL unsupported/);
 console.log('SG Global OSINT 3D and 2D offline HTML smoke checks passed');
