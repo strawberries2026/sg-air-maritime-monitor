@@ -1,8 +1,13 @@
 import asyncio,json,os,datetime,urllib.request,urllib.parse,urllib.error,pathlib
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 NOW=lambda: datetime.datetime.now(datetime.timezone.utc).isoformat()
-def save(name,items,error=None):
- p=ROOT/'data'/name;p.write_text(json.dumps({'updatedAt':NOW(),'items':items,'error':error},ensure_ascii=False,indent=2))
+def save(name,items,error=None,last_success_at=None):
+ p=ROOT/'data'/name
+ attempted=NOW()
+ # Attempt time must never masquerade as a successful collection.
+ if last_success_at is None and not error and items:
+  last_success_at=attempted
+ p.write_text(json.dumps({'updatedAt':attempted,'lastSuccessAt':last_success_at,'items':items,'error':error},ensure_ascii=False,indent=2))
 def update_history():
  """Keep up to 24 hours of bounded position samples; no synthetic tracks."""
  target=ROOT/'data'/'history.json'
@@ -37,23 +42,31 @@ def request(url,data=None,headers=None):
  req=urllib.request.Request(url,data=data,headers=headers or {},method='POST' if data else 'GET')
  with urllib.request.urlopen(req,timeout=25) as r:return json.load(r)
 def merge_vessel_observations(items, error=None):
- """Keep verified reports for at most 90 min; never extend observation timestamps."""
+ """Retain only previously observed positions within 90 min; keep failure explicit."""
  target=ROOT/'data'/'vessels.json'
- if error:
-  save('vessels.json',[],error);return
  now=datetime.datetime.now(datetime.timezone.utc)
  latest={}
+ previous={}
  try:
   previous=json.loads(target.read_text()) if target.exists() else {}
-  if not previous.get('error'):
-   for row in previous.get('items',[]):
-    if row.get('kind')!='ship' or not row.get('id'):continue
-    stamp=datetime.datetime.fromisoformat(row['reportedAt'].replace('Z','+00:00'))
-    if stamp.tzinfo and now-datetime.timedelta(minutes=90)<=stamp<=now+datetime.timedelta(minutes=1):latest[str(row['id'])]=row
- except (OSError,ValueError,KeyError,TypeError):pass
- for row in items:
-  if row.get('id'):latest[str(row['id'])]=row
- save('vessels.json',list(latest.values()))
+ except (OSError,ValueError,TypeError):pass
+ last_success=previous.get('lastSuccessAt')
+ if not last_success and not previous.get('error') and previous.get('items'):
+  last_success=previous.get('updatedAt')
+ for row in previous.get('items',[]):
+  try:
+   if row.get('kind')!='ship' or not row.get('id'):continue
+   stamp=datetime.datetime.fromisoformat(row['reportedAt'].replace('Z','+00:00'))
+   if stamp.tzinfo and now-datetime.timedelta(minutes=90)<=stamp<=now+datetime.timedelta(minutes=1):
+    latest[str(row['id'])]=row
+  except (ValueError,KeyError,TypeError,AttributeError):continue
+ if not error:
+  for row in items:
+   if row.get('id'):latest[str(row['id'])]=row
+  # A populated collection is the only condition that advances lastSuccessAt.
+  save('vessels.json',list(latest.values()),last_success_at=None if items else last_success)
+ else:
+  save('vessels.json',list(latest.values()),error,last_success_at=last_success)
 def vessel_category(ship_type):
  try: n=int(ship_type)
  except (TypeError,ValueError): return 'unknown'
@@ -81,8 +94,10 @@ async def vessels():
  try:import websockets
  except ImportError:merge_vessel_observations([],'Missing websockets dependency.');return
  rows={};static={}
- try:
-  async with websockets.connect('wss://stream.aisstream.io/v0/stream',compression='deflate',open_timeout=20,ping_interval=20) as ws:
+ # Two bounded attempts for transient opening-handshake failures.
+ for attempt in range(2):
+  try:
+   async with websockets.connect('wss://stream.aisstream.io/v0/stream',compression='deflate',open_timeout=20,ping_interval=20) as ws:
    await ws.send(json.dumps({'APIKey':key,'BoundingBoxes':[[[0.3,102.4],[2.4,105.3]]],'FilterMessageTypes':['PositionReport','StandardClassBPositionReport','ExtendedClassBPositionReport','ShipStaticData','StaticDataReport']}))
    end=asyncio.get_running_loop().time()+75
    while asyncio.get_running_loop().time()<end:
@@ -104,6 +119,19 @@ async def vessels():
    row['category']=vessel_category(d.get('Type') or d.get('ShipType'))
   merge_vessel_observations(list(rows.values()))
  except Exception as e:merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
+if __name__=='__main__':
+ # Collect independent OpenSky and AISStream feeds concurrently to avoid
+ # adding OpenSky HTTP latency to the AISStream observation window.
+ async def collect_all():
+  await asyncio.gather(asyncio.to_thread(aircraft),vessels())
+ asyncio.run(collect_all())
+ update_history()   break
+  except Exception as e:
+   if attempt==0 and ('timed out' in str(e).lower() or isinstance(e,(TimeoutError,asyncio.TimeoutError))):
+    await asyncio.sleep(2)
+    continue
+   merge_vessel_observations([],'AISStream collection failed: '+str(e)[:180])
+   return
 if __name__=='__main__':
  # Collect independent OpenSky and AISStream feeds concurrently to avoid
  # adding OpenSky HTTP latency to the AISStream observation window.
