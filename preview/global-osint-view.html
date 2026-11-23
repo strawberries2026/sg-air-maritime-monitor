@@ -15,7 +15,11 @@ let viewer;
 function fly(p){if(!viewer)return;viewer.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(p.lon,p.lat,p.height),duration:1.3});}
 try{
  if(!window.Cesium)throw Error('3D library unavailable');
- viewer=new Cesium.Viewer('globe',{animation:false,timeline:false,baseLayerPicker:false,geocoder:false,homeButton:false,sceneModePicker:false,navigationHelpButton:false,fullscreenButton:false,infoBox:true,selectionIndicator:true,terrainProvider:new Cesium.EllipsoidTerrainProvider(),imageryProvider:new Cesium.OpenStreetMapImageryProvider({url:'https://tile.openstreetmap.org/'})});
+ viewer=new Cesium.Viewer('globe',{animation:false,timeline:false,baseLayerPicker:false,geocoder:false,homeButton:false,sceneModePicker:false,navigationHelpButton:false,fullscreenButton:false,infoBox:true,selectionIndicator:true,terrainProvider:new Cesium.EllipsoidTerrainProvider(),baseLayer:false});
+ // Do not allow Cesium's default ion imagery to override the public OSM layer.
+ viewer.imageryLayers.removeAll();
+ const osm=new Cesium.OpenStreetMapImageryProvider({url:'https://tile.openstreetmap.org/',credit:'© OpenStreetMap contributors'});
+ viewer.imageryLayers.addImageryProvider(osm);
  viewer.scene.globe.depthTestAgainstTerrain=false;
  viewer.scene.globe.baseColor=Cesium.Color.fromCssColorString('#235477');
  viewer.scene.skyAtmosphere.show=false;
@@ -29,6 +33,6 @@ try{
  document.getElementById('reset').onclick=world;
  document.getElementById('singapore').onclick=()=>fly(points.singapore);
  document.getElementById('pedra').onclick=()=>fly(points.pedra);
- world();status.textContent='3D initialized; check that Earth imagery is visible. If black, try 2D fallback.';
+ world();status.textContent='3D initialized with OpenStreetMap imagery; confirm Earth surface is visible. If blank, use 2D fallback.';
 }catch(error){status.textContent='3D globe unavailable on this device or network. Existing 2D monitor remains available.';document.getElementById('globe').innerHTML='<p style="padding:20px">3D preview could not load. <a href="global-osint-2d.html">Open lightweight 2D fallback</a>.</p>';}
 </script></body></html>
