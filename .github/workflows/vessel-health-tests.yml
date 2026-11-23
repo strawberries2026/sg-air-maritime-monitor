@@ -21,3 +21,38 @@ jobs:
         run: python -m py_compile scripts/collect.py
       - name: Test vessel freshness, expiry and recovery
         run: python -m unittest discover -s tests -p test_vessel_health.py -v
+
+  live-aisstream:
+    # Same-repository PR only; never run third-party fork code with secrets.
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install 'websockets>=13,<17'
+      - name: Isolated AISStream collection test (no commits, no artifacts)
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
+        run: |
+          python - <<'PY'
+          import asyncio, importlib.util, json, os, pathlib, tempfile
+          from unittest.mock import patch
+          spec=importlib.util.spec_from_file_location('collector','scripts/collect.py')
+          collector=importlib.util.module_from_spec(spec)
+          spec.loader.exec_module(collector)
+          with tempfile.TemporaryDirectory() as tmp:
+              root=pathlib.Path(tmp)
+              (root/'data').mkdir()
+              with patch.object(collector,'ROOT',root):
+                  asyncio.run(collector.vessels())
+              result=json.loads((root/'data'/'vessels.json').read_text())
+              success=not result.get('error') and bool(result.get('items'))
+              print('AISStream populated collection:', 'PASS' if success else 'FAIL')
+              print('Vessel observations:',len(result.get('items',[])))
+              print('Last successful collection recorded:',bool(result.get('lastSuccessAt')))
+              print('Collection error present:',bool(result.get('error')))
+              if not success:raise SystemExit(1)
+          PY
