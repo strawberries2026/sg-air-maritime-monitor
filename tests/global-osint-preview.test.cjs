@@ -41,3 +41,5 @@ assert.ok(fallback.indexOf("getElementById('diagnose-2d').onclick") < fallback.i
 // 3D diagnostics must remain available even if Cesium fails to load.
 assert.ok(html.indexOf('diagnoseButton.onclick=') < html.indexOf('if(!window.Cesium)'));
 assert.match(html,/Cesium loaded:/);
+
+assert.match(html,/Cesium\.Material\.fromType\('Color'/);
