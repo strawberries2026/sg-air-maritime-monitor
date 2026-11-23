@@ -1,7 +1,20 @@
 {
-  "updatedAt": "2026-11-23T20:15:34.746374+00:00",
-  "lastSuccessAt": "2026-11-23T20:15:34.746374+00:00",
+  "updatedAt": "2026-11-23T20:30:34.589098+00:00",
+  "lastSuccessAt": "2026-11-23T20:30:34.589098+00:00",
   "items": [
+    {
+      "kind": "air",
+      "id": "8015c1",
+      "icao24": "8015c1",
+      "callsign": "AIC2145",
+      "name": "AIC2145",
+      "category": "unknown",
+      "lat": 0.9881,
+      "lon": 103.8932,
+      "speedKmh": 822.2,
+      "heading": 97.64,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
+    },
     {
       "kind": "air",
       "id": "801904",
@@ -9,24 +22,24 @@
       "callsign": "IGO1219",
       "name": "IGO1219",
       "category": "unknown",
-      "lat": 1.838,
-      "lon": 102.7575,
-      "speedKmh": 783.4,
-      "heading": 126.73,
-      "reportedAt": "2026-11-23T20:15:30+00:00"
+      "lat": 0.9178,
+      "lon": 103.6781,
+      "speedKmh": 472.2,
+      "heading": 94.95,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
-      "id": "781cf6",
-      "icao24": "781cf6",
-      "callsign": "DKH1562",
-      "name": "DKH1562",
+      "id": "76cc77",
+      "icao24": "76cc77",
+      "callsign": "SIA623",
+      "name": "SIA623",
       "category": "unknown",
-      "lat": 2.1879,
-      "lon": 103.8843,
-      "speedKmh": 651.3,
-      "heading": 356.41,
-      "reportedAt": "2026-11-23T20:15:29+00:00"
+      "lat": 1.0257,
+      "lon": 104.0866,
+      "speedKmh": 462.3,
+      "heading": 285.09,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -35,11 +48,11 @@
       "callsign": "MYU924",
       "name": "MYU924",
       "category": "unknown",
-      "lat": 0.9703,
-      "lon": 103.9171,
-      "speedKmh": 520.0,
-      "heading": 350.57,
-      "reportedAt": "2026-11-23T20:15:30+00:00"
+      "lat": 1.3768,
+      "lon": 103.9938,
+      "speedKmh": 1.6,
+      "heading": 112.5,
+      "reportedAt": "2026-11-23T20:29:40+00:00"
     },
     {
       "kind": "air",
@@ -48,24 +61,11 @@
       "callsign": "SIA246",
       "name": "SIA246",
       "category": "unknown",
-      "lat": 0.9526,
-      "lon": 105.0758,
-      "speedKmh": 839.3,
-      "heading": 308.64,
-      "reportedAt": "2026-11-23T20:15:29+00:00"
-    },
-    {
-      "kind": "air",
-      "id": "76e965",
-      "icao24": "76e965",
-      "callsign": "R58",
-      "name": "R58",
-      "category": "unknown",
-      "lat": 1.3696,
-      "lon": 103.9926,
-      "speedKmh": 35.2,
-      "heading": 289.69,
-      "reportedAt": "2026-11-23T20:15:28+00:00"
+      "lat": 1.1393,
+      "lon": 103.9354,
+      "speedKmh": 336.6,
+      "heading": 315.67,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -74,11 +74,11 @@
       "callsign": "KMI804",
       "name": "KMI804",
       "category": "unknown",
-      "lat": 1.9067,
-      "lon": 104.1052,
-      "speedKmh": 561.2,
-      "heading": 179.62,
-      "reportedAt": "2026-11-23T20:15:29+00:00"
+      "lat": 1.3225,
+      "lon": 103.9663,
+      "speedKmh": 259.7,
+      "heading": 23.09,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -87,11 +87,11 @@
       "callsign": "KMI801",
       "name": "KMI801",
       "category": "unknown",
-      "lat": 1.3408,
-      "lon": 103.9881,
-      "speedKmh": 38.9,
-      "heading": 202.5,
-      "reportedAt": "2026-11-23T20:11:40+00:00"
+      "lat": 1.475,
+      "lon": 104.0177,
+      "speedKmh": 475.3,
+      "heading": 338.03,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -100,11 +100,11 @@
       "callsign": "CSZ162",
       "name": "CSZ162",
       "category": "unknown",
-      "lat": 0.3839,
-      "lon": 104.0811,
-      "speedKmh": 854.9,
-      "heading": 351.91,
-      "reportedAt": "2026-11-23T20:15:30+00:00"
+      "lat": 2.2828,
+      "lon": 103.9003,
+      "speedKmh": 816.2,
+      "heading": 28.31,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -113,50 +113,37 @@
       "callsign": "SIA857",
       "name": "SIA857",
       "category": "unknown",
-      "lat": 1.3222,
-      "lon": 104.0745,
-      "speedKmh": 475.6,
-      "heading": 199.56,
-      "reportedAt": "2026-11-23T20:15:30+00:00"
+      "lat": 1.3492,
+      "lon": 103.9817,
+      "speedKmh": 1.8,
+      "heading": 70.31,
+      "reportedAt": "2026-11-23T20:30:27+00:00"
     },
     {
       "kind": "air",
-      "id": "78225e",
-      "icao24": "78225e",
-      "callsign": "CSN8490",
-      "name": "CSN8490",
+      "id": "76eb56",
+      "icao24": "76eb56",
+      "callsign": "",
+      "name": "76eb56",
       "category": "unknown",
-      "lat": 1.7056,
-      "lon": 103.9327,
-      "speedKmh": 624.6,
-      "heading": 337.69,
-      "reportedAt": "2026-11-23T20:15:30+00:00"
+      "lat": 1.366,
+      "lon": 103.9896,
+      "speedKmh": 23.1,
+      "heading": 351.56,
+      "reportedAt": "2026-11-23T20:29:28+00:00"
     },
     {
       "kind": "air",
-      "id": "76cdad",
-      "icao24": "76cdad",
-      "callsign": "SIA391",
-      "name": "SIA391",
+      "id": "76bd41",
+      "icao24": "76bd41",
+      "callsign": "TGW189",
+      "name": "TGW189",
       "category": "unknown",
-      "lat": 1.3561,
-      "lon": 103.9699,
-      "speedKmh": 254.6,
-      "heading": 23.58,
-      "reportedAt": "2026-11-23T20:10:21+00:00"
-    },
-    {
-      "kind": "air",
-      "id": "750571",
-      "icao24": "750571",
-      "callsign": "MXD194",
-      "name": "MXD194",
-      "category": "unknown",
-      "lat": 1.6123,
-      "lon": 103.3894,
-      "speedKmh": 870.6,
-      "heading": 336.16,
-      "reportedAt": "2026-11-23T20:15:30+00:00"
+      "lat": 1.2567,
+      "lon": 103.9385,
+      "speedKmh": 336.8,
+      "heading": 23.32,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -165,11 +152,11 @@
       "callsign": "TGW875",
       "name": "TGW875",
       "category": "unknown",
-      "lat": 2.3712,
-      "lon": 104.105,
-      "speedKmh": 694.5,
-      "heading": 180.15,
-      "reportedAt": "2026-11-23T20:15:29+00:00"
+      "lat": 1.1429,
+      "lon": 104.0363,
+      "speedKmh": 450.4,
+      "heading": 246.49,
+      "reportedAt": "2026-11-23T20:30:30+00:00"
     },
     {
       "kind": "air",
@@ -178,11 +165,24 @@
       "callsign": "UBG307",
       "name": "UBG307",
       "category": "unknown",
-      "lat": 1.1896,
-      "lon": 103.4115,
-      "speedKmh": 647.7,
-      "heading": 123.69,
-      "reportedAt": "2026-11-23T20:15:28+00:00"
+      "lat": 1.3473,
+      "lon": 103.9767,
+      "speedKmh": 280.4,
+      "heading": 23.35,
+      "reportedAt": "2026-11-23T20:27:38+00:00"
+    },
+    {
+      "kind": "air",
+      "id": "71be44",
+      "icao24": "71be44",
+      "callsign": "KAL647",
+      "name": "KAL647",
+      "category": "unknown",
+      "lat": 1.7549,
+      "lon": 104.106,
+      "speedKmh": 576.0,
+      "heading": 179.82,
+      "reportedAt": "2026-11-23T20:30:29+00:00"
     }
   ],
   "error": null
