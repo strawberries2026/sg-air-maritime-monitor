@@ -1,19 +1,7 @@
 {
-  "updatedAt": "2026-11-23T14:46:46.593650+00:00",
+  "updatedAt": "2026-11-23T15:01:27.955960+00:00",
   "lastSuccessAt": "2026-11-23T14:46:46.593650+00:00",
   "items": [
-    {
-      "kind": "ship",
-      "id": "563315900",
-      "mmsi": "563315900",
-      "name": "PACIFIC WISE",
-      "category": "unknown",
-      "lat": 1.2767433333333333,
-      "lon": 103.88956833333333,
-      "speedKmh": 0.0,
-      "heading": 91.6,
-      "reportedAt": "2026-11-23T13:16:55.973447+00:00"
-    },
     {
       "kind": "ship",
       "id": "563153800",
@@ -172,42 +160,6 @@
     },
     {
       "kind": "ship",
-      "id": "566156000",
-      "mmsi": "566156000",
-      "name": "QUEEN STAR 2",
-      "category": "unknown",
-      "lat": 1.23778,
-      "lon": 103.86051833333333,
-      "speedKmh": 22.0,
-      "heading": 135.4,
-      "reportedAt": "2026-11-23T13:16:52.207984+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "276872000",
-      "mmsi": "276872000",
-      "name": "GEOQUIP SILVRETTA",
-      "category": "unknown",
-      "lat": 1.2706799999999998,
-      "lon": 103.87473333333334,
-      "speedKmh": 0.0,
-      "heading": 255.1,
-      "reportedAt": "2026-11-23T13:16:58.293244+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477833400",
-      "mmsi": "477833400",
-      "name": "NEW ADEN",
-      "category": "unknown",
-      "lat": 1.2430433333333333,
-      "lon": 103.90709166666667,
-      "speedKmh": 0.0,
-      "heading": 316.7,
-      "reportedAt": "2026-11-23T13:16:58.795126+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563215500",
       "mmsi": "563215500",
       "name": "ZEVIROUS",
@@ -217,66 +169,6 @@
       "speedKmh": 0.0,
       "heading": 335.5,
       "reportedAt": "2026-11-23T13:46:52.841910+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566849000",
-      "mmsi": "566849000",
-      "name": "RESILIENCE",
-      "category": "unknown",
-      "lat": 1.2952133333333333,
-      "lon": 103.96374999999999,
-      "speedKmh": 0.0,
-      "heading": 354,
-      "reportedAt": "2026-11-23T13:16:59.296977+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565299000",
-      "mmsi": "565299000",
-      "name": "BEYOND",
-      "category": "unknown",
-      "lat": 1.2973366666666666,
-      "lon": 103.93969999999999,
-      "speedKmh": 0.0,
-      "heading": 217.2,
-      "reportedAt": "2026-11-23T13:17:00.878111+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563317400",
-      "mmsi": "563317400",
-      "name": "GOLDEN CENTAURUS",
-      "category": "unknown",
-      "lat": 1.2878383333333334,
-      "lon": 103.94575499999999,
-      "speedKmh": 0.0,
-      "heading": 163.7,
-      "reportedAt": "2026-11-23T13:17:03.863283+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119148",
-      "mmsi": "525119148",
-      "name": "TB BUANA ALPHA",
-      "category": "unknown",
-      "lat": 1.1545750000000001,
-      "lon": 103.96483333333335,
-      "speedKmh": 0.2,
-      "heading": 139.1,
-      "reportedAt": "2026-11-23T13:17:04.155695+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "548774000",
-      "mmsi": "548774000",
-      "name": "AUSTIN TRADER",
-      "category": "unknown",
-      "lat": 1.241425,
-      "lon": 104.02173833333333,
-      "speedKmh": 17.2,
-      "heading": 80.6,
-      "reportedAt": "2026-11-23T13:17:08.301074+00:00"
     },
     {
       "kind": "ship",
@@ -1779,5 +1671,5 @@
       "reportedAt": "2026-11-23T14:46:37.687302+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
