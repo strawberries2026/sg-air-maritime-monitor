@@ -37,3 +37,7 @@ console.log('SG Global OSINT 3D and 2D offline HTML smoke checks passed');
 
 // Diagnostic handler must be registered before Leaflet availability is checked.
 assert.ok(fallback.indexOf("getElementById('diagnose-2d').onclick") < fallback.indexOf("if(!window.L)"));
+
+// 3D diagnostics must remain available even if Cesium fails to load.
+assert.ok(html.indexOf('diagnoseButton.onclick=') < html.indexOf('if(!window.Cesium)'));
+assert.match(html,/Cesium loaded:/);
