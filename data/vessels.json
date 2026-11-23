@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T15:17:17.803564+00:00",
+  "updatedAt": "2026-11-23T15:31:18.071779+00:00",
   "lastSuccessAt": "2026-11-23T15:17:17.803564+00:00",
   "items": [
     {
@@ -280,18 +280,6 @@
     },
     {
       "kind": "ship",
-      "id": "533045600",
-      "mmsi": "533045600",
-      "name": "KSP 43",
-      "category": "unknown",
-      "lat": 1.4532766666666668,
-      "lon": 103.87636,
-      "speedKmh": 0.0,
-      "heading": 130.9,
-      "reportedAt": "2026-11-23T14:01:10.922111+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563084270",
       "mmsi": "563084270",
       "name": "563084270",
@@ -325,42 +313,6 @@
       "speedKmh": 33.5,
       "heading": 264,
       "reportedAt": "2026-11-23T15:16:57.559866+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563063130",
-      "mmsi": "563063130",
-      "name": "MASTER BOY",
-      "category": "unknown",
-      "lat": 1.269365,
-      "lon": 103.87144333333335,
-      "speedKmh": 14.6,
-      "heading": 310.7,
-      "reportedAt": "2026-11-23T14:01:17.440457+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566975000",
-      "mmsi": "566975000",
-      "name": "INTEGRITY",
-      "category": "unknown",
-      "lat": 1.3013599999999999,
-      "lon": 103.96692333333334,
-      "speedKmh": 0.0,
-      "heading": 190.7,
-      "reportedAt": "2026-11-23T14:01:17.440515+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "268262604",
-      "mmsi": "268262604",
-      "name": "CARTWHEEL",
-      "category": "unknown",
-      "lat": 1.267555,
-      "lon": 103.89903833333332,
-      "speedKmh": 0.0,
-      "heading": 183.4,
-      "reportedAt": "2026-11-23T14:01:17.876391+00:00"
     },
     {
       "kind": "ship",
@@ -1719,5 +1671,5 @@
       "reportedAt": "2026-11-23T15:17:16.775746+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
