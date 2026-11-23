@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T14:17:02.722167+00:00",
+  "updatedAt": "2026-11-23T14:31:19.939263+00:00",
   "lastSuccessAt": "2026-11-23T14:17:02.722167+00:00",
   "items": [
     {
@@ -37,18 +37,6 @@
       "speedKmh": 0.0,
       "heading": 145.2,
       "reportedAt": "2026-11-23T13:46:18.176772+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "354044000",
-      "mmsi": "354044000",
-      "name": "RUDY",
-      "category": "unknown",
-      "lat": 1.2460666666666667,
-      "lon": 103.87247333333333,
-      "speedKmh": 0.2,
-      "heading": 86.5,
-      "reportedAt": "2026-11-23T12:47:17.989511+00:00"
     },
     {
       "kind": "ship",
@@ -136,90 +124,6 @@
     },
     {
       "kind": "ship",
-      "id": "564974000",
-      "mmsi": "564974000",
-      "name": "MERLION 21",
-      "category": "unknown",
-      "lat": 1.293795,
-      "lon": 103.95124333333334,
-      "speedKmh": 0.0,
-      "heading": 240.8,
-      "reportedAt": "2026-11-23T12:47:09.173441+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563014090",
-      "mmsi": "563014090",
-      "name": "F5 PRIME",
-      "category": "unknown",
-      "lat": 1.2633066666666666,
-      "lon": 103.82940333333333,
-      "speedKmh": 0.0,
-      "heading": 134.8,
-      "reportedAt": "2026-11-23T12:47:09.328778+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "312871000",
-      "mmsi": "312871000",
-      "name": "SEA PELICAN",
-      "category": "unknown",
-      "lat": 1.270635,
-      "lon": 103.85496666666667,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-23T12:47:14.577127+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "319198600",
-      "mmsi": "319198600",
-      "name": "ANNABELLA",
-      "category": "unknown",
-      "lat": 1.2453416666666668,
-      "lon": 103.84048,
-      "speedKmh": 0.0,
-      "heading": 177.2,
-      "reportedAt": "2026-11-23T12:47:14.577191+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "212026000",
-      "mmsi": "212026000",
-      "name": "AGIOS KONSTANTINOS",
-      "category": "unknown",
-      "lat": 1.282,
-      "lon": 103.91326666666667,
-      "speedKmh": 0.0,
-      "heading": 197,
-      "reportedAt": "2026-11-23T12:47:14.577209+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636020222",
-      "mmsi": "636020222",
-      "name": "INDIGO JUGEM",
-      "category": "unknown",
-      "lat": 1.2872916666666667,
-      "lon": 103.99915,
-      "speedKmh": 0.2,
-      "heading": 311.5,
-      "reportedAt": "2026-11-23T12:47:14.718830+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636026647",
-      "mmsi": "636026647",
-      "name": "LOURDAS BAY",
-      "category": "unknown",
-      "lat": 1.2356133333333332,
-      "lon": 103.90161166666667,
-      "speedKmh": 0.0,
-      "heading": 330.8,
-      "reportedAt": "2026-11-23T12:47:16.554688+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563070820",
       "mmsi": "563070820",
       "name": "MPA 2",
@@ -241,18 +145,6 @@
       "speedKmh": 23.7,
       "heading": 247,
       "reportedAt": "2026-11-23T13:16:41.929704+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564462000",
-      "mmsi": "564462000",
-      "name": "ALPHA",
-      "category": "unknown",
-      "lat": 1.2715500000000002,
-      "lon": 103.89169333333332,
-      "speedKmh": 0.0,
-      "heading": 215.2,
-      "reportedAt": "2026-11-23T12:47:19.851724+00:00"
     },
     {
       "kind": "ship",
@@ -1779,5 +1671,5 @@
       "reportedAt": "2026-11-23T14:17:00.276141+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
