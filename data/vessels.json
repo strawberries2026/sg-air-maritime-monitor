@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T12:16:52.968167+00:00",
+  "updatedAt": "2026-11-23T12:31:21.737487+00:00",
   "lastSuccessAt": "2026-11-23T12:16:52.968167+00:00",
   "items": [
     {
@@ -40,54 +40,6 @@
     },
     {
       "kind": "ship",
-      "id": "566824000",
-      "mmsi": "566824000",
-      "name": "FRONTEK",
-      "category": "unknown",
-      "lat": 1.2813583333333334,
-      "lon": 103.93020833333334,
-      "speedKmh": 11.5,
-      "heading": 262.5,
-      "reportedAt": "2026-11-23T10:46:59.958554+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564149000",
-      "mmsi": "564149000",
-      "name": "BTS FABULOUS",
-      "category": "unknown",
-      "lat": 1.2398316666666667,
-      "lon": 103.801925,
-      "speedKmh": 0.0,
-      "heading": 293,
-      "reportedAt": "2026-11-23T10:47:04.208847+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021857",
-      "mmsi": "636021857",
-      "name": "XIAMEN",
-      "category": "unknown",
-      "lat": 1.1580133333333333,
-      "lon": 103.76618,
-      "speedKmh": 14.8,
-      "heading": 235.4,
-      "reportedAt": "2026-11-23T10:47:04.208918+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "236762000",
-      "mmsi": "236762000",
-      "name": "NEPTUN COMMANDER",
-      "category": "unknown",
-      "lat": 1.268735,
-      "lon": 103.87333333333332,
-      "speedKmh": 0.0,
-      "heading": 290.9,
-      "reportedAt": "2026-11-23T10:47:08.350926+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636017260",
       "mmsi": "636017260",
       "name": "MISTRAL VOYAGER",
@@ -97,42 +49,6 @@
       "speedKmh": 0.0,
       "heading": 179.4,
       "reportedAt": "2026-11-23T12:16:44.115259+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636021240",
-      "mmsi": "636021240",
-      "name": "BOKM QINGDAO",
-      "category": "unknown",
-      "lat": 1.2906933333333332,
-      "lon": 104.05691499999999,
-      "speedKmh": 0.2,
-      "heading": 219.6,
-      "reportedAt": "2026-11-23T10:47:16.225013+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "248699000",
-      "mmsi": "248699000",
-      "name": "APL FLORIDA",
-      "category": "unknown",
-      "lat": 1.2326266666666668,
-      "lon": 103.88708666666666,
-      "speedKmh": 0.2,
-      "heading": 152,
-      "reportedAt": "2026-11-23T10:47:16.225080+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563317400",
-      "mmsi": "563317400",
-      "name": "GOLDEN CENTAURUS",
-      "category": "unknown",
-      "lat": 1.28838,
-      "lon": 103.94591666666666,
-      "speedKmh": 0.2,
-      "heading": 191.1,
-      "reportedAt": "2026-11-23T10:47:16.806704+00:00"
     },
     {
       "kind": "ship",
@@ -663,5 +579,5 @@
       "reportedAt": "2026-11-23T12:16:50.774963+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
