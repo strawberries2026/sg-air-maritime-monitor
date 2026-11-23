@@ -20,15 +20,19 @@ try{
  viewer.imageryLayers.removeAll();
  const osm=new Cesium.OpenStreetMapImageryProvider({url:'https://tile.openstreetmap.org/',credit:'© OpenStreetMap contributors'});
  viewer.imageryLayers.addImageryProvider(osm);
+ viewer.scene.globe.show=true;
  viewer.scene.globe.depthTestAgainstTerrain=false;
- viewer.scene.globe.baseColor=Cesium.Color.fromCssColorString('#235477');
+ viewer.scene.globe.baseColor=Cesium.Color.fromCssColorString('#4a9dc0');
+ viewer.scene.backgroundColor=Cesium.Color.fromCssColorString('#132d43');
+ viewer.scene.globe.enableLighting=false;
+ viewer.scene.globe.showWaterEffect=false;
  viewer.scene.skyAtmosphere.show=false;
  viewer.scene.globe.showGroundAtmosphere=false;
  let imageryErrors=0;
  const imageryLayer=viewer.imageryLayers.get(0);
  if(imageryLayer&&imageryLayer.imageryProvider&&imageryLayer.imageryProvider.errorEvent){imageryLayer.imageryProvider.errorEvent.addEventListener(()=>{imageryErrors++;if(imageryErrors===1)status.textContent='Map imagery may be blocked in this local Android file. Try the 2D fallback below.';});}
  for(const [name,p] of Object.entries(points)){viewer.entities.add({name:name==='pedra'?'Pedra Branca (Singapore)':'Singapore',position:Cesium.Cartesian3.fromDegrees(p.lon,p.lat),point:{pixelSize:11,color:Cesium.Color.CYAN,outlineColor:Cesium.Color.BLACK,outlineWidth:2},label:{text:name==='pedra'?'Pedra Branca':'Singapore',font:'14px sans-serif',pixelOffset:new Cesium.Cartesian2(0,-22),fillColor:Cesium.Color.WHITE,outlineColor:Cesium.Color.BLACK,outlineWidth:2,style:Cesium.LabelStyle.FILL_AND_OUTLINE,distanceDisplayCondition:new Cesium.DistanceDisplayCondition(0,1500000)}})}
- const world=()=>viewer.camera.flyTo({destination:Cesium.Cartesian3.fromDegrees(103.8198,1.3521,12500000),duration:1.3});
+ const world=()=>{viewer.camera.cancelFlight();viewer.camera.setView({destination:Cesium.Cartesian3.fromDegrees(0,12,22000000),orientation:{heading:0,pitch:Cesium.Math.toRadians(-90),roll:0}});viewer.scene.requestRender();};
  document.getElementById('world').onclick=world;
  document.getElementById('reset').onclick=world;
  document.getElementById('singapore').onclick=()=>fly(points.singapore);
