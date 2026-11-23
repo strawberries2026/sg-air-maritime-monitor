@@ -153,11 +153,11 @@ const freshness=updated=>{
  return{label:'Stale',tone:'bad',ok:false};
 };
 function showFeed(kind,data){
- const id=kind==='air'?'airStatus':'shipStatus',state=freshness(data.updated);
+ const id=kind==='air'?'airStatus':'shipStatus',state=freshness(data.lastSuccess||data.updated);
  const label=data.error?'Error':state.label;
  el(id).textContent=label;el(id).className='small status '+(data.error?'bad':state.tone);
- el(id).title=data.error||('Snapshot '+sgt(data.updated)+'; '+ageLabel(data.updated));
- const statusNode=el(id);let stamp=statusNode.parentElement.querySelector('.feed-snapshot-time');if(!stamp){stamp=document.createElement('small');stamp.className='feed-snapshot-time';statusNode.insertAdjacentElement('afterend',stamp);}stamp.textContent=data.updated?'Snapshot: '+sgt(data.updated):'Snapshot time unavailable';
+ el(id).title=data.error||('Last successful collection '+sgt(data.lastSuccess||data.updated)+'; '+ageLabel(data.lastSuccess||data.updated));
+ const statusNode=el(id);let stamp=statusNode.parentElement.querySelector('.feed-snapshot-time');if(!stamp){stamp=document.createElement('small');stamp.className='feed-snapshot-time';statusNode.insertAdjacentElement('afterend',stamp);}stamp.textContent=data.error?'Failed attempt: '+sgt(data.updated)+' · Last success: '+(data.lastSuccess?sgt(data.lastSuccess):'unknown'):data.updated?'Snapshot: '+sgt(data.updated):'Snapshot time unavailable';
 }
 async function get(path,kind){
  try{
@@ -165,8 +165,8 @@ async function get(path,kind){
   const d=await r.json();if(!Array.isArray(d.items))throw Error('Invalid snapshot data');
   const error=d.error?String(d.error):null;
   const rows=error?[]:d.items.filter(x=>x.kind===kind&&recent(x.reportedAt)&&Number.isFinite(x.lat)&&Number.isFinite(x.lon));
-  return{rows,updated:d.updatedAt||null,error};
- }catch(e){return{rows:[],updated:null,error:kind+': '+e.message}}
+  return{rows,updated:d.updatedAt||null,lastSuccess:d.lastSuccessAt||(!error&&d.items.length?d.updatedAt:null),error};
+ }catch(e){return{rows:[],updated:null,lastSuccess:null,error:kind+': '+e.message}}
 }
 let lastFeeds=null;
 function updateHealth(){
@@ -174,8 +174,8 @@ function updateHealth(){
  const {a,s}=lastFeeds;showFeed('air',a);showFeed('ship',s);
  const problems=[],delays=[];
  for(const [name,feed] of [['Aircraft',a],['Maritime',s]]){
-  const state=freshness(feed.updated);
-  if(feed.error)problems.push(name+' collection error: '+feed.error);
+  const state=freshness(feed.lastSuccess||feed.updated);
+  if(feed.error)problems.push(name+' collection error: '+feed.error+' · Last successful collection: '+(feed.lastSuccess?sgt(feed.lastSuccess)+' ('+ageLabel(feed.lastSuccess)+')':'unknown'));
   else if(state.tone==='bad')problems.push(name+' snapshot '+state.label.toLowerCase()+' ('+ageLabel(feed.updated)+')');
   else if(state.tone==='warn')delays.push(name+' snapshot delayed ('+ageLabel(feed.updated)+')');
  }
@@ -194,8 +194,8 @@ function updateHealth(){
   summary.textContent='Healthy — both feeds current';
   summary.className='health-good';
  }
- el('airFeedTime').textContent='✈ Aircraft: '+(a.updated?sgt(a.updated)+' SGT · '+ageLabel(a.updated):'No valid timestamp');
- el('shipFeedTime').textContent='🚢 Maritime: '+(s.updated?sgt(s.updated)+' SGT · '+ageLabel(s.updated):'No valid timestamp');
+ el('airFeedTime').textContent='✈ Aircraft: '+(a.lastSuccess?sgt(a.lastSuccess)+' SGT · '+ageLabel(a.lastSuccess):'Last success unknown');
+ el('shipFeedTime').textContent='🚢 Maritime last success: '+(s.lastSuccess?sgt(s.lastSuccess)+' SGT · '+ageLabel(s.lastSuccess):'Unknown')+(s.error?' · failed attempt '+sgt(s.updated):'');
  el('feedDetail').textContent=['Aircraft snapshot: '+sgt(a.updated)+' ('+ageLabel(a.updated)+')','Vessel snapshot: '+sgt(s.updated)+' ('+ageLabel(s.updated)+')',a.error,s.error].filter(Boolean).join(' • ');
 }
 let refreshInProgress=false;
@@ -209,10 +209,10 @@ async function load(){
  try{
   const[a,s]=await Promise.all([get('data/aircraft.json','air'),get('data/vessels.json','ship')]);
   lastFeeds={a,s};air=a.rows;ships=s.rows;
-  el('airCount').textContent=(a.error||!freshness(a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.updated).ok)?'—':ships.length;
+  el('airCount').textContent=(a.error||!freshness(a.lastSuccess||a.updated).ok)?'—':air.length;el('shipCount').textContent=(s.error||!freshness(s.lastSuccess||s.updated).ok)?'—':ships.length;
   el('updated').textContent='Checked '+sgt(new Date().toISOString());const note=el('maritimeCoverageNotice');if(note)note.textContent='⚠ Partial AIS coverage: '+ships.length+' distinct vessel observation(s) within the past 90 minutes. These are sampled reports, NOT all vessels in Singapore waters. Positions may be delayed; tap a vessel to see its last report.';
   await loadHistory();updateHealth();render();
-  if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+([['Aircraft',a],['Maritime',s]].map(([name,feed])=>feed.error?name+' feed error':!freshness(feed.updated).ok?name+' snapshot stale or unavailable':name+' snapshot current').join(' · '));
+  if(homeStatus)homeStatus.textContent='Checked '+new Date().toLocaleTimeString('en-SG',{timeZone:'Asia/Singapore',hour:'2-digit',minute:'2-digit'})+' SGT · '+([['Aircraft',a],['Maritime',s]].map(([name,feed])=>feed.error?name+' feed error':!freshness(feed.lastSuccess||feed.updated).ok?name+' snapshot stale or unavailable':name+' snapshot current').join(' · '));
  }catch(error){if(homeStatus)homeStatus.textContent='Refresh unsuccessful: '+error.message;console.warn('Snapshot refresh failed',error);
  }finally{el('refresh').disabled=false;refreshInProgress=false;if(homeButton){homeButton.disabled=false;homeButton.textContent='↻ Refresh data';}}
 }
