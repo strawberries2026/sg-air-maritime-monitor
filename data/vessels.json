@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T08:17:17.561408+00:00",
+  "updatedAt": "2026-11-24T08:31:14.029389+00:00",
   "lastSuccessAt": "2026-11-24T08:17:17.561408+00:00",
   "items": [
     {
@@ -97,18 +97,6 @@
       "speedKmh": 18.3,
       "heading": 254,
       "reportedAt": "2026-11-24T07:47:19.952297+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564601000",
-      "mmsi": "564601000",
-      "name": "CASSIOPEIA V",
-      "category": "unknown",
-      "lat": 1.285345,
-      "lon": 103.90445333333334,
-      "speedKmh": 0.0,
-      "heading": 46.5,
-      "reportedAt": "2026-11-24T07:01:12.268378+00:00"
     },
     {
       "kind": "ship",
@@ -388,18 +376,6 @@
     },
     {
       "kind": "ship",
-      "id": "563063730",
-      "mmsi": "563063730",
-      "name": "563063730",
-      "category": "unknown",
-      "lat": 1.2523333333333333,
-      "lon": 103.914365,
-      "speedKmh": 18.9,
-      "heading": 305.7,
-      "reportedAt": "2026-11-24T07:01:03.221888+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636019841",
       "mmsi": "636019841",
       "name": "MSC NILA II",
@@ -424,18 +400,6 @@
     },
     {
       "kind": "ship",
-      "id": "542249110",
-      "mmsi": "542249110",
-      "name": "SEA GULL",
-      "category": "unknown",
-      "lat": 1.2703016666666669,
-      "lon": 103.85456,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-24T07:01:08.193497+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525019578",
       "mmsi": "525019578",
       "name": "OCEAN     ZIRCON",
@@ -445,18 +409,6 @@
       "speedKmh": 0.0,
       "heading": 253.4,
       "reportedAt": "2026-11-24T07:46:40.641576+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525801686",
-      "mmsi": "525801686",
-      "name": "525801686",
-      "category": "unknown",
-      "lat": 1.229305,
-      "lon": 103.99086666666668,
-      "speedKmh": 8.5,
-      "heading": 81,
-      "reportedAt": "2026-11-24T07:01:08.193565+00:00"
     },
     {
       "kind": "ship",
@@ -2211,5 +2163,5 @@
       "reportedAt": "2026-11-24T08:17:12.474833+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
