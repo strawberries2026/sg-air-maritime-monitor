@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T15:23:19.437494+00:00",
+  "updatedAt": "2026-11-24T15:31:17.895792+00:00",
   "lastSuccessAt": "2026-11-24T15:23:19.437494+00:00",
   "items": [
     {
@@ -121,18 +121,6 @@
       "speedKmh": 0.0,
       "heading": 47.4,
       "reportedAt": "2026-11-24T15:16:11.336801+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563069950",
-      "mmsi": "563069950",
-      "name": "EVER BRIGHT",
-      "category": "unknown",
-      "lat": 1.2883833333333332,
-      "lon": 103.9629,
-      "speedKmh": 6.3,
-      "heading": 75,
-      "reportedAt": "2026-11-24T14:01:09.062943+00:00"
     },
     {
       "kind": "ship",
@@ -1035,5 +1023,5 @@
       "reportedAt": "2026-11-24T15:23:16.276987+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
