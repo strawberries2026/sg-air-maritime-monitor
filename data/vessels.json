@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T16:32:15.403364+00:00",
+  "updatedAt": "2026-11-24T16:46:10.816147+00:00",
   "lastSuccessAt": "2026-11-24T16:32:15.403364+00:00",
   "items": [
     {
@@ -97,30 +97,6 @@
       "speedKmh": 15.2,
       "heading": 297,
       "reportedAt": "2026-11-24T15:22:48.182684+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525801496",
-      "mmsi": "525801496",
-      "name": "PATRIA NAWASENA 2",
-      "category": "unknown",
-      "lat": 1.4236616666666668,
-      "lon": 103.895585,
-      "speedKmh": 0.2,
-      "heading": 305.3,
-      "reportedAt": "2026-11-24T15:16:03.831724+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566592000",
-      "mmsi": "566592000",
-      "name": "AQUA TERRA 7",
-      "category": "unknown",
-      "lat": 1.2921383333333334,
-      "lon": 103.94998166666666,
-      "speedKmh": 0.0,
-      "heading": 317,
-      "reportedAt": "2026-11-24T15:16:08.928428+00:00"
     },
     {
       "kind": "ship",
@@ -1095,5 +1071,5 @@
       "reportedAt": "2026-11-24T16:32:10.886039+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
