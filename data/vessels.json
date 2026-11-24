@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T12:17:19.282139+00:00",
+  "updatedAt": "2026-11-24T12:31:15.428501+00:00",
   "lastSuccessAt": "2026-11-24T12:17:19.282139+00:00",
   "items": [
     {
@@ -97,18 +97,6 @@
       "speedKmh": null,
       "heading": null,
       "reportedAt": "2026-11-24T11:46:19.446365+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "412349000",
-      "mmsi": "412349000",
-      "name": "AN CHANG",
-      "category": "unknown",
-      "lat": 1.2403149999999998,
-      "lon": 103.95073666666667,
-      "speedKmh": 23.0,
-      "heading": 247.7,
-      "reportedAt": "2026-11-24T11:00:59.811426+00:00"
     },
     {
       "kind": "ship",
@@ -220,18 +208,6 @@
     },
     {
       "kind": "ship",
-      "id": "566630000",
-      "mmsi": "566630000",
-      "name": "FERESA",
-      "category": "unknown",
-      "lat": 1.2583666666666666,
-      "lon": 103.86305333333333,
-      "speedKmh": 9.4,
-      "heading": 74.5,
-      "reportedAt": "2026-11-24T11:00:50.744560+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563086040",
       "mmsi": "563086040",
       "name": "NONA CANTEK 88",
@@ -241,18 +217,6 @@
       "speedKmh": 10.0,
       "heading": 73.5,
       "reportedAt": "2026-11-24T11:16:11.251940+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563215100",
-      "mmsi": "563215100",
-      "name": "MENTOR",
-      "category": "unknown",
-      "lat": 1.3107166666666668,
-      "lon": 104.02493333333334,
-      "speedKmh": 0.0,
-      "heading": 270,
-      "reportedAt": "2026-11-24T11:00:53.039588+00:00"
     },
     {
       "kind": "ship",
@@ -280,18 +244,6 @@
     },
     {
       "kind": "ship",
-      "id": "355008000",
-      "mmsi": "355008000",
-      "name": "NAZMI C",
-      "category": "unknown",
-      "lat": 1.2634516666666669,
-      "lon": 103.88504333333334,
-      "speedKmh": 0.0,
-      "heading": 290.5,
-      "reportedAt": "2026-11-24T11:00:57.700033+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "566702000",
       "mmsi": "566702000",
       "name": "HY TALENT",
@@ -301,18 +253,6 @@
       "speedKmh": 0.0,
       "heading": 249.7,
       "reportedAt": "2026-11-24T11:46:29.924404+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563024500",
-      "mmsi": "563024500",
-      "name": "MARINE QUEENIE",
-      "category": "unknown",
-      "lat": 1.24417,
-      "lon": 103.88369166666666,
-      "speedKmh": 15.7,
-      "heading": 233.2,
-      "reportedAt": "2026-11-24T11:00:59.811367+00:00"
     },
     {
       "kind": "ship",
@@ -1923,5 +1863,5 @@
       "reportedAt": "2026-11-24T12:17:16.528163+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
