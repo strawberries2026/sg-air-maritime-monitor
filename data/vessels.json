@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T01:47:14.473884+00:00",
+  "updatedAt": "2026-11-24T02:01:24.150541+00:00",
   "lastSuccessAt": "2026-11-24T01:47:14.473884+00:00",
   "items": [
     {
@@ -244,18 +244,6 @@
     },
     {
       "kind": "ship",
-      "id": "563086610",
-      "mmsi": "563086610",
-      "name": "CSM HYDRA",
-      "category": "unknown",
-      "lat": 1.2469416666666668,
-      "lon": 103.78232666666666,
-      "speedKmh": 13.7,
-      "heading": 327.9,
-      "reportedAt": "2026-11-24T00:17:18.923153+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563009160",
       "mmsi": "563009160",
       "name": "AVON",
@@ -373,42 +361,6 @@
       "speedKmh": 7.8,
       "heading": 247.1,
       "reportedAt": "2026-11-24T00:46:59.463773+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "338446000",
-      "mmsi": "338446000",
-      "name": "OCEAN GLADIATOR",
-      "category": "unknown",
-      "lat": 1.2459466666666665,
-      "lon": 103.87263333333334,
-      "speedKmh": 0.0,
-      "heading": 280.2,
-      "reportedAt": "2026-11-24T00:17:14.703736+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538010046",
-      "mmsi": "538010046",
-      "name": "SAWASDEE XIAMEN",
-      "category": "unknown",
-      "lat": 1.25743,
-      "lon": 103.63454,
-      "speedKmh": 15.7,
-      "heading": 92.9,
-      "reportedAt": "2026-11-24T00:17:15.975491+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636026647",
-      "mmsi": "636026647",
-      "name": "LOURDAS BAY",
-      "category": "unknown",
-      "lat": 1.234525,
-      "lon": 103.90196333333333,
-      "speedKmh": 0.0,
-      "heading": 330.8,
-      "reportedAt": "2026-11-24T00:17:16.671434+00:00"
     },
     {
       "kind": "ship",
@@ -1611,5 +1563,5 @@
       "reportedAt": "2026-11-24T01:47:11.635547+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
