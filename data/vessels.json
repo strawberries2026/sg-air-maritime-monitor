@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T05:46:58.699961+00:00",
+  "updatedAt": "2026-11-24T06:01:25.380488+00:00",
   "lastSuccessAt": "2026-11-24T05:46:58.699961+00:00",
   "items": [
     {
@@ -121,18 +121,6 @@
       "speedKmh": 0.2,
       "heading": 131.5,
       "reportedAt": "2026-11-24T05:46:16.701893+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352006495",
-      "mmsi": "352006495",
-      "name": "LUCKY CAMELIA",
-      "category": "unknown",
-      "lat": 1.2308066666666666,
-      "lon": 103.946835,
-      "speedKmh": 10.2,
-      "heading": 65.3,
-      "reportedAt": "2026-11-24T04:17:01.482850+00:00"
     },
     {
       "kind": "ship",
@@ -364,18 +352,6 @@
     },
     {
       "kind": "ship",
-      "id": "563079190",
-      "mmsi": "563079190",
-      "name": "STL PS1",
-      "category": "unknown",
-      "lat": 1.2835299999999998,
-      "lon": 103.896915,
-      "speedKmh": 0.2,
-      "heading": 317.8,
-      "reportedAt": "2026-11-24T04:17:01.482818+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "311001038",
       "mmsi": "311001038",
       "name": "STAR PEACE",
@@ -445,18 +421,6 @@
       "speedKmh": 1.1,
       "heading": 197.4,
       "reportedAt": "2026-11-24T05:45:51.111797+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "414464000",
-      "mmsi": "414464000",
-      "name": "YUAN HUA YANG",
-      "category": "commercial",
-      "lat": 1.2198116666666665,
-      "lon": 103.93031166666667,
-      "speedKmh": 25.0,
-      "heading": 70.3,
-      "reportedAt": "2026-11-24T04:17:11.970504+00:00"
     },
     {
       "kind": "ship",
@@ -556,18 +520,6 @@
     },
     {
       "kind": "ship",
-      "id": "565282000",
-      "mmsi": "565282000",
-      "name": "THAMES",
-      "category": "unknown",
-      "lat": 1.1812166666666668,
-      "lon": 103.780025,
-      "speedKmh": 13.0,
-      "heading": 267.6,
-      "reportedAt": "2026-11-24T04:16:59.269993+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "525003517",
       "mmsi": "525003517",
       "name": "KM.PIONEER 9",
@@ -577,42 +529,6 @@
       "speedKmh": 0.6,
       "heading": 339.1,
       "reportedAt": "2026-11-24T04:47:00.624815+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563267500",
-      "mmsi": "563267500",
-      "name": "PEARL LEGEND",
-      "category": "unknown",
-      "lat": 1.2046383333333333,
-      "lon": 103.81404,
-      "speedKmh": 17.2,
-      "heading": 96.9,
-      "reportedAt": "2026-11-24T04:17:11.970553+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "542205110",
-      "mmsi": "542205110",
-      "name": "CAST SUPPORTER",
-      "category": "unknown",
-      "lat": 1.2694033333333332,
-      "lon": 103.86633,
-      "speedKmh": 0.2,
-      "heading": 0,
-      "reportedAt": "2026-11-24T04:17:11.970578+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538011582",
-      "mmsi": "538011582",
-      "name": "VIKING SHANGHAI",
-      "category": "unknown",
-      "lat": 1.2839366666666665,
-      "lon": 103.92756833333333,
-      "speedKmh": 0.0,
-      "heading": 181.9,
-      "reportedAt": "2026-11-24T04:31:22.589094+00:00"
     },
     {
       "kind": "ship",
@@ -2271,5 +2187,5 @@
       "reportedAt": "2026-11-24T05:46:57.613150+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
