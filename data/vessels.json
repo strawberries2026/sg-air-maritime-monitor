@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T11:17:13.658149+00:00",
+  "updatedAt": "2026-11-24T11:31:15.421062+00:00",
   "lastSuccessAt": "2026-11-24T11:17:13.658149+00:00",
   "items": [
     {
@@ -49,18 +49,6 @@
       "speedKmh": 8.3,
       "heading": 254.8,
       "reportedAt": "2026-11-24T11:01:10.428454+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533006900",
-      "mmsi": "533006900",
-      "name": "KEJORA SALVO",
-      "category": "unknown",
-      "lat": 1.4344116666666666,
-      "lon": 103.89842666666667,
-      "speedKmh": 1.7,
-      "heading": 180.8,
-      "reportedAt": "2026-11-24T09:47:15.470982+00:00"
     },
     {
       "kind": "ship",
@@ -157,18 +145,6 @@
       "speedKmh": 23.0,
       "heading": 247.7,
       "reportedAt": "2026-11-24T11:00:59.811426+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477172900",
-      "mmsi": "477172900",
-      "name": "GREAT FAITH",
-      "category": "unknown",
-      "lat": 1.29228,
-      "lon": 103.99489166666667,
-      "speedKmh": 0.0,
-      "heading": 313.1,
-      "reportedAt": "2026-11-24T09:47:17.315494+00:00"
     },
     {
       "kind": "ship",
@@ -1203,5 +1179,5 @@
       "reportedAt": "2026-11-24T11:17:12.433715+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
