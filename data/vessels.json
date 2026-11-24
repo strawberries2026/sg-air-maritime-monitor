@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T09:17:18.410046+00:00",
+  "updatedAt": "2026-11-24T09:31:15.854620+00:00",
   "lastSuccessAt": "2026-11-24T09:17:18.410046+00:00",
   "items": [
     {
@@ -133,18 +133,6 @@
       "speedKmh": 1.7,
       "heading": 115.9,
       "reportedAt": "2026-11-24T08:02:04.001259+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "419002072",
-      "mmsi": "419002072",
-      "name": "MAERSK VIGO",
-      "category": "unknown",
-      "lat": 1.2544250000000001,
-      "lon": 104.08433166666667,
-      "speedKmh": 5.9,
-      "heading": 77.2,
-      "reportedAt": "2026-11-24T07:47:18.751132+00:00"
     },
     {
       "kind": "ship",
@@ -301,18 +289,6 @@
       "speedKmh": 12.0,
       "heading": 80,
       "reportedAt": "2026-11-24T08:02:13.386856+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352005800",
-      "mmsi": "352005800",
-      "name": "MK GAS SCORPIO",
-      "category": "unknown",
-      "lat": 1.1910999999999998,
-      "lon": 103.97260666666666,
-      "speedKmh": 0.0,
-      "heading": 204.2,
-      "reportedAt": "2026-11-24T07:47:19.952216+00:00"
     },
     {
       "kind": "ship",
@@ -481,30 +457,6 @@
       "speedKmh": 3.9,
       "heading": 70,
       "reportedAt": "2026-11-24T08:01:17.970350+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533133479",
-      "mmsi": "533133479",
-      "name": "SK GEOTEK",
-      "category": "unknown",
-      "lat": 1.2716366666666665,
-      "lon": 103.87726333333333,
-      "speedKmh": 0.2,
-      "heading": 271.3,
-      "reportedAt": "2026-11-24T07:47:20.237915+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525119176",
-      "mmsi": "525119176",
-      "name": "MT HENDROPRIYONO III",
-      "category": "unknown",
-      "lat": 1.1744466666666669,
-      "lon": 103.92795666666666,
-      "speedKmh": 0.2,
-      "heading": 250.4,
-      "reportedAt": "2026-11-24T07:47:21.366415+00:00"
     },
     {
       "kind": "ship",
@@ -1827,5 +1779,5 @@
       "reportedAt": "2026-11-24T09:17:16.267057+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
