@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T00:47:24.502885+00:00",
+  "updatedAt": "2026-11-24T01:01:22.724785+00:00",
   "lastSuccessAt": "2026-11-24T00:47:24.502885+00:00",
   "items": [
     {
@@ -37,18 +37,6 @@
       "speedKmh": 0.0,
       "heading": 280.1,
       "reportedAt": "2026-11-23T23:46:31.127735+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533131126",
-      "mmsi": "533131126",
-      "name": "HEXAGON ALPHA",
-      "category": "unknown",
-      "lat": 1.1798883333333334,
-      "lon": 103.93877666666667,
-      "speedKmh": 0.0,
-      "heading": 159.1,
-      "reportedAt": "2026-11-23T23:31:18.256883+00:00"
     },
     {
       "kind": "ship",
@@ -376,18 +364,6 @@
     },
     {
       "kind": "ship",
-      "id": "563121600",
-      "mmsi": "563121600",
-      "name": "MAJESTY",
-      "category": "unknown",
-      "lat": 1.3042783333333332,
-      "lon": 103.98678666666666,
-      "speedKmh": 0.2,
-      "heading": 88.1,
-      "reportedAt": "2026-11-23T23:31:16.559463+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636024005",
       "mmsi": "636024005",
       "name": "BRAVE OCEAN",
@@ -412,18 +388,6 @@
     },
     {
       "kind": "ship",
-      "id": "525300666",
-      "mmsi": "525300666",
-      "name": "MEX DE OCEAN 9",
-      "category": "unknown",
-      "lat": 1.0964183333333333,
-      "lon": 103.90334166666666,
-      "speedKmh": 0.0,
-      "heading": 198.5,
-      "reportedAt": "2026-11-23T23:31:16.559624+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538003098",
       "mmsi": "538003098",
       "name": "REEM ISLAND",
@@ -433,30 +397,6 @@
       "speedKmh": 4.8,
       "heading": 343.9,
       "reportedAt": "2026-11-23T23:46:48.355728+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566601000",
-      "mmsi": "566601000",
-      "name": "DELPHINE",
-      "category": "unknown",
-      "lat": 1.2922516666666666,
-      "lon": 103.96648333333333,
-      "speedKmh": 0.2,
-      "heading": 29.2,
-      "reportedAt": "2026-11-23T23:31:21.762121+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563132700",
-      "mmsi": "563132700",
-      "name": "CSM TAURUS",
-      "category": "unknown",
-      "lat": 1.3002533333333333,
-      "lon": 103.95678833333334,
-      "speedKmh": 0.0,
-      "heading": 262.6,
-      "reportedAt": "2026-11-23T23:31:21.762197+00:00"
     },
     {
       "kind": "ship",
@@ -2523,5 +2463,5 @@
       "reportedAt": "2026-11-24T00:47:20.191662+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
