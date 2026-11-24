@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T02:17:14.261268+00:00",
+  "updatedAt": "2026-11-24T02:31:15.131293+00:00",
   "lastSuccessAt": "2026-11-24T02:17:14.261268+00:00",
   "items": [
     {
@@ -76,18 +76,6 @@
     },
     {
       "kind": "ship",
-      "id": "563315900",
-      "mmsi": "563315900",
-      "name": "PACIFIC WISE",
-      "category": "unknown",
-      "lat": 1.2991716666666666,
-      "lon": 103.96022500000001,
-      "speedKmh": 0.0,
-      "heading": 12.2,
-      "reportedAt": "2026-11-24T00:47:20.013699+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563100400",
       "mmsi": "563100400",
       "name": "REGENT  LIBRA",
@@ -109,18 +97,6 @@
       "speedKmh": 0.0,
       "heading": 90.5,
       "reportedAt": "2026-11-24T01:16:36.924985+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566592000",
-      "mmsi": "566592000",
-      "name": "AQUA TERRA 7",
-      "category": "unknown",
-      "lat": 1.2776066666666668,
-      "lon": 103.89259833333334,
-      "speedKmh": 11.9,
-      "heading": 70.2,
-      "reportedAt": "2026-11-24T00:47:21.984944+00:00"
     },
     {
       "kind": "ship",
@@ -184,18 +160,6 @@
     },
     {
       "kind": "ship",
-      "id": "565173000",
-      "mmsi": "565173000",
-      "name": "AYER CHERDEK",
-      "category": "unknown",
-      "lat": 1.3,
-      "lon": 104.00563000000001,
-      "speedKmh": 0.2,
-      "heading": 70.5,
-      "reportedAt": "2026-11-24T00:47:20.013564+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "422153400",
       "mmsi": "422153400",
       "name": "RAYEN",
@@ -244,30 +208,6 @@
     },
     {
       "kind": "ship",
-      "id": "563087790",
-      "mmsi": "563087790",
-      "name": "563087790",
-      "category": "unknown",
-      "lat": 1.2557216666666666,
-      "lon": 103.92453666666667,
-      "speedKmh": 7.4,
-      "heading": 236.2,
-      "reportedAt": "2026-11-24T00:47:20.013618+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564034000",
-      "mmsi": "564034000",
-      "name": "MERLION 8",
-      "category": "unknown",
-      "lat": 1.2877833333333333,
-      "lon": 103.9528,
-      "speedKmh": 0.0,
-      "heading": 6.3,
-      "reportedAt": "2026-11-24T00:47:20.013653+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "357715000",
       "mmsi": "357715000",
       "name": "ESTEEM SANGO",
@@ -277,42 +217,6 @@
       "speedKmh": 20.4,
       "heading": 241.5,
       "reportedAt": "2026-11-24T01:47:08.039157+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563319900",
-      "mmsi": "563319900",
-      "name": "MAJESTIC INFINITY",
-      "category": "unknown",
-      "lat": 1.1126083333333334,
-      "lon": 103.92932,
-      "speedKmh": 8.0,
-      "heading": 106.2,
-      "reportedAt": "2026-11-24T00:47:20.013685+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636022600",
-      "mmsi": "636022600",
-      "name": "MSC LORETO",
-      "category": "unknown",
-      "lat": 1.29263,
-      "lon": 104.08204333333333,
-      "speedKmh": 0.0,
-      "heading": 166.5,
-      "reportedAt": "2026-11-24T00:47:20.191606+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "548953000",
-      "mmsi": "548953000",
-      "name": "APOLLO SAKURA",
-      "category": "unknown",
-      "lat": 1.2416633333333331,
-      "lon": 103.81491166666666,
-      "speedKmh": 0.2,
-      "heading": 181.4,
-      "reportedAt": "2026-11-24T00:47:20.191662+00:00"
     },
     {
       "kind": "ship",
@@ -1455,5 +1359,5 @@
       "reportedAt": "2026-11-24T02:17:11.634623+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
