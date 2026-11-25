@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T20:47:21.514792+00:00",
+  "updatedAt": "2026-11-25T21:01:23.356767+00:00",
   "lastSuccessAt": "2026-11-25T20:47:21.514792+00:00",
   "items": [
     {
@@ -52,18 +52,6 @@
     },
     {
       "kind": "ship",
-      "id": "258633000",
-      "mmsi": "258633000",
-      "name": "SEAWAY FALCON",
-      "category": "unknown",
-      "lat": 1.2573466666666666,
-      "lon": 103.886745,
-      "speedKmh": 0.0,
-      "heading": 276.3,
-      "reportedAt": "2026-11-25T19:17:22.055325+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "339301990",
       "mmsi": "339301990",
       "name": "FU XIN 9",
@@ -73,66 +61,6 @@
       "speedKmh": 21.9,
       "heading": 244.5,
       "reportedAt": "2026-11-25T20:31:11.734180+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563009420",
-      "mmsi": "563009420",
-      "name": "ABADI 9",
-      "category": "unknown",
-      "lat": 1.2956483333333333,
-      "lon": 103.75047833333333,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-25T19:17:24.087697+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563032500",
-      "mmsi": "563032500",
-      "name": "EAGLE VICTORIA",
-      "category": "unknown",
-      "lat": 1.183205,
-      "lon": 103.434125,
-      "speedKmh": 17.8,
-      "heading": 123.8,
-      "reportedAt": "2026-11-25T19:17:24.239930+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564611000",
-      "mmsi": "564611000",
-      "name": "HERON SPIRIT",
-      "category": "unknown",
-      "lat": 1.2955266666666667,
-      "lon": 103.75241666666668,
-      "speedKmh": 0.0,
-      "heading": 353.3,
-      "reportedAt": "2026-11-25T19:17:24.644344+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "567389000",
-      "mmsi": "567389000",
-      "name": "BHUREEMAS",
-      "category": "unknown",
-      "lat": 1.2923116666666667,
-      "lon": 103.97594166666666,
-      "speedKmh": 0.0,
-      "heading": 280.4,
-      "reportedAt": "2026-11-25T19:17:25.053292+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "533130863",
-      "mmsi": "533130863",
-      "name": "533130863",
-      "category": "unknown",
-      "lat": 1.2943316666666667,
-      "lon": 103.76047333333332,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-25T19:17:26.662823+00:00"
     },
     {
       "kind": "ship",
@@ -1659,5 +1587,5 @@
       "reportedAt": "2026-11-25T20:47:20.087165+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
