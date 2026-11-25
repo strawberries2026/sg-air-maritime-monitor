@@ -48,3 +48,15 @@ assert.match(html,/id="primitive"/);
 assert.match(html,/EllipsoidGeometry/);
 assert.match(html,/PerInstanceColorAppearance/);
 assert.match(html,/independent sphere test:/);
+
+// Same-page regional navigation: Android content URIs cannot reliably open sibling HTML files.
+assert.match(html,/id="regional-map"/);
+assert.match(html,/L\.map\(regionalContainer\)/);
+assert.match(html,/getElementById\('singapore'\)\.onclick=\(\)=>showRegion\(points\.singapore,10\)/);
+assert.match(html,/getElementById\('pedra'\)\.onclick=\(\)=>showRegion\(points\.pedra,12\)/);
+assert.match(html,/getElementById\('world'\)\.onclick=showWorld/);
+assert.match(html,/getElementById\('reset'\)\.onclick=showWorld/);
+assert.match(html,/regionalMap\.invalidateSize\(\)/);
+assert.match(html,/regionalMap\.closePopup\(\)/);
+assert.doesNotMatch(html,/location\.href\s*=\s*['"]global-osint-2d\.html\?view=/);
+console.log('Same-page regional navigation source checks passed');
