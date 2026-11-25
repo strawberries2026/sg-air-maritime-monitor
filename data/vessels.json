@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T06:17:00.462340+00:00",
+  "updatedAt": "2026-11-25T06:31:15.795019+00:00",
   "lastSuccessAt": "2026-11-25T06:17:00.462340+00:00",
   "items": [
     {
@@ -37,18 +37,6 @@
       "speedKmh": 0.0,
       "heading": 339.7,
       "reportedAt": "2026-11-25T05:16:25.706547+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565823000",
-      "mmsi": "565823000",
-      "name": "MARINE JEWEL",
-      "category": "unknown",
-      "lat": 1.2731466666666666,
-      "lon": 103.89980999999999,
-      "speedKmh": 5.6,
-      "heading": 273.6,
-      "reportedAt": "2026-11-25T04:47:09.769800+00:00"
     },
     {
       "kind": "ship",
@@ -136,18 +124,6 @@
     },
     {
       "kind": "ship",
-      "id": "353931000",
-      "mmsi": "353931000",
-      "name": "HARVEST CRESSON",
-      "category": "unknown",
-      "lat": 1.2298733333333334,
-      "lon": 103.98387,
-      "speedKmh": 23.9,
-      "heading": 80.3,
-      "reportedAt": "2026-11-25T04:47:00.941793+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "477149600",
       "mmsi": "477149600",
       "name": "PACIFIC PURITY",
@@ -157,42 +133,6 @@
       "speedKmh": 9.3,
       "heading": 68,
       "reportedAt": "2026-11-25T06:15:53.755511+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232053195",
-      "mmsi": "232053195",
-      "name": "BERGE HALEAKALA",
-      "category": "unknown",
-      "lat": 1.2762516666666668,
-      "lon": 103.91790999999999,
-      "speedKmh": 0.0,
-      "heading": 308.8,
-      "reportedAt": "2026-11-25T04:47:04.209671+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563003330",
-      "mmsi": "563003330",
-      "name": "WAVEMASTER 9",
-      "category": "unknown",
-      "lat": 1.2630166666666667,
-      "lon": 103.81936166666667,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-25T04:47:08.220409+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "232049178",
-      "mmsi": "232049178",
-      "name": "BALTIC BAY",
-      "category": "unknown",
-      "lat": 1.2479233333333333,
-      "lon": 103.89067666666666,
-      "speedKmh": 7.2,
-      "heading": 272.5,
-      "reportedAt": "2026-11-25T04:47:08.291388+00:00"
     },
     {
       "kind": "ship",
@@ -208,18 +148,6 @@
     },
     {
       "kind": "ship",
-      "id": "525801496",
-      "mmsi": "525801496",
-      "name": "PATRIA NAWASENA 2",
-      "category": "unknown",
-      "lat": 1.42391,
-      "lon": 103.89576666666667,
-      "speedKmh": 0.2,
-      "heading": 89.2,
-      "reportedAt": "2026-11-25T04:47:14.612446+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563230100",
       "mmsi": "563230100",
       "name": "UNITY OF MAJESTIC",
@@ -229,30 +157,6 @@
       "speedKmh": 0.0,
       "heading": 95.5,
       "reportedAt": "2026-11-25T06:16:50.235717+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563023490",
-      "mmsi": "563023490",
-      "name": "EVER JOYCE",
-      "category": "unknown",
-      "lat": 1.3003749999999998,
-      "lon": 103.94614666666666,
-      "speedKmh": 0.2,
-      "heading": 181.2,
-      "reportedAt": "2026-11-25T04:47:14.754297+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563089170",
-      "mmsi": "563089170",
-      "name": "LENG 2",
-      "category": "unknown",
-      "lat": 1.2690766666666666,
-      "lon": 103.865665,
-      "speedKmh": 0.0,
-      "heading": 249.7,
-      "reportedAt": "2026-11-25T04:47:15.083539+00:00"
     },
     {
       "kind": "ship",
@@ -1839,5 +1743,5 @@
       "reportedAt": "2026-11-25T06:16:57.645818+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
