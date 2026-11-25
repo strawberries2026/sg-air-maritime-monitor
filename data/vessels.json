@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T22:02:06.753672+00:00",
+  "updatedAt": "2026-11-25T22:16:06.418567+00:00",
   "lastSuccessAt": "2026-11-25T22:02:06.753672+00:00",
   "items": [
     {
@@ -88,18 +88,6 @@
     },
     {
       "kind": "ship",
-      "id": "312950000",
-      "mmsi": "312950000",
-      "name": "YEO LIGHTER 5",
-      "category": "unknown",
-      "lat": 1.2613416666666666,
-      "lon": 103.880815,
-      "speedKmh": 14.8,
-      "heading": 261.2,
-      "reportedAt": "2026-11-25T20:46:06.109437+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563215600",
       "mmsi": "563215600",
       "name": "ZALE",
@@ -133,18 +121,6 @@
       "speedKmh": 0.4,
       "heading": 71.7,
       "reportedAt": "2026-11-25T20:46:57.118051+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563040379",
-      "mmsi": "563040379",
-      "name": "KANLIAN 30",
-      "category": "unknown",
-      "lat": 1.2934100000000002,
-      "lon": 103.75649666666666,
-      "speedKmh": 0.2,
-      "heading": null,
-      "reportedAt": "2026-11-25T20:46:06.109483+00:00"
     },
     {
       "kind": "ship",
@@ -1719,5 +1695,5 @@
       "reportedAt": "2026-11-25T22:02:05.406408+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
