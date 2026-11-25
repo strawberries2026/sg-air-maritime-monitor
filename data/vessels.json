@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T07:16:56.504676+00:00",
+  "updatedAt": "2026-11-25T07:31:23.950202+00:00",
   "lastSuccessAt": "2026-11-25T07:16:56.504676+00:00",
   "items": [
     {
@@ -244,30 +244,6 @@
     },
     {
       "kind": "ship",
-      "id": "563177900",
-      "mmsi": "563177900",
-      "name": "AVATAR COURAGE",
-      "category": "unknown",
-      "lat": 1.1636333333333333,
-      "lon": 103.97798333333334,
-      "speedKmh": 0.4,
-      "heading": 316.6,
-      "reportedAt": "2026-11-25T05:46:59.544605+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012137",
-      "mmsi": "538012137",
-      "name": "FLOURISH OCEAN",
-      "category": "unknown",
-      "lat": 1.2464000000000002,
-      "lon": 104.11496333333334,
-      "speedKmh": 25.9,
-      "heading": 81,
-      "reportedAt": "2026-11-25T05:46:59.544646+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "311044100",
       "mmsi": "311044100",
       "name": "CMA CGM AFRICA FOUR",
@@ -277,42 +253,6 @@
       "speedKmh": 0.0,
       "heading": 53.4,
       "reportedAt": "2026-11-25T06:47:04.206898+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086760",
-      "mmsi": "563086760",
-      "name": "BLUE ANCHOR 3",
-      "category": "unknown",
-      "lat": 1.2735750000000001,
-      "lon": 103.94046666666667,
-      "speedKmh": 0.6,
-      "heading": 166.8,
-      "reportedAt": "2026-11-25T05:47:04.461428+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563025620",
-      "mmsi": "563025620",
-      "name": "BEE 1",
-      "category": "unknown",
-      "lat": 1.2806133333333334,
-      "lon": 103.88082666666666,
-      "speedKmh": 0.6,
-      "heading": 181.1,
-      "reportedAt": "2026-11-25T05:47:04.461488+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564807000",
-      "mmsi": "564807000",
-      "name": "HAI SOON 32",
-      "category": "unknown",
-      "lat": 1.298095,
-      "lon": 103.95844666666667,
-      "speedKmh": 0.2,
-      "heading": 25.2,
-      "reportedAt": "2026-11-25T05:47:04.461549+00:00"
     },
     {
       "kind": "ship",
@@ -337,18 +277,6 @@
       "speedKmh": 0.4,
       "heading": 152.2,
       "reportedAt": "2026-11-25T06:47:11.755566+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563073090",
-      "mmsi": "563073090",
-      "name": "563073090",
-      "category": "unknown",
-      "lat": 1.2694633333333334,
-      "lon": 103.87894833333333,
-      "speedKmh": 5.0,
-      "heading": 326.2,
-      "reportedAt": "2026-11-25T05:47:12.684019+00:00"
     },
     {
       "kind": "ship",
@@ -2175,5 +2103,5 @@
       "reportedAt": "2026-11-25T07:16:55.735834+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
