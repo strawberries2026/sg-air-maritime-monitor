@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T01:31:52.170792+00:00",
+  "updatedAt": "2026-11-25T01:46:06.530585+00:00",
   "lastSuccessAt": "2026-11-25T01:31:52.170792+00:00",
   "items": [
     {
@@ -145,30 +145,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-25T01:31:43.489312+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "219030726",
-      "mmsi": "219030726",
-      "name": "TORM HANNAH",
-      "category": "unknown",
-      "lat": 1.2371533333333333,
-      "lon": 103.954175,
-      "speedKmh": 8.0,
-      "heading": 67.9,
-      "reportedAt": "2026-11-25T00:16:04.561811+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563057800",
-      "mmsi": "563057800",
-      "name": "COMMITMENT",
-      "category": "unknown",
-      "lat": 1.2819116666666666,
-      "lon": 103.93860166666667,
-      "speedKmh": 0.0,
-      "heading": 214.7,
-      "reportedAt": "2026-11-25T00:16:04.561870+00:00"
     },
     {
       "kind": "ship",
@@ -1155,5 +1131,5 @@
       "reportedAt": "2026-11-25T01:31:48.104085+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
