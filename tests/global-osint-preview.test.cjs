@@ -85,3 +85,12 @@ assert.match(html,/Math\.min\(2048,viewer\.scene\.context\.maximumTextureSize/);
 assert.match(html,/width\*height>2097152/);
 assert.match(html,/Inconsistent texture tile size/);
 assert.match(html,/textureQuality='enhanced'/);
+
+// Geographic texture assembly and mapping safeguards.
+assert.match(html,/\(rows-1-y\)\*first\.height/);
+assert.match(html,/EllipsoidGeometry\.createGeometry/);
+assert.match(html,/ellipsoid\.cartesianToCartographic\(p\)/);
+assert.match(html,/\(c\.longitude\+Math\.PI\)\/\(2\*Math\.PI\)/);
+assert.match(html,/\(c\.latitude\+Math\.PI\/2\)\/Math\.PI/);
+assert.match(html,/Math\.abs\(Math\.abs\(c\.longitude\)-Math\.PI\)/);
+assert.match(html,/visual verification pending/);
