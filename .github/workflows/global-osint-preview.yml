@@ -1,0 +1,32 @@
+name: Global OSINT Preview Checks
+on:
+  pull_request:
+    paths:
+      - 'preview/global-osint-view.html'
+      - 'preview/global-osint-2d.html'
+      - 'tests/global-osint-preview.test.cjs'
+      - '.github/workflows/global-osint-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate isolated world preview
+        run: node tests/global-osint-preview.test.cjs
+      - name: Package Android HTML preview
+        run: |
+          mkdir -p preview-package
+          cp preview/global-osint-view.html preview-package/index.html
+          cp preview/global-osint-2d.html preview-package/global-osint-2d.html
+          printf '%s\n' 'Experimental 3D preview. Open index.html in a browser with internet access. No live tracking feeds.' > preview-package/README.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sg-global-osint-android-preview
+          path: preview-package/
+          retention-days: 7
