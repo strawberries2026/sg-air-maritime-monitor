@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:00:43.855255+00:00",
+  "updatedAt": "2026-11-26T18:16:08.661529+00:00",
   "lastSuccessAt": "2026-11-26T17:47:18.333883+00:00",
   "items": [
     {
@@ -85,78 +85,6 @@
       "speedKmh": 0.0,
       "heading": 2,
       "reportedAt": "2026-11-26T17:46:52.221358+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538005822",
-      "mmsi": "538005822",
-      "name": "STI GUARD",
-      "category": "unknown",
-      "lat": 1.2497683333333331,
-      "lon": 103.90869666666667,
-      "speedKmh": 0.2,
-      "heading": 184,
-      "reportedAt": "2026-11-26T16:46:00.404781+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086060",
-      "mmsi": "563086060",
-      "name": "HENG SHENG",
-      "category": "unknown",
-      "lat": 1.254445,
-      "lon": 103.62746333333332,
-      "speedKmh": 0.0,
-      "heading": 203.8,
-      "reportedAt": "2026-11-26T16:46:00.900037+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "311001732",
-      "mmsi": "311001732",
-      "name": "ORIENT NAVIGATOR",
-      "category": "unknown",
-      "lat": 1.2855999999999999,
-      "lon": 103.73014666666667,
-      "speedKmh": 0.0,
-      "heading": 228.9,
-      "reportedAt": "2026-11-26T16:46:01.489991+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008542",
-      "mmsi": "538008542",
-      "name": "EVERLASTING VIRTUE",
-      "category": "unknown",
-      "lat": 1.261885,
-      "lon": 103.789845,
-      "speedKmh": 0.0,
-      "heading": 19.2,
-      "reportedAt": "2026-11-26T16:46:02.639148+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "413444430",
-      "mmsi": "413444430",
-      "name": "CAI HONG DAO 7",
-      "category": "unknown",
-      "lat": 1.2515500000000002,
-      "lon": 104.09241833333334,
-      "speedKmh": 18.5,
-      "heading": 83.6,
-      "reportedAt": "2026-11-26T16:46:07.184084+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "236762000",
-      "mmsi": "236762000",
-      "name": "NEPTUN COMMANDER",
-      "category": "unknown",
-      "lat": 1.2688549999999998,
-      "lon": 103.87359666666666,
-      "speedKmh": 0.0,
-      "heading": 144,
-      "reportedAt": "2026-11-26T16:46:07.184152+00:00"
     },
     {
       "kind": "ship",
@@ -1215,5 +1143,5 @@
       "reportedAt": "2026-11-26T17:47:17.205134+00:00"
     }
   ],
-  "error": "AISStream collection failed: server rejected WebSocket connection: HTTP 503"
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
