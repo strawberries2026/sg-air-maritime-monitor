@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T07:17:07.276728+00:00",
+  "updatedAt": "2026-11-26T07:31:14.984314+00:00",
   "lastSuccessAt": "2026-11-26T07:17:07.276728+00:00",
   "items": [
     {
@@ -40,18 +40,6 @@
     },
     {
       "kind": "ship",
-      "id": "563238400",
-      "mmsi": "563238400",
-      "name": "KST ZEN",
-      "category": "unknown",
-      "lat": 1.2541016666666667,
-      "lon": 103.64408833333333,
-      "speedKmh": 0.2,
-      "heading": 109.8,
-      "reportedAt": "2026-11-26T05:47:09.232450+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "565257000",
       "mmsi": "565257000",
       "name": "CNC 7",
@@ -61,18 +49,6 @@
       "speedKmh": 12.8,
       "heading": 78.2,
       "reportedAt": "2026-11-26T06:15:37.451884+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636024903",
-      "mmsi": "636024903",
-      "name": "MINERVA SYMPHONY",
-      "category": "unknown",
-      "lat": 1.260505,
-      "lon": 103.91220166666668,
-      "speedKmh": 0.0,
-      "heading": 329.6,
-      "reportedAt": "2026-11-26T05:47:10.905542+00:00"
     },
     {
       "kind": "ship",
@@ -160,18 +136,6 @@
     },
     {
       "kind": "ship",
-      "id": "563015950",
-      "mmsi": "563015950",
-      "name": "STET POLARIS",
-      "category": "unknown",
-      "lat": 1.24035,
-      "lon": 103.93102166666667,
-      "speedKmh": 17.4,
-      "heading": 359.4,
-      "reportedAt": "2026-11-26T05:47:08.071374+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "601002650",
       "mmsi": "601002650",
       "name": "CAPE JASMINE",
@@ -193,30 +157,6 @@
       "speedKmh": 0.9,
       "heading": 184.9,
       "reportedAt": "2026-11-26T07:16:15.504728+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563153600",
-      "mmsi": "563153600",
-      "name": "HAFNIA EXECUTIVE",
-      "category": "unknown",
-      "lat": 1.2014283333333333,
-      "lon": 103.89698333333334,
-      "speedKmh": 22.4,
-      "heading": 68.4,
-      "reportedAt": "2026-11-26T05:47:18.579079+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525801287",
-      "mmsi": "525801287",
-      "name": "JAYA DRAGON",
-      "category": "unknown",
-      "lat": 1.188015,
-      "lon": 103.97575,
-      "speedKmh": 0.2,
-      "heading": null,
-      "reportedAt": "2026-11-26T05:47:18.006106+00:00"
     },
     {
       "kind": "ship",
@@ -340,18 +280,6 @@
     },
     {
       "kind": "ship",
-      "id": "533056200",
-      "mmsi": "533056200",
-      "name": "ORKIM CHALLENGER",
-      "category": "unknown",
-      "lat": 1.2296566666666666,
-      "lon": 103.94625500000001,
-      "speedKmh": 23.5,
-      "heading": 68.7,
-      "reportedAt": "2026-11-26T05:47:12.845412+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "228499800",
       "mmsi": "228499800",
       "name": "CMA CGM PANTHEON",
@@ -361,30 +289,6 @@
       "speedKmh": 17.6,
       "heading": 260.6,
       "reportedAt": "2026-11-26T06:15:58.236781+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563333100",
-      "mmsi": "563333100",
-      "name": "VANDA PIONEER",
-      "category": "unknown",
-      "lat": 1.2272783333333335,
-      "lon": 103.86865666666667,
-      "speedKmh": 9.3,
-      "heading": 256.5,
-      "reportedAt": "2026-11-26T05:47:14.230759+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563020100",
-      "mmsi": "563020100",
-      "name": "SAROCHA NAREE",
-      "category": "unknown",
-      "lat": 1.2909599999999999,
-      "lon": 104.00877166666668,
-      "speedKmh": 0.6,
-      "heading": 150,
-      "reportedAt": "2026-11-26T05:47:15.909975+00:00"
     },
     {
       "kind": "ship",
@@ -1587,5 +1491,5 @@
       "reportedAt": "2026-11-26T07:17:03.867884+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
