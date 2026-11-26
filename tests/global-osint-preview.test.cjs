@@ -76,3 +76,12 @@ assert.match(html,/selectedRegion=p;selectedZoom=zoom/);
 assert.match(html,/showRecovery\('Earth texture unavailable:/);
 assert.match(html,/2D recovery failed/);
 assert.match(html,/regionalMap=null;regionalTiles=null/);
+
+// Adaptive imagery retains the original level-zero fallback.
+assert.match(html,/img=await loadTexture\(1\)/);
+assert.match(html,/catch\(error\)\{img=await loadTexture\(0\)/);
+assert.match(html,/navigator\.deviceMemory<=2/);
+assert.match(html,/Math\.min\(2048,viewer\.scene\.context\.maximumTextureSize/);
+assert.match(html,/width\*height>2097152/);
+assert.match(html,/Inconsistent texture tile size/);
+assert.match(html,/textureQuality='enhanced'/);
