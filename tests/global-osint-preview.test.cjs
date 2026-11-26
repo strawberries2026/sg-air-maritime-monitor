@@ -64,6 +64,15 @@ console.log('Same-page regional navigation source checks passed');
 assert.ok(html.indexOf("getElementById('singapore').onclick") < html.indexOf('if(!window.Cesium)'));
 assert.doesNotMatch(html,/href="global-osint-2d\.html"/);
 assert.match(html,/if\(!viewer\|\|!worldReady\)/);
-assert.match(html,/worldReady=false;showRegion/);
+assert.match(html,/worldReady=false;const recovered=showRegion\(selectedRegion,selectedZoom\)/);
 assert.match(html,/if\(!globeContainer.hidden\)\{world\(\)/);
 assert.match(html,/getElementById\('footer-fallback'\)\.onclick/);
+
+assert.match(html,/id="retry-regional-tiles"/);
+assert.match(html,/regionalTiles\.redraw\(\)/);
+assert.match(html,/regionalTiles\.on\('tileerror'/);
+assert.match(html,/regionalTiles\.on\('load'/);
+assert.match(html,/selectedRegion=p;selectedZoom=zoom/);
+assert.match(html,/showRecovery\('Earth texture unavailable:/);
+assert.match(html,/2D recovery failed/);
+assert.match(html,/regionalMap=null;regionalTiles=null/);
