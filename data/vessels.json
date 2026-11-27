@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T10:46:45.626652+00:00",
+  "updatedAt": "2026-11-27T11:01:23.239361+00:00",
   "lastSuccessAt": "2026-11-27T10:46:45.626652+00:00",
   "items": [
     {
@@ -16,30 +16,6 @@
     },
     {
       "kind": "ship",
-      "id": "352006742",
-      "mmsi": "352006742",
-      "name": "GAS JOY",
-      "category": "unknown",
-      "lat": 1.2953183333333333,
-      "lon": 103.71427333333332,
-      "speedKmh": 2.6,
-      "heading": 255.3,
-      "reportedAt": "2026-11-27T09:16:46.270841+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "457266000",
-      "mmsi": "457266000",
-      "name": "GALAXY PULSE",
-      "category": "unknown",
-      "lat": 1.2713116666666666,
-      "lon": 103.88735333333334,
-      "speedKmh": 8.9,
-      "heading": 69.8,
-      "reportedAt": "2026-11-27T09:16:53.328922+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "636023315",
       "mmsi": "636023315",
       "name": "MSC SUJIN",
@@ -49,102 +25,6 @@
       "speedKmh": 11.9,
       "heading": 301.8,
       "reportedAt": "2026-11-27T10:16:16.577164+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477541700",
-      "mmsi": "477541700",
-      "name": "XIN RUN YANG",
-      "category": "commercial",
-      "lat": 1.2539866666666666,
-      "lon": 103.98766166666665,
-      "speedKmh": 18.7,
-      "heading": 245.3,
-      "reportedAt": "2026-11-27T09:16:45.707676+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563338000",
-      "mmsi": "563338000",
-      "name": "563338000",
-      "category": "unknown",
-      "lat": 1.2865316666666666,
-      "lon": 103.93042833333334,
-      "speedKmh": 0.2,
-      "heading": 0,
-      "reportedAt": "2026-11-27T09:16:48.047651+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564221000",
-      "mmsi": "564221000",
-      "name": "MARINA AMBER",
-      "category": "unknown",
-      "lat": 1.261665,
-      "lon": 103.84574166666667,
-      "speedKmh": 0.0,
-      "heading": 310.5,
-      "reportedAt": "2026-11-27T09:16:48.047680+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636015942",
-      "mmsi": "636015942",
-      "name": "NAVIGATOR GLORY",
-      "category": "unknown",
-      "lat": 1.2205016666666666,
-      "lon": 103.92093166666668,
-      "speedKmh": 30.0,
-      "heading": 69.9,
-      "reportedAt": "2026-11-27T09:16:48.047697+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563000510",
-      "mmsi": "563000510",
-      "name": "MERBAU ERA",
-      "category": "unknown",
-      "lat": 1.2803083333333334,
-      "lon": 103.98216000000001,
-      "speedKmh": 29.1,
-      "heading": 176.5,
-      "reportedAt": "2026-11-27T09:16:48.047709+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566392000",
-      "mmsi": "566392000",
-      "name": "DEBONAIR",
-      "category": "unknown",
-      "lat": 1.28085,
-      "lon": 103.92497166666666,
-      "speedKmh": 0.0,
-      "heading": 300.8,
-      "reportedAt": "2026-11-27T09:16:53.328901+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "525012082",
-      "mmsi": "525012082",
-      "name": "JNP951",
-      "category": "unknown",
-      "lat": 1.2179333333333333,
-      "lon": 103.97453,
-      "speedKmh": 5.6,
-      "heading": 71.1,
-      "reportedAt": "2026-11-27T09:16:53.328938+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "564331000",
-      "mmsi": "564331000",
-      "name": "ASEAN RAIDER II",
-      "category": "unknown",
-      "lat": 1.2622016666666667,
-      "lon": 103.818125,
-      "speedKmh": 0.0,
-      "heading": 109.3,
-      "reportedAt": "2026-11-27T09:16:56.248871+00:00"
     },
     {
       "kind": "ship",
@@ -1335,5 +1215,5 @@
       "reportedAt": "2026-11-27T10:46:42.698011+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
