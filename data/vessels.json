@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T17:31:56.639846+00:00",
+  "updatedAt": "2026-11-27T17:46:11.755913+00:00",
   "lastSuccessAt": "2026-11-27T17:31:56.639846+00:00",
   "items": [
     {
@@ -28,102 +28,6 @@
     },
     {
       "kind": "ship",
-      "id": "525019578",
-      "mmsi": "525019578",
-      "name": "OCEAN     ZIRCON",
-      "category": "unknown",
-      "lat": 1.1650083333333332,
-      "lon": 104.001515,
-      "speedKmh": 0.0,
-      "heading": 262,
-      "reportedAt": "2026-11-27T16:02:03.007446+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563766000",
-      "mmsi": "563766000",
-      "name": "MERLION 20",
-      "category": "unknown",
-      "lat": 1.3002416666666667,
-      "lon": 103.96353500000001,
-      "speedKmh": 0.0,
-      "heading": 307.4,
-      "reportedAt": "2026-11-27T16:02:01.551235+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566116000",
-      "mmsi": "566116000",
-      "name": "HAI SOON 1",
-      "category": "unknown",
-      "lat": 1.297625,
-      "lon": 103.94094166666667,
-      "speedKmh": 0.0,
-      "heading": 285.5,
-      "reportedAt": "2026-11-27T16:02:05.516657+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538003883",
-      "mmsi": "538003883",
-      "name": "ALPINE LIBERTY",
-      "category": "unknown",
-      "lat": 1.2155333333333334,
-      "lon": 103.81894333333334,
-      "speedKmh": 0.0,
-      "heading": 304.9,
-      "reportedAt": "2026-11-27T16:02:03.007400+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563199500",
-      "mmsi": "563199500",
-      "name": "X-PRESS CARINA",
-      "category": "unknown",
-      "lat": 1.20347,
-      "lon": 103.58383333333333,
-      "speedKmh": 13.5,
-      "heading": 276.6,
-      "reportedAt": "2026-11-27T16:01:58.490004+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565282000",
-      "mmsi": "565282000",
-      "name": "THAMES",
-      "category": "unknown",
-      "lat": 1.3011166666666665,
-      "lon": 103.99129333333333,
-      "speedKmh": 0.0,
-      "heading": 262.2,
-      "reportedAt": "2026-11-27T16:02:03.007463+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636025375",
-      "mmsi": "636025375",
-      "name": "PETROKARAVO",
-      "category": "unknown",
-      "lat": 1.2809133333333333,
-      "lon": 103.96566166666666,
-      "speedKmh": 0.0,
-      "heading": 53.8,
-      "reportedAt": "2026-11-27T16:02:03.478544+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352004012",
-      "mmsi": "352004012",
-      "name": "SUPER RICE",
-      "category": "unknown",
-      "lat": 1.2957833333333333,
-      "lon": 104.00674833333333,
-      "speedKmh": 7.0,
-      "heading": 168.5,
-      "reportedAt": "2026-11-27T16:02:08.197584+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538010780",
       "mmsi": "538010780",
       "name": "PETROBRAS 83",
@@ -133,42 +37,6 @@
       "speedKmh": null,
       "heading": null,
       "reportedAt": "2026-11-27T17:31:48.005313+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "308329000",
-      "mmsi": "308329000",
-      "name": "ZENITH SPIRIT",
-      "category": "unknown",
-      "lat": 1.2721666666666667,
-      "lon": 103.96807,
-      "speedKmh": 0.0,
-      "heading": 268.9,
-      "reportedAt": "2026-11-27T16:02:12.877923+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563302000",
-      "mmsi": "563302000",
-      "name": "INDUS",
-      "category": "unknown",
-      "lat": 1.2528716666666668,
-      "lon": 103.91735666666666,
-      "speedKmh": 0.0,
-      "heading": 300.6,
-      "reportedAt": "2026-11-27T16:02:13.246050+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "412329658",
-      "mmsi": "412329658",
-      "name": "LU HUANG YUAN YU 108",
-      "category": "unknown",
-      "lat": 1.2261683333333333,
-      "lon": 103.81646333333333,
-      "speedKmh": 0.0,
-      "heading": 216.1,
-      "reportedAt": "2026-11-27T16:02:14.112829+00:00"
     },
     {
       "kind": "ship",
@@ -819,5 +687,5 @@
       "reportedAt": "2026-11-27T17:31:51.264123+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
