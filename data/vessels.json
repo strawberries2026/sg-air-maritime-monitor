@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T03:47:01.311177+00:00",
+  "updatedAt": "2026-11-28T04:01:22.012105+00:00",
   "lastSuccessAt": "2026-11-28T03:47:01.311177+00:00",
   "items": [
     {
@@ -37,18 +37,6 @@
       "speedKmh": 0.0,
       "heading": 159.2,
       "reportedAt": "2026-11-28T02:38:15.058195+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "677029200",
-      "mmsi": "677029200",
-      "name": "BAYSHORE",
-      "category": "unknown",
-      "lat": 1.301195,
-      "lon": 103.96047333333333,
-      "speedKmh": 0.0,
-      "heading": 210.5,
-      "reportedAt": "2026-11-28T02:17:11.455755+00:00"
     },
     {
       "kind": "ship",
@@ -109,18 +97,6 @@
       "speedKmh": 0.2,
       "heading": 245.6,
       "reportedAt": "2026-11-28T02:38:38.033845+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563228600",
-      "mmsi": "563228600",
-      "name": "MARINE GINZA",
-      "category": "unknown",
-      "lat": 1.2996916666666667,
-      "lon": 103.99298833333334,
-      "speedKmh": 0.0,
-      "heading": 352,
-      "reportedAt": "2026-11-28T02:17:05.861867+00:00"
     },
     {
       "kind": "ship",
@@ -196,18 +172,6 @@
     },
     {
       "kind": "ship",
-      "id": "525007034",
-      "mmsi": "525007034",
-      "name": "GAS NATUNA",
-      "category": "unknown",
-      "lat": 1.1764783333333333,
-      "lon": 103.97800666666667,
-      "speedKmh": 0.0,
-      "heading": 299.8,
-      "reportedAt": "2026-11-28T02:17:05.861809+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "412549662",
       "mmsi": "412549662",
       "name": "YONG LI",
@@ -229,18 +193,6 @@
       "speedKmh": 8.9,
       "heading": 57.8,
       "reportedAt": "2026-11-28T02:38:41.832537+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565761000",
-      "mmsi": "565761000",
-      "name": "DEW",
-      "category": "unknown",
-      "lat": 1.2996916666666667,
-      "lon": 103.99827499999999,
-      "speedKmh": 0.2,
-      "heading": 36.9,
-      "reportedAt": "2026-11-28T02:17:16.277213+00:00"
     },
     {
       "kind": "ship",
@@ -2259,5 +2211,5 @@
       "reportedAt": "2026-11-28T03:46:58.954199+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
