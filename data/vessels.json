@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T04:16:42.494197+00:00",
+  "updatedAt": "2026-11-28T04:31:15.808487+00:00",
   "lastSuccessAt": "2026-11-28T04:16:42.494197+00:00",
   "items": [
     {
@@ -97,18 +97,6 @@
       "speedKmh": 0.0,
       "heading": 23.9,
       "reportedAt": "2026-11-28T03:46:51.645520+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "229554000",
-      "mmsi": "229554000",
-      "name": "HOPA",
-      "category": "unknown",
-      "lat": 1.2240916666666666,
-      "lon": 103.912455,
-      "speedKmh": 20.0,
-      "heading": 245.1,
-      "reportedAt": "2026-11-28T02:47:01.370898+00:00"
     },
     {
       "kind": "ship",
@@ -232,18 +220,6 @@
     },
     {
       "kind": "ship",
-      "id": "525289999",
-      "mmsi": "525289999",
-      "name": "COMBAT SURV STATION",
-      "category": "unknown",
-      "lat": 1.1876716666666667,
-      "lon": 104.02196333333333,
-      "speedKmh": 0.0,
-      "heading": 0,
-      "reportedAt": "2026-11-28T02:47:05.052904+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "668116289",
       "mmsi": "668116289",
       "name": "SOON LI 28",
@@ -316,54 +292,6 @@
     },
     {
       "kind": "ship",
-      "id": "518100932",
-      "mmsi": "518100932",
-      "name": "CHARLEY 2",
-      "category": "unknown",
-      "lat": 1.2948233333333334,
-      "lon": 103.75980333333334,
-      "speedKmh": 0.0,
-      "heading": 0.8,
-      "reportedAt": "2026-11-28T02:46:42.973270+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563012600",
-      "mmsi": "563012600",
-      "name": "QUEEN STAR 6",
-      "category": "unknown",
-      "lat": 1.2438366666666667,
-      "lon": 103.85359,
-      "speedKmh": 28.9,
-      "heading": 119,
-      "reportedAt": "2026-11-28T02:46:43.175254+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563269100",
-      "mmsi": "563269100",
-      "name": "STELLAR OF MAJESTIC",
-      "category": "unknown",
-      "lat": 1.2017766666666667,
-      "lon": 103.97635333333332,
-      "speedKmh": 47.6,
-      "heading": 91.5,
-      "reportedAt": "2026-11-28T02:46:54.781116+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477242700",
-      "mmsi": "477242700",
-      "name": "COSPEARL LAKE",
-      "category": "commercial",
-      "lat": 1.28386,
-      "lon": 104.06888000000001,
-      "speedKmh": 5.9,
-      "heading": 329.6,
-      "reportedAt": "2026-11-28T02:46:54.781183+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "533000315",
       "mmsi": "533000315",
       "name": "KSP VIRGO",
@@ -373,54 +301,6 @@
       "speedKmh": 0.0,
       "heading": 269.7,
       "reportedAt": "2026-11-28T04:16:16.344406+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563014650",
-      "mmsi": "563014650",
-      "name": "LUBQUEST",
-      "category": "unknown",
-      "lat": 1.301085,
-      "lon": 103.95658,
-      "speedKmh": 0.0,
-      "heading": 289.7,
-      "reportedAt": "2026-11-28T02:47:06.240282+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "412379000",
-      "mmsi": "412379000",
-      "name": "BEI HAI FENG HUANG",
-      "category": "unknown",
-      "lat": 1.2161933333333332,
-      "lon": 103.81237166666666,
-      "speedKmh": 0.0,
-      "heading": 219,
-      "reportedAt": "2026-11-28T02:47:10.114191+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563069680",
-      "mmsi": "563069680",
-      "name": "SUN BIS",
-      "category": "unknown",
-      "lat": 1.2788216666666665,
-      "lon": 103.97145666666667,
-      "speedKmh": 0.6,
-      "heading": 0,
-      "reportedAt": "2026-11-28T02:47:15.576144+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "338446000",
-      "mmsi": "338446000",
-      "name": "OCEAN GLADIATOR",
-      "category": "unknown",
-      "lat": 1.246585,
-      "lon": 103.87287833333333,
-      "speedKmh": 0.4,
-      "heading": 295.3,
-      "reportedAt": "2026-11-28T02:47:17.044880+00:00"
     },
     {
       "kind": "ship",
@@ -2031,5 +1911,5 @@
       "reportedAt": "2026-11-28T04:16:40.339007+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
