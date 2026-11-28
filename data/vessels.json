@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T06:47:20.198883+00:00",
+  "updatedAt": "2026-11-28T07:01:23.471914+00:00",
   "lastSuccessAt": "2026-11-28T06:47:20.198883+00:00",
   "items": [
     {
@@ -85,18 +85,6 @@
       "speedKmh": 0.0,
       "heading": 76.3,
       "reportedAt": "2026-11-28T06:46:45.163881+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "477282900",
-      "mmsi": "477282900",
-      "name": "XIN SHANGHAI",
-      "category": "unknown",
-      "lat": 1.2456166666666666,
-      "lon": 103.73715,
-      "speedKmh": 16.1,
-      "heading": 100,
-      "reportedAt": "2026-11-28T05:17:24.970287+00:00"
     },
     {
       "kind": "ship",
@@ -361,30 +349,6 @@
       "speedKmh": 0.0,
       "heading": 116.4,
       "reportedAt": "2026-11-28T05:47:09.132096+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538005747",
-      "mmsi": "538005747",
-      "name": "EUPHRATES",
-      "category": "unknown",
-      "lat": 1.27443,
-      "lon": 103.78361166666667,
-      "speedKmh": 0.0,
-      "heading": 96.5,
-      "reportedAt": "2026-11-28T05:17:21.483481+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636024903",
-      "mmsi": "636024903",
-      "name": "MINERVA SYMPHONY",
-      "category": "unknown",
-      "lat": 1.25729,
-      "lon": 103.91026333333333,
-      "speedKmh": 0.7,
-      "heading": 85.2,
-      "reportedAt": "2026-11-28T05:17:24.598765+00:00"
     },
     {
       "kind": "ship",
@@ -1863,5 +1827,5 @@
       "reportedAt": "2026-11-28T06:47:17.433211+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
