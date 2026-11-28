@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T16:16:07.447974+00:00",
+  "updatedAt": "2026-11-28T16:31:19.385775+00:00",
   "lastSuccessAt": "2026-11-28T16:02:14.988168+00:00",
   "items": [
     {
@@ -25,18 +25,6 @@
       "speedKmh": 17.4,
       "heading": 251.6,
       "reportedAt": "2026-11-28T15:01:39.824650+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563215500",
-      "mmsi": "563215500",
-      "name": "ZEVIROUS",
-      "category": "unknown",
-      "lat": 1.2625633333333333,
-      "lon": 103.83804833333333,
-      "speedKmh": 0.0,
-      "heading": 197.1,
-      "reportedAt": "2026-11-28T15:01:08.439889+00:00"
     },
     {
       "kind": "ship",
@@ -88,30 +76,6 @@
     },
     {
       "kind": "ship",
-      "id": "563226900",
-      "mmsi": "563226900",
-      "name": "AMALTHEA",
-      "category": "commercial",
-      "lat": 1.2611166666666667,
-      "lon": 103.92372333333333,
-      "speedKmh": 17.2,
-      "heading": 243.9,
-      "reportedAt": "2026-11-28T15:00:57.542819+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538008962",
-      "mmsi": "538008962",
-      "name": "GPO EMERALD",
-      "category": "unknown",
-      "lat": 1.2627133333333334,
-      "lon": 103.89279833333333,
-      "speedKmh": 0.2,
-      "heading": 158,
-      "reportedAt": "2026-11-28T15:01:01.507105+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "235108959",
       "mmsi": "235108959",
       "name": "SEVEN ARCTIC",
@@ -136,30 +100,6 @@
     },
     {
       "kind": "ship",
-      "id": "563258600",
-      "mmsi": "563258600",
-      "name": "MARINE BLUE",
-      "category": "unknown",
-      "lat": 1.296855,
-      "lon": 103.99142666666667,
-      "speedKmh": 0.0,
-      "heading": 201.1,
-      "reportedAt": "2026-11-28T15:01:06.924951+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566480000",
-      "mmsi": "566480000",
-      "name": "KOSMOS CITRINE",
-      "category": "unknown",
-      "lat": 1.2979349999999998,
-      "lon": 103.937735,
-      "speedKmh": 0.0,
-      "heading": 258.2,
-      "reportedAt": "2026-11-28T15:01:06.925010+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "538010780",
       "mmsi": "538010780",
       "name": "PETROBRAS 83",
@@ -169,90 +109,6 @@
       "speedKmh": null,
       "heading": null,
       "reportedAt": "2026-11-28T16:01:18.957478+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "668116289",
-      "mmsi": "668116289",
-      "name": "SOON LI 28",
-      "category": "unknown",
-      "lat": 1.2818866666666666,
-      "lon": 103.89247,
-      "speedKmh": 0.0,
-      "heading": null,
-      "reportedAt": "2026-11-28T15:01:10.375848+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566392000",
-      "mmsi": "566392000",
-      "name": "DEBONAIR",
-      "category": "unknown",
-      "lat": 1.2989916666666665,
-      "lon": 103.975,
-      "speedKmh": 0.0,
-      "heading": 186.9,
-      "reportedAt": "2026-11-28T15:01:10.375907+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "518100291",
-      "mmsi": "518100291",
-      "name": "SSE VALENCIA",
-      "category": "unknown",
-      "lat": 1.2865166666666668,
-      "lon": 103.94463333333333,
-      "speedKmh": 3.1,
-      "heading": 325.4,
-      "reportedAt": "2026-11-28T15:01:12.581849+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563023490",
-      "mmsi": "563023490",
-      "name": "EVER JOYCE",
-      "category": "unknown",
-      "lat": 1.2998016666666667,
-      "lon": 103.94469333333333,
-      "speedKmh": 0.7,
-      "heading": 269.9,
-      "reportedAt": "2026-11-28T15:01:12.581909+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "566540000",
-      "mmsi": "566540000",
-      "name": "ZMAGA",
-      "category": "unknown",
-      "lat": 1.2951666666666666,
-      "lon": 103.93937333333334,
-      "speedKmh": 0.0,
-      "heading": 99.1,
-      "reportedAt": "2026-11-28T15:01:17.639022+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "538012486",
-      "mmsi": "538012486",
-      "name": "SAFESEA VIDYA",
-      "category": "unknown",
-      "lat": 1.2014533333333333,
-      "lon": 103.86543,
-      "speedKmh": 16.9,
-      "heading": 254.2,
-      "reportedAt": "2026-11-28T15:01:17.639090+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "636026067",
-      "mmsi": "636026067",
-      "name": "MSC MIRAYA V",
-      "category": "unknown",
-      "lat": 1.2696,
-      "lon": 103.94371666666666,
-      "speedKmh": 0.0,
-      "heading": 141,
-      "reportedAt": "2026-11-28T15:01:17.639128+00:00"
     },
     {
       "kind": "ship",
