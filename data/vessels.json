@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T07:16:58.498535+00:00",
+  "updatedAt": "2026-11-28T07:31:15.048361+00:00",
   "lastSuccessAt": "2026-11-28T07:16:58.498535+00:00",
   "items": [
     {
@@ -112,18 +112,6 @@
     },
     {
       "kind": "ship",
-      "id": "636092974",
-      "mmsi": "636092974",
-      "name": "HANSA LANKA",
-      "category": "unknown",
-      "lat": 1.1883983333333332,
-      "lon": 103.836615,
-      "speedKmh": 18.3,
-      "heading": 248.4,
-      "reportedAt": "2026-11-28T05:47:09.132041+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563901000",
       "mmsi": "563901000",
       "name": "ACCORD",
@@ -232,18 +220,6 @@
     },
     {
       "kind": "ship",
-      "id": "563856000",
-      "mmsi": "563856000",
-      "name": "JUMA",
-      "category": "unknown",
-      "lat": 1.2924883333333335,
-      "lon": 103.95501166666666,
-      "speedKmh": 0.0,
-      "heading": 116.4,
-      "reportedAt": "2026-11-28T05:47:09.132096+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "563336400",
       "mmsi": "563336400",
       "name": "PEARL OKINAWA",
@@ -337,54 +313,6 @@
       "speedKmh": 0.2,
       "heading": null,
       "reportedAt": "2026-11-28T06:46:59.980469+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563034500",
-      "mmsi": "563034500",
-      "name": "QUEEN STAR 8",
-      "category": "unknown",
-      "lat": 1.24231,
-      "lon": 103.85593666666666,
-      "speedKmh": 27.8,
-      "heading": 120.7,
-      "reportedAt": "2026-11-28T05:47:04.053940+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "352005734",
-      "mmsi": "352005734",
-      "name": "EL BELLA",
-      "category": "unknown",
-      "lat": 1.26945,
-      "lon": 103.96405,
-      "speedKmh": 7.0,
-      "heading": 352,
-      "reportedAt": "2026-11-28T05:47:06.706089+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "565299000",
-      "mmsi": "565299000",
-      "name": "BEYOND",
-      "category": "unknown",
-      "lat": 1.3008683333333333,
-      "lon": 103.95390166666667,
-      "speedKmh": 0.0,
-      "heading": 70.9,
-      "reportedAt": "2026-11-28T05:47:15.047468+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563086570",
-      "mmsi": "563086570",
-      "name": "TENACITY",
-      "category": "unknown",
-      "lat": 1.3020850000000002,
-      "lon": 103.975525,
-      "speedKmh": 0.2,
-      "heading": 19,
-      "reportedAt": "2026-11-28T05:47:15.047520+00:00"
     },
     {
       "kind": "ship",
@@ -1923,5 +1851,5 @@
       "reportedAt": "2026-11-28T07:16:57.598010+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
