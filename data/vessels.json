@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T06:17:22.518627+00:00",
+  "updatedAt": "2026-11-28T06:31:14.629876+00:00",
   "lastSuccessAt": "2026-11-28T06:17:22.518627+00:00",
   "items": [
     {
@@ -181,18 +181,6 @@
       "speedKmh": 0.0,
       "heading": null,
       "reportedAt": "2026-11-28T06:16:09.830962+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563102900",
-      "mmsi": "563102900",
-      "name": "SI CHOU ZHI LU",
-      "category": "unknown",
-      "lat": 1.2888899999999999,
-      "lon": 103.91439833333334,
-      "speedKmh": 0.0,
-      "heading": 108.7,
-      "reportedAt": "2026-11-28T05:01:13.899415+00:00"
     },
     {
       "kind": "ship",
@@ -484,30 +472,6 @@
     },
     {
       "kind": "ship",
-      "id": "352001346",
-      "mmsi": "352001346",
-      "name": "BLUE NAVIGATOR",
-      "category": "unknown",
-      "lat": 1.1105133333333332,
-      "lon": 104.15167833333334,
-      "speedKmh": 0.0,
-      "heading": 104.6,
-      "reportedAt": "2026-11-28T05:00:56.803358+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "249937000",
-      "mmsi": "249937000",
-      "name": "ALEGRIA",
-      "category": "unknown",
-      "lat": 1.266955,
-      "lon": 103.87724166666666,
-      "speedKmh": 0.2,
-      "heading": 5.5,
-      "reportedAt": "2026-11-28T05:01:01.405149+00:00"
-    },
-    {
-      "kind": "ship",
       "id": "564526000",
       "mmsi": "564526000",
       "name": "EVER BEST",
@@ -517,30 +481,6 @@
       "speedKmh": 6.5,
       "heading": 230.2,
       "reportedAt": "2026-11-28T06:16:47.540118+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "341852001",
-      "mmsi": "341852001",
-      "name": "341852001",
-      "category": "unknown",
-      "lat": 1.2459216666666668,
-      "lon": 103.89389166666666,
-      "speedKmh": 0.7,
-      "heading": 82.4,
-      "reportedAt": "2026-11-28T05:01:03.641226+00:00"
-    },
-    {
-      "kind": "ship",
-      "id": "563030850",
-      "mmsi": "563030850",
-      "name": "MERLION 30",
-      "category": "unknown",
-      "lat": 1.3027216666666668,
-      "lon": 103.95595833333333,
-      "speedKmh": 0.0,
-      "heading": 59.2,
-      "reportedAt": "2026-11-28T05:01:08.751650+00:00"
     },
     {
       "kind": "ship",
@@ -2235,5 +2175,5 @@
       "reportedAt": "2026-11-28T06:17:21.448579+00:00"
     }
   ],
-  "error": null
+  "error": "AISStream collection failed: timed out during opening handshake"
 }
